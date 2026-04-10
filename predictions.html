@@ -285,6 +285,26 @@
       letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
     }
 
+    /* View toggle */
+    .view-toggle {
+      display: flex; align-items: center;
+      background: var(--stone); border-radius: 8px;
+      padding: 3px; gap: 2px; align-self: flex-start;
+      margin-bottom: 10px;
+    }
+    .view-toggle-btn {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
+      border: none; border-radius: 6px; padding: 5px 14px; cursor: pointer;
+      background: transparent; color: var(--ash);
+      transition: all 150ms ease-out;
+    }
+    .view-toggle-btn.active {
+      background: #fff; color: var(--midnight);
+      box-shadow: 0 1px 4px rgba(20,20,19,0.10);
+    }
+    .view-toggle-btn:hover:not(.active) { color: var(--pitch); }
+
     /* Column grid: TELO | team | Ldr | W–L | % | Finals | Prem */
     .rankings-col-headers {
       display: grid;
@@ -470,20 +490,16 @@
 
     <!-- Rankings -->
     <div class="rankings-col">
+      <div class="view-toggle">
+        <button class="view-toggle-btn active" onclick="setView('actual')">Actual</button>
+        <button class="view-toggle-btn" onclick="setView('projected')">Projected</button>
+      </div>
       <div class="rankings-card">
         <div class="rankings-header">
           <div class="rankings-title">Power Rankings</div>
           <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
         </div>
-        <div class="rankings-col-headers">
-          <div class="r-hdr left" data-sort="telo" onclick="setSort('telo')">TELO</div>
-          <div class="r-hdr left" data-sort="team" onclick="setSort('team')">Team</div>
-          <div class="r-hdr sort-active" data-sort="ladder" onclick="setSort('ladder')" title="Official ladder position">Ldr</div>
-          <div class="r-hdr" data-sort="record" onclick="setSort('record')">W–L</div>
-          <div class="r-hdr" data-sort="pct" onclick="setSort('pct')" title="Official ladder percentage">%</div>
-          <div class="r-hdr" data-sort="finals" onclick="setSort('finals')">Finals</div>
-          <div class="r-hdr" data-sort="prem" onclick="setSort('prem')">Prem.</div>
-        </div>
+        <div class="rankings-col-headers" id="rankings-col-headers"></div>
         <div class="rankings-body" id="rankings-body"></div>
       </div>
 
@@ -682,8 +698,18 @@
       document.getElementById('games-list').innerHTML = html;
     }
 
-    // ─── SORT STATE ──────────────────────────────────────────────────────────
+    // ─── VIEW + SORT STATE ───────────────────────────────────────────────────
+    let currentView = 'actual';
     let currentSort = 'ladder';
+
+    function setView(v) {
+      currentView = v;
+      currentSort = v === 'actual' ? 'ladder' : 'proj_wins';
+      document.querySelectorAll('.view-toggle-btn').forEach(b => {
+        b.classList.toggle('active', b.textContent.toLowerCase() === v);
+      });
+      renderRankings();
+    }
 
     function setSort(key) {
       currentSort = key;
@@ -693,14 +719,69 @@
       renderRankings();
     }
 
+    // ─── PROJECTED WINS CALC ─────────────────────────────────────────────────
+    function calcProjected() {
+      const projWins  = {};
+      const projTotal = {};
+
+      // Seed with actual wins/losses
+      RANKINGS.forEach(t => {
+        projWins[t.team]  = t.wins;
+        projTotal[t.team] = t.wins + t.losses;
+      });
+
+      // Add expected wins from every upcoming game
+      Object.values(ROUNDS).forEach(rd => {
+        rd.games.forEach(g => {
+          if (g.complete) return;
+          const hp = (g.home_prob || 50) / 100;
+          if (projWins[g.home] !== undefined) { projWins[g.home]  += hp;     projTotal[g.home]  += 1; }
+          if (projWins[g.away] !== undefined) { projWins[g.away]  += 1 - hp; projTotal[g.away]  += 1; }
+        });
+      });
+
+      return RANKINGS.map(t => ({
+        ...t,
+        proj_wins:  projWins[t.team]  || 0,
+        proj_total: projTotal[t.team] || 0,
+        proj_pct:   projTotal[t.team] ? (projWins[t.team] / projTotal[t.team] * 100) : 0,
+      }));
+    }
+
     // ─── RENDER RANKINGS ────────────────────────────────────────────────────
 
     function renderRankings() {
       const prevRound = activeRound > 1 ? activeRound - 1 : activeRound;
-      document.getElementById('rankings-subtitle').textContent =
-        `TELO Model · After Round ${prevRound} · ${META.year || 2026} Season`;
 
-      // Sort a copy of RANKINGS by the selected column
+      if (currentView === 'actual') {
+        renderActual(prevRound);
+      } else {
+        renderProjected(prevRound);
+      }
+    }
+
+    function hdr(sort, label, left = false) {
+      const active = currentSort === sort ? ' sort-active' : '';
+      const align  = left ? ' left' : '';
+      return `<div class="r-hdr${align}${active}" data-sort="${sort}" onclick="setSort('${sort}')">${label}</div>`;
+    }
+
+    function renderActual(prevRound) {
+      document.getElementById('rankings-subtitle').textContent =
+        `Actual · After Round ${prevRound} · ${META.year || 2026} Season`;
+
+      const colHeaders = document.getElementById('rankings-col-headers');
+      colHeaders.style.gridTemplateColumns = '';  // reset to CSS default
+      colHeaders.innerHTML = [
+        hdr('telo',   'TELO',   true),
+        hdr('team',   'Team',   true),
+        hdr('ladder', 'Ldr'),
+        hdr('record', 'W–L'),
+        hdr('pct',    '%'),
+        hdr('finals', 'Finals'),
+        hdr('prem',   'Prem.'),
+      ].join('');
+
       const sorted = [...RANKINGS].sort((a, b) => {
         switch (currentSort) {
           case 'team':   return a.team.localeCompare(b.team);
@@ -713,30 +794,23 @@
         }
       });
 
-      // Play-in zone borders only when sorted by ladder position
       const ladderOrder = [...RANKINGS].sort((a, b) => (a.ladder_rank || 99) - (b.ladder_rank || 99));
       const ladderRank  = Object.fromEntries(ladderOrder.map((t, i) => [t.team, i + 1]));
 
-      const html = sorted.map((t, i) => {
-        const displayPos   = i + 1;
+      const html = sorted.map(t => {
         const playinTop    = currentSort === 'ladder' && ladderRank[t.team] === 7;
         const playinBottom = currentSort === 'ladder' && ladderRank[t.team] === 10;
         const finals       = Math.round(t.finals_pct);
         const premiers     = Math.round(t.premiers_pct);
-
-        const finalsStyle   = `background:${probBg(finals)};color:${probTextColor(finals)}`;
-        const premiersStyle = premiers > 0
-          ? `background:${probBg(premiers)};color:${probTextColor(premiers)}`
-          : `color:#B0AEA5`;
+        const finalsStyle  = `background:${probBg(finals)};color:${probTextColor(finals)}`;
+        const premiersStyle= premiers > 0 ? `background:${probBg(premiers)};color:${probTextColor(premiers)}` : `color:#B0AEA5`;
         const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
         const pctDisplay   = t.percentage != null ? t.percentage.toFixed(1) : `—`;
         const ldrDisplay   = t.ladder_rank > 0 ? t.ladder_rank : `—`;
-
+        const teloStyle    = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
         let rowCls = 'rank-row';
         if (playinTop)    rowCls += ' playin-top';
         if (playinBottom) rowCls += ' playin-bottom';
-
-        const teloStyle = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
         return `
           <div class="${rowCls}">
             <div class="r-nous" style="${teloStyle}">${formatNous(t.telo)}</div>
@@ -746,8 +820,69 @@
             <div class="r-pct">${pctDisplay}</div>
             <div class="r-prob" style="${finalsStyle}">${finals}%</div>
             <div class="r-prob" style="${premiersStyle}">${premiersText}</div>
-          </div>
-        `;
+          </div>`;
+      }).join('');
+
+      document.getElementById('rankings-body').innerHTML = html;
+    }
+
+    function renderProjected(prevRound) {
+      document.getElementById('rankings-subtitle').textContent =
+        `Projected · Based on Round ${prevRound} · ${META.year || 2026} Season`;
+
+      document.getElementById('rankings-col-headers').innerHTML = [
+        hdr('telo',      'TELO',      true),
+        hdr('team',      'Team',      true),
+        hdr('proj_wins', 'Exp W'),
+        hdr('proj_pct',  'Win%'),
+        hdr('finals',    'Finals'),
+        hdr('prem',      'Prem.'),
+      ].join('');
+
+      // Projected view has 6 columns not 7 — update grid
+      const colHeaders = document.getElementById('rankings-col-headers');
+      colHeaders.style.gridTemplateColumns = '44px 1fr 46px 46px 42px 42px';
+
+      const data = calcProjected().sort((a, b) => {
+        switch (currentSort) {
+          case 'team':      return a.team.localeCompare(b.team);
+          case 'telo':      return b.telo         - a.telo;
+          case 'proj_pct':  return b.proj_pct     - a.proj_pct;
+          case 'finals':    return b.finals_pct   - a.finals_pct;
+          case 'prem':      return b.premiers_pct - a.premiers_pct;
+          default:          return b.proj_wins    - a.proj_wins;  // proj_wins
+        }
+      });
+
+      // Play-in zone based on projected rank (by proj_wins)
+      const projOrder = [...data].sort((a, b) => b.proj_wins - a.proj_wins);
+      const projRank  = Object.fromEntries(projOrder.map((t, i) => [t.team, i + 1]));
+
+      const html = data.map(t => {
+        const pRank        = projRank[t.team];
+        const playinTop    = currentSort === 'proj_wins' && pRank === 7;
+        const playinBottom = currentSort === 'proj_wins' && pRank === 10;
+        const finals       = Math.round(t.finals_pct);
+        const premiers     = Math.round(t.premiers_pct);
+        const finalsStyle  = `background:${probBg(finals)};color:${probTextColor(finals)}`;
+        const premiersStyle= premiers > 0 ? `background:${probBg(premiers)};color:${probTextColor(premiers)}` : `color:#B0AEA5`;
+        const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
+        const teloStyle    = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
+        const expW         = t.proj_wins.toFixed(1);
+        const winPct       = t.proj_pct.toFixed(1);
+        let rowCls = 'rank-row';
+        if (playinTop)    rowCls += ' playin-top';
+        if (playinBottom) rowCls += ' playin-bottom';
+        // Override row grid for 6-col layout
+        return `
+          <div class="${rowCls}" style="grid-template-columns:44px 1fr 46px 46px 42px 42px">
+            <div class="r-nous" style="${teloStyle}">${formatNous(t.telo)}</div>
+            <div class="r-team" title="${t.team}">${abbr(t.team)}</div>
+            <div class="r-record">${expW}</div>
+            <div class="r-pct">${winPct}%</div>
+            <div class="r-prob" style="${finalsStyle}">${finals}%</div>
+            <div class="r-prob" style="${premiersStyle}">${premiersText}</div>
+          </div>`;
       }).join('');
 
       document.getElementById('rankings-body').innerHTML = html;
