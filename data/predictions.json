@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "updated": "2026-04-08T09:00:00+10:00",
+    "year": 2026,
+    "current_round": 5,
+    "model": "TELO v1.0",
+    "simulations": 12000
+  },
+  "rounds": {
+    "1": {
+      "label": "Round 1",
+      "range": "21\u201323 Mar 2026",
+      "complete": true,
+      "games": [
+        { "home": "Geelong",       "away": "Collingwood",      "venue": "MCG",                   "datetime": "Sat 22 Mar \u00b7 7:25pm AEDT", "home_fav": true,  "margin": 8.5,  "home_prob": 68.4, "home_score": 112, "away_score": 89,  "upset": false },
+        { "home": "Brisbane",      "away": "Melbourne",        "venue": "The Gabba",             "datetime": "Sat 22 Mar \u00b7 4:35pm AEDT", "home_fav": false, "margin": 4.5,  "home_prob": 42.8, "home_score": 96,  "away_score": 104, "upset": false },
+        { "home": "Carlton",       "away": "Sydney",           "venue": "MCG",                   "datetime": "Sun 23 Mar \u00b7 3:20pm AEDT", "home_fav": true,  "margin": 6.0,  "home_prob": 61.8, "home_score": 108, "away_score": 87,  "upset": false },
+        { "home": "Port Adelaide", "away": "Fremantle",        "venue": "Adelaide Oval",         "datetime": "Sat 22 Mar \u00b7 7:10pm ACDT", "home_fav": true,  "margin": 11.0, "home_prob": 72.1, "home_score": 134, "away_score": 98,  "upset": false },
+        { "home": "Essendon",      "away": "Western Bulldogs", "venue": "Marvel Stadium",        "datetime": "Fri 21 Mar \u00b7 7:30pm AEDT", "home_fav": false, "margin": 4.5,  "home_prob": 45.3, "home_score": 88,  "away_score": 101, "upset": false },
+        { "home": "GWS Giants",    "away": "Richmond",         "venue": "ENGIE Stadium",         "datetime": "Sun 23 Mar \u00b7 1:10pm AEDT", "home_fav": true,  "margin": 7.5,  "home_prob": 66.7, "home_score": 97,  "away_score": 83,  "upset": false },
+        { "home": "Hawthorn",      "away": "St Kilda",         "venue": "MCG",                   "datetime": "Sun 23 Mar \u00b7 3:20pm AEDT", "home_fav": true,  "margin": 3.0,  "home_prob": 54.1, "home_score": 91,  "away_score": 85,  "upset": false },
+        { "home": "Adelaide",      "away": "Gold Coast",       "venue": "Adelaide Oval",         "datetime": "Sun 23 Mar \u00b7 12:10pm ACDT","home_fav": true,  "margin": 5.5,  "home_prob": 58.9, "home_score": 103, "away_score": 96,  "upset": false },
+        { "home": "West Coast",    "away": "North Melbourne",  "venue": "Optus Stadium",         "datetime": "Sun 23 Mar \u00b7 4:10pm AWST", "home_fav": true,  "margin": 2.5,  "home_prob": 52.4, "home_score": 78,  "away_score": 82,  "upset": true  }
+      ]
+    },
+    "2": {
+      "label": "Round 2",
+      "range": "28\u201330 Mar 2026",
+      "complete": true,
+      "games": [
+        { "home": "Collingwood",      "away": "Brisbane",         "venue": "MCG",                   "datetime": "Sat 29 Mar \u00b7 7:25pm AEDT", "home_fav": true,  "margin": 9.5,  "home_prob": 71.2, "home_score": 118, "away_score": 103, "upset": false },
+        { "home": "Melbourne",        "away": "Carlton",          "venue": "MCG",                   "datetime": "Sun 30 Mar \u00b7 3:20pm AEDT", "home_fav": true,  "margin": 8.0,  "home_prob": 67.4, "home_score": 124, "away_score": 97,  "upset": false },
+        { "home": "Sydney",           "away": "Geelong",          "venue": "SCG",                   "datetime": "Sat 29 Mar \u00b7 4:35pm AEDT", "home_fav": false, "margin": 5.5,  "home_prob": 44.8, "home_score": 131, "away_score": 119, "upset": true  },
+        { "home": "Fremantle",        "away": "Adelaide",         "venue": "Optus Stadium",         "datetime": "Sat 29 Mar \u00b7 7:25pm AWST", "home_fav": true,  "margin": 4.0,  "home_prob": 56.3, "home_score": 102, "away_score": 94,  "upset": false },
+        { "home": "Western Bulldogs", "away": "Port Adelaide",    "venue": "Marvel Stadium",        "datetime": "Fri 28 Mar \u00b7 7:30pm AEDT", "home_fav": false, "margin": 7.5,  "home_prob": 38.2, "home_score": 108, "away_score": 101, "upset": true  },
+        { "home": "Richmond",         "away": "GWS Giants",       "venue": "MCG",                   "datetime": "Sun 30 Mar \u00b7 1:10pm AEDT", "home_fav": false, "margin": 6.0,  "home_prob": 41.1, "home_score": 86,  "away_score": 89,  "upset": false },
+        { "home": "St Kilda",         "away": "Hawthorn",         "venue": "Marvel Stadium",        "datetime": "Sun 30 Mar \u00b7 3:20pm AEDT", "home_fav": false, "margin": 2.5,  "home_prob": 47.8, "home_score": 91,  "away_score": 96,  "upset": false },
+        { "home": "Gold Coast",       "away": "Essendon",         "venue": "Heritage Bank Stadium", "datetime": "Sun 30 Mar \u00b7 2:10pm AEST", "home_fav": false, "margin": 3.5,  "home_prob": 43.2, "home_score": 99,  "away_score": 107, "upset": false },
+        { "home": "North Melbourne",  "away": "West Coast",       "venue": "Marvel Stadium",        "datetime": "Sat 29 Mar \u00b7 1:45pm AEDT", "home_fav": true,  "margin": 1.5,  "home_prob": 53.1, "home_score": 88,  "away_score": 74,  "upset": false }
+      ]
+    },
+    "3": {
+      "label": "Round 3",
+      "range": "4\u20136 Apr 2026",
+      "complete": true,
+      "games": [
+        { "home": "Geelong",       "away": "Melbourne",        "venue": "GMHBA Stadium",         "datetime": "Sat 5 Apr \u00b7 7:25pm AEDT", "home_fav": true,  "margin": 9.0,  "home_prob": 69.8, "home_score": 119, "away_score": 108, "upset": false },
+        { "home": "Brisbane",      "away": "Carlton",          "venue": "The Gabba",             "datetime": "Sat 5 Apr \u00b7 4:35pm AEDT", "home_fav": true,  "margin": 6.0,  "home_prob": 63.2, "home_score": 114, "away_score": 109, "upset": false },
+        { "home": "Sydney",        "away": "Collingwood",      "venue": "SCG",                   "datetime": "Sat 5 Apr \u00b7 1:45pm AEDT", "home_fav": true,  "margin": 3.5,  "home_prob": 55.9, "home_score": 127, "away_score": 114, "upset": false },
+        { "home": "Port Adelaide", "away": "GWS Giants",       "venue": "Adelaide Oval",         "datetime": "Sat 5 Apr \u00b7 7:10pm ACDT", "home_fav": true,  "margin": 14.5, "home_prob": 78.3, "home_score": 121, "away_score": 98,  "upset": false },
+        { "home": "Fremantle",     "away": "Western Bulldogs", "venue": "Optus Stadium",         "datetime": "Sun 6 Apr \u00b7 4:10pm AWST", "home_fav": true,  "margin": 4.5,  "home_prob": 58.7, "home_score": 94,  "away_score": 88,  "upset": false },
+        { "home": "Hawthorn",      "away": "Richmond",         "venue": "MCG",                   "datetime": "Sun 6 Apr \u00b7 3:20pm AEDT", "home_fav": true,  "margin": 8.0,  "home_prob": 66.1, "home_score": 101, "away_score": 79,  "upset": false },
+        { "home": "Essendon",      "away": "Adelaide",         "venue": "Marvel Stadium",        "datetime": "Fri 4 Apr \u00b7 7:30pm AEDT", "home_fav": true,  "margin": 7.5,  "home_prob": 64.4, "home_score": 115, "away_score": 103, "upset": false },
+        { "home": "St Kilda",      "away": "North Melbourne",  "venue": "Marvel Stadium",        "datetime": "Sun 6 Apr \u00b7 1:10pm AEDT", "home_fav": true,  "margin": 8.5,  "home_prob": 67.3, "home_score": 97,  "away_score": 86,  "upset": false },
+        { "home": "Gold Coast",    "away": "West Coast",       "venue": "Heritage Bank Stadium", "datetime": "Sun 6 Apr \u00b7 12:10pm AEST","home_fav": true,  "margin": 12.0, "home_prob": 74.6, "home_score": 113, "away_score": 92,  "upset": false }
+      ]
+    },
+    "4": {
+      "label": "Round 4",
+      "range": "7\u20139 Apr 2026",
+      "complete": true,
+      "games": [
+        { "home": "Collingwood",      "away": "Sydney",        "venue": "MCG",          "datetime": "Sat 8 Apr \u00b7 7:25pm AEDT", "home_fav": true,  "margin": 6.0,  "home_prob": 62.1, "home_score": 108, "away_score": 103, "upset": false },
+        { "home": "Melbourne",        "away": "Brisbane",      "venue": "MCG",          "datetime": "Sun 9 Apr \u00b7 3:20pm AEDT", "home_fav": false, "margin": 4.5,  "home_prob": 43.6, "home_score": 117, "away_score": 104, "upset": true  },
+        { "home": "Carlton",          "away": "Geelong",       "venue": "MCG",          "datetime": "Sat 8 Apr \u00b7 1:45pm AEDT", "home_fav": false, "margin": 8.5,  "home_prob": 34.2, "home_score": 118, "away_score": 131, "upset": false },
+        { "home": "GWS Giants",       "away": "Essendon",      "venue": "ENGIE Stadium","datetime": "Sat 8 Apr \u00b7 4:35pm AEDT", "home_fav": true,  "margin": 7.0,  "home_prob": 65.3, "home_score": 102, "away_score": 91,  "upset": false },
+        { "home": "Western Bulldogs", "away": "Hawthorn",      "venue": "Marvel Stadium","datetime": "Fri 7 Apr \u00b7 7:30pm AEDT", "home_fav": true,  "margin": 6.5,  "home_prob": 63.8, "home_score": 109, "away_score": 94,  "upset": false },
+        { "home": "Adelaide",         "away": "Port Adelaide", "venue": "Adelaide Oval","datetime": "Sat 8 Apr \u00b7 7:10pm ACDT", "home_fav": false, "margin": 12.5, "home_prob": 27.4, "home_score": 97,  "away_score": 126, "upset": false },
+        { "home": "Richmond",         "away": "Fremantle",     "venue": "MCG",          "datetime": "Sun 9 Apr \u00b7 1:10pm AEDT", "home_fav": false, "margin": 5.5,  "home_prob": 40.8, "home_score": 84,  "away_score": 98,  "upset": false },
+        { "home": "West Coast",       "away": "Gold Coast",    "venue": "Optus Stadium","datetime": "Sun 9 Apr \u00b7 4:10pm AWST", "home_fav": false, "margin": 3.5,  "home_prob": 44.1, "home_score": 89,  "away_score": 101, "upset": false },
+        { "home": "North Melbourne",  "away": "St Kilda",      "venue": "Marvel Stadium","datetime": "Sat 8 Apr \u00b7 4:35pm AEDT", "home_fav": false, "margin": 4.0,  "home_prob": 42.3, "home_score": 87,  "away_score": 103, "upset": false }
+      ]
+    },
+    "5": {
+      "label": "Round 5",
+      "range": "10\u201313 Apr 2026",
+      "complete": false,
+      "games": [
+        { "home": "Geelong",          "away": "Collingwood",   "venue": "MCG",                   "datetime": "Thu 10 Apr \u00b7 7:30pm AEST", "home_fav": true,  "margin": 6.5,  "home_prob": 64.0 },
+        { "home": "Brisbane",         "away": "Melbourne",     "venue": "The Gabba",             "datetime": "Sat 12 Apr \u00b7 1:45pm AEST", "home_fav": true,  "margin": 4.5,  "home_prob": 58.3 },
+        { "home": "Sydney",           "away": "Carlton",       "venue": "SCG",                   "datetime": "Sat 12 Apr \u00b7 4:35pm AEST", "home_fav": true,  "margin": 6.0,  "home_prob": 61.7 },
+        { "home": "Fremantle",        "away": "Port Adelaide", "venue": "Optus Stadium",         "datetime": "Sat 12 Apr \u00b7 7:25pm AWST", "home_fav": false, "margin": 8.5,  "home_prob": 41.2 },
+        { "home": "Western Bulldogs", "away": "GWS Giants",    "venue": "Marvel Stadium",        "datetime": "Sun 13 Apr \u00b7 12:10pm AEST","home_fav": true,  "margin": 2.5,  "home_prob": 52.8 },
+        { "home": "Essendon",         "away": "Hawthorn",      "venue": "MCG",                   "datetime": "Sun 13 Apr \u00b7 3:20pm AEST", "home_fav": false, "margin": 2.5,  "home_prob": 47.3 },
+        { "home": "Adelaide",         "away": "Richmond",      "venue": "Adelaide Oval",         "datetime": "Sun 13 Apr \u00b7 3:20pm ACST", "home_fav": true,  "margin": 9.5,  "home_prob": 66.1 },
+        { "home": "Gold Coast",       "away": "North Melbourne","venue": "Heritage Bank Stadium", "datetime": "Sun 13 Apr \u00b7 4:10pm AEST", "home_fav": true,  "margin": 13.5, "home_prob": 71.4 },
+        { "home": "St Kilda",         "away": "West Coast",    "venue": "Marvel Stadium",        "datetime": "Sun 13 Apr \u00b7 4:10pm AEST", "home_fav": true,  "margin": 11.0, "home_prob": 68.9 }
+      ]
+    }
+  },
+  "rankings": [
+    { "team": "Geelong",           "telo": 1891, "wins": 4, "losses": 0, "finals_pct": 97.2, "premiers_pct": 28.1 },
+    { "team": "Port Adelaide",     "telo": 1847, "wins": 3, "losses": 1, "finals_pct": 93.4, "premiers_pct": 21.3 },
+    { "team": "Sydney",            "telo": 1803, "wins": 3, "losses": 1, "finals_pct": 88.1, "premiers_pct": 16.0 },
+    { "team": "Brisbane",          "telo": 1779, "wins": 3, "losses": 1, "finals_pct": 82.3, "premiers_pct": 12.4 },
+    { "team": "Collingwood",       "telo": 1754, "wins": 2, "losses": 2, "finals_pct": 76.0, "premiers_pct": 8.2  },
+    { "team": "Carlton",           "telo": 1731, "wins": 2, "losses": 2, "finals_pct": 71.1, "premiers_pct": 7.0  },
+    { "team": "GWS Giants",        "telo": 1708, "wins": 3, "losses": 1, "finals_pct": 64.5, "premiers_pct": 5.1  },
+    { "team": "Western Bulldogs",  "telo": 1684, "wins": 2, "losses": 2, "finals_pct": 57.2, "premiers_pct": 4.0  },
+    { "team": "Fremantle",         "telo": 1661, "wins": 2, "losses": 2, "finals_pct": 43.1, "premiers_pct": 3.0  },
+    { "team": "Melbourne",         "telo": 1638, "wins": 2, "losses": 2, "finals_pct": 38.4, "premiers_pct": 2.1  },
+    { "team": "Hawthorn",          "telo": 1615, "wins": 2, "losses": 2, "finals_pct": 31.0, "premiers_pct": 1.2  },
+    { "team": "Essendon",          "telo": 1592, "wins": 1, "losses": 3, "finals_pct": 24.3, "premiers_pct": 0.5  },
+    { "team": "St Kilda",          "telo": 1569, "wins": 2, "losses": 2, "finals_pct": 20.1, "premiers_pct": 0.4  },
+    { "team": "Gold Coast",        "telo": 1546, "wins": 2, "losses": 2, "finals_pct": 17.0, "premiers_pct": 0.3  },
+    { "team": "Adelaide",          "telo": 1523, "wins": 1, "losses": 3, "finals_pct": 12.2, "premiers_pct": 0.2  },
+    { "team": "Richmond",          "telo": 1500, "wins": 0, "losses": 4, "finals_pct": 8.1,  "premiers_pct": 0.1  },
+    { "team": "West Coast",        "telo": 1477, "wins": 0, "losses": 4, "finals_pct": 5.0,  "premiers_pct": 0.0  },
+    { "team": "North Melbourne",   "telo": 1454, "wins": 1, "losses": 3, "finals_pct": 4.2,  "premiers_pct": 0.0  }
+  ]
+}

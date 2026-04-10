@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AFL Predictions 2026 — Tipper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --pitch:    #141413;
+      --midnight: #1B2A4A;
+      --steel:    #6A9BBC;
+      --moss:     #788C5D;
+      --pampas:   #FAF9F5;
+      --stone:    #E8E6DC;
+      --ash:      #B0AEA5;
+      --negative: #C24444;
+      --fd: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+      --fb: 'Barlow', Arial, sans-serif;
+      --fm: 'JetBrains Mono', 'Courier New', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--pampas); color: var(--pitch); font-family: 'Barlow', Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ── NAV ── */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(250,249,245,0.92);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--stone);
+    }
+    .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0 32px;
+      height: 64px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo svg { width: 32px; height: 32px; border-radius: 7px; flex-shrink: 0; }
+    .wordmark { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -2px; line-height: 1; }
+    .wordmark-tip { color: var(--pitch); }
+    .wordmark-per { color: var(--midnight); }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--ash); transition: color 200ms ease-out;
+    }
+    .nav-links a:hover { color: var(--pitch); }
+    .nav-links a.active { color: var(--pitch); }
+    .btn-primary {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--pampas); background: var(--midnight);
+      border: 1.5px solid var(--midnight); border-radius: 6px;
+      padding: 10px 20px; display: inline-block;
+      transition: transform 150ms ease-out, opacity 150ms ease-out;
+    }
+    .btn-primary:hover { transform: scale(1.02); opacity: 0.9; }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      background: var(--pitch);
+      padding: calc(64px + 40px) 32px 40px;
+      position: relative; overflow: hidden;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 100% at 80% 50%, rgba(27,42,74,0.45) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .page-header-inner {
+      max-width: 1280px; margin: 0 auto;
+      position: relative; z-index: 1;
+      display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+    }
+    .page-eyebrow {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      letter-spacing: 0.2em; text-transform: uppercase; color: var(--steel);
+      margin-bottom: 10px;
+    }
+    .page-title {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+      font-size: clamp(42px, 6vw, 72px); letter-spacing: -2px; line-height: 0.95;
+      color: var(--pampas);
+    }
+    .page-meta {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      letter-spacing: 0.1em; text-transform: uppercase; color: #5A7A8A;
+      text-align: right; line-height: 1.7; flex-shrink: 0;
+    }
+
+    /* ── ROUND BAR ── */
+    .round-bar {
+      position: sticky; top: 64px; z-index: 90;
+      background: #fff;
+      border-bottom: 1px solid var(--stone);
+    }
+    .round-bar-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0 32px;
+      display: flex; align-items: center; gap: 6px;
+      height: 52px; overflow-x: auto;
+    }
+    .round-bar-inner::-webkit-scrollbar { display: none; }
+
+    .round-tab {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 20px; cursor: pointer;
+      white-space: nowrap; border: 1.5px solid transparent;
+      color: var(--ash); transition: all 150ms ease-out;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .round-tab:hover { color: var(--pitch); border-color: var(--stone); }
+    .round-tab.complete { color: #7A8C9A; }
+    .round-tab.complete:hover { color: var(--pitch); }
+    .round-tab.current { color: var(--steel); }
+    .round-tab.active {
+      background: var(--midnight); color: var(--pampas);
+      border-color: var(--midnight);
+    }
+    .round-tab.active:hover { opacity: 0.9; }
+    .tab-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--moss); flex-shrink: 0;
+    }
+    .tab-check {
+      font-size: 10px; opacity: 0.5;
+    }
+    .round-bar-divider {
+      width: 1px; height: 20px; background: var(--stone); flex-shrink: 0; margin: 0 4px;
+    }
+
+    /* ── MAIN LAYOUT ── */
+    .main-content {
+      max-width: 1280px; margin: 0 auto;
+      padding: 32px 32px 80px;
+      display: grid;
+      grid-template-columns: 1fr 400px;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* ── GAMES COLUMN ── */
+    .games-col {}
+    .games-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .games-title {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 18px; letter-spacing: -0.3px; color: var(--pitch);
+    }
+    .games-count {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+    }
+    .games-list { display: flex; flex-direction: column; gap: 8px; }
+
+    /* ── GAME CARD ── */
+    .game-card {
+      background: #fff; border: 1px solid var(--stone);
+      border-radius: 10px; overflow: hidden;
+      transition: box-shadow 200ms ease-out;
+    }
+    .game-card:hover { box-shadow: 0 4px 16px rgba(20,20,19,0.07); }
+
+    .game-meta {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 16px 8px;
+      border-bottom: 1px solid var(--stone);
+    }
+    .status-badge {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      border-radius: 3px; padding: 2px 7px; flex-shrink: 0;
+    }
+    .status-final {
+      background: var(--pitch); color: var(--pampas);
+    }
+    .status-upcoming {
+      background: rgba(106,155,188,0.15); color: var(--steel);
+      border: 1px solid rgba(106,155,188,0.25);
+    }
+    .game-info {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash);
+    }
+
+    /* Column headers row */
+    .game-col-headers {
+      display: grid;
+      grid-template-columns: 1fr 52px 64px 52px;
+      padding: 5px 16px 3px;
+      gap: 8px;
+    }
+    .col-hdr {
+      font-family: 'JetBrains Mono', monospace; font-size: 8px;
+      letter-spacing: 0.15em; text-transform: uppercase; color: var(--ash);
+      text-align: right;
+    }
+    .col-hdr:first-child { text-align: left; }
+
+    .game-teams { padding: 0 16px 0; }
+
+    .team-row {
+      display: grid;
+      grid-template-columns: 1fr 52px 64px 52px;
+      align-items: center; gap: 8px;
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(232,230,220,0.5);
+    }
+    .team-row:last-child { border-bottom: none; }
+
+    .team-name {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 17px; letter-spacing: -0.2px; color: var(--pitch);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .team-row.winner .team-name { color: var(--pitch); }
+    .team-row.loser  .team-name { color: var(--ash); }
+    .team-row.loser  .team-name { font-weight: 600; }
+
+    .team-spread {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      color: var(--ash); text-align: right; min-width: 0;
+    }
+
+    .team-prob {
+      font-family: 'JetBrains Mono', monospace; font-size: 12px;
+      font-weight: 500; text-align: right; border-radius: 3px;
+      padding: 2px 6px;
+    }
+    .prob-fav { color: var(--midnight); background: rgba(27,42,74,0.08); }
+    .prob-dog { color: var(--ash); }
+
+    .team-score {
+      font-family: 'JetBrains Mono', monospace; font-size: 13px;
+      font-weight: 500; text-align: right;
+    }
+    .score-win { color: var(--moss); font-weight: 500; }
+    .score-lose { color: var(--ash); }
+    .score-dash { color: var(--stone); text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+
+    /* Prob bar */
+    .prob-track {
+      height: 3px; background: var(--stone); margin: 8px 16px 12px;
+      border-radius: 2px; overflow: hidden;
+    }
+    .prob-fill { height: 100%; background: var(--steel); border-radius: 2px; }
+
+    /* Upset badge */
+    .upset-strip {
+      background: rgba(120,140,93,0.08); border-top: 1px solid rgba(120,140,93,0.15);
+      padding: 5px 16px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .upset-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--moss);
+    }
+
+    /* ── RANKINGS COLUMN ── */
+    .rankings-col { position: sticky; top: calc(64px + 52px + 32px); }
+
+    .rankings-card {
+      background: #fff; border: 1px solid var(--stone); border-radius: 10px;
+      overflow: hidden;
+    }
+    .rankings-header {
+      padding: 16px 20px 12px;
+      border-bottom: 1px solid var(--stone);
+    }
+    .rankings-title {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 16px; letter-spacing: -0.2px; color: var(--pitch);
+      margin-bottom: 2px;
+    }
+    .rankings-subtitle {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+    }
+
+    .rankings-col-headers {
+      display: grid;
+      grid-template-columns: 52px 1fr 44px 48px 52px;
+      padding: 8px 16px 6px;
+      gap: 4px;
+      background: #FAFAF8;
+      border-bottom: 1px solid var(--stone);
+    }
+    .r-hdr {
+      font-family: 'JetBrains Mono', monospace; font-size: 8px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+      text-align: right; line-height: 1.3;
+    }
+    .r-hdr.left { text-align: left; }
+
+    .rankings-body {}
+
+    .rank-row {
+      display: grid;
+      grid-template-columns: 52px 1fr 44px 48px 52px;
+      padding: 9px 16px;
+      gap: 4px;
+      align-items: center;
+      border-bottom: 1px solid rgba(232,230,220,0.5);
+      transition: background 150ms ease-out;
+    }
+    .rank-row:hover { background: #FAFAF8; }
+    .rank-row:last-child { border-bottom: none; }
+
+    /* Play-in zone borders */
+    .rank-row.playin-top    { border-top: 2px solid rgba(106,155,188,0.5); }
+    .rank-row.playin-bottom { border-bottom: 2px solid rgba(106,155,188,0.5); }
+
+    .r-nous {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      font-weight: 500; color: var(--ash);
+    }
+    .r-team {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 15px; letter-spacing: -0.2px; color: var(--pitch);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .r-record {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      color: var(--ash); text-align: right;
+    }
+    .r-prob {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      font-weight: 500; text-align: right; border-radius: 3px;
+      padding: 2px 4px;
+    }
+
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1100px) {
+      .main-content { grid-template-columns: 1fr; }
+      .rankings-col { position: static; }
+    }
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .main-content { padding: 20px 16px 60px; }
+      .round-bar-inner { padding: 0 16px; }
+      .page-header { padding: calc(64px + 28px) 16px 28px; }
+      .page-meta { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="80" fill="#141413" rx="16"/>
+          <polygon points="12,16 56,16 68,28 68,34 12,34" fill="#FAF9F5"/>
+          <rect x="31" y="34" width="18" height="28" fill="#FAF9F5"/>
+        </svg>
+        <span class="wordmark">
+          <span class="wordmark-tip">TIP</span><span class="wordmark-per">PER</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#nous">NOUS</a></li>
+        <li><a href="predictions.html" class="active">AFL Predictions</a></li>
+        <li><a href="index.html#leaderboard">Leaderboard</a></li>
+      </ul>
+      <a href="index.html" class="btn-primary">Start Tipping</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <div class="page-eyebrow">2026 Season · AI-powered</div>
+        <h1 class="page-title">AFL<br>Predictions</h1>
+      </div>
+      <div class="page-meta">
+        Powered by TELO model<br>
+        Updated after each round<br>
+        18 teams · 22 rounds
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND BAR -->
+  <div class="round-bar">
+    <div class="round-bar-inner" id="round-tabs"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main-content">
+    <!-- Games -->
+    <div class="games-col">
+      <div class="games-header">
+        <div class="games-title" id="round-label">Round 5</div>
+        <div class="games-count" id="games-count">9 games</div>
+      </div>
+      <div class="games-list" id="games-list"></div>
+    </div>
+
+    <!-- Rankings -->
+    <div class="rankings-col">
+      <div class="rankings-card">
+        <div class="rankings-header">
+          <div class="rankings-title">Power Rankings</div>
+          <div class="rankings-subtitle">TELO Model · After Round 4 · 2026 Season</div>
+        </div>
+        <div class="rankings-col-headers">
+          <div class="r-hdr left" style="text-align:left">TELO</div>
+          <div class="r-hdr left" style="text-align:left">Team</div>
+          <div class="r-hdr">W–L</div>
+          <div class="r-hdr">Finals</div>
+          <div class="r-hdr">Prem.</div>
+        </div>
+        <div class="rankings-body" id="rankings-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ─── STATE ──────────────────────────────────────────────────────────────
+    let ROUNDS   = {};
+    let RANKINGS = [];
+    let META     = {};
+    let activeRound = 1;
+
+    // ─── HELPERS ────────────────────────────────────────────────────────────
+
+    function formatNous(n) {
+      return n.toLocaleString();
+    }
+
+    function probBg(pct) {
+      if (!pct) return 'transparent';
+      if (pct >= 80) return 'rgba(27,42,74,0.20)';
+      if (pct >= 60) return 'rgba(106,155,188,0.18)';
+      if (pct >= 40) return 'rgba(106,155,188,0.10)';
+      if (pct >= 20) return 'rgba(106,155,188,0.06)';
+      return 'rgba(176,174,165,0.08)';
+    }
+
+    function probTextColor(pct) {
+      if (!pct) return '#B0AEA5';
+      if (pct >= 60) return '#1B2A4A';
+      if (pct >= 30) return '#6A9BBC';
+      return '#B0AEA5';
+    }
+
+    // Normalise a game object from JSON (snake_case) to camelCase expected by render
+    function normaliseGame(g) {
+      return {
+        home:      g.home,
+        away:      g.away,
+        venue:     g.venue,
+        datetime:  g.datetime,
+        homeFav:   g.home_fav,
+        margin:    g.margin,
+        homeProb:  g.home_prob,
+        homeScore: g.home_score,
+        awayScore: g.away_score,
+        upset:     g.upset || false,
+      };
+    }
+
+    // ─── RENDER ROUNDS TABS ─────────────────────────────────────────────────
+
+    function renderTabs(active) {
+      const container = document.getElementById('round-tabs');
+      const currentRound = META.current_round || active;
+      container.innerHTML = Object.entries(ROUNDS).map(([num, rd]) => {
+        const n = parseInt(num);
+        const isActive   = n === active;
+        const isCurrent  = n === currentRound;
+        const isComplete = rd.complete;
+        let cls = 'round-tab';
+        if (isActive)        cls += ' active';
+        else if (isCurrent)  cls += ' current';
+        else if (isComplete) cls += ' complete';
+
+        const indicator = isActive ? ''
+          : isCurrent  ? '<span class="tab-dot"></span>'
+          : isComplete ? '<span class="tab-check">✓</span>'
+          : '';
+
+        return `<button class="${cls}" onclick="selectRound(${num})">${indicator}${rd.label}</button>`;
+      }).join('<div class="round-bar-divider"></div>');
+    }
+
+    // ─── RENDER GAMES ───────────────────────────────────────────────────────
+
+    function renderGames(roundNum) {
+      const rd = ROUNDS[roundNum];
+      if (!rd) return;
+      document.getElementById('round-label').textContent = `${rd.label} — ${rd.range}`;
+      document.getElementById('games-count').textContent = `${rd.games.length} games`;
+
+      const html = rd.games.map(raw => {
+        const g = normaliseGame(raw);
+        const awayProb    = (100 - g.homeProb).toFixed(1);
+        const homeProb    = g.homeProb.toFixed(1);
+        const homeFavDisp = g.homeFav;
+        const homeWon     = rd.complete && g.homeScore > g.awayScore;
+        const awayWon     = rd.complete && g.awayScore > g.homeScore;
+        const spreadLabel = `-${g.margin.toFixed(1)}`;
+        const isUpset     = rd.complete && g.upset;
+
+        return `
+          <div class="game-card">
+            <div class="game-meta">
+              ${rd.complete
+                ? `<span class="status-badge status-final">Final</span>`
+                : `<span class="status-badge status-upcoming">Upcoming</span>`
+              }
+              <span class="game-info">${g.datetime} · ${g.venue}</span>
+            </div>
+
+            <div class="game-col-headers">
+              <div class="col-hdr" style="text-align:left">Team</div>
+              <div class="col-hdr">Spread</div>
+              <div class="col-hdr">Win Prob</div>
+              <div class="col-hdr">${rd.complete ? 'Score' : '—'}</div>
+            </div>
+
+            <div class="game-teams">
+              <div class="team-row ${rd.complete ? (homeWon ? 'winner' : 'loser') : ''}">
+                <span class="team-name">${g.home}</span>
+                <span class="team-spread">${homeFavDisp ? spreadLabel : ''}</span>
+                <span class="team-prob ${g.homeProb >= 50 ? 'prob-fav' : 'prob-dog'}">${homeProb}%</span>
+                ${rd.complete
+                  ? `<span class="team-score ${homeWon ? 'score-win' : 'score-lose'}">${g.homeScore}</span>`
+                  : `<span class="score-dash">—</span>`
+                }
+              </div>
+              <div class="team-row ${rd.complete ? (awayWon ? 'winner' : 'loser') : ''}">
+                <span class="team-name">${g.away}</span>
+                <span class="team-spread">${!homeFavDisp ? spreadLabel : ''}</span>
+                <span class="team-prob ${g.homeProb < 50 ? 'prob-fav' : 'prob-dog'}">${awayProb}%</span>
+                ${rd.complete
+                  ? `<span class="team-score ${awayWon ? 'score-win' : 'score-lose'}">${g.awayScore}</span>`
+                  : `<span class="score-dash">—</span>`
+                }
+              </div>
+            </div>
+
+            <div class="prob-track">
+              <div class="prob-fill" style="width:${g.homeProb}%"></div>
+            </div>
+
+            ${isUpset ? `
+              <div class="upset-strip">
+                <span class="upset-label">Upset — underdog won</span>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('games-list').innerHTML = html;
+    }
+
+    // ─── RENDER RANKINGS ────────────────────────────────────────────────────
+
+    function renderRankings() {
+      const prevRound = activeRound > 1 ? activeRound - 1 : activeRound;
+      document.querySelector('.rankings-subtitle').textContent =
+        `TELO Model · After Round ${prevRound} · ${META.year || 2026} Season`;
+
+      const html = RANKINGS.map((t, i) => {
+        const rank         = i + 1;
+        const playinTop    = rank === 7;
+        const playinBottom = rank === 10;
+        const finals       = Math.round(t.finals_pct);
+        const premiers     = Math.round(t.premiers_pct);
+
+        const finalsStyle  = `background:${probBg(finals)};color:${probTextColor(finals)}`;
+        const premiersStyle = premiers > 0
+          ? `background:${probBg(premiers)};color:${probTextColor(premiers)}`
+          : `color:#B0AEA5`;
+        const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
+
+        let rowCls = 'rank-row';
+        if (playinTop)    rowCls += ' playin-top';
+        if (playinBottom) rowCls += ' playin-bottom';
+
+        return `
+          <div class="${rowCls}">
+            <div class="r-nous">${formatNous(t.telo)}</div>
+            <div class="r-team">${t.team}</div>
+            <div class="r-record">${t.wins}–${t.losses}</div>
+            <div class="r-prob" style="${finalsStyle}">${finals}%</div>
+            <div class="r-prob" style="${premiersStyle}">${premiersText}</div>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('rankings-body').innerHTML = html;
+    }
+
+    // ─── SELECT ROUND ────────────────────────────────────────────────────────
+
+    function selectRound(num) {
+      activeRound = parseInt(num);
+      renderTabs(activeRound);
+      renderGames(activeRound);
+    }
+
+    // ─── LOAD DATA ───────────────────────────────────────────────────────────
+
+    async function loadData() {
+      try {
+        const res  = await fetch('data/predictions.json');
+        const data = await res.json();
+
+        META     = data.meta     || {};
+        ROUNDS   = data.rounds   || {};
+        RANKINGS = data.rankings || [];
+
+        // Default to current round from meta, or last round key
+        const keys = Object.keys(ROUNDS).map(Number).sort((a,b)=>a-b);
+        activeRound = META.current_round && ROUNDS[META.current_round]
+          ? META.current_round
+          : keys[keys.length - 1] || 1;
+
+        renderTabs(activeRound);
+        renderGames(activeRound);
+        renderRankings();
+      } catch (err) {
+        document.getElementById('games-list').innerHTML =
+          `<div style="padding:32px;text-align:center;color:#B0AEA5;font-family:'JetBrains Mono',monospace;font-size:12px;">
+            Could not load predictions data.<br>Run the TELO pipeline to generate data/predictions.json.
+          </div>`;
+        console.error('Failed to load predictions.json:', err);
+      }
+    }
+
+    loadData();
+  </script>
+
+</body>
+</html>
