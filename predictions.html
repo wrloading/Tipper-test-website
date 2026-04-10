@@ -242,8 +242,8 @@
       font-family: 'JetBrains Mono', monospace; font-size: 13px;
       font-weight: 500; text-align: right;
     }
-    .score-win { color: var(--moss); font-weight: 500; }
-    .score-lose { color: var(--ash); }
+    .score-win { color: var(--moss); font-weight: 600; background: rgba(120,140,93,0.14); border-radius: 3px; padding: 2px 5px; }
+    .score-lose { color: var(--ash); padding: 2px 5px; }
     .score-dash { color: var(--stone); text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
 
     /* Prob bar */
@@ -331,7 +331,7 @@
     .r-team {
       font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
       font-size: 15px; letter-spacing: -0.2px; color: var(--pitch);
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      min-width: 0; line-height: 1.2;
     }
     .r-record {
       font-family: 'JetBrains Mono', monospace; font-size: 10px;
@@ -351,6 +351,52 @@
       padding: 2px 4px;
     }
 
+    /* ── TIPPER OVERVIEW ── */
+    .overview-card {
+      background: #fff; border: 1px solid var(--stone); border-radius: 10px;
+      overflow: hidden; margin-top: 12px;
+    }
+    .overview-header {
+      padding: 14px 20px 10px;
+      border-bottom: 1px solid var(--stone);
+    }
+    .overview-title {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 15px; letter-spacing: -0.2px; color: var(--pitch);
+      margin-bottom: 2px;
+    }
+    .overview-subtitle {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+    }
+    .overview-stats {
+      padding: 12px 20px 16px;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .overview-stat {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .overview-stat-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash);
+      flex-shrink: 0;
+    }
+    .overview-stat-bar {
+      flex: 1; height: 3px; background: var(--stone); border-radius: 2px; overflow: hidden;
+      margin: 0 8px;
+    }
+    .overview-stat-fill {
+      height: 100%; border-radius: 2px; background: var(--steel);
+      transition: width 600ms ease-out;
+    }
+    .overview-stat-fill.green { background: var(--moss); }
+    .overview-stat-value {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      font-weight: 500; color: var(--pitch); white-space: nowrap;
+    }
+    .overview-divider {
+      height: 1px; background: var(--stone); margin: 0 20px;
+    }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 1100px) {
@@ -439,6 +485,17 @@
           <div class="r-hdr" data-sort="prem" onclick="setSort('prem')">Prem.</div>
         </div>
         <div class="rankings-body" id="rankings-body"></div>
+      </div>
+
+      <!-- Tipper Overview -->
+      <div class="overview-card">
+        <div class="overview-header">
+          <div class="overview-title">Model Overview</div>
+          <div class="overview-subtitle" id="overview-subtitle">Season to date</div>
+        </div>
+        <div class="overview-stats" id="overview-stats">
+          <div style="text-align:center;padding:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ash)">Loading…</div>
+        </div>
       </div>
     </div>
   </div>
@@ -616,14 +673,14 @@
         }
       });
 
-      // Play-in zone borders always follow TELO order
-      const teloOrder = [...RANKINGS].sort((a, b) => b.telo - a.telo);
-      const teloRank  = Object.fromEntries(teloOrder.map((t, i) => [t.team, i + 1]));
+      // Play-in zone borders only when sorted by ladder position
+      const ladderOrder = [...RANKINGS].sort((a, b) => (a.ladder_rank || 99) - (b.ladder_rank || 99));
+      const ladderRank  = Object.fromEntries(ladderOrder.map((t, i) => [t.team, i + 1]));
 
-      const html = sorted.map(t => {
-        const tRank        = teloRank[t.team];
-        const playinTop    = tRank === 7;
-        const playinBottom = tRank === 10;
+      const html = sorted.map((t, i) => {
+        const displayPos   = i + 1;
+        const playinTop    = currentSort === 'ladder' && ladderRank[t.team] === 7;
+        const playinBottom = currentSort === 'ladder' && ladderRank[t.team] === 10;
         const finals       = Math.round(t.finals_pct);
         const premiers     = Math.round(t.premiers_pct);
 
@@ -655,6 +712,61 @@
       document.getElementById('rankings-body').innerHTML = html;
     }
 
+    // ─── RENDER OVERVIEW ────────────────────────────────────────────────────
+
+    function renderOverview() {
+      let total = 0, correct = 0, upsets = 0, upsetCorrect = 0;
+      let closeTipped = 0, closeCorrect = 0;
+
+      Object.values(ROUNDS).forEach(rd => {
+        rd.games.forEach(raw => {
+          const g = normaliseGame(raw);
+          if (g.homeScore == null || g.awayScore == null) return; // not played yet
+
+          total++;
+          const homeWon    = g.homeScore > g.awayScore;
+          const modelRight = g.homeFav === homeWon;
+          if (modelRight) correct++;
+
+          // Upset = underdog (lower prob team) won
+          const wasUpset = !modelRight;
+          if (wasUpset) upsets++;
+
+          // Close game = tipped team had 50–62% probability
+          const tippedProb = g.homeFav ? g.homeProb : (100 - g.homeProb);
+          if (tippedProb >= 50 && tippedProb < 62) {
+            closeTipped++;
+            if (modelRight) closeCorrect++;
+          }
+        });
+      });
+
+      const correctPct  = total  ? Math.round(correct      / total      * 100) : 0;
+      const closePct    = closeTipped ? Math.round(closeCorrect / closeTipped * 100) : 0;
+      const upsetPct    = total  ? Math.round(upsets        / total      * 100) : 0;
+
+      document.getElementById('overview-subtitle').textContent =
+        `${total} games rated · ${META.year || 2026} season`;
+
+      function statRow(label, val, pct, fillPct, green = false) {
+        return `
+          <div class="overview-stat">
+            <div class="overview-stat-label">${label}</div>
+            <div class="overview-stat-bar">
+              <div class="overview-stat-fill${green ? ' green' : ''}" style="width:${fillPct}%"></div>
+            </div>
+            <div class="overview-stat-value">${val} <span style="color:var(--ash);font-size:9px">${pct}%</span></div>
+          </div>`;
+      }
+
+      document.getElementById('overview-stats').innerHTML = [
+        statRow('Tips correct',      correct,      correctPct, correctPct,  true),
+        `<div class="overview-divider"></div>`,
+        statRow('Upsets (model wrong)', upsets,    upsetPct,   upsetPct,    false),
+        statRow('Close calls correct',  closeCorrect, closePct, closePct,   true),
+      ].join('');
+    }
+
     // ─── SELECT ROUND ────────────────────────────────────────────────────────
 
     function selectRound(num) {
@@ -683,6 +795,7 @@
         renderTabs(activeRound);
         renderGames(activeRound);
         renderRankings();
+        renderOverview();
       } catch (err) {
         document.getElementById('games-list').innerHTML =
           `<div style="padding:32px;text-align:center;color:#B0AEA5;font-family:'JetBrains Mono',monospace;font-size:12px;">
