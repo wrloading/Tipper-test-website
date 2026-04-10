@@ -762,8 +762,8 @@
       Object.values(ROUNDS).forEach(rd => {
         rd.games.forEach(raw => {
           const g = normaliseGame(raw);
-          // Only include games marked complete by the model pipeline
-          if (raw.complete !== true) return;
+          // Only include games fully completed — require both the flag AND actual scores
+          if (raw.complete !== true || raw.home_score == null || raw.away_score == null) return;
 
           total++;
           const homeWon    = g.homeScore > g.awayScore;
@@ -788,7 +788,7 @@
       const upsetPct    = total  ? Math.round(upsets        / total      * 100) : 0;
 
       document.getElementById('overview-subtitle').textContent =
-        `${total} games rated · ${META.year || 2026} season`;
+        `${correct} correct from ${total} completed games · ${META.year || 2026} season`;
 
       function statRow(label, val, pct, fillPct, green = false) {
         return `
