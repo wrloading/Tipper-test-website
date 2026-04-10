@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-10T12:07:38.738060+10:00",
+    "updated": "2026-04-10T12:39:07.677132+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v1.0",
@@ -2122,8 +2122,8 @@
       "losses": 0,
       "ladder_rank": 1,
       "percentage": 140.4,
-      "finals_pct": 98.0,
-      "premiers_pct": 21.9
+      "finals_pct": 98.2,
+      "premiers_pct": 22.3
     },
     {
       "team": "Hawthorn",
@@ -2132,8 +2132,8 @@
       "losses": 1,
       "ladder_rank": 6,
       "percentage": 114.0,
-      "finals_pct": 95.6,
-      "premiers_pct": 18.8
+      "finals_pct": 95.7,
+      "premiers_pct": 19.4
     },
     {
       "team": "Brisbane Lions",
@@ -2142,8 +2142,8 @@
       "losses": 2,
       "ladder_rank": 9,
       "percentage": 110.6,
-      "finals_pct": 90.4,
-      "premiers_pct": 16.3
+      "finals_pct": 90.0,
+      "premiers_pct": 15.7
     },
     {
       "team": "Geelong",
@@ -2152,8 +2152,8 @@
       "losses": 2,
       "ladder_rank": 12,
       "percentage": 89.7,
-      "finals_pct": 83.2,
-      "premiers_pct": 10.8
+      "finals_pct": 83.0,
+      "premiers_pct": 9.8
     },
     {
       "team": "Fremantle",
@@ -2162,8 +2162,8 @@
       "losses": 1,
       "ladder_rank": 4,
       "percentage": 133.4,
-      "finals_pct": 89.5,
-      "premiers_pct": 11.3
+      "finals_pct": 89.7,
+      "premiers_pct": 12.2
     },
     {
       "team": "Sydney",
@@ -2182,8 +2182,8 @@
       "losses": 1,
       "ladder_rank": 3,
       "percentage": 152.6,
-      "finals_pct": 69.1,
-      "premiers_pct": 5.1
+      "finals_pct": 68.2,
+      "premiers_pct": 4.8
     },
     {
       "team": "Collingwood",
@@ -2192,7 +2192,7 @@
       "losses": 2,
       "ladder_rank": 11,
       "percentage": 93.1,
-      "finals_pct": 62.5,
+      "finals_pct": 61.6,
       "premiers_pct": 4.2
     },
     {
@@ -2202,7 +2202,7 @@
       "losses": 3,
       "ladder_rank": 10,
       "percentage": 106.4,
-      "finals_pct": 44.3,
+      "finals_pct": 45.0,
       "premiers_pct": 2.1
     },
     {
@@ -2212,8 +2212,8 @@
       "losses": 3,
       "ladder_rank": 15,
       "percentage": 76.9,
-      "finals_pct": 30.4,
-      "premiers_pct": 1.0
+      "finals_pct": 30.3,
+      "premiers_pct": 1.1
     },
     {
       "team": "Melbourne",
@@ -2222,7 +2222,7 @@
       "losses": 1,
       "ladder_rank": 7,
       "percentage": 102.0,
-      "finals_pct": 28.9,
+      "finals_pct": 29.7,
       "premiers_pct": 0.7
     },
     {
@@ -2232,7 +2232,7 @@
       "losses": 2,
       "ladder_rank": 8,
       "percentage": 117.6,
-      "finals_pct": 8.5,
+      "finals_pct": 8.7,
       "premiers_pct": 0.1
     },
     {
@@ -2242,7 +2242,7 @@
       "losses": 3,
       "ladder_rank": 14,
       "percentage": 86.0,
-      "finals_pct": 4.1,
+      "finals_pct": 4.4,
       "premiers_pct": 0.0
     },
     {
@@ -2252,7 +2252,7 @@
       "losses": 1,
       "ladder_rank": 5,
       "percentage": 115.3,
-      "finals_pct": 11.3,
+      "finals_pct": 11.2,
       "premiers_pct": 0.1
     },
     {
@@ -2262,7 +2262,7 @@
       "losses": 4,
       "ladder_rank": 16,
       "percentage": 76.6,
-      "finals_pct": 0.3,
+      "finals_pct": 0.4,
       "premiers_pct": 0.0
     },
     {
@@ -2272,7 +2272,7 @@
       "losses": 2,
       "ladder_rank": 13,
       "percentage": 64.9,
-      "finals_pct": 0.4,
+      "finals_pct": 0.6,
       "premiers_pct": 0.0
     },
     {

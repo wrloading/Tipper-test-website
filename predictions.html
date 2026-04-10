@@ -522,18 +522,19 @@
 
       const html = rd.games.map(raw => {
         const g = normaliseGame(raw);
+        const isFinal     = g.homeScore != null && g.awayScore != null;
         const awayProb    = (100 - g.homeProb).toFixed(1);
         const homeProb    = g.homeProb.toFixed(1);
         const homeFavDisp = g.homeFav;
-        const homeWon     = rd.complete && g.homeScore > g.awayScore;
-        const awayWon     = rd.complete && g.awayScore > g.homeScore;
+        const homeWon     = isFinal && g.homeScore > g.awayScore;
+        const awayWon     = isFinal && g.awayScore > g.homeScore;
         const spreadLabel = `-${g.margin.toFixed(1)}`;
-        const isUpset     = rd.complete && g.upset;
+        const isUpset     = isFinal && g.upset;
 
         return `
           <div class="game-card">
             <div class="game-meta">
-              ${rd.complete
+              ${isFinal
                 ? `<span class="status-badge status-final">Final</span>`
                 : `<span class="status-badge status-upcoming">Upcoming</span>`
               }
@@ -544,24 +545,24 @@
               <div class="col-hdr" style="text-align:left">Team</div>
               <div class="col-hdr">Spread</div>
               <div class="col-hdr">Win Prob</div>
-              <div class="col-hdr">${rd.complete ? 'Score' : '—'}</div>
+              <div class="col-hdr">${isFinal ? 'Score' : '—'}</div>
             </div>
 
             <div class="game-teams">
-              <div class="team-row ${rd.complete ? (homeWon ? 'winner' : 'loser') : ''}">
+              <div class="team-row ${isFinal ? (homeWon ? 'winner' : 'loser') : ''}">
                 <span class="team-name">${g.home}</span>
                 <span class="team-spread">${homeFavDisp ? spreadLabel : ''}</span>
                 <span class="team-prob ${g.homeProb >= 50 ? 'prob-fav' : 'prob-dog'}">${homeProb}%</span>
-                ${rd.complete
+                ${isFinal
                   ? `<span class="team-score ${homeWon ? 'score-win' : 'score-lose'}">${g.homeScore}</span>`
                   : `<span class="score-dash">—</span>`
                 }
               </div>
-              <div class="team-row ${rd.complete ? (awayWon ? 'winner' : 'loser') : ''}">
+              <div class="team-row ${isFinal ? (awayWon ? 'winner' : 'loser') : ''}">
                 <span class="team-name">${g.away}</span>
                 <span class="team-spread">${!homeFavDisp ? spreadLabel : ''}</span>
                 <span class="team-prob ${g.homeProb < 50 ? 'prob-fav' : 'prob-dog'}">${awayProb}%</span>
-                ${rd.complete
+                ${isFinal
                   ? `<span class="team-score ${awayWon ? 'score-win' : 'score-lose'}">${g.awayScore}</span>`
                   : `<span class="score-dash">—</span>`
                 }
