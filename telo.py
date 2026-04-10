@@ -254,25 +254,22 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
 
 def format_game_datetime(iso_str: str) -> str:
     """
-    Convert Squiggle UTC datetime string to AEST/AEDT display string.
-    e.g. "2026-04-10 09:30:00" → "Thu 10 Apr · 7:30pm AEDT"
+    Format a Squiggle datetime string for display in Melbourne local time.
+    Squiggle returns naive strings already in Melbourne time (AEST/AEDT).
+    e.g. "2026-04-09 19:40:00" → "Thu 9 Apr · 7:40pm AEST"
     """
     if not iso_str:
         return ""
     try:
-        # Squiggle gives UTC times as naive strings
-        dt_utc = datetime.fromisoformat(iso_str.replace(" ", "T"))
-        if dt_utc.tzinfo is None:
-            dt_utc = dt_utc.replace(tzinfo=timezone.utc)
-        local = dt_utc.astimezone(AEST)
-        day   = local.strftime("%a %-d %b")
-        # Determine timezone abbreviation
-        tz_offset = local.utcoffset()
-        tz_name   = "AEDT" if tz_offset == timedelta(hours=11) else "AEST"
-        # Format time without leading zero
-        hour   = local.hour % 12 or 12
-        minute = local.strftime("%M")
-        ampm   = "am" if local.hour < 12 else "pm"
+        # Squiggle times are already Melbourne local — attach the timezone directly
+        dt_naive = datetime.fromisoformat(iso_str.replace(" ", "T"))
+        local    = dt_naive.replace(tzinfo=AEST)
+        # Determine if AEDT or AEST based on DST
+        tz_name  = local.strftime("%Z")  # ZoneInfo handles DST automatically
+        day      = local.strftime("%a %-d %b")
+        hour     = local.hour % 12 or 12
+        minute   = local.strftime("%M")
+        ampm     = "am" if local.hour < 12 else "pm"
         time_str = f"{hour}:{minute}{ampm}" if minute != "00" else f"{hour}{ampm}"
         return f"{day} · {time_str} {tz_name}"
     except Exception:
@@ -286,7 +283,7 @@ def round_date_range(games: list[dict]) -> str:
         return ""
     try:
         parsed = [
-            datetime.fromisoformat(d.replace(" ", "T")).replace(tzinfo=timezone.utc).astimezone(AEST)
+            datetime.fromisoformat(d.replace(" ", "T")).replace(tzinfo=AEST)
             for d in dates
         ]
         parsed.sort()
