@@ -1,12 +1,79 @@
 {
   "meta": {
-    "updated": "2026-04-10T15:17:14.849980+10:00",
+    "updated": "2026-04-10T15:25:18.632161+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v1.0",
     "simulations": 12000
   },
   "rounds": {
+    "0": {
+      "label": "Opening Round",
+      "range": "5\u20138 Mar 2026",
+      "complete": true,
+      "games": [
+        {
+          "home": "Sydney",
+          "away": "Carlton",
+          "venue": "S.C.G.",
+          "datetime": "Thu 5 Mar \u00b7 7:30pm AEDT",
+          "home_fav": true,
+          "margin": 57.7,
+          "home_prob": 79.1,
+          "home_score": 132,
+          "away_score": 69,
+          "upset": false
+        },
+        {
+          "home": "Gold Coast",
+          "away": "Geelong",
+          "venue": "Carrara",
+          "datetime": "Fri 6 Mar \u00b7 8:05pm AEDT",
+          "home_fav": true,
+          "margin": 7.3,
+          "home_prob": 54.2,
+          "home_score": 125,
+          "away_score": 69,
+          "upset": false
+        },
+        {
+          "home": "Greater Western Sydney",
+          "away": "Hawthorn",
+          "venue": "Sydney Showground",
+          "datetime": "Sat 7 Mar \u00b7 4:15pm AEDT",
+          "home_fav": false,
+          "margin": 7.9,
+          "home_prob": 45.5,
+          "home_score": 122,
+          "away_score": 95,
+          "upset": true
+        },
+        {
+          "home": "Brisbane Lions",
+          "away": "Western Bulldogs",
+          "venue": "Gabba",
+          "datetime": "Sat 7 Mar \u00b7 7:35pm AEDT",
+          "home_fav": true,
+          "margin": 13.9,
+          "home_prob": 57.9,
+          "home_score": 106,
+          "away_score": 111,
+          "upset": true
+        },
+        {
+          "home": "St Kilda",
+          "away": "Collingwood",
+          "venue": "M.C.G.",
+          "datetime": "Sun 8 Mar \u00b7 7:20pm AEDT",
+          "home_fav": false,
+          "margin": 14.1,
+          "home_prob": 42.0,
+          "home_score": 66,
+          "away_score": 78,
+          "upset": false
+        }
+      ]
+    },
     "1": {
       "label": "Round 1",
       "range": "12\u201315 Mar 2026",
@@ -2122,8 +2189,8 @@
       "losses": 0,
       "ladder_rank": 1,
       "percentage": 140.4,
-      "finals_pct": 98.1,
-      "premiers_pct": 22.1
+      "finals_pct": 98.2,
+      "premiers_pct": 22.3
     },
     {
       "team": "Hawthorn",
@@ -2132,8 +2199,8 @@
       "losses": 1,
       "ladder_rank": 6,
       "percentage": 114.0,
-      "finals_pct": 95.5,
-      "premiers_pct": 19.6
+      "finals_pct": 95.9,
+      "premiers_pct": 18.8
     },
     {
       "team": "Brisbane Lions",
@@ -2142,8 +2209,8 @@
       "losses": 2,
       "ladder_rank": 9,
       "percentage": 110.6,
-      "finals_pct": 90.5,
-      "premiers_pct": 16.2
+      "finals_pct": 90.2,
+      "premiers_pct": 15.5
     },
     {
       "team": "Geelong",
@@ -2152,8 +2219,8 @@
       "losses": 2,
       "ladder_rank": 12,
       "percentage": 89.7,
-      "finals_pct": 82.7,
-      "premiers_pct": 10.0
+      "finals_pct": 82.6,
+      "premiers_pct": 10.1
     },
     {
       "team": "Fremantle",
@@ -2162,7 +2229,7 @@
       "losses": 1,
       "ladder_rank": 4,
       "percentage": 133.4,
-      "finals_pct": 89.6,
+      "finals_pct": 89.9,
       "premiers_pct": 12.2
     },
     {
@@ -2172,7 +2239,7 @@
       "losses": 1,
       "ladder_rank": 2,
       "percentage": 182.9,
-      "finals_pct": 82.9,
+      "finals_pct": 83.1,
       "premiers_pct": 7.6
     },
     {
@@ -2182,8 +2249,8 @@
       "losses": 1,
       "ladder_rank": 3,
       "percentage": 152.6,
-      "finals_pct": 69.2,
-      "premiers_pct": 4.8
+      "finals_pct": 68.9,
+      "premiers_pct": 5.3
     },
     {
       "team": "Collingwood",
@@ -2192,8 +2259,8 @@
       "losses": 2,
       "ladder_rank": 11,
       "percentage": 93.1,
-      "finals_pct": 61.9,
-      "premiers_pct": 3.5
+      "finals_pct": 62.2,
+      "premiers_pct": 4.0
     },
     {
       "team": "Adelaide",
@@ -2202,8 +2269,8 @@
       "losses": 3,
       "ladder_rank": 10,
       "percentage": 106.4,
-      "finals_pct": 45.5,
-      "premiers_pct": 2.0
+      "finals_pct": 44.9,
+      "premiers_pct": 2.2
     },
     {
       "team": "Greater Western Sydney",
@@ -2212,7 +2279,7 @@
       "losses": 3,
       "ladder_rank": 15,
       "percentage": 76.9,
-      "finals_pct": 30.5,
+      "finals_pct": 30.0,
       "premiers_pct": 1.1
     },
     {
@@ -2222,8 +2289,8 @@
       "losses": 1,
       "ladder_rank": 7,
       "percentage": 102.0,
-      "finals_pct": 28.7,
-      "premiers_pct": 0.5
+      "finals_pct": 29.9,
+      "premiers_pct": 0.6
     },
     {
       "team": "Port Adelaide",
@@ -2232,7 +2299,7 @@
       "losses": 2,
       "ladder_rank": 8,
       "percentage": 117.6,
-      "finals_pct": 8.7,
+      "finals_pct": 8.5,
       "premiers_pct": 0.1
     },
     {
@@ -2242,8 +2309,8 @@
       "losses": 3,
       "ladder_rank": 14,
       "percentage": 86.0,
-      "finals_pct": 4.3,
-      "premiers_pct": 0.0
+      "finals_pct": 4.1,
+      "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
@@ -2252,7 +2319,7 @@
       "losses": 1,
       "ladder_rank": 5,
       "percentage": 115.3,
-      "finals_pct": 11.0,
+      "finals_pct": 10.7,
       "premiers_pct": 0.1
     },
     {

@@ -365,22 +365,22 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     print(f"[TELO] Current year totals: {len(completed)} completed, {len(upcoming)} upcoming")
 
     # Determine current round (earliest round with any upcoming game)
-    upcoming_rounds  = [g.get("round", 0) for g in upcoming  if g.get("round")]
-    completed_rounds = [g.get("round", 0) for g in completed if g.get("round")]
+    upcoming_rounds  = [g.get("round") for g in upcoming  if g.get("round") is not None]
+    completed_rounds = [g.get("round") for g in completed if g.get("round") is not None]
     if upcoming_rounds:
         current_round = min(upcoming_rounds)
     elif completed_rounds:
         current_round = max(completed_rounds)
     else:
-        current_round = 1
+        current_round = 0
 
     print(f"[TELO] Current round: {current_round}")
 
     # ── Build rounds dict ──────────────────────────────────────────────────
     by_round: dict[int, list] = defaultdict(list)
     for g in games:
-        rnum = g.get("round", 0)
-        if rnum:
+        rnum = g.get("round")
+        if rnum is not None:
             by_round[rnum].append(g)
 
     rounds_output: dict[str, dict] = {}

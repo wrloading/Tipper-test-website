@@ -297,14 +297,14 @@
     .r-hdr {
       font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
       letter-spacing: 0.10em; text-transform: uppercase; color: var(--ash);
-      text-align: right; line-height: 1.3; cursor: pointer;
+      line-height: 1.3; cursor: pointer;
       transition: color 150ms ease-out; user-select: none;
-      display: flex; align-items: center; justify-content: flex-end; gap: 2px;
+      display: flex; align-items: center; justify-content: center; gap: 2px;
     }
     .r-hdr:hover { color: var(--pitch); }
     .r-hdr.sort-active { color: var(--midnight); }
     .r-hdr.sort-active::after { content: '↓'; font-size: 8px; }
-    .r-hdr.left { text-align: left; justify-content: flex-start; }
+    .r-hdr.left { justify-content: flex-start; }
 
     .rankings-body {}
 
@@ -326,7 +326,7 @@
 
     .r-nous {
       font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      font-weight: 500; color: var(--ash); text-align: right;
+      font-weight: 500; text-align: center; border-radius: 3px; padding: 2px 3px;
     }
     .r-team {
       font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
@@ -335,19 +335,19 @@
     }
     .r-record {
       font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      color: var(--ash); text-align: right;
+      color: var(--ash); text-align: center;
     }
     .r-pct {
       font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      color: var(--ash); text-align: right;
+      color: var(--ash); text-align: center;
     }
     .r-ladder {
       font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      color: var(--ash); text-align: right;
+      color: var(--ash); text-align: center;
     }
     .r-prob {
       font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      font-weight: 500; text-align: right; border-radius: 3px;
+      font-weight: 500; text-align: center; border-radius: 3px;
       padding: 2px 3px;
     }
 
@@ -537,6 +537,22 @@
       return n.toLocaleString();
     }
 
+    // Map TELO rating to a highlight style (1400–1900 typical range)
+    function teloBg(telo) {
+      const pct = Math.max(0, Math.min(100, (telo - 1400) / 500 * 100));
+      if (pct >= 80) return 'rgba(27,42,74,0.20)';
+      if (pct >= 60) return 'rgba(106,155,188,0.18)';
+      if (pct >= 40) return 'rgba(106,155,188,0.10)';
+      if (pct >= 20) return 'rgba(106,155,188,0.06)';
+      return 'rgba(176,174,165,0.08)';
+    }
+    function teloColor(telo) {
+      const pct = Math.max(0, Math.min(100, (telo - 1400) / 500 * 100));
+      if (pct >= 60) return '#1B2A4A';
+      if (pct >= 30) return '#6A9BBC';
+      return '#B0AEA5';
+    }
+
     function probBg(pct) {
       if (!pct) return 'transparent';
       if (pct >= 80) return 'rgba(27,42,74,0.20)';
@@ -720,9 +736,10 @@
         if (playinTop)    rowCls += ' playin-top';
         if (playinBottom) rowCls += ' playin-bottom';
 
+        const teloStyle = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
         return `
           <div class="${rowCls}">
-            <div class="r-nous">${formatNous(t.telo)}</div>
+            <div class="r-nous" style="${teloStyle}">${formatNous(t.telo)}</div>
             <div class="r-team" title="${t.team}">${abbr(t.team)}</div>
             <div class="r-ladder">${ldrDisplay}</div>
             <div class="r-record">${t.wins}–${t.losses}</div>
