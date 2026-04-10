@@ -821,7 +821,7 @@
 
     async function loadData() {
       try {
-        const res  = await fetch('data/predictions.json');
+        const res  = await fetch(`data/predictions.json?v=${Date.now()}`);
         const data = await res.json();
 
         META     = data.meta     || {};
