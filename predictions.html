@@ -285,35 +285,10 @@
       letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
     }
 
-    /* Sort toggle bar */
-    .sort-bar {
-      display: flex; align-items: center; gap: 4px;
-      padding: 10px 16px 8px;
-      border-bottom: 1px solid var(--stone);
-      flex-wrap: wrap;
-    }
-    .sort-label {
-      font-family: 'JetBrains Mono', monospace; font-size: 8px;
-      letter-spacing: 0.14em; text-transform: uppercase; color: var(--ash);
-      margin-right: 4px; flex-shrink: 0;
-    }
-    .sort-btn {
-      font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      letter-spacing: 0.06em; text-transform: uppercase;
-      border: 1.5px solid var(--stone); border-radius: 20px;
-      padding: 3px 10px; cursor: pointer; background: transparent;
-      color: var(--ash); transition: all 150ms ease-out;
-    }
-    .sort-btn:hover { border-color: var(--ash); color: var(--pitch); }
-    .sort-btn.active {
-      background: var(--midnight); border-color: var(--midnight);
-      color: var(--pampas);
-    }
-
-    /* Column grid: rank# | team | W–L | % | Ladder | Finals | Prem */
+    /* Column grid: TELO | team | Ldr | W–L | % | Finals | Prem */
     .rankings-col-headers {
       display: grid;
-      grid-template-columns: 26px 1fr 40px 52px 36px 44px 44px;
+      grid-template-columns: 52px 1fr 32px 40px 52px 44px 44px;
       padding: 8px 16px 6px;
       gap: 4px;
       background: #FAFAF8;
@@ -324,16 +299,18 @@
       letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
       text-align: right; line-height: 1.3; cursor: pointer;
       transition: color 150ms ease-out; user-select: none;
+      display: flex; align-items: center; justify-content: flex-end; gap: 3px;
     }
     .r-hdr:hover { color: var(--pitch); }
     .r-hdr.sort-active { color: var(--midnight); }
-    .r-hdr.left { text-align: left; }
+    .r-hdr.sort-active::after { content: '↓'; font-size: 8px; }
+    .r-hdr.left { text-align: left; justify-content: flex-start; }
 
     .rankings-body {}
 
     .rank-row {
       display: grid;
-      grid-template-columns: 26px 1fr 40px 52px 36px 44px 44px;
+      grid-template-columns: 52px 1fr 32px 40px 52px 44px 44px;
       padding: 9px 16px;
       gap: 4px;
       align-items: center;
@@ -347,10 +324,6 @@
     .rank-row.playin-top    { border-top: 2px solid rgba(106,155,188,0.5); }
     .rank-row.playin-bottom { border-bottom: 2px solid rgba(106,155,188,0.5); }
 
-    .r-pos {
-      font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      color: var(--stone); text-align: right;
-    }
     .r-nous {
       font-family: 'JetBrains Mono', monospace; font-size: 11px;
       font-weight: 500; color: var(--ash); text-align: right;
@@ -456,22 +429,14 @@
           <div class="rankings-title">Power Rankings</div>
           <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
         </div>
-        <div class="sort-bar">
-          <span class="sort-label">Sort</span>
-          <button class="sort-btn active" data-sort="telo" onclick="setSort('telo')">TELO</button>
-          <button class="sort-btn" data-sort="ladder" onclick="setSort('ladder')">Ladder</button>
-          <button class="sort-btn" data-sort="finals" onclick="setSort('finals')">Finals %</button>
-          <button class="sort-btn" data-sort="prem" onclick="setSort('prem')">Prem %</button>
-          <button class="sort-btn" data-sort="pct" onclick="setSort('pct')">%</button>
-        </div>
         <div class="rankings-col-headers">
-          <div class="r-hdr left">#</div>
-          <div class="r-hdr left">Team</div>
-          <div class="r-hdr">W–L</div>
-          <div class="r-hdr" title="Official ladder percentage">%</div>
-          <div class="r-hdr" title="Official ladder position">Ldr</div>
-          <div class="r-hdr">Finals</div>
-          <div class="r-hdr">Prem.</div>
+          <div class="r-hdr left sort-active" data-sort="telo" onclick="setSort('telo')">TELO</div>
+          <div class="r-hdr left" data-sort="team" onclick="setSort('team')">Team</div>
+          <div class="r-hdr" data-sort="ladder" onclick="setSort('ladder')" title="Official ladder position">Ldr</div>
+          <div class="r-hdr" data-sort="record" onclick="setSort('record')">W–L</div>
+          <div class="r-hdr" data-sort="pct" onclick="setSort('pct')" title="Official ladder percentage">%</div>
+          <div class="r-hdr" data-sort="finals" onclick="setSort('finals')">Finals</div>
+          <div class="r-hdr" data-sort="prem" onclick="setSort('prem')">Prem.</div>
         </div>
         <div class="rankings-body" id="rankings-body"></div>
       </div>
@@ -624,8 +589,8 @@
 
     function setSort(key) {
       currentSort = key;
-      document.querySelectorAll('.sort-btn').forEach(b => {
-        b.classList.toggle('active', b.dataset.sort === key);
+      document.querySelectorAll('.r-hdr').forEach(h => {
+        h.classList.toggle('sort-active', h.dataset.sort === key);
       });
       renderRankings();
     }
@@ -637,24 +602,25 @@
       document.getElementById('rankings-subtitle').textContent =
         `TELO Model · After Round ${prevRound} · ${META.year || 2026} Season`;
 
-      // Sort a copy of RANKINGS by the selected key
+      // Sort a copy of RANKINGS by the selected column
       const sorted = [...RANKINGS].sort((a, b) => {
         switch (currentSort) {
+          case 'team':   return a.team.localeCompare(b.team);
           case 'ladder': return (a.ladder_rank || 99) - (b.ladder_rank || 99);
+          case 'record': return b.wins - a.wins || b.losses - a.losses;
+          case 'pct':    return b.percentage   - a.percentage;
           case 'finals': return b.finals_pct   - a.finals_pct;
           case 'prem':   return b.premiers_pct - a.premiers_pct;
-          case 'pct':    return b.percentage   - a.percentage;
-          default:       return b.telo         - a.telo;  // 'telo'
+          default:       return b.telo         - a.telo;
         }
       });
 
-      // Play-in zone is always based on TELO rank (position in original order)
+      // Play-in zone borders always follow TELO order
       const teloOrder = [...RANKINGS].sort((a, b) => b.telo - a.telo);
       const teloRank  = Object.fromEntries(teloOrder.map((t, i) => [t.team, i + 1]));
 
-      const html = sorted.map((t, i) => {
-        const pos          = i + 1;
-        const tRank        = teloRank[t.team] || pos;
+      const html = sorted.map(t => {
+        const tRank        = teloRank[t.team];
         const playinTop    = tRank === 7;
         const playinBottom = tRank === 10;
         const finals       = Math.round(t.finals_pct);
@@ -665,8 +631,8 @@
           ? `background:${probBg(premiers)};color:${probTextColor(premiers)}`
           : `color:#B0AEA5`;
         const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
-        const pctDisplay   = t.percentage != null ? `${t.percentage.toFixed(1)}` : `—`;
-        const ldrDisplay   = t.ladder_rank > 0 ? `${t.ladder_rank}` : `—`;
+        const pctDisplay   = t.percentage != null ? t.percentage.toFixed(1) : `—`;
+        const ldrDisplay   = t.ladder_rank > 0 ? t.ladder_rank : `—`;
 
         let rowCls = 'rank-row';
         if (playinTop)    rowCls += ' playin-top';
@@ -674,11 +640,11 @@
 
         return `
           <div class="${rowCls}">
-            <div class="r-pos">${pos}</div>
+            <div class="r-nous">${formatNous(t.telo)}</div>
             <div class="r-team">${t.team}</div>
+            <div class="r-ladder">${ldrDisplay}</div>
             <div class="r-record">${t.wins}–${t.losses}</div>
             <div class="r-pct">${pctDisplay}</div>
-            <div class="r-ladder">${ldrDisplay}</div>
             <div class="r-prob" style="${finalsStyle}">${finals}%</div>
             <div class="r-prob" style="${premiersStyle}">${premiersText}</div>
           </div>
