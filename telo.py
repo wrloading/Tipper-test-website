@@ -7,6 +7,12 @@ for all AFL teams, generates game predictions and win probabilities for
 upcoming fixtures, runs a Monte Carlo finals simulation, and writes
 data/predictions.json for the website to consume.
 
+Ratings are built from the last 3 seasons with recency bias:
+  2 seasons ago : K × 0.50
+  1 season ago  : K × 0.75
+  Current season: K × 1.00
+Season-start regression toward the mean is applied between each year.
+
 Usage:
     python telo.py              # Current year
     python telo.py --year 2025  # Specific year (backfill)
@@ -36,6 +42,11 @@ K_FACTOR       = 40.0     # Base K — how fast ratings move (higher = more vola
 HGA            = 65.0     # Home ground advantage in TELO points (~6pt margin equiv)
 MARGIN_SCALE   = 0.025    # Log-margin multiplier weight (rewards blowouts slightly)
 SEASON_REGRESS = 0.25     # Fraction regressed toward mean at season start
+
+# Recency bias: K-factor scaling per season (oldest → newest)
+# Seasons processed: [current-2, current-1, current]
+RECENCY_WEIGHTS = [0.50, 0.75, 1.00]
+HISTORY_YEARS   = 3       # How many seasons to look back (including current)
 
 # Margin prediction calibration
 # Empirically: each 100 TELO pts ≈ ~25 pts AFL margin
@@ -101,9 +112,11 @@ def margin_k_multiplier(margin: float) -> float:
 
 def process_game(ratings: dict, home: str, away: str,
                  home_score: int, away_score: int,
-                 neutral: bool = False) -> tuple[float, float]:
+                 neutral: bool = False,
+                 k_scale: float = 1.0) -> tuple[float, float]:
     """
     Update TELO ratings after a completed game.
+    k_scale: multiplier on K_FACTOR for recency bias (0–1).
     Returns (home_delta, away_delta).
     """
     h = ratings.get(home, INITIAL_TELO)
@@ -120,7 +133,7 @@ def process_game(ratings: dict, home: str, away: str,
     margin = abs(home_score - away_score)
     mult   = margin_k_multiplier(margin)
 
-    delta         = K_FACTOR * mult * (actual - exp)
+    delta         = K_FACTOR * k_scale * mult * (actual - exp)
     ratings[home] = h + delta
     ratings[away] = a - delta
     return delta, -delta
@@ -288,8 +301,53 @@ def round_date_range(games: list[dict]) -> str:
 # ─── MAIN PIPELINE ───────────────────────────────────────────────────────────
 
 def build_predictions(year: int, dry_run: bool = False) -> dict:
-    print(f"[TELO] Fetching {year} AFL data from Squiggle API...")
+    # ── Build multi-season ratings with recency bias ───────────────────────
+    seasons = list(range(year - HISTORY_YEARS + 1, year + 1))  # e.g. [2024, 2025, 2026]
+    weights = RECENCY_WEIGHTS  # [0.50, 0.75, 1.00]
 
+    ratings: dict[str, float] = {}
+    all_teams: set[str] = set()
+
+    for season, k_scale in zip(seasons, weights):
+        print(f"[TELO] Fetching {season} AFL data (K×{k_scale:.2f})...")
+        try:
+            season_games = fetch_games(season)
+        except Exception:
+            print(f"[TELO] ⚠ Could not fetch {season} data, skipping.", file=sys.stderr)
+            continue
+
+        if not season_games:
+            print(f"[TELO] ⚠ No games for {season}, skipping.", file=sys.stderr)
+            continue
+
+        # Collect team names
+        for g in season_games:
+            if g.get("hteam"): all_teams.add(g["hteam"])
+            if g.get("ateam"): all_teams.add(g["ateam"])
+
+        # Initialise any new teams at INITIAL_TELO
+        for t in all_teams:
+            if t not in ratings:
+                ratings[t] = INITIAL_TELO
+
+        # Apply season-start regression (skip for the very first season processed)
+        if ratings and season > seasons[0]:
+            ratings = regress_toward_mean(ratings)
+
+        # Process completed games for this season
+        completed_season = [g for g in season_games if g.get("complete") == 100]
+        print(f"[TELO]   {season}: {len(completed_season)} completed games")
+        for g in completed_season:
+            home = g.get("hteam", "")
+            away = g.get("ateam", "")
+            hs   = g.get("hscore")
+            as_  = g.get("ascore")
+            if not (home and away and hs is not None and as_ is not None):
+                continue
+            process_game(ratings, home, away, int(hs), int(as_), k_scale=k_scale)
+
+    # Current year data is the last season
+    print(f"[TELO] Fetching {year} standings and upcoming fixtures...")
     games     = fetch_games(year)
     standings = fetch_standings(year)
 
@@ -301,30 +359,11 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     wins_map   = {s["name"]: int(s.get("wins",   0)) for s in standings}
     losses_map = {s["name"]: int(s.get("losses", 0)) for s in standings}
 
-    # Collect all team names across all games
-    all_teams: set[str] = set()
-    for g in games:
-        if g.get("hteam"): all_teams.add(g["hteam"])
-        if g.get("ateam"): all_teams.add(g["ateam"])
-
-    # Initialise ratings
-    ratings: dict[str, float] = {t: INITIAL_TELO for t in all_teams}
-
-    # Separate completed vs upcoming
+    # Separate completed vs upcoming for current year
     completed = [g for g in games if g.get("complete") == 100]
     upcoming  = [g for g in games if g.get("complete") != 100]
 
-    print(f"[TELO] Processing {len(completed)} completed games, {len(upcoming)} upcoming...")
-
-    # Feed all completed games through the model
-    for g in completed:
-        home = g.get("hteam", "")
-        away = g.get("ateam", "")
-        hs   = g.get("hscore")
-        as_  = g.get("ascore")
-        if not (home and away and hs is not None and as_ is not None):
-            continue
-        process_game(ratings, home, away, int(hs), int(as_))
+    print(f"[TELO] Current year totals: {len(completed)} completed, {len(upcoming)} upcoming")
 
     # Determine current round (earliest round with any upcoming game)
     upcoming_rounds  = [g.get("round", 0) for g in upcoming  if g.get("round")]
