@@ -762,7 +762,8 @@
       Object.values(ROUNDS).forEach(rd => {
         rd.games.forEach(raw => {
           const g = normaliseGame(raw);
-          if (g.homeScore == null || g.awayScore == null) return; // not played yet
+          // Only include games with confirmed final scores
+          if (raw.home_score == null || raw.away_score == null) return;
 
           total++;
           const homeWon    = g.homeScore > g.awayScore;
