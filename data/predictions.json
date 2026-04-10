@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-10T15:29:14.903834+10:00",
+    "updated": "2026-04-10T15:41:45.207645+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v1.0",
@@ -18,8 +18,9 @@
           "venue": "S.C.G.",
           "datetime": "Thu 5 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 57.7,
-          "home_prob": 79.1,
+          "margin": 53.9,
+          "home_prob": 77.6,
+          "complete": true,
           "home_score": 132,
           "away_score": 69,
           "upset": false
@@ -30,8 +31,9 @@
           "venue": "Carrara",
           "datetime": "Fri 6 Mar \u00b7 8:05pm AEDT",
           "home_fav": true,
-          "margin": 7.3,
-          "home_prob": 54.2,
+          "margin": 10.9,
+          "home_prob": 56.2,
+          "complete": true,
           "home_score": 125,
           "away_score": 69,
           "upset": false
@@ -42,8 +44,9 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 7 Mar \u00b7 4:15pm AEDT",
           "home_fav": false,
-          "margin": 7.9,
-          "home_prob": 45.5,
+          "margin": 7.4,
+          "home_prob": 45.8,
+          "complete": true,
           "home_score": 122,
           "away_score": 95,
           "upset": true
@@ -54,8 +57,9 @@
           "venue": "Gabba",
           "datetime": "Sat 7 Mar \u00b7 7:35pm AEDT",
           "home_fav": true,
-          "margin": 13.9,
-          "home_prob": 57.9,
+          "margin": 11.5,
+          "home_prob": 56.6,
+          "complete": true,
           "home_score": 106,
           "away_score": 111,
           "upset": true
@@ -66,8 +70,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 8 Mar \u00b7 7:20pm AEDT",
           "home_fav": false,
-          "margin": 14.1,
-          "home_prob": 42.0,
+          "margin": 12.7,
+          "home_prob": 42.7,
+          "complete": true,
           "home_score": 66,
           "away_score": 78,
           "upset": false
@@ -85,8 +90,9 @@
           "venue": "M.C.G.",
           "datetime": "Thu 12 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 41.6,
-          "home_prob": 72.3,
+          "margin": 35.1,
+          "home_prob": 69.2,
+          "complete": true,
           "home_score": 75,
           "away_score": 71,
           "upset": false
@@ -97,8 +103,9 @@
           "venue": "M.C.G.",
           "datetime": "Fri 13 Mar \u00b7 7:40pm AEDT",
           "home_fav": false,
-          "margin": 56.6,
-          "home_prob": 21.4,
+          "margin": 53.0,
+          "home_prob": 22.8,
+          "complete": true,
           "home_score": 83,
           "away_score": 145,
           "upset": false
@@ -109,8 +116,9 @@
           "venue": "Docklands",
           "datetime": "Sat 14 Mar \u00b7 1:15pm AEDT",
           "home_fav": true,
-          "margin": 42.5,
-          "home_prob": 72.7,
+          "margin": 42.9,
+          "home_prob": 72.8,
+          "complete": true,
           "home_score": 134,
           "away_score": 53,
           "upset": false
@@ -121,8 +129,9 @@
           "venue": "Kardinia Park",
           "datetime": "Sat 14 Mar \u00b7 4:15pm AEDT",
           "home_fav": true,
-          "margin": 17.6,
-          "home_prob": 60.0,
+          "margin": 15.4,
+          "home_prob": 58.8,
+          "complete": true,
           "home_score": 110,
           "away_score": 100,
           "upset": false
@@ -133,8 +142,9 @@
           "venue": "S.C.G.",
           "datetime": "Sat 14 Mar \u00b7 7:10pm AEDT",
           "home_fav": true,
-          "margin": 3.4,
-          "home_prob": 52.0,
+          "margin": 4.5,
+          "home_prob": 52.6,
+          "complete": true,
           "home_score": 104,
           "away_score": 60,
           "upset": false
@@ -145,8 +155,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 14 Mar \u00b7 7:35pm AEDT",
           "home_fav": true,
-          "margin": 19.5,
-          "home_prob": 61.1,
+          "margin": 17.0,
+          "home_prob": 59.7,
+          "complete": true,
           "home_score": 79,
           "away_score": 93,
           "upset": true
@@ -157,8 +168,9 @@
           "venue": "Docklands",
           "datetime": "Sun 15 Mar \u00b7 1:10pm AEDT",
           "home_fav": true,
-          "margin": 8.7,
-          "home_prob": 55.0,
+          "margin": 16.1,
+          "home_prob": 59.1,
+          "complete": true,
           "home_score": 113,
           "away_score": 67,
           "upset": false
@@ -169,8 +181,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 15 Mar \u00b7 3:15pm AEDT",
           "home_fav": true,
-          "margin": 26.5,
-          "home_prob": 64.8,
+          "margin": 27.9,
+          "home_prob": 65.5,
+          "complete": true,
           "home_score": 120,
           "away_score": 107,
           "upset": false
@@ -181,8 +194,9 @@
           "venue": "Carrara",
           "datetime": "Sun 15 Mar \u00b7 6:10pm AEDT",
           "home_fav": true,
-          "margin": 71.9,
-          "home_prob": 84.0,
+          "margin": 67.4,
+          "home_prob": 82.5,
+          "complete": true,
           "home_score": 131,
           "away_score": 72,
           "upset": false
@@ -200,8 +214,9 @@
           "venue": "M.C.G.",
           "datetime": "Thu 19 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 29.4,
-          "home_prob": 66.3,
+          "margin": 29.7,
+          "home_prob": 66.5,
+          "complete": true,
           "home_score": 99,
           "away_score": 82,
           "upset": false
@@ -212,8 +227,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 20 Mar \u00b7 7:40pm AEDT",
           "home_fav": false,
-          "margin": 4.7,
-          "home_prob": 47.3,
+          "margin": 1.9,
+          "home_prob": 48.9,
+          "complete": true,
           "home_score": 88,
           "away_score": 94,
           "upset": false
@@ -224,8 +240,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 21 Mar \u00b7 1:15pm AEDT",
           "home_fav": false,
-          "margin": 49.4,
-          "home_prob": 24.3,
+          "margin": 43.3,
+          "home_prob": 27.0,
+          "complete": true,
           "home_score": 60,
           "away_score": 128,
           "upset": false
@@ -236,8 +253,9 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 21 Mar \u00b7 4:15pm AEDT",
           "home_fav": true,
-          "margin": 38.0,
-          "home_prob": 70.6,
+          "margin": 35.9,
+          "home_prob": 69.6,
+          "complete": true,
           "home_score": 74,
           "away_score": 78,
           "upset": true
@@ -248,8 +266,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 21 Mar \u00b7 7:35pm AEDT",
           "home_fav": true,
-          "margin": 45.3,
-          "home_prob": 73.9,
+          "margin": 43.7,
+          "home_prob": 73.2,
+          "complete": true,
           "home_score": 118,
           "away_score": 70,
           "upset": false
@@ -260,8 +279,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 22 Mar \u00b7 3:15pm AEDT",
           "home_fav": true,
-          "margin": 46.4,
-          "home_prob": 74.4,
+          "margin": 44.2,
+          "home_prob": 73.5,
+          "complete": true,
           "home_score": 133,
           "away_score": 70,
           "upset": false
@@ -272,8 +292,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sun 22 Mar \u00b7 6:10pm AEDT",
           "home_fav": false,
-          "margin": 3.5,
-          "home_prob": 48.0,
+          "margin": 3.8,
+          "home_prob": 47.8,
+          "complete": true,
           "home_score": 111,
           "away_score": 94,
           "upset": true
@@ -291,8 +312,9 @@
           "venue": "Kardinia Park",
           "datetime": "Thu 26 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 29.8,
-          "home_prob": 66.5,
+          "margin": 26.3,
+          "home_prob": 64.7,
+          "complete": true,
           "home_score": 68,
           "away_score": 60,
           "upset": false
@@ -303,8 +325,9 @@
           "venue": "Docklands",
           "datetime": "Fri 27 Mar \u00b7 7:40pm AEDT",
           "home_fav": true,
-          "margin": 24.8,
-          "home_prob": 63.9,
+          "margin": 25.6,
+          "home_prob": 64.3,
+          "complete": true,
           "home_score": 87,
           "away_score": 54,
           "upset": false
@@ -315,8 +338,9 @@
           "venue": "Docklands",
           "datetime": "Sat 28 Mar \u00b7 12:35pm AEDT",
           "home_fav": false,
-          "margin": 29.3,
-          "home_prob": 33.7,
+          "margin": 25.3,
+          "home_prob": 35.8,
+          "complete": true,
           "home_score": 80,
           "away_score": 113,
           "upset": false
@@ -327,8 +351,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 28 Mar \u00b7 4:15pm AEDT",
           "home_fav": true,
-          "margin": 89.5,
-          "home_prob": 88.7,
+          "margin": 82.0,
+          "home_prob": 86.9,
+          "complete": true,
           "home_score": 103,
           "away_score": 43,
           "upset": false
@@ -339,8 +364,9 @@
           "venue": "Docklands",
           "datetime": "Sat 28 Mar \u00b7 7:35pm AEDT",
           "home_fav": false,
-          "margin": 6.3,
-          "home_prob": 46.4,
+          "margin": 11.5,
+          "home_prob": 43.4,
+          "complete": true,
           "home_score": 69,
           "away_score": 81,
           "upset": false
@@ -351,8 +377,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 29 Mar \u00b7 12:30pm AEDT",
           "home_fav": true,
-          "margin": 43.5,
-          "home_prob": 73.2,
+          "margin": 36.5,
+          "home_prob": 69.8,
+          "complete": true,
           "home_score": 90,
           "away_score": 92,
           "upset": true
@@ -363,8 +390,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 29 Mar \u00b7 3:15pm AEDT",
           "home_fav": false,
-          "margin": 2.7,
-          "home_prob": 48.5,
+          "margin": 3.2,
+          "home_prob": 48.1,
+          "complete": true,
           "home_score": 77,
           "away_score": 100,
           "upset": false
@@ -382,8 +410,9 @@
           "venue": "Gabba",
           "datetime": "Thu 2 Apr \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 31.5,
-          "home_prob": 67.4,
+          "margin": 28.9,
+          "home_prob": 66.0,
+          "complete": true,
           "home_score": 119,
           "away_score": 65,
           "upset": false
@@ -394,8 +423,9 @@
           "venue": "Docklands",
           "datetime": "Fri 3 Apr \u00b7 3:15pm AEDT",
           "home_fav": true,
-          "margin": 20.6,
-          "home_prob": 61.6,
+          "margin": 25.8,
+          "home_prob": 64.4,
+          "complete": true,
           "home_score": 96,
           "away_score": 86,
           "upset": false
@@ -406,8 +436,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 3 Apr \u00b7 7:15pm AEDT",
           "home_fav": true,
-          "margin": 4.0,
-          "home_prob": 52.3,
+          "margin": 5.3,
+          "home_prob": 53.0,
+          "complete": true,
           "home_score": 76,
           "away_score": 78,
           "upset": true
@@ -418,8 +449,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 4 Apr \u00b7 4:15pm AEDT",
           "home_fav": false,
-          "margin": 21.0,
-          "home_prob": 38.1,
+          "margin": 12.3,
+          "home_prob": 42.9,
+          "complete": true,
           "home_score": 48,
           "away_score": 90,
           "upset": false
@@ -430,8 +462,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 4 Apr \u00b7 7:35pm AEDT",
           "home_fav": false,
-          "margin": 40.6,
-          "home_prob": 28.2,
+          "margin": 31.8,
+          "home_prob": 32.5,
+          "complete": true,
           "home_score": 35,
           "away_score": 163,
           "upset": false
@@ -442,8 +475,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 5 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 5.2,
-          "home_prob": 47.0,
+          "margin": 5.0,
+          "home_prob": 47.1,
+          "complete": true,
           "home_score": 109,
           "away_score": 89,
           "upset": true
@@ -454,8 +488,9 @@
           "venue": "Docklands",
           "datetime": "Sun 5 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 91.1,
-          "home_prob": 89.1,
+          "margin": 88.5,
+          "home_prob": 88.5,
+          "complete": true,
           "home_score": 99,
           "away_score": 65,
           "upset": false
@@ -466,8 +501,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 21.5,
-          "home_prob": 62.2,
+          "margin": 21.3,
+          "home_prob": 62.0,
+          "complete": true,
           "home_score": 92,
           "away_score": 91,
           "upset": false
@@ -485,8 +521,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 9 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 52.0,
-          "home_prob": 76.8,
+          "margin": 52.3,
+          "home_prob": 76.9,
+          "complete": true,
           "home_score": 114,
           "away_score": 86,
           "upset": false
@@ -497,8 +534,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 10 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 7.3,
-          "home_prob": 54.2
+          "margin": 6.1,
+          "home_prob": 53.5,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -506,8 +544,9 @@
           "venue": "Barossa Park",
           "datetime": "Sat 11 Apr \u00b7 12:35pm AEST",
           "home_fav": false,
-          "margin": 33.7,
-          "home_prob": 31.5
+          "margin": 23.6,
+          "home_prob": 36.8,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -515,8 +554,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 11 Apr \u00b7 1:15pm AEST",
           "home_fav": false,
-          "margin": 20.9,
-          "home_prob": 38.2
+          "margin": 21.4,
+          "home_prob": 37.9,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -524,8 +564,9 @@
           "venue": "Norwood Oval",
           "datetime": "Sat 11 Apr \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 17.4,
-          "home_prob": 59.9
+          "margin": 13.1,
+          "home_prob": 57.5,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -533,8 +574,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 11 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 14.2,
-          "home_prob": 58.1
+          "margin": 13.2,
+          "home_prob": 57.6,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -542,8 +584,9 @@
           "venue": "Norwood Oval",
           "datetime": "Sun 12 Apr \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 80.9,
-          "home_prob": 86.6
+          "margin": 72.8,
+          "home_prob": 84.2,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -551,8 +594,9 @@
           "venue": "Barossa Park",
           "datetime": "Sun 12 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 72.0,
-          "home_prob": 84.0
+          "margin": 62.6,
+          "home_prob": 80.9,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -560,8 +604,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 12 Apr \u00b7 7:15pm AEST",
           "home_fav": true,
-          "margin": 19.5,
-          "home_prob": 61.0
+          "margin": 18.2,
+          "home_prob": 60.3,
+          "complete": false
         }
       ]
     },
@@ -576,8 +621,9 @@
           "venue": "M.C.G.",
           "datetime": "Thu 16 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 22.8,
-          "home_prob": 37.2
+          "margin": 20.5,
+          "home_prob": 38.4,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -585,8 +631,9 @@
           "venue": "Kardinia Park",
           "datetime": "Fri 17 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 8.9,
-          "home_prob": 55.1
+          "margin": 8.2,
+          "home_prob": 54.7,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -594,8 +641,9 @@
           "venue": "S.C.G.",
           "datetime": "Fri 17 Apr \u00b7 7:50pm AEST",
           "home_fav": true,
-          "margin": 27.3,
-          "home_prob": 65.2
+          "margin": 26.4,
+          "home_prob": 64.7,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -603,8 +651,9 @@
           "venue": "Carrara",
           "datetime": "Sat 18 Apr \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 74.8,
-          "home_prob": 84.8
+          "margin": 75.1,
+          "home_prob": 84.9,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -612,8 +661,9 @@
           "venue": "Docklands",
           "datetime": "Sat 18 Apr \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 58.9,
-          "home_prob": 79.5
+          "margin": 57.6,
+          "home_prob": 79.0,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -621,8 +671,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 18 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 43.3,
-          "home_prob": 73.0
+          "margin": 44.5,
+          "home_prob": 73.6,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -630,8 +681,9 @@
           "venue": "Docklands",
           "datetime": "Sun 19 Apr \u00b7 1:10pm AEST",
           "home_fav": true,
-          "margin": 45.9,
-          "home_prob": 74.2
+          "margin": 44.6,
+          "home_prob": 73.7,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -639,8 +691,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 19 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 19.1,
-          "home_prob": 39.2
+          "margin": 13.7,
+          "home_prob": 42.2,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -648,8 +701,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sun 19 Apr \u00b7 5:10pm AEST",
           "home_fav": false,
-          "margin": 47.1,
-          "home_prob": 25.3
+          "margin": 41.2,
+          "home_prob": 27.9,
+          "complete": false
         }
       ]
     },
@@ -664,8 +718,9 @@
           "venue": "Docklands",
           "datetime": "Thu 23 Apr \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 31.4,
-          "home_prob": 67.3
+          "margin": 32.7,
+          "home_prob": 68.0,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -673,8 +728,9 @@
           "venue": "M.C.G.",
           "datetime": "Fri 24 Apr \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 28.0,
-          "home_prob": 34.4
+          "margin": 22.0,
+          "home_prob": 37.6,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -682,8 +738,9 @@
           "venue": "York Park",
           "datetime": "Sat 25 Apr \u00b7 12:15pm AEST",
           "home_fav": true,
-          "margin": 30.5,
-          "home_prob": 66.9
+          "margin": 26.6,
+          "home_prob": 64.9,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -691,8 +748,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 25 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 41.0,
-          "home_prob": 28.0
+          "margin": 38.7,
+          "home_prob": 29.1,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -700,8 +758,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 25 Apr \u00b7 6:35pm AEST",
           "home_fav": false,
-          "margin": 21.1,
-          "home_prob": 38.1
+          "margin": 20.1,
+          "home_prob": 38.7,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -709,8 +768,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 25 Apr \u00b7 8:15pm AEST",
           "home_fav": true,
-          "margin": 64.2,
-          "home_prob": 81.4
+          "margin": 63.2,
+          "home_prob": 81.1,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -718,8 +778,9 @@
           "venue": "Docklands",
           "datetime": "Sun 26 Apr \u00b7 1:10pm AEST",
           "home_fav": true,
-          "margin": 40.3,
-          "home_prob": 71.7
+          "margin": 34.5,
+          "home_prob": 68.9,
+          "complete": false
         },
         {
           "home": "Brisbane Lions",
@@ -727,8 +788,9 @@
           "venue": "Gabba",
           "datetime": "Sun 26 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 34.8,
-          "home_prob": 69.0
+          "margin": 29.6,
+          "home_prob": 66.4,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -736,8 +798,9 @@
           "venue": "Manuka Oval",
           "datetime": "Sun 26 Apr \u00b7 4:40pm AEST",
           "home_fav": true,
-          "margin": 42.4,
-          "home_prob": 72.6
+          "margin": 34.2,
+          "home_prob": 68.7,
+          "complete": false
         }
       ]
     },
@@ -752,8 +815,9 @@
           "venue": "M.C.G.",
           "datetime": "Thu 30 Apr \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 0.7,
-          "home_prob": 50.4
+          "margin": 1.9,
+          "home_prob": 51.1,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -761,8 +825,9 @@
           "venue": "Docklands",
           "datetime": "Fri 1 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 24.9,
-          "home_prob": 64.0
+          "margin": 23.4,
+          "home_prob": 63.2,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -770,8 +835,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 1 May \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 40.1,
-          "home_prob": 71.6
+          "margin": 42.5,
+          "home_prob": 72.7,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -779,8 +845,9 @@
           "venue": "Docklands",
           "datetime": "Sat 2 May \u00b7 12:35pm AEST",
           "home_fav": false,
-          "margin": 56.3,
-          "home_prob": 21.5
+          "margin": 51.3,
+          "home_prob": 23.5,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -788,8 +855,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 2 May \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 26.2,
-          "home_prob": 64.6
+          "margin": 24.6,
+          "home_prob": 63.8,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -797,8 +865,9 @@
           "venue": "Kardinia Park",
           "datetime": "Sat 2 May \u00b7 4:35pm AEST",
           "home_fav": true,
-          "margin": 61.2,
-          "home_prob": 80.4
+          "margin": 52.7,
+          "home_prob": 77.1,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -806,8 +875,9 @@
           "venue": "Docklands",
           "datetime": "Sat 2 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 7.6,
-          "home_prob": 54.3
+          "margin": 8.4,
+          "home_prob": 54.8,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -815,8 +885,9 @@
           "venue": "S.C.G.",
           "datetime": "Sun 3 May \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 38.8,
-          "home_prob": 71.0
+          "margin": 34.4,
+          "home_prob": 68.8,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -824,8 +895,9 @@
           "venue": "Carrara",
           "datetime": "Sun 3 May \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 26.1,
-          "home_prob": 64.6
+          "margin": 29.5,
+          "home_prob": 66.3,
+          "complete": false
         }
       ]
     },
@@ -840,8 +912,9 @@
           "venue": "Perth Stadium",
           "datetime": "Thu 7 May \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 9.6,
-          "home_prob": 55.5
+          "margin": 12.1,
+          "home_prob": 56.9,
+          "complete": false
         },
         {
           "home": "Brisbane Lions",
@@ -849,8 +922,9 @@
           "venue": "Gabba",
           "datetime": "Fri 8 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 70.5,
-          "home_prob": 83.5
+          "margin": 65.7,
+          "home_prob": 81.9,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -858,8 +932,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 8 May \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 28.5,
-          "home_prob": 34.2
+          "margin": 28.1,
+          "home_prob": 34.4,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -867,8 +942,9 @@
           "venue": "Docklands",
           "datetime": "Sat 9 May \u00b7 1:15pm AEST",
           "home_fav": false,
-          "margin": 20.9,
-          "home_prob": 38.2
+          "margin": 11.8,
+          "home_prob": 43.3,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -876,8 +952,9 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 9 May \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 64.9,
-          "home_prob": 81.7
+          "margin": 61.9,
+          "home_prob": 80.6,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -885,8 +962,9 @@
           "venue": "Marrara Oval",
           "datetime": "Sat 9 May \u00b7 7:10pm AEST",
           "home_fav": true,
-          "margin": 47.9,
-          "home_prob": 75.1
+          "margin": 49.2,
+          "home_prob": 75.6,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -894,8 +972,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 9 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 26.5,
-          "home_prob": 64.8
+          "margin": 25.5,
+          "home_prob": 64.3,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -903,8 +982,9 @@
           "venue": "Docklands",
           "datetime": "Sun 10 May \u00b7 1:10pm AEST",
           "home_fav": true,
-          "margin": 50.5,
-          "home_prob": 76.2
+          "margin": 46.2,
+          "home_prob": 74.3,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -912,8 +992,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 10 May \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 44.8,
-          "home_prob": 26.3
+          "margin": 38.6,
+          "home_prob": 29.2,
+          "complete": false
         }
       ]
     },
@@ -928,8 +1009,9 @@
           "venue": "Gabba",
           "datetime": "Thu 14 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 21.2,
-          "home_prob": 62.0
+          "margin": 19.6,
+          "home_prob": 61.1,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -937,8 +1019,9 @@
           "venue": "S.C.G.",
           "datetime": "Fri 15 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 18.7,
-          "home_prob": 60.6
+          "margin": 17.1,
+          "home_prob": 59.7,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -946,8 +1029,9 @@
           "venue": "Marrara Oval",
           "datetime": "Fri 15 May \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 44.7,
-          "home_prob": 73.7
+          "margin": 47.2,
+          "home_prob": 74.8,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -955,8 +1039,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 16 May \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 47.6,
-          "home_prob": 75.0
+          "margin": 42.7,
+          "home_prob": 72.8,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -964,8 +1049,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 16 May \u00b7 4:15pm AEST",
           "home_fav": false,
-          "margin": 19.4,
-          "home_prob": 39.0
+          "margin": 15.4,
+          "home_prob": 41.2,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -973,8 +1059,9 @@
           "venue": "Docklands",
           "datetime": "Sat 16 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 40.4,
-          "home_prob": 28.3
+          "margin": 37.9,
+          "home_prob": 29.5,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -982,8 +1069,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 17 May \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 50.0,
-          "home_prob": 24.0
+          "margin": 48.9,
+          "home_prob": 24.5,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -991,8 +1079,9 @@
           "venue": "Docklands",
           "datetime": "Sun 17 May \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 50.3,
-          "home_prob": 76.1
+          "margin": 42.9,
+          "home_prob": 72.9,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1000,8 +1089,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sun 17 May \u00b7 6:15pm AEST",
           "home_fav": false,
-          "margin": 29.6,
-          "home_prob": 33.6
+          "margin": 21.7,
+          "home_prob": 37.8,
+          "complete": false
         }
       ]
     },
@@ -1016,8 +1106,9 @@
           "venue": "York Park",
           "datetime": "Thu 21 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 35.1,
-          "home_prob": 69.2
+          "margin": 31.3,
+          "home_prob": 67.3,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1025,8 +1116,9 @@
           "venue": "M.C.G.",
           "datetime": "Fri 22 May \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 9.2,
-          "home_prob": 55.3
+          "margin": 15.6,
+          "home_prob": 58.9,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -1034,8 +1126,9 @@
           "venue": "Perth Stadium",
           "datetime": "Fri 22 May \u00b7 8:30pm AEST",
           "home_fav": true,
-          "margin": 55.5,
-          "home_prob": 78.2
+          "margin": 55.4,
+          "home_prob": 78.2,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1043,8 +1136,9 @@
           "venue": "Docklands",
           "datetime": "Sat 23 May \u00b7 1:15pm AEST",
           "home_fav": false,
-          "margin": 19.7,
-          "home_prob": 38.8
+          "margin": 14.9,
+          "home_prob": 41.5,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -1052,8 +1146,9 @@
           "venue": "Kardinia Park",
           "datetime": "Sat 23 May \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 24.1,
-          "home_prob": 63.5
+          "margin": 24.7,
+          "home_prob": 63.9,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1061,8 +1156,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 23 May \u00b7 4:35pm AEST",
           "home_fav": true,
-          "margin": 70.6,
-          "home_prob": 83.6
+          "margin": 63.5,
+          "home_prob": 81.2,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1070,8 +1166,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 23 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 28.2,
-          "home_prob": 65.7
+          "margin": 26.0,
+          "home_prob": 64.5,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1079,8 +1176,9 @@
           "venue": "Sydney Showground",
           "datetime": "Sun 24 May \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 7.6,
-          "home_prob": 45.6
+          "margin": 5.7,
+          "home_prob": 46.8,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -1088,8 +1186,9 @@
           "venue": "Docklands",
           "datetime": "Sun 24 May \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 54.0,
-          "home_prob": 77.6
+          "margin": 50.9,
+          "home_prob": 76.3,
+          "complete": false
         }
       ]
     },
@@ -1104,8 +1203,9 @@
           "venue": "Docklands",
           "datetime": "Thu 28 May \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 29.6,
-          "home_prob": 33.6
+          "margin": 27.0,
+          "home_prob": 34.9,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -1113,8 +1213,9 @@
           "venue": "M.C.G.",
           "datetime": "Fri 29 May \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 33.0,
-          "home_prob": 31.8
+          "margin": 29.8,
+          "home_prob": 33.5,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -1122,8 +1223,9 @@
           "venue": "S.C.G.",
           "datetime": "Sat 30 May \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 83.1,
-          "home_prob": 87.1
+          "margin": 72.7,
+          "home_prob": 84.2,
+          "complete": false
         },
         {
           "home": "Brisbane Lions",
@@ -1131,8 +1233,9 @@
           "venue": "Gabba",
           "datetime": "Sat 30 May \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 22.6,
-          "home_prob": 62.7
+          "margin": 18.7,
+          "home_prob": 60.6,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -1140,8 +1243,9 @@
           "venue": "Docklands",
           "datetime": "Sat 30 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 33.9,
-          "home_prob": 68.6
+          "margin": 33.6,
+          "home_prob": 68.4,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -1149,8 +1253,9 @@
           "venue": "Traeger Park",
           "datetime": "Sun 31 May \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 4.7,
-          "home_prob": 52.7
+          "margin": 8.2,
+          "home_prob": 54.7,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1158,8 +1263,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sun 31 May \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 19.1,
-          "home_prob": 60.8
+          "margin": 24.0,
+          "home_prob": 63.5,
+          "complete": false
         }
       ]
     },
@@ -1174,8 +1280,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 4 Jun \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 2.7,
-          "home_prob": 51.5
+          "margin": 6.2,
+          "home_prob": 53.6,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -1183,8 +1290,9 @@
           "venue": "M.C.G.",
           "datetime": "Fri 5 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 14.2,
-          "home_prob": 58.1
+          "margin": 13.2,
+          "home_prob": 57.6,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1192,8 +1300,9 @@
           "venue": "Hands Oval",
           "datetime": "Sat 6 Jun \u00b7 2:15pm AEST",
           "home_fav": false,
-          "margin": 27.4,
-          "home_prob": 34.7
+          "margin": 21.1,
+          "home_prob": 38.1,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -1201,8 +1310,9 @@
           "venue": "Carrara",
           "datetime": "Sat 6 Jun \u00b7 5:15pm AEST",
           "home_fav": true,
-          "margin": 2.3,
-          "home_prob": 51.3
+          "margin": 7.6,
+          "home_prob": 54.3,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1210,8 +1320,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 6 Jun \u00b7 8:15pm AEST",
           "home_fav": false,
-          "margin": 11.0,
-          "home_prob": 43.7
+          "margin": 4.0,
+          "home_prob": 47.7,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -1219,8 +1330,9 @@
           "venue": "S.C.G.",
           "datetime": "Sun 7 Jun \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 49.0,
-          "home_prob": 75.6
+          "margin": 46.1,
+          "home_prob": 74.3,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -1228,8 +1340,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 7 Jun \u00b7 7:20pm AEST",
           "home_fav": false,
-          "margin": 2.0,
-          "home_prob": 48.9
+          "margin": 1.9,
+          "home_prob": 48.9,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1237,8 +1350,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 8 Jun \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 36.3,
-          "home_prob": 69.8
+          "margin": 33.6,
+          "home_prob": 68.4,
+          "complete": false
         }
       ]
     },
@@ -1253,8 +1367,9 @@
           "venue": "Docklands",
           "datetime": "Thu 11 Jun \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 37.2,
-          "home_prob": 70.2
+          "margin": 34.4,
+          "home_prob": 68.8,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -1262,8 +1377,9 @@
           "venue": "Kardinia Park",
           "datetime": "Fri 12 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 25.2,
-          "home_prob": 64.1
+          "margin": 21.6,
+          "home_prob": 62.2,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -1271,8 +1387,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 13 Jun \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 53.4,
-          "home_prob": 77.4
+          "margin": 53.9,
+          "home_prob": 77.6,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1280,8 +1397,9 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 13 Jun \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 36.0,
-          "home_prob": 69.6
+          "margin": 36.3,
+          "home_prob": 69.8,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1289,8 +1407,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 13 Jun \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 13.3,
-          "home_prob": 42.4
+          "margin": 11.6,
+          "home_prob": 43.4,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1298,8 +1417,9 @@
           "venue": "Bellerive Oval",
           "datetime": "Sun 14 Jun \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 63.4,
-          "home_prob": 18.9
+          "margin": 52.0,
+          "home_prob": 23.2,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -1307,8 +1427,9 @@
           "venue": "Docklands",
           "datetime": "Sun 14 Jun \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 5.5,
-          "home_prob": 46.8
+          "margin": 3.4,
+          "home_prob": 48.0,
+          "complete": false
         }
       ]
     },
@@ -1323,8 +1444,9 @@
           "venue": "Perth Stadium",
           "datetime": "Thu 18 Jun \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 14.9,
-          "home_prob": 58.5
+          "margin": 17.1,
+          "home_prob": 59.7,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -1332,8 +1454,9 @@
           "venue": "Carrara",
           "datetime": "Fri 19 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 2.0,
-          "home_prob": 51.1
+          "margin": 5.9,
+          "home_prob": 53.4,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -1341,8 +1464,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 20 Jun \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 33.1,
-          "home_prob": 68.2
+          "margin": 32.8,
+          "home_prob": 68.0,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1350,8 +1474,9 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 20 Jun \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 46.7,
-          "home_prob": 74.6
+          "margin": 43.7,
+          "home_prob": 73.2,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1359,8 +1484,9 @@
           "venue": "M.C.G.",
           "datetime": "Sat 20 Jun \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 43.4,
-          "home_prob": 73.1
+          "margin": 43.3,
+          "home_prob": 73.0,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1368,8 +1494,9 @@
           "venue": "M.C.G.",
           "datetime": "Sun 21 Jun \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 13.4,
-          "home_prob": 42.3
+          "margin": 12.1,
+          "home_prob": 43.1,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -1377,8 +1504,9 @@
           "venue": "Docklands",
           "datetime": "Sun 21 Jun \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 31.7,
-          "home_prob": 32.5
+          "margin": 30.1,
+          "home_prob": 33.4,
+          "complete": false
         }
       ]
     },
@@ -1393,8 +1521,9 @@
           "venue": "Gabba",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 29.1,
-          "home_prob": 66.1
+          "margin": 28.0,
+          "home_prob": 65.6,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -1402,8 +1531,9 @@
           "venue": "Docklands",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 31.6,
-          "home_prob": 67.4
+          "margin": 26.7,
+          "home_prob": 64.9,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1411,8 +1541,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 80.6,
-          "home_prob": 86.5
+          "margin": 71.9,
+          "home_prob": 84.0,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -1420,8 +1551,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 40.4,
-          "home_prob": 71.7
+          "margin": 39.9,
+          "home_prob": 71.5,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1429,8 +1561,9 @@
           "venue": "Docklands",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 38.8,
-          "home_prob": 71.0
+          "margin": 44.0,
+          "home_prob": 73.4,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1438,8 +1571,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 22 Jun \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 7.6,
-          "home_prob": 45.7
+          "margin": 10.0,
+          "home_prob": 44.3,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -1447,8 +1581,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 22 Jun \u00b7 2pm AEST",
           "home_fav": true,
-          "margin": 23.9,
-          "home_prob": 63.4
+          "margin": 22.5,
+          "home_prob": 62.7,
+          "complete": false
         }
       ]
     },
@@ -1463,8 +1598,9 @@
           "venue": "Docklands",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 10.7,
-          "home_prob": 43.9
+          "margin": 9.7,
+          "home_prob": 44.4,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -1472,8 +1608,9 @@
           "venue": "Kardinia Park",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 11.3,
-          "home_prob": 56.4
+          "margin": 12.9,
+          "home_prob": 57.4,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -1481,8 +1618,9 @@
           "venue": "Carrara",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 17.6,
-          "home_prob": 60.0
+          "margin": 20.2,
+          "home_prob": 61.4,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1490,8 +1628,9 @@
           "venue": "Manuka Oval",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 1.3,
-          "home_prob": 49.3
+          "margin": 3.2,
+          "home_prob": 48.2,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -1499,8 +1638,9 @@
           "venue": "York Park",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 51.9,
-          "home_prob": 76.8
+          "margin": 47.9,
+          "home_prob": 75.1,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1508,17 +1648,19 @@
           "venue": "M.C.G.",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 9.1,
-          "home_prob": 44.8
+          "margin": 2.6,
+          "home_prob": 48.5,
+          "complete": false
         },
         {
           "home": "Sydney",
           "away": "Western Bulldogs",
           "venue": "S.C.G.",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
-          "home_fav": true,
-          "margin": 1.1,
-          "home_prob": 50.6
+          "home_fav": false,
+          "margin": 0.2,
+          "home_prob": 49.9,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1526,8 +1668,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 29 Jun \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 23.8,
-          "home_prob": 63.4
+          "margin": 16.4,
+          "home_prob": 59.3,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1535,8 +1678,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 29 Jun \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 34.9,
-          "home_prob": 30.9
+          "margin": 30.2,
+          "home_prob": 33.3,
+          "complete": false
         }
       ]
     },
@@ -1551,8 +1695,9 @@
           "venue": "Gabba",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 88.8,
-          "home_prob": 88.5
+          "margin": 83.8,
+          "home_prob": 87.3,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -1560,8 +1705,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 38.3,
-          "home_prob": 29.3
+          "margin": 34.8,
+          "home_prob": 31.0,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1569,8 +1715,9 @@
           "venue": "Docklands",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 50.9,
-          "home_prob": 76.4
+          "margin": 43.5,
+          "home_prob": 73.1,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1578,8 +1725,9 @@
           "venue": "Sydney Showground",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 2.6,
-          "home_prob": 48.5
+          "margin": 2.3,
+          "home_prob": 48.7,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -1587,8 +1735,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 60.5,
-          "home_prob": 80.1
+          "margin": 54.5,
+          "home_prob": 77.8,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -1596,8 +1745,9 @@
           "venue": "Docklands",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 13.0,
-          "home_prob": 57.4
+          "margin": 14.3,
+          "home_prob": 58.1,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -1605,8 +1755,9 @@
           "venue": "Docklands",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 88.3,
-          "home_prob": 88.4
+          "margin": 80.8,
+          "home_prob": 86.5,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -1614,8 +1765,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 6 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 11.7,
-          "home_prob": 56.7
+          "margin": 11.5,
+          "home_prob": 56.6,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -1623,8 +1775,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 6 Jul \u00b7 2pm AEST",
           "home_fav": true,
-          "margin": 22.7,
-          "home_prob": 62.8
+          "margin": 25.6,
+          "home_prob": 64.3,
+          "complete": false
         }
       ]
     },
@@ -1639,8 +1792,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 55.3,
-          "home_prob": 78.1
+          "margin": 53.0,
+          "home_prob": 77.2,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -1648,8 +1802,9 @@
           "venue": "Docklands",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 32.4,
-          "home_prob": 32.2
+          "margin": 29.4,
+          "home_prob": 33.7,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -1657,8 +1812,9 @@
           "venue": "Kardinia Park",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 56.9,
-          "home_prob": 78.7
+          "margin": 54.5,
+          "home_prob": 77.8,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -1666,8 +1822,9 @@
           "venue": "Carrara",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 0.1,
-          "home_prob": 50.0
+          "margin": 2.9,
+          "home_prob": 51.6,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1675,8 +1832,9 @@
           "venue": "Docklands",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 1.7,
-          "home_prob": 51.0
+          "margin": 6.4,
+          "home_prob": 53.7,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1684,8 +1842,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 63.7,
-          "home_prob": 18.8
+          "margin": 53.7,
+          "home_prob": 22.5,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -1693,8 +1852,9 @@
           "venue": "S.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 22.0,
-          "home_prob": 62.4
+          "margin": 17.9,
+          "home_prob": 60.1,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1702,8 +1862,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 13 Jul \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 19.8,
-          "home_prob": 38.8
+          "margin": 20.9,
+          "home_prob": 38.2,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1711,8 +1872,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 13 Jul \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 53.4,
-          "home_prob": 22.6
+          "margin": 43.6,
+          "home_prob": 26.8,
+          "complete": false
         }
       ]
     },
@@ -1727,8 +1889,9 @@
           "venue": "Gabba",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 58.6,
-          "home_prob": 79.4
+          "margin": 55.9,
+          "home_prob": 78.4,
+          "complete": false
         },
         {
           "home": "Carlton",
@@ -1736,8 +1899,9 @@
           "venue": "Docklands",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 24.1,
-          "home_prob": 36.5
+          "margin": 24.5,
+          "home_prob": 36.3,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1745,8 +1909,9 @@
           "venue": "Sydney Showground",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 5.2,
-          "home_prob": 53.0
+          "margin": 6.1,
+          "home_prob": 53.5,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -1754,8 +1919,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 89.1,
-          "home_prob": 88.6
+          "margin": 85.5,
+          "home_prob": 87.8,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -1763,8 +1929,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 14.1,
-          "home_prob": 41.9
+          "margin": 10.4,
+          "home_prob": 44.1,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -1772,8 +1939,9 @@
           "venue": "Docklands",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 11.9,
-          "home_prob": 56.8
+          "margin": 18.0,
+          "home_prob": 60.2,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -1781,8 +1949,9 @@
           "venue": "Docklands",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 98.2,
-          "home_prob": 90.6
+          "margin": 89.2,
+          "home_prob": 88.6,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -1790,8 +1959,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 20 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 13.0,
-          "home_prob": 57.4
+          "margin": 15.5,
+          "home_prob": 58.8,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -1799,8 +1969,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 20 Jul \u00b7 2pm AEST",
           "home_fav": true,
-          "margin": 79.6,
-          "home_prob": 86.2
+          "margin": 73.7,
+          "home_prob": 84.5,
+          "complete": false
         }
       ]
     },
@@ -1815,8 +1986,9 @@
           "venue": "Docklands",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 38.0,
-          "home_prob": 29.4
+          "margin": 33.2,
+          "home_prob": 31.8,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -1824,8 +1996,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 6.0,
-          "home_prob": 53.4
+          "margin": 7.0,
+          "home_prob": 54.0,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -1833,8 +2006,9 @@
           "venue": "Docklands",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 37.7,
-          "home_prob": 29.6
+          "margin": 37.9,
+          "home_prob": 29.5,
+          "complete": false
         },
         {
           "home": "Gold Coast",
@@ -1842,8 +2016,9 @@
           "venue": "Carrara",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 37.7,
-          "home_prob": 70.4
+          "margin": 37.5,
+          "home_prob": 70.3,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -1851,8 +2026,9 @@
           "venue": "York Park",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 66.5,
-          "home_prob": 82.2
+          "margin": 57.8,
+          "home_prob": 79.1,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -1860,8 +2036,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 6.3,
-          "home_prob": 53.6
+          "margin": 7.9,
+          "home_prob": 54.5,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -1869,8 +2046,9 @@
           "venue": "Docklands",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 16.5,
-          "home_prob": 40.6
+          "margin": 13.6,
+          "home_prob": 42.3,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -1878,8 +2056,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 27 Jul \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 2.3,
-          "home_prob": 48.7
+          "margin": 1.5,
+          "home_prob": 49.1,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -1887,8 +2066,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 27 Jul \u00b7 2pm AEST",
           "home_fav": true,
-          "margin": 7.6,
-          "home_prob": 54.3
+          "margin": 9.1,
+          "home_prob": 55.2,
+          "complete": false
         }
       ]
     },
@@ -1903,8 +2083,9 @@
           "venue": "Gabba",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 15.9,
-          "home_prob": 59.1
+          "margin": 14.6,
+          "home_prob": 58.3,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -1912,8 +2093,9 @@
           "venue": "Kardinia Park",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 83.8,
-          "home_prob": 87.3
+          "margin": 80.5,
+          "home_prob": 86.5,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -1921,8 +2103,9 @@
           "venue": "Manuka Oval",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 6.4,
-          "home_prob": 53.7
+          "margin": 3.0,
+          "home_prob": 51.7,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -1930,8 +2113,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 12.8,
-          "home_prob": 42.7
+          "margin": 11.2,
+          "home_prob": 43.6,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -1939,8 +2123,9 @@
           "venue": "Docklands",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 24.9,
-          "home_prob": 64.0
+          "margin": 24.1,
+          "home_prob": 63.5,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -1948,8 +2133,9 @@
           "venue": "S.C.G.",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 45.8,
-          "home_prob": 74.2
+          "margin": 44.1,
+          "home_prob": 73.4,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -1957,8 +2143,9 @@
           "venue": "Docklands",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 68.6,
-          "home_prob": 82.9
+          "margin": 60.8,
+          "home_prob": 80.2,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -1966,8 +2153,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 3 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 77.3,
-          "home_prob": 85.6
+          "margin": 71.1,
+          "home_prob": 83.7,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -1975,8 +2163,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 3 Aug \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 38.1,
-          "home_prob": 29.4
+          "margin": 31.0,
+          "home_prob": 32.9,
+          "complete": false
         }
       ]
     },
@@ -1991,8 +2180,9 @@
           "venue": "Gabba",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 30.2,
-          "home_prob": 66.7
+          "margin": 24.9,
+          "home_prob": 64.0,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -2000,8 +2190,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 43.5,
-          "home_prob": 26.9
+          "margin": 39.5,
+          "home_prob": 28.7,
+          "complete": false
         },
         {
           "home": "Greater Western Sydney",
@@ -2009,8 +2200,9 @@
           "venue": "Sydney Showground",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 62.1,
-          "home_prob": 80.7
+          "margin": 54.2,
+          "home_prob": 77.7,
+          "complete": false
         },
         {
           "home": "Hawthorn",
@@ -2018,8 +2210,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 31.8,
-          "home_prob": 67.5
+          "margin": 30.6,
+          "home_prob": 66.9,
+          "complete": false
         },
         {
           "home": "North Melbourne",
@@ -2027,8 +2220,9 @@
           "venue": "Docklands",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 28.7,
-          "home_prob": 34.1
+          "margin": 20.2,
+          "home_prob": 38.6,
+          "complete": false
         },
         {
           "home": "Richmond",
@@ -2036,8 +2230,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 17.8,
-          "home_prob": 39.9
+          "margin": 10.4,
+          "home_prob": 44.1,
+          "complete": false
         },
         {
           "home": "Western Bulldogs",
@@ -2045,8 +2240,9 @@
           "venue": "Docklands",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 72.9,
-          "home_prob": 84.3
+          "margin": 70.4,
+          "home_prob": 83.5,
+          "complete": false
         },
         {
           "home": "Port Adelaide",
@@ -2054,8 +2250,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 10 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 9.2,
-          "home_prob": 55.3
+          "margin": 6.6,
+          "home_prob": 53.8,
+          "complete": false
         },
         {
           "home": "Fremantle",
@@ -2063,8 +2260,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 10 Aug \u00b7 2pm AEST",
           "home_fav": true,
-          "margin": 28.5,
-          "home_prob": 65.8
+          "margin": 27.2,
+          "home_prob": 65.2,
+          "complete": false
         }
       ]
     },
@@ -2079,8 +2277,9 @@
           "venue": "Docklands",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 31.7,
-          "home_prob": 32.5
+          "margin": 30.7,
+          "home_prob": 33.0,
+          "complete": false
         },
         {
           "home": "Collingwood",
@@ -2088,8 +2287,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 1.0,
-          "home_prob": 50.6
+          "margin": 3.6,
+          "home_prob": 52.1,
+          "complete": false
         },
         {
           "home": "Essendon",
@@ -2097,8 +2297,9 @@
           "venue": "Docklands",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 13.9,
-          "home_prob": 42.1
+          "margin": 11.7,
+          "home_prob": 43.3,
+          "complete": false
         },
         {
           "home": "Geelong",
@@ -2106,8 +2307,9 @@
           "venue": "Kardinia Park",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 90.9,
-          "home_prob": 89.0
+          "margin": 81.1,
+          "home_prob": 86.6,
+          "complete": false
         },
         {
           "home": "Melbourne",
@@ -2115,8 +2317,9 @@
           "venue": "M.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 21.5,
-          "home_prob": 37.9
+          "margin": 18.4,
+          "home_prob": 39.6,
+          "complete": false
         },
         {
           "home": "St Kilda",
@@ -2124,8 +2327,9 @@
           "venue": "Docklands",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 15.4,
-          "home_prob": 41.2
+          "margin": 16.7,
+          "home_prob": 40.5,
+          "complete": false
         },
         {
           "home": "Sydney",
@@ -2133,8 +2337,9 @@
           "venue": "S.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 53.4,
-          "home_prob": 77.4
+          "margin": 44.3,
+          "home_prob": 73.5,
+          "complete": false
         },
         {
           "home": "Adelaide",
@@ -2142,8 +2347,9 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 17 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 21.5,
-          "home_prob": 62.1
+          "margin": 24.8,
+          "home_prob": 63.9,
+          "complete": false
         },
         {
           "home": "West Coast",
@@ -2151,8 +2357,9 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 17 Aug \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 53.7,
-          "home_prob": 22.5
+          "margin": 45.3,
+          "home_prob": 26.0,
+          "complete": false
         }
       ]
     },
@@ -2184,177 +2391,177 @@
   "rankings": [
     {
       "team": "Western Bulldogs",
-      "telo": 1630,
+      "telo": 1622,
       "wins": 4,
       "losses": 0,
       "ladder_rank": 1,
       "percentage": 140.4,
-      "finals_pct": 97.9,
-      "premiers_pct": 22.2
+      "finals_pct": 97.6,
+      "premiers_pct": 22.7
     },
     {
       "team": "Hawthorn",
-      "telo": 1622,
+      "telo": 1610,
       "wins": 3,
       "losses": 1,
       "ladder_rank": 6,
       "percentage": 114.0,
-      "finals_pct": 95.9,
-      "premiers_pct": 19.0
+      "finals_pct": 94.0,
+      "premiers_pct": 18.2
     },
     {
       "team": "Brisbane Lions",
-      "telo": 1621,
+      "telo": 1603,
       "wins": 2,
       "losses": 2,
       "ladder_rank": 9,
       "percentage": 110.6,
-      "finals_pct": 89.8,
-      "premiers_pct": 15.7
-    },
-    {
-      "team": "Geelong",
-      "telo": 1601,
-      "wins": 2,
-      "losses": 2,
-      "ladder_rank": 12,
-      "percentage": 89.7,
-      "finals_pct": 83.1,
-      "premiers_pct": 10.3
+      "finals_pct": 86.4,
+      "premiers_pct": 13.5
     },
     {
       "team": "Fremantle",
-      "telo": 1595,
+      "telo": 1593,
       "wins": 3,
       "losses": 1,
       "ladder_rank": 4,
       "percentage": 133.4,
-      "finals_pct": 89.9,
-      "premiers_pct": 12.0
+      "finals_pct": 89.6,
+      "premiers_pct": 12.7
     },
     {
-      "team": "Sydney",
-      "telo": 1569,
-      "wins": 3,
-      "losses": 1,
-      "ladder_rank": 2,
-      "percentage": 182.9,
-      "finals_pct": 82.9,
-      "premiers_pct": 7.7
+      "team": "Geelong",
+      "telo": 1590,
+      "wins": 2,
+      "losses": 2,
+      "ladder_rank": 12,
+      "percentage": 89.7,
+      "finals_pct": 80.0,
+      "premiers_pct": 9.9
     },
     {
       "team": "Gold Coast",
-      "telo": 1565,
+      "telo": 1568,
       "wins": 3,
       "losses": 1,
       "ladder_rank": 3,
       "percentage": 152.6,
-      "finals_pct": 69.2,
-      "premiers_pct": 5.3
+      "finals_pct": 73.7,
+      "premiers_pct": 6.8
+    },
+    {
+      "team": "Sydney",
+      "telo": 1556,
+      "wins": 3,
+      "losses": 1,
+      "ladder_rank": 2,
+      "percentage": 182.9,
+      "finals_pct": 78.1,
+      "premiers_pct": 7.0
     },
     {
       "team": "Collingwood",
-      "telo": 1559,
+      "telo": 1553,
       "wins": 2,
       "losses": 2,
       "ladder_rank": 11,
       "percentage": 93.1,
-      "finals_pct": 62.1,
-      "premiers_pct": 3.9
+      "finals_pct": 60.3,
+      "premiers_pct": 4.0
     },
     {
       "team": "Adelaide",
-      "telo": 1546,
+      "telo": 1549,
       "wins": 2,
       "losses": 3,
       "ladder_rank": 10,
       "percentage": 106.4,
-      "finals_pct": 44.3,
-      "premiers_pct": 2.1
+      "finals_pct": 47.7,
+      "premiers_pct": 2.7
     },
     {
       "team": "Greater Western Sydney",
-      "telo": 1525,
+      "telo": 1515,
       "wins": 1,
       "losses": 3,
       "ladder_rank": 15,
       "percentage": 76.9,
-      "finals_pct": 30.4,
-      "premiers_pct": 1.2
+      "finals_pct": 27.2,
+      "premiers_pct": 1.0
     },
     {
       "team": "Melbourne",
-      "telo": 1479,
+      "telo": 1483,
       "wins": 3,
       "losses": 1,
       "ladder_rank": 7,
       "percentage": 102.0,
-      "finals_pct": 30.2,
-      "premiers_pct": 0.5
+      "finals_pct": 32.4,
+      "premiers_pct": 1.0
     },
     {
       "team": "Port Adelaide",
-      "telo": 1451,
+      "telo": 1445,
       "wins": 2,
       "losses": 2,
       "ladder_rank": 8,
       "percentage": 117.6,
-      "finals_pct": 8.5,
-      "premiers_pct": 0.1
-    },
-    {
-      "team": "St Kilda",
-      "telo": 1438,
-      "wins": 1,
-      "losses": 3,
-      "ladder_rank": 14,
-      "percentage": 86.0,
-      "finals_pct": 4.2,
+      "finals_pct": 8.6,
       "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
-      "telo": 1421,
+      "telo": 1444,
       "wins": 3,
       "losses": 1,
       "ladder_rank": 5,
       "percentage": 115.3,
-      "finals_pct": 10.9,
+      "finals_pct": 18.7,
+      "premiers_pct": 0.3
+    },
+    {
+      "team": "St Kilda",
+      "telo": 1437,
+      "wins": 1,
+      "losses": 3,
+      "ladder_rank": 14,
+      "percentage": 86.0,
+      "finals_pct": 3.9,
       "premiers_pct": 0.1
     },
     {
       "team": "Carlton",
-      "telo": 1403,
+      "telo": 1405,
       "wins": 1,
       "losses": 4,
       "ladder_rank": 16,
       "percentage": 76.6,
-      "finals_pct": 0.3,
-      "premiers_pct": 0.0
-    },
-    {
-      "team": "West Coast",
-      "telo": 1342,
-      "wins": 2,
-      "losses": 2,
-      "ladder_rank": 13,
-      "percentage": 64.9,
       "finals_pct": 0.4,
       "premiers_pct": 0.0
     },
     {
+      "team": "West Coast",
+      "telo": 1364,
+      "wins": 2,
+      "losses": 2,
+      "ladder_rank": 13,
+      "percentage": 64.9,
+      "finals_pct": 1.2,
+      "premiers_pct": 0.0
+    },
+    {
       "team": "Essendon",
-      "telo": 1330,
+      "telo": 1333,
       "wins": 0,
       "losses": 4,
       "ladder_rank": 17,
       "percentage": 62.7,
-      "finals_pct": 0.0,
+      "finals_pct": 0.1,
       "premiers_pct": 0.0
     },
     {
       "team": "Richmond",
-      "telo": 1302,
+      "telo": 1330,
       "wins": 0,
       "losses": 4,
       "ladder_rank": 18,

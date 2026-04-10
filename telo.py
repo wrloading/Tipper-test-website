@@ -405,6 +405,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             pred_margin = round(abs(predict_margin(h_telo, a_telo)), 1)
             home_fav    = h_prob >= 50.0
 
+            is_complete = g.get("complete") == 100
+
             entry: dict = {
                 "home":      home,
                 "away":      away,
@@ -413,9 +415,10 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                 "home_fav":  home_fav,
                 "margin":    pred_margin,
                 "home_prob": h_prob,
+                "complete":  is_complete,
             }
 
-            if g.get("complete") == 100:
+            if is_complete:
                 hs  = int(g.get("hscore") or 0)
                 as_ = int(g.get("ascore") or 0)
                 actual_home_win = hs > as_
