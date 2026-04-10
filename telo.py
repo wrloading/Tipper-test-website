@@ -357,6 +357,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     losses_map = {s["name"]: int(s.get("losses",   0))   for s in standings}
     rank_map   = {s["name"]: int(s.get("rank",     0))   for s in standings}
     pct_map    = {s["name"]: round(float(s.get("percentage", 0.0)), 1) for s in standings}
+    for_map    = {s["name"]: int(s.get("for",      0))   for s in standings}
+    against_map= {s["name"]: int(s.get("against",  0))   for s in standings}
 
     # Separate completed vs upcoming for current year
     completed = [g for g in games if g.get("complete") == 100]
@@ -456,6 +458,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "losses":       losses_map.get(team, 0),
             "ladder_rank":  rank_map.get(team, 0),
             "percentage":   pct_map.get(team, 0.0),
+            "points_for":   for_map.get(team, 0),
+            "points_against": against_map.get(team, 0),
             "finals_pct":   finals_pct.get(team, 0.0),
             "premiers_pct": premiers_pct.get(team, 0.0),
         })

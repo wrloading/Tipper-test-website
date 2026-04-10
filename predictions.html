@@ -272,7 +272,7 @@
       overflow: hidden;
     }
     .rankings-header {
-      padding: 16px 20px 12px;
+      padding: 14px 16px 12px;
       border-bottom: 1px solid var(--stone);
     }
     .rankings-title {
@@ -285,23 +285,26 @@
       letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
     }
 
-    /* View toggle */
+    /* View toggle — lives inside the rankings header */
+    .rankings-header {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .rankings-header-left { min-width: 0; }
     .view-toggle {
-      display: flex; align-items: center;
-      background: var(--stone); border-radius: 8px;
-      padding: 3px; gap: 2px; align-self: flex-start;
-      margin-bottom: 10px;
+      display: flex; align-items: center; flex-shrink: 0;
+      background: var(--stone); border-radius: 6px;
+      padding: 2px; gap: 2px;
     }
     .view-toggle-btn {
       font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
-      font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
-      border: none; border-radius: 6px; padding: 5px 14px; cursor: pointer;
+      font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase;
+      border: none; border-radius: 4px; padding: 4px 10px; cursor: pointer;
       background: transparent; color: var(--ash);
       transition: all 150ms ease-out;
     }
     .view-toggle-btn.active {
       background: #fff; color: var(--midnight);
-      box-shadow: 0 1px 4px rgba(20,20,19,0.10);
+      box-shadow: 0 1px 3px rgba(20,20,19,0.10);
     }
     .view-toggle-btn:hover:not(.active) { color: var(--pitch); }
 
@@ -490,14 +493,16 @@
 
     <!-- Rankings -->
     <div class="rankings-col">
-      <div class="view-toggle">
-        <button class="view-toggle-btn active" onclick="setView('actual')">Actual</button>
-        <button class="view-toggle-btn" onclick="setView('projected')">Projected</button>
-      </div>
       <div class="rankings-card">
         <div class="rankings-header">
-          <div class="rankings-title">Power Rankings</div>
-          <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
+          <div class="rankings-header-left">
+            <div class="rankings-title">Power Rankings</div>
+            <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
+          </div>
+          <div class="view-toggle">
+            <button class="view-toggle-btn active" onclick="setView('actual')">Actual</button>
+            <button class="view-toggle-btn" onclick="setView('projected')">Projected</button>
+          </div>
         </div>
         <div class="rankings-col-headers" id="rankings-col-headers"></div>
         <div class="rankings-body" id="rankings-body"></div>
@@ -719,33 +724,56 @@
       renderRankings();
     }
 
-    // ─── PROJECTED WINS CALC ─────────────────────────────────────────────────
+    // ─── PROJECTED WINS + PCT CALC ───────────────────────────────────────────
+    // Average AFL team score used to estimate future scores from margin
+    const AVG_SCORE = 90;
+
     function calcProjected() {
       const projWins  = {};
-      const projTotal = {};
+      const projFor   = {};
+      const projAgainst = {};
 
-      // Seed with actual wins/losses
+      // Seed with actual season stats
       RANKINGS.forEach(t => {
-        projWins[t.team]  = t.wins;
-        projTotal[t.team] = t.wins + t.losses;
+        projWins[t.team]    = t.wins;
+        projFor[t.team]     = t.points_for    || 0;
+        projAgainst[t.team] = t.points_against || 0;
       });
 
-      // Add expected wins from every upcoming game
+      // Add expected wins and projected scores from every upcoming game
       Object.values(ROUNDS).forEach(rd => {
         rd.games.forEach(g => {
           if (g.complete) return;
-          const hp = (g.home_prob || 50) / 100;
-          if (projWins[g.home] !== undefined) { projWins[g.home]  += hp;     projTotal[g.home]  += 1; }
-          if (projWins[g.away] !== undefined) { projWins[g.away]  += 1 - hp; projTotal[g.away]  += 1; }
+          const hp     = (g.home_prob || 50) / 100;
+          const margin = g.margin || 0;        // predicted margin favouring home_fav team
+          const homeFav = g.home_fav;
+
+          // Estimated scores: avg ± half the margin
+          const hExpFor = AVG_SCORE + (homeFav ? margin : -margin) / 2;
+          const aExpFor = AVG_SCORE - (homeFav ? margin : -margin) / 2;
+
+          if (projWins[g.home] !== undefined) {
+            projWins[g.home]    += hp;
+            projFor[g.home]     += hExpFor;
+            projAgainst[g.home] += aExpFor;
+          }
+          if (projWins[g.away] !== undefined) {
+            projWins[g.away]    += 1 - hp;
+            projFor[g.away]     += aExpFor;
+            projAgainst[g.away] += hExpFor;
+          }
         });
       });
 
-      return RANKINGS.map(t => ({
-        ...t,
-        proj_wins:  projWins[t.team]  || 0,
-        proj_total: projTotal[t.team] || 0,
-        proj_pct:   projTotal[t.team] ? (projWins[t.team] / projTotal[t.team] * 100) : 0,
-      }));
+      return RANKINGS.map(t => {
+        const pf  = projFor[t.team]     || 0;
+        const pa  = projAgainst[t.team] || 1;
+        return {
+          ...t,
+          proj_wins: projWins[t.team] || 0,
+          proj_pct:  pa > 0 ? (pf / pa * 100) : 0,
+        };
+      });
     }
 
     // ─── RENDER RANKINGS ────────────────────────────────────────────────────
@@ -834,7 +862,7 @@
         hdr('telo',      'TELO',      true),
         hdr('team',      'Team',      true),
         hdr('proj_wins', 'Exp W'),
-        hdr('proj_pct',  'Win%'),
+        hdr('proj_pct',  '%'),
         hdr('finals',    'Finals'),
         hdr('prem',      'Prem.'),
       ].join('');
