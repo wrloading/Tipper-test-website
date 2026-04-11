@@ -821,7 +821,9 @@
         const spreadLabel = `-${g.margin.toFixed(1)}`;
         const isUpset     = isFinal && g.upset;
         const gameId      = `r${roundNum}g${idx}`;
-        const hasSquad    = g.homeSquad.length > 0 || g.awaySquad.length > 0;
+        // Only show squad panel for upcoming games — AFL Fantasy status is current-week only,
+        // not historical, so showing it on completed games would be misleading.
+        const hasSquad    = !isFinal && (g.homeSquad.length > 0 || g.awaySquad.length > 0);
 
         // Squad injury summary for toggle label
         const hInj = g.homeSquad.filter(p => p.status !== 'available').length;

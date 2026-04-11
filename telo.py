@@ -625,7 +625,9 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                     "upset":      home_fav != (hs > as_),
                 })
 
-            if team_squads:
+            # Only embed squad data for upcoming games — AFL Fantasy status is
+            # current-week only, not historical, so it's meaningless for completed games.
+            if team_squads and not is_complete:
                 entry["home_squad"]        = squad_for_display(home)
                 entry["away_squad"]        = squad_for_display(away)
                 entry["home_squad_impact"] = round(home_injury, 1)
