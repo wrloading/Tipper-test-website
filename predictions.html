@@ -421,6 +421,89 @@
       height: 1px; background: var(--stone); margin: 0 20px;
     }
 
+    /* ── LINEUP PANEL ── */
+    .lineup-toggle {
+      display: flex; align-items: center; justify-content: center; gap: 5px;
+      padding: 7px 16px; cursor: pointer;
+      border-top: 1px solid var(--stone);
+      background: transparent;
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+      transition: background 150ms ease-out, color 150ms ease-out;
+      width: 100%; border: none; text-align: center;
+      border-top: 1px solid var(--stone);
+    }
+    .lineup-toggle:hover { background: #FAFAF8; color: var(--pitch); }
+    .lineup-toggle .chevron { font-size: 10px; transition: transform 200ms ease-out; }
+    .lineup-toggle.open .chevron { transform: rotate(180deg); }
+    .lineup-toggle.open { background: #FAFAF8; color: var(--pitch); }
+
+    .lineup-panel {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 280ms ease-out;
+      border-top: 0px solid var(--stone);
+    }
+    .lineup-panel.open {
+      max-height: 600px;
+      border-top: 1px solid var(--stone);
+    }
+    .lineup-panel-inner {
+      padding: 14px 16px 16px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+    }
+    .lineup-col-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .lineup-team-name {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 14px; letter-spacing: -0.1px; color: var(--pitch);
+    }
+    .lineup-impact {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      letter-spacing: 0.08em; padding: 2px 6px; border-radius: 3px;
+    }
+    .lineup-impact.negative { background: rgba(194,68,68,0.08); color: var(--negative); }
+    .lineup-impact.positive { background: rgba(120,140,93,0.10); color: var(--moss); }
+    .lineup-impact.neutral  { color: var(--ash); }
+
+    .lineup-player {
+      display: flex; align-items: center; gap: 7px;
+      padding: 4px 0; border-bottom: 1px solid rgba(232,230,220,0.4);
+    }
+    .lineup-player:last-child { border-bottom: none; }
+    .lineup-player.out .lp-name { text-decoration: line-through; color: var(--ash); }
+
+    .lp-pos {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 28px; height: 16px; border-radius: 3px; flex-shrink: 0;
+      font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
+      font-weight: 500; letter-spacing: 0.02em;
+    }
+    .lp-name {
+      font-family: 'Barlow', Arial, sans-serif; font-size: 12px;
+      color: var(--pitch); flex: 1; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .lp-telo {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      padding: 1px 4px; border-radius: 3px; flex-shrink: 0;
+    }
+    .lp-injured {
+      font-family: 'JetBrains Mono', monospace; font-size: 7px;
+      letter-spacing: 0.06em; color: var(--negative);
+      background: rgba(194,68,68,0.08); padding: 1px 4px; border-radius: 3px;
+      flex-shrink: 0;
+    }
+    .lineup-separator {
+      height: 1px; background: var(--stone); margin: 6px 0;
+    }
+    .lineup-no-data {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      color: var(--ash); text-align: center; padding: 12px 0;
+    }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 1100px) {
       .main-content { grid-template-columns: 1fr; }
@@ -454,6 +537,7 @@
         <li><a href="index.html#features">Features</a></li>
         <li><a href="index.html#nous">NOUS</a></li>
         <li><a href="predictions.html" class="active">AFL Predictions</a></li>
+        <li><a href="players.html">Player Ratings</a></li>
         <li><a href="index.html#leaderboard">Leaderboard</a></li>
       </ul>
       <a href="index.html" class="btn-primary">Start Tipping</a>
@@ -593,17 +677,104 @@
     // Normalise a game object from JSON (snake_case) to camelCase expected by render
     function normaliseGame(g) {
       return {
-        home:      g.home,
-        away:      g.away,
-        venue:     g.venue,
-        datetime:  g.datetime,
-        homeFav:   g.home_fav,
-        margin:    g.margin,
-        homeProb:  g.home_prob,
-        homeScore: g.home_score,
-        awayScore: g.away_score,
-        upset:     g.upset || false,
+        home:            g.home,
+        away:            g.away,
+        venue:           g.venue,
+        datetime:        g.datetime,
+        homeFav:         g.home_fav,
+        margin:          g.margin,
+        homeProb:        g.home_prob,
+        homeScore:       g.home_score,
+        awayScore:       g.away_score,
+        upset:           g.upset || false,
+        homeSquad:       g.home_squad       || [],
+        awaySquad:       g.away_squad       || [],
+        homeSquadImpact: g.home_squad_impact != null ? g.home_squad_impact : null,
+        awaySquadImpact: g.away_squad_impact != null ? g.away_squad_impact : null,
       };
+    }
+
+    // ─── LINEUP HELPERS ─────────────────────────────────────────────────────
+
+    let openLineups = new Set();
+
+    function toggleLineup(id) {
+      const panel  = document.getElementById(`lp-${id}`);
+      const toggle = document.getElementById(`lt-${id}`);
+      if (!panel) return;
+      const isOpen = openLineups.has(id);
+      if (isOpen) {
+        openLineups.delete(id);
+        panel.classList.remove('open');
+        toggle.classList.remove('open');
+      } else {
+        openLineups.add(id);
+        panel.classList.add('open');
+        toggle.classList.add('open');
+      }
+    }
+
+    const POS_COLORS = {
+      MID: { bg: 'rgba(27,42,74,0.10)',    fg: '#1B2A4A' },
+      FWD: { bg: 'rgba(120,140,93,0.12)',  fg: '#788C5D' },
+      DEF: { bg: 'rgba(106,155,188,0.12)', fg: '#6A9BBC' },
+      RUC: { bg: 'rgba(194,68,68,0.10)',   fg: '#C24444' },
+    };
+
+    function renderLineupCol(squad, teamName, impact) {
+      if (!squad || !squad.length) {
+        return `
+          <div>
+            <div class="lineup-col-header">
+              <div class="lineup-team-name">${teamName}</div>
+            </div>
+            <div class="lineup-no-data">No lineup data</div>
+          </div>`;
+      }
+
+      let impactHtml = '';
+      if (impact != null) {
+        if (Math.abs(impact) < 1) {
+          impactHtml = `<span class="lineup-impact neutral">Full strength</span>`;
+        } else if (impact < 0) {
+          impactHtml = `<span class="lineup-impact negative">${impact.toFixed(1)} pts</span>`;
+        } else {
+          impactHtml = `<span class="lineup-impact positive">+${impact.toFixed(1)} pts</span>`;
+        }
+      }
+
+      // Separate available vs injured/out
+      const available = squad.filter(p => p.status === 'available');
+      const injured   = squad.filter(p => p.status !== 'available');
+
+      function playerRow(p) {
+        const c = POS_COLORS[p.pos] || POS_COLORS.MID;
+        const teloStyle = `background:${c.bg};color:${c.fg}`;
+        const injuredBadge = p.status !== 'available'
+          ? `<span class="lp-injured">${p.status === 'injured' ? 'INJ' : 'OUT'}</span>` : '';
+        const rowCls = p.status !== 'available' ? 'lineup-player out' : 'lineup-player';
+        return `
+          <div class="${rowCls}">
+            <span class="lp-pos" style="background:${c.bg};color:${c.fg}">${p.pos}</span>
+            <span class="lp-name">${p.name}</span>
+            ${injuredBadge}
+            <span class="lp-telo" style="background:${c.bg};color:${c.fg}">${p.telo.toLocaleString()}</span>
+          </div>`;
+      }
+
+      const availHtml = available.slice(0, 22).map(playerRow).join('');
+      const injHtml   = injured.length
+        ? `<div class="lineup-separator"></div>${injured.map(playerRow).join('')}` : '';
+
+      return `
+        <div>
+          <div class="lineup-col-header">
+            <div class="lineup-team-name">${teamName}</div>
+            ${impactHtml}
+          </div>
+          ${availHtml}
+          ${injHtml}
+        </div>`;
     }
 
     // ─── RENDER ROUNDS TABS ─────────────────────────────────────────────────
@@ -637,8 +808,9 @@
       if (!rd) return;
       document.getElementById('round-label').textContent = `${rd.label} — ${rd.range}`;
       document.getElementById('games-count').textContent = `${rd.games.length} games`;
+      openLineups.clear();
 
-      const html = rd.games.map(raw => {
+      const html = rd.games.map((raw, idx) => {
         const g = normaliseGame(raw);
         const isFinal     = raw.complete === true;
         const awayProb    = (100 - g.homeProb).toFixed(1);
@@ -648,6 +820,15 @@
         const awayWon     = isFinal && g.awayScore > g.homeScore;
         const spreadLabel = `-${g.margin.toFixed(1)}`;
         const isUpset     = isFinal && g.upset;
+        const gameId      = `r${roundNum}g${idx}`;
+        const hasSquad    = g.homeSquad.length > 0 || g.awaySquad.length > 0;
+
+        // Squad injury summary for toggle label
+        const hInj = g.homeSquad.filter(p => p.status !== 'available').length;
+        const aInj = g.awaySquad.filter(p => p.status !== 'available').length;
+        const injLabel = (hInj + aInj) > 0
+          ? `Squad · ${hInj + aInj} out`
+          : 'Squad';
 
         return `
           <div class="game-card">
@@ -694,6 +875,19 @@
             ${isUpset ? `
               <div class="upset-strip">
                 <span class="upset-label">Upset — underdog won</span>
+              </div>
+            ` : ''}
+
+            ${hasSquad ? `
+              <button class="lineup-toggle" id="lt-${gameId}" onclick="toggleLineup('${gameId}')">
+                <span>${injLabel}</span>
+                <span class="chevron">▾</span>
+              </button>
+              <div class="lineup-panel" id="lp-${gameId}">
+                <div class="lineup-panel-inner">
+                  ${renderLineupCol(g.homeSquad, g.home, g.homeSquadImpact)}
+                  ${renderLineupCol(g.awaySquad, g.away, g.awaySquadImpact)}
+                </div>
               </div>
             ` : ''}
           </div>
