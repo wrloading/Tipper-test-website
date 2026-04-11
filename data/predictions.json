@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-11T21:25:15.456842+10:00",
+    "updated": "2026-04-11T22:41:12.491916+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -766,8 +766,8 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 7 Mar \u00b7 4:15pm AEDT",
           "home_fav": false,
-          "margin": 2.0,
-          "home_prob": 48.8,
+          "margin": 6.9,
+          "home_prob": 46.0,
           "complete": true,
           "home_score": 122,
           "away_score": 95,
@@ -779,8 +779,8 @@
           "venue": "Gabba",
           "datetime": "Sat 7 Mar \u00b7 7:35pm AEDT",
           "home_fav": true,
-          "margin": 19.1,
-          "home_prob": 60.8,
+          "margin": 24.8,
+          "home_prob": 63.9,
           "complete": true,
           "home_score": 106,
           "away_score": 111,
@@ -1561,8 +1561,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 13 Mar \u00b7 7:40pm AEDT",
           "home_fav": false,
-          "margin": 77.6,
-          "home_prob": 14.4,
+          "margin": 82.5,
+          "home_prob": 13.0,
           "complete": true,
           "home_score": 83,
           "away_score": 145,
@@ -1935,8 +1935,8 @@
           "venue": "Docklands",
           "datetime": "Sat 14 Mar \u00b7 1:15pm AEDT",
           "home_fav": true,
-          "margin": 39.2,
-          "home_prob": 71.2,
+          "margin": 33.5,
+          "home_prob": 68.4,
           "complete": true,
           "home_score": 134,
           "away_score": 53,
@@ -3873,8 +3873,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 19 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 4.9,
-          "home_prob": 52.8,
+          "margin": 9.8,
+          "home_prob": 55.6,
           "complete": true,
           "home_score": 99,
           "away_score": 82,
@@ -4239,13 +4239,13 @@
           "away": "Western Bulldogs",
           "venue": "Adelaide Oval",
           "datetime": "Fri 20 Mar \u00b7 7:40pm AEDT",
-          "home_fav": false,
-          "margin": 5.8,
-          "home_prob": 46.7,
+          "home_fav": true,
+          "margin": 1.1,
+          "home_prob": 50.6,
           "complete": true,
           "home_score": 88,
           "away_score": 94,
-          "upset": false,
+          "upset": true,
           "home_lineup": [
             {
               "name": "Callum Ah Chee",
@@ -5396,8 +5396,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 22 Mar \u00b7 3:15pm AEDT",
           "home_fav": true,
-          "margin": 48.3,
-          "home_prob": 75.2,
+          "margin": 49.4,
+          "home_prob": 75.7,
           "complete": true,
           "home_score": 133,
           "away_score": 70,
@@ -7313,8 +7313,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 29 Mar \u00b7 12:30pm AEDT",
           "home_fav": true,
-          "margin": 46.6,
-          "home_prob": 74.5,
+          "margin": 47.7,
+          "home_prob": 75.0,
           "complete": true,
           "home_score": 90,
           "away_score": 92,
@@ -8468,13 +8468,13 @@
           "away": "Fremantle",
           "venue": "Adelaide Oval",
           "datetime": "Fri 3 Apr \u00b7 7:15pm AEDT",
-          "home_fav": false,
-          "margin": 0.6,
-          "home_prob": 49.6,
+          "home_fav": true,
+          "margin": 0.5,
+          "home_prob": 50.3,
           "complete": true,
           "home_score": 76,
           "away_score": 78,
-          "upset": false,
+          "upset": true,
           "home_lineup": [
             {
               "name": "Sam Berry",
@@ -9986,8 +9986,8 @@
           "venue": "Docklands",
           "datetime": "Sun 5 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 81.1,
-          "home_prob": 86.6,
+          "margin": 76.9,
+          "home_prob": 85.4,
           "complete": true,
           "home_score": 99,
           "away_score": 65,
@@ -10367,8 +10367,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 3.5,
-          "home_prob": 52.0,
+          "margin": 9.9,
+          "home_prob": 55.7,
           "complete": true,
           "home_score": 92,
           "away_score": 91,
@@ -10755,8 +10755,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 9 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 60.6,
-          "home_prob": 80.1,
+          "margin": 61.7,
+          "home_prob": 80.5,
           "complete": true,
           "home_score": 114,
           "away_score": 86,
@@ -10768,8 +10768,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 10 Apr \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 4.7,
-          "home_prob": 47.3,
+          "margin": 3.6,
+          "home_prob": 47.9,
           "complete": true,
           "home_score": 39,
           "away_score": 45,
@@ -10794,8 +10794,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 11 Apr \u00b7 1:15pm AEST",
           "home_fav": false,
-          "margin": 15.6,
-          "home_prob": 41.1,
+          "margin": 14.5,
+          "home_prob": 41.7,
           "complete": true,
           "home_score": 113,
           "away_score": 68,
@@ -10820,375 +10820,12 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 11 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 12.2,
-          "home_prob": 57.0,
-          "complete": false,
-          "home_squad": [
-            {
-              "name": "Lloyd Meek",
-              "telo": 1770,
-              "pos": "RUC",
-              "status": "available"
-            },
-            {
-              "name": "Karl Amon",
-              "telo": 1732,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Will Day",
-              "telo": 1718,
-              "pos": "MID",
-              "status": "injured"
-            },
-            {
-              "name": "Jai Newcombe",
-              "telo": 1714,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Dylan Moore",
-              "telo": 1678,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "James Sicily",
-              "telo": 1656,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Jarman Impey",
-              "telo": 1641,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Josh Ward",
-              "telo": 1630,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Jack Ginnivan",
-              "telo": 1626,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Conor Nash",
-              "telo": 1616,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Jack Gunston",
-              "telo": 1616,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "James Worpel",
-              "telo": 1614,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Harry Morrison",
-              "telo": 1590,
-              "pos": "MID",
-              "status": "injured"
-            },
-            {
-              "name": "Massimo D'Ambrosio",
-              "telo": 1586,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Josh Battle",
-              "telo": 1586,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Josh Weddle",
-              "telo": 1581,
-              "pos": "DEF",
-              "status": "injured"
-            },
-            {
-              "name": "Connor Macdonald",
-              "telo": 1567,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Blake Hardwick",
-              "telo": 1525,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Cam Mackenzie",
-              "telo": 1523,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "Mabior Chol",
-              "telo": 1502,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Sam Butler",
-              "telo": 1495,
-              "pos": "FWD",
-              "status": "unavailable"
-            },
-            {
-              "name": "Jack Scrimshaw",
-              "telo": 1454,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Changkuoth Jiath",
-              "telo": 1452,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Max Ramsden",
-              "telo": 1450,
-              "pos": "FWD",
-              "status": "unavailable"
-            },
-            {
-              "name": "Henry Hustwaite",
-              "telo": 1435,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "Nick Watson",
-              "telo": 1422,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Finn Maginness",
-              "telo": 1414,
-              "pos": "MID",
-              "status": "injured"
-            },
-            {
-              "name": "Mitch Lewis",
-              "telo": 1387,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Calsher Dear",
-              "telo": 1366,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Tom Barrass",
-              "telo": 1352,
-              "pos": "DEF",
-              "status": "available"
-            }
-          ],
-          "away_squad": [
-            {
-              "name": "Marcus Bontempelli",
-              "telo": 1914,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Tim English",
-              "telo": 1910,
-              "pos": "RUC",
-              "status": "available"
-            },
-            {
-              "name": "Tom Liberatore",
-              "telo": 1820,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Ed Richards",
-              "telo": 1797,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Matthew Kennedy",
-              "telo": 1795,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Bailey Dale",
-              "telo": 1759,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Sam Darcy",
-              "telo": 1681,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Bailey Williams",
-              "telo": 1638,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Aaron Naughton",
-              "telo": 1598,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Joel Freijah",
-              "telo": 1594,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Adam Treloar",
-              "telo": 1582,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "James Harmes",
-              "telo": 1558,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "Lachlan Bramble",
-              "telo": 1554,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Ryley Sanders",
-              "telo": 1552,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "Sam Davidson",
-              "telo": 1552,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Jason Johannisen",
-              "telo": 1548,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Rhylee West",
-              "telo": 1548,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Jordan Croft",
-              "telo": 1503,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Oskar Baker",
-              "telo": 1487,
-              "pos": "MID",
-              "status": "available"
-            },
-            {
-              "name": "Nick Coffield",
-              "telo": 1463,
-              "pos": "DEF",
-              "status": "unavailable"
-            },
-            {
-              "name": "Rory Lobb",
-              "telo": 1463,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Riley Garcia",
-              "telo": 1451,
-              "pos": "FWD",
-              "status": "available"
-            },
-            {
-              "name": "Luke Cleary",
-              "telo": 1438,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Buku Khamis",
-              "telo": 1405,
-              "pos": "DEF",
-              "status": "unavailable"
-            },
-            {
-              "name": "James O'Donnell",
-              "telo": 1390,
-              "pos": "DEF",
-              "status": "available"
-            },
-            {
-              "name": "Caleb Poulter",
-              "telo": 1381,
-              "pos": "MID",
-              "status": "unavailable"
-            },
-            {
-              "name": "Taylor Duryea",
-              "telo": 1377,
-              "pos": "DEF",
-              "status": "unavailable"
-            },
-            {
-              "name": "Laitham Vandermeer",
-              "telo": 1370,
-              "pos": "FWD",
-              "status": "injured"
-            },
-            {
-              "name": "Liam Jones",
-              "telo": 1366,
-              "pos": "DEF",
-              "status": "unavailable"
-            },
-            {
-              "name": "Lachlan McNeil",
-              "telo": 1362,
-              "pos": "FWD",
-              "status": "available"
-            }
-          ],
-          "home_squad_impact": 15.7,
-          "away_squad_impact": 22.9
+          "margin": 24.0,
+          "home_prob": 63.5,
+          "complete": true,
+          "home_score": 104,
+          "away_score": 64,
+          "upset": false
         },
         {
           "home": "Geelong",
@@ -11767,8 +11404,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 12 Apr \u00b7 7:15pm AEST",
           "home_fav": true,
-          "margin": 23.3,
-          "home_prob": 63.1,
+          "margin": 24.4,
+          "home_prob": 63.7,
           "complete": false,
           "home_squad": [
             {
@@ -12526,8 +12163,8 @@
           "venue": "Kardinia Park",
           "datetime": "Fri 17 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 22.3,
-          "home_prob": 62.6,
+          "margin": 29.6,
+          "home_prob": 66.4,
           "complete": false,
           "home_squad": [
             {
@@ -13473,8 +13110,8 @@
           "venue": "Docklands",
           "datetime": "Sat 18 Apr \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 51.6,
-          "home_prob": 76.6,
+          "margin": 55.0,
+          "home_prob": 78.0,
           "complete": false,
           "home_squad": [
             {
@@ -13849,8 +13486,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 18 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 49.1,
-          "home_prob": 75.6,
+          "margin": 50.2,
+          "home_prob": 76.1,
           "complete": false,
           "home_squad": [
             {
@@ -15179,8 +14816,8 @@
           "venue": "Docklands",
           "datetime": "Thu 23 Apr \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 18.7,
-          "home_prob": 60.6,
+          "margin": 12.9,
+          "home_prob": 57.4,
           "complete": false,
           "home_squad": [
             {
@@ -15931,8 +15568,8 @@
           "venue": "York Park",
           "datetime": "Sat 25 Apr \u00b7 12:15pm AEST",
           "home_fav": true,
-          "margin": 35.8,
-          "home_prob": 69.5,
+          "margin": 40.7,
+          "home_prob": 71.8,
           "complete": false,
           "home_squad": [
             {
@@ -16683,8 +16320,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 25 Apr \u00b7 6:35pm AEST",
           "home_fav": false,
-          "margin": 19.6,
-          "home_prob": 38.9,
+          "margin": 18.5,
+          "home_prob": 39.5,
           "complete": false,
           "home_squad": [
             {
@@ -18208,8 +17845,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 30 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 25.2,
-          "home_prob": 35.9,
+          "margin": 30.1,
+          "home_prob": 33.3,
           "complete": false,
           "home_squad": [
             {
@@ -18584,8 +18221,8 @@
           "venue": "Docklands",
           "datetime": "Fri 1 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 10.4,
-          "home_prob": 56.0,
+          "margin": 4.7,
+          "home_prob": 52.7,
           "complete": false,
           "home_squad": [
             {
@@ -18960,8 +18597,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 1 May \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 43.4,
-          "home_prob": 73.1,
+          "margin": 44.5,
+          "home_prob": 73.6,
           "complete": false,
           "home_squad": [
             {
@@ -21237,8 +20874,8 @@
           "venue": "Perth Stadium",
           "datetime": "Thu 7 May \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 4.2,
-          "home_prob": 47.6,
+          "margin": 9.1,
+          "home_prob": 44.8,
           "complete": false,
           "home_squad": [
             {
@@ -21808,8 +21445,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 8 May \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 31.6,
-          "home_prob": 32.6,
+          "margin": 24.7,
+          "home_prob": 36.2,
           "complete": false,
           "home_squad": [
             {
@@ -25213,8 +24850,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 16 May \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 53.0,
-          "home_prob": 77.2,
+          "margin": 54.1,
+          "home_prob": 77.6,
           "complete": false,
           "home_squad": [
             {
@@ -25589,8 +25226,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 16 May \u00b7 4:15pm AEST",
           "home_fav": false,
-          "margin": 44.3,
-          "home_prob": 26.5,
+          "margin": 49.2,
+          "home_prob": 24.4,
           "complete": false,
           "home_squad": [
             {
@@ -25965,8 +25602,8 @@
           "venue": "Docklands",
           "datetime": "Sat 16 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 63.6,
-          "home_prob": 18.8,
+          "margin": 57.8,
+          "home_prob": 20.9,
           "complete": false,
           "home_squad": [
             {
@@ -27295,8 +26932,8 @@
           "venue": "York Park",
           "datetime": "Thu 21 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 36.8,
-          "home_prob": 70.0,
+          "margin": 41.6,
+          "home_prob": 72.3,
           "complete": false,
           "home_squad": [
             {
@@ -29551,8 +29188,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 23 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 34.8,
-          "home_prob": 69.0,
+          "margin": 35.9,
+          "home_prob": 69.6,
           "complete": false,
           "home_squad": [
             {
@@ -29941,8 +29578,8 @@
           "venue": "Docklands",
           "datetime": "Sun 24 May \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 49.4,
-          "home_prob": 75.7,
+          "margin": 43.6,
+          "home_prob": 73.2,
           "complete": false,
           "home_squad": [
             {
@@ -30324,8 +29961,8 @@
           "venue": "Docklands",
           "datetime": "Thu 28 May \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 46.7,
-          "home_prob": 25.4,
+          "margin": 51.6,
+          "home_prob": 23.4,
           "complete": false,
           "home_squad": [
             {
@@ -31647,8 +31284,8 @@
           "venue": "Docklands",
           "datetime": "Sat 30 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 30.3,
-          "home_prob": 66.8,
+          "margin": 24.5,
+          "home_prob": 63.7,
           "complete": false,
           "home_squad": [
             {
@@ -32601,8 +32238,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 4 Jun \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 6.2,
-          "home_prob": 53.6,
+          "margin": 7.3,
+          "home_prob": 54.2,
           "complete": false,
           "home_squad": [
             {
@@ -32976,9 +32613,9 @@
           "away": "Western Bulldogs",
           "venue": "M.C.G.",
           "datetime": "Fri 5 Jun \u00b7 7:40pm AEST",
-          "home_fav": false,
-          "margin": 8.5,
-          "home_prob": 45.1,
+          "home_fav": true,
+          "margin": 2.2,
+          "home_prob": 51.3,
           "complete": false,
           "home_squad": [
             {
@@ -35435,8 +35072,8 @@
           "venue": "Docklands",
           "datetime": "Thu 11 Jun \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 31.2,
-          "home_prob": 67.2,
+          "margin": 25.4,
+          "home_prob": 64.2,
           "complete": false,
           "home_squad": [
             {
@@ -36939,8 +36576,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 13 Jun \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 18.1,
-          "home_prob": 39.7,
+          "margin": 17.0,
+          "home_prob": 40.3,
           "complete": false,
           "home_squad": [
             {
@@ -38088,8 +37725,8 @@
           "venue": "Carrara",
           "datetime": "Fri 19 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 18.7,
-          "home_prob": 60.6,
+          "margin": 13.8,
+          "home_prob": 57.9,
           "complete": false,
           "home_squad": [
             {
@@ -38464,8 +38101,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 20 Jun \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 40.8,
-          "home_prob": 71.9,
+          "margin": 41.9,
+          "home_prob": 72.4,
           "complete": false,
           "home_squad": [
             {
@@ -39787,8 +39424,8 @@
           "venue": "Docklands",
           "datetime": "Sun 21 Jun \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 52.1,
-          "home_prob": 23.2,
+          "margin": 46.3,
+          "home_prob": 25.6,
           "complete": false,
           "home_squad": [
             {
@@ -41117,8 +40754,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 28.0,
-          "home_prob": 65.6,
+          "margin": 32.8,
+          "home_prob": 68.1,
           "complete": false,
           "home_squad": [
             {
@@ -41688,8 +41325,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 22 Jun \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 8.2,
-          "home_prob": 45.3,
+          "margin": 7.1,
+          "home_prob": 45.9,
           "complete": false,
           "home_squad": [
             {
@@ -43589,8 +43226,8 @@
           "venue": "York Park",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 57.5,
-          "home_prob": 79.0,
+          "margin": 62.4,
+          "home_prob": 80.8,
           "complete": false,
           "home_squad": [
             {
@@ -44341,8 +43978,8 @@
           "venue": "S.C.G.",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 15.2,
-          "home_prob": 58.6,
+          "margin": 20.9,
+          "home_prob": 61.8,
           "complete": false,
           "home_squad": [
             {
@@ -44717,8 +44354,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 29 Jun \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 27.2,
-          "home_prob": 65.1,
+          "margin": 28.3,
+          "home_prob": 65.7,
           "complete": false,
           "home_squad": [
             {
@@ -45671,8 +45308,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 64.1,
-          "home_prob": 18.6,
+          "margin": 69.0,
+          "home_prob": 17.0,
           "complete": false,
           "home_squad": [
             {
@@ -47370,8 +47007,8 @@
           "venue": "Docklands",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 83.5,
-          "home_prob": 87.2,
+          "margin": 77.7,
+          "home_prob": 85.7,
           "complete": false,
           "home_squad": [
             {
@@ -47746,8 +47383,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 6 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 19.1,
-          "home_prob": 60.8,
+          "margin": 20.2,
+          "home_prob": 61.4,
           "complete": false,
           "home_squad": [
             {
@@ -49452,8 +49089,8 @@
           "venue": "Carrara",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 13.3,
-          "home_prob": 57.6,
+          "margin": 19.1,
+          "home_prob": 60.8,
           "complete": false,
           "home_squad": [
             {
@@ -50204,8 +49841,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 87.3,
-          "home_prob": 11.8,
+          "margin": 92.2,
+          "home_prob": 10.7,
           "complete": false,
           "home_squad": [
             {
@@ -50956,8 +50593,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 13 Jul \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 26.4,
-          "home_prob": 35.2,
+          "margin": 25.3,
+          "home_prob": 35.8,
           "complete": false,
           "home_squad": [
             {
@@ -52300,8 +51937,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 71.4,
-          "home_prob": 83.8,
+          "margin": 76.3,
+          "home_prob": 85.3,
           "complete": false,
           "home_squad": [
             {
@@ -53428,8 +53065,8 @@
           "venue": "Docklands",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 92.4,
-          "home_prob": 89.4,
+          "margin": 86.6,
+          "home_prob": 88.0,
           "complete": false,
           "home_squad": [
             {
@@ -53804,8 +53441,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 20 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 21.7,
-          "home_prob": 62.2,
+          "margin": 22.8,
+          "home_prob": 62.8,
           "complete": false,
           "home_squad": [
             {
@@ -55886,8 +55523,8 @@
           "venue": "York Park",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 69.6,
-          "home_prob": 83.2,
+          "margin": 74.5,
+          "home_prob": 84.7,
           "complete": false,
           "home_squad": [
             {
@@ -57014,8 +56651,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 27 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 2.4,
-          "home_prob": 51.4,
+          "margin": 3.5,
+          "home_prob": 52.0,
           "complete": false,
           "home_squad": [
             {
@@ -57209,8 +56846,8 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 27 Jul \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 9.6,
-          "home_prob": 44.5,
+          "margin": 3.8,
+          "home_prob": 47.8,
           "complete": false,
           "home_squad": [
             {
@@ -57592,8 +57229,8 @@
           "venue": "Gabba",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 24.4,
-          "home_prob": 63.7,
+          "margin": 19.5,
+          "home_prob": 61.1,
           "complete": false,
           "home_squad": [],
           "away_squad": [
@@ -59486,8 +59123,8 @@
           "venue": "Docklands",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 61.5,
-          "home_prob": 80.5,
+          "margin": 55.7,
+          "home_prob": 78.3,
           "complete": false,
           "home_squad": [
             {
@@ -59862,8 +59499,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 3 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 83.8,
-          "home_prob": 87.3,
+          "margin": 84.9,
+          "home_prob": 87.6,
           "complete": false,
           "home_squad": [
             {
@@ -61387,8 +61024,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 19.0,
-          "home_prob": 60.8,
+          "margin": 23.9,
+          "home_prob": 63.4,
           "complete": false,
           "home_squad": [
             {
@@ -62515,8 +62152,8 @@
           "venue": "Docklands",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 69.2,
-          "home_prob": 83.1,
+          "margin": 63.4,
+          "home_prob": 81.1,
           "complete": false,
           "home_squad": [
             {
@@ -62891,8 +62528,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 10 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 15.0,
-          "home_prob": 58.6,
+          "margin": 16.1,
+          "home_prob": 59.2,
           "complete": false,
           "home_squad": [
             {
@@ -64973,8 +64610,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 49.7,
-          "home_prob": 24.1,
+          "margin": 43.9,
+          "home_prob": 26.7,
           "complete": false,
           "home_squad": [
             {
@@ -66101,8 +65738,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 17 Aug \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 28.2,
-          "home_prob": 65.7,
+          "margin": 29.3,
+          "home_prob": 66.2,
           "complete": false,
           "home_squad": [
             {
@@ -66296,8 +65933,8 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 17 Aug \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 77.3,
-          "home_prob": 14.4,
+          "margin": 82.2,
+          "home_prob": 13.1,
           "complete": false,
           "home_squad": [
             {
@@ -66695,52 +66332,52 @@
   },
   "rankings": [
     {
+      "team": "Hawthorn",
+      "telo": 1640,
+      "wins": 4,
+      "losses": 1,
+      "ladder_rank": 3,
+      "percentage": 121.0,
+      "points_for": 535,
+      "points_against": 442,
+      "finals_pct": 99.0,
+      "premiers_pct": 23.0
+    },
+    {
       "team": "Brisbane Lions",
       "telo": 1634,
       "wins": 3,
       "losses": 2,
-      "ladder_rank": 5,
+      "ladder_rank": 6,
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 96.3,
-      "premiers_pct": 18.9
-    },
-    {
-      "team": "Western Bulldogs",
-      "telo": 1630,
-      "wins": 4,
-      "losses": 0,
-      "ladder_rank": 2,
-      "percentage": 140.4,
-      "points_for": 438,
-      "points_against": 312,
-      "finals_pct": 98.8,
-      "premiers_pct": 20.1
-    },
-    {
-      "team": "Hawthorn",
-      "telo": 1622,
-      "wins": 3,
-      "losses": 1,
-      "ladder_rank": 6,
-      "percentage": 114.0,
-      "points_for": 431,
-      "points_against": 378,
-      "finals_pct": 96.9,
-      "premiers_pct": 17.3
+      "finals_pct": 95.9,
+      "premiers_pct": 17.8
     },
     {
       "team": "Fremantle",
       "telo": 1618,
       "wins": 4,
       "losses": 1,
-      "ladder_rank": 3,
+      "ladder_rank": 2,
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
       "finals_pct": 97.5,
-      "premiers_pct": 16.5
+      "premiers_pct": 17.1
+    },
+    {
+      "team": "Western Bulldogs",
+      "telo": 1612,
+      "wins": 4,
+      "losses": 1,
+      "ladder_rank": 4,
+      "percentage": 120.7,
+      "points_for": 502,
+      "points_against": 416,
+      "finals_pct": 96.7,
+      "premiers_pct": 15.0
     },
     {
       "team": "Geelong",
@@ -66751,7 +66388,7 @@
       "percentage": 89.7,
       "points_for": 338,
       "points_against": 377,
-      "finals_pct": 86.6,
+      "finals_pct": 87.1,
       "premiers_pct": 9.7
     },
     {
@@ -66763,20 +66400,20 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 93.7,
-      "premiers_pct": 9.6
+      "finals_pct": 94.0,
+      "premiers_pct": 10.0
     },
     {
       "team": "Gold Coast",
       "telo": 1547,
       "wins": 3,
       "losses": 2,
-      "ladder_rank": 4,
+      "ladder_rank": 5,
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 61.7,
-      "premiers_pct": 2.8
+      "finals_pct": 60.5,
+      "premiers_pct": 2.6
     },
     {
       "team": "Adelaide",
@@ -66787,8 +66424,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 54.2,
-      "premiers_pct": 2.0
+      "finals_pct": 54.1,
+      "premiers_pct": 2.2
     },
     {
       "team": "Collingwood",
@@ -66799,8 +66436,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 42.8,
-      "premiers_pct": 1.5
+      "finals_pct": 43.6,
+      "premiers_pct": 1.6
     },
     {
       "team": "Greater Western Sydney",
@@ -66811,8 +66448,8 @@
       "percentage": 76.9,
       "points_for": 303,
       "points_against": 394,
-      "finals_pct": 33.1,
-      "premiers_pct": 1.1
+      "finals_pct": 32.5,
+      "premiers_pct": 0.8
     },
     {
       "team": "Melbourne",
@@ -66823,8 +66460,8 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 14.5,
-      "premiers_pct": 0.2
+      "finals_pct": 15.1,
+      "premiers_pct": 0.1
     },
     {
       "team": "Port Adelaide",
@@ -66835,8 +66472,8 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 10.6,
-      "premiers_pct": 0.2
+      "finals_pct": 10.3,
+      "premiers_pct": 0.1
     },
     {
       "team": "St Kilda",
@@ -66847,8 +66484,8 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 5.0,
-      "premiers_pct": 0.0
+      "finals_pct": 5.2,
+      "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
@@ -66859,7 +66496,7 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.0,
+      "finals_pct": 7.4,
       "premiers_pct": 0.0
     },
     {
@@ -66871,7 +66508,7 @@
       "percentage": 76.6,
       "points_for": 393,
       "points_against": 513,
-      "finals_pct": 0.5,
+      "finals_pct": 0.4,
       "premiers_pct": 0.0
     },
     {
@@ -66883,7 +66520,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.2,
+      "finals_pct": 0.1,
       "premiers_pct": 0.0
     },
     {
@@ -66895,7 +66532,7 @@
       "percentage": 64.9,
       "points_for": 310,
       "points_against": 478,
-      "finals_pct": 0.6,
+      "finals_pct": 0.7,
       "premiers_pct": 0.0
     },
     {
