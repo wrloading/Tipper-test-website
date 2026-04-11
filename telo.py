@@ -13,6 +13,13 @@ Ratings are built from the last 3 seasons with recency bias:
   Current season: K × 1.00
 Season-start regression toward the mean is applied between each year.
 
+Advanced prediction factors (applied to display predictions only):
+  - Form streaks       : recent hot/cold runs boost or penalise effective rating
+  - Venue-specific HGA : per-venue home advantage computed from 3-year history
+  - Head-to-head       : historical matchup record between specific pairs
+  - Travel / fatigue   : interstate travel and short-break penalties
+  - Injury overrides   : manual TELO adjustment dict (INJURY_OVERRIDES)
+
 Usage:
     python telo.py              # Current year
     python telo.py --year 2025  # Specific year (backfill)
@@ -27,6 +34,7 @@ import random
 import sys
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
+from typing import Optional
 from zoneinfo import ZoneInfo
 
 import requests
@@ -34,28 +42,74 @@ import requests
 # ─── CONFIGURATION ───────────────────────────────────────────────────────────
 
 SQUIGGLE_BASE = "https://api.squiggle.com.au/"
-SQUIGGLE_UA   = "Tipper-TELO/1.0 (github.com/wrloading/Tipper-test-website)"
+SQUIGGLE_UA   = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
 
-# TELO model parameters
+# Core TELO model parameters
 INITIAL_TELO   = 1500.0   # Starting rating for all teams
 K_FACTOR       = 40.0     # Base K — how fast ratings move (higher = more volatile)
-HGA            = 65.0     # Home ground advantage in TELO points (~6pt margin equiv)
+HGA            = 65.0     # Default home ground advantage in TELO points
 MARGIN_SCALE   = 0.025    # Log-margin multiplier weight (rewards blowouts slightly)
 SEASON_REGRESS = 0.25     # Fraction regressed toward mean at season start
 
 # Recency bias: K-factor scaling per season (oldest → newest)
-# Seasons processed: [current-2, current-1, current]
 RECENCY_WEIGHTS = [0.50, 0.75, 1.00]
-HISTORY_YEARS   = 3       # How many seasons to look back (including current)
+HISTORY_YEARS   = 3       # Seasons to look back (including current)
 
 # Margin prediction calibration
-# Empirically: each 100 TELO pts ≈ ~25 pts AFL margin
-TELO_TO_MARGIN = 0.25
+TELO_TO_MARGIN = 0.25     # Each 100 TELO pts ≈ ~25 pts AFL margin
 
 # Monte Carlo
 MC_SIMULATIONS = 12000
 FINALS_SPOTS   = 8
 AEST           = ZoneInfo("Australia/Melbourne")
+
+# ─── ADVANCED FACTORS ────────────────────────────────────────────────────────
+
+# Form streak: rolling last-N results within current season
+FORM_WINDOW   = 5       # number of recent games tracked
+FORM_MAX_ADJ  = 12.0    # max ±TELO pts from form streak
+
+# Venue-specific HGA: computed from 3-year historical home win rate per venue
+VENUE_MIN_GAMES = 20    # min games before trusting computed venue HGA
+
+# Head-to-head: historical record between specific pairs
+H2H_MIN_GAMES  = 8      # min meetings before applying H2H adjustment
+H2H_MAX_ADJ    = 12.0   # max ±TELO pts from H2H dominance
+
+# Travel and fatigue
+TRAVEL_PENALTY  = 10.0  # TELO pts for interstate travel to venue
+FATIGUE_DAYS    = 6     # days or fewer = short break
+FATIGUE_PENALTY = 6.0   # TELO pts for short-break fatigue
+
+# Manual injury/availability overrides — update before each round as needed.
+# Format: {"Team Name": delta_telo}
+# Negative = key players out, positive = squad at full strength after injury return.
+INJURY_OVERRIDES: dict[str, float] = {
+    # "Melbourne": -15.0,
+    # "Collingwood": -20.0,
+}
+
+# Team home states (for interstate travel detection)
+TEAM_STATE: dict[str, str] = {
+    "Adelaide":         "SA",
+    "Brisbane":         "QLD",
+    "Carlton":          "VIC",
+    "Collingwood":      "VIC",
+    "Essendon":         "VIC",
+    "Fremantle":        "WA",
+    "Geelong":          "VIC",
+    "Gold Coast":       "QLD",
+    "GWS":              "NSW",
+    "Hawthorn":         "VIC",
+    "Melbourne":        "VIC",
+    "North Melbourne":  "VIC",
+    "Port Adelaide":    "SA",
+    "Richmond":         "VIC",
+    "St Kilda":         "VIC",
+    "Sydney":           "NSW",
+    "West Coast":       "WA",
+    "Western Bulldogs": "VIC",
+}
 
 # ─── SQUIGGLE API ─────────────────────────────────────────────────────────────
 
@@ -93,13 +147,20 @@ def fetch_teams() -> list[dict]:
 # ─── TELO ENGINE ─────────────────────────────────────────────────────────────
 
 def expected_win_prob(home_telo: float, away_telo: float,
-                      neutral: bool = False) -> float:
+                      neutral: bool = False,
+                      hga: Optional[float] = None) -> float:
     """
     Expected probability that home team wins.
-    Uses the standard ELO logistic formula with optional HGA.
+    Uses the standard ELO logistic formula.
+    hga: override home ground advantage (defaults to HGA constant).
     """
-    hga = 0.0 if neutral else HGA
-    return 1.0 / (1.0 + 10.0 ** ((away_telo - home_telo - hga) / 400.0))
+    if neutral:
+        effective_hga = 0.0
+    elif hga is not None:
+        effective_hga = hga
+    else:
+        effective_hga = HGA
+    return 1.0 / (1.0 + 10.0 ** ((away_telo - home_telo - effective_hga) / 400.0))
 
 
 def margin_k_multiplier(margin: float) -> float:
@@ -118,6 +179,7 @@ def process_game(ratings: dict, home: str, away: str,
     Update TELO ratings after a completed game.
     k_scale: multiplier on K_FACTOR for recency bias (0–1).
     Returns (home_delta, away_delta).
+    Note: uses flat HGA for rating updates (advanced factors are for display predictions only).
     """
     h = ratings.get(home, INITIAL_TELO)
     a = ratings.get(away, INITIAL_TELO)
@@ -152,19 +214,128 @@ def regress_toward_mean(ratings: dict) -> dict:
         for team, telo in ratings.items()
     }
 
+# ─── ADVANCED FACTOR HELPERS ─────────────────────────────────────────────────
+
+def venue_to_state(venue: str) -> Optional[str]:
+    """Infer Australian state from venue name (substring matching)."""
+    v = venue.upper()
+    if any(x in v for x in ("MCG", "DOCKLANDS", "MARVEL", "GMHBA", "KARDINIA",
+                              "VICTORIA PARK", "ARDEN ST", "JUNCTION OVAL")):
+        return "VIC"
+    if any(x in v for x in ("SCG", "ENGIE", "SHOWGROUND", "MANUKA", "CANBERRA")):
+        return "NSW"
+    if any(x in v for x in ("GABBA", "HERITAGE BANK", "PEOPLE FIRST", "CAZALY",
+                              "METRICON", "RIVERWAY")):
+        return "QLD"
+    if any(x in v for x in ("ADELAIDE OVAL", "NORWOOD", "FOOTBALL PARK")):
+        return "SA"
+    if any(x in v for x in ("OPTUS", "PERTH STADIUM", "SUBIACO", "DOMAIN STADIUM",
+                              "PATERSONS")):
+        return "WA"
+    if any(x in v for x in ("TIO", "DARWIN", "TRAEGER")):
+        return "NT"
+    if any(x in v for x in ("YORK PARK", "BLUNDSTONE", "UNIVERSITY OF TASMANIA",
+                              "AURORA")):
+        return "TAS"
+    return None
+
+
+def form_adjustment(form_history: list[int]) -> float:
+    """
+    Convert recent results into a TELO rating adjustment.
+    form_history: list of 1s (wins) and 0s (losses), most recent last.
+    Perfect 5-win streak → +FORM_MAX_ADJ; 5-loss streak → -FORM_MAX_ADJ.
+    """
+    if not form_history:
+        return 0.0
+    win_rate = sum(form_history) / len(form_history)
+    # 0.5 = neutral, 1.0 = max positive, 0.0 = max negative
+    return FORM_MAX_ADJ * (win_rate - 0.5) * 2.0
+
+
+def h2h_adjustment(h2h_record: dict, home: str, away: str) -> float:
+    """
+    Head-to-head TELO adjustment (applied to the home team's effective rating).
+    Returns a positive value if home has historically dominated, negative if away has.
+    """
+    key = (home, away)
+    rec = h2h_record.get(key)
+    if rec is None or rec["total"] < H2H_MIN_GAMES:
+        return 0.0
+    h2h_rate = rec["wins"] / rec["total"]
+    return H2H_MAX_ADJ * (h2h_rate - 0.5) * 2.0
+
+
+def travel_fatigue_penalty(team: str, venue: str,
+                            last_date: dict[str, datetime],
+                            game_date_str: str) -> float:
+    """
+    Compute a TELO penalty for a team based on:
+      - Interstate travel: venue is in a different state from team home
+      - Short turnaround: played within FATIGUE_DAYS days
+    Returns a positive penalty value (subtract from effective rating).
+    """
+    penalty = 0.0
+
+    # Interstate travel check
+    team_home  = TEAM_STATE.get(team)
+    game_state = venue_to_state(venue)
+    if team_home and game_state and team_home != game_state:
+        penalty += TRAVEL_PENALTY
+
+    # Fatigue / short break check
+    if team in last_date and game_date_str:
+        try:
+            last    = last_date[team]
+            current = datetime.fromisoformat(game_date_str.replace(" ", "T"))
+            days    = (current - last).days
+            if 0 <= days <= FATIGUE_DAYS:
+                penalty += FATIGUE_PENALTY
+        except Exception:
+            pass
+
+    return penalty
+
+
+def compute_venue_hga(venue_stats: dict[str, dict], venue: str) -> float:
+    """
+    Compute venue-specific HGA from historical home win rate.
+    Blends computed value with default HGA based on sample size.
+    """
+    stats = venue_stats.get(venue)
+    if stats is None or stats["total"] < VENUE_MIN_GAMES:
+        return HGA
+
+    home_rate = stats["wins"] / stats["total"]
+    home_rate = max(0.05, min(0.95, home_rate))   # clamp to avoid log(0)/log(inf)
+
+    # Invert the ELO logistic: p = 1/(1+10^(-hga/400)) → hga = 400 * log10(p/(1-p))
+    computed_hga = 400.0 * math.log10(home_rate / (1.0 - home_rate))
+
+    # Blend toward default based on sample size (fully trusted at 2× VENUE_MIN_GAMES)
+    weight = min(1.0, stats["total"] / (VENUE_MIN_GAMES * 2.0))
+    return HGA * (1.0 - weight) + computed_hga * weight
+
 # ─── PREDICTIONS ─────────────────────────────────────────────────────────────
 
 def predict_margin(home_telo: float, away_telo: float,
-                   neutral: bool = False) -> float:
+                   neutral: bool = False,
+                   hga: Optional[float] = None) -> float:
     """Predicted margin in favour of home team (negative = away favoured)."""
-    hga = 0.0 if neutral else HGA
-    return (home_telo - away_telo + hga) * TELO_TO_MARGIN
+    if neutral:
+        effective_hga = 0.0
+    elif hga is not None:
+        effective_hga = hga
+    else:
+        effective_hga = HGA
+    return (home_telo - away_telo + effective_hga) * TELO_TO_MARGIN
 
 
 def win_probability_pct(home_telo: float, away_telo: float,
-                         neutral: bool = False) -> float:
+                         neutral: bool = False,
+                         hga: Optional[float] = None) -> float:
     """Home win probability as a percentage (0–100)."""
-    return expected_win_prob(home_telo, away_telo, neutral) * 100.0
+    return expected_win_prob(home_telo, away_telo, neutral, hga=hga) * 100.0
 
 # ─── MONTE CARLO SIMULATION ──────────────────────────────────────────────────
 
@@ -175,6 +346,7 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
     Simulate the rest of the season n times.
     Returns (finals_pct, premiers_pct) — percentage of simulations
     where each team made finals / won the premiership.
+    Uses base TELO ratings (no per-game adjustments) for simulation stability.
     """
     teams = [t for t in ratings if ratings[t] > 0]
     finals_counts   = defaultdict(int)
@@ -183,7 +355,6 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
     for _ in range(n):
         sim_wins = dict(wins)
 
-        # Simulate remaining regular-season games
         for g in remaining_games:
             home, away = g.get("hteam", ""), g.get("ateam", "")
             if not home or not away:
@@ -196,7 +367,6 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
             else:
                 sim_wins[away] = sim_wins.get(away, 0) + 1
 
-        # Rank by wins, tiebreak by TELO rating
         ranked = sorted(
             teams,
             key=lambda t: (sim_wins.get(t, 0), ratings.get(t, INITIAL_TELO)),
@@ -206,11 +376,6 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
         for t in top8:
             finals_counts[t] += 1
 
-        # Simulate AFL finals (McIntyre final 8 simplified):
-        # Week 1: Qualifying finals (1v4, 2v3) + Elimination finals (5v8, 6v7)
-        # Week 2: Semi-finals (QF losers vs EF winners)
-        # Week 3: Preliminary finals
-        # Week 4: Grand Final
         def sim(t1: str, t2: str) -> str:
             p = expected_win_prob(
                 ratings.get(t1, INITIAL_TELO),
@@ -220,29 +385,23 @@ def simulate_finals(ratings: dict, remaining_games: list[dict],
             return t1 if random.random() < p else t2
 
         if len(top8) < 8:
-            # Not enough teams — just pick from top8 by TELO
             premiers_counts[top8[0]] += 1
             continue
 
-        # Qualifying finals — winners go straight to prelim
         qf1_w = sim(top8[0], top8[3])
         qf1_l = top8[3] if qf1_w == top8[0] else top8[0]
         qf2_w = sim(top8[1], top8[2])
         qf2_l = top8[2] if qf2_w == top8[1] else top8[1]
 
-        # Elimination finals
         ef1_w = sim(top8[4], top8[7])
         ef2_w = sim(top8[5], top8[6])
 
-        # Semi-finals (QF losers vs EF winners)
         sf1_w = sim(qf1_l, ef2_w)
         sf2_w = sim(qf2_l, ef1_w)
 
-        # Preliminary finals
         pf1_w = sim(qf1_w, sf2_w)
         pf2_w = sim(qf2_w, sf1_w)
 
-        # Grand Final
         premiers_counts[sim(pf1_w, pf2_w)] += 1
 
     return (
@@ -261,11 +420,9 @@ def format_game_datetime(iso_str: str) -> str:
     if not iso_str:
         return ""
     try:
-        # Squiggle times are already Melbourne local — attach the timezone directly
         dt_naive = datetime.fromisoformat(iso_str.replace(" ", "T"))
         local    = dt_naive.replace(tzinfo=AEST)
-        # Determine if AEDT or AEST based on DST
-        tz_name  = local.strftime("%Z")  # ZoneInfo handles DST automatically
+        tz_name  = local.strftime("%Z")
         day      = local.strftime("%a %-d %b")
         hour     = local.hour % 12 or 12
         minute   = local.strftime("%M")
@@ -298,12 +455,21 @@ def round_date_range(games: list[dict]) -> str:
 # ─── MAIN PIPELINE ───────────────────────────────────────────────────────────
 
 def build_predictions(year: int, dry_run: bool = False) -> dict:
-    # ── Build multi-season ratings with recency bias ───────────────────────
     seasons = list(range(year - HISTORY_YEARS + 1, year + 1))  # e.g. [2024, 2025, 2026]
-    weights = RECENCY_WEIGHTS  # [0.50, 0.75, 1.00]
+    weights = RECENCY_WEIGHTS
 
     ratings: dict[str, float] = {}
     all_teams: set[str] = set()
+
+    # ── Advanced factor accumulators ──────────────────────────────────────────
+    # venue_stats: historical home wins/totals per venue (all 3 seasons)
+    venue_stats: dict[str, dict] = {}
+    # h2h_record: home wins/totals for each (home_team, away_team) pair
+    h2h_record: dict[tuple, dict] = {}
+    # form_tracking: per-team rolling results (1=win, 0=loss), reset each season
+    form_tracking: dict[str, list] = defaultdict(list)
+    # last_game_date: most recent completed game date per team (reset each season)
+    last_game_date: dict[str, datetime] = {}
 
     for season, k_scale in zip(seasons, weights):
         print(f"[TELO] Fetching {season} AFL data (K×{k_scale:.2f})...")
@@ -317,23 +483,23 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             print(f"[TELO] ⚠ No games for {season}, skipping.", file=sys.stderr)
             continue
 
-        # Collect team names
         for g in season_games:
             if g.get("hteam"): all_teams.add(g["hteam"])
             if g.get("ateam"): all_teams.add(g["ateam"])
 
-        # Initialise any new teams at INITIAL_TELO
         for t in all_teams:
             if t not in ratings:
                 ratings[t] = INITIAL_TELO
 
-        # Apply season-start regression (skip for the very first season processed)
         if ratings and season > seasons[0]:
             ratings = regress_toward_mean(ratings)
+            # Reset form and fatigue each new season — form is current-season momentum
+            form_tracking = defaultdict(list)
+            last_game_date = {}
 
-        # Process completed games for this season
         completed_season = [g for g in season_games if g.get("complete") == 100]
         print(f"[TELO]   {season}: {len(completed_season)} completed games")
+
         for g in completed_season:
             home = g.get("hteam", "")
             away = g.get("ateam", "")
@@ -341,9 +507,49 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             as_  = g.get("ascore")
             if not (home and away and hs is not None and as_ is not None):
                 continue
-            process_game(ratings, home, away, int(hs), int(as_), k_scale=k_scale)
 
-    # Current year data is the last season
+            hs, as_ = int(hs), int(as_)
+            home_won = hs > as_
+
+            # ── Core TELO update ─────────────────────────────────────────────
+            process_game(ratings, home, away, hs, as_, k_scale=k_scale)
+
+            # ── Venue stats accumulation ──────────────────────────────────────
+            venue = g.get("venue", "")
+            if venue:
+                if venue not in venue_stats:
+                    venue_stats[venue] = {"wins": 0, "total": 0}
+                venue_stats[venue]["total"] += 1
+                if home_won:
+                    venue_stats[venue]["wins"] += 1
+
+            # ── H2H record accumulation ───────────────────────────────────────
+            key = (home, away)
+            if key not in h2h_record:
+                h2h_record[key] = {"wins": 0, "total": 0}
+            h2h_record[key]["total"] += 1
+            if home_won:
+                h2h_record[key]["wins"] += 1
+
+            # ── Form tracking ─────────────────────────────────────────────────
+            form_tracking[home].append(1 if home_won else 0)
+            form_tracking[away].append(0 if home_won else 1)
+            if len(form_tracking[home]) > FORM_WINDOW:
+                form_tracking[home] = form_tracking[home][-FORM_WINDOW:]
+            if len(form_tracking[away]) > FORM_WINDOW:
+                form_tracking[away] = form_tracking[away][-FORM_WINDOW:]
+
+            # ── Last game date ────────────────────────────────────────────────
+            date_str = g.get("date", "")
+            if date_str:
+                try:
+                    dt = datetime.fromisoformat(date_str.replace(" ", "T"))
+                    last_game_date[home] = dt
+                    last_game_date[away] = dt
+                except Exception:
+                    pass
+
+    # Current year data
     print(f"[TELO] Fetching {year} standings and upcoming fixtures...")
     games     = fetch_games(year)
     standings = fetch_standings(year)
@@ -352,21 +558,18 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         print(f"ERROR: No games returned for {year}. Squiggle may not have data yet.", file=sys.stderr)
         sys.exit(1)
 
-    # Build wins/losses/rank/percentage from ladder standings
-    wins_map   = {s["name"]: int(s.get("wins",     0))   for s in standings}
-    losses_map = {s["name"]: int(s.get("losses",   0))   for s in standings}
-    rank_map   = {s["name"]: int(s.get("rank",     0))   for s in standings}
-    pct_map    = {s["name"]: round(float(s.get("percentage", 0.0)), 1) for s in standings}
-    for_map    = {s["name"]: int(s.get("for",      0))   for s in standings}
-    against_map= {s["name"]: int(s.get("against",  0))   for s in standings}
+    wins_map    = {s["name"]: int(s.get("wins",       0))   for s in standings}
+    losses_map  = {s["name"]: int(s.get("losses",     0))   for s in standings}
+    rank_map    = {s["name"]: int(s.get("rank",        0))   for s in standings}
+    pct_map     = {s["name"]: round(float(s.get("percentage", 0.0)), 1) for s in standings}
+    for_map     = {s["name"]: int(s.get("for",         0))   for s in standings}
+    against_map = {s["name"]: int(s.get("against",     0))   for s in standings}
 
-    # Separate completed vs upcoming for current year
     completed = [g for g in games if g.get("complete") == 100]
     upcoming  = [g for g in games if g.get("complete") != 100]
 
     print(f"[TELO] Current year totals: {len(completed)} completed, {len(upcoming)} upcoming")
 
-    # Determine current round (earliest round with any upcoming game)
     upcoming_rounds  = [g.get("round") for g in upcoming  if g.get("round") is not None]
     completed_rounds = [g.get("round") for g in completed if g.get("round") is not None]
     if upcoming_rounds:
@@ -388,10 +591,9 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     rounds_output: dict[str, dict] = {}
 
     for rnum in sorted(by_round.keys()):
-        rnd_games   = sorted(by_round[rnum], key=lambda g: g.get("date") or "")
-        is_complete = all(g.get("complete") == 100 for g in rnd_games)
-        roundname   = rnd_games[0].get("roundname") or f"Round {rnum}"
-        date_range  = round_date_range(rnd_games)
+        rnd_games  = sorted(by_round[rnum], key=lambda g: g.get("date") or "")
+        roundname  = rnd_games[0].get("roundname") or f"Round {rnum}"
+        date_range = round_date_range(rnd_games)
 
         games_out: list[dict] = []
         for g in rnd_games:
@@ -402,9 +604,29 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
 
             h_telo = ratings.get(home, INITIAL_TELO)
             a_telo = ratings.get(away, INITIAL_TELO)
+            venue  = g.get("venue", "")
 
-            h_prob      = round(win_probability_pct(h_telo, a_telo), 1)
-            pred_margin = round(abs(predict_margin(h_telo, a_telo)), 1)
+            # ── Advanced factor adjustments ───────────────────────────────────
+            v_hga       = compute_venue_hga(venue_stats, venue)
+
+            home_form   = form_adjustment(form_tracking.get(home, []))
+            away_form   = form_adjustment(form_tracking.get(away, []))
+
+            h2h_adj     = h2h_adjustment(h2h_record, home, away)
+
+            date_str    = g.get("date", "")
+            home_travel = travel_fatigue_penalty(home, venue, last_game_date, date_str)
+            away_travel = travel_fatigue_penalty(away, venue, last_game_date, date_str)
+
+            home_injury = INJURY_OVERRIDES.get(home, 0.0)
+            away_injury = INJURY_OVERRIDES.get(away, 0.0)
+
+            # Effective ratings for this prediction (not stored)
+            h_eff = h_telo + home_form + h2h_adj + home_injury - home_travel
+            a_eff = a_telo + away_form             + away_injury - away_travel
+
+            h_prob      = round(win_probability_pct(h_eff, a_eff, hga=v_hga), 1)
+            pred_margin = round(abs(predict_margin(h_eff, a_eff, hga=v_hga)), 1)
             home_fav    = h_prob >= 50.0
 
             is_complete = g.get("complete") == 100
@@ -412,8 +634,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             entry: dict = {
                 "home":      home,
                 "away":      away,
-                "venue":     g.get("venue", ""),
-                "datetime":  format_game_datetime(g.get("date", "")),
+                "venue":     venue,
+                "datetime":  format_game_datetime(date_str),
                 "home_fav":  home_fav,
                 "margin":    pred_margin,
                 "home_prob": h_prob,
@@ -424,7 +646,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                 hs  = int(g.get("hscore") or 0)
                 as_ = int(g.get("ascore") or 0)
                 actual_home_win = hs > as_
-                upset = home_fav != actual_home_win  # fav lost
+                upset = home_fav != actual_home_win
                 entry.update({
                     "home_score": hs,
                     "away_score": as_,
@@ -433,10 +655,11 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
 
             games_out.append(entry)
 
+        round_complete = all(g.get("complete") == 100 for g in rnd_games)
         rounds_output[str(rnum)] = {
             "label":    roundname,
             "range":    date_range,
-            "complete": is_complete,
+            "complete": round_complete,
             "games":    games_out,
         }
 
@@ -452,16 +675,16 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     for team in ranked:
         telo = ratings.get(team, INITIAL_TELO)
         rankings_out.append({
-            "team":         team,
-            "telo":         round(telo),
-            "wins":         wins_map.get(team, 0),
-            "losses":       losses_map.get(team, 0),
-            "ladder_rank":  rank_map.get(team, 0),
-            "percentage":   pct_map.get(team, 0.0),
-            "points_for":   for_map.get(team, 0),
+            "team":           team,
+            "telo":           round(telo),
+            "wins":           wins_map.get(team, 0),
+            "losses":         losses_map.get(team, 0),
+            "ladder_rank":    rank_map.get(team, 0),
+            "percentage":     pct_map.get(team, 0.0),
+            "points_for":     for_map.get(team, 0),
             "points_against": against_map.get(team, 0),
-            "finals_pct":   finals_pct.get(team, 0.0),
-            "premiers_pct": premiers_pct.get(team, 0.0),
+            "finals_pct":     finals_pct.get(team, 0.0),
+            "premiers_pct":   premiers_pct.get(team, 0.0),
         })
 
     # ── Assemble output ────────────────────────────────────────────────────
@@ -470,7 +693,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "updated":       datetime.now(AEST).isoformat(),
             "year":          year,
             "current_round": current_round,
-            "model":         "TELO v1.0",
+            "model":         "TELO v2.0",
             "simulations":   MC_SIMULATIONS,
         },
         "rounds":   rounds_output,
