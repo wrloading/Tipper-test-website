@@ -31,7 +31,9 @@ import json
 import math
 import os
 import random
+import re
 import sys
+import time
 from collections import defaultdict
 from datetime import datetime, timedelta
 from typing import Optional
@@ -131,6 +133,39 @@ FANTASY_SQUAD_MAP: dict[int, str] = {
     140:  "Western Bulldogs",
 }
 
+# ─── AFL TABLES SCRAPING ─────────────────────────────────────────────────────
+
+AFLTABLES_BASE  = "https://afltables.com"
+AFLTABLES_UA    = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
+AFLTABLES_DELAY = 0.25  # seconds between requests (be a good citizen)
+
+# Normalise AFL Tables team name (from page heading) → Squiggle team name
+AFLTABLES_TEAM_MAP: dict[str, str] = {
+    "adelaide":                "Adelaide",
+    "bris. lions":             "Brisbane",
+    "brisbane lions":          "Brisbane",
+    "brisbane":                "Brisbane",
+    "carlton":                 "Carlton",
+    "collingwood":             "Collingwood",
+    "essendon":                "Essendon",
+    "fremantle":               "Fremantle",
+    "geelong":                 "Geelong",
+    "gold coast":              "Gold Coast",
+    "gw sydney":               "GWS",
+    "greater western sydney":  "GWS",
+    "hawthorn":                "Hawthorn",
+    "melbourne":               "Melbourne",
+    "nth melbourne":           "North Melbourne",
+    "north melbourne":         "North Melbourne",
+    "port adelaide":           "Port Adelaide",
+    "richmond":                "Richmond",
+    "st kilda":                "St Kilda",
+    "sydney":                  "Sydney",
+    "west coast":              "West Coast",
+    "w. bulldogs":             "Western Bulldogs",
+    "western bulldogs":        "Western Bulldogs",
+}
+
 # ─── SQUIGGLE API ─────────────────────────────────────────────────────────────
 
 def squiggle_get(query: str) -> dict:
@@ -153,6 +188,121 @@ def fetch_games(year: int) -> list:
 def fetch_standings(year: int) -> list:
     data = squiggle_get(f"q=standings;year={year}")
     return data.get("standings", [])
+
+# ─── AFL TABLES FUNCTIONS ────────────────────────────────────────────────────
+
+def fetch_afltables_season_links(year: int) -> list:
+    """Return all game stat page URLs for the given year from AFL Tables."""
+    try:
+        from bs4 import BeautifulSoup
+        from urllib.parse import urljoin
+    except ImportError:
+        print("[TELO] ⚠ beautifulsoup4 not installed — skipping AFL Tables", file=sys.stderr)
+        return []
+    page_url = f"{AFLTABLES_BASE}/afl/seas/{year}.html"
+    try:
+        r = requests.get(page_url, headers={"User-Agent": AFLTABLES_UA}, timeout=20)
+        r.raise_for_status()
+        soup  = BeautifulSoup(r.text, "html.parser")
+        seen  = set()
+        links = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if f"stats/games/{year}/" not in href or not href.endswith(".html"):
+                continue
+            full = urljoin(page_url, href)
+            if full not in seen:
+                seen.add(full)
+                links.append(full)
+        return links
+    except Exception as e:
+        print(f"[TELO] ⚠ AFL Tables season page failed: {e}", file=sys.stderr)
+        return []
+
+
+def fetch_afltables_game_lineup(url: str) -> tuple:
+    """
+    Fetch per-player game stats from an AFL Tables game stat page.
+    Returns (home_lineup, away_lineup, home_team, away_team) where each lineup
+    is a list of {name, di, gl, tk, pct} dicts. Returns (None,None,None,None) on error.
+    """
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        return None, None, None, None
+    try:
+        r = requests.get(url, headers={"User-Agent": AFLTABLES_UA}, timeout=20)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # Find the two "Match Statistics" tables (home and away)
+        stats_tables = [t for t in soup.find_all("table")
+                        if "Match Statistics" in t.get_text()]
+        if len(stats_tables) < 2:
+            return None, None, None, None
+
+        def parse_stats_table(table) -> tuple:
+            rows = table.find_all("tr")
+            if len(rows) < 3:
+                return None, None
+
+            # Row 0: "Hawthorn Match Statistics [Season][Game by Game]"
+            heading   = rows[0].get_text(separator=" ", strip=True)
+            team_raw  = heading.split("Match Statistics")[0].strip()
+            team_name = AFLTABLES_TEAM_MAP.get(team_raw.lower())
+
+            # Row 1: column headers
+            headers = [th.get_text(strip=True) for th in rows[1].find_all(["th", "td"])]
+
+            try:
+                name_idx = headers.index("Player")
+            except ValueError:
+                return team_name, None
+
+            di_idx  = headers.index("DI") if "DI" in headers else -1
+            gl_idx  = headers.index("GL") if "GL" in headers else -1
+            tk_idx  = headers.index("TK") if "TK" in headers else -1
+            pct_idx = len(headers) - 1  # %P is always last
+
+            def safe_int(texts: list, idx: int) -> int:
+                if idx < 0 or idx >= len(texts):
+                    return 0
+                try:
+                    return int(texts[idx]) if texts[idx] else 0
+                except (ValueError, TypeError):
+                    return 0
+
+            players = []
+            for row in rows[2:]:
+                cells = row.find_all(["th", "td"])
+                if len(cells) <= name_idx:
+                    continue
+                texts = [c.get_text(strip=True).replace("\xa0", "").strip() for c in cells]
+                name_raw = texts[name_idx]
+                if not name_raw or name_raw.lower() in ("totals", "total"):
+                    continue
+                # Convert "Last, First" → "First Last"
+                if "," in name_raw:
+                    last, first = name_raw.split(",", 1)
+                    name = f"{first.strip()} {last.strip()}"
+                else:
+                    name = name_raw
+                players.append({
+                    "name": name,
+                    "di":   safe_int(texts, di_idx),
+                    "gl":   safe_int(texts, gl_idx),
+                    "tk":   safe_int(texts, tk_idx),
+                    "pct":  safe_int(texts, pct_idx),
+                })
+            return team_name, players if players else None
+
+        home_team, home_lineup = parse_stats_table(stats_tables[0])
+        away_team, away_lineup = parse_stats_table(stats_tables[1])
+        return home_lineup, away_lineup, home_team, away_team
+
+    except Exception as e:
+        print(f"[TELO] ⚠ AFL Tables lineup failed ({url}): {e}", file=sys.stderr)
+        return None, None, None, None
 
 # ─── AFL FANTASY API ─────────────────────────────────────────────────────────
 
@@ -523,6 +673,30 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             if abs(delta) > 0.5:
                 auto_injury_deltas[team] = round(delta, 1)
 
+    # ── AFL Tables historical lineups ──────────────────────────────────────────
+    print("[TELO] Fetching AFL Tables historical game lineups...")
+    # Key: (YYYYMMDD, squiggle_home_name, squiggle_away_name)  →  {home_lineup, away_lineup}
+    afltables_lineups: dict = {}
+    try:
+        game_links = fetch_afltables_season_links(year)
+        print(f"[TELO]   {len(game_links)} game stat pages found on AFL Tables")
+        for i, link_url in enumerate(game_links):
+            if i > 0:
+                time.sleep(AFLTABLES_DELAY)
+            h_lineup, a_lineup, h_team, a_team = fetch_afltables_game_lineup(link_url)
+            if h_lineup and a_lineup and h_team and a_team:
+                m = re.search(r"(\d{8})\.html$", link_url)
+                if m:
+                    date_key = m.group(1)  # YYYYMMDD
+                    afltables_lineups[(date_key, h_team, a_team)] = {
+                        "home_lineup": h_lineup,
+                        "away_lineup": a_lineup,
+                    }
+        print(f"[TELO]   {len(afltables_lineups)} completed game lineups cached")
+    except Exception as e:
+        print(f"[TELO] ⚠ AFL Tables scraping error: {e}", file=sys.stderr)
+        afltables_lineups = {}
+
     # ── Current year ───────────────────────────────────────────────────────────
     print(f"[TELO] Fetching {year} standings and upcoming fixtures...")
     games     = fetch_games(year)
@@ -624,6 +798,13 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                     "away_score": as_,
                     "upset":      home_fav != (hs > as_),
                 })
+                # Attach AFL Tables lineup if available
+                if date_str and afltables_lineups:
+                    date_key = date_str[:10].replace("-", "")
+                    lineup_data = afltables_lineups.get((date_key, home, away))
+                    if lineup_data:
+                        entry["home_lineup"] = lineup_data["home_lineup"]
+                        entry["away_lineup"] = lineup_data["away_lineup"]
 
             # Only embed squad data for upcoming games — AFL Fantasy status is
             # current-week only, not historical, so it's meaningless for completed games.
