@@ -97,42 +97,43 @@
     /* ── ROUND BAR ── */
     .round-bar {
       position: sticky; top: 64px; z-index: 90;
-      background: #fff;
+      background: rgba(250,249,245,0.96);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--stone);
     }
     .round-bar-inner {
       max-width: 1280px; margin: 0 auto; padding: 0 32px;
-      display: flex; align-items: center; gap: 6px;
-      height: 52px; overflow-x: auto;
+      display: flex; align-items: center; gap: 14px;
+      height: 52px;
     }
-    .round-bar-inner::-webkit-scrollbar { display: none; }
-
-    .round-tab {
+    .round-season-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--ash);
+      white-space: nowrap; flex-shrink: 0;
+    }
+    .round-select-wrap {
+      position: relative; display: inline-flex; align-items: center;
+    }
+    .round-select {
+      appearance: none; -webkit-appearance: none;
       font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
-      font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
-      padding: 6px 14px; border-radius: 20px; cursor: pointer;
-      white-space: nowrap; border: 1.5px solid transparent;
-      color: var(--ash); transition: all 150ms ease-out;
-      display: flex; align-items: center; gap: 6px;
+      font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase;
+      color: var(--pitch); background: var(--stone);
+      border: 1.5px solid var(--stone); border-radius: 20px;
+      padding: 7px 34px 7px 16px;
+      cursor: pointer; outline: none;
+      transition: border-color 150ms ease-out, background 150ms ease-out;
     }
-    .round-tab:hover { color: var(--pitch); border-color: var(--stone); }
-    .round-tab.complete { color: #7A8C9A; }
-    .round-tab.complete:hover { color: var(--pitch); }
-    .round-tab.current { color: var(--steel); }
-    .round-tab.active {
-      background: var(--midnight); color: var(--pampas);
-      border-color: var(--midnight);
+    .round-select:hover { background: #E0DDD3; border-color: #C8C4B8; }
+    .round-select:focus { border-color: var(--midnight); background: #fff; }
+    .round-select-chevron {
+      position: absolute; right: 11px; top: 50%; transform: translateY(-50%);
+      pointer-events: none; font-size: 11px; color: var(--ash); line-height: 1;
     }
-    .round-tab.active:hover { opacity: 0.9; }
-    .tab-dot {
-      width: 6px; height: 6px; border-radius: 50%;
-      background: var(--moss); flex-shrink: 0;
-    }
-    .tab-check {
-      font-size: 10px; opacity: 0.5;
-    }
-    .round-bar-divider {
-      width: 1px; height: 20px; background: var(--stone); flex-shrink: 0; margin: 0 4px;
+    .round-bar-range {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      letter-spacing: 0.08em; color: var(--ash);
+      white-space: nowrap;
     }
 
     /* ── MAIN LAYOUT ── */
@@ -655,7 +656,10 @@
       .nav-links { display: none; }
       .btn-primary { display: none; }
       .main-content { padding: 16px 12px 60px; }
-      .round-bar-inner { padding: 0 12px; }
+      .round-bar-inner { padding: 0 12px; gap: 8px; }
+      .round-season-label { display: none; }
+      .round-bar-range { display: none; }
+      .round-select { font-size: 13px; padding: 6px 30px 6px 14px; }
       .page-header { padding: calc(64px + 24px) 16px 24px; }
       .page-meta { display: none; }
       .page-title { font-size: 40px; letter-spacing: -1px; }
@@ -750,7 +754,14 @@
 
   <!-- ROUND BAR -->
   <div class="round-bar">
-    <div class="round-bar-inner" id="round-tabs"></div>
+    <div class="round-bar-inner">
+      <span class="round-season-label">2026 AFL</span>
+      <div class="round-select-wrap">
+        <select id="round-select" class="round-select" onchange="selectRound(this.value)"></select>
+        <span class="round-select-chevron">▾</span>
+      </div>
+      <span class="round-bar-range" id="round-bar-range"></span>
+    </div>
   </div>
 
   <!-- MAIN -->
@@ -1086,25 +1097,18 @@
     // ─── RENDER ROUNDS TABS ─────────────────────────────────────────────────
 
     function renderTabs(active) {
-      const container = document.getElementById('round-tabs');
+      const sel     = document.getElementById('round-select');
+      const rangeEl = document.getElementById('round-bar-range');
       const currentRound = META.current_round || active;
-      container.innerHTML = Object.entries(ROUNDS).map(([num, rd]) => {
-        const n = parseInt(num);
-        const isActive   = n === active;
-        const isCurrent  = n === currentRound;
+      sel.innerHTML = Object.entries(ROUNDS).map(([num, rd]) => {
+        const n          = parseInt(num);
         const isComplete = rd.complete;
-        let cls = 'round-tab';
-        if (isActive)        cls += ' active';
-        else if (isCurrent)  cls += ' current';
-        else if (isComplete) cls += ' complete';
-
-        const indicator = isActive ? ''
-          : isCurrent  ? '<span class="tab-dot"></span>'
-          : isComplete ? '<span class="tab-check">✓</span>'
-          : '';
-
-        return `<button class="${cls}" onclick="selectRound(${num})">${indicator}${rd.label}</button>`;
-      }).join('<div class="round-bar-divider"></div>');
+        const isCurrent  = n === currentRound;
+        const prefix     = isComplete ? '✓  ' : isCurrent ? '●  ' : '';
+        return `<option value="${num}"${n === active ? ' selected' : ''}>${prefix}${rd.label}</option>`;
+      }).join('');
+      const activeRd = ROUNDS[active];
+      if (rangeEl) rangeEl.textContent = (activeRd && activeRd.range) ? activeRd.range : '';
     }
 
     // ─── RENDER GAMES ───────────────────────────────────────────────────────
