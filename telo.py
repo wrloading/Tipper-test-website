@@ -1366,12 +1366,15 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         if avgs:
             team_pos_avgs[team] = avgs
 
-    # Store raw avg P-TELO per category (team ratings shown as-is)
+    # Rank teams per category by avg P-TELO (1 = strongest)
     positional_ratings: dict = {t: {} for t in team_pos_avgs}
     for cat in POS_CATS:
-        for team, avgs in team_pos_avgs.items():
-            if cat in avgs:
-                positional_ratings[team][cat] = {"avg": avgs[cat]}
+        ranked = sorted(
+            [(t, avgs[cat]) for t, avgs in team_pos_avgs.items() if cat in avgs],
+            key=lambda x: x[1], reverse=True
+        )
+        for rank, (team, avg_t) in enumerate(ranked, 1):
+            positional_ratings[team][cat] = {"rank": rank, "avg": avg_t}
 
     # ── Monte Carlo ────────────────────────────────────────────────────────────
     print(f"[TELO] Running {MC_SIMULATIONS:,} Monte Carlo simulations...")

@@ -880,9 +880,9 @@
       const pr = posRatings || {};
       const posHtml = (pr.FWD || pr.MID || pr.DEF) ? `
         <div class="pos-ratings-inline">
-          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.avg}</span></div>` : ''}
-          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.avg}</span></div>` : ''}
-          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.avg}</span></div>` : ''}
+          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.rank}</span></div>` : ''}
+          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.rank}</span></div>` : ''}
+          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.rank}</span></div>` : ''}
         </div>` : '';
 
       if (!named || !named.length) {
