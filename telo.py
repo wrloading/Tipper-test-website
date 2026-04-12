@@ -222,6 +222,11 @@ FOOTYWIRE_NAME_MAP: dict[str, str] = {
     "western bulldogs":        "Western Bulldogs",
 }
 
+# FootyWire abbreviated name → exact full name as used in AFL Tables / AFL Fantasy
+# Add entries here whenever a player's name differs between sources.
+# Key: lowercase FootyWire display name  Value: full name in AFL Tables/Fantasy
+PLAYER_NAME_OVERRIDES: dict[str, str] = {}
+
 # ─── SQUIGGLE API ─────────────────────────────────────────────────────────────
 
 def squiggle_get(query: str) -> dict:
@@ -857,8 +862,33 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
 
     # ── Player data ────────────────────────────────────────────────────────────
     print("[TELO] Fetching AFL Fantasy player data...")
-    player_ratings = compute_player_ratings(fetch_fantasy_players())
+    _fantasy_raw = fetch_fantasy_players()
+    player_ratings = compute_player_ratings(_fantasy_raw)
     print(f"[TELO]   {len(player_ratings)} players rated")
+
+    # Build a name→entry index covering ALL Fantasy players (incl. 0-avg/injured)
+    # so name matching works even for players filtered out of squad ratings.
+    _all_fantasy_by_name: dict = {}
+    for _rp in _fantasy_raw:
+        _team = FANTASY_SQUAD_MAP.get(_rp.get("squad_id", 0))
+        if not _team:
+            continue
+        _fname = f"{_rp.get('first_name','')} {_rp.get('last_name','')}".strip()
+        if not _fname:
+            continue
+        _entry = {
+            "name":   _fname,
+            "team":   _team,
+            "pos":    FANTASY_POSITIONS.get((_rp.get("positions") or [2])[0], "MID"),
+            "telo":   PLAYER_INITIAL_TELO,   # default; overridden below if in player_ratings
+            "games":  int(_rp.get("stats", {}).get("games_played") or 0),
+            "player_rating": None,
+            "player_rank":   None,
+        }
+        _all_fantasy_by_name[_fname.lower()] = _entry
+    # Patch in real telo/rating/rank for players who made it into player_ratings
+    for _pr in player_ratings:
+        _all_fantasy_by_name[_pr["name"].lower()] = _pr
 
     team_squads: dict = defaultdict(list)
     for p in player_ratings:
@@ -994,12 +1024,16 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         Match an abbreviated or full name to AFL Tables stats.
         Handles: 'J Smith', 'N W-Milera', 'J De Koning', 'H. Reid'.
         """
-        clean = re.sub(r'\.\s*', ' ', display_name).strip()
+        # Apply manual override first
+        override = PLAYER_NAME_OVERRIDES.get(display_name.strip().lower())
+        search_name = override if override else display_name
+
+        clean = re.sub(r'\.\s*', ' ', search_name).strip()
         parts = clean.split()
         if len(parts) < 2:
             return None
         initial = parts[0][0].upper()
-        for key in _lookup_keys_for(display_name):
+        for key in _lookup_keys_for(search_name):
             candidates = _name_idx.get(key, [])
             if not candidates:
                 continue
@@ -1115,14 +1149,17 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
           f"{sum(1 for p in player_ratings if _resolve_pi_telo(p['name']) is not None)} Fantasy entries updated")
 
     # P-TELO lookup index for named squad win-prob adjustment
+    # Build lookup index from ALL Fantasy players (not just avg>0 filtered ones)
     _ptelo_idx: dict = {}
-    for _pr in player_ratings:
-        for _key in _surname_keys(_pr["name"]):
-            _ptelo_idx.setdefault(_key, []).append(_pr)
+    for _entry in _all_fantasy_by_name.values():
+        for _key in _surname_keys(_entry["name"]):
+            _ptelo_idx.setdefault(_key, []).append(_entry)
 
     def _match_player(display_name: str, team: str) -> Optional[dict]:
         """Return the player_ratings entry for an abbreviated name + team."""
-        clean = re.sub(r'\.\s*', ' ', display_name).strip()
+        override = PLAYER_NAME_OVERRIDES.get(display_name.strip().lower())
+        search_name = override if override else display_name
+        clean = re.sub(r'\.\s*', ' ', search_name).strip()
         parts = clean.split()
         if len(parts) < 2:
             return None
