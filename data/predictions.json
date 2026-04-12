@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-12T11:56:19.395836+10:00",
+    "updated": "2026-04-12T14:44:36.085099+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -17308,42 +17308,16 @@
           "complete": false,
           "home_named": [
             {
-              "name": "S De Koning",
-              "pos": "FB",
-              "avg_di": 13.0,
-              "avg_gl": 0.0,
-              "avg_tk": 1.8,
-              "avg_cl": 0.5,
-              "avg_pi": 74.0,
-              "games": 4
-            },
-            {
-              "name": "Z Guthrie",
-              "pos": "FB",
-              "avg_di": 14.8,
-              "avg_gl": 0.0,
-              "avg_tk": 3.5,
-              "avg_cl": 0.8,
-              "avg_pi": 84.5,
-              "games": 4
+              "name": "J Kolodjashnij",
+              "pos": "FB"
             },
             {
               "name": "C O'Sullivan",
               "pos": "FB"
             },
             {
-              "name": "L Humphries",
-              "pos": "HB",
-              "avg_di": 17.5,
-              "avg_gl": 0.0,
-              "avg_tk": 3.0,
-              "avg_cl": 0.5,
-              "avg_pi": 94.6,
-              "games": 4
-            },
-            {
               "name": "T Stewart",
-              "pos": "HB",
+              "pos": "FB",
               "avg_di": 24.2,
               "avg_gl": 0.2,
               "avg_tk": 1.5,
@@ -17362,23 +17336,23 @@
               "games": 4
             },
             {
-              "name": "J Bowes",
-              "pos": "C",
-              "avg_di": 13.0,
-              "avg_gl": 2.0,
-              "avg_tk": 4.0,
-              "avg_cl": 1.0,
-              "avg_pi": 98.0,
-              "games": 1
+              "name": "T Bruhn",
+              "pos": "HB",
+              "avg_di": 24.0,
+              "avg_gl": 0.0,
+              "avg_tk": 2.0,
+              "avg_cl": 2.8,
+              "avg_pi": 112.4,
+              "games": 4
             },
             {
-              "name": "B Smith",
-              "pos": "C",
-              "avg_di": 31.8,
-              "avg_gl": 0.2,
-              "avg_tk": 5.2,
-              "avg_cl": 3.8,
-              "avg_pi": 175.8,
+              "name": "Z Guthrie",
+              "pos": "HB",
+              "avg_di": 14.8,
+              "avg_gl": 0.0,
+              "avg_tk": 3.5,
+              "avg_cl": 0.8,
+              "avg_pi": 84.5,
               "games": 4
             },
             {
@@ -17392,6 +17366,40 @@
               "games": 4
             },
             {
+              "name": "B Smith",
+              "pos": "C",
+              "avg_di": 31.8,
+              "avg_gl": 0.2,
+              "avg_tk": 5.2,
+              "avg_cl": 3.8,
+              "avg_pi": 175.8,
+              "games": 4
+            },
+            {
+              "name": "M O'Connor",
+              "pos": "C"
+            },
+            {
+              "name": "J Cameron",
+              "pos": "HF",
+              "avg_di": 16.7,
+              "avg_gl": 1.3,
+              "avg_tk": 2.7,
+              "avg_cl": 0.0,
+              "avg_pi": 111.6,
+              "games": 3
+            },
+            {
+              "name": "G Miers",
+              "pos": "HF",
+              "avg_di": 25.0,
+              "avg_gl": 0.0,
+              "avg_tk": 4.0,
+              "avg_cl": 1.2,
+              "avg_pi": 128.7,
+              "games": 4
+            },
+            {
               "name": "S Mannagh",
               "pos": "HF",
               "avg_di": 14.0,
@@ -17400,26 +17408,6 @@
               "avg_cl": 1.5,
               "avg_pi": 91.8,
               "games": 4
-            },
-            {
-              "name": "S Neale",
-              "pos": "HF",
-              "avg_di": 8.2,
-              "avg_gl": 2.5,
-              "avg_tk": 2.2,
-              "avg_cl": 1.0,
-              "avg_pi": 94.1,
-              "games": 4
-            },
-            {
-              "name": "B Close",
-              "pos": "HF",
-              "avg_di": 7.0,
-              "avg_gl": 0.0,
-              "avg_tk": 1.3,
-              "avg_cl": 0.0,
-              "avg_pi": 31.2,
-              "games": 3
             },
             {
               "name": "O Wiltshire",
@@ -17432,14 +17420,14 @@
               "games": 2
             },
             {
-              "name": "J Cameron",
+              "name": "S Neale",
               "pos": "FF",
-              "avg_di": 16.7,
-              "avg_gl": 1.3,
-              "avg_tk": 2.7,
-              "avg_cl": 0.0,
-              "avg_pi": 111.6,
-              "games": 3
+              "avg_di": 8.2,
+              "avg_gl": 2.5,
+              "avg_tk": 2.2,
+              "avg_cl": 1.0,
+              "avg_pi": 94.1,
+              "games": 4
             },
             {
               "name": "O Henry",
@@ -17482,6 +17470,36 @@
               "games": 4
             },
             {
+              "name": "L Humphries",
+              "pos": "INT",
+              "avg_di": 17.5,
+              "avg_gl": 0.0,
+              "avg_tk": 3.0,
+              "avg_cl": 0.5,
+              "avg_pi": 94.6,
+              "games": 4
+            },
+            {
+              "name": "S De Koning",
+              "pos": "INT",
+              "avg_di": 13.0,
+              "avg_gl": 0.0,
+              "avg_tk": 1.8,
+              "avg_cl": 0.5,
+              "avg_pi": 74.0,
+              "games": 4
+            },
+            {
+              "name": "J Bowes",
+              "pos": "INT",
+              "avg_di": 13.0,
+              "avg_gl": 2.0,
+              "avg_tk": 4.0,
+              "avg_cl": 1.0,
+              "avg_pi": 98.0,
+              "games": 1
+            },
+            {
               "name": "J Worpel",
               "pos": "INT",
               "avg_di": 17.0,
@@ -17492,44 +17510,26 @@
               "games": 1
             },
             {
-              "name": "J Kolodjashnij",
-              "pos": "INT"
-            },
-            {
-              "name": "M O'Connor",
-              "pos": "INT"
-            },
-            {
-              "name": "T Bruhn",
+              "name": "B Close",
               "pos": "INT",
-              "avg_di": 24.0,
+              "avg_di": 7.0,
               "avg_gl": 0.0,
-              "avg_tk": 2.0,
-              "avg_cl": 2.8,
-              "avg_pi": 112.4,
-              "games": 4
-            },
-            {
-              "name": "G Miers",
-              "pos": "INT",
-              "avg_di": 25.0,
-              "avg_gl": 0.0,
-              "avg_tk": 4.0,
-              "avg_cl": 1.2,
-              "avg_pi": 128.7,
-              "games": 4
+              "avg_tk": 1.3,
+              "avg_cl": 0.0,
+              "avg_pi": 31.2,
+              "games": 3
             }
           ],
           "away_named": [
             {
-              "name": "H Schoenberg",
+              "name": "M Owies",
               "pos": "FF",
-              "avg_di": 10.5,
+              "avg_di": 5.0,
               "avg_gl": 0.0,
-              "avg_tk": 2.5,
-              "avg_cl": 1.5,
-              "avg_pi": 52.7,
-              "games": 2
+              "avg_tk": 4.0,
+              "avg_cl": 0.0,
+              "avg_pi": 44.0,
+              "games": 1
             },
             {
               "name": "J Waterman",
@@ -17552,14 +17552,14 @@
               "games": 4
             },
             {
-              "name": "T Kelly",
+              "name": "W Duursma",
               "pos": "HF",
-              "avg_di": 22.3,
-              "avg_gl": 0.0,
-              "avg_tk": 3.7,
-              "avg_cl": 5.0,
-              "avg_pi": 129.6,
-              "games": 3
+              "avg_di": 16.2,
+              "avg_gl": 1.2,
+              "avg_tk": 2.2,
+              "avg_cl": 2.0,
+              "avg_pi": 105.5,
+              "games": 4
             },
             {
               "name": "A Reid",
@@ -17582,13 +17582,13 @@
               "games": 4
             },
             {
-              "name": "W Duursma",
+              "name": "T McCarthy",
               "pos": "C",
-              "avg_di": 16.2,
-              "avg_gl": 1.2,
-              "avg_tk": 2.2,
-              "avg_cl": 2.0,
-              "avg_pi": 105.5,
+              "avg_di": 18.5,
+              "avg_gl": 0.0,
+              "avg_tk": 2.8,
+              "avg_cl": 2.2,
+              "avg_pi": 108.8,
               "games": 4
             },
             {
@@ -17672,8 +17672,14 @@
               "games": 4
             },
             {
-              "name": "C D-Tytler",
-              "pos": "Fol"
+              "name": "B Williams",
+              "pos": "Fol",
+              "avg_di": 21.2,
+              "avg_gl": 1.0,
+              "avg_tk": 3.8,
+              "avg_cl": 1.5,
+              "avg_pi": 128.3,
+              "games": 4
             },
             {
               "name": "H Reid",
@@ -17686,13 +17692,13 @@
               "games": 4
             },
             {
-              "name": "D Robertson",
+              "name": "T Kelly",
               "pos": "Fol",
-              "avg_di": 19.7,
+              "avg_di": 22.3,
               "avg_gl": 0.0,
-              "avg_tk": 6.3,
-              "avg_cl": 4.7,
-              "avg_pi": 116.5,
+              "avg_tk": 3.7,
+              "avg_cl": 5.0,
+              "avg_pi": 129.6,
               "games": 3
             },
             {
@@ -17706,34 +17712,8 @@
               "games": 3
             },
             {
-              "name": "M Owies",
-              "pos": "INT",
-              "avg_di": 5.0,
-              "avg_gl": 0.0,
-              "avg_tk": 4.0,
-              "avg_cl": 0.0,
-              "avg_pi": 44.0,
-              "games": 1
-            },
-            {
-              "name": "T McCarthy",
-              "pos": "INT",
-              "avg_di": 18.5,
-              "avg_gl": 0.0,
-              "avg_tk": 2.8,
-              "avg_cl": 2.2,
-              "avg_pi": 108.8,
-              "games": 4
-            },
-            {
-              "name": "B Williams",
-              "pos": "INT",
-              "avg_di": 21.2,
-              "avg_gl": 1.0,
-              "avg_tk": 3.8,
-              "avg_cl": 1.5,
-              "avg_pi": 128.3,
-              "games": 4
+              "name": "C D-Tytler",
+              "pos": "INT"
             },
             {
               "name": "H Davis",
@@ -17744,6 +17724,26 @@
               "avg_cl": 1.2,
               "avg_pi": 78.3,
               "games": 4
+            },
+            {
+              "name": "D Robertson",
+              "pos": "INT",
+              "avg_di": 19.7,
+              "avg_gl": 0.0,
+              "avg_tk": 6.3,
+              "avg_cl": 4.7,
+              "avg_pi": 116.5,
+              "games": 3
+            },
+            {
+              "name": "H Schoenberg",
+              "pos": "INT",
+              "avg_di": 10.5,
+              "avg_gl": 0.0,
+              "avg_tk": 2.5,
+              "avg_cl": 1.5,
+              "avg_pi": 52.7,
+              "games": 2
             }
           ],
           "home_outs": [
@@ -17974,16 +17974,6 @@
           ],
           "away_named": [
             {
-              "name": "J Faull",
-              "pos": "FF",
-              "avg_di": 8.0,
-              "avg_gl": 0.3,
-              "avg_tk": 3.0,
-              "avg_cl": 0.0,
-              "avg_pi": 61.8,
-              "games": 3
-            },
-            {
               "name": "L Fawcett",
               "pos": "FF",
               "avg_di": 8.0,
@@ -17992,6 +17982,16 @@
               "avg_cl": 0.0,
               "avg_pi": 88.0,
               "games": 1
+            },
+            {
+              "name": "J Faull",
+              "pos": "FF",
+              "avg_di": 8.0,
+              "avg_gl": 0.3,
+              "avg_tk": 3.0,
+              "avg_cl": 0.0,
+              "avg_pi": 61.8,
+              "games": 3
             },
             {
               "name": "M Lefau",
@@ -18024,34 +18024,14 @@
               "games": 4
             },
             {
-              "name": "S Green",
+              "name": "M Rioli",
               "pos": "HF",
-              "avg_di": 10.5,
-              "avg_gl": 1.2,
-              "avg_tk": 2.8,
-              "avg_cl": 0.2,
-              "avg_pi": 79.8,
-              "games": 4
-            },
-            {
-              "name": "S Banks",
-              "pos": "C",
-              "avg_di": 20.2,
+              "avg_di": 8.5,
               "avg_gl": 0.2,
-              "avg_tk": 1.5,
-              "avg_cl": 0.5,
-              "avg_pi": 85.1,
+              "avg_tk": 2.5,
+              "avg_cl": 0.8,
+              "avg_pi": 52.8,
               "games": 4
-            },
-            {
-              "name": "D Prestia",
-              "pos": "C",
-              "avg_di": 19.3,
-              "avg_gl": 0.3,
-              "avg_tk": 3.7,
-              "avg_cl": 2.3,
-              "avg_pi": 110.3,
-              "games": 3
             },
             {
               "name": "T Sonsie",
@@ -18064,14 +18044,24 @@
               "games": 3
             },
             {
-              "name": "N Broad",
-              "pos": "HB",
-              "avg_di": 11.0,
-              "avg_gl": 0.0,
-              "avg_tk": 1.0,
-              "avg_cl": 0.3,
-              "avg_pi": 58.4,
+              "name": "D Prestia",
+              "pos": "C",
+              "avg_di": 19.3,
+              "avg_gl": 0.3,
+              "avg_tk": 3.7,
+              "avg_cl": 2.3,
+              "avg_pi": 110.3,
               "games": 3
+            },
+            {
+              "name": "S Banks",
+              "pos": "C",
+              "avg_di": 20.2,
+              "avg_gl": 0.2,
+              "avg_tk": 1.5,
+              "avg_cl": 0.5,
+              "avg_pi": 85.1,
+              "games": 4
             },
             {
               "name": "J Short",
@@ -18081,6 +18071,16 @@
               "avg_tk": 1.5,
               "avg_cl": 0.8,
               "avg_pi": 133.4,
+              "games": 4
+            },
+            {
+              "name": "B Miller",
+              "pos": "HB",
+              "avg_di": 15.8,
+              "avg_gl": 0.0,
+              "avg_tk": 1.0,
+              "avg_cl": 0.2,
+              "avg_pi": 78.5,
               "games": 4
             },
             {
@@ -18094,24 +18094,14 @@
               "games": 4
             },
             {
-              "name": "N Vlastuin",
+              "name": "N Broad",
               "pos": "FB",
-              "avg_di": 14.0,
-              "avg_gl": 0.3,
-              "avg_tk": 2.0,
-              "avg_cl": 0.3,
-              "avg_pi": 64.7,
-              "games": 3
-            },
-            {
-              "name": "B Miller",
-              "pos": "FB",
-              "avg_di": 15.8,
+              "avg_di": 11.0,
               "avg_gl": 0.0,
               "avg_tk": 1.0,
-              "avg_cl": 0.2,
-              "avg_pi": 78.5,
-              "games": 4
+              "avg_cl": 0.3,
+              "avg_pi": 58.4,
+              "games": 3
             },
             {
               "name": "N Balta",
@@ -18124,18 +18114,18 @@
               "games": 3
             },
             {
-              "name": "O H-Brown",
-              "pos": "Fol"
+              "name": "N Vlastuin",
+              "pos": "FB",
+              "avg_di": 14.0,
+              "avg_gl": 0.3,
+              "avg_tk": 2.0,
+              "avg_cl": 0.3,
+              "avg_pi": 64.7,
+              "games": 3
             },
             {
-              "name": "T Taranto",
-              "pos": "Fol",
-              "avg_di": 24.8,
-              "avg_gl": 0.5,
-              "avg_tk": 6.8,
-              "avg_cl": 5.5,
-              "avg_pi": 148.0,
-              "games": 4
+              "name": "O H-Brown",
+              "pos": "Fol"
             },
             {
               "name": "S Lalor",
@@ -18145,6 +18135,16 @@
               "avg_tk": 3.0,
               "avg_cl": 1.8,
               "avg_pi": 102.9,
+              "games": 4
+            },
+            {
+              "name": "T Taranto",
+              "pos": "Fol",
+              "avg_di": 24.8,
+              "avg_gl": 0.5,
+              "avg_tk": 6.8,
+              "avg_cl": 5.5,
+              "avg_pi": 148.0,
               "games": 4
             },
             {
@@ -18168,16 +18168,6 @@
               "games": 2
             },
             {
-              "name": "M Rioli",
-              "pos": "INT",
-              "avg_di": 8.5,
-              "avg_gl": 0.2,
-              "avg_tk": 2.5,
-              "avg_cl": 0.8,
-              "avg_pi": 52.8,
-              "games": 4
-            },
-            {
               "name": "C Gray",
               "pos": "INT",
               "avg_di": 6.3,
@@ -18195,6 +18185,16 @@
               "avg_tk": 1.8,
               "avg_cl": 5.0,
               "avg_pi": 99.4,
+              "games": 4
+            },
+            {
+              "name": "S Green",
+              "pos": "INT",
+              "avg_di": 10.5,
+              "avg_gl": 1.2,
+              "avg_tk": 2.8,
+              "avg_cl": 0.2,
+              "avg_pi": 79.8,
               "games": 4
             }
           ],
@@ -96428,8 +96428,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 99.0,
-      "premiers_pct": 22.6
+      "finals_pct": 98.9,
+      "premiers_pct": 22.4
     },
     {
       "team": "Brisbane Lions",
@@ -96440,8 +96440,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 96.0,
-      "premiers_pct": 19.1
+      "finals_pct": 95.7,
+      "premiers_pct": 18.6
     },
     {
       "team": "Fremantle",
@@ -96452,8 +96452,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.6,
-      "premiers_pct": 17.2
+      "finals_pct": 97.7,
+      "premiers_pct": 17.3
     },
     {
       "team": "Western Bulldogs",
@@ -96464,8 +96464,8 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.8,
-      "premiers_pct": 14.8
+      "finals_pct": 96.6,
+      "premiers_pct": 14.9
     },
     {
       "team": "Geelong",
@@ -96476,8 +96476,8 @@
       "percentage": 89.7,
       "points_for": 338,
       "points_against": 377,
-      "finals_pct": 87.0,
-      "premiers_pct": 9.0
+      "finals_pct": 87.4,
+      "premiers_pct": 8.9
     },
     {
       "team": "Sydney",
@@ -96488,8 +96488,8 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 93.9,
-      "premiers_pct": 10.0
+      "finals_pct": 94.3,
+      "premiers_pct": 10.1
     },
     {
       "team": "Gold Coast",
@@ -96500,8 +96500,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 60.6,
-      "premiers_pct": 2.6
+      "finals_pct": 60.1,
+      "premiers_pct": 2.7
     },
     {
       "team": "Adelaide",
@@ -96512,8 +96512,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 54.9,
-      "premiers_pct": 2.3
+      "finals_pct": 53.6,
+      "premiers_pct": 2.2
     },
     {
       "team": "Collingwood",
@@ -96524,8 +96524,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 42.8,
-      "premiers_pct": 1.3
+      "finals_pct": 42.5,
+      "premiers_pct": 1.5
     },
     {
       "team": "Greater Western Sydney",
@@ -96536,7 +96536,7 @@
       "percentage": 76.9,
       "points_for": 303,
       "points_against": 394,
-      "finals_pct": 32.9,
+      "finals_pct": 33.6,
       "premiers_pct": 1.0
     },
     {
@@ -96548,7 +96548,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 14.7,
+      "finals_pct": 14.8,
       "premiers_pct": 0.1
     },
     {
@@ -96560,7 +96560,7 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 10.4,
+      "finals_pct": 10.5,
       "premiers_pct": 0.1
     },
     {
@@ -96572,7 +96572,7 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 4.9,
+      "finals_pct": 5.3,
       "premiers_pct": 0.0
     },
     {
@@ -96584,7 +96584,7 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.1,
+      "finals_pct": 7.8,
       "premiers_pct": 0.0
     },
     {
@@ -96596,7 +96596,7 @@
       "percentage": 76.6,
       "points_for": 393,
       "points_against": 513,
-      "finals_pct": 0.3,
+      "finals_pct": 0.4,
       "premiers_pct": 0.0
     },
     {
@@ -96608,7 +96608,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.3,
+      "finals_pct": 0.1,
       "premiers_pct": 0.0
     },
     {
@@ -96620,7 +96620,7 @@
       "percentage": 64.9,
       "points_for": 310,
       "points_against": 478,
-      "finals_pct": 0.8,
+      "finals_pct": 0.7,
       "premiers_pct": 0.0
     },
     {
