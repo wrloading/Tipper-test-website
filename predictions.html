@@ -563,8 +563,9 @@
     }
     .prb-val {
       font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700;
-      line-height: 1.1;
+      line-height: 1.1; letter-spacing: -0.02em;
     }
+    .prb-val .ord { font-size: 7px; font-weight: 500; vertical-align: super; letter-spacing: 0; }
     .prb-def .prb-label { color: #6A9BBC; }
     .prb-def .prb-val   { color: #6A9BBC; }
     .prb-mid .prb-label { color: #1B2A4A; }
@@ -878,11 +879,16 @@
           : '';
 
       const pr = posRatings || {};
+      const ordinal = n => {
+        const s = ['th','st','nd','rd'], v = n % 100;
+        const suffix = s[(v-20)%10] || s[v] || s[0];
+        return `${n}<span class="ord">${suffix}</span>`;
+      };
       const posHtml = (pr.FWD || pr.MID || pr.DEF) ? `
         <div class="pos-ratings-inline">
-          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.rank}</span></div>` : ''}
-          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.rank}</span></div>` : ''}
-          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.rank}</span></div>` : ''}
+          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${ordinal(pr.FWD.rank)}</span></div>` : ''}
+          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${ordinal(pr.MID.rank)}</span></div>` : ''}
+          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${ordinal(pr.DEF.rank)}</span></div>` : ''}
         </div>` : '';
 
       if (!named || !named.length) {

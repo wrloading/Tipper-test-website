@@ -939,7 +939,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         return sum(pi * w for pi, w in zip(pi_list, weights)) / sum(weights)
 
     # Build name-lookup index for matching abbreviated FootyWire names to full AFL Tables names
-    # Index key: normalised last name → [(full_name, avg_stats_dict), ...]
+    # Keys: last word AND full surname (for multi-word surnames like "De Koning")
     _name_idx: dict = {}
     for full_name, acc in player_season_stats.items():
         g = max(acc["games"], 1)
@@ -948,30 +948,40 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "avg_gl": round(acc["gl"] / g, 1),
             "avg_tk": round(acc["tk"] / g, 1),
             "avg_cl": round(acc["cl"] / g, 1),
-            "avg_pi": round(weighted_pi_avg(acc["pi_list"]), 1),  # recency-weighted
+            "avg_pi": round(weighted_pi_avg(acc["pi_list"]), 1),
             "games":  acc["games"],
         }
-        # Index by last word of name (handles "De Koning" → "Koning")
-        last = full_name.split()[-1].lower()
-        _name_idx.setdefault(last, []).append((full_name, avg))
+        name_parts = full_name.split()
+        _name_idx.setdefault(name_parts[-1].lower(), []).append((full_name, avg))
+        if len(name_parts) > 2:
+            _name_idx.setdefault(" ".join(name_parts[1:]).lower(), []).append((full_name, avg))
 
-    def lookup_avg_stats(display_name: str) -> Optional[dict]:
-        """Match 'J De Koning' or 'Sam De Koning' to stats by last name + first initial."""
-        parts = display_name.strip().split()
+    def _name_lookup(display_name: str) -> Optional[dict]:
+        """
+        Match an abbreviated or full name to AFL Tables stats.
+        Handles: 'J Smith', 'J De Koning', 'Sam De Koning', 'H. Reid' (dot stripped).
+        """
+        # Strip dots from initials (e.g. "H. Reid" → "H Reid")
+        clean = re.sub(r'\.\s*', ' ', display_name).strip()
+        parts = clean.split()
         if len(parts) < 2:
             return None
         initial = parts[0][0].upper()
-        last    = parts[-1].lower()
-        candidates = _name_idx.get(last, [])
+        # Try full surname first, then last word
+        last_full = " ".join(parts[1:]).lower()
+        last_word = parts[-1].lower()
+        candidates = _name_idx.get(last_full) or _name_idx.get(last_word, [])
         if not candidates:
             return None
         if len(candidates) == 1:
             return candidates[0][1]
-        # Multiple players share last name — disambiguate by first initial
         for full_name, avg in candidates:
             if full_name.split()[0][0].upper() == initial:
                 return avg
         return None
+
+    def lookup_avg_stats(display_name: str) -> Optional[dict]:
+        return _name_lookup(display_name)
 
     # ── PI-based P-TELO: override Fantasy ratings with AFL Tables data ────────────
     # Compute each player's recency-weighted PI average, normalise against the league,
@@ -1086,11 +1096,11 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
 
     def _match_player(display_name: str, team: str) -> Optional[dict]:
         """Return the player_ratings entry for an abbreviated name + team."""
-        parts = display_name.strip().split()
+        clean = re.sub(r'\.\s*', ' ', display_name).strip()
+        parts = clean.split()
         if len(parts) < 2:
             return None
-        initial = parts[0][0].upper()
-        # Try full surname first (e.g. "J De Goey" → "de goey"), then last word
+        initial   = parts[0][0].upper()
         last_full = " ".join(parts[1:]).lower()
         last_word = parts[-1].lower()
         candidates = _ptelo_idx.get(last_full) or _ptelo_idx.get(last_word, [])
@@ -1293,12 +1303,16 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                         avg = lookup_avg_stats(p["name"])
                         if avg:
                             merged.update(avg)
+                        else:
+                            print(f"[TELO]   no AFL Tables stats: '{p['name']}' ({team_name})", file=sys.stderr)
                         pd = lookup_player_telo_data(p["name"], team_name)
                         if pd:
                             merged["ptelo"]         = pd["telo"]
                             merged["ppos"]          = pd["pos"]
                             merged["player_rating"] = pd.get("player_rating")
                             merged["player_rank"]   = pd.get("player_rank")
+                        else:
+                            print(f"[TELO]   no Fantasy match:    '{p['name']}' ({team_name})", file=sys.stderr)
                         enriched.append(merged)
                     if enriched:
                         entry[side] = enriched
