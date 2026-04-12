@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-11T16:39:37.727446+10:00",
+  "updated": "2026-04-12T10:57:50.878190+10:00",
   "league_avg": 59.6,
   "players": [
     {
@@ -101,7 +101,7 @@
     {
       "id": 993834,
       "name": "Josh Dunkley",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 107.5,
       "last3": 119.7,
@@ -137,7 +137,7 @@
     {
       "id": 294305,
       "name": "Lachie Whitfield",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 105.2,
       "last3": 107.7,
@@ -209,7 +209,7 @@
     {
       "id": 1000978,
       "name": "Hugh McCluggage",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 102.2,
       "last3": 112.7,
@@ -233,7 +233,7 @@
     {
       "id": 261224,
       "name": "Dayne Zorko",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 101.5,
       "last3": 99.7,
@@ -293,7 +293,7 @@
     {
       "id": 1009253,
       "name": "Lachie Ash",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 100.1,
       "last3": 74.7,
@@ -329,7 +329,7 @@
     {
       "id": 1023266,
       "name": "Finn Callaghan",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 99.0,
       "last3": 112.0,
@@ -365,7 +365,7 @@
     {
       "id": 1009528,
       "name": "Tom Green",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 97.5,
       "last3": 94.3,
@@ -449,7 +449,7 @@
     {
       "id": 1023517,
       "name": "Will Ashcroft",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 95.5,
       "last3": 101.7,
@@ -485,7 +485,7 @@
     {
       "id": 293535,
       "name": "Lachie Neale",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 94.6,
       "last3": 106.3,
@@ -1001,7 +1001,7 @@
     {
       "id": 998133,
       "name": "Jarrod Berry",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 85.0,
       "last3": 75.7,
@@ -1109,7 +1109,7 @@
     {
       "id": 1002312,
       "name": "Zac Bailey",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 83.5,
       "last3": 108.3,
@@ -1145,7 +1145,7 @@
     {
       "id": 1023708,
       "name": "Jaspa Fletcher",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 83.0,
       "last3": 97.0,
@@ -1313,7 +1313,7 @@
     {
       "id": 295344,
       "name": "Toby Greene",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 81.0,
       "last3": 104.0,
@@ -1325,7 +1325,7 @@
     {
       "id": 296347,
       "name": "Josh Kelly",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 80.9,
       "last3": 66.3,
@@ -1361,7 +1361,7 @@
     {
       "id": 1017067,
       "name": "Darcy Wilmot",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 79.6,
       "last3": 98.3,
@@ -1541,7 +1541,7 @@
     {
       "id": 993107,
       "name": "Harry Himmelberg",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 78.2,
       "last3": 83.3,
@@ -1817,7 +1817,7 @@
     {
       "id": 1028560,
       "name": "Levi Ashcroft",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 74.4,
       "last3": 81.3,
@@ -1925,7 +1925,7 @@
     {
       "id": 1006059,
       "name": "Keidean Coleman",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 73.0,
       "last3": 73.0,
@@ -1949,7 +1949,7 @@
     {
       "id": 1008083,
       "name": "Connor Idun",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 72.7,
       "last3": 60.3,
@@ -2093,7 +2093,7 @@
     {
       "id": 1005521,
       "name": "Oscar McInerney",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "RUC",
       "avg": 70.4,
       "last3": 60.0,
@@ -2117,7 +2117,7 @@
     {
       "id": 1008436,
       "name": "Kieren Briggs",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "RUC",
       "avg": 70.4,
       "last3": 79.0,
@@ -2165,7 +2165,7 @@
     {
       "id": 1002235,
       "name": "Cam Rayner",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 70.1,
       "last3": 86.7,
@@ -2237,7 +2237,7 @@
     {
       "id": 298211,
       "name": "Darcy Fort",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "RUC",
       "avg": 69.2,
       "last3": 70.0,
@@ -2309,7 +2309,7 @@
     {
       "id": 1015777,
       "name": "Ryan Angwin",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 68.3,
       "last3": 66.3,
@@ -2333,7 +2333,7 @@
     {
       "id": 1008123,
       "name": "Jake Riccardi",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 68.2,
       "last3": 57.3,
@@ -2669,7 +2669,7 @@
     {
       "id": 296324,
       "name": "Jesse Hogan",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 65.3,
       "last3": 33.0,
@@ -2897,7 +2897,7 @@
     {
       "id": 1023743,
       "name": "Nicholas Madden",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "RUC",
       "avg": 63.3,
       "last3": 63.3,
@@ -3101,7 +3101,7 @@
     {
       "id": 298437,
       "name": "Callum Ah Chee",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 62.5,
       "last3": 73.3,
@@ -3137,7 +3137,7 @@
     {
       "id": 996059,
       "name": "Harris Andrews",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 62.2,
       "last3": 94.3,
@@ -3173,7 +3173,7 @@
     {
       "id": 1020650,
       "name": "Darcy Jones",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 62.1,
       "last3": 70.3,
@@ -3209,7 +3209,7 @@
     {
       "id": 1005247,
       "name": "Sam Taylor",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 61.9,
       "last3": 46.7,
@@ -3521,7 +3521,7 @@
     {
       "id": 291969,
       "name": "Stephen Coniglio",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 59.4,
       "last3": 57.3,
@@ -3545,7 +3545,7 @@
     {
       "id": 1019038,
       "name": "Aaron Cadman",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 59.4,
       "last3": 63.0,
@@ -3785,7 +3785,7 @@
     {
       "id": 1005053,
       "name": "Noah Answerth",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 57.9,
       "last3": 42.3,
@@ -3809,7 +3809,7 @@
     {
       "id": 1014038,
       "name": "Callum M. Brown",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 57.9,
       "last3": 55.0,
@@ -3833,7 +3833,7 @@
     {
       "id": 1028019,
       "name": "Logan Morris",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 57.7,
       "last3": 48.3,
@@ -3893,7 +3893,7 @@
     {
       "id": 1006135,
       "name": "Xavier O'Halloran",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 57.5,
       "last3": 71.7,
@@ -3917,7 +3917,7 @@
     {
       "id": 291548,
       "name": "Ryan Lester",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 57.3,
       "last3": 63.0,
@@ -4085,7 +4085,7 @@
     {
       "id": 1008139,
       "name": "Toby Bedford",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 56.2,
       "last3": 63.3,
@@ -4205,7 +4205,7 @@
     {
       "id": 1009708,
       "name": "Jack Buckley",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 55.2,
       "last3": 50.0,
@@ -4325,7 +4325,7 @@
     {
       "id": 993953,
       "name": "Eric Hipwood",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 54.9,
       "last3": 57.0,
@@ -4421,7 +4421,7 @@
     {
       "id": 1002347,
       "name": "Jack Payne",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 54.2,
       "last3": 55.0,
@@ -4469,7 +4469,7 @@
     {
       "id": 280109,
       "name": "Callan Ward",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 53.8,
       "last3": 35.3,
@@ -4589,7 +4589,7 @@
     {
       "id": 293884,
       "name": "Jake Stringer",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 53.5,
       "last3": 59.3,
@@ -4625,7 +4625,7 @@
     {
       "id": 990609,
       "name": "Charlie Cameron",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 53.3,
       "last3": 53.3,
@@ -4793,7 +4793,7 @@
     {
       "id": 1004530,
       "name": "Jacob Wehr",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 52.3,
       "last3": 34.7,
@@ -4913,7 +4913,7 @@
     {
       "id": 1021122,
       "name": "Harry Rowston",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 51.9,
       "last3": 66.7,
@@ -4961,7 +4961,7 @@
     {
       "id": 290314,
       "name": "Lachlan Keeffe",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "RUC",
       "avg": 51.3,
       "last3": 51.3,
@@ -4985,7 +4985,7 @@
     {
       "id": 1027925,
       "name": "Harvey Thomas",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 51.2,
       "last3": 81.3,
@@ -5057,7 +5057,7 @@
     {
       "id": 1015862,
       "name": "Conor Stone",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 50.9,
       "last3": 56.7,
@@ -5177,7 +5177,7 @@
     {
       "id": 1032629,
       "name": "Joe Fonti",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 49.7,
       "last3": 44.7,
@@ -5417,7 +5417,7 @@
     {
       "id": 1002251,
       "name": "Brent Daniels",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 47.7,
       "last3": 37.0,
@@ -5573,7 +5573,7 @@
     {
       "id": 1000932,
       "name": "Tom Doedee",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 47.0,
       "last3": 47.0,
@@ -5645,7 +5645,7 @@
     {
       "id": 1014026,
       "name": "Kai Lohmann",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 46.3,
       "last3": 63.7,
@@ -5717,7 +5717,7 @@
     {
       "id": 1028520,
       "name": "Sam Marshall",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 46.0,
       "last3": 71.3,
@@ -5789,7 +5789,7 @@
     {
       "id": 1002401,
       "name": "Brandon Starcevich",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 45.7,
       "last3": 50.3,
@@ -6017,7 +6017,7 @@
     {
       "id": 1009317,
       "name": "Bruce Reville",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 43.9,
       "last3": 55.0,
@@ -6089,7 +6089,7 @@
     {
       "id": 291753,
       "name": "Sam Day",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 43.6,
       "last3": 24.7,
@@ -6317,7 +6317,7 @@
     {
       "id": 1032619,
       "name": "Cody Angove",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 42.0,
       "last3": 43.7,
@@ -6329,7 +6329,7 @@
     {
       "id": 1027971,
       "name": "Toby McMullin",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 42.0,
       "last3": 32.7,
@@ -6341,7 +6341,7 @@
     {
       "id": 1016189,
       "name": "Henry Smith",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 42.0,
       "last3": 42.0,
@@ -6377,7 +6377,7 @@
     {
       "id": 296269,
       "name": "Darcy Gardiner",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 41.6,
       "last3": 40.7,
@@ -6641,7 +6641,7 @@
     {
       "id": 1027921,
       "name": "Max Gruzewski",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "FWD",
       "avg": 37.9,
       "last3": 58.0,
@@ -6821,7 +6821,7 @@
     {
       "id": 1008691,
       "name": "Leek Aleer",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 36.3,
       "last3": 31.0,
@@ -7097,7 +7097,7 @@
     {
       "id": 1034411,
       "name": "Ty Gallop",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 33.0,
       "last3": 33.0,
@@ -7193,7 +7193,7 @@
     {
       "id": 1032119,
       "name": "James Leake",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "DEF",
       "avg": 31.7,
       "last3": 31.7,
@@ -7313,7 +7313,7 @@
     {
       "id": 1021108,
       "name": "James Tunstill",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 30.7,
       "last3": 30.7,
@@ -7481,7 +7481,7 @@
     {
       "id": 1029030,
       "name": "Josaia Delana",
-      "team": "GWS",
+      "team": "Greater Western Sydney",
       "pos": "MID",
       "avg": 28.0,
       "last3": 28.0,
@@ -7661,7 +7661,7 @@
     {
       "id": 997846,
       "name": "Conor McKenna",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 26.0,
       "last3": 24.3,
@@ -7769,7 +7769,7 @@
     {
       "id": 1029405,
       "name": "Will McLachlan",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "FWD",
       "avg": 23.3,
       "last3": 24.0,
@@ -7949,7 +7949,7 @@
     {
       "id": 1009385,
       "name": "Deven Robertson",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "MID",
       "avg": 15.5,
       "last3": 18.7,
@@ -7997,7 +7997,7 @@
     {
       "id": 1008805,
       "name": "Luke Beecken",
-      "team": "Brisbane",
+      "team": "Brisbane Lions",
       "pos": "DEF",
       "avg": 10.0,
       "last3": 10.0,

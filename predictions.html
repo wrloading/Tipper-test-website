@@ -441,11 +441,11 @@
     .lineup-panel {
       overflow: hidden;
       max-height: 0;
-      transition: max-height 280ms ease-out;
+      transition: max-height 400ms ease-out;
       border-top: 0px solid var(--stone);
     }
     .lineup-panel.open {
-      max-height: 600px;
+      max-height: 1200px;
       border-top: 1px solid var(--stone);
     }
     .lineup-panel-inner {
@@ -503,32 +503,71 @@
       font-family: 'JetBrains Mono', monospace; font-size: 9px;
       color: var(--ash); text-align: center; padding: 12px 0;
     }
-    /* Completed game stats columns */
+    /* Squad source label (announced / fallback) */
+    .squad-source {
+      font-family: 'JetBrains Mono', monospace; font-size: 8px;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 2px 5px; border-radius: 3px; flex-shrink: 0;
+    }
+    .squad-source.live  { background: rgba(120,140,93,0.12); color: var(--moss); }
+    .squad-source.stale { background: rgba(186,180,168,0.18); color: var(--ash); }
+    /* Named squad players (upcoming) */
+    .named-player {
+      display: flex; align-items: center; gap: 6px;
+      padding: 3px 0; border-bottom: 1px solid rgba(232,230,220,0.4);
+    }
+    .named-player:last-child { border-bottom: none; }
+    .np-pos {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 26px; height: 15px; border-radius: 3px; flex-shrink: 0;
+      font-family: 'JetBrains Mono', monospace; font-size: 7px;
+      font-weight: 600; letter-spacing: 0.02em;
+      background: rgba(186,180,168,0.18); color: var(--ash);
+    }
+    .np-name {
+      font-size: 12px; font-weight: 500; color: var(--pitch);
+      flex: 1; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .outs-section {
+      margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--stone);
+    }
+    .outs-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--negative);
+      margin-bottom: 4px;
+    }
+    .outs-player {
+      font-size: 11px; color: var(--ash); text-decoration: line-through;
+      padding: 1px 0;
+    }
+    /* Completed game stats columns — 7 stats + PI */
     .lineup-stats-header {
-      display: grid; grid-template-columns: 1fr 28px 20px 20px 24px;
-      gap: 4px; padding: 0 6px 4px; border-bottom: 1px solid var(--stone);
+      display: grid; grid-template-columns: 1fr 24px 18px 18px 20px 20px 22px 28px;
+      gap: 3px; padding: 0 4px 4px; border-bottom: 1px solid var(--stone);
       margin-bottom: 2px;
     }
-    .lsh-name { font-family: 'JetBrains Mono', monospace; font-size: 8px;
+    .lsh-name { font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
       color: var(--ash); letter-spacing: 0.06em; }
-    .lsh-stat { font-family: 'JetBrains Mono', monospace; font-size: 8px;
-      color: var(--ash); letter-spacing: 0.06em; text-align: center; }
+    .lsh-stat { font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
+      color: var(--ash); letter-spacing: 0.04em; text-align: center; }
+    .lsh-pi   { font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
+      color: var(--pitch); letter-spacing: 0.04em; text-align: center; font-weight: 700; }
     .lineup-stats-row {
-      display: grid; grid-template-columns: 1fr 28px 20px 20px 24px;
-      gap: 4px; padding: 3px 6px; align-items: center;
+      display: grid; grid-template-columns: 1fr 24px 18px 18px 20px 20px 22px 28px;
+      gap: 3px; padding: 3px 4px; align-items: center;
     }
     .lineup-stats-row:not(:last-child) { border-bottom: 1px solid rgba(224,222,218,0.4); }
-    .lineup-stats-row.sub-off { opacity: 0.55; }
+    .lineup-stats-row.sub-off { opacity: 0.5; }
     .lsr-name { font-size: 11px; font-weight: 500; color: var(--ink);
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .lsr-di   { font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      font-weight: 600; color: var(--ink); text-align: center; }
-    .lsr-gl   { font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      color: var(--moss); font-weight: 600; text-align: center; }
-    .lsr-tk   { font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    .lsr-stat { font-family: 'JetBrains Mono', monospace; font-size: 10px;
       color: var(--slate); text-align: center; }
-    .lsr-pct  { font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      color: var(--ash); text-align: center; }
+    .lsr-gl   { font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      color: var(--moss); font-weight: 700; text-align: center; }
+    .lsr-pi   { font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      font-weight: 700; color: var(--pitch); text-align: center;
+      background: rgba(27,42,74,0.06); border-radius: 3px; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 1100px) {
@@ -713,12 +752,16 @@
         homeScore:       g.home_score,
         awayScore:       g.away_score,
         upset:           g.upset || false,
-        homeSquad:       g.home_squad       || [],
-        awaySquad:       g.away_squad       || [],
-        homeSquadImpact: g.home_squad_impact != null ? g.home_squad_impact : null,
-        awaySquadImpact: g.away_squad_impact != null ? g.away_squad_impact : null,
-        homeLineup:      g.home_lineup      || [],
-        awayLineup:      g.away_lineup      || [],
+        homeSquadImpact:       g.home_squad_impact != null ? g.home_squad_impact : null,
+        awaySquadImpact:       g.away_squad_impact != null ? g.away_squad_impact : null,
+        homeLineup:            g.home_lineup      || [],
+        awayLineup:            g.away_lineup      || [],
+        homeNamed:             g.home_named       || [],
+        awayNamed:             g.away_named       || [],
+        homeOuts:              g.home_outs        || [],
+        awayOuts:              g.away_outs        || [],
+        selectionsAnnounced:   g.selections_announced,
+        selectionsRound:       g.selections_round  || null,
       };
     }
 
@@ -749,86 +792,90 @@
       RUC: { bg: 'rgba(194,68,68,0.10)',   fg: '#C24444' },
     };
 
-    function renderLineupCol(squad, teamName, impact) {
-      if (!squad || !squad.length) {
+    // ── Upcoming game: named squad panel ────────────────────────────────────────
+    function renderNamedSquad(named, teamName, outs, impact, announced, selRound) {
+      const sourceLabel = announced === true
+        ? `<span class="squad-source live">Rd ${selRound} Named</span>`
+        : announced === false
+          ? `<span class="squad-source stale">Last Wk Squad</span>`
+          : '';
+
+      let impactHtml = '';
+      if (impact != null) {
+        if (Math.abs(impact) < 1)
+          impactHtml = `<span class="lineup-impact neutral">Full strength</span>`;
+        else if (impact < 0)
+          impactHtml = `<span class="lineup-impact negative">${impact.toFixed(1)} pts</span>`;
+        else
+          impactHtml = `<span class="lineup-impact positive">+${impact.toFixed(1)} pts</span>`;
+      }
+
+      if (!named || !named.length) {
         return `
           <div>
             <div class="lineup-col-header">
               <div class="lineup-team-name">${teamName}</div>
+              ${sourceLabel}
             </div>
-            <div class="lineup-no-data">No lineup data</div>
+            <div class="lineup-no-data">No data available</div>
           </div>`;
       }
 
-      let impactHtml = '';
-      if (impact != null) {
-        if (Math.abs(impact) < 1) {
-          impactHtml = `<span class="lineup-impact neutral">Full strength</span>`;
-        } else if (impact < 0) {
-          impactHtml = `<span class="lineup-impact negative">${impact.toFixed(1)} pts</span>`;
-        } else {
-          impactHtml = `<span class="lineup-impact positive">+${impact.toFixed(1)} pts</span>`;
-        }
-      }
+      const POS_ORDER = { FB:0, HB:1, C:2, HF:3, FF:4, Fol:5, INT:6, '':7 };
+      const sorted = [...named].sort((a,b) => (POS_ORDER[a.pos]??7) - (POS_ORDER[b.pos]??7));
 
-      // Separate available vs injured/out
-      const available = squad.filter(p => p.status === 'available');
-      const injured   = squad.filter(p => p.status !== 'available');
-
-      function playerRow(p) {
-        const c = POS_COLORS[p.pos] || POS_COLORS.MID;
-        const teloStyle = `background:${c.bg};color:${c.fg}`;
-        const injuredBadge = p.status !== 'available'
-          ? `<span class="lp-injured">${p.status === 'injured' ? 'INJ' : 'OUT'}</span>` : '';
-        const rowCls = p.status !== 'available' ? 'lineup-player out' : 'lineup-player';
+      const playerRows = sorted.map(p => {
+        const posDisplay = p.pos || '';
         return `
-          <div class="${rowCls}">
-            <span class="lp-pos" style="background:${c.bg};color:${c.fg}">${p.pos}</span>
-            <span class="lp-name">${p.name}</span>
-            ${injuredBadge}
-            <span class="lp-telo" style="background:${c.bg};color:${c.fg}">${p.telo.toLocaleString()}</span>
+          <div class="named-player">
+            ${posDisplay ? `<span class="np-pos">${posDisplay}</span>` : ''}
+            <span class="np-name">${p.name}</span>
           </div>`;
-      }
+      }).join('');
 
-      const availHtml = available.slice(0, 22).map(playerRow).join('');
-      const injHtml   = injured.length
-        ? `<div class="lineup-separator"></div>${injured.map(playerRow).join('')}` : '';
+      const outsHtml = outs && outs.length ? `
+        <div class="outs-section">
+          <div class="outs-label">Outs</div>
+          ${outs.map(n => `<div class="outs-player">${n}</div>`).join('')}
+        </div>` : '';
 
       return `
         <div>
           <div class="lineup-col-header">
             <div class="lineup-team-name">${teamName}</div>
-            ${impactHtml}
+            <div style="display:flex;gap:4px;align-items:center">${sourceLabel}${impactHtml}</div>
           </div>
-          ${availHtml}
-          ${injHtml}
+          ${playerRows}
+          ${outsHtml}
         </div>`;
     }
 
-    function renderLineupColStats(lineup, teamName) {
+    // ── Completed game: per-player stats panel (sorted by PI) ────────────────
+    function renderLineupStats(lineup, teamName) {
       if (!lineup || !lineup.length) {
         return `
           <div>
             <div class="lineup-col-header">
               <div class="lineup-team-name">${teamName}</div>
             </div>
-            <div class="lineup-no-data">No lineup data</div>
+            <div class="lineup-no-data">No data</div>
           </div>`;
       }
 
-      // Sort by disposals descending
-      const sorted = [...lineup].sort((a, b) => b.di - a.di);
+      const sorted = [...lineup].sort((a, b) => b.pi - a.pi);
 
       const rows = sorted.map(p => {
         const isSub = p.pct < 75;
-        const glDisp = p.gl > 0 ? p.gl : '·';
         return `
           <div class="lineup-stats-row${isSub ? ' sub-off' : ''}">
             <span class="lsr-name">${p.name}</span>
-            <span class="lsr-di">${p.di}</span>
-            <span class="lsr-gl">${glDisp}</span>
-            <span class="lsr-tk">${p.tk}</span>
-            <span class="lsr-pct">${p.pct}%</span>
+            <span class="lsr-stat">${p.di}</span>
+            <span class="lsr-gl">${p.gl || '·'}</span>
+            <span class="lsr-stat">${p.tk}</span>
+            <span class="lsr-stat">${p.cl}</span>
+            <span class="lsr-stat">${p.ho || '·'}</span>
+            <span class="lsr-stat">${p.pct}%</span>
+            <span class="lsr-pi">${p.pi}</span>
           </div>`;
       }).join('');
 
@@ -842,7 +889,10 @@
             <span class="lsh-stat">DI</span>
             <span class="lsh-stat">GL</span>
             <span class="lsh-stat">TK</span>
+            <span class="lsh-stat">CL</span>
+            <span class="lsh-stat">HO</span>
             <span class="lsh-stat">%P</span>
+            <span class="lsh-pi">PI</span>
           </div>
           ${rows}
         </div>`;
@@ -892,18 +942,18 @@
         const spreadLabel = `-${g.margin.toFixed(1)}`;
         const isUpset     = isFinal && g.upset;
         const gameId      = `r${roundNum}g${idx}`;
-        // Show squad panel for upcoming games (AFL Fantasy), lineup stats for completed games (AFL Tables)
-        const hasSquad    = !isFinal && (g.homeSquad.length > 0 || g.awaySquad.length > 0);
-        const hasLineup   = isFinal  && (g.homeLineup.length > 0 || g.awayLineup.length > 0);
-        const hasPanel    = hasSquad || hasLineup;
+        // Panel availability
+        const hasLineup = isFinal && (g.homeLineup.length > 0 || g.awayLineup.length > 0);
+        const hasNamed  = !isFinal && (g.homeNamed.length > 0 || g.awayNamed.length > 0);
+        const hasPanel  = hasLineup || hasNamed;
 
-        // Squad injury summary for toggle label
-        const hInj = g.homeSquad.filter(p => p.status !== 'available').length;
-        const aInj = g.awaySquad.filter(p => p.status !== 'available').length;
-        const squadLabel = (hInj + aInj) > 0
-          ? `Squad · ${hInj + aInj} out`
-          : 'Squad';
-        const panelLabel = hasLineup ? 'Lineups &amp; Stats' : squadLabel;
+        // Toggle label
+        const outsCount = (g.homeOuts.length + g.awayOuts.length);
+        const panelLabel = hasLineup
+          ? 'Lineups &amp; Stats'
+          : g.selectionsAnnounced
+            ? `Named Squad${outsCount > 0 ? ` · ${outsCount} out` : ''}`
+            : 'Last Week\'s Squad';
 
         return `
           <div class="game-card">
@@ -961,12 +1011,14 @@
               <div class="lineup-panel" id="lp-${gameId}">
                 <div class="lineup-panel-inner">
                   ${hasLineup
-                    ? renderLineupColStats(g.homeLineup, g.home)
-                    : renderLineupCol(g.homeSquad, g.home, g.homeSquadImpact)
+                    ? renderLineupStats(g.homeLineup, g.home)
+                    : renderNamedSquad(g.homeNamed, g.home, g.homeOuts,
+                        g.homeSquadImpact, g.selectionsAnnounced, g.selectionsRound)
                   }
                   ${hasLineup
-                    ? renderLineupColStats(g.awayLineup, g.away)
-                    : renderLineupCol(g.awaySquad, g.away, g.awaySquadImpact)
+                    ? renderLineupStats(g.awayLineup, g.away)
+                    : renderNamedSquad(g.awayNamed, g.away, g.awayOuts,
+                        g.awaySquadImpact, g.selectionsAnnounced, g.selectionsRound)
                   }
                 </div>
               </div>

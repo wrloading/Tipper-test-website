@@ -78,24 +78,24 @@ INJURY_OVERRIDES: dict[str, float] = {
 }
 
 TEAM_STATE: dict[str, str] = {
-    "Adelaide":         "SA",
-    "Brisbane":         "QLD",
-    "Carlton":          "VIC",
-    "Collingwood":      "VIC",
-    "Essendon":         "VIC",
-    "Fremantle":        "WA",
-    "Geelong":          "VIC",
-    "Gold Coast":       "QLD",
-    "GWS":              "NSW",
-    "Hawthorn":         "VIC",
-    "Melbourne":        "VIC",
-    "North Melbourne":  "VIC",
-    "Port Adelaide":    "SA",
-    "Richmond":         "VIC",
-    "St Kilda":         "VIC",
-    "Sydney":           "NSW",
-    "West Coast":       "WA",
-    "Western Bulldogs": "VIC",
+    "Adelaide":                "SA",
+    "Brisbane Lions":          "QLD",
+    "Carlton":                 "VIC",
+    "Collingwood":             "VIC",
+    "Essendon":                "VIC",
+    "Fremantle":               "WA",
+    "Geelong":                 "VIC",
+    "Gold Coast":              "QLD",
+    "Greater Western Sydney":  "NSW",
+    "Hawthorn":                "VIC",
+    "Melbourne":               "VIC",
+    "North Melbourne":         "VIC",
+    "Port Adelaide":           "SA",
+    "Richmond":                "VIC",
+    "St Kilda":                "VIC",
+    "Sydney":                  "NSW",
+    "West Coast":              "WA",
+    "Western Bulldogs":        "VIC",
 }
 
 # ─── AFL FANTASY PLAYER DATA ─────────────────────────────────────────────────
@@ -114,14 +114,14 @@ FANTASY_POSITIONS: dict[int, str] = {1: "DEF", 2: "MID", 3: "RUC", 4: "FWD"}
 # AFL Fantasy squad_id → Squiggle team name
 FANTASY_SQUAD_MAP: dict[int, str] = {
     10:   "Adelaide",
-    20:   "Brisbane",
+    20:   "Brisbane Lions",
     30:   "Carlton",
     40:   "Collingwood",
     50:   "Essendon",
     60:   "Fremantle",
     70:   "Geelong",
     1000: "Gold Coast",
-    1010: "GWS",
+    1010: "Greater Western Sydney",
     80:   "Hawthorn",
     90:   "Melbourne",
     100:  "North Melbourne",
@@ -139,20 +139,23 @@ AFLTABLES_BASE  = "https://afltables.com"
 AFLTABLES_UA    = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
 AFLTABLES_DELAY = 0.25  # seconds between requests (be a good citizen)
 
+# Non-player rows that appear in the Match Statistics table footer
+AFLTABLES_SKIP_ROWS = {"totals", "total", "opposition", "rushed", "behinds"}
+
 # Normalise AFL Tables team name (from page heading) → Squiggle team name
 AFLTABLES_TEAM_MAP: dict[str, str] = {
     "adelaide":                "Adelaide",
-    "bris. lions":             "Brisbane",
-    "brisbane lions":          "Brisbane",
-    "brisbane":                "Brisbane",
+    "bris. lions":             "Brisbane Lions",
+    "brisbane lions":          "Brisbane Lions",
+    "brisbane":                "Brisbane Lions",
     "carlton":                 "Carlton",
     "collingwood":             "Collingwood",
     "essendon":                "Essendon",
     "fremantle":               "Fremantle",
     "geelong":                 "Geelong",
     "gold coast":              "Gold Coast",
-    "gw sydney":               "GWS",
-    "greater western sydney":  "GWS",
+    "gw sydney":               "Greater Western Sydney",
+    "greater western sydney":  "Greater Western Sydney",
     "hawthorn":                "Hawthorn",
     "melbourne":               "Melbourne",
     "nth melbourne":           "North Melbourne",
@@ -163,6 +166,56 @@ AFLTABLES_TEAM_MAP: dict[str, str] = {
     "sydney":                  "Sydney",
     "west coast":              "West Coast",
     "w. bulldogs":             "Western Bulldogs",
+    "western bulldogs":        "Western Bulldogs",
+}
+
+# ─── FOOTYWIRE TEAM SELECTIONS ────────────────────────────────────────────────
+
+FOOTYWIRE_UA = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
+
+# FootyWire player link team slug → Squiggle team name
+FOOTYWIRE_TEAM_SLUG_MAP: dict[str, str] = {
+    "adelaide-crows":                  "Adelaide",
+    "brisbane-lions":                  "Brisbane Lions",
+    "carlton-blues":                   "Carlton",
+    "collingwood-magpies":             "Collingwood",
+    "essendon-bombers":                "Essendon",
+    "fremantle-dockers":               "Fremantle",
+    "geelong-cats":                    "Geelong",
+    "gold-coast-suns":                 "Gold Coast",
+    "greater-western-sydney-giants":   "Greater Western Sydney",
+    "hawthorn-hawks":                  "Hawthorn",
+    "kangaroos":                       "North Melbourne",
+    "melbourne-demons":                "Melbourne",
+    "port-adelaide-power":             "Port Adelaide",
+    "richmond-tigers":                 "Richmond",
+    "st-kilda-saints":                 "St Kilda",
+    "sydney-swans":                    "Sydney",
+    "west-coast-eagles":               "West Coast",
+    "western-bulldogs":                "Western Bulldogs",
+}
+
+# FootyWire game-heading team names → Squiggle team name
+FOOTYWIRE_NAME_MAP: dict[str, str] = {
+    "adelaide":                "Adelaide",
+    "brisbane":                "Brisbane Lions",
+    "brisbane lions":          "Brisbane Lions",
+    "carlton":                 "Carlton",
+    "collingwood":             "Collingwood",
+    "essendon":                "Essendon",
+    "fremantle":               "Fremantle",
+    "geelong":                 "Geelong",
+    "gold coast":              "Gold Coast",
+    "gws":                     "Greater Western Sydney",
+    "greater western sydney":  "Greater Western Sydney",
+    "hawthorn":                "Hawthorn",
+    "melbourne":               "Melbourne",
+    "north melbourne":         "North Melbourne",
+    "port adelaide":           "Port Adelaide",
+    "richmond":                "Richmond",
+    "st kilda":                "St Kilda",
+    "sydney":                  "Sydney",
+    "west coast":              "West Coast",
     "western bulldogs":        "Western Bulldogs",
 }
 
@@ -223,8 +276,8 @@ def fetch_afltables_season_links(year: int) -> list:
 def fetch_afltables_game_lineup(url: str) -> tuple:
     """
     Fetch per-player game stats from an AFL Tables game stat page.
-    Returns (home_lineup, away_lineup, home_team, away_team) where each lineup
-    is a list of {name, di, gl, tk, pct} dicts. Returns (None,None,None,None) on error.
+    Returns (home_lineup, away_lineup, home_team, away_team) where each lineup is a
+    list of {name, di, gl, tk, cl, ho, pct, pi} dicts. Returns (None,None,None,None) on error.
     """
     try:
         from bs4 import BeautifulSoup
@@ -235,7 +288,6 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # Find the two "Match Statistics" tables (home and away)
         stats_tables = [t for t in soup.find_all("table")
                         if "Match Statistics" in t.get_text()]
         if len(stats_tables) < 2:
@@ -246,14 +298,11 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
             if len(rows) < 3:
                 return None, None
 
-            # Row 0: "Hawthorn Match Statistics [Season][Game by Game]"
             heading   = rows[0].get_text(separator=" ", strip=True)
             team_raw  = heading.split("Match Statistics")[0].strip()
             team_name = AFLTABLES_TEAM_MAP.get(team_raw.lower())
 
-            # Row 1: column headers
             headers = [th.get_text(strip=True) for th in rows[1].find_all(["th", "td"])]
-
             try:
                 name_idx = headers.index("Player")
             except ValueError:
@@ -262,7 +311,9 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
             di_idx  = headers.index("DI") if "DI" in headers else -1
             gl_idx  = headers.index("GL") if "GL" in headers else -1
             tk_idx  = headers.index("TK") if "TK" in headers else -1
-            pct_idx = len(headers) - 1  # %P is always last
+            cl_idx  = headers.index("CL") if "CL" in headers else -1
+            ho_idx  = headers.index("HO") if "HO" in headers else -1
+            pct_idx = len(headers) - 1  # %P is always last column
 
             def safe_int(texts: list, idx: int) -> int:
                 if idx < 0 or idx >= len(texts):
@@ -278,21 +329,30 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
                 if len(cells) <= name_idx:
                     continue
                 texts = [c.get_text(strip=True).replace("\xa0", "").strip() for c in cells]
-                name_raw = texts[name_idx]
-                if not name_raw or name_raw.lower() in ("totals", "total"):
+                # Skip footer rows: Totals, Opposition, Rushed — they shift columns
+                row_label = texts[0].lower() if texts else ""
+                if row_label in AFLTABLES_SKIP_ROWS:
                     continue
-                # Convert "Last, First" → "First Last"
+                name_raw = texts[name_idx] if name_idx < len(texts) else ""
+                if not name_raw or name_raw.isdigit():
+                    continue
                 if "," in name_raw:
                     last, first = name_raw.split(",", 1)
                     name = f"{first.strip()} {last.strip()}"
                 else:
                     name = name_raw
+                di  = safe_int(texts, di_idx)
+                gl  = safe_int(texts, gl_idx)
+                tk  = safe_int(texts, tk_idx)
+                cl  = safe_int(texts, cl_idx)
+                ho  = safe_int(texts, ho_idx)
+                pct = safe_int(texts, pct_idx)
+                # Player Impact: AFL Fantasy-inspired scoring
+                pi  = di * 3 + gl * 8 + tk * 4 + cl * 5 + ho * 1
                 players.append({
                     "name": name,
-                    "di":   safe_int(texts, di_idx),
-                    "gl":   safe_int(texts, gl_idx),
-                    "tk":   safe_int(texts, tk_idx),
-                    "pct":  safe_int(texts, pct_idx),
+                    "di": di, "gl": gl, "tk": tk,
+                    "cl": cl, "ho": ho, "pct": pct, "pi": pi,
                 })
             return team_name, players if players else None
 
@@ -303,6 +363,137 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
     except Exception as e:
         print(f"[TELO] ⚠ AFL Tables lineup failed ({url}): {e}", file=sys.stderr)
         return None, None, None, None
+
+# ─── FOOTYWIRE SELECTIONS ────────────────────────────────────────────────────
+
+def fetch_footywire_selections() -> dict:
+    """
+    Fetch current round team selections from FootyWire.
+    Returns dict keyed by (home_squiggle, away_squiggle) → {
+        round, home_named, away_named, home_outs, away_outs
+    } where each named list is [{name, pos}].
+    """
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        return {}
+    url = "https://www.footywire.com/afl/footy/afl_team_selections"
+    try:
+        r = requests.get(url, headers={"User-Agent": FOOTYWIRE_UA}, timeout=20)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+    except Exception as e:
+        print(f"[TELO] ⚠ FootyWire selections failed: {e}", file=sys.stderr)
+        return {}
+
+    # Parse round number from <h1> heading
+    round_num = 0
+    h1 = soup.find("h1")
+    if h1:
+        m = re.search(r"Round\s+(\d+)", h1.get_text())
+        if m:
+            round_num = int(m.group(1))
+
+    selections: dict = {}
+
+    for title_td in soup.find_all("td", class_="tbtitle"):
+        game_text = title_td.get_text(strip=True)
+        # "Adelaide v Carlton (Adelaide Oval)"
+        m = re.match(r"^(.+?)\s+v\s+(.+?)(?:\s*\(|$)", game_text)
+        if not m:
+            continue
+        home_sq = FOOTYWIRE_NAME_MAP.get(m.group(1).strip().lower())
+        away_sq = FOOTYWIRE_NAME_MAP.get(m.group(2).strip().lower())
+        if not home_sq or not away_sq:
+            print(f"[TELO]   FootyWire: unknown teams in '{game_text}'", file=sys.stderr)
+            continue
+
+        # Data row immediately follows the title row
+        title_row = title_td.find_parent("tr")
+        if not title_row:
+            continue
+        data_row = title_row.find_next_sibling("tr")
+        if not data_row:
+            continue
+        tds = data_row.find_all("td", recursive=False)
+        if len(tds) < 3:
+            continue
+        left_td, mid_td, right_td = tds[0], tds[1], tds[2]
+
+        # ── Extract named players from the middle lineup grid ──────────────────
+        home_players: list = []
+        away_players: list = []
+        lineup_table = mid_td.find("table")
+        if lineup_table:
+            for row in lineup_table.find_all("tr"):
+                cells = row.find_all("td")
+                if not cells:
+                    continue
+                pos_raw = cells[0].get_text(strip=True).replace("\xa0", "").strip()
+                pos = pos_raw if pos_raw in ("FB", "HB", "C", "HF", "FF", "Fol") else None
+                if not pos:
+                    continue
+                for cell in cells[1:]:
+                    link = cell.find("a", href=True)
+                    if not link:
+                        continue
+                    m2 = re.match(r"pp-(.+?)--", link["href"])
+                    if not m2:
+                        continue
+                    slug = m2.group(1)
+                    name = link.get_text(strip=True)
+                    mapped = FOOTYWIRE_TEAM_SLUG_MAP.get(slug)
+                    if mapped == home_sq:
+                        home_players.append({"name": name, "pos": pos})
+                    elif mapped == away_sq:
+                        away_players.append({"name": name, "pos": pos})
+
+        # ── Extract interchange + outs from side columns ───────────────────────
+        def parse_side_column(td) -> tuple:
+            interchange: list = []
+            outs: list = []
+            section = None
+            for row in td.find_all("tr"):
+                for cell in row.find_all("td"):
+                    bold = cell.find("b")
+                    if bold:
+                        label = bold.get_text(strip=True).lower()
+                        section = ("interchange" if "interchange" in label
+                                   else "outs" if label == "outs"
+                                   else None)
+                        continue
+                    link = cell.find("a", href=True)
+                    if link and section:
+                        name = link.get_text(strip=True)
+                        if section == "interchange":
+                            interchange.append({"name": name, "pos": "INT"})
+                        elif section == "outs":
+                            outs.append(name)
+            return interchange, outs
+
+        home_bench, home_outs = parse_side_column(left_td)
+        away_bench, away_outs = parse_side_column(right_td)
+
+        # Merge and deduplicate (lineup grid + interchange)
+        def dedup(lst: list) -> list:
+            seen: set = set()
+            out: list = []
+            for p in lst:
+                if p["name"] not in seen:
+                    seen.add(p["name"])
+                    out.append(p)
+            return out
+
+        selections[(home_sq, away_sq)] = {
+            "round":      round_num,
+            "home_named": dedup(home_players + home_bench),
+            "away_named": dedup(away_players + away_bench),
+            "home_outs":  home_outs,
+            "away_outs":  away_outs,
+        }
+
+    print(f"[TELO]   FootyWire: {len(selections)} games with selections (Round {round_num})")
+    return selections
 
 # ─── AFL FANTASY API ─────────────────────────────────────────────────────────
 
@@ -677,6 +868,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     print("[TELO] Fetching AFL Tables historical game lineups...")
     # Key: (YYYYMMDD, squiggle_home_name, squiggle_away_name)  →  {home_lineup, away_lineup}
     afltables_lineups: dict = {}
+    # Most recent lineup per team: team → [{name, pos}]  (for fallback on unannounced games)
+    team_recent_lineup: dict = {}
     try:
         game_links = fetch_afltables_season_links(year)
         print(f"[TELO]   {len(game_links)} game stat pages found on AFL Tables")
@@ -692,10 +885,22 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                         "home_lineup": h_lineup,
                         "away_lineup": a_lineup,
                     }
+                    # Update per-team latest lineup (processed in date order → last write wins)
+                    team_recent_lineup[h_team] = [{"name": p["name"], "pos": ""} for p in h_lineup]
+                    team_recent_lineup[a_team] = [{"name": p["name"], "pos": ""} for p in a_lineup]
         print(f"[TELO]   {len(afltables_lineups)} completed game lineups cached")
     except Exception as e:
         print(f"[TELO] ⚠ AFL Tables scraping error: {e}", file=sys.stderr)
         afltables_lineups = {}
+        team_recent_lineup = {}
+
+    # ── FootyWire team selections ──────────────────────────────────────────────
+    print("[TELO] Fetching FootyWire team selections...")
+    try:
+        footywire_sels = fetch_footywire_selections()
+    except Exception as e:
+        print(f"[TELO] ⚠ FootyWire selections error: {e}", file=sys.stderr)
+        footywire_sels = {}
 
     # ── Current year ───────────────────────────────────────────────────────────
     print(f"[TELO] Fetching {year} standings and upcoming fixtures...")
@@ -806,11 +1011,27 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                         entry["home_lineup"] = lineup_data["home_lineup"]
                         entry["away_lineup"] = lineup_data["away_lineup"]
 
-            # Only embed squad data for upcoming games — AFL Fantasy status is
-            # current-week only, not historical, so it's meaningless for completed games.
-            if team_squads and not is_complete:
-                entry["home_squad"]        = squad_for_display(home)
-                entry["away_squad"]        = squad_for_display(away)
+            # Upcoming game squad: prefer FootyWire named squad, fallback to last week's lineup
+            if not is_complete:
+                sel = footywire_sels.get((home, away))
+                if sel:
+                    entry["home_named"]             = sel["home_named"]
+                    entry["away_named"]             = sel["away_named"]
+                    entry["home_outs"]              = sel["home_outs"]
+                    entry["away_outs"]              = sel["away_outs"]
+                    entry["selections_announced"]   = True
+                    entry["selections_round"]       = sel["round"]
+                else:
+                    # Fallback: last week's actual lineup from AFL Tables
+                    h_recent = team_recent_lineup.get(home)
+                    a_recent = team_recent_lineup.get(away)
+                    if h_recent or a_recent:
+                        entry["home_named"]           = h_recent or []
+                        entry["away_named"]           = a_recent or []
+                        entry["home_outs"]            = []
+                        entry["away_outs"]            = []
+                        entry["selections_announced"] = False
+                # Squad impact delta from injury auto-adjust (always included if computed)
                 entry["home_squad_impact"] = round(home_injury, 1)
                 entry["away_squad_impact"] = round(away_injury, 1)
 
