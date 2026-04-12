@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-12T15:42:11.825013+10:00",
+    "updated": "2026-04-12T15:52:39.874021+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -17924,7 +17924,9 @@
               "avg_cl": 4.8,
               "avg_pi": 97.3,
               "games": 4,
-              "ptelo": 1528
+              "ptelo": 1528,
+              "player_rating": 66,
+              "player_rank": 200
             },
             {
               "name": "C Brown",
@@ -17934,7 +17936,9 @@
               "avg_cl": 0.0,
               "avg_pi": 51.1,
               "games": 4,
-              "ptelo": 1343
+              "ptelo": 1343,
+              "player_rating": 50,
+              "player_rank": 603
             },
             {
               "name": "M Gruzewski",
@@ -17944,7 +17948,9 @@
               "avg_cl": 0.0,
               "avg_pi": 50.8,
               "games": 4,
-              "ptelo": 1342
+              "ptelo": 1342,
+              "player_rating": 49,
+              "player_rank": 605
             },
             {
               "name": "J Leake",
@@ -17954,7 +17960,9 @@
               "avg_cl": 0.0,
               "avg_pi": 76.0,
               "games": 1,
-              "ptelo": 1388
+              "ptelo": 1388,
+              "player_rating": 54,
+              "player_rank": 532
             },
             {
               "name": "J Delana",
@@ -17964,7 +17972,9 @@
               "avg_cl": 0.5,
               "avg_pi": 35.2,
               "games": 4,
-              "ptelo": 1280
+              "ptelo": 1280,
+              "player_rating": 44,
+              "player_rank": 627
             }
           ],
           "away_outs": [
@@ -17976,7 +17986,9 @@
               "avg_cl": 2.0,
               "avg_pi": 55.0,
               "games": 1,
-              "ptelo": 1430
+              "ptelo": 1430,
+              "player_rating": 57,
+              "player_rank": 440
             },
             {
               "name": "K McAuliffe",
@@ -17986,7 +17998,9 @@
               "avg_cl": 0.5,
               "avg_pi": 79.3,
               "games": 2,
-              "ptelo": 1456
+              "ptelo": 1456,
+              "player_rating": 60,
+              "player_rank": 362
             }
           ],
           "selections_announced": true,
@@ -18623,7 +18637,9 @@
               "avg_cl": 1.0,
               "avg_pi": 59.0,
               "games": 1,
-              "ptelo": 1491
+              "ptelo": 1491,
+              "player_rating": 63,
+              "player_rank": 284
             },
             {
               "name": "L Stocker",
@@ -18633,7 +18649,9 @@
               "avg_cl": 0.0,
               "avg_pi": 52.1,
               "games": 2,
-              "ptelo": 1347
+              "ptelo": 1347,
+              "player_rating": 50,
+              "player_rank": 597
             }
           ],
           "selections_announced": true,
@@ -59573,7 +59591,9 @@
               "avg_cl": 0.2,
               "avg_pi": 76.5,
               "games": 4,
-              "ptelo": 1445
+              "ptelo": 1445,
+              "player_rating": 59,
+              "player_rank": 396
             },
             {
               "name": "J Dalton",
@@ -59594,7 +59614,9 @@
               "avg_cl": 3.2,
               "avg_pi": 121.8,
               "games": 4,
-              "ptelo": 1626
+              "ptelo": 1626,
+              "player_rating": 75,
+              "player_rank": 77
             },
             {
               "name": "L McNeil",
@@ -59604,7 +59626,9 @@
               "avg_cl": 0.0,
               "avg_pi": 28.0,
               "games": 1,
-              "ptelo": 1431
+              "ptelo": 1431,
+              "player_rating": 57,
+              "player_rank": 438
             },
             {
               "name": "A Jones",
@@ -59614,7 +59638,9 @@
               "avg_cl": 0.0,
               "avg_pi": 66.2,
               "games": 2,
-              "ptelo": 1404
+              "ptelo": 1404,
+              "player_rating": 55,
+              "player_rank": 500
             },
             {
               "name": "L Jaques",
@@ -124034,8 +124060,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 99.0,
-      "premiers_pct": 22.6
+      "finals_pct": 99.1,
+      "premiers_pct": 22.1
     },
     {
       "team": "Brisbane Lions",
@@ -124046,8 +124072,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.5,
-      "premiers_pct": 18.1
+      "finals_pct": 95.8,
+      "premiers_pct": 17.8
     },
     {
       "team": "Fremantle",
@@ -124058,8 +124084,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.4,
-      "premiers_pct": 16.6
+      "finals_pct": 97.5,
+      "premiers_pct": 17.4
     },
     {
       "team": "Western Bulldogs",
@@ -124071,7 +124097,7 @@
       "points_for": 502,
       "points_against": 416,
       "finals_pct": 96.6,
-      "premiers_pct": 15.4
+      "premiers_pct": 14.2
     },
     {
       "team": "Geelong",
@@ -124082,8 +124108,8 @@
       "percentage": 101.5,
       "points_for": 460,
       "points_against": 453,
-      "finals_pct": 89.8,
-      "premiers_pct": 10.4
+      "finals_pct": 89.9,
+      "premiers_pct": 11.2
     },
     {
       "team": "Sydney",
@@ -124094,8 +124120,8 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 93.9,
-      "premiers_pct": 9.6
+      "finals_pct": 94.0,
+      "premiers_pct": 9.9
     },
     {
       "team": "Gold Coast",
@@ -124106,8 +124132,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 59.2,
-      "premiers_pct": 2.3
+      "finals_pct": 60.4,
+      "premiers_pct": 2.5
     },
     {
       "team": "Adelaide",
@@ -124118,7 +124144,7 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 54.3,
+      "finals_pct": 53.3,
       "premiers_pct": 2.0
     },
     {
@@ -124130,8 +124156,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 42.5,
-      "premiers_pct": 1.7
+      "finals_pct": 43.2,
+      "premiers_pct": 1.4
     },
     {
       "team": "Greater Western Sydney",
@@ -124142,8 +124168,8 @@
       "percentage": 76.9,
       "points_for": 303,
       "points_against": 394,
-      "finals_pct": 33.0,
-      "premiers_pct": 0.9
+      "finals_pct": 33.4,
+      "premiers_pct": 1.0
     },
     {
       "team": "Melbourne",
@@ -124154,8 +124180,8 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 14.4,
-      "premiers_pct": 0.2
+      "finals_pct": 13.7,
+      "premiers_pct": 0.1
     },
     {
       "team": "Port Adelaide",
@@ -124166,7 +124192,7 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 10.7,
+      "finals_pct": 10.6,
       "premiers_pct": 0.1
     },
     {
@@ -124178,8 +124204,8 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 5.1,
-      "premiers_pct": 0.0
+      "finals_pct": 4.5,
+      "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
@@ -124190,7 +124216,7 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.3,
+      "finals_pct": 7.0,
       "premiers_pct": 0.1
     },
     {
@@ -124245,318 +124271,200 @@
   "positional_ratings": {
     "Greater Western Sydney": {
       "DEF": {
-        "rating": 78,
         "avg": 1534
       },
       "MID": {
-        "rating": 65,
-        "avg": 1574
+        "avg": 1566
       },
       "FWD": {
-        "rating": 68,
         "avg": 1475
-      },
-      "FOL": {
-        "rating": 56,
-        "avg": 1528
       }
     },
     "Richmond": {
       "DEF": {
-        "rating": 40,
         "avg": 1431
       },
       "MID": {
-        "rating": 61,
-        "avg": 1560
+        "avg": 1544
       },
       "FWD": {
-        "rating": 43,
         "avg": 1401
-      },
-      "FOL": {
-        "rating": 43,
-        "avg": 1430
       }
     },
     "Port Adelaide": {
       "DEF": {
-        "rating": 52,
         "avg": 1462
       },
       "MID": {
-        "rating": 67,
-        "avg": 1580
+        "avg": 1586
       },
       "FWD": {
-        "rating": 73,
         "avg": 1490
-      },
-      "FOL": {
-        "rating": 69,
-        "avg": 1631
       }
     },
     "St Kilda": {
       "DEF": {
-        "rating": 76,
         "avg": 1529
       },
       "MID": {
-        "rating": 55,
-        "avg": 1538
+        "avg": 1532
       },
       "FWD": {
-        "rating": 60,
         "avg": 1450
-      },
-      "FOL": {
-        "rating": 53,
-        "avg": 1507
       }
     },
     "Carlton": {
       "DEF": {
-        "rating": 43,
         "avg": 1438
       },
       "MID": {
-        "rating": 84,
-        "avg": 1642
+        "avg": 1631
       },
       "FWD": {
-        "rating": 64,
         "avg": 1463
-      },
-      "FOL": {
-        "rating": 62,
-        "avg": 1575
       }
     },
     "Collingwood": {
       "DEF": {
-        "rating": 58,
         "avg": 1480
       },
       "MID": {
-        "rating": 40,
-        "avg": 1487
+        "avg": 1496
       },
       "FWD": {
-        "rating": 59,
         "avg": 1449
-      },
-      "FOL": {
-        "rating": 64,
-        "avg": 1589
       }
     },
     "Geelong": {
       "DEF": {
-        "rating": 71,
         "avg": 1514
       },
       "MID": {
-        "rating": 63,
         "avg": 1566
       },
       "FWD": {
-        "rating": 74,
         "avg": 1493
       }
     },
     "Western Bulldogs": {
       "DEF": {
-        "rating": 58,
         "avg": 1479
       },
       "MID": {
-        "rating": 99,
-        "avg": 1693
+        "avg": 1682
       },
       "FWD": {
-        "rating": 51,
         "avg": 1426
-      },
-      "FOL": {
-        "rating": 69,
-        "avg": 1626
       }
     },
     "Sydney": {
       "DEF": {
-        "rating": 59,
         "avg": 1482
       },
       "MID": {
-        "rating": 85,
-        "avg": 1645
+        "avg": 1654
       },
       "FWD": {
-        "rating": 77,
         "avg": 1502
-      },
-      "FOL": {
-        "rating": 81,
-        "avg": 1724
       }
     },
     "Gold Coast": {
       "DEF": {
-        "rating": 70,
         "avg": 1512
       },
       "MID": {
-        "rating": 70,
         "avg": 1591
       },
       "FWD": {
-        "rating": 57,
         "avg": 1443
-      },
-      "FOL": {
-        "rating": 64,
-        "avg": 1590
       }
     },
     "Essendon": {
       "DEF": {
-        "rating": 51,
         "avg": 1461
       },
       "MID": {
-        "rating": 43,
-        "avg": 1498
+        "avg": 1489
       },
       "FWD": {
-        "rating": 40,
         "avg": 1393
-      },
-      "FOL": {
-        "rating": 40,
-        "avg": 1409
       }
     },
     "Hawthorn": {
       "DEF": {
-        "rating": 63,
         "avg": 1493
       },
       "MID": {
-        "rating": 89,
-        "avg": 1657
+        "avg": 1591
       },
       "FWD": {
-        "rating": 99,
         "avg": 1565
-      },
-      "FOL": {
-        "rating": 51,
-        "avg": 1492
       }
     },
     "Adelaide": {
       "DEF": {
-        "rating": 56,
         "avg": 1474
       },
       "MID": {
-        "rating": 58,
-        "avg": 1550
+        "avg": 1532
       },
       "FWD": {
-        "rating": 75,
         "avg": 1495
-      },
-      "FOL": {
-        "rating": 41,
-        "avg": 1413
       }
     },
     "North Melbourne": {
       "DEF": {
-        "rating": 69,
         "avg": 1508
       },
       "MID": {
-        "rating": 78,
         "avg": 1619
       },
       "FWD": {
-        "rating": 47,
         "avg": 1412
       }
     },
     "Melbourne": {
       "DEF": {
-        "rating": 48,
         "avg": 1452
       },
       "MID": {
-        "rating": 51,
-        "avg": 1526
+        "avg": 1559
       },
       "FWD": {
-        "rating": 82,
         "avg": 1515
-      },
-      "FOL": {
-        "rating": 99,
-        "avg": 1857
       }
     },
     "Brisbane Lions": {
       "DEF": {
-        "rating": 99,
         "avg": 1590
       },
       "MID": {
-        "rating": 76,
-        "avg": 1611
+        "avg": 1590
       },
       "FWD": {
-        "rating": 77,
         "avg": 1502
-      },
-      "FOL": {
-        "rating": 51,
-        "avg": 1491
       }
     },
     "West Coast": {
       "DEF": {
-        "rating": 47,
         "avg": 1449
       },
       "MID": {
-        "rating": 43,
-        "avg": 1498
+        "avg": 1485
       },
       "FWD": {
-        "rating": 44,
         "avg": 1405
-      },
-      "FOL": {
-        "rating": 44,
-        "avg": 1437
       }
     },
     "Fremantle": {
       "DEF": {
-        "rating": 51,
         "avg": 1460
       },
       "MID": {
-        "rating": 81,
-        "avg": 1629
+        "avg": 1614
       },
       "FWD": {
-        "rating": 74,
         "avg": 1493
-      },
-      "FOL": {
-        "rating": 61,
-        "avg": 1569
       }
     }
   }
