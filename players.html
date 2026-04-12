@@ -367,8 +367,8 @@
         <div class="th" data-sort="name" onclick="setSort('name')">Player</div>
         <div class="th" data-sort="team" onclick="setSort('team')">Team</div>
         <div class="th center" data-sort="pos" onclick="setSort('pos')">Pos</div>
-        <div class="th right" data-sort="avg" onclick="setSort('avg')">Avg</div>
-        <div class="th right" data-sort="last3" onclick="setSort('last3')">Last 3</div>
+        <div class="th right" data-sort="avg_pi" onclick="setSort('avg_pi')">Avg PI</div>
+        <div class="th right" data-sort="last3_pi" onclick="setSort('last3_pi')">L3 PI</div>
         <div class="th right" data-sort="games" onclick="setSort('games')">Gms</div>
         <div class="th center">Status</div>
       </div>
@@ -449,8 +449,8 @@
           case 'name':  return a.name.localeCompare(b.name);
           case 'team':  return a.team.localeCompare(b.team) || b.telo - a.telo;
           case 'pos':   return a.pos.localeCompare(b.pos)   || b.telo - a.telo;
-          case 'avg':   return b.avg   - a.avg;
-          case 'last3': return b.last3 - a.last3;
+          case 'avg_pi':   return (b.avg_pi   ?? 0) - (a.avg_pi   ?? 0);
+          case 'last3_pi': return (b.last3_pi ?? 0) - (a.last3_pi ?? 0);
           case 'games': return b.games - a.games;
           default:      return b.telo  - a.telo;
         }
@@ -480,8 +480,8 @@
             <div style="display:flex;justify-content:flex-start">
               <span class="p-pos pos-${p.pos}">${p.pos}</span>
             </div>
-            <div class="p-avg">${p.avg.toFixed(1)}</div>
-            <div class="p-last3">${p.last3.toFixed(1)}</div>
+            <div class="p-avg">${p.avg_pi != null ? Math.round(p.avg_pi) : '—'}</div>
+            <div class="p-last3">${p.last3_pi != null ? Math.round(p.last3_pi) : '—'}</div>
             <div class="p-games">${p.games}</div>
             <div class="p-status">${statusHtml}</div>
           </div>`;
@@ -489,7 +489,7 @@
 
       document.getElementById('player-body').innerHTML = html;
       document.getElementById('table-footer').textContent =
-        `${players.length} player${players.length !== 1 ? 's' : ''} · League avg ${META.league_avg || '—'} Fantasy pts · Powered by AFL Fantasy`;
+        `${players.length} player${players.length !== 1 ? 's' : ''} · League avg PI ${META.league_avg != null ? Math.round(META.league_avg) : '—'} · Powered by AFL Tables`;
     }
 
     function escHtml(s) {

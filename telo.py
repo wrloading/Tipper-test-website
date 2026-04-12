@@ -982,31 +982,66 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     ]
     if pi_rated:
         _league_pi_avg = sum(w for _, w in pi_rated) / len(pi_rated)
-        _pi_telo_map: dict[str, int] = {
-            name: round(PLAYER_INITIAL_TELO + (w_pi - _league_pi_avg) * PLAYER_SCORE_SCALE)
+        # map: name → (telo, weighted_avg_pi)
+        _pi_data_map: dict[str, tuple] = {
+            name: (
+                round(PLAYER_INITIAL_TELO + (w_pi - _league_pi_avg) * PLAYER_SCORE_SCALE),
+                round(w_pi, 1),
+            )
             for name, w_pi in pi_rated
         }
+        # Also store per-player last-3-games simple average PI
+        _pi_last3_map: dict[str, float] = {
+            full_name: round(sum(acc["pi_list"][-3:]) / len(acc["pi_list"][-3:]), 1)
+            for full_name, acc in player_season_stats.items()
+            if acc["games"] >= PLAYER_MIN_GAMES and acc["pi_list"]
+        }
     else:
-        _pi_telo_map = {}
+        _league_pi_avg = 0.0
+        _pi_data_map   = {}
+        _pi_last3_map  = {}
 
-    def _resolve_pi_telo(full_name: str) -> Optional[int]:
-        """Exact match first, then last-name + first-initial fallback."""
-        if full_name in _pi_telo_map:
-            return _pi_telo_map[full_name]
+    # Keep a simple telo-only map for downstream usage
+    _pi_telo_map = {n: v[0] for n, v in _pi_data_map.items()}
+
+    def _resolve_pi_data(full_name: str) -> Optional[tuple]:
+        """Return (telo, avg_pi) for a player by exact or last+initial match."""
+        if full_name in _pi_data_map:
+            return _pi_data_map[full_name]
         parts = full_name.strip().split()
         if len(parts) < 2:
             return None
         initial = parts[0][0].upper()
         last    = parts[-1].lower()
-        matches = [(n, t) for n, t in _pi_telo_map.items()
+        matches = [(n, v) for n, v in _pi_data_map.items()
                    if n.split()[-1].lower() == last and n.split()[0][0].upper() == initial]
         return matches[0][1] if len(matches) == 1 else None
 
-    # Patch player_ratings telo values and rebuild squad averages
+    def _resolve_pi_telo(full_name: str) -> Optional[int]:
+        d = _resolve_pi_data(full_name)
+        return d[0] if d else None
+
+    def _resolve_last3_pi(full_name: str) -> Optional[float]:
+        if full_name in _pi_last3_map:
+            return _pi_last3_map[full_name]
+        parts = full_name.strip().split()
+        if len(parts) < 2:
+            return None
+        initial = parts[0][0].upper()
+        last    = parts[-1].lower()
+        matches = [(n, v) for n, v in _pi_last3_map.items()
+                   if n.split()[-1].lower() == last and n.split()[0][0].upper() == initial]
+        return matches[0][1] if len(matches) == 1 else None
+
+    # Patch player_ratings: telo → PI-based, add avg_pi and last3_pi fields
     for _pr in player_ratings:
-        _pi_t = _resolve_pi_telo(_pr["name"])
-        if _pi_t is not None:
-            _pr["telo"] = _pi_t
+        _pd = _resolve_pi_data(_pr["name"])
+        if _pd is not None:
+            _pr["telo"]    = _pd[0]
+            _pr["avg_pi"]  = _pd[1]
+        _l3 = _resolve_last3_pi(_pr["name"])
+        if _l3 is not None:
+            _pr["last3_pi"] = _l3
 
     full_squad_telo_avg.clear()
     auto_injury_deltas.clear()
@@ -1275,12 +1310,10 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         print(f"[TELO] ✓ Written data/predictions.json ({len(rankings_out)} teams, {len(rounds_output)} rounds)")
 
         if player_ratings:
-            trusted    = [p for p in player_ratings if p["games"] >= PLAYER_MIN_GAMES]
-            league_avg = sum(p["avg"] for p in trusted) / len(trusted) if trusted else 0
             with open("data/player_ratings.json", "w") as f:
                 json.dump({
                     "updated":    datetime.now(AEST).isoformat(),
-                    "league_avg": round(league_avg, 1),
+                    "league_avg": round(_league_pi_avg, 1),
                     "players":    player_ratings,
                 }, f, indent=2)
             print(f"[TELO] ✓ Written data/player_ratings.json ({len(player_ratings)} players)")
