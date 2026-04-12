@@ -108,6 +108,8 @@ PLAYER_SCORE_SCALE  = 4.0     # TELO pts per avg PI pt above/below league avg
 PLAYER_MIN_GAMES    = 2       # games before a rating is used in team impact calc
 SQUAD_IMPACT_SCALE  = 0.30    # player-avg delta → team TELO impact multiplier
 PI_RECENCY_DECAY    = 0.85    # per-game exponential decay (half-life ≈ 4.3 games)
+RATING_MAX          = 99      # FIFA/2K-style rating ceiling
+RATING_MIN          = 40      # FIFA/2K-style rating floor
 
 # AFL Fantasy position IDs (verified: 1=DEF, 2=MID, 3=RUC, 4=FWD)
 FANTASY_POSITIONS: dict[int, str] = {1: "DEF", 2: "MID", 3: "RUC", 4: "FWD"}
@@ -1356,9 +1358,6 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             team_pos_avgs[team] = avgs
 
     # Scale per-category avg P-TELO to a FIFA/2K-style rating 40–99
-    # Best team in each category → 99, worst → 40, others interpolated linearly.
-    RATING_MAX = 99
-    RATING_MIN = 40
     positional_ratings: dict = {t: {} for t in team_pos_avgs}
     for cat in POS_CATS:
         entries = [(t, avgs[cat]) for t, avgs in team_pos_avgs.items() if cat in avgs]
