@@ -172,7 +172,7 @@
     }
     .table-header {
       display: grid;
-      grid-template-columns: 40px 48px 1fr 80px 60px 56px 56px 56px 72px;
+      grid-template-columns: 40px 48px 1fr 80px 60px 56px 56px 72px;
       padding: 8px 16px 6px; gap: 8px;
       background: #FAFAF8; border-bottom: 1px solid var(--stone);
     }
@@ -190,7 +190,7 @@
 
     .player-row {
       display: grid;
-      grid-template-columns: 40px 48px 1fr 80px 60px 56px 56px 56px 72px;
+      grid-template-columns: 40px 48px 1fr 80px 60px 56px 56px 72px;
       padding: 9px 16px; gap: 8px; align-items: center;
       border-bottom: 1px solid rgba(232,230,220,0.5);
       transition: background 150ms ease-out;
@@ -369,7 +369,6 @@
         <div class="th center" data-sort="pos" onclick="setSort('pos')">Pos</div>
         <div class="th right" data-sort="avg_pi" onclick="setSort('avg_pi')">Avg PI</div>
         <div class="th right" data-sort="last3_pi" onclick="setSort('last3_pi')">L3 PI</div>
-        <div class="th right" data-sort="games" onclick="setSort('games')">Gms</div>
         <div class="th center">Status</div>
       </div>
       <div id="player-body">
@@ -451,7 +450,6 @@
           case 'pos':   return a.pos.localeCompare(b.pos)   || b.telo - a.telo;
           case 'avg_pi':   return (b.avg_pi   ?? 0) - (a.avg_pi   ?? 0);
           case 'last3_pi': return (b.last3_pi ?? 0) - (a.last3_pi ?? 0);
-          case 'games': return b.games - a.games;
           default:      return b.telo  - a.telo;
         }
       });
@@ -482,7 +480,6 @@
             </div>
             <div class="p-avg">${p.avg_pi != null ? Math.round(p.avg_pi) : '—'}</div>
             <div class="p-last3">${p.last3_pi != null ? Math.round(p.last3_pi) : '—'}</div>
-            <div class="p-games">${p.games}</div>
             <div class="p-status">${statusHtml}</div>
           </div>`;
       }).join('');

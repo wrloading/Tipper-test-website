@@ -1066,24 +1066,33 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         _last = _pr["name"].split()[-1].lower()
         _ptelo_idx.setdefault(_last, []).append(_pr)
 
-    def lookup_player_telo(display_name: str, team: str) -> Optional[float]:
-        """Match abbreviated name (e.g. 'J Smith') to a player_ratings entry → telo."""
+    def _match_player(display_name: str, team: str) -> Optional[dict]:
+        """Return the player_ratings entry for an abbreviated name + team."""
         parts = display_name.strip().split()
         if len(parts) < 2:
             return None
-        initial   = parts[0][0].upper()
-        last      = parts[-1].lower()
+        initial    = parts[0][0].upper()
+        last       = parts[-1].lower()
         candidates = _ptelo_idx.get(last, [])
         if not candidates:
             return None
         team_cands = [c for c in candidates if c["team"] == team]
         search = team_cands if team_cands else candidates
         if len(search) == 1:
-            return float(search[0]["telo"])
+            return search[0]
         for c in search:
             if c["name"].split()[0][0].upper() == initial:
-                return float(c["telo"])
+                return c
         return None
+
+    def lookup_player_telo(display_name: str, team: str) -> Optional[float]:
+        c = _match_player(display_name, team)
+        return float(c["telo"]) if c else None
+
+    def lookup_player_telo_data(display_name: str, team: str) -> Optional[dict]:
+        """Return {telo, pos} for a named player."""
+        c = _match_player(display_name, team)
+        return {"telo": int(c["telo"]), "pos": c["pos"]} if c else None
 
     def compute_named_squad_delta(named: list, team: str) -> Optional[float]:
         """
@@ -1249,14 +1258,36 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                         entry["home_outs"]            = []
                         entry["away_outs"]            = []
                         entry["selections_announced"] = False
-                # Attach season avg stats to each named player
-                for side in ("home_named", "away_named"):
+                # Attach season avg stats + P-TELO to each named player
+                for side, team_name in (("home_named", home), ("away_named", away)):
                     enriched = []
                     for p in entry.get(side, []):
+                        merged = {**p}
                         avg = lookup_avg_stats(p["name"])
-                        enriched.append({**p, **avg} if avg else p)
+                        if avg:
+                            merged.update(avg)
+                        pd = lookup_player_telo_data(p["name"], team_name)
+                        if pd:
+                            merged["ptelo"] = pd["telo"]
+                            merged["ppos"]  = pd["pos"]   # Fantasy pos for INT categorisation
+                        enriched.append(merged)
                     if enriched:
                         entry[side] = enriched
+                # Enrich outs: convert name strings → objects with avg stats + P-TELO
+                for side_outs, team_name in (("home_outs", home), ("away_outs", away)):
+                    raw_outs = entry.get(side_outs, [])
+                    if raw_outs and isinstance(raw_outs[0], str):
+                        enriched_outs = []
+                        for name in raw_outs:
+                            out_obj = {"name": name}
+                            avg = lookup_avg_stats(name)
+                            if avg:
+                                out_obj.update(avg)
+                            pd = lookup_player_telo_data(name, team_name)
+                            if pd:
+                                out_obj["ptelo"] = pd["telo"]
+                            enriched_outs.append(out_obj)
+                        entry[side_outs] = enriched_outs
                 # Squad impact delta from injury auto-adjust
                 entry["home_squad_impact"] = round(home_injury, 1)
                 entry["away_squad_impact"] = round(away_injury, 1)
@@ -1269,6 +1300,50 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "complete": all(g.get("complete") == 100 for g in rnd_games),
             "games":    games_out,
         }
+
+    # ── Positional league ratings ───────────────────────────────────────────────
+    # For each team, compute avg P-TELO by position category using their most
+    # recent named squad, then rank all 18 teams per category.
+    FW_POS_CAT   = {"FB": "DEF", "HB": "DEF", "C": "MID", "HF": "MID", "FF": "FWD", "Fol": "FOL"}
+    FAN_POS_CAT  = {"DEF": "DEF", "MID": "MID", "FWD": "FWD", "RUC": "FOL"}
+    POS_CATS     = ("DEF", "MID", "FWD", "FOL")
+
+    # Walk rounds in order; later rounds overwrite earlier so we keep the freshest squad
+    team_latest_named: dict = {}
+    for rnum_str in sorted(rounds_output, key=lambda x: int(x)):
+        for ge in rounds_output[rnum_str]["games"]:
+            if ge.get("complete"):
+                continue
+            for side, tk in (("home_named", "home"), ("away_named", "away")):
+                players = ge.get(side, [])
+                team    = ge.get(tk)
+                if players and team:
+                    team_latest_named[team] = players
+
+    # Per-team, per-category avg P-TELO
+    team_pos_avgs: dict = {}
+    for team, players in team_latest_named.items():
+        cat_telos: dict = {c: [] for c in POS_CATS}
+        for p in players:
+            ptelo = p.get("ptelo")
+            if not ptelo:
+                continue
+            cat = FW_POS_CAT.get(p.get("pos", "")) or FAN_POS_CAT.get(p.get("ppos", ""))
+            if cat:
+                cat_telos[cat].append(ptelo)
+        avgs = {c: round(sum(v) / len(v)) for c, v in cat_telos.items() if v}
+        if avgs:
+            team_pos_avgs[team] = avgs
+
+    # Rank all teams per category (1 = strongest)
+    positional_ratings: dict = {t: {} for t in team_pos_avgs}
+    for cat in POS_CATS:
+        ranked = sorted(
+            [(t, avgs[cat]) for t, avgs in team_pos_avgs.items() if cat in avgs],
+            key=lambda x: x[1], reverse=True
+        )
+        for rank, (team, avg_t) in enumerate(ranked, 1):
+            positional_ratings[team][cat] = {"rank": rank, "avg": avg_t}
 
     # ── Monte Carlo ────────────────────────────────────────────────────────────
     print(f"[TELO] Running {MC_SIMULATIONS:,} Monte Carlo simulations...")
@@ -1297,8 +1372,9 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "model":         "TELO v2.0",
             "simulations":   MC_SIMULATIONS,
         },
-        "rounds":   rounds_output,
-        "rankings": rankings_out,
+        "rounds":              rounds_output,
+        "rankings":            rankings_out,
+        "positional_ratings":  positional_ratings,
     }
 
     if dry_run:

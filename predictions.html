@@ -541,9 +541,51 @@
       font-size: 11px; color: var(--ash); text-decoration: line-through;
       padding: 1px 0;
     }
+    /* Outs player stats row */
+    .out-row {
+      display: grid; grid-template-columns: 1fr 26px 18px 18px 36px;
+      gap: 3px; padding: 2px 4px; align-items: center;
+    }
+    .out-name {
+      font-size: 11px; color: var(--ash); text-decoration: line-through;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .out-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      color: var(--ash); text-align: center; text-decoration: none;
+    }
+    .out-telo {
+      font-family: 'JetBrains Mono', monospace; font-size: 9px;
+      color: var(--ash); text-align: center; text-decoration: none;
+    }
+    /* Positional ratings (DEF/MID/FWD/FOL) on game cards */
+    .pos-ratings {
+      display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap;
+    }
+    .pos-rating-side { display: flex; gap: 4px; flex: 1; min-width: 0; }
+    .pos-badge {
+      display: flex; flex-direction: column; align-items: center;
+      gap: 1px; flex: 1;
+    }
+    .pos-badge-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 6.5px;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash);
+    }
+    .pos-badge-rank {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+      line-height: 1;
+    }
+    .pos-rank-1, .pos-rank-2, .pos-rank-3 { color: var(--moss); }
+    .pos-rank-4, .pos-rank-5, .pos-rank-6 { color: var(--midnight); }
+    .pos-rank-7, .pos-rank-8, .pos-rank-9, .pos-rank-10 { color: var(--ash); }
+    .pos-rank-11, .pos-rank-12, .pos-rank-13, .pos-rank-14 { color: var(--ash); opacity: 0.65; }
+    .pos-rank-15, .pos-rank-16, .pos-rank-17, .pos-rank-18 { color: var(--negative); opacity: 0.75; }
+    .pos-ratings-divider {
+      width: 1px; background: var(--stone); flex-shrink: 0; align-self: stretch; margin: 0 2px;
+    }
     /* Named squad avg stats grid (upcoming games) */
     .ns-stats-header {
-      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 30px;
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 40px;
       gap: 3px; padding: 0 4px 4px; border-bottom: 1px solid var(--stone);
       margin-bottom: 2px;
     }
@@ -554,7 +596,7 @@
     .nss-col-name { text-align: left !important; letter-spacing: 0.06em !important; }
     .nss-col-pi   { color: var(--pitch) !important; font-weight: 700 !important; }
     .ns-stats-row {
-      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 30px;
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 40px;
       gap: 3px; padding: 3px 4px; align-items: center;
       border-bottom: 1px solid rgba(224,222,218,0.4);
     }
@@ -708,9 +750,10 @@
 
   <script>
     // ─── STATE ──────────────────────────────────────────────────────────────
-    let ROUNDS   = {};
-    let RANKINGS = [];
-    let META     = {};
+    let ROUNDS              = {};
+    let RANKINGS            = [];
+    let META                = {};
+    let POSITIONAL_RATINGS  = {};
 
     // ─── TEAM ACRONYMS ───────────────────────────────────────────────────────
     const ACRONYM = {
@@ -857,9 +900,9 @@
           </div>`;
       }
 
-      // Sort: players with avg_pi descending first, then players without stats
-      const withStats    = named.filter(p => p.avg_pi != null).sort((a,b) => b.avg_pi - a.avg_pi);
-      const withoutStats = named.filter(p => p.avg_pi == null);
+      // Sort: players with ptelo descending first, then players without
+      const withStats    = named.filter(p => p.ptelo != null).sort((a,b) => b.ptelo - a.ptelo);
+      const withoutStats = named.filter(p => p.ptelo == null);
       const hasAnyStats  = withStats.length > 0;
 
       const headerRow = hasAnyStats ? `
@@ -869,12 +912,12 @@
           <span>GL</span>
           <span>TK</span>
           <span>CL</span>
-          <span class="nss-col-pi">PI</span>
+          <span class="nss-col-pi">TELO</span>
         </div>` : '';
 
       const playerRows = [...withStats, ...withoutStats].map(p => {
         const posHtml = p.pos ? `<span class="np-pos">${p.pos}</span>` : '';
-        if (p.avg_pi != null) {
+        if (p.ptelo != null) {
           return `
             <div class="ns-stats-row">
               <span class="nss-player">${posHtml}${p.name}</span>
@@ -882,7 +925,7 @@
               <span class="nss-gl-val">${p.avg_gl != null && p.avg_gl > 0 ? Math.round(p.avg_gl) : '·'}</span>
               <span class="nss-val">${p.avg_tk != null ? Math.round(p.avg_tk) : '·'}</span>
               <span class="nss-val">${p.avg_cl != null ? Math.round(p.avg_cl) : '·'}</span>
-              <span class="nss-pi-val">${Math.round(p.avg_pi)}</span>
+              <span class="nss-pi-val">${p.ptelo}</span>
             </div>`;
         } else {
           return `
@@ -893,11 +936,31 @@
         }
       }).join('');
 
-      const outsHtml = outs && outs.length ? `
-        <div class="outs-section">
-          <div class="outs-label">Outs</div>
-          ${outs.map(n => `<div class="outs-player">${n}</div>`).join('')}
-        </div>` : '';
+      const outsHtml = outs && outs.length ? (() => {
+        const hasEnrichedOuts = outs.length && typeof outs[0] === 'object';
+        const outsHeader = hasEnrichedOuts ? `
+          <div class="out-row" style="opacity:0.55;margin-bottom:1px">
+            <span style="font-family:var(--fm);font-size:7px;letter-spacing:.08em;text-transform:uppercase;color:var(--negative)">Outs</span>
+            <span class="out-val">DI</span>
+            <span class="out-val">GL</span>
+            <span class="out-val">TK</span>
+            <span class="out-telo">ELO</span>
+          </div>` : `<div class="outs-label">Outs</div>`;
+        const outsRows = outs.map(o => {
+          if (typeof o === 'object') {
+            return `
+              <div class="out-row">
+                <span class="out-name">${o.name}</span>
+                <span class="out-val">${o.avg_di != null ? Math.round(o.avg_di) : '·'}</span>
+                <span class="out-val">${o.avg_gl != null && o.avg_gl > 0 ? Math.round(o.avg_gl) : '·'}</span>
+                <span class="out-val">${o.avg_tk != null ? Math.round(o.avg_tk) : '·'}</span>
+                <span class="out-telo">${o.ptelo != null ? o.ptelo : '·'}</span>
+              </div>`;
+          }
+          return `<div class="outs-player">${o}</div>`;
+        }).join('');
+        return `<div class="outs-section">${outsHeader}${outsRows}</div>`;
+      })() : '';
 
       return `
         <div>
@@ -1009,7 +1072,6 @@
         const hasPanel  = hasLineup || hasNamed;
 
         // Toggle label
-        const outsCount = (g.homeOuts.length + g.awayOuts.length);
         const panelLabel = hasLineup
           ? 'Lineups &amp; Stats'
           : g.selectionsAnnounced
@@ -1063,6 +1125,28 @@
                 <span class="upset-label">Upset — underdog won</span>
               </div>
             ` : ''}
+
+            ${!isFinal ? (() => {
+              const hRatings = POSITIONAL_RATINGS[g.home] || {};
+              const aRatings = POSITIONAL_RATINGS[g.away] || {};
+              const cats = ['DEF','MID','FWD','FOL'];
+              const hasSome = cats.some(c => hRatings[c] || aRatings[c]);
+              if (!hasSome) return '';
+              const side = (ratings, team) => cats.map(c => {
+                const r = ratings[c];
+                const rank = r ? r.rank : '—';
+                const cls  = r ? `pos-rank-${r.rank}` : '';
+                return `<div class="pos-badge">
+                  <span class="pos-badge-label">${c}</span>
+                  <span class="pos-badge-rank ${cls}">${rank}</span>
+                </div>`;
+              }).join('');
+              return `<div class="pos-ratings">
+                <div class="pos-rating-side" title="${g.home}">${side(hRatings, g.home)}</div>
+                <div class="pos-ratings-divider"></div>
+                <div class="pos-rating-side" title="${g.away}">${side(aRatings, g.away)}</div>
+              </div>`;
+            })() : ''}
 
             ${hasPanel ? `
               <button class="lineup-toggle" id="lt-${gameId}" onclick="toggleLineup('${gameId}')">
@@ -1375,9 +1459,10 @@
         const res  = await fetch(`data/predictions.json?v=${Date.now()}`);
         const data = await res.json();
 
-        META     = data.meta     || {};
-        ROUNDS   = data.rounds   || {};
-        RANKINGS = data.rankings || [];
+        META               = data.meta               || {};
+        ROUNDS             = data.rounds             || {};
+        RANKINGS           = data.rankings           || [];
+        POSITIONAL_RATINGS = data.positional_ratings || {};
 
         // Default to current round from meta, or last round key
         const keys = Object.keys(ROUNDS).map(Number).sort((a,b)=>a-b);
