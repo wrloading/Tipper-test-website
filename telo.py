@@ -104,9 +104,10 @@ AFL_FANTASY_PLAYERS_URL = "https://fantasy.afl.com.au/data/afl/players.json"
 AFL_FANTASY_UA          = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
 
 PLAYER_INITIAL_TELO = 1500.0
-PLAYER_SCORE_SCALE  = 8.0     # TELO pts per avg Fantasy pt above/below league avg
+PLAYER_SCORE_SCALE  = 4.0     # TELO pts per avg PI pt above/below league avg
 PLAYER_MIN_GAMES    = 2       # games before a rating is used in team impact calc
 SQUAD_IMPACT_SCALE  = 0.30    # player-avg delta → team TELO impact multiplier
+PI_RECENCY_DECAY    = 0.85    # per-game exponential decay (half-life ≈ 4.3 games)
 
 # AFL Fantasy position IDs (verified: 1=DEF, 2=MID, 3=RUC, 4=FWD)
 FANTASY_POSITIONS: dict[int, str] = {1: "DEF", 2: "MID", 3: "RUC", 4: "FWD"}
@@ -907,20 +908,33 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                     # Accumulate season stats per player (full names from AFL Tables)
                     for p in h_lineup + a_lineup:
                         acc = player_season_stats.setdefault(p["name"], {
-                            "di": 0, "gl": 0, "tk": 0, "cl": 0, "pi": 0, "games": 0
+                            "di": 0, "gl": 0, "tk": 0, "cl": 0, "games": 0,
+                            "pi_list": [],   # per-game PI in chronological order
                         })
                         acc["di"]    += p["di"]
                         acc["gl"]    += p["gl"]
                         acc["tk"]    += p["tk"]
                         acc["cl"]    += p["cl"]
-                        acc["pi"]    += p["pi"]
                         acc["games"] += 1
+                        acc["pi_list"].append(p["pi"])
         print(f"[TELO]   {len(afltables_lineups)} completed game lineups cached, "
               f"{len(player_season_stats)} players in stats index")
     except Exception as e:
         print(f"[TELO] ⚠ AFL Tables scraping error: {e}", file=sys.stderr)
         afltables_lineups = {}
         team_recent_lineup = {}
+
+    def weighted_pi_avg(pi_list: list) -> float:
+        """
+        Exponentially weighted average of per-game PI values.
+        Most recent game has weight 1.0; each prior game is multiplied by PI_RECENCY_DECAY.
+        This captures form shifts and role changes without discarding history entirely.
+        """
+        if not pi_list:
+            return 0.0
+        n = len(pi_list)
+        weights = [PI_RECENCY_DECAY ** (n - 1 - i) for i in range(n)]
+        return sum(pi * w for pi, w in zip(pi_list, weights)) / sum(weights)
 
     # Build name-lookup index for matching abbreviated FootyWire names to full AFL Tables names
     # Index key: normalised last name → [(full_name, avg_stats_dict), ...]
@@ -932,7 +946,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "avg_gl": round(acc["gl"] / g, 1),
             "avg_tk": round(acc["tk"] / g, 1),
             "avg_cl": round(acc["cl"] / g, 1),
-            "avg_pi": round(acc["pi"] / g, 1),
+            "avg_pi": round(weighted_pi_avg(acc["pi_list"]), 1),  # recency-weighted
             "games":  acc["games"],
         }
         # Index by last word of name (handles "De Koning" → "Koning")
@@ -956,6 +970,60 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             if full_name.split()[0][0].upper() == initial:
                 return avg
         return None
+
+    # ── PI-based P-TELO: override Fantasy ratings with AFL Tables data ────────────
+    # Compute each player's recency-weighted PI average, normalise against the league,
+    # and use that as their P-TELO.  Players without AFL Tables data keep their
+    # Fantasy-derived rating as a fallback.
+    pi_rated = [
+        (full_name, weighted_pi_avg(acc["pi_list"]))
+        for full_name, acc in player_season_stats.items()
+        if acc["games"] >= PLAYER_MIN_GAMES
+    ]
+    if pi_rated:
+        _league_pi_avg = sum(w for _, w in pi_rated) / len(pi_rated)
+        _pi_telo_map: dict[str, int] = {
+            name: round(PLAYER_INITIAL_TELO + (w_pi - _league_pi_avg) * PLAYER_SCORE_SCALE)
+            for name, w_pi in pi_rated
+        }
+    else:
+        _pi_telo_map = {}
+
+    def _resolve_pi_telo(full_name: str) -> Optional[int]:
+        """Exact match first, then last-name + first-initial fallback."""
+        if full_name in _pi_telo_map:
+            return _pi_telo_map[full_name]
+        parts = full_name.strip().split()
+        if len(parts) < 2:
+            return None
+        initial = parts[0][0].upper()
+        last    = parts[-1].lower()
+        matches = [(n, t) for n, t in _pi_telo_map.items()
+                   if n.split()[-1].lower() == last and n.split()[0][0].upper() == initial]
+        return matches[0][1] if len(matches) == 1 else None
+
+    # Patch player_ratings telo values and rebuild squad averages
+    for _pr in player_ratings:
+        _pi_t = _resolve_pi_telo(_pr["name"])
+        if _pi_t is not None:
+            _pr["telo"] = _pi_t
+
+    full_squad_telo_avg.clear()
+    auto_injury_deltas.clear()
+    for _team, _squad in team_squads.items():
+        _trusted = [p for p in _squad if p["games"] >= PLAYER_MIN_GAMES]
+        if _trusted:
+            full_squad_telo_avg[_team] = sum(p["telo"] for p in _trusted) / len(_trusted)
+    for _team, _squad in team_squads.items():
+        _base = full_squad_telo_avg.get(_team, PLAYER_INITIAL_TELO)
+        _avail = [p for p in _squad if p["status"] == "available" and p["games"] >= PLAYER_MIN_GAMES]
+        if _avail:
+            _avail_avg = sum(p["telo"] for p in _avail) / len(_avail)
+            _delta = (_avail_avg - _base) * SQUAD_IMPACT_SCALE
+            if abs(_delta) > 0.5:
+                auto_injury_deltas[_team] = round(_delta, 1)
+    print(f"[TELO]   PI-based P-TELO: {len(_pi_telo_map)} players rated, "
+          f"{sum(1 for p in player_ratings if _resolve_pi_telo(p['name']) is not None)} Fantasy entries updated")
 
     # P-TELO lookup index for named squad win-prob adjustment
     _ptelo_idx: dict = {}
