@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-12T16:05:46.910612+10:00",
+    "updated": "2026-04-12T16:12:35.495103+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -17316,8 +17316,8 @@
           "venue": "Barossa Park",
           "datetime": "Sun 12 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 76.7,
-          "home_prob": 85.4,
+          "margin": 74.9,
+          "home_prob": 84.9,
           "complete": false,
           "home_named": [
             {
@@ -17427,10 +17427,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "H Thomas",
@@ -17454,7 +17454,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "B Daniels",
@@ -17602,7 +17606,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             }
           ],
           "away_named": [
@@ -17815,10 +17823,10 @@
             {
               "name": "O H-Brown",
               "pos": "Fol",
-              "ptelo": 1305,
-              "ppos": "DEF",
-              "player_rating": 46,
-              "player_rank": 621
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "S Lalor",
@@ -18009,8 +18017,8 @@
           ],
           "selections_announced": true,
           "selections_round": 5,
-          "home_squad_impact": 14.0,
-          "away_squad_impact": 1.4
+          "home_squad_impact": 9.5,
+          "away_squad_impact": 4.0
         },
         {
           "home": "Port Adelaide",
@@ -18018,7 +18026,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Sun 12 Apr \u00b7 7:15pm AEST",
           "home_fav": true,
-          "margin": 26.0,
+          "margin": 25.9,
           "home_prob": 64.5,
           "complete": false,
           "home_named": [
@@ -18320,7 +18328,11 @@
               "avg_tk": 0.5,
               "avg_cl": 0.0,
               "avg_pi": 79.8,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "J Lai",
@@ -18330,7 +18342,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             }
           ],
           "away_named": [
@@ -18690,7 +18706,7 @@
           ],
           "selections_announced": true,
           "selections_round": 5,
-          "home_squad_impact": 9.2,
+          "home_squad_impact": 8.6,
           "away_squad_impact": 8.9
         }
       ]
@@ -18812,7 +18828,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -18948,7 +18968,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -18972,7 +18996,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -19320,7 +19348,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -19403,7 +19435,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -19469,7 +19505,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -19827,7 +19867,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -19945,7 +19989,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -20141,10 +20189,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -20253,10 +20301,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -20436,7 +20484,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -20474,7 +20526,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -20565,10 +20621,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -21804,7 +21860,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -22061,7 +22121,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -23747,7 +23811,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -23786,10 +23854,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -24722,7 +24790,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -24840,7 +24912,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -25021,10 +25097,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -25133,10 +25209,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -27143,7 +27219,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -27366,7 +27446,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -27538,7 +27622,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -27604,7 +27692,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -28233,7 +28325,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -28369,7 +28465,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -28393,7 +28493,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -29285,7 +29389,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -29324,10 +29432,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -29549,7 +29657,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -29880,7 +29992,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -29918,7 +30034,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -30009,10 +30129,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -30712,7 +30832,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -31219,7 +31343,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -31337,7 +31465,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -31820,7 +31952,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -32206,7 +32342,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -32839,7 +32979,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -32878,10 +33022,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -33699,7 +33843,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -33765,7 +33913,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -34394,7 +34546,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -34530,7 +34686,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -34554,7 +34714,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -35088,10 +35252,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -35200,10 +35364,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -36046,7 +36210,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -36084,7 +36252,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -36175,10 +36347,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -37079,7 +37251,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -37118,10 +37294,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -37325,7 +37501,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -37461,7 +37641,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -37485,7 +37669,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -37736,7 +37924,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -38020,7 +38212,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -38138,7 +38334,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -38650,10 +38850,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -38762,10 +38962,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -38960,7 +39160,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -38998,7 +39202,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -39089,10 +39297,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -40200,7 +40408,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -40266,7 +40478,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -40764,7 +40980,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -41892,7 +42112,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -42286,7 +42510,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -42325,10 +42553,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -42480,7 +42708,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -42546,7 +42778,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -42906,10 +43142,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -43018,10 +43254,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -43383,7 +43619,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -43930,7 +44170,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -44187,7 +44431,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -45467,7 +45715,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -45603,7 +45855,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -45627,7 +45883,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -45835,7 +46095,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -45953,7 +46217,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -47746,7 +48014,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -47784,7 +48056,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -47875,10 +48151,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -48392,7 +48668,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -50618,7 +50898,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -50684,7 +50968,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -51029,10 +51317,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -51141,10 +51429,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -51521,7 +51809,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -52060,7 +52352,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -52284,7 +52580,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -52420,7 +52720,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -52444,7 +52748,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -52625,7 +52933,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -52663,7 +52975,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -52754,10 +53070,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -52993,7 +53309,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -53032,10 +53352,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -53314,7 +53634,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -53432,7 +53756,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -54563,7 +54891,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -54699,7 +55031,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -54723,7 +55059,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -54819,7 +55159,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -54885,7 +55229,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -55245,10 +55593,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -55357,10 +55705,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -55931,7 +56279,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -55970,10 +56322,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -56568,7 +56920,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -56686,7 +57042,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -57020,7 +57380,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -57497,7 +57861,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -57535,7 +57903,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -57626,10 +57998,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -58482,7 +58854,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -58728,7 +59104,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -58794,7 +59174,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -59001,8 +59385,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 5 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 5.8,
-          "home_prob": 53.3,
+          "margin": 5.9,
+          "home_prob": 53.4,
           "complete": false,
           "home_named": [
             {
@@ -59557,7 +59941,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "J Croft",
@@ -59683,13 +60071,16 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "player_rating": null,
+              "player_rank": null
             }
           ],
           "selections_announced": true,
           "selections_round": 5,
           "home_squad_impact": 11.5,
-          "away_squad_impact": 4.2
+          "away_squad_impact": 4.0
         },
         {
           "home": "North Melbourne",
@@ -60848,7 +61239,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -60887,10 +61282,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -61513,7 +61908,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -61799,10 +62198,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -61911,10 +62310,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -62735,7 +63134,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -62871,7 +63274,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -62895,7 +63302,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -63258,7 +63669,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -63784,7 +64199,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -63902,7 +64321,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -64054,7 +64477,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -64315,7 +64742,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -64381,7 +64812,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -66412,7 +66847,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -66683,10 +67122,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -66795,10 +67234,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -67369,7 +67808,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -67408,10 +67851,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -67972,7 +68415,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -68010,7 +68457,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -68101,10 +68552,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -68552,7 +69003,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -68618,7 +69073,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -69600,7 +70059,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -70255,7 +70718,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -70293,7 +70760,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -70384,10 +70855,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -70549,7 +71020,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -70685,7 +71160,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -70709,7 +71188,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -71072,7 +71555,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -71280,7 +71767,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -72554,7 +73045,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -72672,7 +73167,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -72902,7 +73401,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -72941,10 +73444,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -73195,10 +73698,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -73307,10 +73810,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -73487,7 +73990,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -73623,7 +74130,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -73647,7 +74158,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -74326,7 +74841,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -75111,7 +75630,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -75149,7 +75672,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -75240,10 +75767,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -76159,7 +76686,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -76401,7 +76932,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -77983,7 +78518,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -78049,7 +78588,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -78421,7 +78964,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -78460,10 +79007,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -79206,7 +79753,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -79359,7 +79910,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -79397,7 +79952,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -79488,10 +80047,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -80955,7 +81514,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -81091,7 +81654,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -81115,7 +81682,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -81325,10 +81896,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -81437,10 +82008,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -81662,7 +82233,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -81780,7 +82355,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -82017,7 +82596,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -82906,7 +83489,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -83300,7 +83887,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -83339,10 +83930,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -83881,7 +84472,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -84017,7 +84612,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -84041,7 +84640,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -84716,7 +85319,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -85185,7 +85792,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -85223,7 +85834,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -85314,10 +85929,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -85427,7 +86042,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -85493,7 +86112,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -86877,7 +87500,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -87176,7 +87803,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -87294,7 +87925,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -87777,7 +88412,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -88777,10 +89416,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -88889,10 +89528,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -89276,7 +89915,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -89396,7 +90039,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -89532,7 +90179,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -89556,7 +90207,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -90057,7 +90712,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -90095,7 +90754,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -90186,10 +90849,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -90314,7 +90977,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -90380,7 +91047,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -91401,7 +92072,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -91519,7 +92194,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -93017,10 +93696,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -93129,10 +93808,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -93312,7 +93991,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -93713,7 +94396,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -94658,7 +95345,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -94697,10 +95388,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -95000,7 +95691,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -95039,10 +95734,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -95334,7 +96029,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -95573,7 +96272,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -95709,7 +96412,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -95733,7 +96440,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -96238,7 +96949,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -96276,7 +96991,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -96367,10 +97086,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -96579,10 +97298,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -96691,10 +97410,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -97790,7 +98509,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -97856,7 +98579,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -98884,7 +99611,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -99002,7 +99733,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -99489,7 +100224,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -99987,7 +100726,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -100776,7 +101519,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -100912,7 +101659,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -100936,7 +101687,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -101158,7 +101913,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -101197,10 +101956,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -101619,7 +102378,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -101687,7 +102450,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -101753,7 +102520,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -102404,7 +103175,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -105045,10 +105820,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -105157,10 +105932,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -105425,7 +106200,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -105667,7 +106446,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -105705,7 +106488,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -105796,10 +106583,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -106352,7 +107139,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -106470,7 +107261,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -106700,7 +107495,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -106739,10 +107538,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -107221,7 +108020,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -107287,7 +108090,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -107938,7 +108745,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -107976,7 +108787,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -108067,10 +108882,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -109550,7 +110365,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -109686,7 +110505,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -109710,7 +110533,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -109920,10 +110747,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -110032,10 +110859,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -110285,7 +111112,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -110584,7 +111415,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -110702,7 +111537,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -111185,7 +112024,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -112334,7 +113177,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -112550,7 +113397,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -112589,10 +113440,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -113502,10 +114353,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -113614,10 +114465,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -113812,7 +114663,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -113850,7 +114705,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -113941,10 +114800,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -114949,7 +115808,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -115348,7 +116211,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -115414,7 +116281,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -116446,7 +117317,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -116564,7 +117439,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -116698,7 +117577,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -116834,7 +117717,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -116858,7 +117745,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -117109,7 +118000,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -118006,7 +118901,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -118326,7 +119225,11 @@
               "avg_tk": 1.0,
               "avg_cl": 1.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Francis Evans",
@@ -118462,7 +119365,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 112.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Marc Pittonet",
@@ -118486,7 +119393,11 @@
               "avg_tk": 2.2,
               "avg_cl": 3.0,
               "avg_pi": 114.3,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Sam Walsh",
@@ -119165,7 +120076,11 @@
               "avg_tk": 0.0,
               "avg_cl": 2.0,
               "avg_pi": 70.2,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Lachlan Sullivan",
@@ -119359,7 +120274,11 @@
               "avg_tk": 0.0,
               "avg_cl": 0.0,
               "avg_pi": 57.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Ryan Lester",
@@ -119398,10 +120317,10 @@
               "avg_cl": 1.3,
               "avg_pi": 76.3,
               "games": 3,
-              "ptelo": 1574,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 131
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Logan Morris",
@@ -120028,7 +120947,11 @@
               "avg_tk": 1.5,
               "avg_cl": 0.0,
               "avg_pi": 61.0,
-              "games": 2
+              "games": 2,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jack Lukosius",
@@ -120215,7 +121138,11 @@
               "avg_tk": 2.0,
               "avg_cl": 2.8,
               "avg_pi": 112.4,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jeremy Cameron",
@@ -120281,7 +121208,11 @@
               "avg_tk": 1.7,
               "avg_cl": 3.0,
               "avg_pi": 67.4,
-              "games": 3
+              "games": 3,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Zach Guthrie",
@@ -121298,7 +122229,11 @@
               "avg_tk": 3.0,
               "avg_cl": 0.8,
               "avg_pi": 97.9,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Arthur Jones",
@@ -121416,7 +122351,11 @@
               "avg_tk": 2.0,
               "avg_cl": 0.0,
               "avg_pi": 54.1,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Rhylee West",
@@ -122275,10 +123214,10 @@
               "avg_cl": 0.5,
               "avg_pi": 85.7,
               "games": 4,
-              "ptelo": 1497,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 266
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Justin McInerney",
@@ -122387,10 +123326,10 @@
               "avg_cl": 0.8,
               "avg_pi": 95.7,
               "games": 4,
-              "ptelo": 1813,
-              "ppos": "MID",
-              "player_rating": 91,
-              "player_rank": 8
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Angus Sheldrick",
@@ -122901,7 +123840,11 @@
               "avg_tk": 5.0,
               "avg_cl": 4.5,
               "avg_pi": 123.7,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "RUC",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Max Michalanney",
@@ -123217,7 +124160,11 @@
               "avg_tk": 3.2,
               "avg_cl": 2.2,
               "avg_pi": 91.5,
-              "games": 4
+              "games": 4,
+              "ptelo": 1500,
+              "ppos": "FWD",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Toby Greene",
@@ -123255,7 +124202,11 @@
               "avg_tk": 1.0,
               "avg_cl": 0.0,
               "avg_pi": 36.0,
-              "games": 1
+              "games": 1,
+              "ptelo": 1500,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Harry Himmelberg",
@@ -123346,10 +124297,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1753,
-              "ppos": "MID",
-              "player_rating": 86,
-              "player_rank": 20
+              "ptelo": 1500,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "Jake Riccardi",
@@ -124094,8 +125045,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 98.8,
-      "premiers_pct": 22.7
+      "finals_pct": 99.2,
+      "premiers_pct": 22.9
     },
     {
       "team": "Brisbane Lions",
@@ -124107,7 +125058,7 @@
       "points_for": 490,
       "points_against": 426,
       "finals_pct": 95.7,
-      "premiers_pct": 17.8
+      "premiers_pct": 17.6
     },
     {
       "team": "Fremantle",
@@ -124118,8 +125069,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.6,
-      "premiers_pct": 16.9
+      "finals_pct": 97.5,
+      "premiers_pct": 16.8
     },
     {
       "team": "Western Bulldogs",
@@ -124130,8 +125081,8 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.9,
-      "premiers_pct": 15.4
+      "finals_pct": 96.8,
+      "premiers_pct": 14.5
     },
     {
       "team": "Geelong",
@@ -124142,7 +125093,7 @@
       "percentage": 101.5,
       "points_for": 460,
       "points_against": 453,
-      "finals_pct": 89.7,
+      "finals_pct": 89.6,
       "premiers_pct": 10.5
     },
     {
@@ -124154,8 +125105,8 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 94.0,
-      "premiers_pct": 9.8
+      "finals_pct": 93.9,
+      "premiers_pct": 10.0
     },
     {
       "team": "Gold Coast",
@@ -124166,8 +125117,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 59.4,
-      "premiers_pct": 2.2
+      "finals_pct": 60.0,
+      "premiers_pct": 2.7
     },
     {
       "team": "Adelaide",
@@ -124178,8 +125129,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 54.0,
-      "premiers_pct": 2.0
+      "finals_pct": 53.5,
+      "premiers_pct": 2.2
     },
     {
       "team": "Collingwood",
@@ -124190,8 +125141,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 42.2,
-      "premiers_pct": 1.5
+      "finals_pct": 42.5,
+      "premiers_pct": 1.4
     },
     {
       "team": "Greater Western Sydney",
@@ -124202,8 +125153,8 @@
       "percentage": 76.9,
       "points_for": 303,
       "points_against": 394,
-      "finals_pct": 32.7,
-      "premiers_pct": 0.9
+      "finals_pct": 33.3,
+      "premiers_pct": 1.0
     },
     {
       "team": "Melbourne",
@@ -124214,7 +125165,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 14.9,
+      "finals_pct": 14.6,
       "premiers_pct": 0.1
     },
     {
@@ -124226,7 +125177,7 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 10.0,
+      "finals_pct": 10.3,
       "premiers_pct": 0.1
     },
     {
@@ -124238,8 +125189,8 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 5.2,
-      "premiers_pct": 0.1
+      "finals_pct": 4.9,
+      "premiers_pct": 0.0
     },
     {
       "team": "North Melbourne",
@@ -124250,7 +125201,7 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.7,
+      "finals_pct": 7.1,
       "premiers_pct": 0.0
     },
     {
@@ -124262,7 +125213,7 @@
       "percentage": 76.6,
       "points_for": 393,
       "points_against": 513,
-      "finals_pct": 0.5,
+      "finals_pct": 0.4,
       "premiers_pct": 0.0
     },
     {
@@ -124274,7 +125225,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.2,
+      "finals_pct": 0.3,
       "premiers_pct": 0.0
     },
     {
@@ -124286,7 +125237,7 @@
       "percentage": 64.3,
       "points_for": 386,
       "points_against": 600,
-      "finals_pct": 0.4,
+      "finals_pct": 0.5,
       "premiers_pct": 0.0
     },
     {
@@ -124306,15 +125257,15 @@
     "Greater Western Sydney": {
       "DEF": {
         "rank": 2,
-        "avg": 1534
+        "avg": 1530
       },
       "MID": {
-        "rank": 10,
-        "avg": 1566
+        "rank": 15,
+        "avg": 1524
       },
       "FWD": {
         "rank": 9,
-        "avg": 1475
+        "avg": 1478
       }
     },
     "Richmond": {
@@ -124323,7 +125274,7 @@
         "avg": 1431
       },
       "MID": {
-        "rank": 13,
+        "rank": 12,
         "avg": 1544
       },
       "FWD": {
@@ -124338,7 +125289,7 @@
       },
       "MID": {
         "rank": 9,
-        "avg": 1586
+        "avg": 1577
       },
       "FWD": {
         "rank": 8,
@@ -124351,7 +125302,7 @@
         "avg": 1529
       },
       "MID": {
-        "rank": 14,
+        "rank": 13,
         "avg": 1532
       },
       "FWD": {
@@ -124362,20 +125313,20 @@
     "Carlton": {
       "DEF": {
         "rank": 17,
-        "avg": 1438
+        "avg": 1445
       },
       "MID": {
-        "rank": 3,
-        "avg": 1631
+        "rank": 5,
+        "avg": 1612
       },
       "FWD": {
         "rank": 10,
-        "avg": 1463
+        "avg": 1469
       }
     },
     "Collingwood": {
       "DEF": {
-        "rank": 9,
+        "rank": 10,
         "avg": 1480
       },
       "MID": {
@@ -124394,7 +125345,7 @@
       },
       "MID": {
         "rank": 11,
-        "avg": 1566
+        "avg": 1550
       },
       "FWD": {
         "rank": 6,
@@ -124403,8 +125354,8 @@
     },
     "Western Bulldogs": {
       "DEF": {
-        "rank": 10,
-        "avg": 1479
+        "rank": 8,
+        "avg": 1484
       },
       "MID": {
         "rank": 1,
@@ -124417,12 +125368,12 @@
     },
     "Sydney": {
       "DEF": {
-        "rank": 8,
-        "avg": 1482
+        "rank": 9,
+        "avg": 1483
       },
       "MID": {
         "rank": 2,
-        "avg": 1654
+        "avg": 1634
       },
       "FWD": {
         "rank": 3,
@@ -124477,8 +125428,8 @@
         "avg": 1474
       },
       "MID": {
-        "rank": 15,
-        "avg": 1532
+        "rank": 14,
+        "avg": 1529
       },
       "FWD": {
         "rank": 5,
@@ -124491,7 +125442,7 @@
         "avg": 1508
       },
       "MID": {
-        "rank": 4,
+        "rank": 3,
         "avg": 1619
       },
       "FWD": {
@@ -124505,7 +125456,7 @@
         "avg": 1452
       },
       "MID": {
-        "rank": 12,
+        "rank": 10,
         "avg": 1559
       },
       "FWD": {
@@ -124516,7 +125467,7 @@
     "Brisbane Lions": {
       "DEF": {
         "rank": 1,
-        "avg": 1590
+        "avg": 1575
       },
       "MID": {
         "rank": 8,
@@ -124547,7 +125498,7 @@
         "avg": 1460
       },
       "MID": {
-        "rank": 5,
+        "rank": 4,
         "avg": 1614
       },
       "FWD": {
