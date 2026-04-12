@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-12T20:33:25.662967+10:00",
+    "updated": "2026-04-12T20:16:47.708917+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -19924,10 +19924,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -20276,11 +20276,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -22818,11 +22814,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -23473,11 +23465,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -25114,11 +25102,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -25835,11 +25819,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -28381,11 +28361,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -29432,10 +29408,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -32641,11 +32617,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -34934,11 +34906,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -35343,11 +35311,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -35650,10 +35614,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -38600,10 +38564,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -39272,11 +39236,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -40524,11 +40484,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -40840,11 +40796,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -43233,11 +43185,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -44469,11 +44417,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -47077,11 +47021,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -47454,10 +47394,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -50086,11 +50026,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -51330,11 +51266,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -52373,10 +52305,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -53299,11 +53231,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -56924,11 +56852,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -57301,10 +57225,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -57575,11 +57499,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -60316,11 +60236,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -60901,11 +60817,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -63198,11 +63110,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -64589,11 +64497,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -64858,11 +64762,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -65825,11 +65725,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -67855,10 +67751,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -68865,11 +68761,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -69766,11 +69658,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -70158,10 +70046,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -73707,11 +73595,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -75070,10 +74954,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -77040,11 +76924,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -78704,11 +78584,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -79350,10 +79226,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -80260,11 +80136,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -82552,11 +82424,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -85232,10 +85100,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -85834,11 +85702,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -87460,11 +87324,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -88189,11 +88049,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -90152,10 +90008,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -91163,11 +91019,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -92068,11 +91920,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -94352,11 +94200,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -96067,11 +95911,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -96389,10 +96229,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -97642,11 +97482,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -100578,11 +100414,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -102967,11 +102799,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -103221,11 +103049,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -104515,11 +104339,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -105886,10 +105706,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -108185,10 +108005,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -108522,11 +108342,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -108791,11 +108607,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -112058,11 +111870,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -113122,11 +112930,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -114103,10 +113907,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -114362,11 +114166,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -117633,11 +117433,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -121250,11 +121046,7 @@
               "avg_tk": 0.8,
               "avg_cl": 1.2,
               "avg_pi": 53.3,
-              "games": 4,
-              "ptelo": 1762,
-              "ppos": "FWD",
-              "player_rating": 87,
-              "player_rank": 17
+              "games": 4
             },
             {
               "name": "Christian Salem",
@@ -122303,11 +122095,7 @@
               "avg_tk": 0.5,
               "avg_cl": 0.5,
               "avg_pi": 58.8,
-              "games": 4,
-              "ptelo": 1602,
-              "ppos": "DEF",
-              "player_rating": 73,
-              "player_rank": 103
+              "games": 4
             },
             {
               "name": "Jed Walter",
@@ -123600,10 +123388,10 @@
               "avg_cl": 7.0,
               "avg_pi": 153.6,
               "games": 4,
-              "ptelo": 1500,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "ptelo": 1753,
+              "ppos": "MID",
+              "player_rating": 86,
+              "player_rank": 20
             },
             {
               "name": "Jake Riccardi",
@@ -123874,11 +123662,7 @@
               "avg_tk": 2.0,
               "avg_cl": 0.7,
               "avg_pi": 74.9,
-              "games": 3,
-              "ptelo": 1467,
-              "ppos": "MID",
-              "player_rating": 61,
-              "player_rank": 335
+              "games": 3
             },
             {
               "name": "Tom McCarthy",
@@ -124348,8 +124132,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 98.9,
-      "premiers_pct": 22.9
+      "finals_pct": 98.8,
+      "premiers_pct": 23.3
     },
     {
       "team": "Brisbane Lions",
@@ -124372,8 +124156,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.5,
-      "premiers_pct": 16.9
+      "finals_pct": 97.4,
+      "premiers_pct": 17.1
     },
     {
       "team": "Western Bulldogs",
@@ -124384,8 +124168,8 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.9,
-      "premiers_pct": 14.8
+      "finals_pct": 96.7,
+      "premiers_pct": 13.9
     },
     {
       "team": "Geelong",
@@ -124396,8 +124180,8 @@
       "percentage": 101.5,
       "points_for": 460,
       "points_against": 453,
-      "finals_pct": 89.0,
-      "premiers_pct": 10.0
+      "finals_pct": 89.1,
+      "premiers_pct": 10.4
     },
     {
       "team": "Sydney",
@@ -124409,7 +124193,7 @@
       "points_for": 581,
       "points_against": 331,
       "finals_pct": 93.7,
-      "premiers_pct": 10.0
+      "premiers_pct": 9.6
     },
     {
       "team": "Gold Coast",
@@ -124420,8 +124204,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 58.2,
-      "premiers_pct": 2.3
+      "finals_pct": 59.6,
+      "premiers_pct": 2.7
     },
     {
       "team": "Adelaide",
@@ -124432,8 +124216,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 53.4,
-      "premiers_pct": 2.1
+      "finals_pct": 53.1,
+      "premiers_pct": 2.0
     },
     {
       "team": "Collingwood",
@@ -124444,8 +124228,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 41.9,
-      "premiers_pct": 1.4
+      "finals_pct": 40.7,
+      "premiers_pct": 1.3
     },
     {
       "team": "Greater Western Sydney",
@@ -124457,7 +124241,7 @@
       "points_for": 434,
       "points_against": 469,
       "finals_pct": 37.9,
-      "premiers_pct": 1.2
+      "premiers_pct": 1.3
     },
     {
       "team": "Melbourne",
@@ -124468,7 +124252,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 13.9,
+      "finals_pct": 13.8,
       "premiers_pct": 0.1
     },
     {
@@ -124480,7 +124264,7 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 9.9,
+      "finals_pct": 10.2,
       "premiers_pct": 0.1
     },
     {
@@ -124492,7 +124276,7 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 5.0,
+      "finals_pct": 4.9,
       "premiers_pct": 0.0
     },
     {
@@ -124504,8 +124288,8 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.0,
-      "premiers_pct": 0.0
+      "finals_pct": 7.3,
+      "premiers_pct": 0.1
     },
     {
       "team": "Carlton",
@@ -124516,7 +124300,7 @@
       "percentage": 76.6,
       "points_for": 393,
       "points_against": 513,
-      "finals_pct": 0.4,
+      "finals_pct": 0.3,
       "premiers_pct": 0.0
     },
     {
@@ -124528,7 +124312,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.2,
+      "finals_pct": 0.1,
       "premiers_pct": 0.0
     },
     {
@@ -124567,7 +124351,7 @@
         "avg": 1564
       },
       "FWD": {
-        "rank": 8,
+        "rank": 7,
         "avg": 1490
       }
     },
@@ -124577,7 +124361,7 @@
         "avg": 1529
       },
       "MID": {
-        "rank": 14,
+        "rank": 15,
         "avg": 1532
       },
       "FWD": {
@@ -124619,11 +124403,11 @@
         "avg": 1514
       },
       "MID": {
-        "rank": 11,
+        "rank": 12,
         "avg": 1550
       },
       "FWD": {
-        "rank": 6,
+        "rank": 5,
         "avg": 1493
       }
     },
@@ -124651,18 +124435,18 @@
         "avg": 1634
       },
       "FWD": {
-        "rank": 3,
+        "rank": 2,
         "avg": 1498
       }
     },
     "Greater Western Sydney": {
       "DEF": {
         "rank": 2,
-        "avg": 1530
+        "avg": 1534
       },
       "MID": {
-        "rank": 15,
-        "avg": 1524
+        "rank": 11,
+        "avg": 1557
       },
       "FWD": {
         "rank": 9,
@@ -124671,8 +124455,8 @@
     },
     "Gold Coast": {
       "DEF": {
-        "rank": 5,
-        "avg": 1512
+        "rank": 6,
+        "avg": 1502
       },
       "MID": {
         "rank": 6,
@@ -124717,17 +124501,17 @@
         "avg": 1474
       },
       "MID": {
-        "rank": 12,
+        "rank": 13,
         "avg": 1544
       },
       "FWD": {
-        "rank": 4,
+        "rank": 3,
         "avg": 1495
       }
     },
     "North Melbourne": {
       "DEF": {
-        "rank": 6,
+        "rank": 5,
         "avg": 1508
       },
       "MID": {
@@ -124745,7 +124529,7 @@
         "avg": 1431
       },
       "MID": {
-        "rank": 13,
+        "rank": 14,
         "avg": 1544
       },
       "FWD": {
@@ -124763,8 +124547,8 @@
         "avg": 1559
       },
       "FWD": {
-        "rank": 2,
-        "avg": 1515
+        "rank": 8,
+        "avg": 1484
       }
     },
     "Brisbane Lions": {
@@ -124777,7 +124561,7 @@
         "avg": 1590
       },
       "FWD": {
-        "rank": 5,
+        "rank": 4,
         "avg": 1494
       }
     },
@@ -124788,7 +124572,7 @@
       },
       "MID": {
         "rank": 18,
-        "avg": 1485
+        "avg": 1487
       },
       "FWD": {
         "rank": 16,
@@ -124805,7 +124589,7 @@
         "avg": 1614
       },
       "FWD": {
-        "rank": 7,
+        "rank": 6,
         "avg": 1493
       }
     }

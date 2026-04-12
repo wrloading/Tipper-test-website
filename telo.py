@@ -1191,11 +1191,15 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                 continue
             team_cands = [c for c in candidates if c["team"] == team]
             search = team_cands if team_cands else candidates
-            if len(search) == 1:
-                return search[0]
+            # Always verify initial — never blindly return single candidate
             for c in search:
                 if c["name"].split()[0][0].upper() == initial:
                     return c
+            # Traded players: team mismatch — fall back to all candidates by initial
+            if team_cands:
+                for c in candidates:
+                    if c["name"].split()[0][0].upper() == initial:
+                        return c
         return None
 
     def lookup_player_telo(display_name: str, team: str) -> Optional[float]:
