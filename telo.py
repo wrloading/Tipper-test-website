@@ -308,12 +308,15 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
             except ValueError:
                 return team_name, None
 
-            di_idx  = headers.index("DI") if "DI" in headers else -1
-            gl_idx  = headers.index("GL") if "GL" in headers else -1
-            tk_idx  = headers.index("TK") if "TK" in headers else -1
-            cl_idx  = headers.index("CL") if "CL" in headers else -1
-            ho_idx  = headers.index("HO") if "HO" in headers else -1
-            pct_idx = len(headers) - 1  # %P is always last column
+            def col(name: str) -> int:
+                return headers.index(name) if name in headers else -1
+
+            ki_idx  = col("KI");  mk_idx  = col("MK");  hb_idx  = col("HB")
+            di_idx  = col("DI");  gl_idx  = col("GL");  bh_idx  = col("BH")
+            ho_idx  = col("HO");  tk_idx  = col("TK");  rb_idx  = col("RB")
+            if_idx  = col("IF");  cl_idx  = col("CL");  cg_idx  = col("CG")
+            fa_idx  = col("FA");  cp_idx  = col("CP");  mi_idx  = col("MI")
+            ga_idx  = col("GA");  pct_idx = len(headers) - 1  # %P always last
 
             def safe_int(texts: list, idx: int) -> int:
                 if idx < 0 or idx >= len(texts):
@@ -329,7 +332,6 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
                 if len(cells) <= name_idx:
                     continue
                 texts = [c.get_text(strip=True).replace("\xa0", "").strip() for c in cells]
-                # Skip footer rows: Totals, Opposition, Rushed — they shift columns
                 row_label = texts[0].lower() if texts else ""
                 if row_label in AFLTABLES_SKIP_ROWS:
                     continue
@@ -341,18 +343,30 @@ def fetch_afltables_game_lineup(url: str) -> tuple:
                     name = f"{first.strip()} {last.strip()}"
                 else:
                     name = name_raw
-                di  = safe_int(texts, di_idx)
-                gl  = safe_int(texts, gl_idx)
-                tk  = safe_int(texts, tk_idx)
-                cl  = safe_int(texts, cl_idx)
-                ho  = safe_int(texts, ho_idx)
-                pct = safe_int(texts, pct_idx)
-                # Player Impact: AFL Fantasy-inspired scoring
-                pi  = di * 3 + gl * 8 + tk * 4 + cl * 5 + ho * 1
+
+                s = lambda idx: safe_int(texts, idx)
+                ki = s(ki_idx); mk = s(mk_idx); hb = s(hb_idx)
+                di = s(di_idx); gl = s(gl_idx); bh = s(bh_idx)
+                ho = s(ho_idx); tk = s(tk_idx); rb = s(rb_idx)
+                if_ = s(if_idx); cl = s(cl_idx); cg = s(cg_idx)
+                fa = s(fa_idx); cp = s(cp_idx); mi = s(mi_idx)
+                ga = s(ga_idx); pct = s(pct_idx)
+
+                # Enhanced Player Impact — AFL Fantasy-calibrated weights
+                # Kicks > handballs, marks inside 50 are premium, negatives for clangers/FA
+                pi = round(
+                    ki  * 3.2 + hb  * 2.2 + mk  * 3.2
+                  + gl  * 8.0 + bh  * 0.5
+                  + tk  * 4.0 + ho  * 1.0
+                  + cl  * 4.0 + cp  * 1.5
+                  + mi  * 5.0 + if_ * 1.5
+                  + rb  * 1.0 + ga  * 2.0
+                  - cg  * 1.0 - fa  * 3.0
+                )
                 players.append({
                     "name": name,
                     "di": di, "gl": gl, "tk": tk,
-                    "cl": cl, "ho": ho, "pct": pct, "pi": pi,
+                    "cl": cl, "ho": ho, "pct": pct, "pi": max(pi, 0),
                 })
             return team_name, players if players else None
 
@@ -870,6 +884,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     afltables_lineups: dict = {}
     # Most recent lineup per team: team → [{name, pos}]  (for fallback on unannounced games)
     team_recent_lineup: dict = {}
+    # Season stats accumulator: full_name → {di, gl, tk, cl, pi, games}
+    player_season_stats: dict = {}
     try:
         game_links = fetch_afltables_season_links(year)
         print(f"[TELO]   {len(game_links)} game stat pages found on AFL Tables")
@@ -888,11 +904,58 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                     # Update per-team latest lineup (processed in date order → last write wins)
                     team_recent_lineup[h_team] = [{"name": p["name"], "pos": ""} for p in h_lineup]
                     team_recent_lineup[a_team] = [{"name": p["name"], "pos": ""} for p in a_lineup]
-        print(f"[TELO]   {len(afltables_lineups)} completed game lineups cached")
+                    # Accumulate season stats per player (full names from AFL Tables)
+                    for p in h_lineup + a_lineup:
+                        acc = player_season_stats.setdefault(p["name"], {
+                            "di": 0, "gl": 0, "tk": 0, "cl": 0, "pi": 0, "games": 0
+                        })
+                        acc["di"]    += p["di"]
+                        acc["gl"]    += p["gl"]
+                        acc["tk"]    += p["tk"]
+                        acc["cl"]    += p["cl"]
+                        acc["pi"]    += p["pi"]
+                        acc["games"] += 1
+        print(f"[TELO]   {len(afltables_lineups)} completed game lineups cached, "
+              f"{len(player_season_stats)} players in stats index")
     except Exception as e:
         print(f"[TELO] ⚠ AFL Tables scraping error: {e}", file=sys.stderr)
         afltables_lineups = {}
         team_recent_lineup = {}
+
+    # Build name-lookup index for matching abbreviated FootyWire names to full AFL Tables names
+    # Index key: normalised last name → [(full_name, avg_stats_dict), ...]
+    _name_idx: dict = {}
+    for full_name, acc in player_season_stats.items():
+        g = max(acc["games"], 1)
+        avg = {
+            "avg_di": round(acc["di"] / g, 1),
+            "avg_gl": round(acc["gl"] / g, 1),
+            "avg_tk": round(acc["tk"] / g, 1),
+            "avg_cl": round(acc["cl"] / g, 1),
+            "avg_pi": round(acc["pi"] / g, 1),
+            "games":  acc["games"],
+        }
+        # Index by last word of name (handles "De Koning" → "Koning")
+        last = full_name.split()[-1].lower()
+        _name_idx.setdefault(last, []).append((full_name, avg))
+
+    def lookup_avg_stats(display_name: str) -> Optional[dict]:
+        """Match 'J De Koning' or 'Sam De Koning' to stats by last name + first initial."""
+        parts = display_name.strip().split()
+        if len(parts) < 2:
+            return None
+        initial = parts[0][0].upper()
+        last    = parts[-1].lower()
+        candidates = _name_idx.get(last, [])
+        if not candidates:
+            return None
+        if len(candidates) == 1:
+            return candidates[0][1]
+        # Multiple players share last name — disambiguate by first initial
+        for full_name, avg in candidates:
+            if full_name.split()[0][0].upper() == initial:
+                return avg
+        return None
 
     # ── FootyWire team selections ──────────────────────────────────────────────
     print("[TELO] Fetching FootyWire team selections...")
@@ -1015,14 +1078,13 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             if not is_complete:
                 sel = footywire_sels.get((home, away))
                 if sel:
-                    entry["home_named"]             = sel["home_named"]
-                    entry["away_named"]             = sel["away_named"]
-                    entry["home_outs"]              = sel["home_outs"]
-                    entry["away_outs"]              = sel["away_outs"]
-                    entry["selections_announced"]   = True
-                    entry["selections_round"]       = sel["round"]
+                    entry["home_named"]           = sel["home_named"]
+                    entry["away_named"]           = sel["away_named"]
+                    entry["home_outs"]            = sel["home_outs"]
+                    entry["away_outs"]            = sel["away_outs"]
+                    entry["selections_announced"] = True
+                    entry["selections_round"]     = sel["round"]
                 else:
-                    # Fallback: last week's actual lineup from AFL Tables
                     h_recent = team_recent_lineup.get(home)
                     a_recent = team_recent_lineup.get(away)
                     if h_recent or a_recent:
@@ -1031,7 +1093,15 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                         entry["home_outs"]            = []
                         entry["away_outs"]            = []
                         entry["selections_announced"] = False
-                # Squad impact delta from injury auto-adjust (always included if computed)
+                # Attach season avg stats to each named player
+                for side in ("home_named", "away_named"):
+                    enriched = []
+                    for p in entry.get(side, []):
+                        avg = lookup_avg_stats(p["name"])
+                        enriched.append({**p, **avg} if avg else p)
+                    if enriched:
+                        entry[side] = enriched
+                # Squad impact delta from injury auto-adjust
                 entry["home_squad_impact"] = round(home_injury, 1)
                 entry["away_squad_impact"] = round(away_injury, 1)
 

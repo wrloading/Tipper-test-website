@@ -541,6 +541,42 @@
       font-size: 11px; color: var(--ash); text-decoration: line-through;
       padding: 1px 0;
     }
+    /* Named squad avg stats grid (upcoming games) */
+    .ns-stats-header {
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 30px;
+      gap: 3px; padding: 0 4px 4px; border-bottom: 1px solid var(--stone);
+      margin-bottom: 2px;
+    }
+    .ns-stats-header span {
+      font-family: 'JetBrains Mono', monospace; font-size: 7.5px;
+      color: var(--ash); letter-spacing: 0.04em; text-align: center;
+    }
+    .nss-col-name { text-align: left !important; letter-spacing: 0.06em !important; }
+    .nss-col-pi   { color: var(--pitch) !important; font-weight: 700 !important; }
+    .ns-stats-row {
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 30px;
+      gap: 3px; padding: 3px 4px; align-items: center;
+      border-bottom: 1px solid rgba(224,222,218,0.4);
+    }
+    .ns-stats-row:last-of-type { border-bottom: none; }
+    .nss-player {
+      font-size: 11px; font-weight: 500; color: var(--ink);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      display: flex; align-items: center; gap: 3px;
+    }
+    .nss-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      color: var(--slate); text-align: center;
+    }
+    .nss-gl-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      color: var(--moss); font-weight: 700; text-align: center;
+    }
+    .nss-pi-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 10px;
+      font-weight: 700; color: var(--pitch); text-align: center;
+      background: rgba(27,42,74,0.06); border-radius: 3px;
+    }
     /* Completed game stats columns — 7 stats + PI */
     .lineup-stats-header {
       display: grid; grid-template-columns: 1fr 24px 18px 18px 20px 20px 22px 28px;
@@ -821,16 +857,40 @@
           </div>`;
       }
 
-      const POS_ORDER = { FB:0, HB:1, C:2, HF:3, FF:4, Fol:5, INT:6, '':7 };
-      const sorted = [...named].sort((a,b) => (POS_ORDER[a.pos]??7) - (POS_ORDER[b.pos]??7));
+      // Sort: players with avg_pi descending first, then players without stats
+      const withStats    = named.filter(p => p.avg_pi != null).sort((a,b) => b.avg_pi - a.avg_pi);
+      const withoutStats = named.filter(p => p.avg_pi == null);
+      const hasAnyStats  = withStats.length > 0;
 
-      const playerRows = sorted.map(p => {
-        const posDisplay = p.pos || '';
-        return `
-          <div class="named-player">
-            ${posDisplay ? `<span class="np-pos">${posDisplay}</span>` : ''}
-            <span class="np-name">${p.name}</span>
-          </div>`;
+      const headerRow = hasAnyStats ? `
+        <div class="ns-stats-header">
+          <span class="nss-col-name">Player</span>
+          <span>DI</span>
+          <span>GL</span>
+          <span>TK</span>
+          <span>CL</span>
+          <span class="nss-col-pi">PI</span>
+        </div>` : '';
+
+      const playerRows = [...withStats, ...withoutStats].map(p => {
+        const posHtml = p.pos ? `<span class="np-pos">${p.pos}</span>` : '';
+        if (p.avg_pi != null) {
+          return `
+            <div class="ns-stats-row">
+              <span class="nss-player">${posHtml}${p.name}</span>
+              <span class="nss-val">${p.avg_di != null ? p.avg_di.toFixed(1) : '·'}</span>
+              <span class="nss-gl-val">${p.avg_gl != null && p.avg_gl > 0 ? p.avg_gl.toFixed(1) : '·'}</span>
+              <span class="nss-val">${p.avg_tk != null ? p.avg_tk.toFixed(1) : '·'}</span>
+              <span class="nss-val">${p.avg_cl != null ? p.avg_cl.toFixed(1) : '·'}</span>
+              <span class="nss-pi-val">${p.avg_pi.toFixed(1)}</span>
+            </div>`;
+        } else {
+          return `
+            <div class="named-player">
+              ${posHtml}
+              <span class="np-name">${p.name}</span>
+            </div>`;
+        }
       }).join('');
 
       const outsHtml = outs && outs.length ? `
@@ -845,6 +905,7 @@
             <div class="lineup-team-name">${teamName}</div>
             <div style="display:flex;gap:4px;align-items:center">${sourceLabel}${impactHtml}</div>
           </div>
+          ${headerRow}
           ${playerRows}
           ${outsHtml}
         </div>`;
