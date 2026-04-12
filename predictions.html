@@ -558,31 +558,30 @@
       font-family: 'JetBrains Mono', monospace; font-size: 9px;
       color: var(--ash); text-align: center; text-decoration: none;
     }
-    /* Positional ratings (DEF/MID/FWD/FOL) on game cards */
-    .pos-ratings {
-      display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap;
+    /* Positional ratings (DEF/MID/FWD/FOL) — in squad panel header */
+    .pos-ratings-inline {
+      display: flex; gap: 5px; align-items: center; flex-shrink: 0;
     }
-    .pos-rating-side { display: flex; gap: 4px; flex: 1; min-width: 0; }
-    .pos-badge {
-      display: flex; flex-direction: column; align-items: center;
-      gap: 1px; flex: 1;
+    .prb {
+      display: flex; flex-direction: column; align-items: center; gap: 0px;
+      min-width: 28px;
     }
-    .pos-badge-label {
-      font-family: 'JetBrains Mono', monospace; font-size: 6.5px;
-      letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash);
+    .prb-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 6px;
+      letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.6;
     }
-    .pos-badge-rank {
-      font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
-      line-height: 1;
+    .prb-val {
+      font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700;
+      line-height: 1.1;
     }
-    .pos-rank-1, .pos-rank-2, .pos-rank-3 { color: var(--moss); }
-    .pos-rank-4, .pos-rank-5, .pos-rank-6 { color: var(--midnight); }
-    .pos-rank-7, .pos-rank-8, .pos-rank-9, .pos-rank-10 { color: var(--ash); }
-    .pos-rank-11, .pos-rank-12, .pos-rank-13, .pos-rank-14 { color: var(--ash); opacity: 0.65; }
-    .pos-rank-15, .pos-rank-16, .pos-rank-17, .pos-rank-18 { color: var(--negative); opacity: 0.75; }
-    .pos-ratings-divider {
-      width: 1px; background: var(--stone); flex-shrink: 0; align-self: stretch; margin: 0 2px;
-    }
+    .prb-def .prb-label { color: #6A9BBC; }
+    .prb-def .prb-val   { color: #6A9BBC; }
+    .prb-mid .prb-label { color: #1B2A4A; }
+    .prb-mid .prb-val   { color: #1B2A4A; }
+    .prb-fwd .prb-label { color: #788C5D; }
+    .prb-fwd .prb-val   { color: #788C5D; }
+    .prb-fol .prb-label { color: #C24444; }
+    .prb-fol .prb-val   { color: #C24444; }
     /* Named squad avg stats grid (upcoming games) */
     .ns-stats-header {
       display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 40px;
@@ -872,29 +871,31 @@
     };
 
     // ── Upcoming game: named squad panel ────────────────────────────────────────
-    function renderNamedSquad(named, teamName, outs, impact, announced, selRound) {
+    function renderNamedSquad(named, teamName, outs, impact, announced, selRound, posRatings) {
       const sourceLabel = announced === true
         ? `<span class="squad-source live">Rd ${selRound} Named</span>`
         : announced === false
           ? `<span class="squad-source stale">Last Wk Squad</span>`
           : '';
 
-      let impactHtml = '';
-      if (impact != null) {
-        if (Math.abs(impact) < 1)
-          impactHtml = `<span class="lineup-impact neutral">Full strength</span>`;
-        else if (impact < 0)
-          impactHtml = `<span class="lineup-impact negative">${impact.toFixed(1)} pts</span>`;
-        else
-          impactHtml = `<span class="lineup-impact positive">+${impact.toFixed(1)} pts</span>`;
-      }
+      const pr = posRatings || {};
+      const posHtml = (pr.DEF || pr.MID || pr.FWD || pr.FOL) ? `
+        <div class="pos-ratings-inline">
+          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.rating}</span></div>` : ''}
+          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.rating}</span></div>` : ''}
+          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.rating}</span></div>` : ''}
+          ${pr.FOL ? `<div class="prb prb-fol"><span class="prb-label">FOL</span><span class="prb-val">${pr.FOL.rating}</span></div>` : ''}
+        </div>` : '';
 
       if (!named || !named.length) {
         return `
           <div>
             <div class="lineup-col-header">
-              <div class="lineup-team-name">${teamName}</div>
-              ${sourceLabel}
+              <div style="display:flex;flex-direction:column;gap:3px">
+                <div class="lineup-team-name">${teamName}</div>
+                ${sourceLabel}
+              </div>
+              ${posHtml}
             </div>
             <div class="lineup-no-data">No data available</div>
           </div>`;
@@ -965,8 +966,11 @@
       return `
         <div>
           <div class="lineup-col-header">
-            <div class="lineup-team-name">${teamName}</div>
-            <div style="display:flex;gap:4px;align-items:center">${sourceLabel}${impactHtml}</div>
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <div class="lineup-team-name">${teamName}</div>
+              ${sourceLabel}
+            </div>
+            ${posHtml}
           </div>
           ${headerRow}
           ${playerRows}
@@ -1126,28 +1130,6 @@
               </div>
             ` : ''}
 
-            ${!isFinal ? (() => {
-              const hRatings = POSITIONAL_RATINGS[g.home] || {};
-              const aRatings = POSITIONAL_RATINGS[g.away] || {};
-              const cats = ['DEF','MID','FWD','FOL'];
-              const hasSome = cats.some(c => hRatings[c] || aRatings[c]);
-              if (!hasSome) return '';
-              const side = (ratings, team) => cats.map(c => {
-                const r = ratings[c];
-                const rank = r ? r.rank : '—';
-                const cls  = r ? `pos-rank-${r.rank}` : '';
-                return `<div class="pos-badge">
-                  <span class="pos-badge-label">${c}</span>
-                  <span class="pos-badge-rank ${cls}">${rank}</span>
-                </div>`;
-              }).join('');
-              return `<div class="pos-ratings">
-                <div class="pos-rating-side" title="${g.home}">${side(hRatings, g.home)}</div>
-                <div class="pos-ratings-divider"></div>
-                <div class="pos-rating-side" title="${g.away}">${side(aRatings, g.away)}</div>
-              </div>`;
-            })() : ''}
-
             ${hasPanel ? `
               <button class="lineup-toggle" id="lt-${gameId}" onclick="toggleLineup('${gameId}')">
                 <span>${panelLabel}</span>
@@ -1158,12 +1140,14 @@
                   ${hasLineup
                     ? renderLineupStats(g.homeLineup, g.home)
                     : renderNamedSquad(g.homeNamed, g.home, g.homeOuts,
-                        g.homeSquadImpact, g.selectionsAnnounced, g.selectionsRound)
+                        g.homeSquadImpact, g.selectionsAnnounced, g.selectionsRound,
+                        POSITIONAL_RATINGS[g.home])
                   }
                   ${hasLineup
                     ? renderLineupStats(g.awayLineup, g.away)
                     : renderNamedSquad(g.awayNamed, g.away, g.awayOuts,
-                        g.awaySquadImpact, g.selectionsAnnounced, g.selectionsRound)
+                        g.awaySquadImpact, g.selectionsAnnounced, g.selectionsRound,
+                        POSITIONAL_RATINGS[g.away])
                   }
                 </div>
               </div>
