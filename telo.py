@@ -938,8 +938,29 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         weights = [PI_RECENCY_DECAY ** (n - 1 - i) for i in range(n)]
         return sum(pi * w for pi, w in zip(pi_list, weights)) / sum(weights)
 
+    def _surname_keys(full_name: str) -> list:
+        """
+        Return all lookup keys for a player's surname so abbreviated FootyWire
+        names (e.g. "N W-Milera" for "Nasiah Wanganeen-Milera") can be found.
+        Keys generated:
+          - last word as-is              → "wanganeen-milera"
+          - full surname for 3+ part names → "wanganeen-milera" (same here)
+          - for hyphenated last word:
+              - second part after hyphen  → "milera"
+              - first-initial-hyphen form → "w-milera"
+        """
+        parts = full_name.split()
+        last  = parts[-1].lower()
+        keys  = [last]
+        if len(parts) > 2:
+            keys.append(" ".join(parts[1:]).lower())
+        if "-" in last:
+            halves = last.split("-", 1)
+            keys.append(halves[1])                      # "milera"
+            keys.append(f"{halves[0][0]}-{halves[1]}")  # "w-milera"
+        return keys
+
     # Build name-lookup index for matching abbreviated FootyWire names to full AFL Tables names
-    # Keys: last word AND full surname (for multi-word surnames like "De Koning")
     _name_idx: dict = {}
     for full_name, acc in player_season_stats.items():
         g = max(acc["games"], 1)
@@ -951,33 +972,42 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             "avg_pi": round(weighted_pi_avg(acc["pi_list"]), 1),
             "games":  acc["games"],
         }
-        name_parts = full_name.split()
-        _name_idx.setdefault(name_parts[-1].lower(), []).append((full_name, avg))
-        if len(name_parts) > 2:
-            _name_idx.setdefault(" ".join(name_parts[1:]).lower(), []).append((full_name, avg))
+        for key in _surname_keys(full_name):
+            _name_idx.setdefault(key, []).append((full_name, avg))
+
+    def _lookup_keys_for(display_name: str) -> list:
+        """Keys to try when looking up an abbreviated FootyWire name."""
+        clean = re.sub(r'\.\s*', ' ', display_name).strip()
+        parts = clean.split()
+        if len(parts) < 2:
+            return []
+        last_full = " ".join(parts[1:]).lower()
+        last_word = parts[-1].lower()
+        keys = [last_full, last_word]
+        # "W-Milera" → also try "milera" (second half) and "w-milera" already covered
+        if "-" in last_word:
+            keys.append(last_word.split("-", 1)[1])
+        return keys
 
     def _name_lookup(display_name: str) -> Optional[dict]:
         """
         Match an abbreviated or full name to AFL Tables stats.
-        Handles: 'J Smith', 'J De Koning', 'Sam De Koning', 'H. Reid' (dot stripped).
+        Handles: 'J Smith', 'N W-Milera', 'J De Koning', 'H. Reid'.
         """
-        # Strip dots from initials (e.g. "H. Reid" → "H Reid")
         clean = re.sub(r'\.\s*', ' ', display_name).strip()
         parts = clean.split()
         if len(parts) < 2:
             return None
         initial = parts[0][0].upper()
-        # Try full surname first, then last word
-        last_full = " ".join(parts[1:]).lower()
-        last_word = parts[-1].lower()
-        candidates = _name_idx.get(last_full) or _name_idx.get(last_word, [])
-        if not candidates:
-            return None
-        if len(candidates) == 1:
-            return candidates[0][1]
-        for full_name, avg in candidates:
-            if full_name.split()[0][0].upper() == initial:
-                return avg
+        for key in _lookup_keys_for(display_name):
+            candidates = _name_idx.get(key, [])
+            if not candidates:
+                continue
+            if len(candidates) == 1:
+                return candidates[0][1]
+            for full_name, avg in candidates:
+                if full_name.split()[0][0].upper() == initial:
+                    return avg
         return None
 
     def lookup_avg_stats(display_name: str) -> Optional[dict]:
@@ -1087,12 +1117,8 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     # P-TELO lookup index for named squad win-prob adjustment
     _ptelo_idx: dict = {}
     for _pr in player_ratings:
-        _name_parts = _pr["name"].split()
-        # Index by last word AND full surname (handles "De Goey" → both "goey" and "de goey")
-        _ptelo_idx.setdefault(_name_parts[-1].lower(), []).append(_pr)
-        if len(_name_parts) > 2:
-            _full_last = " ".join(_name_parts[1:]).lower()
-            _ptelo_idx.setdefault(_full_last, []).append(_pr)
+        for _key in _surname_keys(_pr["name"]):
+            _ptelo_idx.setdefault(_key, []).append(_pr)
 
     def _match_player(display_name: str, team: str) -> Optional[dict]:
         """Return the player_ratings entry for an abbreviated name + team."""
@@ -1100,19 +1126,18 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         parts = clean.split()
         if len(parts) < 2:
             return None
-        initial   = parts[0][0].upper()
-        last_full = " ".join(parts[1:]).lower()
-        last_word = parts[-1].lower()
-        candidates = _ptelo_idx.get(last_full) or _ptelo_idx.get(last_word, [])
-        if not candidates:
-            return None
-        team_cands = [c for c in candidates if c["team"] == team]
-        search = team_cands if team_cands else candidates
-        if len(search) == 1:
-            return search[0]
-        for c in search:
-            if c["name"].split()[0][0].upper() == initial:
-                return c
+        initial = parts[0][0].upper()
+        for key in _lookup_keys_for(display_name):
+            candidates = _ptelo_idx.get(key, [])
+            if not candidates:
+                continue
+            team_cands = [c for c in candidates if c["team"] == team]
+            search = team_cands if team_cands else candidates
+            if len(search) == 1:
+                return search[0]
+            for c in search:
+                if c["name"].split()[0][0].upper() == initial:
+                    return c
         return None
 
     def lookup_player_telo(display_name: str, team: str) -> Optional[float]:
