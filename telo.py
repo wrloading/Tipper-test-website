@@ -1045,10 +1045,11 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         if _l3 is not None:
             _pr["last3_pi"] = _l3
 
-    # Compute per-player scaled rating (40-99) and league rank across all rated players
-    _rated_players = [p for p in player_ratings if p.get("avg_pi") is not None]
-    if _rated_players:
-        _sorted_by_telo = sorted(_rated_players, key=lambda p: p["telo"], reverse=True)
+    # Compute per-player scaled rating (40-99) and league rank across ALL rated players
+    # Use PI-rated players to set the scale anchors, then apply to everyone
+    _all_eligible = [p for p in player_ratings if p["games"] >= PLAYER_MIN_GAMES]
+    if _all_eligible:
+        _sorted_by_telo = sorted(_all_eligible, key=lambda p: p["telo"], reverse=True)
         _hi = _sorted_by_telo[0]["telo"]
         _lo = _sorted_by_telo[-1]["telo"]
         _span = (_hi - _lo) if _hi != _lo else 1
@@ -1076,17 +1077,23 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     # P-TELO lookup index for named squad win-prob adjustment
     _ptelo_idx: dict = {}
     for _pr in player_ratings:
-        _last = _pr["name"].split()[-1].lower()
-        _ptelo_idx.setdefault(_last, []).append(_pr)
+        _name_parts = _pr["name"].split()
+        # Index by last word AND full surname (handles "De Goey" → both "goey" and "de goey")
+        _ptelo_idx.setdefault(_name_parts[-1].lower(), []).append(_pr)
+        if len(_name_parts) > 2:
+            _full_last = " ".join(_name_parts[1:]).lower()
+            _ptelo_idx.setdefault(_full_last, []).append(_pr)
 
     def _match_player(display_name: str, team: str) -> Optional[dict]:
         """Return the player_ratings entry for an abbreviated name + team."""
         parts = display_name.strip().split()
         if len(parts) < 2:
             return None
-        initial    = parts[0][0].upper()
-        last       = parts[-1].lower()
-        candidates = _ptelo_idx.get(last, [])
+        initial = parts[0][0].upper()
+        # Try full surname first (e.g. "J De Goey" → "de goey"), then last word
+        last_full = " ".join(parts[1:]).lower()
+        last_word = parts[-1].lower()
+        candidates = _ptelo_idx.get(last_full) or _ptelo_idx.get(last_word, [])
         if not candidates:
             return None
         team_cands = [c for c in candidates if c["team"] == team]
