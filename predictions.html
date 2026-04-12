@@ -584,7 +584,7 @@
     .prb-fol .prb-val   { color: #C24444; }
     /* Named squad avg stats grid (upcoming games) */
     .ns-stats-header {
-      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 40px;
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 58px;
       gap: 3px; padding: 0 4px 4px; border-bottom: 1px solid var(--stone);
       margin-bottom: 2px;
     }
@@ -595,7 +595,7 @@
     .nss-col-name { text-align: left !important; letter-spacing: 0.06em !important; }
     .nss-col-pi   { color: var(--pitch) !important; font-weight: 700 !important; }
     .ns-stats-row {
-      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 40px;
+      display: grid; grid-template-columns: 1fr 26px 20px 20px 22px 58px;
       gap: 3px; padding: 3px 4px; align-items: center;
       border-bottom: 1px solid rgba(224,222,218,0.4);
     }
@@ -614,9 +614,17 @@
       color: var(--moss); font-weight: 700; text-align: center;
     }
     .nss-pi-val {
-      font-family: 'JetBrains Mono', monospace; font-size: 10px;
-      font-weight: 700; color: var(--pitch); text-align: center;
-      background: rgba(27,42,74,0.06); border-radius: 3px;
+      display: flex; align-items: baseline; justify-content: center;
+      gap: 3px;
+      background: rgba(27,42,74,0.06); border-radius: 3px; padding: 0 2px;
+    }
+    .nss-rating {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      font-weight: 700; color: var(--pitch);
+    }
+    .nss-rank {
+      font-family: 'JetBrains Mono', monospace; font-size: 8px;
+      color: var(--ash); font-weight: 400;
     }
     /* Completed game stats columns — 7 stats + PI */
     .lineup-stats-header {
@@ -926,7 +934,10 @@
               <span class="nss-gl-val">${p.avg_gl != null && p.avg_gl > 0 ? Math.round(p.avg_gl) : '·'}</span>
               <span class="nss-val">${p.avg_tk != null ? Math.round(p.avg_tk) : '·'}</span>
               <span class="nss-val">${p.avg_cl != null ? Math.round(p.avg_cl) : '·'}</span>
-              <span class="nss-pi-val">${p.ptelo}</span>
+              <span class="nss-pi-val">
+                <span class="nss-rating">${p.player_rating ?? p.ptelo}</span>
+                ${p.player_rank != null ? `<span class="nss-rank">#${p.player_rank}</span>` : ''}
+              </span>
             </div>`;
         } else {
           return `

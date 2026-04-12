@@ -1043,6 +1043,17 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         if _l3 is not None:
             _pr["last3_pi"] = _l3
 
+    # Compute per-player scaled rating (40-99) and league rank across all rated players
+    _rated_players = [p for p in player_ratings if p.get("avg_pi") is not None]
+    if _rated_players:
+        _sorted_by_telo = sorted(_rated_players, key=lambda p: p["telo"], reverse=True)
+        _hi = _sorted_by_telo[0]["telo"]
+        _lo = _sorted_by_telo[-1]["telo"]
+        _span = (_hi - _lo) if _hi != _lo else 1
+        for _rank, _pr in enumerate(_sorted_by_telo, 1):
+            _pr["player_rating"] = round(RATING_MIN + (_pr["telo"] - _lo) / _span * (RATING_MAX - RATING_MIN))
+            _pr["player_rank"]   = _rank
+
     full_squad_telo_avg.clear()
     auto_injury_deltas.clear()
     for _team, _squad in team_squads.items():
@@ -1090,9 +1101,16 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         return float(c["telo"]) if c else None
 
     def lookup_player_telo_data(display_name: str, team: str) -> Optional[dict]:
-        """Return {telo, pos} for a named player."""
+        """Return {telo, pos, player_rating, player_rank} for a named player."""
         c = _match_player(display_name, team)
-        return {"telo": int(c["telo"]), "pos": c["pos"]} if c else None
+        if not c:
+            return None
+        return {
+            "telo":          int(c["telo"]),
+            "pos":           c["pos"],
+            "player_rating": c.get("player_rating"),
+            "player_rank":   c.get("player_rank"),
+        }
 
     def compute_named_squad_delta(named: list, team: str) -> Optional[float]:
         """
@@ -1268,8 +1286,10 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                             merged.update(avg)
                         pd = lookup_player_telo_data(p["name"], team_name)
                         if pd:
-                            merged["ptelo"] = pd["telo"]
-                            merged["ppos"]  = pd["pos"]   # Fantasy pos for INT categorisation
+                            merged["ptelo"]         = pd["telo"]
+                            merged["ppos"]          = pd["pos"]
+                            merged["player_rating"] = pd.get("player_rating")
+                            merged["player_rank"]   = pd.get("player_rank")
                         enriched.append(merged)
                     if enriched:
                         entry[side] = enriched
