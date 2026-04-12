@@ -1481,6 +1481,13 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     print(f"[TELO] Running {MC_SIMULATIONS:,} Monte Carlo simulations...")
     finals_pct, premiers_pct = simulate_finals(ratings, upcoming, wins_map, losses_map)
 
+    # Teams that have remaining games are not mathematically eliminated.
+    # Apply a minimum floor so the UI shows <1% rather than 0% for these teams.
+    teams_with_games = {g.get("hteam") for g in upcoming} | {g.get("ateam") for g in upcoming}
+    for team in teams_with_games:
+        if finals_pct.get(team, 0.0) == 0.0:
+            finals_pct[team] = 0.001
+
     # ── Rankings ───────────────────────────────────────────────────────────────
     ranked = sorted(all_teams, key=lambda t: ratings.get(t, INITIAL_TELO), reverse=True)
     rankings_out: list = [{
