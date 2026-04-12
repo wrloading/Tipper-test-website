@@ -647,6 +647,52 @@
       font-weight: 700; color: var(--pitch); text-align: center;
       background: rgba(27,42,74,0.06); border-radius: 3px; }
 
+    /* ── INFO TOOLTIPS ── */
+    .info-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 15px; height: 15px; border-radius: 50%; flex-shrink: 0;
+      border: 1.5px solid var(--ash); color: var(--ash);
+      font-family: 'JetBrains Mono', monospace; font-size: 8px; font-weight: 700;
+      cursor: pointer; background: transparent; padding: 0; line-height: 1;
+      transition: border-color 150ms, color 150ms, background 150ms;
+      vertical-align: middle; margin-left: 5px;
+    }
+    .info-btn:hover, .info-btn.active {
+      border-color: var(--midnight); color: var(--pampas); background: var(--midnight);
+    }
+    .info-popover {
+      display: none; position: fixed; z-index: 1000;
+      background: var(--pitch); border-radius: 10px;
+      padding: 14px 16px 16px; max-width: 272px; width: 272px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.28), 0 2px 8px rgba(0,0,0,0.18);
+    }
+    .info-popover.visible { display: block; }
+    .info-popover-title {
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+      font-size: 14px; letter-spacing: -0.1px; color: var(--pampas);
+      margin-bottom: 10px;
+    }
+    .info-popover-section {
+      margin-bottom: 10px;
+    }
+    .info-popover-section:last-child { margin-bottom: 0; }
+    .info-popover-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 8px;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--steel); margin-bottom: 5px;
+    }
+    .info-popover-item {
+      font-family: 'Barlow', Arial, sans-serif; font-size: 11.5px;
+      line-height: 1.55; color: rgba(250,249,245,0.72);
+      display: flex; gap: 7px; margin-bottom: 3px;
+    }
+    .info-popover-item::before {
+      content: '·'; color: var(--steel); flex-shrink: 0; font-size: 14px; line-height: 1.3;
+    }
+    .info-popover-divider {
+      height: 1px; background: rgba(255,255,255,0.08); margin: 10px 0;
+    }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 1100px) {
       .main-content { grid-template-columns: 1fr; }
@@ -780,7 +826,10 @@
       <div class="rankings-card">
         <div class="rankings-header">
           <div class="rankings-header-left">
-            <div class="rankings-title">Power Rankings</div>
+            <div class="rankings-title" style="display:flex;align-items:center">
+              Power Rankings
+              <button class="info-btn" onclick="togglePopover(this,'telo')" aria-label="About Power Rankings">i</button>
+            </div>
             <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
           </div>
           <div class="view-toggle">
@@ -805,12 +854,104 @@
     </div>
   </div>
 
+  <!-- INFO POPOVER (shared, repositioned by JS) -->
+  <div class="info-popover" id="info-popover"></div>
+
   <script>
     // ─── STATE ──────────────────────────────────────────────────────────────
     let ROUNDS              = {};
     let RANKINGS            = [];
     let META                = {};
     let POSITIONAL_RATINGS  = {};
+
+    // ─── INFO POPOVERS ───────────────────────────────────────────────────────
+
+    const POPOVER_CONTENT = {
+      telo: `
+        <div class="info-popover-title">Team Win Predictions</div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">TELO Rating</div>
+          <div class="info-popover-item">Adapted Elo system built from the last 3 seasons of results, with heavier weighting on recent games</div>
+          <div class="info-popover-item">Margin of victory is factored in — closer wins shift ratings less than dominant ones</div>
+          <div class="info-popover-item">Home ground advantage adds a fixed boost to the expected win probability</div>
+        </div>
+        <div class="info-popover-divider"></div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">Match Predictions</div>
+          <div class="info-popover-item">Win probability derived from the TELO rating difference between teams using a logistic function</div>
+          <div class="info-popover-item">Named squad adjustments shift a team's effective rating up or down based on the P-TELO of players in or out</div>
+        </div>
+        <div class="info-popover-divider"></div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">Finals &amp; Premiership %</div>
+          <div class="info-popover-item">50,000 Monte Carlo simulations of the remaining season, using current TELO ratings to predict each game</div>
+          <div class="info-popover-item">Finals % = share of simulations where the team finishes top 8. Premiership % = share where they win the flag</div>
+        </div>`,
+      ptelo: `
+        <div class="info-popover-title">Player P-TELO</div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">Performance Index (PI)</div>
+          <div class="info-popover-item">Composite stat built from disposals, marks, goals, tackles, clearances, hitouts, contested possessions, metres gained, inside 50s, rebound 50s, goal assists, clangers and free kicks against</div>
+          <div class="info-popover-item">Each stat is weighted by its typical impact on winning — goals and clearances carry the most</div>
+        </div>
+        <div class="info-popover-divider"></div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">Recency Bias</div>
+          <div class="info-popover-item">Recent games count more — each game back in time is discounted by 15%, so last week matters far more than round 1</div>
+          <div class="info-popover-item">This means the rating responds quickly to role changes, injuries returning, or a player hitting form</div>
+        </div>
+        <div class="info-popover-divider"></div>
+        <div class="info-popover-section">
+          <div class="info-popover-label">Rating &amp; Rank</div>
+          <div class="info-popover-item">P-TELO starts at 1500. A player averaging above the league mean PI pushes their rating higher, below it pushes lower</div>
+          <div class="info-popover-item">Rank is their position among all ~650 listed players league-wide</div>
+        </div>`,
+    };
+
+    let activePopoverBtn = null;
+
+    function togglePopover(btn, key) {
+      const pop = document.getElementById('info-popover');
+      if (activePopoverBtn === btn && pop.classList.contains('visible')) {
+        closePopover();
+        return;
+      }
+      closePopover();
+      pop.innerHTML = POPOVER_CONTENT[key] || '';
+      pop.classList.add('visible');
+      btn.classList.add('active');
+      activePopoverBtn = btn;
+      positionPopover(btn, pop);
+    }
+
+    function positionPopover(btn, pop) {
+      const br   = btn.getBoundingClientRect();
+      const vw   = window.innerWidth;
+      const vh   = window.innerHeight;
+      const pw   = 272;
+      const ph   = pop.offsetHeight || 320;
+      let left = br.right + 8;
+      let top  = br.top;
+      // Flip left if overflowing right edge
+      if (left + pw > vw - 8) left = br.left - pw - 8;
+      // Clamp top to viewport
+      if (top + ph > vh - 8) top = vh - ph - 8;
+      if (top < 8) top = 8;
+      pop.style.left = left + 'px';
+      pop.style.top  = top  + 'px';
+    }
+
+    function closePopover() {
+      const pop = document.getElementById('info-popover');
+      pop.classList.remove('visible');
+      if (activePopoverBtn) { activePopoverBtn.classList.remove('active'); activePopoverBtn = null; }
+    }
+
+    document.addEventListener('click', e => {
+      if (activePopoverBtn && !e.target.closest('.info-btn') && !e.target.closest('.info-popover')) {
+        closePopover();
+      }
+    });
 
     // ─── TEAM ACRONYMS ───────────────────────────────────────────────────────
     const ACRONYM = {
@@ -975,7 +1116,7 @@
           <span>GL</span>
           <span>TK</span>
           <span>CL</span>
-          <span class="nss-col-pi">P-TELO</span>
+          <span class="nss-col-pi" style="display:inline-flex;align-items:center;gap:3px;justify-content:center">P-TELO<button class="info-btn" onclick="togglePopover(this,'ptelo')" aria-label="About P-TELO">i</button></span>
         </div>` : '';
 
       const playerRows = [...withStats, ...withoutStats].map(p => {
