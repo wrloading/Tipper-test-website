@@ -957,6 +957,46 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                 return avg
         return None
 
+    # P-TELO lookup index for named squad win-prob adjustment
+    _ptelo_idx: dict = {}
+    for _pr in player_ratings:
+        _last = _pr["name"].split()[-1].lower()
+        _ptelo_idx.setdefault(_last, []).append(_pr)
+
+    def lookup_player_telo(display_name: str, team: str) -> Optional[float]:
+        """Match abbreviated name (e.g. 'J Smith') to a player_ratings entry → telo."""
+        parts = display_name.strip().split()
+        if len(parts) < 2:
+            return None
+        initial   = parts[0][0].upper()
+        last      = parts[-1].lower()
+        candidates = _ptelo_idx.get(last, [])
+        if not candidates:
+            return None
+        team_cands = [c for c in candidates if c["team"] == team]
+        search = team_cands if team_cands else candidates
+        if len(search) == 1:
+            return float(search[0]["telo"])
+        for c in search:
+            if c["name"].split()[0][0].upper() == initial:
+                return float(c["telo"])
+        return None
+
+    def compute_named_squad_delta(named: list, team: str) -> Optional[float]:
+        """
+        Return the TELO adjustment implied by a team's actual named squad
+        vs their full-squad baseline.  Requires ≥10 matched players.
+        """
+        base = full_squad_telo_avg.get(team)
+        if not base:
+            return None
+        telos = [t for t in (lookup_player_telo(p.get("name", ""), team) for p in named)
+                 if t is not None]
+        if len(telos) < 10:
+            return None
+        delta = (sum(telos) / len(telos) - base) * SQUAD_IMPACT_SCALE
+        return round(delta, 1) if abs(delta) > 0.3 else 0.0
+
     # ── FootyWire team selections ──────────────────────────────────────────────
     print("[TELO] Fetching FootyWire team selections...")
     try:
@@ -1036,8 +1076,22 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             home_travel = travel_fatigue_penalty(home, venue, last_game_date, date_str)
             away_travel = travel_fatigue_penalty(away, venue, last_game_date, date_str)
 
+            is_complete = g.get("complete") == 100
+
             home_injury = INJURY_OVERRIDES.get(home, auto_injury_deltas.get(home, 0.0))
             away_injury = INJURY_OVERRIDES.get(away, auto_injury_deltas.get(away, 0.0))
+
+            # For upcoming games with announced named squads, refine squad delta
+            # using actual named-player P-TELO vs full-squad baseline
+            if not is_complete:
+                sel = footywire_sels.get((home, away))
+                if sel:
+                    h_delta = compute_named_squad_delta(sel["home_named"], home)
+                    a_delta = compute_named_squad_delta(sel["away_named"], away)
+                    if h_delta is not None and home not in INJURY_OVERRIDES:
+                        home_injury = h_delta
+                    if a_delta is not None and away not in INJURY_OVERRIDES:
+                        away_injury = a_delta
 
             h_eff = h_telo + home_form + h2h_adj + home_injury - home_travel
             a_eff = a_telo + away_form             + away_injury - away_travel
@@ -1045,7 +1099,6 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             h_prob      = round(win_probability_pct(h_eff, a_eff, hga=v_hga), 1)
             pred_margin = round(abs(predict_margin(h_eff, a_eff, hga=v_hga)), 1)
             home_fav    = h_prob >= 50.0
-            is_complete = g.get("complete") == 100
 
             entry: dict = {
                 "home":      home,

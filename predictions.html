@@ -878,11 +878,11 @@
           return `
             <div class="ns-stats-row">
               <span class="nss-player">${posHtml}${p.name}</span>
-              <span class="nss-val">${p.avg_di != null ? p.avg_di.toFixed(1) : '·'}</span>
-              <span class="nss-gl-val">${p.avg_gl != null && p.avg_gl > 0 ? p.avg_gl.toFixed(1) : '·'}</span>
-              <span class="nss-val">${p.avg_tk != null ? p.avg_tk.toFixed(1) : '·'}</span>
-              <span class="nss-val">${p.avg_cl != null ? p.avg_cl.toFixed(1) : '·'}</span>
-              <span class="nss-pi-val">${p.avg_pi.toFixed(1)}</span>
+              <span class="nss-val">${p.avg_di != null ? Math.round(p.avg_di) : '·'}</span>
+              <span class="nss-gl-val">${p.avg_gl != null && p.avg_gl > 0 ? Math.round(p.avg_gl) : '·'}</span>
+              <span class="nss-val">${p.avg_tk != null ? Math.round(p.avg_tk) : '·'}</span>
+              <span class="nss-val">${p.avg_cl != null ? Math.round(p.avg_cl) : '·'}</span>
+              <span class="nss-pi-val">${Math.round(p.avg_pi)}</span>
             </div>`;
         } else {
           return `
@@ -1013,7 +1013,7 @@
         const panelLabel = hasLineup
           ? 'Lineups &amp; Stats'
           : g.selectionsAnnounced
-            ? `Named Squad${outsCount > 0 ? ` · ${outsCount} out` : ''}`
+            ? 'Named Squad'
             : 'Last Week\'s Squad';
 
         return `
