@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-12T16:02:25.703874+10:00",
+    "updated": "2026-04-12T16:05:46.910612+10:00",
     "year": 2026,
     "current_round": 5,
     "model": "TELO v2.0",
@@ -17316,8 +17316,8 @@
           "venue": "Barossa Park",
           "datetime": "Sun 12 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 76.2,
-          "home_prob": 85.2,
+          "margin": 76.7,
+          "home_prob": 85.4,
           "complete": false,
           "home_named": [
             {
@@ -17814,7 +17814,11 @@
             },
             {
               "name": "O H-Brown",
-              "pos": "Fol"
+              "pos": "Fol",
+              "ptelo": 1305,
+              "ppos": "DEF",
+              "player_rating": 46,
+              "player_rank": 621
             },
             {
               "name": "S Lalor",
@@ -18006,7 +18010,7 @@
           "selections_announced": true,
           "selections_round": 5,
           "home_squad_impact": 14.0,
-          "away_squad_impact": 3.5
+          "away_squad_impact": 1.4
         },
         {
           "home": "Port Adelaide",
@@ -18118,7 +18122,17 @@
             },
             {
               "name": "J H-Francis",
-              "pos": "C"
+              "pos": "C",
+              "avg_di": 18.5,
+              "avg_gl": 1.5,
+              "avg_tk": 2.8,
+              "avg_cl": 2.8,
+              "avg_pi": 131.3,
+              "games": 4,
+              "ptelo": 1664,
+              "ppos": "MID",
+              "player_rating": 78,
+              "player_rank": 48
             },
             {
               "name": "J Wehr",
@@ -18178,7 +18192,17 @@
             },
             {
               "name": "D B-Jones",
-              "pos": "FF"
+              "pos": "FF",
+              "avg_di": 15.0,
+              "avg_gl": 0.8,
+              "avg_tk": 2.8,
+              "avg_cl": 0.8,
+              "avg_pi": 87.9,
+              "games": 4,
+              "ptelo": 1491,
+              "ppos": "FWD",
+              "player_rating": 63,
+              "player_rank": 285
             },
             {
               "name": "J Whitlock",
@@ -18466,7 +18490,17 @@
             },
             {
               "name": "N W-Milera",
-              "pos": "HB"
+              "pos": "HB",
+              "avg_di": 23.2,
+              "avg_gl": 1.0,
+              "avg_tk": 2.0,
+              "avg_cl": 3.2,
+              "avg_pi": 128.4,
+              "games": 4,
+              "ptelo": 1652,
+              "ppos": "DEF",
+              "player_rating": 77,
+              "player_rank": 56
             },
             {
               "name": "J Silvagni",
@@ -18656,8 +18690,8 @@
           ],
           "selections_announced": true,
           "selections_round": 5,
-          "home_squad_impact": 7.3,
-          "away_squad_impact": 7.1
+          "home_squad_impact": 9.2,
+          "away_squad_impact": 8.9
         }
       ]
     },
@@ -124060,8 +124094,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 99.0,
-      "premiers_pct": 22.9
+      "finals_pct": 98.8,
+      "premiers_pct": 22.7
     },
     {
       "team": "Brisbane Lions",
@@ -124072,8 +124106,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.8,
-      "premiers_pct": 17.3
+      "finals_pct": 95.7,
+      "premiers_pct": 17.8
     },
     {
       "team": "Fremantle",
@@ -124084,8 +124118,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.5,
-      "premiers_pct": 17.0
+      "finals_pct": 97.6,
+      "premiers_pct": 16.9
     },
     {
       "team": "Western Bulldogs",
@@ -124096,8 +124130,8 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.6,
-      "premiers_pct": 14.7
+      "finals_pct": 96.9,
+      "premiers_pct": 15.4
     },
     {
       "team": "Geelong",
@@ -124108,8 +124142,8 @@
       "percentage": 101.5,
       "points_for": 460,
       "points_against": 453,
-      "finals_pct": 89.2,
-      "premiers_pct": 10.4
+      "finals_pct": 89.7,
+      "premiers_pct": 10.5
     },
     {
       "team": "Sydney",
@@ -124120,8 +124154,8 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 93.9,
-      "premiers_pct": 10.2
+      "finals_pct": 94.0,
+      "premiers_pct": 9.8
     },
     {
       "team": "Gold Coast",
@@ -124132,8 +124166,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 60.1,
-      "premiers_pct": 2.9
+      "finals_pct": 59.4,
+      "premiers_pct": 2.2
     },
     {
       "team": "Adelaide",
@@ -124144,8 +124178,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 54.5,
-      "premiers_pct": 2.1
+      "finals_pct": 54.0,
+      "premiers_pct": 2.0
     },
     {
       "team": "Collingwood",
@@ -124156,8 +124190,8 @@
       "percentage": 92.3,
       "points_for": 348,
       "points_against": 377,
-      "finals_pct": 41.9,
-      "premiers_pct": 1.3
+      "finals_pct": 42.2,
+      "premiers_pct": 1.5
     },
     {
       "team": "Greater Western Sydney",
@@ -124168,7 +124202,7 @@
       "percentage": 76.9,
       "points_for": 303,
       "points_against": 394,
-      "finals_pct": 32.9,
+      "finals_pct": 32.7,
       "premiers_pct": 0.9
     },
     {
@@ -124180,7 +124214,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 14.4,
+      "finals_pct": 14.9,
       "premiers_pct": 0.1
     },
     {
@@ -124192,7 +124226,7 @@
       "percentage": 117.6,
       "points_for": 380,
       "points_against": 323,
-      "finals_pct": 10.7,
+      "finals_pct": 10.0,
       "premiers_pct": 0.1
     },
     {
@@ -124204,8 +124238,8 @@
       "percentage": 86.0,
       "points_for": 331,
       "points_against": 385,
-      "finals_pct": 4.9,
-      "premiers_pct": 0.0
+      "finals_pct": 5.2,
+      "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
@@ -124217,7 +124251,7 @@
       "points_for": 450,
       "points_against": 425,
       "finals_pct": 7.7,
-      "premiers_pct": 0.1
+      "premiers_pct": 0.0
     },
     {
       "team": "Carlton",
@@ -124228,7 +124262,7 @@
       "percentage": 76.6,
       "points_for": 393,
       "points_against": 513,
-      "finals_pct": 0.4,
+      "finals_pct": 0.5,
       "premiers_pct": 0.0
     },
     {
@@ -124240,7 +124274,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.1,
+      "finals_pct": 0.2,
       "premiers_pct": 0.0
     },
     {
