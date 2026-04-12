@@ -1148,6 +1148,27 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     print(f"[TELO]   PI-based P-TELO: {len(_pi_telo_map)} players rated, "
           f"{sum(1 for p in player_ratings if _resolve_pi_telo(p['name']) is not None)} Fantasy entries updated")
 
+    # Patch _all_fantasy_by_name entries still at default telo (0-game Fantasy players)
+    # with PI-based telo from AFL Tables so players like Gothard/Hannaford get real ratings.
+    if _all_eligible:
+        _hi_telo = _sorted_by_telo[0]["telo"]
+        _lo_telo = _sorted_by_telo[-1]["telo"]
+        _span_telo = (_hi_telo - _lo_telo) if _hi_telo != _lo_telo else 1
+    for _entry in _all_fantasy_by_name.values():
+        if _entry.get("telo", PLAYER_INITIAL_TELO) != PLAYER_INITIAL_TELO:
+            continue  # already has a real telo from player_ratings
+        _pd = _resolve_pi_data(_entry["name"])
+        if _pd:
+            _entry["telo"]    = _pd[0]
+            _entry["avg_pi"]  = _pd[1]
+            # Assign rating/rank relative to the same scale as rated players
+            if _all_eligible:
+                _entry["player_rating"] = round(
+                    RATING_MIN + (_pd[0] - _lo_telo) / _span_telo * (RATING_MAX - RATING_MIN)
+                )
+                # Approximate rank: count how many rated players have higher telo
+                _entry["player_rank"] = sum(1 for p in _sorted_by_telo if p["telo"] > _pd[0]) + 1
+
     # P-TELO lookup index for named squad win-prob adjustment
     # Build lookup index from ALL Fantasy players (not just avg>0 filtered ones)
     _ptelo_idx: dict = {}
