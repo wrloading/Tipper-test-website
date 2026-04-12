@@ -1314,7 +1314,9 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                                 out_obj.update(avg)
                             pd = lookup_player_telo_data(name, team_name)
                             if pd:
-                                out_obj["ptelo"] = pd["telo"]
+                                out_obj["ptelo"]         = pd["telo"]
+                                out_obj["player_rating"] = pd.get("player_rating")
+                                out_obj["player_rank"]   = pd.get("player_rank")
                             enriched_outs.append(out_obj)
                         entry[side_outs] = enriched_outs
                 # Squad impact delta from injury auto-adjust
@@ -1333,9 +1335,9 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
     # ── Positional league ratings ───────────────────────────────────────────────
     # For each team, compute avg P-TELO by position category using their most
     # recent named squad, then rank all 18 teams per category.
-    FW_POS_CAT   = {"FB": "DEF", "HB": "DEF", "C": "MID", "HF": "MID", "FF": "FWD", "Fol": "FOL"}
-    FAN_POS_CAT  = {"DEF": "DEF", "MID": "MID", "FWD": "FWD", "RUC": "FOL"}
-    POS_CATS     = ("DEF", "MID", "FWD", "FOL")
+    FW_POS_CAT   = {"FB": "DEF", "HB": "DEF", "C": "MID", "HF": "MID", "FF": "FWD", "Fol": "MID"}
+    FAN_POS_CAT  = {"DEF": "DEF", "MID": "MID", "FWD": "FWD", "RUC": "MID"}
+    POS_CATS     = ("DEF", "MID", "FWD")
 
     # Walk rounds in order; later rounds overwrite earlier so we keep the freshest squad
     team_latest_named: dict = {}
@@ -1364,18 +1366,12 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         if avgs:
             team_pos_avgs[team] = avgs
 
-    # Scale per-category avg P-TELO to a FIFA/2K-style rating 40–99
+    # Store raw avg P-TELO per category (team ratings shown as-is)
     positional_ratings: dict = {t: {} for t in team_pos_avgs}
     for cat in POS_CATS:
-        entries = [(t, avgs[cat]) for t, avgs in team_pos_avgs.items() if cat in avgs]
-        if not entries:
-            continue
-        hi = max(v for _, v in entries)
-        lo = min(v for _, v in entries)
-        span = hi - lo if hi != lo else 1
-        for team, avg_t in entries:
-            rating = round(RATING_MIN + (avg_t - lo) / span * (RATING_MAX - RATING_MIN))
-            positional_ratings[team][cat] = {"rating": rating, "avg": avg_t}
+        for team, avgs in team_pos_avgs.items():
+            if cat in avgs:
+                positional_ratings[team][cat] = {"avg": avgs[cat]}
 
     # ── Monte Carlo ────────────────────────────────────────────────────────────
     print(f"[TELO] Running {MC_SIMULATIONS:,} Monte Carlo simulations...")

@@ -541,22 +541,13 @@
       font-size: 11px; color: var(--ash); text-decoration: line-through;
       padding: 1px 0;
     }
-    /* Outs player stats row */
-    .out-row {
-      display: grid; grid-template-columns: 1fr 26px 18px 18px 36px;
-      gap: 3px; padding: 2px 4px; align-items: center;
-    }
-    .out-name {
-      font-size: 11px; color: var(--ash); text-decoration: line-through;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-    .out-val {
-      font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      color: var(--ash); text-align: center; text-decoration: none;
-    }
-    .out-telo {
-      font-family: 'JetBrains Mono', monospace; font-size: 9px;
-      color: var(--ash); text-align: center; text-decoration: none;
+    /* Outs: red-hued position badge */
+    .np-pos-out {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 26px; height: 15px; border-radius: 3px; flex-shrink: 0;
+      font-family: 'JetBrains Mono', monospace; font-size: 7px;
+      font-weight: 600; letter-spacing: 0.02em;
+      background: rgba(194,68,68,0.12); color: var(--negative);
     }
     /* Positional ratings (DEF/MID/FWD/FOL) — in squad panel header */
     .pos-ratings-inline {
@@ -887,12 +878,11 @@
           : '';
 
       const pr = posRatings || {};
-      const posHtml = (pr.DEF || pr.MID || pr.FWD || pr.FOL) ? `
+      const posHtml = (pr.FWD || pr.MID || pr.DEF) ? `
         <div class="pos-ratings-inline">
-          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.rating}</span></div>` : ''}
-          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.rating}</span></div>` : ''}
-          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.rating}</span></div>` : ''}
-          ${pr.FOL ? `<div class="prb prb-fol"><span class="prb-label">FOL</span><span class="prb-val">${pr.FOL.rating}</span></div>` : ''}
+          ${pr.FWD ? `<div class="prb prb-fwd"><span class="prb-label">FWD</span><span class="prb-val">${pr.FWD.avg}</span></div>` : ''}
+          ${pr.MID ? `<div class="prb prb-mid"><span class="prb-label">MID</span><span class="prb-val">${pr.MID.avg}</span></div>` : ''}
+          ${pr.DEF ? `<div class="prb prb-def"><span class="prb-label">DEF</span><span class="prb-val">${pr.DEF.avg}</span></div>` : ''}
         </div>` : '';
 
       if (!named || !named.length) {
@@ -921,7 +911,7 @@
           <span>GL</span>
           <span>TK</span>
           <span>CL</span>
-          <span class="nss-col-pi">RTG</span>
+          <span class="nss-col-pi">P-TELO</span>
         </div>` : '';
 
       const playerRows = [...withStats, ...withoutStats].map(p => {
@@ -935,7 +925,7 @@
               <span class="nss-val">${p.avg_tk != null ? Math.round(p.avg_tk) : '·'}</span>
               <span class="nss-val">${p.avg_cl != null ? Math.round(p.avg_cl) : '·'}</span>
               <span class="nss-pi-val">
-                <span class="nss-rating">${p.player_rating ?? p.ptelo}</span>
+                <span class="nss-rating">${p.ptelo}</span>
                 ${p.player_rank != null ? `<span class="nss-rank">#${p.player_rank}</span>` : ''}
               </span>
             </div>`;
@@ -949,29 +939,32 @@
       }).join('');
 
       const outsHtml = outs && outs.length ? (() => {
-        const hasEnrichedOuts = outs.length && typeof outs[0] === 'object';
-        const outsHeader = hasEnrichedOuts ? `
-          <div class="out-row" style="opacity:0.55;margin-bottom:1px">
-            <span style="font-family:var(--fm);font-size:7px;letter-spacing:.08em;text-transform:uppercase;color:var(--negative)">Outs</span>
-            <span class="out-val">DI</span>
-            <span class="out-val">GL</span>
-            <span class="out-val">TK</span>
-            <span class="out-telo">ELO</span>
-          </div>` : `<div class="outs-label">Outs</div>`;
+        const divider = `<div style="border-top:1px solid var(--stone);margin:4px 0 2px;"></div>`;
         const outsRows = outs.map(o => {
-          if (typeof o === 'object') {
+          const name = typeof o === 'object' ? o.name : o;
+          if (typeof o === 'object' && o.ptelo != null) {
             return `
-              <div class="out-row">
-                <span class="out-name">${o.name}</span>
-                <span class="out-val">${o.avg_di != null ? Math.round(o.avg_di) : '·'}</span>
-                <span class="out-val">${o.avg_gl != null && o.avg_gl > 0 ? Math.round(o.avg_gl) : '·'}</span>
-                <span class="out-val">${o.avg_tk != null ? Math.round(o.avg_tk) : '·'}</span>
-                <span class="out-telo">${o.ptelo != null ? o.ptelo : '·'}</span>
+              <div class="ns-stats-row" style="opacity:0.6">
+                <span class="nss-player">
+                  <span class="np-pos-out">OUT</span>${name}
+                </span>
+                <span class="nss-val">${o.avg_di != null ? Math.round(o.avg_di) : '·'}</span>
+                <span class="nss-gl-val">${o.avg_gl != null && o.avg_gl > 0 ? Math.round(o.avg_gl) : '·'}</span>
+                <span class="nss-val">${o.avg_tk != null ? Math.round(o.avg_tk) : '·'}</span>
+                <span class="nss-val">${o.avg_cl != null ? Math.round(o.avg_cl) : '·'}</span>
+                <span class="nss-pi-val">
+                  <span class="nss-rating">${o.ptelo}</span>
+                  ${o.player_rank != null ? `<span class="nss-rank">#${o.player_rank}</span>` : ''}
+                </span>
               </div>`;
           }
-          return `<div class="outs-player">${o}</div>`;
+          return `
+            <div class="named-player" style="opacity:0.6">
+              <span class="np-pos-out">OUT</span>
+              <span class="np-name">${name}</span>
+            </div>`;
         }).join('');
-        return `<div class="outs-section">${outsHeader}${outsRows}</div>`;
+        return `${divider}${outsRows}`;
       })() : '';
 
       return `
