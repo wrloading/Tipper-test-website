@@ -1343,9 +1343,10 @@
         const playinBottom = currentSort === 'ladder' && ladderRank[t.team] === 10;
         const finals       = Math.round(t.finals_pct);
         const premiers     = Math.round(t.premiers_pct);
-        const finalsStyle  = `background:${probBg(finals)};color:${probTextColor(finals)}`;
+        const finalsStyle  = finals > 0 ? `background:${probBg(finals)};color:${probTextColor(finals)}` : (t.finals_pct > 0 ? `color:#B0AEA5` : `color:#B0AEA5`);
         const premiersStyle= premiers > 0 ? `background:${probBg(premiers)};color:${probTextColor(premiers)}` : `color:#B0AEA5`;
-        const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
+        const finalsText   = finals > 0 ? `${finals}%` : (t.finals_pct > 0 ? `<1%` : `0%`);
+        const premiersText = premiers > 0 ? `${premiers}%` : (t.premiers_pct > 0 ? `<1%` : `0%`);
         const pctDisplay   = t.percentage != null ? t.percentage.toFixed(1) : `—`;
         const ldrDisplay   = t.ladder_rank > 0 ? t.ladder_rank : `—`;
         const teloStyle    = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
@@ -1405,9 +1406,10 @@
         const playinBottom = currentSort === 'proj_wins' && pRank === 10;
         const finals       = Math.round(t.finals_pct);
         const premiers     = Math.round(t.premiers_pct);
-        const finalsStyle  = `background:${probBg(finals)};color:${probTextColor(finals)}`;
+        const finalsStyle  = finals > 0 ? `background:${probBg(finals)};color:${probTextColor(finals)}` : `color:#B0AEA5`;
         const premiersStyle= premiers > 0 ? `background:${probBg(premiers)};color:${probTextColor(premiers)}` : `color:#B0AEA5`;
-        const premiersText = premiers > 0 ? `${premiers}%` : `<1%`;
+        const finalsText   = finals > 0 ? `${finals}%` : (t.finals_pct > 0 ? `<1%` : `0%`);
+        const premiersText = premiers > 0 ? `${premiers}%` : (t.premiers_pct > 0 ? `<1%` : `0%`);
         const teloStyle    = `background:${teloBg(t.telo)};color:${teloColor(t.telo)}`;
         const expW         = t.proj_wins.toFixed(1);
         const winPct       = t.proj_pct.toFixed(1);
@@ -1421,7 +1423,7 @@
             <div class="r-team" title="${t.team}">${abbr(t.team)}</div>
             <div class="r-record">${expW}</div>
             <div class="r-pct">${winPct}%</div>
-            <div class="r-prob" style="${finalsStyle}">${finals}%</div>
+            <div class="r-prob" style="${finalsStyle}">${finalsText}</div>
             <div class="r-prob" style="${premiersStyle}">${premiersText}</div>
           </div>`;
       }).join('');
