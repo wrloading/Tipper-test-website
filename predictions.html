@@ -932,11 +932,11 @@
       const vh = window.innerHeight;
       const pw = 272;
       const ph = pop.offsetHeight || 360;
-      // Appear below the button, left-aligned to button, clamped to viewport
-      let left = Math.max(8, Math.min(br.left - 12, vw - pw - 8));
-      let top  = br.bottom + 8;
-      // If not enough room below, flip above
-      if (top + ph > vh - 8) top = Math.max(8, br.top - ph - 8);
+      // Horizontal: align to button left, clamped so it never goes off right or left edge
+      const left = Math.max(8, Math.min(br.left, vw - pw - 8));
+      // Vertical: prefer below button; if it won't fit, clamp to bottom of viewport
+      // Never flip above (which risks going negative/off-screen)
+      const top = Math.max(8, Math.min(br.bottom + 8, vh - ph - 8));
       pop.style.left = left + 'px';
       pop.style.top  = top  + 'px';
     }
