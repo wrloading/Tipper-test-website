@@ -661,12 +661,20 @@
       border-color: var(--midnight); color: var(--pampas); background: var(--midnight);
     }
     .info-popover {
-      display: none; position: fixed; z-index: 1000;
+      display: none; position: fixed; z-index: 9999;
+      top: 80px; right: 24px;
       background: var(--pitch); border-radius: 10px;
-      padding: 14px 16px 16px; max-width: 272px; width: 272px;
-      box-shadow: 0 12px 32px rgba(0,0,0,0.28), 0 2px 8px rgba(0,0,0,0.18);
+      padding: 14px 16px 16px; max-width: 280px; width: 280px;
+      max-height: calc(100vh - 100px); overflow-y: auto;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.32), 0 2px 8px rgba(0,0,0,0.20);
     }
     .info-popover.visible { display: block; }
+    @media (max-width: 640px) {
+      .info-popover {
+        top: auto; bottom: 16px; right: 16px; left: 16px; width: auto; max-width: none;
+        max-height: 70vh;
+      }
+    }
     .info-popover-title {
       font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
       font-size: 14px; letter-spacing: -0.1px; color: var(--pampas);
@@ -922,23 +930,6 @@
       pop.classList.add('visible');
       btn.classList.add('active');
       activePopoverBtn = btn;
-      // Position after browser has laid out the content
-      requestAnimationFrame(() => positionPopover(btn, pop));
-    }
-
-    function positionPopover(btn, pop) {
-      const br = btn.getBoundingClientRect();
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-      const pw = 272;
-      const ph = pop.offsetHeight || 360;
-      // Horizontal: align to button left, clamped so it never goes off right or left edge
-      const left = Math.max(8, Math.min(br.left, vw - pw - 8));
-      // Vertical: prefer below button; if it won't fit, clamp to bottom of viewport
-      // Never flip above (which risks going negative/off-screen)
-      const top = Math.max(8, Math.min(br.bottom + 8, vh - ph - 8));
-      pop.style.left = left + 'px';
-      pop.style.top  = top  + 'px';
     }
 
     function closePopover() {
