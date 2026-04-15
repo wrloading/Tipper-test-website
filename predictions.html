@@ -828,7 +828,7 @@
           <div class="rankings-header-left">
             <div class="rankings-title" style="display:flex;align-items:center">
               Power Rankings
-              <button class="info-btn" onclick="togglePopover(this,'telo')" aria-label="About Power Rankings">i</button>
+              <button class="info-btn" onclick="togglePopover(this,'telo',event)" aria-label="About Power Rankings">i</button>
             </div>
             <div class="rankings-subtitle" id="rankings-subtitle">TELO Model · 2026 Season</div>
           </div>
@@ -910,7 +910,8 @@
 
     let activePopoverBtn = null;
 
-    function togglePopover(btn, key) {
+    function togglePopover(btn, key, event) {
+      if (event) event.stopPropagation();
       const pop = document.getElementById('info-popover');
       if (activePopoverBtn === btn && pop.classList.contains('visible')) {
         closePopover();
@@ -921,22 +922,21 @@
       pop.classList.add('visible');
       btn.classList.add('active');
       activePopoverBtn = btn;
-      positionPopover(btn, pop);
+      // Position after browser has laid out the content
+      requestAnimationFrame(() => positionPopover(btn, pop));
     }
 
     function positionPopover(btn, pop) {
-      const br   = btn.getBoundingClientRect();
-      const vw   = window.innerWidth;
-      const vh   = window.innerHeight;
-      const pw   = 272;
-      const ph   = pop.offsetHeight || 320;
-      let left = br.right + 8;
-      let top  = br.top;
-      // Flip left if overflowing right edge
-      if (left + pw > vw - 8) left = br.left - pw - 8;
-      // Clamp top to viewport
-      if (top + ph > vh - 8) top = vh - ph - 8;
-      if (top < 8) top = 8;
+      const br = btn.getBoundingClientRect();
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const pw = 272;
+      const ph = pop.offsetHeight || 360;
+      // Appear below the button, left-aligned to button, clamped to viewport
+      let left = Math.max(8, Math.min(br.left - 12, vw - pw - 8));
+      let top  = br.bottom + 8;
+      // If not enough room below, flip above
+      if (top + ph > vh - 8) top = Math.max(8, br.top - ph - 8);
       pop.style.left = left + 'px';
       pop.style.top  = top  + 'px';
     }
@@ -1116,7 +1116,7 @@
           <span>GL</span>
           <span>TK</span>
           <span>CL</span>
-          <span class="nss-col-pi" style="display:inline-flex;align-items:center;gap:3px;justify-content:center">P-TELO<button class="info-btn" onclick="togglePopover(this,'ptelo')" aria-label="About P-TELO">i</button></span>
+          <span class="nss-col-pi" style="display:inline-flex;align-items:center;gap:3px;justify-content:center">P-TELO<button class="info-btn" onclick="togglePopover(this,'ptelo',event)" aria-label="About P-TELO">i</button></span>
         </div>` : '';
 
       const playerRows = [...withStats, ...withoutStats].map(p => {
