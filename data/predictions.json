@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-16T21:56:26.718492+10:00",
+    "updated": "2026-04-16T23:19:05.254902+10:00",
     "year": 2026,
     "current_round": 6,
     "model": "TELO v2.0",
@@ -18,8 +18,8 @@
           "venue": "S.C.G.",
           "datetime": "Thu 5 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 79.6,
-          "home_prob": 86.2,
+          "margin": 83.8,
+          "home_prob": 87.3,
           "complete": true,
           "home_score": 132,
           "away_score": 69,
@@ -1926,8 +1926,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 8 Mar \u00b7 7:20pm AEDT",
           "home_fav": false,
-          "margin": 22.3,
-          "home_prob": 37.4,
+          "margin": 27.3,
+          "home_prob": 34.8,
           "complete": true,
           "home_score": 66,
           "away_score": 78,
@@ -2410,8 +2410,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 12 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 23.5,
-          "home_prob": 63.2,
+          "margin": 18.6,
+          "home_prob": 60.5,
           "complete": true,
           "home_score": 75,
           "away_score": 71,
@@ -2887,8 +2887,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 13 Mar \u00b7 7:40pm AEDT",
           "home_fav": false,
-          "margin": 80.8,
-          "home_prob": 13.5,
+          "margin": 81.6,
+          "home_prob": 13.3,
           "complete": true,
           "home_score": 83,
           "away_score": 145,
@@ -4795,8 +4795,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 14 Mar \u00b7 7:35pm AEDT",
           "home_fav": false,
-          "margin": 4.4,
-          "home_prob": 47.5,
+          "margin": 0.9,
+          "home_prob": 49.5,
           "complete": true,
           "home_score": 79,
           "away_score": 93,
@@ -5749,8 +5749,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 15 Mar \u00b7 3:15pm AEDT",
           "home_fav": false,
-          "margin": 4.0,
-          "home_prob": 47.7,
+          "margin": 4.8,
+          "home_prob": 47.3,
           "complete": true,
           "home_score": 120,
           "away_score": 107,
@@ -6710,8 +6710,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 19 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 11.3,
-          "home_prob": 56.5,
+          "margin": 10.6,
+          "home_prob": 56.1,
           "complete": true,
           "home_score": 99,
           "away_score": 82,
@@ -7664,8 +7664,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 21 Mar \u00b7 1:15pm AEDT",
           "home_fav": false,
-          "margin": 68.8,
-          "home_prob": 17.0,
+          "margin": 69.6,
+          "home_prob": 16.8,
           "complete": true,
           "home_score": 60,
           "away_score": 128,
@@ -10533,8 +10533,8 @@
           "venue": "Docklands",
           "datetime": "Fri 27 Mar \u00b7 7:40pm AEDT",
           "home_fav": true,
-          "margin": 6.7,
-          "home_prob": 53.8,
+          "margin": 10.9,
+          "home_prob": 56.2,
           "complete": true,
           "home_score": 87,
           "away_score": 54,
@@ -12918,8 +12918,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 29 Mar \u00b7 3:15pm AEDT",
           "home_fav": false,
-          "margin": 20.0,
-          "home_prob": 38.7,
+          "margin": 24.9,
+          "home_prob": 36.0,
           "complete": true,
           "home_score": 77,
           "away_score": 100,
@@ -13402,8 +13402,8 @@
           "venue": "Gabba",
           "datetime": "Thu 2 Apr \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 49.7,
-          "home_prob": 75.8,
+          "margin": 45.5,
+          "home_prob": 74.0,
           "complete": true,
           "home_score": 119,
           "away_score": 65,
@@ -13879,8 +13879,8 @@
           "venue": "Docklands",
           "datetime": "Fri 3 Apr \u00b7 3:15pm AEDT",
           "home_fav": true,
-          "margin": 8.6,
-          "home_prob": 54.9,
+          "margin": 12.8,
+          "home_prob": 57.3,
           "complete": true,
           "home_score": 96,
           "away_score": 86,
@@ -14833,8 +14833,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 4 Apr \u00b7 4:15pm AEDT",
           "home_fav": false,
-          "margin": 37.8,
-          "home_prob": 29.5,
+          "margin": 38.5,
+          "home_prob": 29.2,
           "complete": true,
           "home_score": 48,
           "away_score": 90,
@@ -15787,8 +15787,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 5 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 25.3,
-          "home_prob": 35.8,
+          "margin": 26.1,
+          "home_prob": 35.4,
           "complete": true,
           "home_score": 109,
           "away_score": 89,
@@ -16741,8 +16741,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 7.5,
-          "home_prob": 54.3,
+          "margin": 6.8,
+          "home_prob": 53.9,
           "complete": true,
           "home_score": 92,
           "away_score": 91,
@@ -17225,8 +17225,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 9 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 57.9,
-          "home_prob": 79.1,
+          "margin": 60.6,
+          "home_prob": 80.1,
           "complete": true,
           "home_score": 114,
           "away_score": 86,
@@ -17702,8 +17702,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 10 Apr \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 6.1,
-          "home_prob": 46.5,
+          "margin": 0.4,
+          "home_prob": 49.8,
           "complete": true,
           "home_score": 39,
           "away_score": 45,
@@ -21525,707 +21525,12 @@
           "venue": "M.C.G.",
           "datetime": "Thu 16 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 36.9,
-          "home_prob": 29.9,
-          "complete": false,
-          "home_named": [
-            {
-              "name": "H Dean",
-              "pos": "FB",
-              "avg_di": 10.3,
-              "avg_gl": 0.0,
-              "avg_tk": 1.3,
-              "avg_cl": 0.3,
-              "avg_pi": 50.7,
-              "games": 3
-            },
-            {
-              "name": "J Weitering",
-              "pos": "FB",
-              "avg_di": 12.8,
-              "avg_gl": 0.0,
-              "avg_tk": 0.5,
-              "avg_cl": 0.0,
-              "avg_pi": 65.7,
-              "games": 4,
-              "ptelo": 1405,
-              "ppos": "DEF",
-              "player_rating": 55,
-              "player_rank": 499
-            },
-            {
-              "name": "N Haynes",
-              "pos": "FB",
-              "avg_di": 18.0,
-              "avg_gl": 0.0,
-              "avg_tk": 4.0,
-              "avg_cl": 1.0,
-              "avg_pi": 102.0,
-              "games": 1,
-              "ptelo": 1564,
-              "ppos": "DEF",
-              "player_rating": 70,
-              "player_rank": 138
-            },
-            {
-              "name": "O Florent",
-              "pos": "HB",
-              "avg_di": 21.6,
-              "avg_gl": 0.2,
-              "avg_tk": 2.0,
-              "avg_cl": 1.8,
-              "avg_pi": 112.0,
-              "games": 5,
-              "ptelo": 1591,
-              "ppos": "DEF",
-              "player_rating": 72,
-              "player_rank": 107
-            },
-            {
-              "name": "B Kemp",
-              "pos": "HB",
-              "avg_di": 10.4,
-              "avg_gl": 1.0,
-              "avg_tk": 2.6,
-              "avg_cl": 0.2,
-              "avg_pi": 68.8,
-              "games": 5,
-              "ptelo": 1418,
-              "ppos": "DEF",
-              "player_rating": 56,
-              "player_rank": 470
-            },
-            {
-              "name": "N Newman",
-              "pos": "HB",
-              "avg_di": 19.0,
-              "avg_gl": 0.5,
-              "avg_tk": 2.0,
-              "avg_cl": 1.0,
-              "avg_pi": 103.4,
-              "games": 2,
-              "ptelo": 1556,
-              "ppos": "DEF",
-              "player_rating": 69,
-              "player_rank": 149
-            },
-            {
-              "name": "O Hollands",
-              "pos": "C",
-              "avg_di": 18.2,
-              "avg_gl": 0.2,
-              "avg_tk": 3.0,
-              "avg_cl": 1.2,
-              "avg_pi": 101.9,
-              "games": 5,
-              "ptelo": 1550,
-              "ppos": "MID",
-              "player_rating": 68,
-              "player_rank": 160
-            },
-            {
-              "name": "P Cripps",
-              "pos": "C",
-              "avg_di": 24.4,
-              "avg_gl": 0.2,
-              "avg_tk": 5.4,
-              "avg_cl": 7.2,
-              "avg_pi": 145.7,
-              "games": 5,
-              "ptelo": 1725,
-              "ppos": "MID",
-              "player_rating": 84,
-              "player_rank": 32
-            },
-            {
-              "name": "M Carroll",
-              "pos": "C",
-              "avg_di": 15.5,
-              "avg_gl": 0.5,
-              "avg_tk": 1.2,
-              "avg_cl": 0.2,
-              "avg_pi": 80.1,
-              "games": 4,
-              "ptelo": 1463,
-              "ppos": "DEF",
-              "player_rating": 60,
-              "player_rank": 355
-            },
-            {
-              "name": "A Cerra",
-              "pos": "HF",
-              "avg_di": 21.0,
-              "avg_gl": 0.5,
-              "avg_tk": 6.0,
-              "avg_cl": 6.5,
-              "avg_pi": 130.9,
-              "games": 2,
-              "ptelo": 1666,
-              "ppos": "MID",
-              "player_rating": 79,
-              "player_rank": 50
-            },
-            {
-              "name": "E Hollands",
-              "pos": "HF",
-              "avg_di": 18.4,
-              "avg_gl": 1.0,
-              "avg_tk": 1.6,
-              "avg_cl": 0.8,
-              "avg_pi": 93.5,
-              "games": 5,
-              "ptelo": 1517,
-              "ppos": "FWD",
-              "player_rating": 65,
-              "player_rank": 216
-            },
-            {
-              "name": "B Ainsworth",
-              "pos": "HF",
-              "avg_di": 14.6,
-              "avg_gl": 1.0,
-              "avg_tk": 1.6,
-              "avg_cl": 0.8,
-              "avg_pi": 83.7,
-              "games": 5,
-              "ptelo": 1477,
-              "ppos": "FWD",
-              "player_rating": 62,
-              "player_rank": 309
-            },
-            {
-              "name": "W Hayward",
-              "pos": "FF",
-              "avg_di": 12.0,
-              "avg_gl": 0.5,
-              "avg_tk": 2.5,
-              "avg_cl": 0.0,
-              "avg_pi": 64.8,
-              "games": 4,
-              "ptelo": 1402,
-              "ppos": "FWD",
-              "player_rating": 55,
-              "player_rank": 510
-            },
-            {
-              "name": "H McKay",
-              "pos": "FF",
-              "avg_di": 12.0,
-              "avg_gl": 1.4,
-              "avg_tk": 1.8,
-              "avg_cl": 0.0,
-              "avg_pi": 88.8,
-              "games": 5,
-              "ptelo": 1498,
-              "ppos": "FWD",
-              "player_rating": 64,
-              "player_rank": 259
-            },
-            {
-              "name": "F Evans",
-              "pos": "FF",
-              "avg_di": 14.3,
-              "avg_gl": 0.3,
-              "avg_tk": 4.0,
-              "avg_cl": 1.0,
-              "avg_pi": 78.2,
-              "games": 3,
-              "ptelo": 1455,
-              "ppos": "FWD",
-              "player_rating": 60,
-              "player_rank": 373
-            },
-            {
-              "name": "M Pittonet",
-              "pos": "Fol",
-              "avg_di": 13.2,
-              "avg_gl": 1.2,
-              "avg_tk": 2.6,
-              "avg_cl": 5.6,
-              "avg_pi": 121.7,
-              "games": 5,
-              "ptelo": 1629,
-              "ppos": "RUC",
-              "player_rating": 76,
-              "player_rank": 72
-            },
-            {
-              "name": "Z Williams",
-              "pos": "Fol",
-              "avg_di": 16.8,
-              "avg_gl": 0.5,
-              "avg_tk": 3.2,
-              "avg_cl": 3.8,
-              "avg_pi": 98.1,
-              "games": 4,
-              "ptelo": 1535,
-              "ppos": "DEF",
-              "player_rating": 67,
-              "player_rank": 179
-            },
-            {
-              "name": "S Walsh",
-              "pos": "Fol",
-              "avg_di": 28.2,
-              "avg_gl": 0.2,
-              "avg_tk": 5.2,
-              "avg_cl": 3.8,
-              "avg_pi": 136.6,
-              "games": 5,
-              "ptelo": 1689,
-              "ppos": "MID",
-              "player_rating": 81,
-              "player_rank": 39
-            },
-            {
-              "name": "L Cowan",
-              "pos": "INT",
-              "avg_di": 15.2,
-              "avg_gl": 0.0,
-              "avg_tk": 1.5,
-              "avg_cl": 0.8,
-              "avg_pi": 71.3,
-              "games": 4,
-              "ptelo": 1428,
-              "ppos": "DEF",
-              "player_rating": 57,
-              "player_rank": 450
-            },
-            {
-              "name": "J Smith",
-              "pos": "INT",
-              "avg_di": 24.0,
-              "avg_gl": 0.4,
-              "avg_tk": 2.4,
-              "avg_cl": 3.4,
-              "avg_pi": 110.7,
-              "games": 5,
-              "ptelo": 1585,
-              "ppos": "MID",
-              "player_rating": 72,
-              "player_rank": 113
-            },
-            {
-              "name": "M McGovern",
-              "pos": "INT",
-              "avg_di": 12.4,
-              "avg_gl": 1.8,
-              "avg_tk": 2.6,
-              "avg_cl": 0.0,
-              "avg_pi": 87.4,
-              "games": 5,
-              "ptelo": 1492,
-              "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 278
-            },
-            {
-              "name": "T Byrne",
-              "pos": "INT",
-              "avg_di": 7.3,
-              "avg_gl": 0.3,
-              "avg_tk": 2.0,
-              "avg_cl": 0.0,
-              "avg_pi": 45.8,
-              "games": 3
-            },
-            {
-              "name": "L Young",
-              "pos": "INT",
-              "avg_di": 10.8,
-              "avg_gl": 0.0,
-              "avg_tk": 1.0,
-              "avg_cl": 0.6,
-              "avg_pi": 51.5,
-              "games": 5,
-              "ptelo": 1349,
-              "ppos": "DEF",
-              "player_rating": 50,
-              "player_rank": 600
-            }
-          ],
-          "away_named": [
-            {
-              "name": "D McStay",
-              "pos": "FF",
-              "avg_di": 8.2,
-              "avg_gl": 1.6,
-              "avg_tk": 2.6,
-              "avg_cl": 0.6,
-              "avg_pi": 82.0,
-              "games": 5,
-              "ptelo": 1470,
-              "ppos": "FWD",
-              "player_rating": 61,
-              "player_rank": 335
-            },
-            {
-              "name": "J Elliott",
-              "pos": "FF",
-              "avg_di": 9.0,
-              "avg_gl": 1.0,
-              "avg_tk": 1.6,
-              "avg_cl": 0.6,
-              "avg_pi": 59.3,
-              "games": 5,
-              "ptelo": 1380,
-              "ppos": "FWD",
-              "player_rating": 53,
-              "player_rank": 556
-            },
-            {
-              "name": "O Steene",
-              "pos": "FF",
-              "avg_di": 7.3,
-              "avg_gl": 0.3,
-              "avg_tk": 1.0,
-              "avg_cl": 1.3,
-              "avg_pi": 53.4,
-              "games": 3,
-              "ptelo": 1356,
-              "ppos": "RUC",
-              "player_rating": 51,
-              "player_rank": 586
-            },
-            {
-              "name": "B McCreery",
-              "pos": "HF",
-              "avg_di": 14.4,
-              "avg_gl": 0.6,
-              "avg_tk": 3.8,
-              "avg_cl": 1.2,
-              "avg_pi": 82.3,
-              "games": 5,
-              "ptelo": 1472,
-              "ppos": "FWD",
-              "player_rating": 61,
-              "player_rank": 327
-            },
-            {
-              "name": "N Daicos",
-              "pos": "HF",
-              "avg_di": 35.2,
-              "avg_gl": 1.0,
-              "avg_tk": 2.2,
-              "avg_cl": 4.8,
-              "avg_pi": 176.3,
-              "games": 4,
-              "ptelo": 1848,
-              "ppos": "MID",
-              "player_rating": 96,
-              "player_rank": 6
-            },
-            {
-              "name": "L Schultz",
-              "pos": "HF",
-              "avg_di": 16.0,
-              "avg_gl": 1.2,
-              "avg_tk": 4.6,
-              "avg_cl": 0.6,
-              "avg_pi": 107.1,
-              "games": 5,
-              "ptelo": 1571,
-              "ppos": "FWD",
-              "player_rating": 70,
-              "player_rank": 126
-            },
-            {
-              "name": "P Lipinski",
-              "pos": "C",
-              "avg_di": 17.6,
-              "avg_gl": 0.0,
-              "avg_tk": 2.6,
-              "avg_cl": 1.2,
-              "avg_pi": 80.3,
-              "games": 5,
-              "ptelo": 1464,
-              "ppos": "MID",
-              "player_rating": 60,
-              "player_rank": 350
-            },
-            {
-              "name": "S Pendlebury",
-              "pos": "C",
-              "avg_di": 18.5,
-              "avg_gl": 0.0,
-              "avg_tk": 3.0,
-              "avg_cl": 3.0,
-              "avg_pi": 102.4,
-              "games": 4,
-              "ptelo": 1552,
-              "ppos": "MID",
-              "player_rating": 68,
-              "player_rank": 154
-            },
-            {
-              "name": "E Allan",
-              "pos": "C",
-              "avg_di": 10.7,
-              "avg_gl": 0.0,
-              "avg_tk": 2.7,
-              "avg_cl": 0.7,
-              "avg_pi": 51.5,
-              "games": 3,
-              "ptelo": 1348,
-              "ppos": "MID",
-              "player_rating": 50,
-              "player_rank": 601
-            },
-            {
-              "name": "I Quaynor",
-              "pos": "HB",
-              "avg_di": 18.4,
-              "avg_gl": 0.0,
-              "avg_tk": 2.0,
-              "avg_cl": 0.6,
-              "avg_pi": 91.9,
-              "games": 5,
-              "ptelo": 1510,
-              "ppos": "DEF",
-              "player_rating": 65,
-              "player_rank": 232
-            },
-            {
-              "name": "D Houston",
-              "pos": "HB",
-              "avg_di": 24.8,
-              "avg_gl": 0.2,
-              "avg_tk": 1.8,
-              "avg_cl": 1.2,
-              "avg_pi": 116.8,
-              "games": 5,
-              "ptelo": 1610,
-              "ppos": "DEF",
-              "player_rating": 74,
-              "player_rank": 87
-            },
-            {
-              "name": "J Daicos",
-              "pos": "HB",
-              "avg_di": 29.0,
-              "avg_gl": 0.0,
-              "avg_tk": 2.4,
-              "avg_cl": 1.6,
-              "avg_pi": 129.7,
-              "games": 5,
-              "ptelo": 1661,
-              "ppos": "MID",
-              "player_rating": 78,
-              "player_rank": 51
-            },
-            {
-              "name": "B Frampton",
-              "pos": "FB",
-              "avg_di": 12.0,
-              "avg_gl": 0.0,
-              "avg_tk": 1.2,
-              "avg_cl": 0.0,
-              "avg_pi": 64.2,
-              "games": 5,
-              "ptelo": 1399,
-              "ppos": "DEF",
-              "player_rating": 55,
-              "player_rank": 515
-            },
-            {
-              "name": "J Howe",
-              "pos": "FB",
-              "avg_di": 12.7,
-              "avg_gl": 0.0,
-              "avg_tk": 1.3,
-              "avg_cl": 0.0,
-              "avg_pi": 71.7,
-              "games": 3,
-              "ptelo": 1429,
-              "ppos": "DEF",
-              "player_rating": 57,
-              "player_rank": 447
-            },
-            {
-              "name": "B Maynard",
-              "pos": "FB",
-              "avg_di": 20.2,
-              "avg_gl": 0.0,
-              "avg_tk": 3.4,
-              "avg_cl": 0.2,
-              "avg_pi": 108.5,
-              "games": 5,
-              "ptelo": 1577,
-              "ppos": "DEF",
-              "player_rating": 71,
-              "player_rank": 123
-            },
-            {
-              "name": "D Cameron",
-              "pos": "Fol",
-              "avg_di": 15.6,
-              "avg_gl": 0.2,
-              "avg_tk": 3.2,
-              "avg_cl": 5.0,
-              "avg_pi": 121.9,
-              "games": 5,
-              "ptelo": 1630,
-              "ppos": "RUC",
-              "player_rating": 76,
-              "player_rank": 70
-            },
-            {
-              "name": "N Long",
-              "pos": "Fol",
-              "avg_di": 15.0,
-              "avg_gl": 0.4,
-              "avg_tk": 7.0,
-              "avg_cl": 1.8,
-              "avg_pi": 90.6,
-              "games": 5,
-              "ptelo": 1505,
-              "ppos": "MID",
-              "player_rating": 64,
-              "player_rank": 249
-            },
-            {
-              "name": "J Crisp",
-              "pos": "Fol",
-              "avg_di": 22.8,
-              "avg_gl": 0.4,
-              "avg_tk": 3.4,
-              "avg_cl": 0.6,
-              "avg_pi": 120.0,
-              "games": 5,
-              "ptelo": 1623,
-              "ppos": "MID",
-              "player_rating": 75,
-              "player_rank": 79
-            },
-            {
-              "name": "H Perryman",
-              "pos": "INT",
-              "avg_di": 16.4,
-              "avg_gl": 0.0,
-              "avg_tk": 2.8,
-              "avg_cl": 0.6,
-              "avg_pi": 83.7,
-              "games": 5,
-              "ptelo": 1477,
-              "ppos": "DEF",
-              "player_rating": 62,
-              "player_rank": 308
-            },
-            {
-              "name": "R Steele",
-              "pos": "INT",
-              "avg_di": 11.4,
-              "avg_gl": 0.8,
-              "avg_tk": 2.0,
-              "avg_cl": 0.6,
-              "avg_pi": 65.9,
-              "games": 5,
-              "ptelo": 1406,
-              "ppos": "MID",
-              "player_rating": 55,
-              "player_rank": 496
-            },
-            {
-              "name": "A Anderson",
-              "pos": "INT",
-              "avg_di": 16.0,
-              "avg_gl": 1.0,
-              "avg_tk": 6.0,
-              "avg_cl": 2.0,
-              "avg_pi": 123.0,
-              "games": 1
-            },
-            {
-              "name": "W Hayes",
-              "pos": "INT",
-              "avg_di": 5.0,
-              "avg_gl": 0.0,
-              "avg_tk": 0.0,
-              "avg_cl": 0.0,
-              "avg_pi": 28.0,
-              "games": 1,
-              "ptelo": 1442,
-              "ppos": "MID",
-              "player_rating": 58,
-              "player_rank": 411
-            },
-            {
-              "name": "T Membrey",
-              "pos": "INT",
-              "avg_di": 9.2,
-              "avg_gl": 1.4,
-              "avg_tk": 1.0,
-              "avg_cl": 0.0,
-              "avg_pi": 76.6,
-              "games": 5,
-              "ptelo": 1449,
-              "ppos": "FWD",
-              "player_rating": 59,
-              "player_rank": 390
-            }
-          ],
-          "home_outs": [
-            {
-              "name": "J Boyd",
-              "avg_di": 14.5,
-              "avg_gl": 0.0,
-              "avg_tk": 3.0,
-              "avg_cl": 0.0,
-              "avg_pi": 78.9,
-              "games": 2,
-              "ptelo": 1458,
-              "player_rating": 60,
-              "player_rank": 366
-            },
-            {
-              "name": "W Derksen",
-              "avg_di": 10.5,
-              "avg_gl": 0.0,
-              "avg_tk": 1.0,
-              "avg_cl": 0.5,
-              "avg_pi": 46.2,
-              "games": 2,
-              "ptelo": 1327,
-              "player_rating": 48,
-              "player_rank": 615
-            },
-            {
-              "name": "H O'Keeffe",
-              "ptelo": 1415,
-              "player_rating": 56,
-              "player_rank": 479
-            }
-          ],
-          "away_outs": [
-            {
-              "name": "S Sidebottom",
-              "avg_di": 17.6,
-              "avg_gl": 0.0,
-              "avg_tk": 1.4,
-              "avg_cl": 2.8,
-              "avg_pi": 88.3,
-              "games": 5,
-              "ptelo": 1496,
-              "player_rating": 63,
-              "player_rank": 264
-            },
-            {
-              "name": "J De Goey",
-              "avg_di": 13.6,
-              "avg_gl": 0.8,
-              "avg_tk": 1.6,
-              "avg_cl": 1.4,
-              "avg_pi": 70.8,
-              "games": 5,
-              "ptelo": 1426,
-              "player_rating": 57,
-              "player_rank": 456
-            }
-          ],
-          "selections_announced": true,
-          "selections_round": 6,
-          "home_squad_impact": 7.8,
-          "away_squad_impact": 5.0
+          "margin": 49.3,
+          "home_prob": 24.3,
+          "complete": true,
+          "home_score": 83,
+          "away_score": 88,
+          "upset": false
         },
         {
           "home": "Geelong",
@@ -26496,8 +25801,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 19 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 50.5,
-          "home_prob": 23.8,
+          "margin": 51.2,
+          "home_prob": 23.5,
           "complete": false,
           "home_named": [
             {
@@ -28678,8 +27983,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 24 Apr \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 46.6,
-          "home_prob": 25.5,
+          "margin": 47.4,
+          "home_prob": 25.1,
           "complete": false,
           "home_named": [
             {
@@ -29984,8 +29289,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 25 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 52.4,
-          "home_prob": 23.0,
+          "margin": 57.3,
+          "home_prob": 21.1,
           "complete": false,
           "home_named": [
             {
@@ -31286,8 +30591,8 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 25 Apr \u00b7 8:15pm AEST",
           "home_fav": true,
-          "margin": 55.7,
-          "home_prob": 78.3,
+          "margin": 59.9,
+          "home_prob": 79.9,
           "complete": false,
           "home_named": [
             {
@@ -33909,8 +33214,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 30 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 31.5,
-          "home_prob": 32.6,
+          "margin": 28.1,
+          "home_prob": 34.4,
           "complete": false,
           "home_named": [
             {
@@ -37819,8 +37124,8 @@
           "venue": "Docklands",
           "datetime": "Sat 2 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 15.0,
-          "home_prob": 41.4,
+          "margin": 19.2,
+          "home_prob": 39.1,
           "complete": false,
           "home_named": [
             {
@@ -40442,8 +39747,8 @@
           "venue": "Gabba",
           "datetime": "Fri 8 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 86.7,
-          "home_prob": 88.0,
+          "margin": 90.9,
+          "home_prob": 89.0,
           "complete": false,
           "home_named": [
             {
@@ -43717,8 +43022,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 9 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 14.7,
-          "home_prob": 58.4,
+          "margin": 9.8,
+          "home_prob": 55.6,
           "complete": false,
           "home_named": [
             {
@@ -45015,8 +44320,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 10 May \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 68.0,
-          "home_prob": 17.3,
+          "margin": 68.8,
+          "home_prob": 17.0,
           "complete": false,
           "home_named": [
             {
@@ -46336,8 +45641,8 @@
           "venue": "S.C.G.",
           "datetime": "Fri 15 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 42.6,
-          "home_prob": 72.7,
+          "margin": 38.3,
+          "home_prob": 70.7,
           "complete": false,
           "home_named": [
             {
@@ -48309,8 +47614,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 16 May \u00b7 4:15pm AEST",
           "home_fav": false,
-          "margin": 51.7,
-          "home_prob": 23.3,
+          "margin": 52.4,
+          "home_prob": 23.0,
           "complete": false,
           "home_named": [
             {
@@ -48960,8 +48265,8 @@
           "venue": "Docklands",
           "datetime": "Sat 16 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 55.2,
-          "home_prob": 21.9,
+          "margin": 59.4,
+          "home_prob": 20.3,
           "complete": false,
           "home_named": [
             {
@@ -49607,8 +48912,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 17 May \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 75.5,
-          "home_prob": 14.9,
+          "margin": 76.3,
+          "home_prob": 14.7,
           "complete": false,
           "home_named": [
             {
@@ -52222,8 +51527,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 22 May \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 17.5,
-          "home_prob": 40.1,
+          "margin": 18.2,
+          "home_prob": 39.7,
           "complete": false,
           "home_named": [
             {
@@ -54838,8 +54143,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 23 May \u00b7 4:35pm AEST",
           "home_fav": true,
-          "margin": 48.8,
-          "home_prob": 75.5,
+          "margin": 52.3,
+          "home_prob": 76.9,
           "complete": false,
           "home_named": [
             {
@@ -55485,8 +54790,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 23 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 27.6,
-          "home_prob": 65.4,
+          "margin": 31.8,
+          "home_prob": 67.5,
           "complete": false,
           "home_named": [
             {
@@ -58108,8 +57413,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 29 May \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 57.9,
-          "home_prob": 20.8,
+          "margin": 62.9,
+          "home_prob": 19.0,
           "complete": false,
           "home_named": [
             {
@@ -60069,8 +59374,8 @@
           "venue": "Docklands",
           "datetime": "Sat 30 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 23.8,
-          "home_prob": 63.4,
+          "margin": 19.6,
+          "home_prob": 61.1,
           "complete": false,
           "home_named": [
             {
@@ -62680,8 +61985,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 5 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 4.3,
-          "home_prob": 52.5,
+          "margin": 3.6,
+          "home_prob": 52.1,
           "complete": false,
           "home_named": [
             {
@@ -65947,8 +65252,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 7 Jun \u00b7 7:20pm AEST",
           "home_fav": false,
-          "margin": 15.4,
-          "home_prob": 41.2,
+          "margin": 11.9,
+          "home_prob": 43.2,
           "complete": false,
           "home_named": [
             {
@@ -66594,8 +65899,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 8 Jun \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 17.0,
-          "home_prob": 59.7,
+          "margin": 20.5,
+          "home_prob": 61.6,
           "complete": false,
           "home_named": [
             {
@@ -68562,8 +67867,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 13 Jun \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 26.0,
-          "home_prob": 64.6,
+          "margin": 25.3,
+          "home_prob": 64.2,
           "complete": false,
           "home_named": [
             {
@@ -73801,8 +73106,8 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 20 Jun \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 64.7,
-          "home_prob": 81.6,
+          "margin": 68.9,
+          "home_prob": 83.0,
           "complete": false,
           "home_named": [
             {
@@ -74452,8 +73757,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 20 Jun \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 25.9,
-          "home_prob": 64.5,
+          "margin": 29.3,
+          "home_prob": 66.3,
           "complete": false,
           "home_named": [
             {
@@ -75107,8 +74412,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 21 Jun \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 35.5,
-          "home_prob": 30.6,
+          "margin": 36.2,
+          "home_prob": 30.3,
           "complete": false,
           "home_named": [
             {
@@ -77087,8 +76392,8 @@
           "venue": "Docklands",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 20.2,
-          "home_prob": 61.4,
+          "margin": 16.0,
+          "home_prob": 59.1,
           "complete": false,
           "home_named": [
             {
@@ -77730,8 +77035,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 60.6,
-          "home_prob": 80.1,
+          "margin": 64.0,
+          "home_prob": 81.4,
           "complete": false,
           "home_named": [
             {
@@ -78385,8 +77690,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 22 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 26.7,
-          "home_prob": 64.9,
+          "margin": 26.0,
+          "home_prob": 64.5,
           "complete": false,
           "home_named": [
             {
@@ -82314,8 +81619,8 @@
           "venue": "Carrara",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 40.3,
-          "home_prob": 71.7,
+          "margin": 36.1,
+          "home_prob": 69.7,
           "complete": false,
           "home_named": [
             {
@@ -84271,8 +83576,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 29 Jun \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 29.7,
-          "home_prob": 33.5,
+          "margin": 26.3,
+          "home_prob": 35.3,
           "complete": false,
           "home_named": [
             {
@@ -87545,8 +86850,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 68.5,
-          "home_prob": 17.1,
+          "margin": 73.5,
+          "home_prob": 15.5,
           "complete": false,
           "home_named": [
             {
@@ -88192,8 +87497,8 @@
           "venue": "Docklands",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 34.1,
-          "home_prob": 68.7,
+          "margin": 38.3,
+          "home_prob": 70.7,
           "complete": false,
           "home_named": [
             {
@@ -89498,8 +88803,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 6 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 40.4,
-          "home_prob": 71.7,
+          "margin": 39.7,
+          "home_prob": 71.4,
           "complete": false,
           "home_named": [
             {
@@ -92776,8 +92081,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 33.9,
-          "home_prob": 68.6,
+          "margin": 41.6,
+          "home_prob": 72.3,
           "complete": false,
           "home_named": [
             {
@@ -96039,8 +95344,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 13 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 95.2,
-          "home_prob": 10.0,
+          "margin": 95.9,
+          "home_prob": 9.9,
           "complete": false,
           "home_named": [
             {
@@ -99321,8 +98626,8 @@
           "venue": "Docklands",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 33.8,
-          "home_prob": 31.5,
+          "margin": 38.0,
+          "home_prob": 29.4,
           "complete": false,
           "home_named": [
             {
@@ -100631,8 +99936,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 74.6,
-          "home_prob": 84.8,
+          "margin": 73.9,
+          "home_prob": 84.6,
           "complete": false,
           "home_named": [
             {
@@ -101278,8 +100583,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 20 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 41.1,
-          "home_prob": 28.0,
+          "margin": 41.8,
+          "home_prob": 27.6,
           "complete": false,
           "home_named": [
             {
@@ -103239,8 +102544,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Mon 20 Jul \u00b7 12:30pm AEST",
           "home_fav": true,
-          "margin": 20.8,
-          "home_prob": 61.8,
+          "margin": 16.6,
+          "home_prob": 59.5,
           "complete": false,
           "home_named": [
             {
@@ -104548,8 +103853,8 @@
           "venue": "Docklands",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 55.3,
-          "home_prob": 21.9,
+          "margin": 59.5,
+          "home_prob": 20.3,
           "complete": false,
           "home_named": [
             {
@@ -105203,8 +104508,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 20.9,
-          "home_prob": 38.2,
+          "margin": 17.5,
+          "home_prob": 40.1,
           "complete": false,
           "home_named": [
             {
@@ -107815,8 +107120,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 27 Jul \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 14.9,
-          "home_prob": 41.5,
+          "margin": 15.6,
+          "home_prob": 41.1,
           "complete": false,
           "home_named": [
             {
@@ -112391,8 +111696,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 46.4,
-          "home_prob": 25.6,
+          "margin": 47.1,
+          "home_prob": 25.3,
           "complete": false,
           "home_named": [
             {
@@ -113042,8 +112347,8 @@
           "venue": "Docklands",
           "datetime": "Mon 3 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 20.6,
-          "home_prob": 61.6,
+          "margin": 24.8,
+          "home_prob": 63.9,
           "complete": false,
           "home_named": [
             {
@@ -115666,8 +114971,8 @@
           "venue": "Perth Stadium",
           "datetime": "Mon 3 Aug \u00b7 2pm AEST",
           "home_fav": false,
-          "margin": 56.4,
-          "home_prob": 21.5,
+          "margin": 60.6,
+          "home_prob": 19.9,
           "complete": false,
           "home_named": [
             {
@@ -116979,8 +116284,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 66.4,
-          "home_prob": 17.8,
+          "margin": 67.1,
+          "home_prob": 17.6,
           "complete": false,
           "home_named": [
             {
@@ -118281,8 +117586,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 25.3,
-          "home_prob": 64.2,
+          "margin": 20.4,
+          "home_prob": 61.5,
           "complete": false,
           "home_named": [
             {
@@ -119583,8 +118888,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 47.6,
-          "home_prob": 25.1,
+          "margin": 48.3,
+          "home_prob": 24.7,
           "complete": false,
           "home_named": [
             {
@@ -120242,8 +119547,8 @@
           "venue": "Docklands",
           "datetime": "Mon 10 Aug \u00b7 12pm AEST",
           "home_fav": true,
-          "margin": 60.8,
-          "home_prob": 80.2,
+          "margin": 65.0,
+          "home_prob": 81.7,
           "complete": false,
           "home_named": [
             {
@@ -122206,8 +121511,8 @@
           "venue": "Docklands",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 54.8,
-          "home_prob": 22.0,
+          "margin": 59.1,
+          "home_prob": 20.4,
           "complete": false,
           "home_named": [
             {
@@ -122853,8 +122158,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 26.7,
-          "home_prob": 35.1,
+          "margin": 23.2,
+          "home_prob": 37.0,
           "complete": false,
           "home_named": [
             {
@@ -124814,8 +124119,8 @@
           "venue": "M.C.G.",
           "datetime": "Mon 17 Aug \u00b7 12pm AEST",
           "home_fav": false,
-          "margin": 44.2,
-          "home_prob": 26.5,
+          "margin": 45.0,
+          "home_prob": 26.2,
           "complete": false,
           "home_named": [
             {
@@ -128116,8 +127421,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 98.9,
-      "premiers_pct": 22.8
+      "finals_pct": 98.7,
+      "premiers_pct": 22.6
     },
     {
       "team": "Brisbane Lions",
@@ -128128,8 +127433,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.7,
-      "premiers_pct": 18.4
+      "finals_pct": 95.3,
+      "premiers_pct": 17.8
     },
     {
       "team": "Fremantle",
@@ -128140,8 +127445,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.5,
-      "premiers_pct": 16.6
+      "finals_pct": 97.3,
+      "premiers_pct": 17.1
     },
     {
       "team": "Western Bulldogs",
@@ -128152,7 +127457,7 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.5,
+      "finals_pct": 96.2,
       "premiers_pct": 14.7
     },
     {
@@ -128164,8 +127469,8 @@
       "percentage": 101.5,
       "points_for": 460,
       "points_against": 453,
-      "finals_pct": 89.1,
-      "premiers_pct": 10.2
+      "finals_pct": 87.7,
+      "premiers_pct": 10.1
     },
     {
       "team": "Sydney",
@@ -128176,8 +127481,20 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 93.5,
-      "premiers_pct": 9.8
+      "finals_pct": 92.8,
+      "premiers_pct": 9.3
+    },
+    {
+      "team": "Collingwood",
+      "telo": 1554,
+      "wins": 3,
+      "losses": 3,
+      "ladder_rank": 9,
+      "percentage": 94.8,
+      "points_for": 436,
+      "points_against": 460,
+      "finals_pct": 62.0,
+      "premiers_pct": 2.8
     },
     {
       "team": "Gold Coast",
@@ -128188,44 +127505,32 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 57.5,
-      "premiers_pct": 2.4
+      "finals_pct": 52.1,
+      "premiers_pct": 2.2
     },
     {
       "team": "Adelaide",
       "telo": 1546,
       "wins": 2,
       "losses": 3,
-      "ladder_rank": 11,
+      "ladder_rank": 12,
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 53.7,
-      "premiers_pct": 2.0
-    },
-    {
-      "team": "Collingwood",
-      "telo": 1537,
-      "wins": 2,
-      "losses": 3,
-      "ladder_rank": 13,
-      "percentage": 92.3,
-      "points_for": 348,
-      "points_against": 377,
-      "finals_pct": 41.8,
-      "premiers_pct": 1.5
+      "finals_pct": 47.1,
+      "premiers_pct": 1.8
     },
     {
       "team": "Greater Western Sydney",
       "telo": 1532,
       "wins": 2,
       "losses": 3,
-      "ladder_rank": 12,
+      "ladder_rank": 13,
       "percentage": 92.5,
       "points_for": 434,
       "points_against": 469,
-      "finals_pct": 37.7,
-      "premiers_pct": 1.2
+      "finals_pct": 36.0,
+      "premiers_pct": 1.3
     },
     {
       "team": "St Kilda",
@@ -128236,19 +127541,19 @@
       "percentage": 91.2,
       "points_for": 412,
       "points_against": 452,
-      "finals_pct": 14.0,
-      "premiers_pct": 0.1
+      "finals_pct": 13.1,
+      "premiers_pct": 0.2
     },
     {
       "team": "Melbourne",
       "telo": 1452,
       "wins": 3,
       "losses": 2,
-      "ladder_rank": 9,
+      "ladder_rank": 10,
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 13.6,
+      "finals_pct": 12.4,
       "premiers_pct": 0.1
     },
     {
@@ -128256,11 +127561,11 @@
       "telo": 1425,
       "wins": 2,
       "losses": 3,
-      "ladder_rank": 10,
+      "ladder_rank": 11,
       "percentage": 110.6,
       "points_for": 447,
       "points_against": 404,
-      "finals_pct": 2.7,
+      "finals_pct": 2.5,
       "premiers_pct": 0.0
     },
     {
@@ -128272,19 +127577,19 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 7.0,
+      "finals_pct": 6.2,
       "premiers_pct": 0.0
     },
     {
       "team": "Carlton",
-      "telo": 1403,
+      "telo": 1387,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ladder_rank": 16,
-      "percentage": 76.6,
-      "points_for": 393,
-      "points_against": 513,
-      "finals_pct": 0.4,
+      "percentage": 79.2,
+      "points_for": 476,
+      "points_against": 601,
+      "finals_pct": 0.1,
       "premiers_pct": 0.0
     },
     {
@@ -128296,7 +127601,7 @@
       "percentage": 76.0,
       "points_for": 400,
       "points_against": 526,
-      "finals_pct": 0.1,
+      "finals_pct": 0.2,
       "premiers_pct": 0.0
     },
     {
@@ -128325,34 +127630,6 @@
     }
   ],
   "positional_ratings": {
-    "Carlton": {
-      "DEF": {
-        "rank": 10,
-        "avg": 1485
-      },
-      "MID": {
-        "rank": 2,
-        "avg": 1641
-      },
-      "FWD": {
-        "rank": 12,
-        "avg": 1455
-      }
-    },
-    "Collingwood": {
-      "DEF": {
-        "rank": 8,
-        "avg": 1500
-      },
-      "MID": {
-        "rank": 15,
-        "avg": 1542
-      },
-      "FWD": {
-        "rank": 9,
-        "avg": 1468
-      }
-    },
     "Geelong": {
       "DEF": {
         "rank": 5,
@@ -128411,7 +127688,7 @@
     },
     "Gold Coast": {
       "DEF": {
-        "rank": 11,
+        "rank": 10,
         "avg": 1485
       },
       "MID": {
@@ -128575,6 +127852,34 @@
       "FWD": {
         "rank": 7,
         "avg": 1480
+      }
+    },
+    "Collingwood": {
+      "DEF": {
+        "rank": 8,
+        "avg": 1500
+      },
+      "MID": {
+        "rank": 15,
+        "avg": 1542
+      },
+      "FWD": {
+        "rank": 9,
+        "avg": 1468
+      }
+    },
+    "Carlton": {
+      "DEF": {
+        "rank": 11,
+        "avg": 1485
+      },
+      "MID": {
+        "rank": 2,
+        "avg": 1641
+      },
+      "FWD": {
+        "rank": 12,
+        "avg": 1455
       }
     }
   }
