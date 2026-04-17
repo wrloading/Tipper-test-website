@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-17T11:56:39.071479+10:00",
+    "updated": "2026-04-17T14:46:59.067961+10:00",
     "year": 2026,
     "current_round": 6,
     "model": "TELO v2.0",
@@ -25801,8 +25801,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 19 Apr \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 51.2,
-          "home_prob": 23.5,
+          "margin": 51.1,
+          "home_prob": 23.6,
           "complete": false,
           "home_named": [
             {
@@ -25876,18 +25876,14 @@
               "player_rank": 613
             },
             {
-              "name": "X Lindsay",
+              "name": "P Cross",
               "pos": "HB",
-              "avg_di": 16.4,
-              "avg_gl": 0.2,
-              "avg_tk": 2.2,
-              "avg_cl": 0.6,
-              "avg_pi": 78.5,
-              "games": 5,
-              "ptelo": 1456,
-              "ppos": "MID",
-              "player_rating": 60,
-              "player_rank": 371
+              "avg_di": 6.0,
+              "avg_gl": 1.0,
+              "avg_tk": 0.0,
+              "avg_cl": 0.0,
+              "avg_pi": 30.0,
+              "games": 1
             },
             {
               "name": "K Tholstrup",
@@ -26534,6 +26530,18 @@
               "ptelo": 1505,
               "player_rating": 64,
               "player_rank": 247
+            },
+            {
+              "name": "X Lindsay",
+              "avg_di": 16.4,
+              "avg_gl": 0.2,
+              "avg_tk": 2.2,
+              "avg_cl": 0.6,
+              "avg_pi": 78.5,
+              "games": 5,
+              "ptelo": 1456,
+              "player_rating": 60,
+              "player_rank": 371
             }
           ],
           "away_outs": [
@@ -26552,7 +26560,7 @@
           ],
           "selections_announced": true,
           "selections_round": 6,
-          "home_squad_impact": -2.2,
+          "home_squad_impact": -1.6,
           "away_squad_impact": 5.2
         },
         {
@@ -127422,7 +127430,7 @@
       "points_for": 535,
       "points_against": 442,
       "finals_pct": 98.7,
-      "premiers_pct": 22.4
+      "premiers_pct": 22.3
     },
     {
       "team": "Brisbane Lions",
@@ -127433,8 +127441,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.3,
-      "premiers_pct": 18.2
+      "finals_pct": 95.4,
+      "premiers_pct": 18.3
     },
     {
       "team": "Fremantle",
@@ -127445,8 +127453,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.3,
-      "premiers_pct": 16.6
+      "finals_pct": 97.5,
+      "premiers_pct": 16.8
     },
     {
       "team": "Western Bulldogs",
@@ -127457,7 +127465,7 @@
       "percentage": 120.7,
       "points_for": 502,
       "points_against": 416,
-      "finals_pct": 96.2,
+      "finals_pct": 96.0,
       "premiers_pct": 14.7
     },
     {
@@ -127470,7 +127478,7 @@
       "points_for": 460,
       "points_against": 453,
       "finals_pct": 87.8,
-      "premiers_pct": 10.4
+      "premiers_pct": 10.0
     },
     {
       "team": "Sydney",
@@ -127481,8 +127489,8 @@
       "percentage": 175.5,
       "points_for": 581,
       "points_against": 331,
-      "finals_pct": 92.5,
-      "premiers_pct": 9.3
+      "finals_pct": 92.9,
+      "premiers_pct": 9.6
     },
     {
       "team": "Collingwood",
@@ -127493,7 +127501,7 @@
       "percentage": 94.8,
       "points_for": 436,
       "points_against": 460,
-      "finals_pct": 62.4,
+      "finals_pct": 62.8,
       "premiers_pct": 2.8
     },
     {
@@ -127505,8 +127513,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 52.1,
-      "premiers_pct": 2.2
+      "finals_pct": 51.8,
+      "premiers_pct": 2.1
     },
     {
       "team": "Adelaide",
@@ -127517,8 +127525,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 47.3,
-      "premiers_pct": 1.8
+      "finals_pct": 47.1,
+      "premiers_pct": 1.9
     },
     {
       "team": "Greater Western Sydney",
@@ -127529,7 +127537,7 @@
       "percentage": 92.5,
       "points_for": 434,
       "points_against": 469,
-      "finals_pct": 35.7,
+      "finals_pct": 35.4,
       "premiers_pct": 1.2
     },
     {
@@ -127553,8 +127561,8 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 12.5,
-      "premiers_pct": 0.2
+      "finals_pct": 12.2,
+      "premiers_pct": 0.1
     },
     {
       "team": "Port Adelaide",
@@ -127565,7 +127573,7 @@
       "percentage": 110.6,
       "points_for": 447,
       "points_against": 404,
-      "finals_pct": 2.3,
+      "finals_pct": 2.5,
       "premiers_pct": 0.0
     },
     {
