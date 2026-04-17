@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T01:54:23.410225+10:00",
+    "updated": "2026-04-18T02:48:28.712676+10:00",
     "year": 2026,
     "current_round": 6,
     "model": "TELO v2.0",
@@ -125914,8 +125914,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.3,
-      "premiers_pct": 17.2
+      "finals_pct": 95.1,
+      "premiers_pct": 17.3
     },
     {
       "team": "Geelong",
@@ -125926,8 +125926,8 @@
       "percentage": 116.1,
       "points_for": 591,
       "points_against": 509,
-      "finals_pct": 94.9,
-      "premiers_pct": 15.5
+      "finals_pct": 94.7,
+      "premiers_pct": 15.0
     },
     {
       "team": "Fremantle",
@@ -125938,8 +125938,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.4,
-      "premiers_pct": 15.9
+      "finals_pct": 97.3,
+      "premiers_pct": 16.0
     },
     {
       "team": "Sydney",
@@ -125950,7 +125950,7 @@
       "percentage": 173.3,
       "points_for": 688,
       "points_against": 397,
-      "finals_pct": 96.9,
+      "finals_pct": 97.0,
       "premiers_pct": 12.9
     },
     {
@@ -125962,7 +125962,7 @@
       "percentage": 102.0,
       "points_for": 558,
       "points_against": 547,
-      "finals_pct": 91.9,
+      "finals_pct": 92.0,
       "premiers_pct": 9.1
     },
     {
@@ -125974,8 +125974,8 @@
       "percentage": 94.8,
       "points_for": 436,
       "points_against": 460,
-      "finals_pct": 63.0,
-      "premiers_pct": 2.6
+      "finals_pct": 63.5,
+      "premiers_pct": 2.7
     },
     {
       "team": "Gold Coast",
@@ -125986,8 +125986,8 @@
       "percentage": 132.0,
       "points_for": 541,
       "points_against": 410,
-      "finals_pct": 54.2,
-      "premiers_pct": 2.1
+      "finals_pct": 54.4,
+      "premiers_pct": 2.2
     },
     {
       "team": "Adelaide",
@@ -126010,8 +126010,8 @@
       "percentage": 86.8,
       "points_for": 500,
       "points_against": 576,
-      "finals_pct": 24.2,
-      "premiers_pct": 0.5
+      "finals_pct": 23.7,
+      "premiers_pct": 0.6
     },
     {
       "team": "St Kilda",
@@ -126022,7 +126022,7 @@
       "percentage": 91.2,
       "points_for": 412,
       "points_against": 452,
-      "finals_pct": 13.6,
+      "finals_pct": 13.4,
       "premiers_pct": 0.1
     },
     {
@@ -126034,7 +126034,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 12.8,
+      "finals_pct": 12.9,
       "premiers_pct": 0.1
     },
     {
@@ -126046,7 +126046,7 @@
       "percentage": 110.6,
       "points_for": 447,
       "points_against": 404,
-      "finals_pct": 2.5,
+      "finals_pct": 2.4,
       "premiers_pct": 0.0
     },
     {
@@ -126094,7 +126094,7 @@
       "percentage": 64.3,
       "points_for": 386,
       "points_against": 600,
-      "finals_pct": 0.4,
+      "finals_pct": 0.5,
       "premiers_pct": 0.0
     },
     {
