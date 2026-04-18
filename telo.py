@@ -1336,6 +1336,20 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
             pred_margin = round(abs(predict_margin(h_eff, a_eff, hga=v_hga)), 1)
             home_fav    = h_prob >= 50.0
 
+            # Lock predictions once kickoff has passed (game started or complete)
+            now_aest  = datetime.now(AEST)
+            is_locked = is_complete
+            if not is_locked and date_str:
+                try:
+                    if "T" in date_str:
+                        game_dt = datetime.fromisoformat(date_str.replace("Z", "+00:00")).astimezone(AEST)
+                    else:
+                        naive   = datetime.strptime(date_str[:19], "%Y-%m-%d %H:%M:%S")
+                        game_dt = naive.replace(tzinfo=AEST)
+                    is_locked = now_aest >= game_dt
+                except Exception:
+                    pass
+
             entry: dict = {
                 "home":      home,
                 "away":      away,
@@ -1345,6 +1359,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
                 "margin":    pred_margin,
                 "home_prob": h_prob,
                 "complete":  is_complete,
+                "locked":    is_locked,
             }
 
             if is_complete:
