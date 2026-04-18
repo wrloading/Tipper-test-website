@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T20:34:59.203657+10:00",
+    "updated": "2026-04-18T21:30:16.084284+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -916,7 +916,7 @@
           "elo": 1494
         },
         {
-          "team": "Ulm",
+          "team": "Team Kenny",
           "elo": 1492
         },
         {
@@ -924,12 +924,8 @@
           "elo": 1492
         },
         {
-          "team": "Team Kenny",
+          "team": "Ulm",
           "elo": 1492
-        },
-        {
-          "team": "Melbourne Pnx",
-          "elo": 1487
         },
         {
           "team": "Melbourne United",
@@ -937,6 +933,10 @@
         },
         {
           "team": "Hapoel Jerusalem",
+          "elo": 1487
+        },
+        {
+          "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
@@ -1153,7 +1153,7 @@
           "away_prob": 29.7,
           "margin": 11.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
           "home_color": "f42727",
@@ -4973,11 +4973,11 @@
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
@@ -4989,15 +4989,15 @@
           "elo": 1514
         },
         {
+          "team": "Chicago Cubs",
+          "elo": 1512
+        },
+        {
           "team": "San Francisco Giants",
           "elo": 1512
         },
         {
           "team": "Arizona Diamondbacks",
-          "elo": 1512
-        },
-        {
-          "team": "Chicago Cubs",
           "elo": 1512
         },
         {
@@ -5021,15 +5021,15 @@
           "elo": 1502
         },
         {
-          "team": "National All-Stars",
-          "elo": 1500
-        },
-        {
           "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
           "team": "American All-Stars",
+          "elo": 1500
+        },
+        {
+          "team": "National All-Stars",
           "elo": 1500
         },
         {
@@ -5873,15 +5873,15 @@
           "elo": 1546
         },
         {
+          "team": "Ottawa Senators",
+          "elo": 1532
+        },
+        {
           "team": "Washington Capitals",
           "elo": 1532
         },
         {
           "team": "Montreal Canadiens",
-          "elo": 1532
-        },
-        {
-          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
@@ -5945,15 +5945,15 @@
           "elo": 1494
         },
         {
-          "team": "Columbus Blue Jackets",
-          "elo": 1492
-        },
-        {
           "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
           "team": "Philadelphia Flyers",
+          "elo": 1492
+        },
+        {
+          "team": "Columbus Blue Jackets",
           "elo": 1492
         },
         {
@@ -5973,11 +5973,11 @@
           "elo": 1475
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
