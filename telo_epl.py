@@ -26,7 +26,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 from telo_core import (
-    INITIAL_ELO, fetch_all_events, parse_event,
+    INITIAL_ELO, RECENT_DAYS, fetch_all_events, parse_event,
     margin_multiplier, regress,
     game_locked, build_rankings, write_sport_json,
 )
@@ -97,6 +97,10 @@ def build_predictions() -> dict:
 
     ratings:          dict[str, float] = {}
     last_season_year: int | None       = None
+    recent_out:       list[dict]       = []
+
+    from datetime import datetime, timedelta, timezone
+    recent_cutoff = (datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
 
     for game in completed:
         home, away = game["home"], game["away"]
@@ -109,6 +113,19 @@ def build_predictions() -> dict:
             last_season_year = sy
         ratings.setdefault(home, INITIAL_ELO)
         ratings.setdefault(away, INITIAL_ELO)
+
+        if game.get("date", "")[:10] >= recent_cutoff:
+            p_home, p_draw, p_away = soccer_probabilities(ratings[home], ratings[away], HGA)
+            recent_out.append({
+                "home": home, "away": away, "date": game["date"],
+                "home_prob": round(p_home * 100, 1), "draw_prob": round(p_draw * 100, 1),
+                "home_fav": p_home >= p_away,
+                "winner": game["winner"],
+                "home_score": game["home_score"], "away_score": game["away_score"],
+                "home_logo": game.get("home_logo", ""), "away_logo": game.get("away_logo", ""),
+                "home_color": game.get("home_color", ""), "away_color": game.get("away_color", ""),
+            })
+
         ratings[home], ratings[away] = update_elo(
             ratings[home], ratings[away],
             game["winner"], game["home_score"], game["away_score"],
@@ -145,7 +162,7 @@ def build_predictions() -> dict:
         })
 
     extra = {g["home"] for g in upcoming} | {g["away"] for g in upcoming}
-    return {"upcoming": upcoming_out, "rankings": build_rankings(ratings, extra)}
+    return {"upcoming": upcoming_out, "rankings": build_rankings(ratings, extra), "recent": recent_out}
 
 
 def main(dry_run: bool = False) -> None:
