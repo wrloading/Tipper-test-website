@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T17:56:45.726579+10:00",
+    "updated": "2026-04-18T18:42:45.077095+10:00",
     "year": 2026,
     "current_round": 6,
     "model": "TELO v2.0",
@@ -22428,18 +22428,18 @@
               "player_rank": 37
             },
             {
-              "name": "L Nankervis",
+              "name": "W Milera",
               "pos": "C",
-              "avg_di": 15.0,
+              "avg_di": 24.8,
               "avg_gl": 0.0,
-              "avg_tk": 1.5,
+              "avg_tk": 2.0,
               "avg_cl": 1.0,
-              "avg_pi": 65.4,
-              "games": 2,
-              "ptelo": 1404,
+              "avg_pi": 113.2,
+              "games": 5,
+              "ptelo": 1595,
               "ppos": "DEF",
-              "player_rating": 55,
-              "player_rank": 504
+              "player_rating": 72,
+              "player_rank": 103
             },
             {
               "name": "B Keays",
@@ -22470,18 +22470,18 @@
               "player_rank": 96
             },
             {
-              "name": "Z Taylor",
+              "name": "B Cook",
               "pos": "HF",
-              "avg_di": 9.0,
-              "avg_gl": 1.3,
-              "avg_tk": 1.7,
-              "avg_cl": 0.3,
-              "avg_pi": 67.1,
-              "games": 3,
-              "ptelo": 1411,
-              "ppos": "MID",
-              "player_rating": 56,
-              "player_rank": 485
+              "avg_di": 16.2,
+              "avg_gl": 0.4,
+              "avg_tk": 1.6,
+              "avg_cl": 0.4,
+              "avg_pi": 84.8,
+              "games": 5,
+              "ptelo": 1482,
+              "ppos": "FWD",
+              "player_rating": 62,
+              "player_rank": 296
             },
             {
               "name": "A N-Bullen",
@@ -22568,18 +22568,18 @@
               "player_rank": 20
             },
             {
-              "name": "B Cook",
+              "name": "Z Taylor",
               "pos": "INT",
-              "avg_di": 16.2,
-              "avg_gl": 0.4,
-              "avg_tk": 1.6,
-              "avg_cl": 0.4,
-              "avg_pi": 84.8,
-              "games": 5,
-              "ptelo": 1482,
-              "ppos": "FWD",
-              "player_rating": 62,
-              "player_rank": 296
+              "avg_di": 9.0,
+              "avg_gl": 1.3,
+              "avg_tk": 1.7,
+              "avg_cl": 0.3,
+              "avg_pi": 67.1,
+              "games": 3,
+              "ptelo": 1411,
+              "ppos": "MID",
+              "player_rating": 56,
+              "player_rank": 485
             },
             {
               "name": "F Maley",
@@ -22618,18 +22618,18 @@
               "player_rank": 621
             },
             {
-              "name": "W Milera",
+              "name": "L Nankervis",
               "pos": "INT",
-              "avg_di": 24.8,
+              "avg_di": 15.0,
               "avg_gl": 0.0,
-              "avg_tk": 2.0,
+              "avg_tk": 1.5,
               "avg_cl": 1.0,
-              "avg_pi": 113.2,
-              "games": 5,
-              "ptelo": 1595,
+              "avg_pi": 65.4,
+              "games": 2,
+              "ptelo": 1404,
               "ppos": "DEF",
-              "player_rating": 72,
-              "player_rank": 103
+              "player_rating": 55,
+              "player_rank": 504
             }
           ],
           "away_named": [
@@ -22746,18 +22746,18 @@
               "player_rank": 114
             },
             {
-              "name": "D Wilson",
+              "name": "H Garcia",
               "pos": "C",
-              "avg_di": 18.0,
-              "avg_gl": 0.4,
-              "avg_tk": 1.8,
-              "avg_cl": 1.0,
-              "avg_pi": 84.6,
+              "avg_di": 19.0,
+              "avg_gl": 0.2,
+              "avg_tk": 6.0,
+              "avg_cl": 5.6,
+              "avg_pi": 122.3,
               "games": 5,
-              "ptelo": 1481,
+              "ptelo": 1632,
               "ppos": "MID",
-              "player_rating": 62,
-              "player_rank": 297
+              "player_rating": 76,
+              "player_rank": 67
             },
             {
               "name": "J Sinclair",
@@ -22900,20 +22900,6 @@
               "player_rank": 240
             },
             {
-              "name": "D Butler",
-              "pos": "INT",
-              "avg_di": 9.0,
-              "avg_gl": 0.0,
-              "avg_tk": 4.5,
-              "avg_cl": 0.0,
-              "avg_pi": 56.4,
-              "games": 2,
-              "ptelo": 1368,
-              "ppos": "FWD",
-              "player_rating": 52,
-              "player_rank": 571
-            },
-            {
               "name": "L Stocker",
               "pos": "INT",
               "avg_di": 11.0,
@@ -22928,6 +22914,34 @@
               "player_rank": 595
             },
             {
+              "name": "D Butler",
+              "pos": "INT",
+              "avg_di": 9.0,
+              "avg_gl": 0.0,
+              "avg_tk": 4.5,
+              "avg_cl": 0.0,
+              "avg_pi": 56.4,
+              "games": 2,
+              "ptelo": 1368,
+              "ppos": "FWD",
+              "player_rating": 52,
+              "player_rank": 571
+            },
+            {
+              "name": "D Wilson",
+              "pos": "INT",
+              "avg_di": 18.0,
+              "avg_gl": 0.4,
+              "avg_tk": 1.8,
+              "avg_cl": 1.0,
+              "avg_pi": 84.6,
+              "games": 5,
+              "ptelo": 1481,
+              "ppos": "MID",
+              "player_rating": 62,
+              "player_rank": 297
+            },
+            {
               "name": "M Phillipou",
               "pos": "INT",
               "avg_di": 13.4,
@@ -22940,20 +22954,6 @@
               "ppos": "MID",
               "player_rating": 63,
               "player_rank": 287
-            },
-            {
-              "name": "H Garcia",
-              "pos": "INT",
-              "avg_di": 19.0,
-              "avg_gl": 0.2,
-              "avg_tk": 6.0,
-              "avg_cl": 5.6,
-              "avg_pi": 122.3,
-              "games": 5,
-              "ptelo": 1632,
-              "ppos": "MID",
-              "player_rating": 76,
-              "player_rank": 67
             }
           ],
           "home_outs": [
@@ -125408,8 +125408,8 @@
       "percentage": 121.0,
       "points_for": 535,
       "points_against": 442,
-      "finals_pct": 98.7,
-      "premiers_pct": 22.0
+      "finals_pct": 98.8,
+      "premiers_pct": 22.1
     },
     {
       "team": "Brisbane Lions",
@@ -125420,8 +125420,8 @@
       "percentage": 115.0,
       "points_for": 490,
       "points_against": 426,
-      "finals_pct": 95.0,
-      "premiers_pct": 17.4
+      "finals_pct": 95.1,
+      "premiers_pct": 17.3
     },
     {
       "team": "Geelong",
@@ -125432,8 +125432,8 @@
       "percentage": 116.1,
       "points_for": 591,
       "points_against": 509,
-      "finals_pct": 94.7,
-      "premiers_pct": 15.2
+      "finals_pct": 94.5,
+      "premiers_pct": 15.1
     },
     {
       "team": "Fremantle",
@@ -125444,8 +125444,8 @@
       "percentage": 131.4,
       "points_for": 444,
       "points_against": 338,
-      "finals_pct": 97.0,
-      "premiers_pct": 15.7
+      "finals_pct": 97.1,
+      "premiers_pct": 15.6
     },
     {
       "team": "Sydney",
@@ -125456,8 +125456,8 @@
       "percentage": 173.3,
       "points_for": 688,
       "points_against": 397,
-      "finals_pct": 96.7,
-      "premiers_pct": 12.9
+      "finals_pct": 97.0,
+      "premiers_pct": 12.8
     },
     {
       "team": "Western Bulldogs",
@@ -125468,8 +125468,8 @@
       "percentage": 102.0,
       "points_for": 558,
       "points_against": 547,
-      "finals_pct": 91.5,
-      "premiers_pct": 8.8
+      "finals_pct": 91.7,
+      "premiers_pct": 9.0
     },
     {
       "team": "Gold Coast",
@@ -125492,8 +125492,8 @@
       "percentage": 94.8,
       "points_for": 436,
       "points_against": 460,
-      "finals_pct": 59.0,
-      "premiers_pct": 2.6
+      "finals_pct": 58.5,
+      "premiers_pct": 2.5
     },
     {
       "team": "Adelaide",
@@ -125504,8 +125504,8 @@
       "percentage": 106.4,
       "points_for": 431,
       "points_against": 405,
-      "finals_pct": 46.9,
-      "premiers_pct": 1.6
+      "finals_pct": 46.8,
+      "premiers_pct": 1.8
     },
     {
       "team": "Greater Western Sydney",
@@ -125516,7 +125516,7 @@
       "percentage": 86.8,
       "points_for": 500,
       "points_against": 576,
-      "finals_pct": 22.9,
+      "finals_pct": 22.7,
       "premiers_pct": 0.5
     },
     {
@@ -125528,7 +125528,7 @@
       "percentage": 91.2,
       "points_for": 412,
       "points_against": 452,
-      "finals_pct": 12.9,
+      "finals_pct": 13.1,
       "premiers_pct": 0.1
     },
     {
@@ -125540,7 +125540,7 @@
       "percentage": 92.7,
       "points_for": 467,
       "points_against": 504,
-      "finals_pct": 12.2,
+      "finals_pct": 12.5,
       "premiers_pct": 0.1
     },
     {
@@ -125564,7 +125564,7 @@
       "percentage": 105.9,
       "points_for": 450,
       "points_against": 425,
-      "finals_pct": 6.1,
+      "finals_pct": 5.8,
       "premiers_pct": 0.0
     },
     {

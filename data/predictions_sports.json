@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T17:56:46.084954+10:00",
+    "updated": "2026-04-18T18:42:45.413978+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -920,11 +920,11 @@
           "elo": 1492
         },
         {
-          "team": "Team Kenny",
+          "team": "Team Candace",
           "elo": 1492
         },
         {
-          "team": "Team Candace",
+          "team": "Team Kenny",
           "elo": 1492
         },
         {
@@ -932,11 +932,11 @@
           "elo": 1487
         },
         {
-          "team": "Hapoel Jerusalem",
+          "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
-          "team": "Melbourne Pnx",
+          "team": "Hapoel Jerusalem",
           "elo": 1487
         },
         {
@@ -4973,11 +4973,11 @@
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
@@ -4989,15 +4989,15 @@
           "elo": 1514
         },
         {
-          "team": "San Francisco Giants",
-          "elo": 1512
-        },
-        {
           "team": "Arizona Diamondbacks",
           "elo": 1512
         },
         {
           "team": "Chicago Cubs",
+          "elo": 1512
+        },
+        {
+          "team": "San Francisco Giants",
           "elo": 1512
         },
         {
@@ -5009,6 +5009,10 @@
           "elo": 1509
         },
         {
+          "team": "Philadelphia Phillies",
+          "elo": 1502
+        },
+        {
           "team": "Cincinnati Reds",
           "elo": 1502
         },
@@ -5017,8 +5021,8 @@
           "elo": 1502
         },
         {
-          "team": "Philadelphia Phillies",
-          "elo": 1502
+          "team": "American All-Stars",
+          "elo": 1500
         },
         {
           "team": "Pittsburgh Pirates",
@@ -5026,10 +5030,6 @@
         },
         {
           "team": "National All-Stars",
-          "elo": 1500
-        },
-        {
-          "team": "American All-Stars",
           "elo": 1500
         },
         {
@@ -5049,11 +5049,11 @@
           "elo": 1493
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Houston Astros",
           "elo": 1490
         },
         {
-          "team": "Houston Astros",
+          "team": "Seattle Mariners",
           "elo": 1490
         },
         {
@@ -5061,11 +5061,11 @@
           "elo": 1489
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
-          "team": "New York Mets",
+          "team": "Tampa Bay Rays",
           "elo": 1488
         },
         {
@@ -5873,7 +5873,7 @@
           "elo": 1546
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Montreal Canadiens",
           "elo": 1532
         },
         {
@@ -5881,7 +5881,7 @@
           "elo": 1532
         },
         {
-          "team": "Montreal Canadiens",
+          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
@@ -5913,15 +5913,15 @@
           "elo": 1503
         },
         {
-          "team": "USA",
-          "elo": 1501
-        },
-        {
           "team": "Utah Mammoth",
           "elo": 1501
         },
         {
-          "team": "Sweden",
+          "team": "USA",
+          "elo": 1501
+        },
+        {
+          "team": "St. Louis Blues",
           "elo": 1500
         },
         {
@@ -5929,7 +5929,7 @@
           "elo": 1500
         },
         {
-          "team": "St. Louis Blues",
+          "team": "Sweden",
           "elo": 1500
         },
         {
@@ -5945,11 +5945,11 @@
           "elo": 1494
         },
         {
-          "team": "Philadelphia Flyers",
+          "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
-          "team": "Winnipeg Jets",
+          "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
@@ -5973,11 +5973,11 @@
           "elo": 1475
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
