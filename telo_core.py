@@ -4,11 +4,23 @@
 import json
 import math
 import os
+import re
 import time
 from datetime import date, datetime, timedelta, timezone
 from typing import Optional
 
 import requests
+
+# Games to exclude — preseason type, all-star / exhibition team names
+PRESEASON_TYPE      = 1
+EXHIBITION_RE       = re.compile(
+    r'\ball[- ]?star|rising[- ]?star|team lebron|team durant|team curry|'
+    r'team giannis|team stephen|nba cup final|pro bowl|skills challenge|'
+    r'celebrity game',
+    re.IGNORECASE,
+)
+
+RECENT_DAYS = 14  # how many days back to include pre-game probs in output
 
 BASE_URL    = "https://site.api.espn.com/apis/site/v2/sports"
 UA          = "Tipper-TELO/2.0 (github.com/wrloading/Tipper-test-website)"
@@ -63,6 +75,10 @@ def fetch_all_events(path: str, history_months: int) -> list[dict]:
 def parse_event(event: dict, track_period: bool = False) -> Optional[dict]:
     """Convert ESPN event → normalised game dict. track_period=True adds final_period."""
     try:
+        # Skip preseason events (type 1)
+        if event.get("season", {}).get("type", 2) == PRESEASON_TYPE:
+            return None
+
         comp        = event.get("competitions", [{}])[0]
         competitors = comp.get("competitors", [])
         home        = next((c for c in competitors if c.get("homeAway") == "home"), None)
@@ -77,6 +93,10 @@ def parse_event(event: dict, track_period: bool = False) -> Optional[dict]:
 
         home_name = home.get("team", {}).get("displayName", "")
         away_name = away.get("team", {}).get("displayName", "")
+
+        # Skip all-star / exhibition team names
+        if EXHIBITION_RE.search(home_name) or EXHIBITION_RE.search(away_name):
+            return None
         date_str  = event.get("date", "")
         season_yr = event.get("season", {}).get("year", 0)
 
