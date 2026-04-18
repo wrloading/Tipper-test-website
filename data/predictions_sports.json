@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T06:29:37.204114+10:00",
+    "updated": "2026-04-19T07:28:33.689948+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -146,19 +146,6 @@
           "away_color": "0064b1"
         },
         {
-          "home": "Cleveland Cavaliers",
-          "away": "Toronto Raptors",
-          "date": "2026-04-18T17:00Z",
-          "home_prob": 66.7,
-          "margin": 30.2,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-          "home_color": "860038",
-          "away_color": "d91244"
-        },
-        {
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-18T19:30Z",
@@ -253,8 +240,8 @@
           "home": "Cleveland Cavaliers",
           "away": "Toronto Raptors",
           "date": "2026-04-20T23:00Z",
-          "home_prob": 66.7,
-          "margin": 30.2,
+          "home_prob": 68.5,
+          "margin": 33.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
@@ -370,8 +357,8 @@
           "home": "Toronto Raptors",
           "away": "Cleveland Cavaliers",
           "date": "2026-04-24T00:00Z",
-          "home_prob": 41.4,
-          "margin": 15.2,
+          "home_prob": 39.4,
+          "margin": 18.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
@@ -487,8 +474,8 @@
           "home": "Toronto Raptors",
           "away": "Cleveland Cavaliers",
           "date": "2026-04-26T17:00Z",
-          "home_prob": 41.4,
-          "margin": 15.2,
+          "home_prob": 39.4,
+          "margin": 18.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
@@ -630,8 +617,8 @@
           "home": "Cleveland Cavaliers",
           "away": "Toronto Raptors",
           "date": "2026-04-29T04:00Z",
-          "home_prob": 66.7,
-          "margin": 30.2,
+          "home_prob": 68.5,
+          "margin": 33.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
@@ -734,8 +721,8 @@
           "home": "Toronto Raptors",
           "away": "Cleveland Cavaliers",
           "date": "2026-05-01T04:00Z",
-          "home_prob": 41.4,
-          "margin": 15.2,
+          "home_prob": 39.4,
+          "margin": 18.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
@@ -844,12 +831,12 @@
           "elo": 1657
         },
         {
-          "team": "New York Knicks",
-          "elo": 1624
+          "team": "Cleveland Cavaliers",
+          "elo": 1626
         },
         {
-          "team": "Cleveland Cavaliers",
-          "elo": 1618
+          "team": "New York Knicks",
+          "elo": 1624
         },
         {
           "team": "Los Angeles Lakers",
@@ -889,7 +876,7 @@
         },
         {
           "team": "Toronto Raptors",
-          "elo": 1528
+          "elo": 1521
         },
         {
           "team": "Phoenix Suns",
@@ -916,6 +903,10 @@
           "elo": 1494
         },
         {
+          "team": "Team Candace",
+          "elo": 1492
+        },
+        {
           "team": "Ulm",
           "elo": 1492
         },
@@ -924,11 +915,7 @@
           "elo": 1492
         },
         {
-          "team": "Team Candace",
-          "elo": 1492
-        },
-        {
-          "team": "Melbourne United",
+          "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
@@ -936,7 +923,7 @@
           "elo": 1487
         },
         {
-          "team": "Melbourne Pnx",
+          "team": "Melbourne United",
           "elo": 1487
         },
         {
@@ -1494,11 +1481,11 @@
           "elo": 1546
         },
         {
-          "team": "Everton",
+          "team": "Brentford",
           "elo": 1534
         },
         {
-          "team": "Brentford",
+          "team": "Everton",
           "elo": 1534
         },
         {
@@ -1574,8 +1561,8 @@
           "home": "New York Yankees",
           "away": "Los Angeles Angels",
           "date": "2024-08-06T23:05Z",
-          "home_prob": 60.2,
-          "margin": 5.7,
+          "home_prob": 60.4,
+          "margin": 5.8,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -1587,8 +1574,8 @@
           "home": "New York Yankees",
           "away": "Texas Rangers",
           "date": "2024-08-09T23:05Z",
-          "home_prob": 56.4,
-          "margin": 3.6,
+          "home_prob": 56.6,
+          "margin": 3.7,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -1730,8 +1717,8 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2025-02-24T21:05Z",
-          "home_prob": 49.0,
-          "margin": 0.6,
+          "home_prob": 48.7,
+          "margin": 0.7,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
@@ -1886,8 +1873,8 @@
           "home": "Kansas City Royals",
           "away": "Colorado Rockies",
           "date": "2025-04-23T23:40Z",
-          "home_prob": 58.1,
-          "margin": 4.6,
+          "home_prob": 57.9,
+          "margin": 4.4,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -1925,8 +1912,8 @@
           "home": "New York Yankees",
           "away": "Toronto Blue Jays",
           "date": "2025-04-26T17:05Z",
-          "home_prob": 57.1,
-          "margin": 4.0,
+          "home_prob": 57.3,
+          "margin": 4.1,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -2081,8 +2068,8 @@
           "home": "St. Louis Cardinals",
           "away": "Kansas City Royals",
           "date": "2025-06-04T23:45Z",
-          "home_prob": 59.0,
-          "margin": 5.1,
+          "home_prob": 59.2,
+          "margin": 5.2,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
@@ -2198,8 +2185,8 @@
           "home": "Kansas City Royals",
           "away": "Cleveland Guardians",
           "date": "2025-07-26T00:10Z",
-          "home_prob": 47.4,
-          "margin": 1.4,
+          "home_prob": 47.2,
+          "margin": 1.5,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -2224,8 +2211,8 @@
           "home": "Baltimore Orioles",
           "away": "New York Yankees",
           "date": "2026-03-15T22:05Z",
-          "home_prob": 47.8,
-          "margin": 1.2,
+          "home_prob": 47.5,
+          "margin": 1.4,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
@@ -2276,8 +2263,8 @@
           "home": "Kansas City Royals",
           "away": "Milwaukee Brewers",
           "date": "2026-04-03T23:40Z",
-          "home_prob": 46.4,
-          "margin": 2.0,
+          "home_prob": 46.2,
+          "margin": 2.1,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -2297,19 +2284,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
           "home_color": "002b5c",
           "away_color": "0e3386"
-        },
-        {
-          "home": "New York Yankees",
-          "away": "Kansas City Royals",
-          "date": "2026-04-18T17:35Z",
-          "home_prob": 62.2,
-          "margin": 6.9,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-          "home_color": "132448",
-          "away_color": "004687"
         },
         {
           "home": "Minnesota Twins",
@@ -2510,8 +2484,8 @@
           "home": "New York Yankees",
           "away": "Kansas City Royals",
           "date": "2026-04-19T17:35Z",
-          "home_prob": 62.2,
-          "margin": 6.9,
+          "home_prob": 62.6,
+          "margin": 7.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -2757,8 +2731,8 @@
           "home": "Kansas City Royals",
           "away": "Baltimore Orioles",
           "date": "2026-04-20T23:40Z",
-          "home_prob": 50.6,
-          "margin": 0.3,
+          "home_prob": 50.3,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -2887,8 +2861,8 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-21T22:45Z",
-          "home_prob": 49.0,
-          "margin": 0.6,
+          "home_prob": 48.7,
+          "margin": 0.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
@@ -2913,8 +2887,8 @@
           "home": "Kansas City Royals",
           "away": "Baltimore Orioles",
           "date": "2026-04-21T23:40Z",
-          "home_prob": 50.6,
-          "margin": 0.3,
+          "home_prob": 50.3,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -3056,8 +3030,8 @@
           "home": "Kansas City Royals",
           "away": "Baltimore Orioles",
           "date": "2026-04-22T18:10Z",
-          "home_prob": 50.6,
-          "margin": 0.3,
+          "home_prob": 50.3,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -3121,8 +3095,8 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-22T22:45Z",
-          "home_prob": 49.0,
-          "margin": 0.6,
+          "home_prob": 48.7,
+          "margin": 0.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
@@ -3290,8 +3264,8 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-23T22:10Z",
-          "home_prob": 49.0,
-          "margin": 0.6,
+          "home_prob": 48.7,
+          "margin": 0.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
@@ -3407,8 +3381,8 @@
           "home": "Kansas City Royals",
           "away": "Los Angeles Angels",
           "date": "2026-04-24T23:40Z",
-          "home_prob": 51.4,
-          "margin": 0.8,
+          "home_prob": 51.2,
+          "margin": 0.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -3459,8 +3433,8 @@
           "home": "Houston Astros",
           "away": "New York Yankees",
           "date": "2026-04-25T00:10Z",
-          "home_prob": 47.3,
-          "margin": 1.5,
+          "home_prob": 47.1,
+          "margin": 1.6,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
@@ -3628,8 +3602,8 @@
           "home": "Kansas City Royals",
           "away": "Los Angeles Angels",
           "date": "2026-04-25T23:10Z",
-          "home_prob": 51.4,
-          "margin": 0.8,
+          "home_prob": 51.2,
+          "margin": 0.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -3641,8 +3615,8 @@
           "home": "Houston Astros",
           "away": "New York Yankees",
           "date": "2026-04-25T23:10Z",
-          "home_prob": 47.3,
-          "margin": 1.5,
+          "home_prob": 47.1,
+          "margin": 1.6,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
@@ -3784,8 +3758,8 @@
           "home": "Houston Astros",
           "away": "New York Yankees",
           "date": "2026-04-26T18:10Z",
-          "home_prob": 47.3,
-          "margin": 1.5,
+          "home_prob": 47.1,
+          "margin": 1.6,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
@@ -3888,8 +3862,8 @@
           "home": "Kansas City Royals",
           "away": "Los Angeles Angels",
           "date": "2026-04-26T23:20Z",
-          "home_prob": 51.4,
-          "margin": 0.8,
+          "home_prob": 51.2,
+          "margin": 0.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
@@ -3966,8 +3940,8 @@
           "home": "Texas Rangers",
           "away": "New York Yankees",
           "date": "2026-04-28T00:05Z",
-          "home_prob": 50.8,
-          "margin": 0.4,
+          "home_prob": 50.6,
+          "margin": 0.3,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
@@ -4148,8 +4122,8 @@
           "home": "Texas Rangers",
           "away": "New York Yankees",
           "date": "2026-04-29T00:05Z",
-          "home_prob": 50.8,
-          "margin": 0.4,
+          "home_prob": 50.6,
+          "margin": 0.3,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
@@ -4174,8 +4148,8 @@
           "home": "Athletics",
           "away": "Kansas City Royals",
           "date": "2026-04-29T01:40Z",
-          "home_prob": 57.0,
-          "margin": 3.9,
+          "home_prob": 57.2,
+          "margin": 4.0,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
@@ -4239,8 +4213,8 @@
           "home": "Texas Rangers",
           "away": "New York Yankees",
           "date": "2026-04-29T18:35Z",
-          "home_prob": 50.8,
-          "margin": 0.4,
+          "home_prob": 50.6,
+          "margin": 0.3,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
@@ -4382,8 +4356,8 @@
           "home": "Athletics",
           "away": "Kansas City Royals",
           "date": "2026-04-30T01:40Z",
-          "home_prob": 57.0,
-          "margin": 3.9,
+          "home_prob": 57.2,
+          "margin": 4.0,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
@@ -4486,8 +4460,8 @@
           "home": "Athletics",
           "away": "Kansas City Royals",
           "date": "2026-04-30T19:05Z",
-          "home_prob": 57.0,
-          "margin": 3.9,
+          "home_prob": 57.2,
+          "margin": 4.0,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
@@ -4564,8 +4538,8 @@
           "home": "New York Yankees",
           "away": "Baltimore Orioles",
           "date": "2026-05-01T23:05Z",
-          "home_prob": 59.3,
-          "margin": 5.2,
+          "home_prob": 59.5,
+          "margin": 5.4,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -4694,8 +4668,8 @@
           "home": "Seattle Mariners",
           "away": "Kansas City Royals",
           "date": "2026-05-02T01:40Z",
-          "home_prob": 56.1,
-          "margin": 3.4,
+          "home_prob": 56.3,
+          "margin": 3.5,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
@@ -4707,8 +4681,8 @@
           "home": "New York Yankees",
           "away": "Baltimore Orioles",
           "date": "2026-05-02T17:35Z",
-          "home_prob": 59.3,
-          "margin": 5.2,
+          "home_prob": 59.5,
+          "margin": 5.4,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
@@ -4889,8 +4863,8 @@
           "home": "Seattle Mariners",
           "away": "Kansas City Royals",
           "date": "2026-05-03T01:40Z",
-          "home_prob": 56.1,
-          "margin": 3.4,
+          "home_prob": 56.3,
+          "margin": 3.5,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
@@ -4906,7 +4880,7 @@
         },
         {
           "team": "New York Yankees",
-          "elo": 1534
+          "elo": 1535
         },
         {
           "team": "Atlanta Braves",
@@ -4949,7 +4923,7 @@
           "elo": 1509
         },
         {
-          "team": "Boston Red Sox",
+          "team": "Philadelphia Phillies",
           "elo": 1502
         },
         {
@@ -4957,8 +4931,12 @@
           "elo": 1502
         },
         {
-          "team": "Philadelphia Phillies",
+          "team": "Boston Red Sox",
           "elo": 1502
+        },
+        {
+          "team": "National All-Stars",
+          "elo": 1500
         },
         {
           "team": "Pittsburgh Pirates",
@@ -4966,10 +4944,6 @@
         },
         {
           "team": "American All-Stars",
-          "elo": 1500
-        },
-        {
-          "team": "National All-Stars",
           "elo": 1500
         },
         {
@@ -4989,11 +4963,11 @@
           "elo": 1493
         },
         {
-          "team": "Houston Astros",
+          "team": "Seattle Mariners",
           "elo": 1490
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Houston Astros",
           "elo": 1490
         },
         {
@@ -5001,11 +4975,11 @@
           "elo": 1489
         },
         {
-          "team": "New York Mets",
+          "team": "Tampa Bay Rays",
           "elo": 1488
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
@@ -5018,7 +4992,7 @@
         },
         {
           "team": "Kansas City Royals",
-          "elo": 1472
+          "elo": 1471
         },
         {
           "team": "Minnesota Twins",
@@ -5813,7 +5787,7 @@
           "elo": 1546
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1532
         },
         {
@@ -5821,7 +5795,7 @@
           "elo": 1532
         },
         {
-          "team": "Washington Capitals",
+          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
@@ -5853,16 +5827,12 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
-          "elo": 1501
-        },
-        {
           "team": "USA",
           "elo": 1501
         },
         {
-          "team": "St. Louis Blues",
-          "elo": 1500
+          "team": "Utah Mammoth",
+          "elo": 1501
         },
         {
           "team": "Utah Hockey Club",
@@ -5870,6 +5840,10 @@
         },
         {
           "team": "Sweden",
+          "elo": 1500
+        },
+        {
+          "team": "St. Louis Blues",
           "elo": 1500
         },
         {
@@ -5889,11 +5863,11 @@
           "elo": 1492
         },
         {
-          "team": "Philadelphia Flyers",
+          "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
-          "team": "Winnipeg Jets",
+          "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
@@ -5913,11 +5887,11 @@
           "elo": 1475
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
