@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T00:41:13.583816+10:00",
+    "updated": "2026-04-19T01:32:34.845133+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -928,15 +928,15 @@
           "elo": 1492
         },
         {
-          "team": "Hapoel Jerusalem",
-          "elo": 1487
-        },
-        {
           "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
           "team": "Melbourne United",
+          "elo": 1487
+        },
+        {
+          "team": "Hapoel Jerusalem",
           "elo": 1487
         },
         {
@@ -1539,11 +1539,11 @@
           "elo": 1544
         },
         {
-          "team": "Brentford",
+          "team": "Everton",
           "elo": 1534
         },
         {
-          "team": "Everton",
+          "team": "Brentford",
           "elo": 1534
         },
         {
@@ -4974,11 +4974,11 @@
           "elo": 1514
         },
         {
-          "team": "San Francisco Giants",
+          "team": "Arizona Diamondbacks",
           "elo": 1512
         },
         {
-          "team": "Arizona Diamondbacks",
+          "team": "San Francisco Giants",
           "elo": 1512
         },
         {
@@ -4994,10 +4994,6 @@
           "elo": 1509
         },
         {
-          "team": "Cincinnati Reds",
-          "elo": 1502
-        },
-        {
           "team": "Philadelphia Phillies",
           "elo": 1502
         },
@@ -5006,11 +5002,15 @@
           "elo": 1502
         },
         {
-          "team": "American All-Stars",
-          "elo": 1500
+          "team": "Cincinnati Reds",
+          "elo": 1502
         },
         {
           "team": "Pittsburgh Pirates",
+          "elo": 1500
+        },
+        {
+          "team": "American All-Stars",
           "elo": 1500
         },
         {
@@ -5034,11 +5034,11 @@
           "elo": 1493
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Houston Astros",
           "elo": 1490
         },
         {
-          "team": "Houston Astros",
+          "team": "Seattle Mariners",
           "elo": 1490
         },
         {
@@ -5046,11 +5046,11 @@
           "elo": 1489
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
-          "team": "New York Mets",
+          "team": "Tampa Bay Rays",
           "elo": 1488
         },
         {
@@ -5858,7 +5858,7 @@
           "elo": 1546
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1532
         },
         {
@@ -5866,7 +5866,7 @@
           "elo": 1532
         },
         {
-          "team": "Washington Capitals",
+          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
@@ -5898,11 +5898,11 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
+          "team": "USA",
           "elo": 1501
         },
         {
-          "team": "USA",
+          "team": "Utah Mammoth",
           "elo": 1501
         },
         {
@@ -5910,11 +5910,11 @@
           "elo": 1500
         },
         {
-          "team": "Sweden",
+          "team": "St. Louis Blues",
           "elo": 1500
         },
         {
-          "team": "St. Louis Blues",
+          "team": "Sweden",
           "elo": 1500
         },
         {
@@ -5958,11 +5958,11 @@
           "elo": 1475
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
