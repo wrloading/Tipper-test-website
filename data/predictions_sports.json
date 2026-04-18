@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T18:42:45.413978+10:00",
+    "updated": "2026-04-18T19:41:52.538556+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -928,7 +928,7 @@
           "elo": 1492
         },
         {
-          "team": "Melbourne United",
+          "team": "Hapoel Jerusalem",
           "elo": 1487
         },
         {
@@ -936,7 +936,7 @@
           "elo": 1487
         },
         {
-          "team": "Hapoel Jerusalem",
+          "team": "Melbourne United",
           "elo": 1487
         },
         {
@@ -4973,11 +4973,11 @@
           "elo": 1530
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
@@ -5009,6 +5009,10 @@
           "elo": 1509
         },
         {
+          "team": "Boston Red Sox",
+          "elo": 1502
+        },
+        {
           "team": "Philadelphia Phillies",
           "elo": 1502
         },
@@ -5017,15 +5021,11 @@
           "elo": 1502
         },
         {
-          "team": "Boston Red Sox",
-          "elo": 1502
-        },
-        {
-          "team": "American All-Stars",
+          "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "American All-Stars",
           "elo": 1500
         },
         {
@@ -5873,15 +5873,15 @@
           "elo": 1546
         },
         {
-          "team": "Montreal Canadiens",
-          "elo": 1532
-        },
-        {
           "team": "Washington Capitals",
           "elo": 1532
         },
         {
           "team": "Ottawa Senators",
+          "elo": 1532
+        },
+        {
+          "team": "Montreal Canadiens",
           "elo": 1532
         },
         {
@@ -5925,11 +5925,11 @@
           "elo": 1500
         },
         {
-          "team": "Utah Hockey Club",
+          "team": "Sweden",
           "elo": 1500
         },
         {
-          "team": "Sweden",
+          "team": "Utah Hockey Club",
           "elo": 1500
         },
         {
@@ -5949,11 +5949,11 @@
           "elo": 1492
         },
         {
-          "team": "Philadelphia Flyers",
+          "team": "Columbus Blue Jackets",
           "elo": 1492
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
@@ -5973,11 +5973,11 @@
           "elo": 1475
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
@@ -6028,7 +6028,7 @@
           "away_prob": 24.3,
           "margin": 20.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5322.png",
           "home_color": "87cefa",
