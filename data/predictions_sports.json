@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T17:35:30.112685+10:00",
+    "updated": "2026-04-18T17:56:46.084954+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -916,7 +916,7 @@
           "elo": 1494
         },
         {
-          "team": "Team Candace",
+          "team": "Ulm",
           "elo": 1492
         },
         {
@@ -924,7 +924,7 @@
           "elo": 1492
         },
         {
-          "team": "Ulm",
+          "team": "Team Candace",
           "elo": 1492
         },
         {
@@ -932,11 +932,11 @@
           "elo": 1487
         },
         {
-          "team": "Melbourne Pnx",
+          "team": "Hapoel Jerusalem",
           "elo": 1487
         },
         {
-          "team": "Hapoel Jerusalem",
+          "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
@@ -4973,11 +4973,11 @@
           "elo": 1530
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
@@ -4989,15 +4989,15 @@
           "elo": 1514
         },
         {
-          "team": "Chicago Cubs",
-          "elo": 1512
-        },
-        {
           "team": "San Francisco Giants",
           "elo": 1512
         },
         {
           "team": "Arizona Diamondbacks",
+          "elo": 1512
+        },
+        {
+          "team": "Chicago Cubs",
           "elo": 1512
         },
         {
@@ -5009,6 +5009,10 @@
           "elo": 1509
         },
         {
+          "team": "Cincinnati Reds",
+          "elo": 1502
+        },
+        {
           "team": "Boston Red Sox",
           "elo": 1502
         },
@@ -5017,19 +5021,15 @@
           "elo": 1502
         },
         {
-          "team": "Cincinnati Reds",
-          "elo": 1502
-        },
-        {
           "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
-          "team": "American All-Stars",
+          "team": "National All-Stars",
           "elo": 1500
         },
         {
-          "team": "National All-Stars",
+          "team": "American All-Stars",
           "elo": 1500
         },
         {
@@ -5873,11 +5873,11 @@
           "elo": 1546
         },
         {
-          "team": "Washington Capitals",
+          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1532
         },
         {
