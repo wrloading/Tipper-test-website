@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-18T21:30:16.084284+10:00",
+    "updated": "2026-04-18T22:45:00.922631+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -920,15 +920,15 @@
           "elo": 1492
         },
         {
-          "team": "Team Candace",
-          "elo": 1492
-        },
-        {
           "team": "Ulm",
           "elo": 1492
         },
         {
-          "team": "Melbourne United",
+          "team": "Team Candace",
+          "elo": 1492
+        },
+        {
+          "team": "Melbourne Pnx",
           "elo": 1487
         },
         {
@@ -936,7 +936,7 @@
           "elo": 1487
         },
         {
-          "team": "Melbourne Pnx",
+          "team": "Melbourne United",
           "elo": 1487
         },
         {
@@ -4973,11 +4973,11 @@
           "elo": 1530
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
@@ -4989,15 +4989,15 @@
           "elo": 1514
         },
         {
-          "team": "Chicago Cubs",
-          "elo": 1512
-        },
-        {
           "team": "San Francisco Giants",
           "elo": 1512
         },
         {
           "team": "Arizona Diamondbacks",
+          "elo": 1512
+        },
+        {
+          "team": "Chicago Cubs",
           "elo": 1512
         },
         {
@@ -5009,10 +5009,6 @@
           "elo": 1509
         },
         {
-          "team": "Boston Red Sox",
-          "elo": 1502
-        },
-        {
           "team": "Cincinnati Reds",
           "elo": 1502
         },
@@ -5021,15 +5017,19 @@
           "elo": 1502
         },
         {
+          "team": "Boston Red Sox",
+          "elo": 1502
+        },
+        {
+          "team": "National All-Stars",
+          "elo": 1500
+        },
+        {
           "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
           "team": "American All-Stars",
-          "elo": 1500
-        },
-        {
-          "team": "National All-Stars",
           "elo": 1500
         },
         {
@@ -5061,11 +5061,11 @@
           "elo": 1489
         },
         {
-          "team": "New York Mets",
+          "team": "Tampa Bay Rays",
           "elo": 1488
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
@@ -5873,7 +5873,7 @@
           "elo": 1546
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Montreal Canadiens",
           "elo": 1532
         },
         {
@@ -5881,7 +5881,7 @@
           "elo": 1532
         },
         {
-          "team": "Montreal Canadiens",
+          "team": "Ottawa Senators",
           "elo": 1532
         },
         {
@@ -5925,11 +5925,11 @@
           "elo": 1500
         },
         {
-          "team": "Utah Hockey Club",
+          "team": "Sweden",
           "elo": 1500
         },
         {
-          "team": "Sweden",
+          "team": "Utah Hockey Club",
           "elo": 1500
         },
         {
@@ -5945,15 +5945,15 @@
           "elo": 1494
         },
         {
-          "team": "Winnipeg Jets",
-          "elo": 1492
-        },
-        {
           "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
           "team": "Columbus Blue Jackets",
+          "elo": 1492
+        },
+        {
+          "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
