@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T03:32:09.704097+10:00",
+    "updated": "2026-04-19T04:38:19.945049+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -916,15 +916,15 @@
           "elo": 1494
         },
         {
+          "team": "Team Kenny",
+          "elo": 1492
+        },
+        {
           "team": "Ulm",
           "elo": 1492
         },
         {
           "team": "Team Candace",
-          "elo": 1492
-        },
-        {
-          "team": "Team Kenny",
           "elo": 1492
         },
         {
@@ -2320,7 +2320,7 @@
           "home_prob": 62.2,
           "margin": 6.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
           "home_color": "132448",
@@ -2333,7 +2333,7 @@
           "home_prob": 49.1,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
           "home_color": "031f40",
@@ -2346,11 +2346,24 @@
           "home_prob": 57.0,
           "margin": 3.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
           "home_color": "0e3386",
           "away_color": "002d72"
+        },
+        {
+          "home": "Pittsburgh Pirates",
+          "away": "Tampa Bay Rays",
+          "date": "2026-04-18T19:30Z",
+          "home_prob": 55.4,
+          "margin": 3.0,
+          "home_fav": true,
+          "locked": false,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+          "home_color": "000000",
+          "away_color": "092c5c"
         },
         {
           "home": "Washington Nationals",
@@ -2364,19 +2377,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
           "home_color": "ab0003",
           "away_color": "000000"
-        },
-        {
-          "home": "Pittsburgh Pirates",
-          "away": "Tampa Bay Rays",
-          "date": "2026-04-18T20:05Z",
-          "home_prob": 55.4,
-          "margin": 3.0,
-          "home_fav": true,
-          "locked": false,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-          "home_color": "000000",
-          "away_color": "092c5c"
         },
         {
           "home": "Athletics",
@@ -4928,11 +4928,11 @@
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "San Diego Padres",
           "elo": 1522
         },
         {
-          "team": "San Diego Padres",
+          "team": "Milwaukee Brewers",
           "elo": 1522
         },
         {
@@ -4948,11 +4948,11 @@
           "elo": 1512
         },
         {
-          "team": "Chicago Cubs",
+          "team": "Arizona Diamondbacks",
           "elo": 1512
         },
         {
-          "team": "Arizona Diamondbacks",
+          "team": "Chicago Cubs",
           "elo": 1512
         },
         {
@@ -4968,15 +4968,15 @@
           "elo": 1502
         },
         {
-          "team": "Philadelphia Phillies",
-          "elo": 1502
-        },
-        {
           "team": "Boston Red Sox",
           "elo": 1502
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "Philadelphia Phillies",
+          "elo": 1502
+        },
+        {
+          "team": "National All-Stars",
           "elo": 1500
         },
         {
@@ -4984,7 +4984,7 @@
           "elo": 1500
         },
         {
-          "team": "National All-Stars",
+          "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
@@ -5828,15 +5828,15 @@
           "elo": 1546
         },
         {
+          "team": "Montreal Canadiens",
+          "elo": 1532
+        },
+        {
           "team": "Ottawa Senators",
           "elo": 1532
         },
         {
           "team": "Washington Capitals",
-          "elo": 1532
-        },
-        {
-          "team": "Montreal Canadiens",
           "elo": 1532
         },
         {
@@ -5904,11 +5904,11 @@
           "elo": 1492
         },
         {
-          "team": "Winnipeg Jets",
+          "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
-          "team": "Philadelphia Flyers",
+          "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
@@ -5928,11 +5928,11 @@
           "elo": 1475
         },
         {
-          "team": "Calgary Flames",
+          "team": "Nashville Predators",
           "elo": 1473
         },
         {
-          "team": "Nashville Predators",
+          "team": "Calgary Flames",
           "elo": 1473
         },
         {
