@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T08:27:47.767003+10:00",
+    "updated": "2026-04-19T09:28:50.650939+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -110,8 +110,8 @@
           "home": "Minnesota Timberwolves",
           "away": "Golden State Warriors",
           "date": "2026-01-24T22:30Z",
-          "home_prob": 71.8,
-          "margin": 40.7,
+          "home_prob": 71.0,
+          "margin": 38.9,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
@@ -123,8 +123,8 @@
           "home": "Memphis Grizzlies",
           "away": "Denver Nuggets",
           "date": "2026-01-25T20:30Z",
-          "home_prob": 13.5,
-          "margin": 80.5,
+          "home_prob": 13.1,
+          "margin": 82.3,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
@@ -144,19 +144,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
           "home_color": "00471b",
           "away_color": "0064b1"
-        },
-        {
-          "home": "Denver Nuggets",
-          "away": "Minnesota Timberwolves",
-          "date": "2026-04-18T19:30Z",
-          "home_prob": 66.2,
-          "margin": 29.1,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-          "home_color": "0e2240",
-          "away_color": "266092"
         },
         {
           "home": "New York Knicks",
@@ -266,8 +253,8 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-21T02:30Z",
-          "home_prob": 66.2,
-          "margin": 29.1,
+          "home_prob": 68.0,
+          "margin": 32.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -370,8 +357,8 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-24T01:30Z",
-          "home_prob": 41.9,
-          "margin": 14.1,
+          "home_prob": 40.0,
+          "margin": 17.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
@@ -461,8 +448,8 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-26T00:30Z",
-          "home_prob": 41.9,
-          "margin": 14.1,
+          "home_prob": 40.0,
+          "margin": 17.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
@@ -539,8 +526,8 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-27T04:00Z",
-          "home_prob": 66.2,
-          "margin": 29.1,
+          "home_prob": 68.0,
+          "margin": 32.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -682,8 +669,8 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-30T04:00Z",
-          "home_prob": 41.9,
-          "margin": 14.1,
+          "home_prob": 40.0,
+          "margin": 17.7,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
@@ -786,8 +773,8 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-02T04:00Z",
-          "home_prob": 66.2,
-          "margin": 29.1,
+          "home_prob": 68.0,
+          "margin": 32.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -823,12 +810,12 @@
           "elo": 1677
         },
         {
-          "team": "Detroit Pistons",
-          "elo": 1663
+          "team": "Denver Nuggets",
+          "elo": 1664
         },
         {
-          "team": "Denver Nuggets",
-          "elo": 1657
+          "team": "Detroit Pistons",
+          "elo": 1663
         },
         {
           "team": "Cleveland Cavaliers",
@@ -856,7 +843,7 @@
         },
         {
           "team": "Minnesota Timberwolves",
-          "elo": 1571
+          "elo": 1564
         },
         {
           "team": "Orlando Magic",
@@ -907,12 +894,16 @@
           "elo": 1492
         },
         {
+          "team": "Team Kenny",
+          "elo": 1492
+        },
+        {
           "team": "Ulm",
           "elo": 1492
         },
         {
-          "team": "Team Kenny",
-          "elo": 1492
+          "team": "Melbourne United",
+          "elo": 1487
         },
         {
           "team": "Melbourne Pnx",
@@ -920,10 +911,6 @@
         },
         {
           "team": "Hapoel Jerusalem",
-          "elo": 1487
-        },
-        {
-          "team": "Melbourne United",
           "elo": 1487
         },
         {
@@ -1466,11 +1453,11 @@
           "elo": 1545
         },
         {
-          "team": "Brentford",
+          "team": "Everton",
           "elo": 1534
         },
         {
-          "team": "Everton",
+          "team": "Brentford",
           "elo": 1534
         },
         {
@@ -2355,7 +2342,7 @@
           "home_prob": 50.7,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
           "home_color": "002d62",
@@ -2368,7 +2355,7 @@
           "home_prob": 49.6,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
           "home_color": "e81828",
@@ -2381,7 +2368,7 @@
           "home_prob": 50.1,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
           "home_color": "005c5c",
@@ -4894,7 +4881,7 @@
           "elo": 1502
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "National All-Stars",
           "elo": 1500
         },
         {
@@ -4902,7 +4889,7 @@
           "elo": 1500
         },
         {
-          "team": "National All-Stars",
+          "team": "Pittsburgh Pirates",
           "elo": 1500
         },
         {
@@ -5012,8 +4999,8 @@
           "home": "Tampa Bay Lightning",
           "away": "Carolina Hurricanes",
           "date": "2024-10-12T23:00Z",
-          "home_prob": 52.3,
-          "margin": 1.6,
+          "home_prob": 51.9,
+          "margin": 1.3,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
@@ -5046,19 +5033,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
           "home_color": "002d62",
           "away_color": "121212"
-        },
-        {
-          "home": "Carolina Hurricanes",
-          "away": "Ottawa Senators",
-          "date": "2026-04-18T19:00Z",
-          "home_prob": 56.0,
-          "margin": 4.2,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
-          "home_color": "e30426",
-          "away_color": "dd1a32"
         },
         {
           "home": "Dallas Stars",
@@ -5155,8 +5129,8 @@
           "home": "Carolina Hurricanes",
           "away": "Ottawa Senators",
           "date": "2026-04-20T23:30Z",
-          "home_prob": 56.0,
-          "margin": 4.2,
+          "home_prob": 56.8,
+          "margin": 4.8,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
@@ -5298,8 +5272,8 @@
           "home": "Ottawa Senators",
           "away": "Carolina Hurricanes",
           "date": "2026-04-23T23:30Z",
-          "home_prob": 49.7,
-          "margin": 0.2,
+          "home_prob": 48.9,
+          "margin": 0.8,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
@@ -5363,8 +5337,8 @@
           "home": "Ottawa Senators",
           "away": "Carolina Hurricanes",
           "date": "2026-04-25T19:00Z",
-          "home_prob": 49.7,
-          "margin": 0.2,
+          "home_prob": 48.9,
+          "margin": 0.8,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
@@ -5467,8 +5441,8 @@
           "home": "Carolina Hurricanes",
           "away": "Ottawa Senators",
           "date": "2026-04-27T04:00Z",
-          "home_prob": 56.0,
-          "margin": 4.2,
+          "home_prob": 56.8,
+          "margin": 4.8,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
@@ -5610,8 +5584,8 @@
           "home": "Ottawa Senators",
           "away": "Carolina Hurricanes",
           "date": "2026-04-30T04:00Z",
-          "home_prob": 49.7,
-          "margin": 0.2,
+          "home_prob": 48.9,
+          "margin": 0.8,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
@@ -5701,8 +5675,8 @@
           "home": "Carolina Hurricanes",
           "away": "Ottawa Senators",
           "date": "2026-05-02T04:00Z",
-          "home_prob": 56.0,
-          "margin": 4.2,
+          "home_prob": 56.8,
+          "margin": 4.8,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
@@ -5730,12 +5704,12 @@
           "elo": 1574
         },
         {
-          "team": "Dallas Stars",
-          "elo": 1555
+          "team": "Carolina Hurricanes",
+          "elo": 1557
         },
         {
-          "team": "Carolina Hurricanes",
-          "elo": 1554
+          "team": "Dallas Stars",
+          "elo": 1555
         },
         {
           "team": "Tampa Bay Lightning",
@@ -5746,7 +5720,7 @@
           "elo": 1546
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1532
         },
         {
@@ -5754,8 +5728,8 @@
           "elo": 1532
         },
         {
-          "team": "Washington Capitals",
-          "elo": 1532
+          "team": "Ottawa Senators",
+          "elo": 1529
         },
         {
           "team": "Minnesota Wild",
@@ -5794,11 +5768,11 @@
           "elo": 1501
         },
         {
-          "team": "Sweden",
+          "team": "St. Louis Blues",
           "elo": 1500
         },
         {
-          "team": "St. Louis Blues",
+          "team": "Sweden",
           "elo": 1500
         },
         {
@@ -5818,11 +5792,11 @@
           "elo": 1494
         },
         {
-          "team": "Winnipeg Jets",
+          "team": "Philadelphia Flyers",
           "elo": 1492
         },
         {
-          "team": "Philadelphia Flyers",
+          "team": "Winnipeg Jets",
           "elo": 1492
         },
         {
