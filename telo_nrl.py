@@ -27,7 +27,7 @@ ESPN_PATH = "rugby-league/nrl"
 LABEL     = "NRL TELO v1.0"
 
 K         = 32.0   # high — 27-game season, each result matters
-HGA       = 50.0   # strong — crowd noise and travel in Australia is significant
+HGA       = 55.0   # NRL home win rate ~58% → 55 ELO pts calibrated
 REGRESS   = 0.25   # moderate — squad changes each off-season
 HISTORY   = 20     # months of history
 MARGIN_SCALE = 0.022  # high-scoring: moderate scale
@@ -98,7 +98,8 @@ def build_predictions() -> dict:
         home_elo = ratings.get(home, INITIAL_ELO)
         away_elo = ratings.get(away, INITIAL_ELO)
         h_prob   = round(win_prob(home_elo, away_elo, HGA) * 100, 1)
-        margin   = round(abs(home_elo - away_elo + HGA) * 0.25, 1)
+        # Scale: equal teams → ~4 pt HGA; 100-ELO mismatch → ~12 pts total
+        margin   = round(abs(home_elo - away_elo + HGA) * 0.073, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,

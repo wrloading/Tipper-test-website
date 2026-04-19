@@ -28,11 +28,10 @@ ESPN_PATH = "basketball/nba"
 LABEL     = "NBA TELO v1.0"
 
 K         = 20.0   # moderate — 82-game season, each game matters but not hugely
-HGA       = 30.0   # real but smaller than contact sports
+HGA       = 70.0   # NBA home win rate ~59% historically → 70 ELO pts calibrated
 REGRESS   = 0.20   # mild regression — NBA rosters are stable franchise-to-franchise
 HISTORY   = 20     # months of ESPN history to train on
-# NBA games can be decided by 30-40 pts; use a slightly higher margin scale
-MARGIN_SCALE = 0.020
+MARGIN_SCALE = 0.020  # log-scaled; NBA blowouts (30+ pts) give modest ~7% multiplier
 
 
 def update_elo(
@@ -101,7 +100,8 @@ def build_predictions() -> dict:
         home_elo = ratings.get(home, INITIAL_ELO)
         away_elo = ratings.get(away, INITIAL_ELO)
         h_prob   = round(win_prob(home_elo, away_elo, HGA) * 100, 1)
-        margin   = round(abs(home_elo - away_elo + HGA) * 0.25, 1)
+        # Scale: equal teams → ~2.5 pts from HGA; 100-ELO mismatch → ~6 pts total
+        margin   = round(abs(home_elo - away_elo + HGA) * 0.036, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,

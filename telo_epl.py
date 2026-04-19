@@ -37,14 +37,14 @@ ESPN_PATH = "soccer/eng.1"
 LABEL     = "EPL TELO v1.0 (3-outcome)"
 
 K           = 20.0   # moderate — 38-game season
-HGA         = 40.0   # meaningful advantage at home in English football
+HGA         = 80.0   # EPL home win rate ~46%, draw ~26% → 80 ELO pts calibrated
 REGRESS     = 0.15   # lowest regression — clubs very stable year-to-year in EPL
 HISTORY     = 22     # months (covers full season + following pre-season)
 MARGIN_SCALE = 0.018  # low-scoring sport: moderate margin sensitivity
 
 # 3-outcome draw model
 BASE_DRAW_RATE = 0.26  # EPL empirical draw frequency ~26%
-DRAW_SCALE     = 240.0  # ELO half-width where draw probability halves
+DRAW_SCALE     = 280.0  # ELO half-width where draw probability halves (wider with higher HGA)
 
 
 # ── 3-outcome soccer probability model ────────────────────────────────────────
@@ -144,7 +144,8 @@ def build_predictions() -> dict:
         h_prob         = round(p_home * 100, 1)
         d_prob         = round(p_draw * 100, 1)
         a_prob         = round(p_away * 100, 1)
-        margin         = round(abs(home_elo - away_elo + HGA) * 0.15, 1)  # goals, not pts
+        # Scale: equal teams → ~0.4 goal HGA; 100-ELO mismatch → ~0.9 goal total
+        margin         = round(abs(home_elo - away_elo + HGA) * 0.005, 1)  # goals
         upcoming_out.append({
             "home":       home,
             "away":       away,

@@ -33,7 +33,7 @@ ESPN_PATH = "soccer/aus.1"
 LABEL     = "A-League TELO v1.0 (3-outcome)"
 
 K           = 32.0   # high — 27-round season, smaller league, more volatile
-HGA         = 40.0   # meaningful home advantage
+HGA         = 75.0   # A-League home win rate ~44% → 75 ELO pts calibrated
 REGRESS     = 0.25   # moderate — squad quality shifts between seasons
 HISTORY     = 22     # months
 
@@ -41,7 +41,7 @@ MARGIN_SCALE   = 0.018  # soccer: low-scoring, moderate goal sensitivity
 
 # 3-outcome draw model (tuned for A-League)
 BASE_DRAW_RATE = 0.28   # A-League empirical draw frequency slightly higher than EPL
-DRAW_SCALE     = 220.0  # narrower draw band than EPL — more decisive outcomes
+DRAW_SCALE     = 260.0  # draw band width (wider to match higher HGA)
 
 
 # ── 3-outcome soccer probability model ────────────────────────────────────────
@@ -133,7 +133,8 @@ def build_predictions() -> dict:
         h_prob              = round(p_home * 100, 1)
         d_prob              = round(p_draw * 100, 1)
         a_prob              = round(p_away * 100, 1)
-        margin              = round(abs(home_elo - away_elo + HGA) * 0.15, 1)
+        # Scale: equal teams → ~0.4 goal HGA; 100-ELO mismatch → ~0.9 goal total
+        margin              = round(abs(home_elo - away_elo + HGA) * 0.005, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,

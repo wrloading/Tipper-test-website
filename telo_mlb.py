@@ -28,7 +28,7 @@ ESPN_PATH = "baseball/mlb"
 LABEL     = "MLB TELO v1.0"
 
 K         = 4.0    # very low — over 162 games each result carries small weight
-HGA       = 25.0   # modest — familiar ballpark, no cross-country travel
+HGA       = 30.0   # MLB home win rate ~54% historically → 30 ELO pts calibrated
 REGRESS   = 0.30   # strong — trades, FA, and pitching rotations shift teams significantly
 HISTORY   = 20     # months
 
@@ -101,8 +101,8 @@ def build_predictions() -> dict:
         home_elo = ratings.get(home, INITIAL_ELO)
         away_elo = ratings.get(away, INITIAL_ELO)
         h_prob   = round(win_prob(home_elo, away_elo, HGA) * 100, 1)
-        # Margin in runs (not points); scale down accordingly
-        margin   = round(abs(home_elo - away_elo + HGA) * 0.08, 1)
+        # Scale: equal teams → ~0.35 run HGA; 100-ELO mismatch → ~1.3 runs total
+        margin   = round(abs(home_elo - away_elo + HGA) * 0.012, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,

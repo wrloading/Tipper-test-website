@@ -100,7 +100,8 @@ def build_predictions() -> dict:
         home_elo = ratings.get(home, INITIAL_ELO)
         away_elo = ratings.get(away, INITIAL_ELO)
         h_prob   = round(win_prob(home_elo, away_elo, HGA) * 100, 1)
-        margin   = round(abs(home_elo - away_elo + HGA) * 0.25, 1)
+        # Scale: equal teams → ~3 pt HGA; 100-ELO mismatch → ~8.5 pts total
+        margin   = round(abs(home_elo - away_elo + HGA) * 0.055, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,

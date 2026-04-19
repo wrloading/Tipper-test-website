@@ -33,7 +33,7 @@ ESPN_PATH = "hockey/nhl"
 LABEL     = "NHL TELO v1.0 (OT-adjusted)"
 
 K         = 6.0    # low — 82-game season, low-scoring sport, high variance per game
-HGA       = 20.0   # modest — NHL arenas are uniform; travel matters somewhat
+HGA       = 30.0   # NHL home win rate ~54% historically → 30 ELO pts calibrated
 REGRESS   = 0.25   # moderate
 HISTORY   = 20     # months
 
@@ -118,8 +118,8 @@ def build_predictions() -> dict:
         home_elo = ratings.get(home, INITIAL_ELO)
         away_elo = ratings.get(away, INITIAL_ELO)
         h_prob   = round(win_prob(home_elo, away_elo, HGA) * 100, 1)
-        # Margin in goals — scale down significantly from points-based sports
-        margin   = round(abs(home_elo - away_elo + HGA) * 0.10, 1)
+        # Scale: equal teams → ~0.25 goal HGA; 100-ELO mismatch → ~1.1 goal total
+        margin   = round(abs(home_elo - away_elo + HGA) * 0.008, 1)
         upcoming_out.append({
             "home":       home,
             "away":       away,
