@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T19:41:11.014801+10:00",
+    "updated": "2026-04-19T20:33:55.551122+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -875,19 +875,19 @@
           "elo": 1528
         },
         {
-          "team": "Toronto Raptors",
-          "elo": 1517
-        },
-        {
           "team": "Team Shaq",
           "elo": 1517
         },
         {
-          "team": "Phoenix Suns",
-          "elo": 1513
+          "team": "Toronto Raptors",
+          "elo": 1517
         },
         {
           "team": "Team Stars",
+          "elo": 1513
+        },
+        {
+          "team": "Phoenix Suns",
           "elo": 1513
         },
         {
@@ -895,11 +895,11 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
+          "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Chuck",
+          "team": "Miami Heat",
           "elo": 1497
         },
         {
@@ -947,11 +947,11 @@
           "elo": 1305
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
@@ -2597,11 +2597,11 @@
           "elo": 1546
         },
         {
-          "team": "Everton",
+          "team": "Brentford",
           "elo": 1534
         },
         {
-          "team": "Brentford",
+          "team": "Everton",
           "elo": 1534
         },
         {
@@ -6055,15 +6055,15 @@
           "elo": 1513
         },
         {
+          "team": "Cincinnati Reds",
+          "elo": 1510
+        },
+        {
           "team": "Toronto Blue Jays",
           "elo": 1510
         },
         {
           "team": "Seattle Mariners",
-          "elo": 1510
-        },
-        {
-          "team": "Cincinnati Reds",
           "elo": 1510
         },
         {
@@ -9633,15 +9633,15 @@
           "elo": 1506
         },
         {
+          "team": "St. Louis Blues",
+          "elo": 1505
+        },
+        {
           "team": "Utah Mammoth",
           "elo": 1505
         },
         {
           "team": "Boston Bruins",
-          "elo": 1505
-        },
-        {
-          "team": "St. Louis Blues",
           "elo": 1505
         },
         {
@@ -9661,19 +9661,19 @@
           "elo": 1499
         },
         {
-          "team": "Pittsburgh Penguins",
-          "elo": 1497
-        },
-        {
           "team": "Utah Hockey Club",
           "elo": 1497
         },
         {
-          "team": "Finland",
-          "elo": 1496
+          "team": "Pittsburgh Penguins",
+          "elo": 1497
         },
         {
           "team": "Columbus Blue Jackets",
+          "elo": 1496
+        },
+        {
+          "team": "Finland",
           "elo": 1496
         },
         {
@@ -9689,11 +9689,11 @@
           "elo": 1492
         },
         {
-          "team": "New Jersey Devils",
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
-          "team": "New York Islanders",
+          "team": "New Jersey Devils",
           "elo": 1487
         },
         {
@@ -9701,11 +9701,11 @@
           "elo": 1482
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
