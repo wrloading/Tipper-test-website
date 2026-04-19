@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-20T01:32:41.996361+10:00",
+    "updated": "2026-04-20T02:32:21.700792+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -875,11 +875,11 @@
           "elo": 1528
         },
         {
-          "team": "Toronto Raptors",
+          "team": "Team Shaq",
           "elo": 1517
         },
         {
-          "team": "Team Shaq",
+          "team": "Toronto Raptors",
           "elo": 1517
         },
         {
@@ -903,11 +903,11 @@
           "elo": 1497
         },
         {
-          "team": "Team Candace",
+          "team": "Team Kenny",
           "elo": 1493
         },
         {
-          "team": "Team Kenny",
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -947,11 +947,11 @@
           "elo": 1305
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
@@ -2133,11 +2133,11 @@
           "elo": 1528
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
@@ -2218,51 +2218,6 @@
     "epl": {
       "upcoming": [
         {
-          "home": "Aston Villa",
-          "away": "Sunderland",
-          "date": "2026-04-19T13:00Z",
-          "home_prob": 53.5,
-          "draw_prob": 22.9,
-          "away_prob": 23.7,
-          "margin": 0.7,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-          "home_color": "660e36",
-          "away_color": "EB172B"
-        },
-        {
-          "home": "Everton",
-          "away": "Liverpool",
-          "date": "2026-04-19T13:00Z",
-          "home_prob": 39.2,
-          "draw_prob": 25.9,
-          "away_prob": 34.9,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-          "home_color": "0606fa",
-          "away_color": "d11317"
-        },
-        {
-          "home": "Nottingham Forest",
-          "away": "Burnley",
-          "date": "2026-04-19T13:00Z",
-          "home_prob": 57.5,
-          "draw_prob": 21.4,
-          "away_prob": 21.1,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
-          "home_color": "c8102e",
-          "away_color": "6C1D45"
-        },
-        {
           "home": "Manchester City",
           "away": "Arsenal",
           "date": "2026-04-19T15:30Z",
@@ -2326,10 +2281,10 @@
           "home": "Burnley",
           "away": "Manchester City",
           "date": "2026-04-22T19:00Z",
-          "home_prob": 20.0,
-          "draw_prob": 20.7,
-          "away_prob": 59.2,
-          "margin": 0.9,
+          "home_prob": 19.6,
+          "draw_prob": 20.4,
+          "away_prob": 60.0,
+          "margin": 1.0,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
@@ -2341,10 +2296,10 @@
           "home": "Sunderland",
           "away": "Nottingham Forest",
           "date": "2026-04-24T19:00Z",
-          "home_prob": 50.6,
-          "draw_prob": 23.8,
-          "away_prob": 25.6,
-          "margin": 0.6,
+          "home_prob": 49.0,
+          "draw_prob": 24.2,
+          "away_prob": 26.8,
+          "margin": 0.5,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
@@ -2356,11 +2311,11 @@
           "home": "Fulham",
           "away": "Aston Villa",
           "date": "2026-04-25T11:30Z",
-          "home_prob": 37.1,
+          "home_prob": 36.4,
           "draw_prob": 26.0,
-          "away_prob": 36.9,
+          "away_prob": 37.6,
           "margin": 0.0,
-          "home_fav": true,
+          "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
@@ -2371,10 +2326,10 @@
           "home": "Liverpool",
           "away": "Crystal Palace",
           "date": "2026-04-25T14:00Z",
-          "home_prob": 55.9,
-          "draw_prob": 22.0,
-          "away_prob": 22.1,
-          "margin": 0.8,
+          "home_prob": 57.2,
+          "draw_prob": 21.6,
+          "away_prob": 21.3,
+          "margin": 0.9,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
@@ -2386,10 +2341,10 @@
           "home": "West Ham United",
           "away": "Everton",
           "date": "2026-04-25T14:00Z",
-          "home_prob": 35.8,
+          "home_prob": 36.9,
           "draw_prob": 26.0,
-          "away_prob": 38.2,
-          "margin": 0.1,
+          "away_prob": 37.1,
+          "margin": 0.0,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
@@ -2446,9 +2401,9 @@
           "home": "Leeds United",
           "away": "Burnley",
           "date": "2026-05-01T19:00Z",
-          "home_prob": 59.8,
-          "draw_prob": 20.5,
-          "away_prob": 19.7,
+          "home_prob": 60.6,
+          "draw_prob": 20.2,
+          "away_prob": 19.2,
           "margin": 1.0,
           "home_fav": true,
           "locked": false,
@@ -2491,9 +2446,9 @@
           "home": "Wolverhampton Wanderers",
           "away": "Sunderland",
           "date": "2026-05-02T14:00Z",
-          "home_prob": 30.1,
-          "draw_prob": 25.2,
-          "away_prob": 44.7,
+          "home_prob": 30.8,
+          "draw_prob": 25.4,
+          "away_prob": 43.8,
           "margin": 0.3,
           "home_fav": false,
           "locked": false,
@@ -2536,9 +2491,9 @@
           "home": "Manchester United",
           "away": "Liverpool",
           "date": "2026-05-03T14:30Z",
-          "home_prob": 41.9,
-          "draw_prob": 25.7,
-          "away_prob": 32.5,
+          "home_prob": 40.7,
+          "draw_prob": 25.8,
+          "away_prob": 33.5,
           "margin": 0.2,
           "home_fav": true,
           "locked": false,
@@ -2551,9 +2506,9 @@
           "home": "Aston Villa",
           "away": "Tottenham Hotspur",
           "date": "2026-05-03T18:00Z",
-          "home_prob": 69.3,
-          "draw_prob": 16.2,
-          "away_prob": 14.5,
+          "home_prob": 70.1,
+          "draw_prob": 15.8,
+          "away_prob": 14.1,
           "margin": 1.4,
           "home_fav": true,
           "locked": false,
@@ -2574,11 +2529,11 @@
         },
         {
           "team": "Liverpool",
-          "elo": 1594
+          "elo": 1605
         },
         {
           "team": "Aston Villa",
-          "elo": 1582
+          "elo": 1589
         },
         {
           "team": "Manchester United",
@@ -2602,22 +2557,22 @@
         },
         {
           "team": "Everton",
-          "elo": 1534
+          "elo": 1523
         },
         {
           "team": "Sunderland",
-          "elo": 1521
+          "elo": 1514
         },
         {
           "team": "Crystal Palace",
           "elo": 1513
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -2626,7 +2581,7 @@
         },
         {
           "team": "Nottingham Forest",
-          "elo": 1482
+          "elo": 1489
         },
         {
           "team": "West Ham United",
@@ -2637,12 +2592,12 @@
           "elo": 1391
         },
         {
-          "team": "Burnley",
-          "elo": 1388
-        },
-        {
           "team": "Leicester City",
           "elo": 1384
+        },
+        {
+          "team": "Burnley",
+          "elo": 1381
         },
         {
           "team": "Ipswich Town",
@@ -2882,6 +2837,51 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "home_color": "144992",
           "away_color": "da020e"
+        },
+        {
+          "home": "Aston Villa",
+          "away": "Sunderland",
+          "date": "2026-04-19T13:00Z",
+          "home_prob": 53.5,
+          "draw_prob": 22.9,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 4,
+          "away_score": 3,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+          "home_color": "660e36",
+          "away_color": "EB172B"
+        },
+        {
+          "home": "Everton",
+          "away": "Liverpool",
+          "date": "2026-04-19T13:00Z",
+          "home_prob": 39.2,
+          "draw_prob": 25.9,
+          "home_fav": true,
+          "winner": "away",
+          "home_score": 1,
+          "away_score": 2,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+          "home_color": "0606fa",
+          "away_color": "d11317"
+        },
+        {
+          "home": "Nottingham Forest",
+          "away": "Burnley",
+          "date": "2026-04-19T13:00Z",
+          "home_prob": 57.5,
+          "draw_prob": 21.4,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 4,
+          "away_score": 1,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+          "home_color": "c8102e",
+          "away_color": "6C1D45"
         }
       ]
     },
@@ -6055,11 +6055,11 @@
           "elo": 1513
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Toronto Blue Jays",
           "elo": 1510
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Seattle Mariners",
           "elo": 1510
         },
         {
@@ -6067,11 +6067,11 @@
           "elo": 1510
         },
         {
-          "team": "Detroit Tigers",
+          "team": "Atlanta Braves",
           "elo": 1509
         },
         {
-          "team": "Atlanta Braves",
+          "team": "Detroit Tigers",
           "elo": 1509
         },
         {
@@ -9633,15 +9633,15 @@
           "elo": 1506
         },
         {
-          "team": "Utah Mammoth",
-          "elo": 1505
-        },
-        {
           "team": "Boston Bruins",
           "elo": 1505
         },
         {
           "team": "St. Louis Blues",
+          "elo": 1505
+        },
+        {
+          "team": "Utah Mammoth",
           "elo": 1505
         },
         {
@@ -9661,19 +9661,19 @@
           "elo": 1499
         },
         {
-          "team": "Pittsburgh Penguins",
-          "elo": 1497
-        },
-        {
           "team": "Utah Hockey Club",
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
-          "elo": 1496
+          "team": "Pittsburgh Penguins",
+          "elo": 1497
         },
         {
           "team": "Finland",
+          "elo": 1496
+        },
+        {
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
@@ -9681,19 +9681,19 @@
           "elo": 1495
         },
         {
-          "team": "Los Angeles Kings",
-          "elo": 1492
-        },
-        {
           "team": "Detroit Red Wings",
           "elo": 1492
         },
         {
-          "team": "New York Islanders",
-          "elo": 1487
+          "team": "Los Angeles Kings",
+          "elo": 1492
         },
         {
           "team": "New Jersey Devils",
+          "elo": 1487
+        },
+        {
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
