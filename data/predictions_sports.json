@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-20T03:30:52.731357+10:00",
+    "updated": "2026-04-20T04:39:00.176029+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -875,11 +875,11 @@
           "elo": 1528
         },
         {
-          "team": "Team Shaq",
+          "team": "Toronto Raptors",
           "elo": 1517
         },
         {
-          "team": "Toronto Raptors",
+          "team": "Team Shaq",
           "elo": 1517
         },
         {
@@ -903,11 +903,11 @@
           "elo": 1497
         },
         {
-          "team": "Team Candace",
+          "team": "Team Kenny",
           "elo": 1493
         },
         {
-          "team": "Team Kenny",
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -947,11 +947,11 @@
           "elo": 1305
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
@@ -2218,21 +2218,6 @@
     "epl": {
       "upcoming": [
         {
-          "home": "Manchester City",
-          "away": "Arsenal",
-          "date": "2026-04-19T15:30Z",
-          "home_prob": 43.4,
-          "draw_prob": 25.4,
-          "away_prob": 31.1,
-          "margin": 0.3,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-          "home_color": "99c5ea",
-          "away_color": "e20520"
-        },
-        {
           "home": "Crystal Palace",
           "away": "West Ham United",
           "date": "2026-04-20T19:00Z",
@@ -2281,9 +2266,9 @@
           "home": "Burnley",
           "away": "Manchester City",
           "date": "2026-04-22T19:00Z",
-          "home_prob": 19.6,
-          "draw_prob": 20.4,
-          "away_prob": 60.0,
+          "home_prob": 18.9,
+          "draw_prob": 20.0,
+          "away_prob": 61.1,
           "margin": 1.0,
           "home_fav": false,
           "locked": false,
@@ -2371,10 +2356,10 @@
           "home": "Arsenal",
           "away": "Newcastle United",
           "date": "2026-04-25T16:30Z",
-          "home_prob": 67.3,
-          "draw_prob": 17.2,
-          "away_prob": 15.5,
-          "margin": 1.3,
+          "home_prob": 66.2,
+          "draw_prob": 17.7,
+          "away_prob": 16.1,
+          "margin": 1.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
@@ -2461,10 +2446,10 @@
           "home": "Arsenal",
           "away": "Fulham",
           "date": "2026-05-02T16:30Z",
-          "home_prob": 67.3,
-          "draw_prob": 17.2,
-          "away_prob": 15.5,
-          "margin": 1.3,
+          "home_prob": 66.2,
+          "draw_prob": 17.7,
+          "away_prob": 16.1,
+          "margin": 1.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
@@ -2521,11 +2506,11 @@
       "rankings": [
         {
           "team": "Arsenal",
-          "elo": 1678
+          "elo": 1669
         },
         {
           "team": "Manchester City",
-          "elo": 1656
+          "elo": 1665
         },
         {
           "team": "Liverpool",
@@ -2568,11 +2553,11 @@
           "elo": 1513
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -2882,6 +2867,21 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
           "home_color": "c8102e",
           "away_color": "6C1D45"
+        },
+        {
+          "home": "Manchester City",
+          "away": "Arsenal",
+          "date": "2026-04-19T15:30Z",
+          "home_prob": 43.4,
+          "draw_prob": 25.4,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 2,
+          "away_score": 1,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+          "home_color": "99c5ea",
+          "away_color": "e20520"
         }
       ]
     },
@@ -3427,7 +3427,7 @@
           "home_prob": 59.9,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
           "home_color": "132448",
@@ -3440,7 +3440,7 @@
           "home_prob": 50.9,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
           "home_color": "ab0003",
@@ -3453,7 +3453,7 @@
           "home_prob": 53.0,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
           "home_color": "000000",
@@ -3466,7 +3466,7 @@
           "home_prob": 58.2,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
           "home_color": "002b5c",
@@ -3479,7 +3479,7 @@
           "home_prob": 48.4,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
           "home_color": "00a3e0",
@@ -3492,7 +3492,7 @@
           "home_prob": 49.3,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
           "home_color": "031f40",
@@ -3505,7 +3505,7 @@
           "home_prob": 53.5,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
           "home_color": "002d62",
@@ -3518,7 +3518,7 @@
           "home_prob": 59.0,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
           "home_color": "0e3386",
@@ -6055,11 +6055,11 @@
           "elo": 1513
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Cincinnati Reds",
           "elo": 1510
         },
         {
-          "team": "Cincinnati Reds",
+          "team": "Toronto Blue Jays",
           "elo": 1510
         },
         {
@@ -6067,11 +6067,11 @@
           "elo": 1510
         },
         {
-          "team": "Detroit Tigers",
+          "team": "Atlanta Braves",
           "elo": 1509
         },
         {
-          "team": "Atlanta Braves",
+          "team": "Detroit Tigers",
           "elo": 1509
         },
         {
@@ -6119,11 +6119,11 @@
           "elo": 1489
         },
         {
-          "team": "New York Mets",
+          "team": "Kansas City Royals",
           "elo": 1488
         },
         {
-          "team": "Kansas City Royals",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
@@ -9597,11 +9597,11 @@
           "elo": 1545
         },
         {
-          "team": "Tampa Bay Lightning",
+          "team": "Buffalo Sabres",
           "elo": 1544
         },
         {
-          "team": "Buffalo Sabres",
+          "team": "Tampa Bay Lightning",
           "elo": 1544
         },
         {
@@ -9633,15 +9633,15 @@
           "elo": 1506
         },
         {
+          "team": "Boston Bruins",
+          "elo": 1505
+        },
+        {
           "team": "St. Louis Blues",
           "elo": 1505
         },
         {
           "team": "Utah Mammoth",
-          "elo": 1505
-        },
-        {
-          "team": "Boston Bruins",
           "elo": 1505
         },
         {
@@ -9669,11 +9669,11 @@
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Finland",
           "elo": 1496
         },
         {
-          "team": "Finland",
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
