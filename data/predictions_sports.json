@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-19T16:27:09.025413+10:00",
+    "updated": "2026-04-19T18:04:36.701647+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -903,11 +903,11 @@
           "elo": 1497
         },
         {
-          "team": "Team Kenny",
+          "team": "Team Candace",
           "elo": 1493
         },
         {
-          "team": "Team Candace",
+          "team": "Team Kenny",
           "elo": 1493
         },
         {
@@ -947,11 +947,11 @@
           "elo": 1305
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
@@ -2133,11 +2133,11 @@
           "elo": 1528
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
@@ -2597,11 +2597,11 @@
           "elo": 1546
         },
         {
-          "team": "Everton",
+          "team": "Brentford",
           "elo": 1534
         },
         {
-          "team": "Brentford",
+          "team": "Everton",
           "elo": 1534
         },
         {
@@ -2613,11 +2613,11 @@
           "elo": 1513
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -6055,7 +6055,7 @@
           "elo": 1513
         },
         {
-          "team": "Cincinnati Reds",
+          "team": "Seattle Mariners",
           "elo": 1510
         },
         {
@@ -6063,15 +6063,15 @@
           "elo": 1510
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Cincinnati Reds",
           "elo": 1510
         },
         {
-          "team": "Detroit Tigers",
+          "team": "Atlanta Braves",
           "elo": 1509
         },
         {
-          "team": "Atlanta Braves",
+          "team": "Detroit Tigers",
           "elo": 1509
         },
         {
@@ -6119,11 +6119,11 @@
           "elo": 1489
         },
         {
-          "team": "New York Mets",
+          "team": "Kansas City Royals",
           "elo": 1488
         },
         {
-          "team": "Kansas City Royals",
+          "team": "New York Mets",
           "elo": 1488
         },
         {
@@ -9637,11 +9637,11 @@
           "elo": 1505
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1505
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1505
         },
         {
@@ -9661,11 +9661,11 @@
           "elo": 1499
         },
         {
-          "team": "Pittsburgh Penguins",
+          "team": "Utah Hockey Club",
           "elo": 1497
         },
         {
-          "team": "Utah Hockey Club",
+          "team": "Pittsburgh Penguins",
           "elo": 1497
         },
         {
@@ -11111,21 +11111,6 @@
     "aleague": {
       "upcoming": [
         {
-          "home": "Auckland FC",
-          "away": "Central Coast Mariners",
-          "date": "2026-04-19T03:00Z",
-          "home_prob": 62.4,
-          "draw_prob": 19.7,
-          "away_prob": 17.8,
-          "margin": 1.1,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22344.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png",
-          "home_color": "000000",
-          "away_color": "f5fe05"
-        },
-        {
           "home": "Adelaide United",
           "away": "Macarthur FC",
           "date": "2026-04-19T05:30Z",
@@ -11159,10 +11144,10 @@
           "home": "Newcastle Jets",
           "away": "Central Coast Mariners",
           "date": "2026-04-25T07:00Z",
-          "home_prob": 59.6,
-          "draw_prob": 21.1,
-          "away_prob": 19.3,
-          "margin": 1.0,
+          "home_prob": 56.6,
+          "draw_prob": 22.5,
+          "away_prob": 21.0,
+          "margin": 0.9,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5323.png",
@@ -11204,11 +11189,11 @@
           "home": "Sydney FC",
           "away": "Auckland FC",
           "date": "2026-04-26T05:00Z",
-          "home_prob": 35.0,
+          "home_prob": 37.4,
           "draw_prob": 28.0,
-          "away_prob": 37.1,
+          "away_prob": 34.6,
           "margin": 0.1,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5327.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22344.png",
@@ -11233,16 +11218,16 @@
       ],
       "rankings": [
         {
-          "team": "Auckland FC",
-          "elo": 1593
-        },
-        {
           "team": "Melbourne City FC",
           "elo": 1579
         },
         {
           "team": "Newcastle Jets",
           "elo": 1571
+        },
+        {
+          "team": "Auckland FC",
+          "elo": 1569
         },
         {
           "team": "Western United",
@@ -11265,12 +11250,12 @@
           "elo": 1475
         },
         {
-          "team": "Wellington Phoenix FC",
-          "elo": 1463
+          "team": "Central Coast Mariners",
+          "elo": 1474
         },
         {
-          "team": "Central Coast Mariners",
-          "elo": 1450
+          "team": "Wellington Phoenix FC",
+          "elo": 1463
         },
         {
           "team": "Perth Glory",
@@ -11465,6 +11450,21 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5322.png",
           "home_color": "87cefa",
           "away_color": "562D84"
+        },
+        {
+          "home": "Auckland FC",
+          "away": "Central Coast Mariners",
+          "date": "2026-04-19T03:00Z",
+          "home_prob": 62.4,
+          "draw_prob": 19.7,
+          "home_fav": true,
+          "winner": "away",
+          "home_score": 0,
+          "away_score": 1,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22344.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5325.png",
+          "home_color": "000000",
+          "away_color": "f5fe05"
         }
       ]
     }
