@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-20T19:53:55.648221+10:00",
+    "updated": "2026-04-20T21:16:29.519655+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -823,11 +823,11 @@
           "elo": 1524
         },
         {
-          "team": "Toronto Raptors",
+          "team": "Team Shaq",
           "elo": 1517
         },
         {
-          "team": "Team Shaq",
+          "team": "Toronto Raptors",
           "elo": 1517
         },
         {
@@ -843,19 +843,19 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
-          "elo": 1497
-        },
-        {
           "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Candace",
-          "elo": 1493
+          "team": "Miami Heat",
+          "elo": 1497
         },
         {
           "team": "Team Kenny",
+          "elo": 1493
+        },
+        {
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -1967,11 +1967,11 @@
           "elo": 1616
         },
         {
-          "team": "Houston Texans",
+          "team": "Buffalo Bills",
           "elo": 1614
         },
         {
-          "team": "Buffalo Bills",
+          "team": "Houston Texans",
           "elo": 1614
         },
         {
@@ -2011,11 +2011,11 @@
           "elo": 1528
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
@@ -2461,11 +2461,11 @@
           "elo": 1513
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -5916,19 +5916,7 @@
           "elo": 1518
         },
         {
-          "team": "Atlanta Braves",
-          "elo": 1512
-        },
-        {
-          "team": "Toronto Blue Jays",
-          "elo": 1512
-        },
-        {
           "team": "Philadelphia Phillies",
-          "elo": 1512
-        },
-        {
-          "team": "Cincinnati Reds",
           "elo": 1512
         },
         {
@@ -5936,11 +5924,23 @@
           "elo": 1512
         },
         {
-          "team": "Detroit Tigers",
-          "elo": 1511
+          "team": "Toronto Blue Jays",
+          "elo": 1512
+        },
+        {
+          "team": "Atlanta Braves",
+          "elo": 1512
+        },
+        {
+          "team": "Cincinnati Reds",
+          "elo": 1512
         },
         {
           "team": "Arizona Diamondbacks",
+          "elo": 1511
+        },
+        {
+          "team": "Detroit Tigers",
           "elo": 1511
         },
         {
@@ -5972,11 +5972,11 @@
           "elo": 1493
         },
         {
-          "team": "Houston Astros",
+          "team": "Pittsburgh Pirates",
           "elo": 1492
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "Houston Astros",
           "elo": 1492
         },
         {
@@ -9382,11 +9382,11 @@
           "elo": 1524
         },
         {
-          "team": "Vegas Golden Knights",
+          "team": "Edmonton Oilers",
           "elo": 1516
         },
         {
-          "team": "Edmonton Oilers",
+          "team": "Vegas Golden Knights",
           "elo": 1516
         },
         {
@@ -9402,11 +9402,11 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1502
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
@@ -9430,11 +9430,11 @@
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Finland",
           "elo": 1496
         },
         {
-          "team": "Finland",
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
@@ -9450,11 +9450,11 @@
           "elo": 1490
         },
         {
-          "team": "New York Islanders",
+          "team": "New Jersey Devils",
           "elo": 1487
         },
         {
-          "team": "New Jersey Devils",
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
@@ -9462,11 +9462,11 @@
           "elo": 1482
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
