@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T07:41:08.539121+10:00",
+    "updated": "2026-04-21T08:37:49.875059+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -851,11 +851,11 @@
           "elo": 1497
         },
         {
-          "team": "Team Kenny",
+          "team": "Team Candace",
           "elo": 1493
         },
         {
-          "team": "Team Candace",
+          "team": "Team Kenny",
           "elo": 1493
         },
         {
@@ -895,11 +895,11 @@
           "elo": 1305
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
@@ -2011,11 +2011,11 @@
           "elo": 1528
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
@@ -2096,21 +2096,6 @@
     "epl": {
       "upcoming": [
         {
-          "home": "Crystal Palace",
-          "away": "West Ham United",
-          "date": "2026-04-20T19:00Z",
-          "home_prob": 54.6,
-          "draw_prob": 22.5,
-          "away_prob": 22.9,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
-          "home_color": "0202fb",
-          "away_color": "7c2c3b"
-        },
-        {
           "home": "Brighton & Hove Albion",
           "away": "Chelsea",
           "date": "2026-04-21T19:00Z",
@@ -2189,9 +2174,9 @@
           "home": "Liverpool",
           "away": "Crystal Palace",
           "date": "2026-04-25T14:00Z",
-          "home_prob": 57.2,
-          "draw_prob": 21.6,
-          "away_prob": 21.3,
+          "home_prob": 57.6,
+          "draw_prob": 21.4,
+          "away_prob": 21.0,
           "margin": 0.9,
           "home_fav": true,
           "locked": false,
@@ -2204,11 +2189,11 @@
           "home": "West Ham United",
           "away": "Everton",
           "date": "2026-04-25T14:00Z",
-          "home_prob": 36.9,
+          "home_prob": 37.2,
           "draw_prob": 26.0,
-          "away_prob": 37.1,
+          "away_prob": 36.8,
           "margin": 0.0,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
@@ -2279,10 +2264,10 @@
           "home": "Brentford",
           "away": "West Ham United",
           "date": "2026-05-02T14:00Z",
-          "home_prob": 57.1,
-          "draw_prob": 21.6,
-          "away_prob": 21.3,
-          "margin": 0.9,
+          "home_prob": 56.7,
+          "draw_prob": 21.7,
+          "away_prob": 21.6,
+          "margin": 0.8,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
@@ -2339,9 +2324,9 @@
           "home": "AFC Bournemouth",
           "away": "Crystal Palace",
           "date": "2026-05-03T13:00Z",
-          "home_prob": 51.1,
-          "draw_prob": 23.6,
-          "away_prob": 25.2,
+          "home_prob": 51.5,
+          "draw_prob": 23.5,
+          "away_prob": 25.0,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -2458,14 +2443,14 @@
         },
         {
           "team": "Crystal Palace",
-          "elo": 1513
-        },
-        {
-          "team": "Fulham",
-          "elo": 1504
+          "elo": 1510
         },
         {
           "team": "Newcastle United",
+          "elo": 1504
+        },
+        {
+          "team": "Fulham",
           "elo": 1504
         },
         {
@@ -2478,7 +2463,7 @@
         },
         {
           "team": "West Ham United",
-          "elo": 1442
+          "elo": 1446
         },
         {
           "team": "Tottenham Hotspur",
@@ -2790,6 +2775,21 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "home_color": "99c5ea",
           "away_color": "e20520"
+        },
+        {
+          "home": "Crystal Palace",
+          "away": "West Ham United",
+          "date": "2026-04-20T19:00Z",
+          "home_prob": 54.6,
+          "draw_prob": 22.5,
+          "home_fav": true,
+          "winner": "draw",
+          "home_score": 0,
+          "away_score": 0,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+          "home_color": "0202fb",
+          "away_color": "7c2c3b"
         }
       ]
     },
@@ -3335,7 +3335,7 @@
           "home_prob": 58.1,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
           "home_color": "002b5c",
@@ -5887,11 +5887,11 @@
           "elo": 1531
         },
         {
-          "team": "New York Yankees",
+          "team": "Milwaukee Brewers",
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "New York Yankees",
           "elo": 1530
         },
         {
@@ -5907,7 +5907,7 @@
           "elo": 1512
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Philadelphia Phillies",
           "elo": 1512
         },
         {
@@ -5915,11 +5915,11 @@
           "elo": 1512
         },
         {
-          "team": "Cincinnati Reds",
+          "team": "Toronto Blue Jays",
           "elo": 1512
         },
         {
-          "team": "Philadelphia Phillies",
+          "team": "Cincinnati Reds",
           "elo": 1512
         },
         {
@@ -9423,19 +9423,19 @@
           "elo": 1499
         },
         {
-          "team": "Utah Hockey Club",
-          "elo": 1497
-        },
-        {
           "team": "Pittsburgh Penguins",
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
-          "elo": 1496
+          "team": "Utah Hockey Club",
+          "elo": 1497
         },
         {
           "team": "Finland",
+          "elo": 1496
+        },
+        {
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
