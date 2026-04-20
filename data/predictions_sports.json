@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T02:58:55.309975+10:00",
+    "updated": "2026-04-21T03:59:02.491665+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -5900,11 +5900,11 @@
           "elo": 1531
         },
         {
-          "team": "New York Yankees",
+          "team": "Milwaukee Brewers",
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "New York Yankees",
           "elo": 1530
         },
         {
@@ -5916,11 +5916,7 @@
           "elo": 1518
         },
         {
-          "team": "Seattle Mariners",
-          "elo": 1512
-        },
-        {
-          "team": "Atlanta Braves",
+          "team": "Philadelphia Phillies",
           "elo": 1512
         },
         {
@@ -5928,11 +5924,15 @@
           "elo": 1512
         },
         {
-          "team": "Philadelphia Phillies",
+          "team": "Toronto Blue Jays",
           "elo": 1512
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Atlanta Braves",
+          "elo": 1512
+        },
+        {
+          "team": "Seattle Mariners",
           "elo": 1512
         },
         {
@@ -5948,11 +5948,11 @@
           "elo": 1505
         },
         {
-          "team": "Texas Rangers",
+          "team": "St. Louis Cardinals",
           "elo": 1502
         },
         {
-          "team": "St. Louis Cardinals",
+          "team": "Texas Rangers",
           "elo": 1502
         },
         {
@@ -5972,11 +5972,11 @@
           "elo": 1493
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "Houston Astros",
           "elo": 1492
         },
         {
-          "team": "Houston Astros",
+          "team": "Pittsburgh Pirates",
           "elo": 1492
         },
         {
@@ -9382,11 +9382,11 @@
           "elo": 1524
         },
         {
-          "team": "Vegas Golden Knights",
+          "team": "Edmonton Oilers",
           "elo": 1516
         },
         {
-          "team": "Edmonton Oilers",
+          "team": "Vegas Golden Knights",
           "elo": 1516
         },
         {
@@ -9450,11 +9450,11 @@
           "elo": 1490
         },
         {
-          "team": "New Jersey Devils",
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
-          "team": "New York Islanders",
+          "team": "New Jersey Devils",
           "elo": 1487
         },
         {
@@ -9462,11 +9462,11 @@
           "elo": 1482
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
