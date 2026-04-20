@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-20T23:15:14.962468+10:00",
+    "updated": "2026-04-21T01:13:09.022449+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -823,11 +823,11 @@
           "elo": 1524
         },
         {
-          "team": "Team Shaq",
+          "team": "Toronto Raptors",
           "elo": 1517
         },
         {
-          "team": "Toronto Raptors",
+          "team": "Team Shaq",
           "elo": 1517
         },
         {
@@ -895,11 +895,11 @@
           "elo": 1305
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
@@ -3335,7 +3335,7 @@
           "home_prob": 53.5,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
           "home_color": "0d2b56",
@@ -5900,11 +5900,11 @@
           "elo": 1531
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "New York Yankees",
           "elo": 1530
         },
         {
-          "team": "New York Yankees",
+          "team": "Milwaukee Brewers",
           "elo": 1530
         },
         {
@@ -5916,15 +5916,11 @@
           "elo": 1518
         },
         {
-          "team": "Seattle Mariners",
-          "elo": 1512
-        },
-        {
           "team": "Atlanta Braves",
           "elo": 1512
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Seattle Mariners",
           "elo": 1512
         },
         {
@@ -5932,15 +5928,19 @@
           "elo": 1512
         },
         {
+          "team": "Toronto Blue Jays",
+          "elo": 1512
+        },
+        {
           "team": "Cincinnati Reds",
           "elo": 1512
         },
         {
-          "team": "Arizona Diamondbacks",
+          "team": "Detroit Tigers",
           "elo": 1511
         },
         {
-          "team": "Detroit Tigers",
+          "team": "Arizona Diamondbacks",
           "elo": 1511
         },
         {
@@ -5948,11 +5948,11 @@
           "elo": 1505
         },
         {
-          "team": "Texas Rangers",
+          "team": "St. Louis Cardinals",
           "elo": 1502
         },
         {
-          "team": "St. Louis Cardinals",
+          "team": "Texas Rangers",
           "elo": 1502
         },
         {
@@ -9402,11 +9402,11 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1502
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
@@ -9422,11 +9422,11 @@
           "elo": 1499
         },
         {
-          "team": "Pittsburgh Penguins",
+          "team": "Utah Hockey Club",
           "elo": 1497
         },
         {
-          "team": "Utah Hockey Club",
+          "team": "Pittsburgh Penguins",
           "elo": 1497
         },
         {
