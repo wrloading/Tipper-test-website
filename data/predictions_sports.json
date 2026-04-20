@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T05:08:48.053147+10:00",
+    "updated": "2026-04-21T06:39:51.079264+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -823,11 +823,11 @@
           "elo": 1524
         },
         {
-          "team": "Team Shaq",
+          "team": "Toronto Raptors",
           "elo": 1517
         },
         {
-          "team": "Toronto Raptors",
+          "team": "Team Shaq",
           "elo": 1517
         },
         {
@@ -843,11 +843,11 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
+          "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Chuck",
+          "team": "Miami Heat",
           "elo": 1497
         },
         {
@@ -1967,11 +1967,11 @@
           "elo": 1616
         },
         {
-          "team": "Houston Texans",
+          "team": "Buffalo Bills",
           "elo": 1614
         },
         {
-          "team": "Buffalo Bills",
+          "team": "Houston Texans",
           "elo": 1614
         },
         {
@@ -2461,11 +2461,11 @@
           "elo": 1513
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -2851,8 +2851,8 @@
           "home": "Boston Red Sox",
           "away": "Minnesota Twins",
           "date": "2024-09-21T20:10Z",
-          "home_prob": 58.8,
-          "margin": 0.7,
+          "home_prob": 59.0,
+          "margin": 0.8,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
@@ -2903,7 +2903,7 @@
           "home": "Boston Red Sox",
           "away": "St. Louis Cardinals",
           "date": "2025-04-05T20:10Z",
-          "home_prob": 54.8,
+          "home_prob": 55.1,
           "margin": 0.4,
           "home_fav": true,
           "locked": true,
@@ -2968,7 +2968,7 @@
           "home": "Detroit Tigers",
           "away": "Baltimore Orioles",
           "date": "2025-04-25T22:40Z",
-          "home_prob": 57.6,
+          "home_prob": 57.3,
           "margin": 0.6,
           "home_fav": true,
           "locked": true,
@@ -2981,7 +2981,7 @@
           "home": "Cleveland Guardians",
           "away": "Boston Red Sox",
           "date": "2025-04-25T23:10Z",
-          "home_prob": 56.1,
+          "home_prob": 55.9,
           "margin": 0.5,
           "home_fav": true,
           "locked": true,
@@ -3046,8 +3046,8 @@
           "home": "Colorado Rockies",
           "away": "Detroit Tigers",
           "date": "2025-05-07T00:40Z",
-          "home_prob": 43.4,
-          "margin": 0.6,
+          "home_prob": 43.6,
+          "margin": 0.5,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
@@ -3111,7 +3111,7 @@
           "home": "Boston Red Sox",
           "away": "Baltimore Orioles",
           "date": "2025-05-22T22:45Z",
-          "home_prob": 56.8,
+          "home_prob": 57.1,
           "margin": 0.6,
           "home_fav": true,
           "locked": true,
@@ -3124,7 +3124,7 @@
           "home": "Boston Red Sox",
           "away": "Baltimore Orioles",
           "date": "2025-05-23T23:10Z",
-          "home_prob": 56.8,
+          "home_prob": 57.1,
           "margin": 0.6,
           "home_fav": true,
           "locked": true,
@@ -3163,7 +3163,7 @@
           "home": "Detroit Tigers",
           "away": "Pittsburgh Pirates",
           "date": "2025-06-18T22:40Z",
-          "home_prob": 57.0,
+          "home_prob": 56.7,
           "margin": 0.6,
           "home_fav": true,
           "locked": true,
@@ -3215,7 +3215,7 @@
           "home": "Washington Nationals",
           "away": "Detroit Tigers",
           "date": "2025-07-01T22:45Z",
-          "home_prob": 48.6,
+          "home_prob": 48.8,
           "margin": 0.1,
           "home_fav": false,
           "locked": true,
@@ -3327,19 +3327,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
           "home_color": "002b5c",
           "away_color": "0e3386"
-        },
-        {
-          "home": "Boston Red Sox",
-          "away": "Detroit Tigers",
-          "date": "2026-04-20T15:10Z",
-          "home_prob": 53.5,
-          "margin": 0.3,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-          "home_color": "0d2b56",
-          "away_color": "0a2240"
         },
         {
           "home": "Cleveland Guardians",
@@ -3488,7 +3475,7 @@
           "home": "Detroit Tigers",
           "away": "Milwaukee Brewers",
           "date": "2026-04-21T22:40Z",
-          "home_prob": 51.6,
+          "home_prob": 51.4,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3527,7 +3514,7 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-21T22:45Z",
-          "home_prob": 50.8,
+          "home_prob": 51.1,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3735,7 +3722,7 @@
           "home": "Detroit Tigers",
           "away": "Milwaukee Brewers",
           "date": "2026-04-22T22:40Z",
-          "home_prob": 51.6,
+          "home_prob": 51.4,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3761,7 +3748,7 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-22T22:45Z",
-          "home_prob": 50.8,
+          "home_prob": 51.1,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3865,7 +3852,7 @@
           "home": "Detroit Tigers",
           "away": "Milwaukee Brewers",
           "date": "2026-04-23T17:10Z",
-          "home_prob": 51.6,
+          "home_prob": 51.4,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3930,7 +3917,7 @@
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-23T22:10Z",
-          "home_prob": 50.8,
+          "home_prob": 51.1,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3969,7 +3956,7 @@
           "home": "Cincinnati Reds",
           "away": "Detroit Tigers",
           "date": "2026-04-24T22:40Z",
-          "home_prob": 54.5,
+          "home_prob": 54.8,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -3982,7 +3969,7 @@
           "home": "Baltimore Orioles",
           "away": "Boston Red Sox",
           "date": "2026-04-24T23:05Z",
-          "home_prob": 51.8,
+          "home_prob": 51.5,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -4177,7 +4164,7 @@
           "home": "Baltimore Orioles",
           "away": "Boston Red Sox",
           "date": "2026-04-25T20:05Z",
-          "home_prob": 51.8,
+          "home_prob": 51.5,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -4307,7 +4294,7 @@
           "home": "Cincinnati Reds",
           "away": "Detroit Tigers",
           "date": "2026-04-25T23:15Z",
-          "home_prob": 54.5,
+          "home_prob": 54.8,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4346,7 +4333,7 @@
           "home": "Baltimore Orioles",
           "away": "Boston Red Sox",
           "date": "2026-04-26T17:35Z",
-          "home_prob": 51.8,
+          "home_prob": 51.5,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -4398,7 +4385,7 @@
           "home": "Cincinnati Reds",
           "away": "Detroit Tigers",
           "date": "2026-04-26T17:40Z",
-          "home_prob": 54.5,
+          "home_prob": 54.8,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4567,7 +4554,7 @@
           "home": "Toronto Blue Jays",
           "away": "Boston Red Sox",
           "date": "2026-04-27T23:07Z",
-          "home_prob": 55.3,
+          "home_prob": 55.0,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4710,7 +4697,7 @@
           "home": "Toronto Blue Jays",
           "away": "Boston Red Sox",
           "date": "2026-04-28T23:07Z",
-          "home_prob": 55.3,
+          "home_prob": 55.0,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4736,7 +4723,7 @@
           "home": "Atlanta Braves",
           "away": "Detroit Tigers",
           "date": "2026-04-28T23:15Z",
-          "home_prob": 54.4,
+          "home_prob": 54.7,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4892,7 +4879,7 @@
           "home": "Toronto Blue Jays",
           "away": "Boston Red Sox",
           "date": "2026-04-29T19:07Z",
-          "home_prob": 55.3,
+          "home_prob": 55.0,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -4996,7 +4983,7 @@
           "home": "Atlanta Braves",
           "away": "Detroit Tigers",
           "date": "2026-04-29T23:15Z",
-          "home_prob": 54.4,
+          "home_prob": 54.7,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -5035,7 +5022,7 @@
           "home": "Atlanta Braves",
           "away": "Detroit Tigers",
           "date": "2026-04-30T16:15Z",
-          "home_prob": 54.4,
+          "home_prob": 54.7,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -5178,8 +5165,8 @@
           "home": "Detroit Tigers",
           "away": "Texas Rangers",
           "date": "2026-05-01T22:40Z",
-          "home_prob": 55.6,
-          "margin": 0.5,
+          "home_prob": 55.3,
+          "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
@@ -5217,7 +5204,7 @@
           "home": "Boston Red Sox",
           "away": "Houston Astros",
           "date": "2026-05-01T23:10Z",
-          "home_prob": 56.3,
+          "home_prob": 56.5,
           "margin": 0.5,
           "home_fav": true,
           "locked": false,
@@ -5425,7 +5412,7 @@
           "home": "Boston Red Sox",
           "away": "Houston Astros",
           "date": "2026-05-02T20:10Z",
-          "home_prob": 56.3,
+          "home_prob": 56.5,
           "margin": 0.5,
           "home_fav": true,
           "locked": false,
@@ -5464,8 +5451,8 @@
           "home": "Detroit Tigers",
           "away": "Texas Rangers",
           "date": "2026-05-02T23:15Z",
-          "home_prob": 55.6,
-          "margin": 0.5,
+          "home_prob": 55.3,
+          "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
@@ -5581,7 +5568,7 @@
           "home": "Boston Red Sox",
           "away": "Houston Astros",
           "date": "2026-05-03T17:35Z",
-          "home_prob": 56.3,
+          "home_prob": 56.5,
           "margin": 0.5,
           "home_fav": true,
           "locked": false,
@@ -5724,8 +5711,8 @@
           "home": "Detroit Tigers",
           "away": "Texas Rangers",
           "date": "2026-05-03T23:20Z",
-          "home_prob": 55.6,
-          "margin": 0.5,
+          "home_prob": 55.3,
+          "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
@@ -5737,7 +5724,7 @@
           "home": "Detroit Tigers",
           "away": "Boston Red Sox",
           "date": "2026-05-04T22:40Z",
-          "home_prob": 55.1,
+          "home_prob": 54.6,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
@@ -5900,11 +5887,11 @@
           "elo": 1531
         },
         {
-          "team": "New York Yankees",
+          "team": "Milwaukee Brewers",
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "New York Yankees",
           "elo": 1530
         },
         {
@@ -5916,11 +5903,7 @@
           "elo": 1518
         },
         {
-          "team": "Seattle Mariners",
-          "elo": 1512
-        },
-        {
-          "team": "Cincinnati Reds",
+          "team": "Atlanta Braves",
           "elo": 1512
         },
         {
@@ -5928,11 +5911,15 @@
           "elo": 1512
         },
         {
-          "team": "Philadelphia Phillies",
+          "team": "Cincinnati Reds",
           "elo": 1512
         },
         {
-          "team": "Atlanta Braves",
+          "team": "Seattle Mariners",
+          "elo": 1512
+        },
+        {
+          "team": "Philadelphia Phillies",
           "elo": 1512
         },
         {
@@ -5941,26 +5928,26 @@
         },
         {
           "team": "Detroit Tigers",
-          "elo": 1511
+          "elo": 1509
         },
         {
           "team": "Boston Red Sox",
-          "elo": 1505
-        },
-        {
-          "team": "St. Louis Cardinals",
-          "elo": 1502
+          "elo": 1507
         },
         {
           "team": "Texas Rangers",
           "elo": 1502
         },
         {
-          "team": "Athletics",
-          "elo": 1497
+          "team": "St. Louis Cardinals",
+          "elo": 1502
         },
         {
           "team": "Tampa Bay Rays",
+          "elo": 1497
+        },
+        {
+          "team": "Athletics",
           "elo": 1497
         },
         {
@@ -8662,6 +8649,20 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
           "home_color": "e81828",
           "away_color": "0c2340"
+        },
+        {
+          "home": "Boston Red Sox",
+          "away": "Detroit Tigers",
+          "date": "2026-04-20T15:10Z",
+          "home_prob": 53.5,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 8,
+          "away_score": 6,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
+          "home_color": "0d2b56",
+          "away_color": "0a2240"
         }
       ]
     },
@@ -9402,11 +9403,11 @@
           "elo": 1503
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1502
         },
         {
