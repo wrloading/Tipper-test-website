@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T01:13:09.022449+10:00",
+    "updated": "2026-04-21T02:58:55.309975+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -2011,11 +2011,11 @@
           "elo": 1528
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
@@ -5916,11 +5916,15 @@
           "elo": 1518
         },
         {
+          "team": "Seattle Mariners",
+          "elo": 1512
+        },
+        {
           "team": "Atlanta Braves",
           "elo": 1512
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Cincinnati Reds",
           "elo": 1512
         },
         {
@@ -5932,15 +5936,11 @@
           "elo": 1512
         },
         {
-          "team": "Cincinnati Reds",
-          "elo": 1512
-        },
-        {
-          "team": "Detroit Tigers",
+          "team": "Arizona Diamondbacks",
           "elo": 1511
         },
         {
-          "team": "Arizona Diamondbacks",
+          "team": "Detroit Tigers",
           "elo": 1511
         },
         {
@@ -5948,19 +5948,19 @@
           "elo": 1505
         },
         {
-          "team": "St. Louis Cardinals",
-          "elo": 1502
-        },
-        {
           "team": "Texas Rangers",
           "elo": 1502
         },
         {
-          "team": "Tampa Bay Rays",
-          "elo": 1497
+          "team": "St. Louis Cardinals",
+          "elo": 1502
         },
         {
           "team": "Athletics",
+          "elo": 1497
+        },
+        {
+          "team": "Tampa Bay Rays",
           "elo": 1497
         },
         {
@@ -5972,11 +5972,11 @@
           "elo": 1493
         },
         {
-          "team": "Houston Astros",
+          "team": "Pittsburgh Pirates",
           "elo": 1492
         },
         {
-          "team": "Pittsburgh Pirates",
+          "team": "Houston Astros",
           "elo": 1492
         },
         {
@@ -9382,11 +9382,11 @@
           "elo": 1524
         },
         {
-          "team": "Edmonton Oilers",
+          "team": "Vegas Golden Knights",
           "elo": 1516
         },
         {
-          "team": "Vegas Golden Knights",
+          "team": "Edmonton Oilers",
           "elo": 1516
         },
         {
@@ -9402,11 +9402,11 @@
           "elo": 1503
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1502
         },
         {
@@ -9422,19 +9422,19 @@
           "elo": 1499
         },
         {
-          "team": "Utah Hockey Club",
-          "elo": 1497
-        },
-        {
           "team": "Pittsburgh Penguins",
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
-          "elo": 1496
+          "team": "Utah Hockey Club",
+          "elo": 1497
         },
         {
           "team": "Finland",
+          "elo": 1496
+        },
+        {
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
