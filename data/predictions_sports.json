@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T11:57:21.389038+10:00",
+    "updated": "2026-04-21T14:47:26.642542+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -152,7 +152,7 @@
           "home_prob": 71.6,
           "margin": 5.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
           "home_color": "0e2240",
@@ -830,19 +830,19 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
-          "elo": 1497
-        },
-        {
           "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Candace",
-          "elo": 1493
+          "team": "Miami Heat",
+          "elo": 1497
         },
         {
           "team": "Team Kenny",
+          "elo": 1493
+        },
+        {
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -1956,11 +1956,11 @@
           "elo": 1528
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
@@ -5999,15 +5999,15 @@
           "elo": 1514
         },
         {
+          "team": "Seattle Mariners",
+          "elo": 1512
+        },
+        {
           "team": "Philadelphia Phillies",
           "elo": 1512
         },
         {
           "team": "Toronto Blue Jays",
-          "elo": 1512
-        },
-        {
-          "team": "Seattle Mariners",
           "elo": 1512
         },
         {
@@ -6035,11 +6035,11 @@
           "elo": 1497
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "Miami Marlins",
           "elo": 1495
         },
         {
-          "team": "Miami Marlins",
+          "team": "Tampa Bay Rays",
           "elo": 1495
         },
         {
@@ -8771,7 +8771,7 @@
           "home_prob": 59.2,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
           "home_color": "00205b",
@@ -9421,11 +9421,11 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
+          "team": "Boston Bruins",
           "elo": 1502
         },
         {
-          "team": "Boston Bruins",
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
@@ -9449,11 +9449,11 @@
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Finland",
           "elo": 1496
         },
         {
-          "team": "Finland",
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
@@ -9469,11 +9469,11 @@
           "elo": 1490
         },
         {
-          "team": "New Jersey Devils",
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
-          "team": "New York Islanders",
+          "team": "New Jersey Devils",
           "elo": 1487
         },
         {
@@ -9481,11 +9481,11 @@
           "elo": 1482
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
