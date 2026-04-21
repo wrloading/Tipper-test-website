@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-21T16:55:59.298974+10:00",
+    "updated": "2026-04-21T18:30:35.212657+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -97,8 +97,8 @@
           "home": "Minnesota Timberwolves",
           "away": "Golden State Warriors",
           "date": "2026-01-24T22:30Z",
-          "home_prob": 76.1,
-          "margin": 7.3,
+          "home_prob": 77.7,
+          "margin": 7.8,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
@@ -110,8 +110,8 @@
           "home": "Memphis Grizzlies",
           "away": "Denver Nuggets",
           "date": "2026-01-25T20:30Z",
-          "home_prob": 16.3,
-          "margin": 10.2,
+          "home_prob": 17.5,
+          "margin": 9.7,
           "home_fav": false,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
@@ -131,19 +131,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
           "home_color": "00471b",
           "away_color": "0064b1"
-        },
-        {
-          "home": "Denver Nuggets",
-          "away": "Minnesota Timberwolves",
-          "date": "2026-04-21T02:30Z",
-          "home_prob": 71.6,
-          "margin": 5.8,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-          "home_color": "0e2240",
-          "away_color": "266092"
         },
         {
           "home": "Boston Celtics",
@@ -240,9 +227,9 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-24T01:30Z",
-          "home_prob": 47.0,
-          "margin": 0.7,
-          "home_fav": false,
+          "home_prob": 51.3,
+          "margin": 0.3,
+          "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -331,9 +318,9 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-26T00:30Z",
-          "home_prob": 47.0,
-          "margin": 0.7,
-          "home_fav": false,
+          "home_prob": 51.3,
+          "margin": 0.3,
+          "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -393,9 +380,22 @@
           "away_color": "552583"
         },
         {
+          "home": "Orlando Magic",
+          "away": "Detroit Pistons",
+          "date": "2026-04-28T00:00Z",
+          "home_prob": 47.1,
+          "margin": 0.7,
+          "home_fav": false,
+          "locked": false,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+          "home_color": "0150b5",
+          "away_color": "1d428a"
+        },
+        {
           "home": "Phoenix Suns",
           "away": "Oklahoma City Thunder",
-          "date": "2026-04-27T04:00Z",
+          "date": "2026-04-28T01:30Z",
           "home_prob": 28.7,
           "margin": 5.7,
           "home_fav": false,
@@ -408,28 +408,15 @@
         {
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
-          "date": "2026-04-27T04:00Z",
-          "home_prob": 71.6,
-          "margin": 5.8,
+          "date": "2026-04-28T02:30Z",
+          "home_prob": 68.0,
+          "margin": 4.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
           "home_color": "0e2240",
           "away_color": "266092"
-        },
-        {
-          "home": "Orlando Magic",
-          "away": "Detroit Pistons",
-          "date": "2026-04-27T04:00Z",
-          "home_prob": 47.1,
-          "margin": 0.7,
-          "home_fav": false,
-          "locked": false,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-          "home_color": "0150b5",
-          "away_color": "1d428a"
         },
         {
           "home": "San Antonio Spurs",
@@ -552,9 +539,9 @@
           "home": "Minnesota Timberwolves",
           "away": "Denver Nuggets",
           "date": "2026-04-30T04:00Z",
-          "home_prob": 47.0,
-          "margin": 0.7,
-          "home_fav": false,
+          "home_prob": 51.3,
+          "margin": 0.3,
+          "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -656,8 +643,8 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-02T04:00Z",
-          "home_prob": 71.6,
-          "margin": 5.8,
+          "home_prob": 68.0,
+          "margin": 4.7,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
@@ -745,12 +732,12 @@
           "elo": 1680
         },
         {
-          "team": "Denver Nuggets",
-          "elo": 1659
-        },
-        {
           "team": "Detroit Pistons",
           "elo": 1649
+        },
+        {
+          "team": "Denver Nuggets",
+          "elo": 1644
         },
         {
           "team": "Cleveland Cavaliers",
@@ -769,12 +756,12 @@
           "elo": 1587
         },
         {
-          "team": "Atlanta Hawks",
-          "elo": 1575
+          "team": "Minnesota Timberwolves",
+          "elo": 1583
         },
         {
-          "team": "Minnesota Timberwolves",
-          "elo": 1568
+          "team": "Atlanta Hawks",
+          "elo": 1575
         },
         {
           "team": "Charlotte Hornets",
@@ -817,19 +804,19 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
-          "elo": 1497
-        },
-        {
           "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Candace",
-          "elo": 1493
+          "team": "Miami Heat",
+          "elo": 1497
         },
         {
           "team": "Team Kenny",
+          "elo": 1493
+        },
+        {
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -869,11 +856,11 @@
           "elo": 1305
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
@@ -1889,6 +1876,20 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
           "home_color": "1d428a",
           "away_color": "c8102e"
+        },
+        {
+          "home": "Denver Nuggets",
+          "away": "Minnesota Timberwolves",
+          "date": "2026-04-21T02:30Z",
+          "home_prob": 71.6,
+          "home_fav": true,
+          "winner": "away",
+          "home_score": 114,
+          "away_score": 119,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+          "home_color": "0e2240",
+          "away_color": "266092"
         }
       ]
     },
@@ -1913,11 +1914,11 @@
           "elo": 1616
         },
         {
-          "team": "Buffalo Bills",
+          "team": "Houston Texans",
           "elo": 1614
         },
         {
-          "team": "Houston Texans",
+          "team": "Buffalo Bills",
           "elo": 1614
         },
         {
@@ -2392,11 +2393,11 @@
           "elo": 1510
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -5911,11 +5912,11 @@
           "elo": 1531
         },
         {
-          "team": "New York Yankees",
+          "team": "Milwaukee Brewers",
           "elo": 1530
         },
         {
-          "team": "Milwaukee Brewers",
+          "team": "New York Yankees",
           "elo": 1530
         },
         {
@@ -5931,11 +5932,11 @@
           "elo": 1515
         },
         {
-          "team": "Toronto Blue Jays",
+          "team": "Atlanta Braves",
           "elo": 1514
         },
         {
-          "team": "Atlanta Braves",
+          "team": "Toronto Blue Jays",
           "elo": 1514
         },
         {
@@ -5943,11 +5944,11 @@
           "elo": 1511
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Philadelphia Phillies",
           "elo": 1510
         },
         {
-          "team": "Philadelphia Phillies",
+          "team": "Seattle Mariners",
           "elo": 1510
         },
         {
@@ -5975,11 +5976,11 @@
           "elo": 1495
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "Miami Marlins",
           "elo": 1495
         },
         {
-          "team": "Miami Marlins",
+          "team": "Tampa Bay Rays",
           "elo": 1495
         },
         {
@@ -8732,19 +8733,6 @@
           "away_color": "121212"
         },
         {
-          "home": "Edmonton Oilers",
-          "away": "Anaheim Ducks",
-          "date": "2026-04-21T02:22Z",
-          "home_prob": 59.2,
-          "margin": 0.5,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
-          "home_color": "00205b",
-          "away_color": "fc4c02"
-        },
-        {
           "home": "Tampa Bay Lightning",
           "away": "Montreal Canadiens",
           "date": "2026-04-21T23:00Z",
@@ -8826,8 +8814,8 @@
           "home": "Edmonton Oilers",
           "away": "Anaheim Ducks",
           "date": "2026-04-23T02:00Z",
-          "home_prob": 59.2,
-          "margin": 0.5,
+          "home_prob": 59.9,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
@@ -8904,8 +8892,8 @@
           "home": "Anaheim Ducks",
           "away": "Edmonton Oilers",
           "date": "2026-04-25T02:00Z",
-          "home_prob": 49.3,
-          "margin": 0.0,
+          "home_prob": 48.6,
+          "margin": 0.1,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
@@ -8995,8 +8983,8 @@
           "home": "Anaheim Ducks",
           "away": "Edmonton Oilers",
           "date": "2026-04-27T01:30Z",
-          "home_prob": 49.3,
-          "margin": 0.0,
+          "home_prob": 48.6,
+          "margin": 0.1,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
@@ -9060,8 +9048,8 @@
           "home": "Edmonton Oilers",
           "away": "Anaheim Ducks",
           "date": "2026-04-28T04:00Z",
-          "home_prob": 59.2,
-          "margin": 0.5,
+          "home_prob": 59.9,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
@@ -9138,8 +9126,8 @@
           "home": "Anaheim Ducks",
           "away": "Edmonton Oilers",
           "date": "2026-04-30T04:00Z",
-          "home_prob": 49.3,
-          "margin": 0.0,
+          "home_prob": 48.6,
+          "margin": 0.1,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
@@ -9229,8 +9217,8 @@
           "home": "Edmonton Oilers",
           "away": "Anaheim Ducks",
           "date": "2026-05-02T04:00Z",
-          "home_prob": 59.2,
-          "margin": 0.5,
+          "home_prob": 59.9,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
@@ -9356,11 +9344,11 @@
           "elo": 1532
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1528
         },
         {
-          "team": "Washington Capitals",
+          "team": "Ottawa Senators",
           "elo": 1528
         },
         {
@@ -9369,7 +9357,7 @@
         },
         {
           "team": "Edmonton Oilers",
-          "elo": 1516
+          "elo": 1519
         },
         {
           "team": "Vegas Golden Knights",
@@ -9412,11 +9400,11 @@
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Finland",
           "elo": 1496
         },
         {
-          "team": "Finland",
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
@@ -9436,16 +9424,16 @@
           "elo": 1490
         },
         {
-          "team": "New Jersey Devils",
-          "elo": 1487
-        },
-        {
           "team": "New York Islanders",
           "elo": 1487
         },
         {
+          "team": "New Jersey Devils",
+          "elo": 1487
+        },
+        {
           "team": "Anaheim Ducks",
-          "elo": 1482
+          "elo": 1479
         },
         {
           "team": "Calgary Flames",
@@ -10768,6 +10756,20 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
           "home_color": "20864c",
           "away_color": "124734"
+        },
+        {
+          "home": "Edmonton Oilers",
+          "away": "Anaheim Ducks",
+          "date": "2026-04-21T02:22Z",
+          "home_prob": 59.2,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 4,
+          "away_score": 3,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+          "home_color": "00205b",
+          "away_color": "fc4c02"
         }
       ]
     },
