@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T03:56:23.215734+10:00",
+    "updated": "2026-04-22T05:04:26.869195+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -1914,11 +1914,11 @@
           "elo": 1616
         },
         {
-          "team": "Buffalo Bills",
+          "team": "Houston Texans",
           "elo": 1614
         },
         {
-          "team": "Houston Texans",
+          "team": "Buffalo Bills",
           "elo": 1614
         },
         {
@@ -2051,7 +2051,7 @@
           "away_prob": 28.4,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
           "home_color": "0606fa",
@@ -2393,11 +2393,11 @@
           "elo": 1510
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
@@ -5976,11 +5976,11 @@
           "elo": 1495
         },
         {
-          "team": "Miami Marlins",
+          "team": "Oakland Athletics",
           "elo": 1495
         },
         {
-          "team": "Oakland Athletics",
+          "team": "Miami Marlins",
           "elo": 1495
         },
         {
@@ -6008,11 +6008,11 @@
           "elo": 1484
         },
         {
-          "team": "Los Angeles Angels",
+          "team": "Minnesota Twins",
           "elo": 1474
         },
         {
-          "team": "Minnesota Twins",
+          "team": "Los Angeles Angels",
           "elo": 1474
         },
         {
@@ -9344,11 +9344,11 @@
           "elo": 1532
         },
         {
-          "team": "Washington Capitals",
+          "team": "Ottawa Senators",
           "elo": 1528
         },
         {
-          "team": "Ottawa Senators",
+          "team": "Washington Capitals",
           "elo": 1528
         },
         {
@@ -9376,15 +9376,15 @@
           "elo": 1503
         },
         {
-          "team": "Utah Mammoth",
-          "elo": 1502
-        },
-        {
           "team": "Philadelphia Flyers",
           "elo": 1502
         },
         {
           "team": "Boston Bruins",
+          "elo": 1502
+        },
+        {
+          "team": "Utah Mammoth",
           "elo": 1502
         },
         {
@@ -9436,11 +9436,11 @@
           "elo": 1479
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
