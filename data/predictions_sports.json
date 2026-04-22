@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T16:53:23.966307+00:00",
+    "updated": "2026-04-22T17:56:30.604092+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1016,24 +1016,24 @@
           "draw_prob": null
         },
         {
-          "home": "San Antonio Spurs",
-          "away": "Portland Trail Blazers",
+          "home": "Boston Celtics",
+          "away": "Philadelphia 76ers",
           "date": "2026-04-28",
-          "datetime": "2026-04-28T04:00Z",
-          "home_prob": 66.8,
-          "away_prob": 33.2,
-          "margin": 4.3,
+          "datetime": "2026-04-28T23:00Z",
+          "home_prob": 77.4,
+          "away_prob": 22.6,
+          "margin": 7.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Frost Bank Center",
-          "game_id": "nba_401869386",
+          "venue": "TD Garden",
+          "game_id": "nba_401869408",
           "draw_prob": null
         },
         {
           "home": "New York Knicks",
           "away": "Atlanta Hawks",
-          "date": "2026-04-28",
-          "datetime": "2026-04-28T04:00Z",
+          "date": "2026-04-29",
+          "datetime": "2026-04-29T00:00Z",
           "home_prob": 78.8,
           "away_prob": 21.2,
           "margin": 8.2,
@@ -1044,17 +1044,17 @@
           "draw_prob": null
         },
         {
-          "home": "Boston Celtics",
-          "away": "Philadelphia 76ers",
-          "date": "2026-04-28",
-          "datetime": "2026-04-28T04:00Z",
-          "home_prob": 77.4,
-          "away_prob": 22.6,
-          "margin": 7.6,
+          "home": "San Antonio Spurs",
+          "away": "Portland Trail Blazers",
+          "date": "2026-04-29",
+          "datetime": "2026-04-29T01:30Z",
+          "home_prob": 66.8,
+          "away_prob": 33.2,
+          "margin": 4.3,
           "home_fav": true,
           "locked": false,
-          "venue": "TD Garden",
-          "game_id": "nba_401869408",
+          "venue": "Frost Bank Center",
+          "game_id": "nba_401869386",
           "draw_prob": null
         },
         {
@@ -3263,7 +3263,7 @@
           "away_prob": 37.2,
           "margin": 0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio Mart\u00ednez Valero",
           "game_id": "laliga_748466",
           "draw_prob": 20.6
@@ -5088,7 +5088,7 @@
           "away_prob": 9.3,
           "margin": 13.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Parc des Princes",
           "game_id": "ligue1_746643",
           "draw_prob": 6.5
@@ -8441,7 +8441,7 @@
           "away_prob": 46.7,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815042",
           "draw_prob": null
@@ -8455,7 +8455,7 @@
           "away_prob": 46.3,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815043",
           "draw_prob": null
