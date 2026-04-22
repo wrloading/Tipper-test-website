@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T10:53:38.351640+00:00",
+    "updated": "2026-04-22T11:56:27.019605+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3796,7 +3796,7 @@
         },
         {
           "team": "Werder Bremen",
-          "rating": 1472.3,
+          "rating": 1472.2,
           "rank": 15
         },
         {
@@ -8288,7 +8288,7 @@
         },
         {
           "team": "Texas Rangers",
-          "rating": 1508.9,
+          "rating": 1509.0,
           "rank": 7
         },
         {
@@ -8333,7 +8333,7 @@
         },
         {
           "team": "Toronto Blue Jays",
-          "rating": 1502.6,
+          "rating": 1502.5,
           "rank": 16
         },
         {
@@ -8378,7 +8378,7 @@
         },
         {
           "team": "Colorado Rockies",
-          "rating": 1484.3,
+          "rating": 1484.2,
           "rank": 25
         },
         {
@@ -8408,7 +8408,7 @@
         },
         {
           "team": "Chicago White Sox",
-          "rating": 1470.9,
+          "rating": 1471.0,
           "rank": 31
         },
         {
@@ -8437,8 +8437,8 @@
           "away": "Cincinnati Reds",
           "date": "2026-04-22",
           "datetime": "2026-04-22T17:10Z",
-          "home_prob": 53.2,
-          "away_prob": 46.8,
+          "home_prob": 53.3,
+          "away_prob": 46.7,
           "margin": 0.8,
           "home_fav": true,
           "locked": false,
@@ -11514,7 +11514,7 @@
           "home": "Baltimore Orioles",
           "away": "San Francisco Giants",
           "date": "2026-04-10",
-          "home_prob": 57.1,
+          "home_prob": 57.0,
           "winner": "San Francisco Giants",
           "home_score": 3,
           "away_score": 6,
@@ -11684,7 +11684,7 @@
           "home": "Baltimore Orioles",
           "away": "San Francisco Giants",
           "date": "2026-04-11",
-          "home_prob": 57.1,
+          "home_prob": 57.0,
           "winner": "Baltimore Orioles",
           "home_score": 6,
           "away_score": 2,
@@ -11744,7 +11744,7 @@
           "home": "Baltimore Orioles",
           "away": "San Francisco Giants",
           "date": "2026-04-12",
-          "home_prob": 57.1,
+          "home_prob": 57.0,
           "winner": "Baltimore Orioles",
           "home_score": 6,
           "away_score": 2,
@@ -12354,7 +12354,7 @@
           "home": "Cleveland Guardians",
           "away": "Baltimore Orioles",
           "date": "2026-04-16",
-          "home_prob": 51.9,
+          "home_prob": 52.0,
           "winner": "Cleveland Guardians",
           "home_score": 4,
           "away_score": 2,
@@ -12394,7 +12394,7 @@
           "home": "Cleveland Guardians",
           "away": "Baltimore Orioles",
           "date": "2026-04-17",
-          "home_prob": 51.9,
+          "home_prob": 52.0,
           "winner": "Baltimore Orioles",
           "home_score": 4,
           "away_score": 6,
@@ -12614,7 +12614,7 @@
           "home": "Cleveland Guardians",
           "away": "Baltimore Orioles",
           "date": "2026-04-18",
-          "home_prob": 51.9,
+          "home_prob": 52.0,
           "winner": "Cleveland Guardians",
           "home_score": 4,
           "away_score": 2,
@@ -12714,7 +12714,7 @@
           "home": "Cleveland Guardians",
           "away": "Baltimore Orioles",
           "date": "2026-04-19",
-          "home_prob": 51.9,
+          "home_prob": 52.0,
           "winner": "Cleveland Guardians",
           "home_score": 8,
           "away_score": 4,
@@ -12854,7 +12854,7 @@
           "home": "Tampa Bay Rays",
           "away": "Cincinnati Reds",
           "date": "2026-04-20",
-          "home_prob": 53.2,
+          "home_prob": 53.3,
           "winner": "Cincinnati Reds",
           "home_score": 1,
           "away_score": 6,
@@ -12944,7 +12944,7 @@
           "home": "Tampa Bay Rays",
           "away": "Cincinnati Reds",
           "date": "2026-04-21",
-          "home_prob": 53.2,
+          "home_prob": 53.3,
           "winner": "Cincinnati Reds",
           "home_score": 6,
           "away_score": 12,
@@ -13111,7 +13111,7 @@
         },
         {
           "team": "Vegas Golden Knights",
-          "rating": 1539.4,
+          "rating": 1539.5,
           "rank": 6
         },
         {
@@ -13141,7 +13141,7 @@
         },
         {
           "team": "Ottawa Senators",
-          "rating": 1510.4,
+          "rating": 1510.5,
           "rank": 12
         },
         {
@@ -13236,7 +13236,7 @@
         },
         {
           "team": "Anaheim Ducks",
-          "rating": 1449.7,
+          "rating": 1449.8,
           "rank": 31
         },
         {
