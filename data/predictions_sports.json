@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T11:55:52.285678+10:00",
+    "updated": "2026-04-22T14:42:48.103035+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -152,7 +152,7 @@
           "home_prob": 65.2,
           "margin": 3.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
           "home_color": "552583",
@@ -791,19 +791,19 @@
           "elo": 1503
         },
         {
-          "team": "Miami Heat",
-          "elo": 1497
-        },
-        {
           "team": "Team Chuck",
           "elo": 1497
         },
         {
-          "team": "Team Candace",
-          "elo": 1493
+          "team": "Miami Heat",
+          "elo": 1497
         },
         {
           "team": "Team Kenny",
+          "elo": 1493
+        },
+        {
+          "team": "Team Candace",
           "elo": 1493
         },
         {
@@ -1861,11 +1861,11 @@
           "elo": 1528
         },
         {
-          "team": "Pittsburgh Steelers",
+          "team": "Green Bay Packers",
           "elo": 1526
         },
         {
-          "team": "Green Bay Packers",
+          "team": "Pittsburgh Steelers",
           "elo": 1526
         },
         {
@@ -2281,11 +2281,11 @@
           "elo": 1510
         },
         {
-          "team": "Fulham",
+          "team": "Newcastle United",
           "elo": 1504
         },
         {
-          "team": "Newcastle United",
+          "team": "Fulham",
           "elo": 1504
         },
         {
@@ -5996,11 +5996,11 @@
           "elo": 1495
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "Miami Marlins",
           "elo": 1493
         },
         {
-          "team": "Miami Marlins",
+          "team": "Tampa Bay Rays",
           "elo": 1493
         },
         {
@@ -8672,7 +8672,7 @@
           "home_prob": 66.1,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
           "home_color": "860038",
@@ -9294,11 +9294,11 @@
           "elo": 1497
         },
         {
-          "team": "Columbus Blue Jackets",
+          "team": "Finland",
           "elo": 1496
         },
         {
-          "team": "Finland",
+          "team": "Columbus Blue Jackets",
           "elo": 1496
         },
         {
@@ -9318,11 +9318,11 @@
           "elo": 1490
         },
         {
-          "team": "New Jersey Devils",
+          "team": "New York Islanders",
           "elo": 1487
         },
         {
-          "team": "New York Islanders",
+          "team": "New Jersey Devils",
           "elo": 1487
         },
         {
