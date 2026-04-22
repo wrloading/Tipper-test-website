@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T15:10:25.158855+00:00",
+    "updated": "2026-04-22T16:53:23.966307+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8427,7 +8427,7 @@
           "away_prob": 51.9,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815047",
           "draw_prob": null
