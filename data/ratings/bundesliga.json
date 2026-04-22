@@ -1,0 +1,32 @@
+{
+  "sport": "bundesliga",
+  "current_season": 2026,
+  "ratings": {
+    "Bayer Leverkusen": 1694.82,
+    "Bayern Munich": 1680.43,
+    "RB Leipzig": 1664.73,
+    "Borussia Dortmund": 1624.39,
+    "Stuttgart": 1604.05,
+    "Eintracht Frankfurt": 1542.38,
+    "Freiburg": 1520.72,
+    "Hoffenheim": 1509.52,
+    "Heidenheim": 1498.1,
+    "St Pauli": 1485.88,
+    "Mainz": 1483.94,
+    "Hamburg": 1482.61,
+    "Wolfsburg": 1479.93,
+    "M'gladbach": 1474.8,
+    "Werder Bremen": 1472.25,
+    "Fortuna Dusseldorf": 1470.95,
+    "Augsburg": 1462.83,
+    "Union Berlin": 1455.82,
+    "Paderborn": 1451.34,
+    "Bielefeld": 1450.68,
+    "FC Koln": 1432.11,
+    "Greuther Furth": 1427.91,
+    "Bochum": 1422.74,
+    "Hertha Berlin": 1419.97,
+    "Schalke 04": 1410.91,
+    "Darmstadt": 1376.18
+  }
+}

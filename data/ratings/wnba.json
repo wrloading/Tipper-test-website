@@ -1,0 +1,23 @@
+{
+  "sport": "wnba",
+  "current_season": 2024,
+  "ratings": {
+    "New York Liberty": 1758.14,
+    "Minnesota Lynx": 1653.91,
+    "Connecticut Sun": 1652.33,
+    "Las Vegas Aces": 1584.92,
+    "Indiana Fever": 1584.43,
+    "Team WNBA": 1534.04,
+    "Seattle Storm": 1532.06,
+    "TEAM STEWART": 1509.59,
+    "Puerto Rico": 1491.99,
+    "Team Wilson": 1490.41,
+    "Team USA": 1465.96,
+    "Phoenix Mercury": 1453.85,
+    "Dallas Wings": 1390.52,
+    "Chicago Sky": 1367.04,
+    "Washington Mystics": 1359.66,
+    "Atlanta Dream": 1354.99,
+    "Los Angeles Sparks": 1316.17
+  }
+}

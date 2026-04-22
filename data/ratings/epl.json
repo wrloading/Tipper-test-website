@@ -1,0 +1,33 @@
+{
+  "sport": "epl",
+  "current_season": 2026,
+  "ratings": {
+    "Manchester City": 1771.26,
+    "Liverpool": 1687.51,
+    "Arsenal": 1679.52,
+    "Aston Villa": 1572.2,
+    "Newcastle": 1568.0,
+    "Manchester United": 1555.58,
+    "Tottenham": 1551.44,
+    "Chelsea": 1548.96,
+    "Crystal Palace": 1524.97,
+    "Brighton & Hove Albion": 1518.38,
+    "Sunderland": 1502.23,
+    "West Ham": 1500.77,
+    "Bournemouth": 1495.88,
+    "Brentford": 1495.43,
+    "Fulham": 1490.73,
+    "Leicester City": 1475.84,
+    "Everton": 1462.29,
+    "Nottingham Forest": 1456.55,
+    "West Bromwich Albion": 1449.86,
+    "Leeds United": 1447.04,
+    "Wolverhampton Wanderers": 1435.21,
+    "Luton Town": 1414.49,
+    "Watford": 1412.7,
+    "Norwich City": 1395.42,
+    "Southampton": 1393.42,
+    "Burnley": 1365.23,
+    "Sheffield United": 1329.1
+  }
+}

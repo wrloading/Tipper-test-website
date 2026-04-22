@@ -1,0 +1,19 @@
+{
+  "sport": "aleague",
+  "current_season": 2025,
+  "ratings": {
+    "Melbourne City FC": 1613.19,
+    "Auckland FC": 1596.72,
+    "Western Sydney Wanderers": 1571.29,
+    "Melbourne Victory": 1566.57,
+    "Sydney FC": 1544.75,
+    "Western United": 1544.58,
+    "Macarthur FC": 1483.78,
+    "Adelaide United": 1481.59,
+    "Central Coast Mariners": 1472.12,
+    "Newcastle Jets": 1456.96,
+    "Wellington Phoenix FC": 1448.11,
+    "Brisbane Roar": 1384.6,
+    "Perth Glory": 1335.74
+  }
+}

@@ -1,4 +1,4 @@
-name: Update AFL Predictions
+name: Update Predictions
 
 on:
   schedule:
@@ -24,17 +24,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run TELO model (AFL)
+      - name: Run AFL TELO model (predictions.json)
         run: python telo.py --year 2026
 
-      - name: Run Multi-Sport ELO model
-        run: python multi_telo.py
+      - name: Run TELO predictions engine (predictions_sports.json)
+        run: python generate.py
 
       - name: Commit updated predictions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/predictions.json data/player_ratings.json data/predictions_sports.json
+          git add data/predictions.json data/player_ratings.json data/predictions_sports.json data/ratings/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
