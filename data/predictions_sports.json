@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-22T16:55:13.425507+10:00",
+    "updated": "2026-04-22T18:27:42.902755+10:00",
     "model": "Multi-Sport TELO v2.0 (individualised)",
     "sports": [
       "nba",
@@ -19,8 +19,8 @@
           "home": "Los Angeles Lakers",
           "away": "Charlotte Hornets",
           "date": "2025-01-10T03:30Z",
-          "home_prob": 67.9,
-          "margin": 4.7,
+          "home_prob": 68.8,
+          "margin": 4.9,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
@@ -32,8 +32,8 @@
           "home": "Atlanta Hawks",
           "away": "Houston Rockets",
           "date": "2025-01-11T20:00Z",
-          "home_prob": 58.2,
-          "margin": 2.1,
+          "home_prob": 59.2,
+          "margin": 2.3,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
@@ -45,8 +45,8 @@
           "home": "Los Angeles Lakers",
           "away": "San Antonio Spurs",
           "date": "2025-01-12T03:30Z",
-          "home_prob": 50.0,
-          "margin": 0.0,
+          "home_prob": 51.0,
+          "margin": 0.3,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
@@ -133,19 +133,6 @@
           "away_color": "0064b1"
         },
         {
-          "home": "Los Angeles Lakers",
-          "away": "Houston Rockets",
-          "date": "2026-04-22T02:30Z",
-          "home_prob": 65.2,
-          "margin": 3.9,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-          "home_color": "552583",
-          "away_color": "ce1141"
-        },
-        {
           "home": "Detroit Pistons",
           "away": "Orlando Magic",
           "date": "2026-04-22T23:00Z",
@@ -227,8 +214,8 @@
           "home": "Houston Rockets",
           "away": "Los Angeles Lakers",
           "date": "2026-04-25T00:00Z",
-          "home_prob": 54.4,
-          "margin": 1.1,
+          "home_prob": 52.3,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
@@ -344,8 +331,8 @@
           "home": "Houston Rockets",
           "away": "Los Angeles Lakers",
           "date": "2026-04-27T01:30Z",
-          "home_prob": 54.4,
-          "margin": 1.1,
+          "home_prob": 52.3,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
@@ -461,8 +448,8 @@
           "home": "Los Angeles Lakers",
           "away": "Houston Rockets",
           "date": "2026-04-29T04:00Z",
-          "home_prob": 65.2,
-          "margin": 3.9,
+          "home_prob": 67.1,
+          "margin": 4.5,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
@@ -565,8 +552,8 @@
           "home": "Houston Rockets",
           "away": "Los Angeles Lakers",
           "date": "2026-05-01T04:00Z",
-          "home_prob": 54.4,
-          "margin": 1.1,
+          "home_prob": 52.3,
+          "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
@@ -669,8 +656,8 @@
           "home": "Los Angeles Lakers",
           "away": "Houston Rockets",
           "date": "2026-05-03T04:00Z",
-          "home_prob": 65.2,
-          "margin": 3.9,
+          "home_prob": 67.1,
+          "margin": 4.5,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
@@ -714,24 +701,24 @@
           "elo": 1644
         },
         {
-          "team": "Cleveland Cavaliers",
+          "team": "Los Angeles Lakers",
           "elo": 1634
         },
         {
-          "team": "Los Angeles Lakers",
-          "elo": 1626
+          "team": "Cleveland Cavaliers",
+          "elo": 1634
         },
         {
           "team": "New York Knicks",
           "elo": 1618
         },
         {
-          "team": "Houston Rockets",
-          "elo": 1587
-        },
-        {
           "team": "Minnesota Timberwolves",
           "elo": 1583
+        },
+        {
+          "team": "Houston Rockets",
+          "elo": 1580
         },
         {
           "team": "Atlanta Hawks",
@@ -778,19 +765,19 @@
           "elo": 1503
         },
         {
-          "team": "Team Chuck",
-          "elo": 1497
-        },
-        {
           "team": "Miami Heat",
           "elo": 1497
         },
         {
-          "team": "Team Kenny",
-          "elo": 1493
+          "team": "Team Chuck",
+          "elo": 1497
         },
         {
           "team": "Team Candace",
+          "elo": 1493
+        },
+        {
+          "team": "Team Kenny",
           "elo": 1493
         },
         {
@@ -830,11 +817,11 @@
           "elo": 1305
         },
         {
-          "team": "Utah Jazz",
+          "team": "Brooklyn Nets",
           "elo": 1282
         },
         {
-          "team": "Brooklyn Nets",
+          "team": "Utah Jazz",
           "elo": 1282
         },
         {
@@ -1794,6 +1781,20 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
           "home_color": "000000",
           "away_color": "e03a3e"
+        },
+        {
+          "home": "Los Angeles Lakers",
+          "away": "Houston Rockets",
+          "date": "2026-04-22T02:30Z",
+          "home_prob": 65.2,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 101,
+          "away_score": 94,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+          "home_color": "552583",
+          "away_color": "ce1141"
         }
       ]
     },
@@ -1818,11 +1819,11 @@
           "elo": 1616
         },
         {
-          "team": "Buffalo Bills",
+          "team": "Houston Texans",
           "elo": 1614
         },
         {
-          "team": "Houston Texans",
+          "team": "Buffalo Bills",
           "elo": 1614
         },
         {
@@ -2650,8 +2651,8 @@
           "home": "Cleveland Guardians",
           "away": "Arizona Diamondbacks",
           "date": "2024-08-06T22:40Z",
-          "home_prob": 55.2,
-          "margin": 0.4,
+          "home_prob": 55.6,
+          "margin": 0.5,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
@@ -3027,7 +3028,7 @@
           "home": "Chicago White Sox",
           "away": "St. Louis Cardinals",
           "date": "2025-06-18T23:40Z",
-          "home_prob": 47.2,
+          "home_prob": 47.6,
           "margin": 0.2,
           "home_fav": false,
           "locked": true,
@@ -3105,7 +3106,7 @@
           "home": "Chicago White Sox",
           "away": "Cleveland Guardians",
           "date": "2025-07-10T23:40Z",
-          "home_prob": 45.0,
+          "home_prob": 45.3,
           "margin": 0.4,
           "home_fav": false,
           "locked": true,
@@ -3144,7 +3145,7 @@
           "home": "Chicago White Sox",
           "away": "Toronto Blue Jays",
           "date": "2026-04-02T20:10Z",
-          "home_prob": 45.1,
+          "home_prob": 45.5,
           "margin": 0.4,
           "home_fav": false,
           "locked": true,
@@ -3178,19 +3179,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
           "home_color": "002b5c",
           "away_color": "0e3386"
-        },
-        {
-          "home": "Arizona Diamondbacks",
-          "away": "Chicago White Sox",
-          "date": "2026-04-22T01:40Z",
-          "home_prob": 62.5,
-          "margin": 1.1,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
-          "home_color": "aa182c",
-          "away_color": "000000"
         },
         {
           "home": "Miami Marlins",
@@ -3365,8 +3353,8 @@
           "home": "Arizona Diamondbacks",
           "away": "Chicago White Sox",
           "date": "2026-04-23T01:40Z",
-          "home_prob": 62.5,
-          "margin": 1.1,
+          "home_prob": 61.8,
+          "margin": 1.0,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
@@ -3443,8 +3431,8 @@
           "home": "Arizona Diamondbacks",
           "away": "Chicago White Sox",
           "date": "2026-04-23T19:40Z",
-          "home_prob": 62.5,
-          "margin": 1.1,
+          "home_prob": 61.8,
+          "margin": 1.0,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
@@ -3612,8 +3600,8 @@
           "home": "Chicago White Sox",
           "away": "Washington Nationals",
           "date": "2026-04-24T23:40Z",
-          "home_prob": 51.7,
-          "margin": 0.1,
+          "home_prob": 52.0,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -3768,8 +3756,8 @@
           "home": "Chicago White Sox",
           "away": "Washington Nationals",
           "date": "2026-04-25T20:10Z",
-          "home_prob": 51.7,
-          "margin": 0.1,
+          "home_prob": 52.0,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -3781,7 +3769,7 @@
           "home": "Arizona Diamondbacks",
           "away": "San Diego Padres",
           "date": "2026-04-25T22:05Z",
-          "home_prob": 51.2,
+          "home_prob": 50.9,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -3989,8 +3977,8 @@
           "home": "Chicago White Sox",
           "away": "Washington Nationals",
           "date": "2026-04-26T18:10Z",
-          "home_prob": 51.7,
-          "margin": 0.1,
+          "home_prob": 52.0,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -4041,7 +4029,7 @@
           "home": "Arizona Diamondbacks",
           "away": "San Diego Padres",
           "date": "2026-04-26T20:05Z",
-          "home_prob": 51.2,
+          "home_prob": 50.9,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -4119,8 +4107,8 @@
           "home": "Chicago White Sox",
           "away": "Los Angeles Angels",
           "date": "2026-04-27T23:40Z",
-          "home_prob": 51.5,
-          "margin": 0.1,
+          "home_prob": 51.9,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -4288,8 +4276,8 @@
           "home": "Chicago White Sox",
           "away": "Los Angeles Angels",
           "date": "2026-04-28T23:40Z",
-          "home_prob": 51.5,
-          "margin": 0.1,
+          "home_prob": 51.9,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -4301,7 +4289,7 @@
           "home": "Milwaukee Brewers",
           "away": "Arizona Diamondbacks",
           "date": "2026-04-28T23:40Z",
-          "home_prob": 57.2,
+          "home_prob": 57.6,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -4392,8 +4380,8 @@
           "home": "Chicago White Sox",
           "away": "Los Angeles Angels",
           "date": "2026-04-29T17:10Z",
-          "home_prob": 51.5,
-          "margin": 0.1,
+          "home_prob": 51.9,
+          "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
@@ -4548,7 +4536,7 @@
           "home": "Milwaukee Brewers",
           "away": "Arizona Diamondbacks",
           "date": "2026-04-29T23:40Z",
-          "home_prob": 57.2,
+          "home_prob": 57.6,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -4652,7 +4640,7 @@
           "home": "Milwaukee Brewers",
           "away": "Arizona Diamondbacks",
           "date": "2026-04-30T17:40Z",
-          "home_prob": 57.2,
+          "home_prob": 57.6,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -4691,7 +4679,7 @@
           "home": "Chicago Cubs",
           "away": "Arizona Diamondbacks",
           "date": "2026-05-01T18:20Z",
-          "home_prob": 56.6,
+          "home_prob": 56.9,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -4847,7 +4835,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-02T01:40Z",
-          "home_prob": 65.3,
+          "home_prob": 65.0,
           "margin": 1.3,
           "home_fav": true,
           "locked": false,
@@ -4912,7 +4900,7 @@
           "home": "Chicago Cubs",
           "away": "Arizona Diamondbacks",
           "date": "2026-05-02T18:20Z",
-          "home_prob": 56.6,
+          "home_prob": 56.9,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5042,7 +5030,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-03T00:40Z",
-          "home_prob": 65.3,
+          "home_prob": 65.0,
           "margin": 1.3,
           "home_fav": true,
           "locked": false,
@@ -5185,7 +5173,7 @@
           "home": "Chicago Cubs",
           "away": "Arizona Diamondbacks",
           "date": "2026-05-03T18:20Z",
-          "home_prob": 56.6,
+          "home_prob": 56.9,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5237,7 +5225,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-03T20:10Z",
-          "home_prob": 65.3,
+          "home_prob": 65.0,
           "margin": 1.3,
           "home_fav": true,
           "locked": false,
@@ -5393,7 +5381,7 @@
           "home": "Los Angeles Angels",
           "away": "Chicago White Sox",
           "date": "2026-05-05T01:38Z",
-          "home_prob": 57.1,
+          "home_prob": 56.7,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5575,7 +5563,7 @@
           "home": "Los Angeles Angels",
           "away": "Chicago White Sox",
           "date": "2026-05-06T01:38Z",
-          "home_prob": 57.1,
+          "home_prob": 56.7,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5601,7 +5589,7 @@
           "home": "Arizona Diamondbacks",
           "away": "Pittsburgh Pirates",
           "date": "2026-05-06T01:40Z",
-          "home_prob": 57.2,
+          "home_prob": 56.9,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5692,7 +5680,7 @@
           "home": "Los Angeles Angels",
           "away": "Chicago White Sox",
           "date": "2026-05-06T20:07Z",
-          "home_prob": 57.1,
+          "home_prob": 56.7,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5809,7 +5797,7 @@
           "home": "Arizona Diamondbacks",
           "away": "Pittsburgh Pirates",
           "date": "2026-05-07T01:40Z",
-          "home_prob": 57.2,
+          "home_prob": 56.9,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
@@ -5825,15 +5813,15 @@
           "elo": 1551
         },
         {
+          "team": "San Diego Padres",
+          "elo": 1532
+        },
+        {
           "team": "Milwaukee Brewers",
           "elo": 1532
         },
         {
           "team": "New York Yankees",
-          "elo": 1532
-        },
-        {
-          "team": "San Diego Padres",
           "elo": 1532
         },
         {
@@ -5858,18 +5846,18 @@
         },
         {
           "team": "Arizona Diamondbacks",
-          "elo": 1511
+          "elo": 1508
         },
         {
           "team": "Philadelphia Phillies",
           "elo": 1508
         },
         {
-          "team": "Detroit Tigers",
+          "team": "Seattle Mariners",
           "elo": 1507
         },
         {
-          "team": "Seattle Mariners",
+          "team": "Detroit Tigers",
           "elo": 1507
         },
         {
@@ -5893,11 +5881,11 @@
           "elo": 1495
         },
         {
-          "team": "San Francisco Giants",
+          "team": "Tampa Bay Rays",
           "elo": 1493
         },
         {
-          "team": "Tampa Bay Rays",
+          "team": "San Francisco Giants",
           "elo": 1493
         },
         {
@@ -5938,7 +5926,7 @@
         },
         {
           "team": "Chicago White Sox",
-          "elo": 1452
+          "elo": 1455
         },
         {
           "team": "Colorado Rockies",
@@ -8579,6 +8567,20 @@
           "away_color": "003831"
         },
         {
+          "home": "Arizona Diamondbacks",
+          "away": "Chicago White Sox",
+          "date": "2026-04-22T01:40Z",
+          "home_prob": 62.5,
+          "home_fav": true,
+          "winner": "away",
+          "home_score": 5,
+          "away_score": 11,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
+          "home_color": "aa182c",
+          "away_color": "000000"
+        },
+        {
           "home": "San Francisco Giants",
           "away": "Los Angeles Dodgers",
           "date": "2026-04-22T01:45Z",
@@ -8613,8 +8615,8 @@
           "home": "Los Angeles Kings",
           "away": "Calgary Flames",
           "date": "2025-01-09T03:30Z",
-          "home_prob": 56.3,
-          "margin": 0.4,
+          "home_prob": 56.2,
+          "margin": 0.3,
           "home_fav": true,
           "locked": true,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
@@ -8633,19 +8635,6 @@
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
           "home_color": "002d62",
-          "away_color": "121212"
-        },
-        {
-          "home": "Colorado Avalanche",
-          "away": "Los Angeles Kings",
-          "date": "2026-04-22T02:22Z",
-          "home_prob": 66.1,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
-          "home_color": "860038",
           "away_color": "121212"
         },
         {
@@ -8717,8 +8706,8 @@
           "home": "Los Angeles Kings",
           "away": "Colorado Avalanche",
           "date": "2026-04-24T02:00Z",
-          "home_prob": 42.1,
-          "margin": 0.4,
+          "home_prob": 41.9,
+          "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
@@ -8821,8 +8810,8 @@
           "home": "Los Angeles Kings",
           "away": "Colorado Avalanche",
           "date": "2026-04-26T20:30Z",
-          "home_prob": 42.1,
-          "margin": 0.4,
+          "home_prob": 41.9,
+          "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
@@ -8964,7 +8953,7 @@
           "home": "Colorado Avalanche",
           "away": "Los Angeles Kings",
           "date": "2026-04-29T04:00Z",
-          "home_prob": 66.1,
+          "home_prob": 66.2,
           "margin": 0.9,
           "home_fav": true,
           "locked": false,
@@ -9068,8 +9057,8 @@
           "home": "Los Angeles Kings",
           "away": "Colorado Avalanche",
           "date": "2026-05-01T04:00Z",
-          "home_prob": 42.1,
-          "margin": 0.4,
+          "home_prob": 41.9,
+          "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
@@ -9172,7 +9161,7 @@
           "home": "Colorado Avalanche",
           "away": "Los Angeles Kings",
           "date": "2026-05-03T04:00Z",
-          "home_prob": 66.1,
+          "home_prob": 66.2,
           "margin": 0.9,
           "home_fav": true,
           "locked": false,
@@ -9185,7 +9174,7 @@
       "rankings": [
         {
           "team": "Colorado Avalanche",
-          "elo": 1575
+          "elo": 1576
         },
         {
           "team": "Carolina Hurricanes",
@@ -9285,7 +9274,7 @@
         },
         {
           "team": "Los Angeles Kings",
-          "elo": 1490
+          "elo": 1489
         },
         {
           "team": "New Jersey Devils",
@@ -9300,11 +9289,11 @@
           "elo": 1479
         },
         {
-          "team": "Toronto Maple Leafs",
+          "team": "Calgary Flames",
           "elo": 1476
         },
         {
-          "team": "Calgary Flames",
+          "team": "Toronto Maple Leafs",
           "elo": 1476
         },
         {
@@ -10578,6 +10567,20 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
           "home_color": "344043",
           "away_color": "000000"
+        },
+        {
+          "home": "Colorado Avalanche",
+          "away": "Los Angeles Kings",
+          "date": "2026-04-22T02:22Z",
+          "home_prob": 66.1,
+          "home_fav": true,
+          "winner": "home",
+          "home_score": 2,
+          "away_score": 1,
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
+          "home_color": "860038",
+          "away_color": "121212"
         }
       ]
     },
