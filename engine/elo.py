@@ -210,22 +210,19 @@ class EloEngine:
         else:
             away_prob = 1.0 - home_prob
 
-        # Expected margin — rough conversion from ELO difference
-        elo_edge = (r_home + home_adv - r_away)
-        expected_margin = elo_edge / 28.0  # Empirically ~28 ELO pts per point/goal
-
         result = {
-            'home':       home_team,
-            'away':       away_team,
-            'home_prob':  round(home_prob * 100, 1),
-            'away_prob':  round(away_prob * 100, 1),
+            'home':        home_team,
+            'away':        away_team,
+            'home_prob':   round(home_prob * 100, 1),
+            'away_prob':   round(away_prob * 100, 1),
             'home_rating': round(r_home, 1),
             'away_rating': round(r_away, 1),
-            'home_fav':   home_prob >= 0.5,
-            'margin':     round(expected_margin, 1),
+            'home_adv':    round(home_adv, 1),
+            'home_fav':    home_prob >= 0.5,
         }
         if draw_prob is not None:
-            result['draw_prob'] = round(draw_prob * 100, 1)
+            result['draw_prob']  = round(draw_prob * 100, 1)
+            result['away_prob']  = round(away_prob * 100, 1)
 
         return result
 

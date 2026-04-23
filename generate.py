@@ -25,6 +25,7 @@ from pathlib import Path
 from engine.elo import EloEngine
 from engine.config import SPORT_CONFIGS, INGEST_SOURCE
 from engine.output import build_sport_output, build_full_output, write_output
+from engine.spread import SpreadEngine
 
 logging.basicConfig(
     level=logging.INFO,
@@ -33,9 +34,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-RATINGS_DIR  = Path('data/ratings')
-OUTPUT_PATH  = Path('data/predictions_sports.json')
-RECENT_DAYS  = 14
+RATINGS_DIR   = Path('data/ratings')
+CACHE_DIR     = Path('data/cache')
+OUTPUT_PATH   = Path('output/predictions_sports.json')
+RECENT_DAYS   = 14
+SPREAD_DAYS   = 90   # Longer lookback to warm up SpreadEngine rolling averages
 UPCOMING_DAYS = 14
 
 
@@ -82,6 +85,77 @@ def fetch_recent(sport: str) -> list[dict]:
         from ingest.football_data import fetch_recent_fd
         return fetch_recent_fd(sport, days=RECENT_DAYS)
     return []
+
+
+def fetch_spread_history(sport: str) -> list[dict]:
+    """
+    Load enough game history to warm up the SpreadEngine rolling averages.
+    Strategy:
+      1. Load cached season files (seeded data) for the last 2 seasons.
+      2. Supplement with a 90-day recent fetch for current-season form.
+    Games are returned sorted oldest-first.
+    """
+    games: dict[str, dict] = {}  # keyed by game id to deduplicate
+
+    # Load from seeded cache files
+    current_year = date.today().year
+    for season in [current_year - 1, current_year]:
+        cache_path = CACHE_DIR / f'{sport}_{season}.json'
+        if cache_path.exists():
+            try:
+                with open(cache_path) as f:
+                    for g in json.load(f):
+                        gid = g.get('id') or f'{g["date"]}_{g["home_team"]}_{g["away_team"]}'
+                        games[gid] = g
+            except Exception:
+                pass
+
+    # Supplement with extended recent fetch
+    source = INGEST_SOURCE.get(sport, 'espn')
+    try:
+        if source == 'espn':
+            from ingest.espn import fetch_recent as espn_recent
+            for g in espn_recent(sport, days=SPREAD_DAYS):
+                gid = g.get('id') or f'{g["date"]}_{g["home_team"]}_{g["away_team"]}'
+                games[gid] = g
+        elif source == 'football_data':
+            from ingest.football_data import fetch_recent_fd
+            for g in fetch_recent_fd(sport, days=SPREAD_DAYS):
+                gid = g.get('id') or f'{g["date"]}_{g["home_team"]}_{g["away_team"]}'
+                games[gid] = g
+    except Exception:
+        pass
+
+    return sorted(games.values(), key=lambda g: g.get('date', ''))
+
+
+def build_spread_engine(sport: str, recent_games: list[dict]) -> SpreadEngine:
+    """
+    Initialise a SpreadEngine with historical + recent game data.
+    recent_games (from the ELO update step) are appended last so they
+    represent the freshest form.
+    """
+    engine = SpreadEngine(sport)
+    history = fetch_spread_history(sport)
+
+    # Feed history first (oldest → newest), then append any recent games
+    # not already in history
+    history_ids = {g.get('id') or '' for g in history}
+    extra = [
+        g for g in recent_games
+        if (g.get('id') or '') not in history_ids
+    ]
+
+    for g in history + extra:
+        engine.record_game(
+            g['home_team'], g['away_team'],
+            g['home_score'], g['away_score'],
+            g.get('neutral', False),
+        )
+
+    n_teams = len(engine.teams)
+    logger.info(f'[{sport}] SpreadEngine: {n_teams} teams, league avg ≈ {engine._league_avg:.1f}')
+    return engine
 
 
 def fetch_upcoming(sport: str) -> list[dict]:
@@ -156,8 +230,11 @@ def generate_sport(sport: str) -> dict:
     upcoming_games = fetch_upcoming(sport)
     logger.info(f'[{sport}] {len(upcoming_games)} upcoming games, {len(recent_games)} recent games')
 
-    # ── Step 4: Build output section ──────────────────────────────────────────
-    section = build_sport_output(engine, upcoming_games, recent_games)
+    # ── Step 4: Build SpreadEngine from historical + recent data ─────────────
+    spread_engine = build_spread_engine(sport, recent_games)
+
+    # ── Step 5: Build output section ──────────────────────────────────────────
+    section = build_sport_output(engine, upcoming_games, recent_games, spread_engine)
 
     upcoming_count = len(section['upcoming'])
     recent_count   = len(section['recent'])

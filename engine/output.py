@@ -46,9 +46,12 @@ backfill telo_expected values for tips that were submitted with 50/50 defaults.
 import json
 import os
 from datetime import datetime, timezone, date, timedelta
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 
 from engine.elo import EloEngine
+
+if TYPE_CHECKING:
+    from engine.spread import SpreadEngine
 
 VERSION = '2.0.0'
 
@@ -66,6 +69,7 @@ def build_sport_output(
     engine: EloEngine,
     upcoming_games: list[dict],
     recent_games: list[dict],
+    spread_engine: Optional['SpreadEngine'] = None,
 ) -> dict:
     """
     Build the output section for a single sport.
@@ -82,6 +86,21 @@ def build_sport_output(
             game['away_team'],
             neutral=game.get('neutral', False),
         )
+        neutral = game.get('neutral', False)
+
+        # Spread: use SpreadEngine (offense/defense model) with ELO fallback
+        if spread_engine is not None:
+            margin = spread_engine.predict_spread(
+                game['home_team'], game['away_team'], neutral=neutral,
+            )
+            if margin is None:
+                margin = spread_engine.elo_fallback_spread(
+                    pred['home_rating'], pred['away_rating'],
+                    pred['home_adv'], neutral=neutral,
+                )
+        else:
+            margin = round((pred['home_rating'] + pred['home_adv'] - pred['away_rating']) / 28.0, 1)
+
         entry: dict = {
             'home':      game['home_team'],
             'away':      game['away_team'],
@@ -89,7 +108,7 @@ def build_sport_output(
             'datetime':  game.get('datetime', game.get('date', '')),
             'home_prob': pred['home_prob'],
             'away_prob': pred['away_prob'],
-            'margin':    pred['margin'],
+            'margin':    margin,
             'home_fav':  pred['home_fav'],
             'locked':    _is_locked(game.get('datetime', '')),
             'venue':     game.get('venue', ''),
