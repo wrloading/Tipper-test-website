@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-23T17:14:10.200386+00:00",
+    "updated": "2026-04-23T19:00:03.986691+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1984,7 +1984,7 @@
         },
         {
           "home": "Los Angeles Sparks",
-          "away": "Nigeria",
+          "away": "NIGERIA",
           "date": "2026-04-25",
           "datetime": "2026-04-25T19:00Z",
           "home_prob": 25.8,
@@ -2040,7 +2040,7 @@
         },
         {
           "home": "Las Vegas Aces",
-          "away": "Japan",
+          "away": "JAPAN",
           "date": "2026-04-27",
           "datetime": "2026-04-27T00:00Z",
           "home_prob": 72.1,
@@ -2054,7 +2054,7 @@
         },
         {
           "home": "Minnesota Lynx",
-          "away": "Nigeria",
+          "away": "NIGERIA",
           "date": "2026-04-28",
           "datetime": "2026-04-28T00:00Z",
           "home_prob": 70.8,
@@ -2110,7 +2110,7 @@
         },
         {
           "home": "Phoenix Mercury",
-          "away": "Japan",
+          "away": "JAPAN",
           "date": "2026-04-30",
           "datetime": "2026-04-30T02:00Z",
           "home_prob": 54.9,
@@ -2152,7 +2152,7 @@
         },
         {
           "home": "Indiana Fever",
-          "away": "Nigeria",
+          "away": "NIGERIA",
           "date": "2026-05-02",
           "datetime": "2026-05-02T23:00Z",
           "home_prob": 72.0,
@@ -3157,7 +3157,7 @@
           "away_prob": 24.9,
           "margin": 5.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio de Vallecas",
           "game_id": "laliga_748470",
           "draw_prob": 13.8
@@ -8153,7 +8153,7 @@
           "away_prob": 40.0,
           "margin": 2.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815060",
           "draw_prob": null
