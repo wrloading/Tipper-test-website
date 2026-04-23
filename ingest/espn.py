@@ -89,6 +89,11 @@ def _parse_event(event: dict, sport: str) -> Optional[dict]:
     Parse a single ESPN event into a normalised game record.
     Returns None if the game is not complete or data is missing.
     """
+    # Skip preseason (type 1) — includes international exhibition games that
+    # contaminate ratings with non-league teams (e.g. NBA tours vs NBL/EuroLeague)
+    if event.get('season', {}).get('type') == 1:
+        return None
+
     comp = event.get('competitions', [{}])[0]
     status = comp.get('status', {}).get('type', {})
     if not status.get('completed'):
