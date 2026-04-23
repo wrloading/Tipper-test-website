@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-23T15:48:03.197051+00:00",
+    "updated": "2026-04-23T17:14:10.200386+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2165,20 +2165,6 @@
           "draw_prob": null
         },
         {
-          "home": "Connecticut Sun",
-          "away": "New York Liberty",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T19:00Z",
-          "home_prob": 46.3,
-          "away_prob": 53.7,
-          "margin": -0.9,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Mohegan Sun Arena",
-          "game_id": "wnba_401866519",
-          "draw_prob": null
-        },
-        {
           "home": "Atlanta Dream",
           "away": "Washington Mystics",
           "date": "2026-05-03",
@@ -2190,6 +2176,20 @@
           "locked": false,
           "venue": "Gateway Center",
           "game_id": "wnba_401867795",
+          "draw_prob": null
+        },
+        {
+          "home": "Connecticut Sun",
+          "away": "New York Liberty",
+          "date": "2026-05-03",
+          "datetime": "2026-05-03T21:00Z",
+          "home_prob": 46.3,
+          "away_prob": 53.7,
+          "margin": -0.9,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Mohegan Sun Arena",
+          "game_id": "wnba_401866519",
           "draw_prob": null
         },
         {
@@ -3143,7 +3143,7 @@
           "away_prob": 34.8,
           "margin": 1.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Ciutat de Val\u00e8ncia",
           "game_id": "laliga_748473",
           "draw_prob": 19.0
@@ -8125,7 +8125,7 @@
           "away_prob": 56.2,
           "margin": -1.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815056",
           "draw_prob": null
@@ -8139,7 +8139,7 @@
           "away_prob": 43.7,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815057",
           "draw_prob": null
