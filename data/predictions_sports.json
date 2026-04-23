@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-23T08:54:54.125138+00:00",
+    "updated": "2026-04-23T10:18:31.975980+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 62.1,
           "margin": -3.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133537",
           "draw_prob": null
@@ -221,7 +221,7 @@
           "margin": 11.7,
           "home_fav": true,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133545",
           "draw_prob": null
         },
