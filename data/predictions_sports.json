@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-23T22:38:28.074098+00:00",
+    "updated": "2026-04-23T23:39:43.838374+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -744,7 +744,7 @@
           "away_prob": 54.1,
           "margin": -1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "State Farm Arena",
           "game_id": "nba_401869389",
           "draw_prob": null
@@ -3580,7 +3580,7 @@
           "home": "Real Madrid",
           "away": "Alaves",
           "date": "2026-04-21",
-          "home_prob": 83.7,
+          "home_prob": 83.6,
           "winner": "Real Madrid",
           "home_score": 2,
           "away_score": 1,
@@ -8215,34 +8215,6 @@
       ],
       "upcoming": [
         {
-          "home": "Colorado Rockies",
-          "away": "San Diego Padres",
-          "date": "2026-04-23",
-          "datetime": "2026-04-23T19:10Z",
-          "home_prob": 48.3,
-          "away_prob": 51.7,
-          "margin": -0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Coors Field",
-          "game_id": "mlb_401815062",
-          "draw_prob": null
-        },
-        {
-          "home": "Arizona Diamondbacks",
-          "away": "Chicago White Sox",
-          "date": "2026-04-23",
-          "datetime": "2026-04-23T19:40Z",
-          "home_prob": 57.9,
-          "away_prob": 42.1,
-          "margin": 2.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Chase Field",
-          "game_id": "mlb_401815063",
-          "draw_prob": null
-        },
-        {
           "home": "Boston Red Sox",
           "away": "New York Yankees",
           "date": "2026-04-23",
@@ -8265,7 +8237,7 @@
           "away_prob": 50.0,
           "margin": -0.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815058",
           "draw_prob": null
@@ -8456,7 +8428,7 @@
           "home": "Los Angeles Dodgers",
           "away": "Chicago Cubs",
           "date": "2026-04-25",
-          "datetime": "2026-04-25T02:10Z",
+          "datetime": "2026-04-25T02:15Z",
           "home_prob": 53.9,
           "away_prob": 46.1,
           "margin": 1.0,
@@ -13009,7 +12981,7 @@
           "away_prob": 43.0,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "TD Garden",
           "game_id": "nhl_401869759",
           "draw_prob": null
@@ -13023,7 +12995,7 @@
           "away_prob": 49.3,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Canadian Tire Centre",
           "game_id": "nhl_401869783",
           "draw_prob": null
