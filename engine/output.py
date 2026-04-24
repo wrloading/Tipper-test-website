@@ -91,7 +91,8 @@ def build_sport_output(
         # Spread: use SpreadEngine (offense/defense model) with ELO fallback
         if spread_engine is not None:
             margin = spread_engine.predict_spread(
-                game['home_team'], game['away_team'], neutral=neutral,
+                game['home_team'], game['away_team'],
+                neutral=neutral, venue=game.get('venue', ''),
             )
             if margin is None:
                 margin = spread_engine.elo_fallback_spread(

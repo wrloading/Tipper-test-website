@@ -151,6 +151,7 @@ def build_spread_engine(sport: str, recent_games: list[dict]) -> SpreadEngine:
             g['home_team'], g['away_team'],
             g['home_score'], g['away_score'],
             g.get('neutral', False),
+            g.get('venue', ''),
         )
 
     n_teams = len(engine.teams)

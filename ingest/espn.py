@@ -123,6 +123,12 @@ def _parse_event(event: dict, sport: str) -> Optional[dict]:
     # Determine season from date (ESPN doesn't always expose season year cleanly)
     season_year = int(raw_date[:4]) if raw_date else 0
 
+    venue = (
+        comp.get('venue', {}).get('fullName')
+        or comp.get('venue', {}).get('address', {}).get('city')
+        or ''
+    )
+
     return {
         'id':         event.get('id', ''),
         'date':       raw_date,
@@ -132,6 +138,7 @@ def _parse_event(event: dict, sport: str) -> Optional[dict]:
         'home_score': home_score,
         'away_score': away_score,
         'neutral':    comp.get('neutralSite', False),
+        'venue':      venue,
     }
 
 

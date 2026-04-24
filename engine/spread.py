@@ -178,20 +178,33 @@ SPREAD_CONFIGS: dict[str, dict] = {
 }
 
 
-# ── Internal team statistics tracker ─────────────────────────────────────────
+# ── Internal trackers ────────────────────────────────────────────────────────
+
+class _VenueStats:
+    """EWMA offensive/defensive stats for one team at one specific venue."""
+
+    __slots__ = ('alpha', 'n', 'off', 'def_')
+
+    def __init__(self, alpha: float) -> None:
+        self.alpha = alpha
+        self.n     = 0
+        self.off:  Optional[float] = None
+        self.def_: Optional[float] = None
+
+    def _update(self, current: Optional[float], value: float) -> float:
+        return value if current is None else self.alpha * value + (1.0 - self.alpha) * current
+
+    def record(self, scored: float, allowed: float) -> None:
+        self.off  = self._update(self.off,  scored)
+        self.def_ = self._update(self.def_, allowed)
+        self.n   += 1
+
 
 class _TeamStats:
     """
     EWMA offensive/defensive statistics for one team.
-    Tracks overall and separate home/away splits.
+    Tracks overall averages, home/away splits, and per-venue stats.
     """
-
-    __slots__ = (
-        'alpha', 'n_home', 'n_away',
-        'off', 'def_',
-        'home_off', 'home_def',
-        'away_off', 'away_def',
-    )
 
     def __init__(self, alpha: float) -> None:
         self.alpha    = alpha
@@ -203,11 +216,13 @@ class _TeamStats:
         self.home_def: Optional[float] = None
         self.away_off: Optional[float] = None
         self.away_def: Optional[float] = None
+        # venue name → _VenueStats (only populated when venue is known)
+        self.venues:   dict[str, _VenueStats] = {}
 
     def _update(self, current: Optional[float], value: float) -> float:
         return value if current is None else self.alpha * value + (1.0 - self.alpha) * current
 
-    def record(self, scored: float, allowed: float, is_home: bool) -> None:
+    def record(self, scored: float, allowed: float, is_home: bool, venue: str = '') -> None:
         self.off  = self._update(self.off,  scored)
         self.def_ = self._update(self.def_, allowed)
         if is_home:
@@ -218,6 +233,11 @@ class _TeamStats:
             self.away_off = self._update(self.away_off, scored)
             self.away_def = self._update(self.away_def, allowed)
             self.n_away  += 1
+
+        if venue:
+            if venue not in self.venues:
+                self.venues[venue] = _VenueStats(self.alpha)
+            self.venues[venue].record(scored, allowed)
 
     @property
     def n_games(self) -> int:
@@ -261,14 +281,16 @@ class SpreadEngine:
         home_score: float,
         away_score: float,
         neutral: bool = False,
+        venue: str = '',
     ) -> None:
         """Feed a completed game into the engine (call in chronological order)."""
         for name in (home_team, away_team):
             if name not in self.teams:
                 self.teams[name] = _TeamStats(self.alpha)
 
-        self.teams[home_team].record(home_score, away_score, is_home=not neutral)
-        self.teams[away_team].record(away_score, home_score, is_home=False)
+        v = venue.strip() if venue else ''
+        self.teams[home_team].record(home_score, away_score, is_home=not neutral, venue=v)
+        self.teams[away_team].record(away_score, home_score, is_home=False, venue=v)
 
         # Update league scoring average
         for score in (home_score, away_score):
@@ -283,22 +305,42 @@ class SpreadEngine:
     def _league_avg(self) -> float:
         return self._league_off if self._league_off is not None else 0.0
 
-    def _off(self, team: str, prefer_home: bool) -> float:
+    MIN_VENUE_GAMES = 5  # Minimum home games at a venue before trusting venue stats
+
+    def _off(self, team: str, prefer_home: bool, venue: str = '') -> float:
         """
-        Return offensive rating for a team, preferring venue-specific split
-        when sufficient data is available. Falls back to overall rating,
-        then league average.
+        Offensive rating for a team. Priority order:
+          1. Venue-specific EWMA (if venue known and enough games there)
+          2. Home/away split EWMA
+          3. Overall EWMA
+          4. League average
         """
         s = self.teams.get(team)
         lg = self._league_avg
         if s is None:
             return lg
 
+        # 1. Venue-specific
+        if venue and venue in s.venues:
+            vs = s.venues[venue]
+            if vs.n >= self.MIN_VENUE_GAMES and vs.off is not None:
+                return vs.off
+            # Partial blend: weight by how much venue data we have
+            if vs.n > 0 and vs.off is not None:
+                blend = vs.n / self.MIN_VENUE_GAMES
+
+                # Blend against split or overall as the fallback
+                fallback = self._off_split(s, prefer_home, lg)
+                return blend * vs.off + (1.0 - blend) * fallback
+
+        # 2. Home/away split
+        return self._off_split(s, prefer_home, lg)
+
+    def _off_split(self, s: _TeamStats, prefer_home: bool, lg: float) -> float:
         if prefer_home:
             if s.home_off is not None and s.n_home >= self.min_split:
                 return s.home_off
             if s.home_off is not None and s.n_home > 0 and s.off is not None:
-                # Partial blend toward split as data accumulates
                 blend = s.n_home / self.min_split
                 return blend * s.home_off + (1.0 - blend) * s.off
         else:
@@ -307,19 +349,31 @@ class SpreadEngine:
             if s.away_off is not None and s.n_away > 0 and s.off is not None:
                 blend = s.n_away / self.min_split
                 return blend * s.away_off + (1.0 - blend) * s.off
-
         return s.off if s.off is not None else lg
 
-    def _def(self, team: str, prefer_home: bool) -> float:
+    def _def(self, team: str, prefer_home: bool, venue: str = '') -> float:
         """
-        Return defensive rating (points allowed) for a team, preferring
-        venue-specific split when sufficient data is available.
+        Defensive rating (pts allowed) for a team. Same priority order as _off.
         """
         s = self.teams.get(team)
         lg = self._league_avg
         if s is None:
             return lg
 
+        # 1. Venue-specific
+        if venue and venue in s.venues:
+            vs = s.venues[venue]
+            if vs.n >= self.MIN_VENUE_GAMES and vs.def_ is not None:
+                return vs.def_
+            if vs.n > 0 and vs.def_ is not None:
+                blend = vs.n / self.MIN_VENUE_GAMES
+                fallback = self._def_split(s, prefer_home, lg)
+                return blend * vs.def_ + (1.0 - blend) * fallback
+
+        # 2. Home/away split
+        return self._def_split(s, prefer_home, lg)
+
+    def _def_split(self, s: _TeamStats, prefer_home: bool, lg: float) -> float:
         if prefer_home:
             if s.home_def is not None and s.n_home >= self.min_split:
                 return s.home_def
@@ -332,7 +386,6 @@ class SpreadEngine:
             if s.away_def is not None and s.n_away > 0 and s.def_ is not None:
                 blend = s.n_away / self.min_split
                 return blend * s.away_def + (1.0 - blend) * s.def_
-
         return s.def_ if s.def_ is not None else lg
 
     def _has_split(self, team: str, home: bool) -> bool:
@@ -348,15 +401,21 @@ class SpreadEngine:
         home_team: str,
         away_team: str,
         neutral: bool = False,
+        venue: str = '',
     ) -> Optional[float]:
         """
         Predict the point spread (positive = home team favored).
         Returns None if neither team has enough data to make a prediction.
 
-        When home/away splits are available they are used directly — venue
-        advantage is already embedded in those numbers. When falling back to
-        overall averages, a sport-specific home advantage is added proportionally
-        to cover the missing split contribution.
+        Resolution order for each team's stats:
+          1. Per-venue EWMA at this specific ground (if venue provided and enough data)
+          2. Home/away split EWMA
+          3. Overall EWMA
+          4. League average (last resort)
+
+        Home advantage is embedded in venue/split stats when available. A
+        proportional flat adjustment is added only when falling back to overall
+        averages that don't encode venue context.
         """
         h = self.teams.get(home_team)
         a = self.teams.get(away_team)
@@ -367,6 +426,8 @@ class SpreadEngine:
         if h_games < self.min_games and a_games < self.min_games:
             return None
 
+        v = venue.strip() if venue else ''
+
         if neutral:
             h_off = self._off(home_team, prefer_home=False)
             h_def = self._def(home_team, prefer_home=False)
@@ -374,21 +435,21 @@ class SpreadEngine:
             a_def = self._def(away_team, prefer_home=False)
             home_adv = 0.0
         else:
-            # Home team: use home-venue offensive/defensive splits
-            h_off = self._off(home_team, prefer_home=True)
-            h_def = self._def(home_team, prefer_home=True)
-            # Away team: use away-venue offensive/defensive splits
+            # Venue stats only used for the HOME team — they play at this ground
+            # every home game so the sample is meaningful. Away teams visit each
+            # specific venue too rarely for reliable per-venue stats; use their
+            # general away split instead.
+            h_off = self._off(home_team, prefer_home=True,  venue=v)
+            h_def = self._def(home_team, prefer_home=True,  venue=v)
             a_off = self._off(away_team, prefer_home=False)
             a_def = self._def(away_team, prefer_home=False)
 
-            # Home advantage is embedded in splits when available.
-            # For any side missing its split, add a proportional flat adjustment.
-            h_split = self._has_split(home_team, home=True)
+            h_has_venue = bool(v and h and v in h.venues and h.venues[v].n >= self.MIN_VENUE_GAMES)
+            h_split = h_has_venue or self._has_split(home_team, home=True)
             a_split = self._has_split(away_team, home=False)
-            missing = (0.0 if h_split else 0.5) + (0.0 if a_split else 0.5)
+            missing  = (0.0 if h_split else 0.5) + (0.0 if a_split else 0.5)
             home_adv = self.home_adv_pts * missing
 
-        # Expected scores via the standard offense-vs-defense model
         home_expected = (h_off + a_def) / 2.0
         away_expected = (a_off + h_def) / 2.0
 
