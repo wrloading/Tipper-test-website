@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-24T01:48:22.168400+00:00",
+    "updated": "2026-04-24T01:55:02.320132+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -101,75 +101,75 @@
       "rankings": [
         {
           "team": "Sydney",
-          "elo": 1716.4
+          "elo": 1716
         },
         {
           "team": "Brisbane Lions",
-          "elo": 1697.4
+          "elo": 1697
         },
         {
           "team": "Hawthorn",
-          "elo": 1687.0
+          "elo": 1687
         },
         {
           "team": "Geelong",
-          "elo": 1623.3
+          "elo": 1623
         },
         {
           "team": "St Kilda",
-          "elo": 1563.5
+          "elo": 1564
         },
         {
           "team": "Fremantle",
-          "elo": 1562.5
+          "elo": 1562
         },
         {
           "team": "GWS GIANTS",
-          "elo": 1557.0
+          "elo": 1557
         },
         {
           "team": "Adelaide",
-          "elo": 1537.9
+          "elo": 1538
         },
         {
           "team": "Collingwood",
-          "elo": 1527.3
+          "elo": 1527
         },
         {
           "team": "Port Adelaide",
-          "elo": 1513.8
+          "elo": 1514
         },
         {
           "team": "Western Bulldogs",
-          "elo": 1493.0
+          "elo": 1493
         },
         {
           "team": "Melbourne",
-          "elo": 1456.8
+          "elo": 1457
         },
         {
           "team": "Gold Coast SUNS",
-          "elo": 1445.0
+          "elo": 1445
         },
         {
           "team": "Essendon",
-          "elo": 1435.5
+          "elo": 1436
         },
         {
           "team": "Carlton",
-          "elo": 1417.7
+          "elo": 1418
         },
         {
           "team": "North Melbourne",
-          "elo": 1294.2
+          "elo": 1294
         },
         {
           "team": "West Coast",
-          "elo": 1284.4
+          "elo": 1284
         },
         {
           "team": "Richmond",
-          "elo": 1187.2
+          "elo": 1187
         }
       ],
       "upcoming": [
@@ -612,276 +612,276 @@
     "nba": {
       "ratings": [
         {
-          "team": "Boston Celtics",
-          "rating": 1743.9,
+          "team": "Oklahoma City Thunder",
+          "rating": 1757.5,
           "rank": 1
         },
         {
-          "team": "Dallas Mavericks",
-          "rating": 1650.1,
+          "team": "Los Angeles Lakers",
+          "rating": 1741.1,
           "rank": 2
         },
         {
-          "team": "Denver Nuggets",
-          "rating": 1627.8,
+          "team": "San Antonio Spurs",
+          "rating": 1709.6,
           "rank": 3
         },
         {
-          "team": "Oklahoma City Thunder",
-          "rating": 1613.8,
+          "team": "Denver Nuggets",
+          "rating": 1684.7,
           "rank": 4
         },
         {
-          "team": "Minnesota Timberwolves",
-          "rating": 1612.6,
+          "team": "Detroit Pistons",
+          "rating": 1672.1,
           "rank": 5
         },
         {
-          "team": "Indiana Pacers",
-          "rating": 1612.3,
+          "team": "Boston Celtics",
+          "rating": 1654.9,
           "rank": 6
         },
         {
-          "team": "New York Knicks",
-          "rating": 1599.8,
+          "team": "Cleveland Cavaliers",
+          "rating": 1620.7,
           "rank": 7
         },
         {
-          "team": "Houston Rockets",
-          "rating": 1597.6,
+          "team": "Atlanta Hawks",
+          "rating": 1610.8,
           "rank": 8
         },
         {
-          "team": "Phoenix Suns",
-          "rating": 1596.3,
+          "team": "Philadelphia 76ers",
+          "rating": 1599.3,
           "rank": 9
         },
         {
-          "team": "New Orleans Pelicans",
-          "rating": 1593.2,
+          "team": "Minnesota Timberwolves",
+          "rating": 1592.8,
           "rank": 10
         },
         {
-          "team": "Milwaukee Bucks",
-          "rating": 1560.8,
+          "team": "Miami Heat",
+          "rating": 1591.4,
           "rank": 11
         },
         {
-          "team": "LA Clippers",
-          "rating": 1538.2,
+          "team": "Portland Trail Blazers",
+          "rating": 1588.1,
           "rank": 12
         },
         {
-          "team": "Los Angeles Lakers",
-          "rating": 1530.2,
+          "team": "Phoenix Suns",
+          "rating": 1585.8,
           "rank": 13
         },
         {
-          "team": "Sacramento Kings",
-          "rating": 1523.5,
+          "team": "Charlotte Hornets",
+          "rating": 1582.2,
           "rank": 14
         },
         {
-          "team": "Philadelphia 76ers",
-          "rating": 1518.5,
+          "team": "New York Knicks",
+          "rating": 1564.7,
           "rank": 15
         },
         {
-          "team": "Golden State Warriors",
-          "rating": 1514.8,
+          "team": "Orlando Magic",
+          "rating": 1557.9,
           "rank": 16
         },
         {
-          "team": "Cleveland Cavaliers",
-          "rating": 1509.3,
+          "team": "Houston Rockets",
+          "rating": 1551.2,
           "rank": 17
         },
         {
-          "team": "Atlanta Hawks",
-          "rating": 1497.7,
+          "team": "Toronto Raptors",
+          "rating": 1534.0,
           "rank": 18
         },
         {
-          "team": "Chicago Bulls",
-          "rating": 1472.2,
+          "team": "LA Clippers",
+          "rating": 1506.2,
           "rank": 19
         },
         {
-          "team": "Orlando Magic",
-          "rating": 1461.9,
+          "team": "Golden State Warriors",
+          "rating": 1449.1,
           "rank": 20
         },
         {
-          "team": "Miami Heat",
-          "rating": 1441.7,
+          "team": "New Orleans Pelicans",
+          "rating": 1401.4,
           "rank": 21
         },
         {
-          "team": "Brooklyn Nets",
-          "rating": 1440.1,
+          "team": "Dallas Mavericks",
+          "rating": 1383.6,
           "rank": 22
         },
         {
-          "team": "Memphis Grizzlies",
-          "rating": 1406.6,
+          "team": "Chicago Bulls",
+          "rating": 1358.7,
           "rank": 23
         },
         {
-          "team": "Utah Jazz",
-          "rating": 1402.5,
+          "team": "Sacramento Kings",
+          "rating": 1335.4,
           "rank": 24
         },
         {
-          "team": "San Antonio Spurs",
-          "rating": 1374.0,
+          "team": "Milwaukee Bucks",
+          "rating": 1315.5,
           "rank": 25
         },
         {
-          "team": "Portland Trail Blazers",
-          "rating": 1335.4,
+          "team": "Indiana Pacers",
+          "rating": 1267.0,
           "rank": 26
         },
         {
-          "team": "Detroit Pistons",
-          "rating": 1309.5,
+          "team": "Memphis Grizzlies",
+          "rating": 1244.8,
           "rank": 27
         },
         {
-          "team": "Toronto Raptors",
-          "rating": 1309.0,
+          "team": "Utah Jazz",
+          "rating": 1226.1,
           "rank": 28
         },
         {
-          "team": "Washington Wizards",
-          "rating": 1308.5,
+          "team": "Brooklyn Nets",
+          "rating": 1164.4,
           "rank": 29
         },
         {
-          "team": "Charlotte Hornets",
-          "rating": 1298.1,
+          "team": "Washington Wizards",
+          "rating": 1148.9,
           "rank": 30
         }
       ],
       "rankings": [
         {
-          "team": "Boston Celtics",
-          "elo": 1743.9
-        },
-        {
-          "team": "Dallas Mavericks",
-          "elo": 1650.1
-        },
-        {
-          "team": "Denver Nuggets",
-          "elo": 1627.8
-        },
-        {
           "team": "Oklahoma City Thunder",
-          "elo": 1613.8
-        },
-        {
-          "team": "Minnesota Timberwolves",
-          "elo": 1612.6
-        },
-        {
-          "team": "Indiana Pacers",
-          "elo": 1612.3
-        },
-        {
-          "team": "New York Knicks",
-          "elo": 1599.8
-        },
-        {
-          "team": "Houston Rockets",
-          "elo": 1597.6
-        },
-        {
-          "team": "Phoenix Suns",
-          "elo": 1596.3
-        },
-        {
-          "team": "New Orleans Pelicans",
-          "elo": 1593.2
-        },
-        {
-          "team": "Milwaukee Bucks",
-          "elo": 1560.8
-        },
-        {
-          "team": "LA Clippers",
-          "elo": 1538.2
+          "elo": 1758
         },
         {
           "team": "Los Angeles Lakers",
-          "elo": 1530.2
-        },
-        {
-          "team": "Sacramento Kings",
-          "elo": 1523.5
-        },
-        {
-          "team": "Philadelphia 76ers",
-          "elo": 1518.5
-        },
-        {
-          "team": "Golden State Warriors",
-          "elo": 1514.8
-        },
-        {
-          "team": "Cleveland Cavaliers",
-          "elo": 1509.3
-        },
-        {
-          "team": "Atlanta Hawks",
-          "elo": 1497.7
-        },
-        {
-          "team": "Chicago Bulls",
-          "elo": 1472.2
-        },
-        {
-          "team": "Orlando Magic",
-          "elo": 1461.9
-        },
-        {
-          "team": "Miami Heat",
-          "elo": 1441.7
-        },
-        {
-          "team": "Brooklyn Nets",
-          "elo": 1440.1
-        },
-        {
-          "team": "Memphis Grizzlies",
-          "elo": 1406.6
-        },
-        {
-          "team": "Utah Jazz",
-          "elo": 1402.5
+          "elo": 1741
         },
         {
           "team": "San Antonio Spurs",
-          "elo": 1374.0
+          "elo": 1710
         },
         {
-          "team": "Portland Trail Blazers",
-          "elo": 1335.4
+          "team": "Denver Nuggets",
+          "elo": 1685
         },
         {
           "team": "Detroit Pistons",
-          "elo": 1309.5
+          "elo": 1672
         },
         {
-          "team": "Toronto Raptors",
-          "elo": 1309.0
+          "team": "Boston Celtics",
+          "elo": 1655
         },
         {
-          "team": "Washington Wizards",
-          "elo": 1308.5
+          "team": "Cleveland Cavaliers",
+          "elo": 1621
+        },
+        {
+          "team": "Atlanta Hawks",
+          "elo": 1611
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "elo": 1599
+        },
+        {
+          "team": "Minnesota Timberwolves",
+          "elo": 1593
+        },
+        {
+          "team": "Miami Heat",
+          "elo": 1591
+        },
+        {
+          "team": "Portland Trail Blazers",
+          "elo": 1588
+        },
+        {
+          "team": "Phoenix Suns",
+          "elo": 1586
         },
         {
           "team": "Charlotte Hornets",
-          "elo": 1298.1
+          "elo": 1582
+        },
+        {
+          "team": "New York Knicks",
+          "elo": 1565
+        },
+        {
+          "team": "Orlando Magic",
+          "elo": 1558
+        },
+        {
+          "team": "Houston Rockets",
+          "elo": 1551
+        },
+        {
+          "team": "Toronto Raptors",
+          "elo": 1534
+        },
+        {
+          "team": "LA Clippers",
+          "elo": 1506
+        },
+        {
+          "team": "Golden State Warriors",
+          "elo": 1449
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "elo": 1401
+        },
+        {
+          "team": "Dallas Mavericks",
+          "elo": 1384
+        },
+        {
+          "team": "Chicago Bulls",
+          "elo": 1359
+        },
+        {
+          "team": "Sacramento Kings",
+          "elo": 1335
+        },
+        {
+          "team": "Milwaukee Bucks",
+          "elo": 1316
+        },
+        {
+          "team": "Indiana Pacers",
+          "elo": 1267
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "elo": 1245
+        },
+        {
+          "team": "Utah Jazz",
+          "elo": 1226
+        },
+        {
+          "team": "Brooklyn Nets",
+          "elo": 1164
+        },
+        {
+          "team": "Washington Wizards",
+          "elo": 1149
         }
       ],
       "upcoming": [
@@ -890,10 +890,10 @@
           "away": "Boston Celtics",
           "date": "2026-04-24",
           "datetime": "2026-04-24T23:00Z",
-          "home_prob": 32.7,
-          "away_prob": 67.3,
-          "margin": 2.9,
-          "home_fav": false,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
+          "margin": 3.3,
+          "home_fav": true,
           "locked": false,
           "venue": "Xfinity Mobile Arena",
           "game_id": "nba_401869404",
@@ -904,10 +904,10 @@
           "away": "Los Angeles Lakers",
           "date": "2026-04-25",
           "datetime": "2026-04-25T00:00Z",
-          "home_prob": 72.4,
-          "away_prob": 27.6,
-          "margin": 0.5,
-          "home_fav": true,
+          "home_prob": 37.3,
+          "away_prob": 62.7,
+          "margin": 1.7,
+          "home_fav": false,
           "locked": false,
           "venue": "Toyota Center (Houston)",
           "game_id": "nba_401869400",
@@ -918,10 +918,10 @@
           "away": "San Antonio Spurs",
           "date": "2026-04-25",
           "datetime": "2026-04-25T02:30Z",
-          "home_prob": 58.7,
-          "away_prob": 41.3,
-          "margin": 9.8,
-          "home_fav": true,
+          "home_prob": 46.9,
+          "away_prob": 53.1,
+          "margin": 3.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Moda Center",
           "game_id": "nba_401869382",
@@ -932,10 +932,10 @@
           "away": "Detroit Pistons",
           "date": "2026-04-25",
           "datetime": "2026-04-25T17:00Z",
-          "home_prob": 81.0,
-          "away_prob": 19.0,
-          "margin": 4.4,
-          "home_fav": true,
+          "home_prob": 48.0,
+          "away_prob": 52.0,
+          "margin": 2.0,
+          "home_fav": false,
           "locked": false,
           "venue": "Kia Center",
           "game_id": "nba_401869414",
@@ -946,10 +946,10 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-04-25",
           "datetime": "2026-04-25T19:30Z",
-          "home_prob": 61.6,
-          "away_prob": 38.4,
-          "margin": 0.1,
-          "home_fav": true,
+          "home_prob": 39.8,
+          "away_prob": 60.2,
+          "margin": 1.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Mortgage Matchup Center",
           "game_id": "nba_401869370",
@@ -960,10 +960,10 @@
           "away": "New York Knicks",
           "date": "2026-04-25",
           "datetime": "2026-04-25T22:00Z",
-          "home_prob": 49.7,
-          "away_prob": 50.3,
-          "margin": 1.2,
-          "home_fav": false,
+          "home_prob": 69.9,
+          "away_prob": 30.1,
+          "margin": 3.1,
+          "home_fav": true,
           "locked": false,
           "venue": "State Farm Arena",
           "game_id": "nba_401869391",
@@ -974,9 +974,9 @@
           "away": "Denver Nuggets",
           "date": "2026-04-26",
           "datetime": "2026-04-26T00:30Z",
-          "home_prob": 62.0,
-          "away_prob": 38.0,
-          "margin": 5.6,
+          "home_prob": 51.2,
+          "away_prob": 48.8,
+          "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "venue": "Target Center",
@@ -988,10 +988,10 @@
           "away": "Cleveland Cavaliers",
           "date": "2026-04-26",
           "datetime": "2026-04-26T17:00Z",
-          "home_prob": 36.0,
-          "away_prob": 64.0,
-          "margin": 8.2,
-          "home_fav": false,
+          "home_prob": 51.9,
+          "away_prob": 48.1,
+          "margin": 1.6,
+          "home_fav": true,
           "locked": false,
           "venue": "Scotiabank Arena",
           "game_id": "nba_401869377",
@@ -1002,10 +1002,10 @@
           "away": "San Antonio Spurs",
           "date": "2026-04-26",
           "datetime": "2026-04-26T19:30Z",
-          "home_prob": 58.7,
-          "away_prob": 41.3,
-          "margin": 9.8,
-          "home_fav": true,
+          "home_prob": 46.9,
+          "away_prob": 53.1,
+          "margin": 3.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Moda Center",
           "game_id": "nba_401869385",
@@ -1016,10 +1016,10 @@
           "away": "Boston Celtics",
           "date": "2026-04-26",
           "datetime": "2026-04-26T23:00Z",
-          "home_prob": 32.7,
-          "away_prob": 67.3,
-          "margin": 2.9,
-          "home_fav": false,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
+          "margin": 3.3,
+          "home_fav": true,
           "locked": false,
           "venue": "Xfinity Mobile Arena",
           "game_id": "nba_401869406",
@@ -1030,10 +1030,10 @@
           "away": "Los Angeles Lakers",
           "date": "2026-04-27",
           "datetime": "2026-04-27T01:30Z",
-          "home_prob": 72.4,
-          "away_prob": 27.6,
-          "margin": 0.5,
-          "home_fav": true,
+          "home_prob": 37.3,
+          "away_prob": 62.7,
+          "margin": 1.7,
+          "home_fav": false,
           "locked": false,
           "venue": "Toyota Center (Houston)",
           "game_id": "nba_401869405",
@@ -1044,10 +1044,10 @@
           "away": "Detroit Pistons",
           "date": "2026-04-28",
           "datetime": "2026-04-28T00:00Z",
-          "home_prob": 81.0,
-          "away_prob": 19.0,
-          "margin": 4.4,
-          "home_fav": true,
+          "home_prob": 48.0,
+          "away_prob": 52.0,
+          "margin": 2.0,
+          "home_fav": false,
           "locked": false,
           "venue": "Kia Center",
           "game_id": "nba_401869415",
@@ -1058,10 +1058,10 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-04-28",
           "datetime": "2026-04-28T01:30Z",
-          "home_prob": 61.6,
-          "away_prob": 38.4,
-          "margin": 0.1,
-          "home_fav": true,
+          "home_prob": 39.8,
+          "away_prob": 60.2,
+          "margin": 1.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Mortgage Matchup Center",
           "game_id": "nba_401869373",
@@ -1072,9 +1072,9 @@
           "away": "Minnesota Timberwolves",
           "date": "2026-04-28",
           "datetime": "2026-04-28T02:30Z",
-          "home_prob": 66.0,
-          "away_prob": 34.0,
-          "margin": 2.6,
+          "home_prob": 75.1,
+          "away_prob": 24.9,
+          "margin": 3.2,
           "home_fav": true,
           "locked": false,
           "venue": "Ball Arena",
@@ -1086,9 +1086,9 @@
           "away": "Philadelphia 76ers",
           "date": "2026-04-28",
           "datetime": "2026-04-28T23:00Z",
-          "home_prob": 86.7,
-          "away_prob": 13.3,
-          "margin": 9.2,
+          "home_prob": 71.0,
+          "away_prob": 29.0,
+          "margin": 4.2,
           "home_fav": true,
           "locked": false,
           "venue": "TD Garden",
@@ -1100,9 +1100,9 @@
           "away": "Atlanta Hawks",
           "date": "2026-04-29",
           "datetime": "2026-04-29T00:00Z",
-          "home_prob": 76.2,
-          "away_prob": 23.8,
-          "margin": 3.1,
+          "home_prob": 57.7,
+          "away_prob": 42.3,
+          "margin": 5.2,
           "home_fav": true,
           "locked": false,
           "venue": "Madison Square Garden",
@@ -1114,9 +1114,9 @@
           "away": "Portland Trail Blazers",
           "date": "2026-04-29",
           "datetime": "2026-04-29T01:30Z",
-          "home_prob": 69.0,
-          "away_prob": 31.0,
-          "margin": 2.0,
+          "home_prob": 78.2,
+          "away_prob": 21.8,
+          "margin": 4.2,
           "home_fav": true,
           "locked": false,
           "venue": "Frost Bank Center",
@@ -1128,9 +1128,9 @@
           "away": "Phoenix Suns",
           "date": "2026-04-29",
           "datetime": "2026-04-29T04:00Z",
-          "home_prob": 66.3,
-          "away_prob": 33.7,
-          "margin": 3.0,
+          "home_prob": 82.7,
+          "away_prob": 17.3,
+          "margin": 6.3,
           "home_fav": true,
           "locked": false,
           "venue": "Paycom Center",
@@ -1142,9 +1142,9 @@
           "away": "Toronto Raptors",
           "date": "2026-04-29",
           "datetime": "2026-04-29T04:00Z",
-          "home_prob": 84.9,
-          "away_prob": 15.1,
-          "margin": 8.6,
+          "home_prob": 74.5,
+          "away_prob": 25.5,
+          "margin": 5.3,
           "home_fav": true,
           "locked": false,
           "venue": "Rocket Arena",
@@ -1156,9 +1156,9 @@
           "away": "Houston Rockets",
           "date": "2026-04-29",
           "datetime": "2026-04-29T04:00Z",
-          "home_prob": 54.7,
-          "away_prob": 45.3,
-          "margin": 2.0,
+          "home_prob": 84.1,
+          "away_prob": 15.9,
+          "margin": 5.9,
           "home_fav": true,
           "locked": false,
           "venue": "crypto.com Arena",
@@ -1170,10 +1170,10 @@
           "away": "Orlando Magic",
           "date": "2026-04-29",
           "datetime": "2026-04-29T04:00Z",
-          "home_prob": 42.5,
-          "away_prob": 57.5,
-          "margin": 10.8,
-          "home_fav": false,
+          "home_prob": 77.4,
+          "away_prob": 22.6,
+          "margin": 4.3,
+          "home_fav": true,
           "locked": false,
           "venue": "Little Caesars Arena",
           "game_id": "nba_401869416",
@@ -1184,10 +1184,10 @@
           "away": "San Antonio Spurs",
           "date": "2026-04-30",
           "datetime": "2026-04-30T04:00Z",
-          "home_prob": 58.7,
-          "away_prob": 41.3,
-          "margin": 9.8,
-          "home_fav": true,
+          "home_prob": 46.9,
+          "away_prob": 53.1,
+          "margin": 3.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Moda Center",
           "game_id": "nba_401869388",
@@ -1198,10 +1198,10 @@
           "away": "New York Knicks",
           "date": "2026-04-30",
           "datetime": "2026-04-30T04:00Z",
-          "home_prob": 49.7,
-          "away_prob": 50.3,
-          "margin": 1.2,
-          "home_fav": false,
+          "home_prob": 69.9,
+          "away_prob": 30.1,
+          "margin": 3.1,
+          "home_fav": true,
           "locked": false,
           "venue": "State Farm Arena",
           "game_id": "nba_401869393",
@@ -1212,9 +1212,9 @@
           "away": "Denver Nuggets",
           "date": "2026-04-30",
           "datetime": "2026-04-30T04:00Z",
-          "home_prob": 62.0,
-          "away_prob": 38.0,
-          "margin": 5.6,
+          "home_prob": 51.2,
+          "away_prob": 48.8,
+          "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "venue": "Target Center",
@@ -1226,10 +1226,10 @@
           "away": "Boston Celtics",
           "date": "2026-04-30",
           "datetime": "2026-04-30T04:00Z",
-          "home_prob": 32.7,
-          "away_prob": 67.3,
-          "margin": 2.9,
-          "home_fav": false,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
+          "margin": 3.3,
+          "home_fav": true,
           "locked": false,
           "venue": "Xfinity Mobile Arena",
           "game_id": "nba_401869410",
@@ -1240,10 +1240,10 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-05-01",
           "datetime": "2026-05-01T04:00Z",
-          "home_prob": 61.6,
-          "away_prob": 38.4,
-          "margin": 0.1,
-          "home_fav": true,
+          "home_prob": 39.8,
+          "away_prob": 60.2,
+          "margin": 1.8,
+          "home_fav": false,
           "locked": false,
           "venue": "Mortgage Matchup Center",
           "game_id": "nba_401869379",
@@ -1254,10 +1254,10 @@
           "away": "Cleveland Cavaliers",
           "date": "2026-05-01",
           "datetime": "2026-05-01T04:00Z",
-          "home_prob": 36.0,
-          "away_prob": 64.0,
-          "margin": 8.2,
-          "home_fav": false,
+          "home_prob": 51.9,
+          "away_prob": 48.1,
+          "margin": 1.6,
+          "home_fav": true,
           "locked": false,
           "venue": "Scotiabank Arena",
           "game_id": "nba_401869381",
@@ -1268,10 +1268,10 @@
           "away": "Los Angeles Lakers",
           "date": "2026-05-01",
           "datetime": "2026-05-01T04:00Z",
-          "home_prob": 72.4,
-          "away_prob": 27.6,
-          "margin": 0.5,
-          "home_fav": true,
+          "home_prob": 37.3,
+          "away_prob": 62.7,
+          "margin": 1.7,
+          "home_fav": false,
           "locked": false,
           "venue": "Toyota Center (Houston)",
           "game_id": "nba_401869409",
@@ -1282,10 +1282,10 @@
           "away": "Detroit Pistons",
           "date": "2026-05-01",
           "datetime": "2026-05-01T04:00Z",
-          "home_prob": 81.0,
-          "away_prob": 19.0,
-          "margin": 4.4,
-          "home_fav": true,
+          "home_prob": 48.0,
+          "away_prob": 52.0,
+          "margin": 2.0,
+          "home_fav": false,
           "locked": false,
           "venue": "Kia Center",
           "game_id": "nba_401869417",
@@ -1296,9 +1296,9 @@
           "away": "Portland Trail Blazers",
           "date": "2026-05-02",
           "datetime": "2026-05-02T04:00Z",
-          "home_prob": 69.0,
-          "away_prob": 31.0,
-          "margin": 2.0,
+          "home_prob": 78.2,
+          "away_prob": 21.8,
+          "margin": 4.2,
           "home_fav": true,
           "locked": false,
           "venue": "Frost Bank Center",
@@ -1310,9 +1310,9 @@
           "away": "Atlanta Hawks",
           "date": "2026-05-02",
           "datetime": "2026-05-02T04:00Z",
-          "home_prob": 76.2,
-          "away_prob": 23.8,
-          "margin": 3.1,
+          "home_prob": 57.7,
+          "away_prob": 42.3,
+          "margin": 5.2,
           "home_fav": true,
           "locked": false,
           "venue": "Madison Square Garden",
@@ -1324,9 +1324,9 @@
           "away": "Minnesota Timberwolves",
           "date": "2026-05-02",
           "datetime": "2026-05-02T04:00Z",
-          "home_prob": 66.0,
-          "away_prob": 34.0,
-          "margin": 2.6,
+          "home_prob": 75.1,
+          "away_prob": 24.9,
+          "margin": 3.2,
           "home_fav": true,
           "locked": false,
           "venue": "Ball Arena",
@@ -1338,9 +1338,9 @@
           "away": "Philadelphia 76ers",
           "date": "2026-05-02",
           "datetime": "2026-05-02T04:00Z",
-          "home_prob": 86.7,
-          "away_prob": 13.3,
-          "margin": 9.2,
+          "home_prob": 71.0,
+          "away_prob": 29.0,
+          "margin": 4.2,
           "home_fav": true,
           "locked": false,
           "venue": "TD Garden",
@@ -1352,9 +1352,9 @@
           "away": "Phoenix Suns",
           "date": "2026-05-03",
           "datetime": "2026-05-03T04:00Z",
-          "home_prob": 66.3,
-          "away_prob": 33.7,
-          "margin": 3.0,
+          "home_prob": 82.7,
+          "away_prob": 17.3,
+          "margin": 6.3,
           "home_fav": true,
           "locked": false,
           "venue": "Paycom Center",
@@ -1366,9 +1366,9 @@
           "away": "Toronto Raptors",
           "date": "2026-05-03",
           "datetime": "2026-05-03T04:00Z",
-          "home_prob": 84.9,
-          "away_prob": 15.1,
-          "margin": 8.6,
+          "home_prob": 74.5,
+          "away_prob": 25.5,
+          "margin": 5.3,
           "home_fav": true,
           "locked": false,
           "venue": "Rocket Arena",
@@ -1380,9 +1380,9 @@
           "away": "Houston Rockets",
           "date": "2026-05-03",
           "datetime": "2026-05-03T04:00Z",
-          "home_prob": 54.7,
-          "away_prob": 45.3,
-          "margin": 2.0,
+          "home_prob": 84.1,
+          "away_prob": 15.9,
+          "margin": 5.9,
           "home_fav": true,
           "locked": false,
           "venue": "crypto.com Arena",
@@ -1394,10 +1394,10 @@
           "away": "Orlando Magic",
           "date": "2026-05-03",
           "datetime": "2026-05-03T04:00Z",
-          "home_prob": 42.5,
-          "away_prob": 57.5,
-          "margin": 10.8,
-          "home_fav": false,
+          "home_prob": 77.4,
+          "away_prob": 22.6,
+          "margin": 4.3,
+          "home_fav": true,
           "locked": false,
           "venue": "Little Caesars Arena",
           "game_id": "nba_401869418",
@@ -1409,7 +1409,7 @@
           "home": "Charlotte Hornets",
           "away": "Detroit Pistons",
           "date": "2026-04-10",
-          "home_prob": 62.5,
+          "home_prob": 51.4,
           "winner": "Detroit Pistons",
           "home_score": 100,
           "away_score": 118,
@@ -1419,7 +1419,7 @@
           "home": "Washington Wizards",
           "away": "Miami Heat",
           "date": "2026-04-10",
-          "home_prob": 45.2,
+          "home_prob": 12.2,
           "winner": "Miami Heat",
           "home_score": 117,
           "away_score": 140,
@@ -1429,7 +1429,7 @@
           "home": "Atlanta Hawks",
           "away": "Cleveland Cavaliers",
           "date": "2026-04-10",
-          "home_prob": 62.4,
+          "home_prob": 62.7,
           "winner": "Atlanta Hawks",
           "home_score": 124,
           "away_score": 102,
@@ -1439,7 +1439,7 @@
           "home": "Boston Celtics",
           "away": "New Orleans Pelicans",
           "date": "2026-04-10",
-          "home_prob": 80.9,
+          "home_prob": 88.4,
           "winner": "Boston Celtics",
           "home_score": 144,
           "away_score": 118,
@@ -1449,7 +1449,7 @@
           "home": "Indiana Pacers",
           "away": "Philadelphia 76ers",
           "date": "2026-04-10",
-          "home_prob": 75.3,
+          "home_prob": 20.8,
           "winner": "Philadelphia 76ers",
           "home_score": 94,
           "away_score": 105,
@@ -1459,7 +1459,7 @@
           "home": "New York Knicks",
           "away": "Toronto Raptors",
           "date": "2026-04-10",
-          "home_prob": 90.5,
+          "home_prob": 68.0,
           "winner": "New York Knicks",
           "home_score": 112,
           "away_score": 95,
@@ -1469,7 +1469,7 @@
           "home": "Chicago Bulls",
           "away": "Orlando Magic",
           "date": "2026-04-11",
-          "home_prob": 65.4,
+          "home_prob": 36.1,
           "winner": "Orlando Magic",
           "home_score": 103,
           "away_score": 127,
@@ -1479,7 +1479,7 @@
           "home": "Milwaukee Bucks",
           "away": "Brooklyn Nets",
           "date": "2026-04-11",
-          "home_prob": 78.1,
+          "home_prob": 80.9,
           "winner": "Milwaukee Bucks",
           "home_score": 125,
           "away_score": 108,
@@ -1489,7 +1489,7 @@
           "home": "San Antonio Spurs",
           "away": "Dallas Mavericks",
           "date": "2026-04-11",
-          "home_prob": 26.6,
+          "home_prob": 92.1,
           "winner": "San Antonio Spurs",
           "home_score": 139,
           "away_score": 120,
@@ -1499,7 +1499,7 @@
           "home": "Denver Nuggets",
           "away": "Oklahoma City Thunder",
           "date": "2026-04-11",
-          "home_prob": 65.8,
+          "home_prob": 53.9,
           "winner": "Denver Nuggets",
           "home_score": 127,
           "away_score": 107,
@@ -1509,7 +1509,7 @@
           "home": "Houston Rockets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-11",
-          "home_prob": 62.0,
+          "home_prob": 58.3,
           "winner": "Minnesota Timberwolves",
           "home_score": 132,
           "away_score": 136,
@@ -1519,7 +1519,7 @@
           "home": "Utah Jazz",
           "away": "Memphis Grizzlies",
           "date": "2026-04-11",
-          "home_prob": 63.5,
+          "home_prob": 61.5,
           "winner": "Utah Jazz",
           "home_score": 147,
           "away_score": 101,
@@ -1529,7 +1529,7 @@
           "home": "Portland Trail Blazers",
           "away": "LA Clippers",
           "date": "2026-04-11",
-          "home_prob": 35.6,
+          "home_prob": 74.0,
           "winner": "Portland Trail Blazers",
           "home_score": 116,
           "away_score": 97,
@@ -1539,7 +1539,7 @@
           "home": "Sacramento Kings",
           "away": "Golden State Warriors",
           "date": "2026-04-11",
-          "home_prob": 65.2,
+          "home_prob": 48.0,
           "winner": "Sacramento Kings",
           "home_score": 124,
           "away_score": 118,
@@ -1549,7 +1549,7 @@
           "home": "Los Angeles Lakers",
           "away": "Phoenix Suns",
           "date": "2026-04-11",
-          "home_prob": 54.9,
+          "home_prob": 81.3,
           "winner": "Los Angeles Lakers",
           "home_score": 101,
           "away_score": 73,
@@ -1559,7 +1559,7 @@
           "home": "Boston Celtics",
           "away": "Orlando Magic",
           "date": "2026-04-12",
-          "home_prob": 90.0,
+          "home_prob": 75.7,
           "winner": "Boston Celtics",
           "home_score": 113,
           "away_score": 108,
@@ -1569,7 +1569,7 @@
           "home": "Cleveland Cavaliers",
           "away": "Washington Wizards",
           "date": "2026-04-12",
-          "home_prob": 85.0,
+          "home_prob": 96.4,
           "winner": "Cleveland Cavaliers",
           "home_score": 130,
           "away_score": 117,
@@ -1579,7 +1579,7 @@
           "home": "Indiana Pacers",
           "away": "Detroit Pistons",
           "date": "2026-04-12",
-          "home_prob": 91.0,
+          "home_prob": 14.7,
           "winner": "Detroit Pistons",
           "home_score": 121,
           "away_score": 133,
@@ -1589,7 +1589,7 @@
           "home": "Miami Heat",
           "away": "Atlanta Hawks",
           "date": "2026-04-12",
-          "home_prob": 56.3,
+          "home_prob": 61.4,
           "winner": "Miami Heat",
           "home_score": 143,
           "away_score": 117,
@@ -1599,7 +1599,7 @@
           "home": "New York Knicks",
           "away": "Charlotte Hornets",
           "date": "2026-04-12",
-          "home_prob": 91.0,
+          "home_prob": 61.7,
           "winner": "Charlotte Hornets",
           "home_score": 96,
           "away_score": 110,
@@ -1609,7 +1609,7 @@
           "home": "Philadelphia 76ers",
           "away": "Milwaukee Bucks",
           "date": "2026-04-12",
-          "home_prob": 58.2,
+          "home_prob": 90.1,
           "winner": "Philadelphia 76ers",
           "home_score": 126,
           "away_score": 106,
@@ -1619,7 +1619,7 @@
           "home": "Toronto Raptors",
           "away": "Brooklyn Nets",
           "date": "2026-04-12",
-          "home_prob": 45.5,
+          "home_prob": 93.7,
           "winner": "Toronto Raptors",
           "home_score": 136,
           "away_score": 101,
@@ -1629,7 +1629,7 @@
           "home": "Dallas Mavericks",
           "away": "Chicago Bulls",
           "date": "2026-04-13",
-          "home_prob": 83.2,
+          "home_prob": 67.2,
           "winner": "Dallas Mavericks",
           "home_score": 149,
           "away_score": 128,
@@ -1639,7 +1639,7 @@
           "home": "Houston Rockets",
           "away": "Memphis Grizzlies",
           "date": "2026-04-13",
-          "home_prob": 84.2,
+          "home_prob": 91.2,
           "winner": "Houston Rockets",
           "home_score": 132,
           "away_score": 101,
@@ -1649,7 +1649,7 @@
           "home": "Minnesota Timberwolves",
           "away": "New Orleans Pelicans",
           "date": "2026-04-13",
-          "home_prob": 66.5,
+          "home_prob": 84.3,
           "winner": "Minnesota Timberwolves",
           "home_score": 132,
           "away_score": 126,
@@ -1659,7 +1659,7 @@
           "home": "Oklahoma City Thunder",
           "away": "Phoenix Suns",
           "date": "2026-04-13",
-          "home_prob": 66.3,
+          "home_prob": 82.7,
           "winner": "Phoenix Suns",
           "home_score": 103,
           "away_score": 135,
@@ -1669,7 +1669,7 @@
           "home": "San Antonio Spurs",
           "away": "Denver Nuggets",
           "date": "2026-04-13",
-          "home_prob": 29.2,
+          "home_prob": 67.2,
           "winner": "Denver Nuggets",
           "home_score": 118,
           "away_score": 128,
@@ -1679,7 +1679,7 @@
           "home": "Los Angeles Lakers",
           "away": "Utah Jazz",
           "date": "2026-04-13",
-          "home_prob": 78.8,
+          "home_prob": 97.2,
           "winner": "Los Angeles Lakers",
           "home_score": 131,
           "away_score": 107,
@@ -1689,7 +1689,7 @@
           "home": "LA Clippers",
           "away": "Golden State Warriors",
           "date": "2026-04-13",
-          "home_prob": 67.1,
+          "home_prob": 71.2,
           "winner": "LA Clippers",
           "home_score": 115,
           "away_score": 110,
@@ -1699,7 +1699,7 @@
           "home": "Portland Trail Blazers",
           "away": "Sacramento Kings",
           "date": "2026-04-13",
-          "home_prob": 37.6,
+          "home_prob": 88.4,
           "winner": "Portland Trail Blazers",
           "home_score": 122,
           "away_score": 110,
@@ -1709,7 +1709,7 @@
           "home": "Charlotte Hornets",
           "away": "Miami Heat",
           "date": "2026-04-14",
-          "home_prob": 43.8,
+          "home_prob": 62.8,
           "winner": "Charlotte Hornets",
           "home_score": 127,
           "away_score": 126,
@@ -1719,7 +1719,7 @@
           "home": "Phoenix Suns",
           "away": "Portland Trail Blazers",
           "date": "2026-04-15",
-          "home_prob": 88.9,
+          "home_prob": 63.7,
           "winner": "Portland Trail Blazers",
           "home_score": 110,
           "away_score": 114,
@@ -1729,7 +1729,7 @@
           "home": "Philadelphia 76ers",
           "away": "Orlando Magic",
           "date": "2026-04-15",
-          "home_prob": 71.1,
+          "home_prob": 69.3,
           "winner": "Philadelphia 76ers",
           "home_score": 109,
           "away_score": 97,
@@ -1739,7 +1739,7 @@
           "home": "LA Clippers",
           "away": "Golden State Warriors",
           "date": "2026-04-16",
-          "home_prob": 67.1,
+          "home_prob": 71.2,
           "winner": "Golden State Warriors",
           "home_score": 121,
           "away_score": 126,
@@ -1749,7 +1749,7 @@
           "home": "Orlando Magic",
           "away": "Charlotte Hornets",
           "date": "2026-04-17",
-          "home_prob": 82.0,
+          "home_prob": 60.7,
           "winner": "Orlando Magic",
           "home_score": 121,
           "away_score": 90,
@@ -1759,7 +1759,7 @@
           "home": "Phoenix Suns",
           "away": "Golden State Warriors",
           "date": "2026-04-18",
-          "home_prob": 74.0,
+          "home_prob": 79.6,
           "winner": "Phoenix Suns",
           "home_score": 111,
           "away_score": 96,
@@ -1769,7 +1769,7 @@
           "home": "Cleveland Cavaliers",
           "away": "Toronto Raptors",
           "date": "2026-04-18",
-          "home_prob": 84.9,
+          "home_prob": 74.5,
           "winner": "Cleveland Cavaliers",
           "home_score": 126,
           "away_score": 113,
@@ -1779,7 +1779,7 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-18",
-          "home_prob": 66.0,
+          "home_prob": 75.1,
           "winner": "Denver Nuggets",
           "home_score": 116,
           "away_score": 105,
@@ -1789,7 +1789,7 @@
           "home": "New York Knicks",
           "away": "Atlanta Hawks",
           "date": "2026-04-18",
-          "home_prob": 76.2,
+          "home_prob": 57.7,
           "winner": "New York Knicks",
           "home_score": 113,
           "away_score": 102,
@@ -1799,7 +1799,7 @@
           "home": "Los Angeles Lakers",
           "away": "Houston Rockets",
           "date": "2026-04-19",
-          "home_prob": 54.7,
+          "home_prob": 84.1,
           "winner": "Los Angeles Lakers",
           "home_score": 107,
           "away_score": 98,
@@ -1809,7 +1809,7 @@
           "home": "Boston Celtics",
           "away": "Philadelphia 76ers",
           "date": "2026-04-19",
-          "home_prob": 86.7,
+          "home_prob": 71.0,
           "winner": "Boston Celtics",
           "home_score": 123,
           "away_score": 91,
@@ -1819,7 +1819,7 @@
           "home": "Oklahoma City Thunder",
           "away": "Phoenix Suns",
           "date": "2026-04-19",
-          "home_prob": 66.3,
+          "home_prob": 82.7,
           "winner": "Oklahoma City Thunder",
           "home_score": 119,
           "away_score": 84,
@@ -1829,7 +1829,7 @@
           "home": "Detroit Pistons",
           "away": "Orlando Magic",
           "date": "2026-04-19",
-          "home_prob": 42.5,
+          "home_prob": 77.4,
           "winner": "Orlando Magic",
           "home_score": 101,
           "away_score": 112,
@@ -1839,7 +1839,7 @@
           "home": "San Antonio Spurs",
           "away": "Portland Trail Blazers",
           "date": "2026-04-20",
-          "home_prob": 69.0,
+          "home_prob": 78.2,
           "winner": "San Antonio Spurs",
           "home_score": 111,
           "away_score": 98,
@@ -1849,7 +1849,7 @@
           "home": "Cleveland Cavaliers",
           "away": "Toronto Raptors",
           "date": "2026-04-20",
-          "home_prob": 84.9,
+          "home_prob": 74.5,
           "winner": "Cleveland Cavaliers",
           "home_score": 115,
           "away_score": 105,
@@ -1859,7 +1859,7 @@
           "home": "New York Knicks",
           "away": "Atlanta Hawks",
           "date": "2026-04-21",
-          "home_prob": 76.2,
+          "home_prob": 57.7,
           "winner": "Atlanta Hawks",
           "home_score": 106,
           "away_score": 107,
@@ -1869,7 +1869,7 @@
           "home": "Denver Nuggets",
           "away": "Minnesota Timberwolves",
           "date": "2026-04-21",
-          "home_prob": 66.0,
+          "home_prob": 75.1,
           "winner": "Minnesota Timberwolves",
           "home_score": 114,
           "away_score": 119,
@@ -1879,7 +1879,7 @@
           "home": "Boston Celtics",
           "away": "Philadelphia 76ers",
           "date": "2026-04-21",
-          "home_prob": 86.7,
+          "home_prob": 71.0,
           "winner": "Philadelphia 76ers",
           "home_score": 97,
           "away_score": 111,
@@ -1889,7 +1889,7 @@
           "home": "San Antonio Spurs",
           "away": "Portland Trail Blazers",
           "date": "2026-04-22",
-          "home_prob": 69.0,
+          "home_prob": 78.2,
           "winner": "Portland Trail Blazers",
           "home_score": 103,
           "away_score": 106,
@@ -1899,7 +1899,7 @@
           "home": "Los Angeles Lakers",
           "away": "Houston Rockets",
           "date": "2026-04-22",
-          "home_prob": 54.7,
+          "home_prob": 84.1,
           "winner": "Los Angeles Lakers",
           "home_score": 101,
           "away_score": 94,
@@ -1909,7 +1909,7 @@
           "home": "Detroit Pistons",
           "away": "Orlando Magic",
           "date": "2026-04-22",
-          "home_prob": 42.5,
+          "home_prob": 77.4,
           "winner": "Detroit Pistons",
           "home_score": 98,
           "away_score": 83,
@@ -1919,7 +1919,7 @@
           "home": "Oklahoma City Thunder",
           "away": "Phoenix Suns",
           "date": "2026-04-23",
-          "home_prob": 66.3,
+          "home_prob": 82.7,
           "winner": "Oklahoma City Thunder",
           "home_score": 120,
           "away_score": 107,
@@ -1929,7 +1929,7 @@
           "home": "Atlanta Hawks",
           "away": "New York Knicks",
           "date": "2026-04-23",
-          "home_prob": 49.7,
+          "home_prob": 69.9,
           "winner": "Atlanta Hawks",
           "home_score": 109,
           "away_score": 108,
@@ -2028,71 +2028,71 @@
       "rankings": [
         {
           "team": "New York Liberty",
-          "elo": 1758.1
+          "elo": 1758
         },
         {
           "team": "Minnesota Lynx",
-          "elo": 1653.9
+          "elo": 1654
         },
         {
           "team": "Connecticut Sun",
-          "elo": 1652.3
+          "elo": 1652
         },
         {
           "team": "Las Vegas Aces",
-          "elo": 1584.9
+          "elo": 1585
         },
         {
           "team": "Indiana Fever",
-          "elo": 1584.4
+          "elo": 1584
         },
         {
           "team": "Team WNBA",
-          "elo": 1534.0
+          "elo": 1534
         },
         {
           "team": "Seattle Storm",
-          "elo": 1532.1
+          "elo": 1532
         },
         {
           "team": "TEAM STEWART",
-          "elo": 1509.6
+          "elo": 1510
         },
         {
           "team": "Puerto Rico",
-          "elo": 1492.0
+          "elo": 1492
         },
         {
           "team": "Team Wilson",
-          "elo": 1490.4
+          "elo": 1490
         },
         {
           "team": "Team USA",
-          "elo": 1466.0
+          "elo": 1466
         },
         {
           "team": "Phoenix Mercury",
-          "elo": 1453.8
+          "elo": 1454
         },
         {
           "team": "Dallas Wings",
-          "elo": 1390.5
+          "elo": 1390
         },
         {
           "team": "Chicago Sky",
-          "elo": 1367.0
+          "elo": 1367
         },
         {
           "team": "Washington Mystics",
-          "elo": 1359.7
+          "elo": 1360
         },
         {
           "team": "Atlanta Dream",
-          "elo": 1355.0
+          "elo": 1355
         },
         {
           "team": "Los Angeles Sparks",
-          "elo": 1316.2
+          "elo": 1316
         }
       ],
       "upcoming": [
@@ -2574,143 +2574,143 @@
       "rankings": [
         {
           "team": "Philadelphia Eagles",
-          "elo": 1750.9
+          "elo": 1751
         },
         {
           "team": "Detroit Lions",
-          "elo": 1706.8
+          "elo": 1707
         },
         {
           "team": "Buffalo Bills",
-          "elo": 1693.3
+          "elo": 1693
         },
         {
           "team": "Baltimore Ravens",
-          "elo": 1685.5
+          "elo": 1686
         },
         {
           "team": "Kansas City Chiefs",
-          "elo": 1678.1
+          "elo": 1678
         },
         {
           "team": "Minnesota Vikings",
-          "elo": 1633.9
+          "elo": 1634
         },
         {
           "team": "Green Bay Packers",
-          "elo": 1625.0
+          "elo": 1625
         },
         {
           "team": "Washington Commanders",
-          "elo": 1579.0
+          "elo": 1579
         },
         {
           "team": "Denver Broncos",
-          "elo": 1577.1
+          "elo": 1577
         },
         {
           "team": "Los Angeles Rams",
-          "elo": 1569.0
+          "elo": 1569
         },
         {
           "team": "Houston Texans",
-          "elo": 1568.4
+          "elo": 1568
         },
         {
           "team": "Tampa Bay Buccaneers",
-          "elo": 1551.8
+          "elo": 1552
         },
         {
           "team": "Seattle Seahawks",
-          "elo": 1548.8
+          "elo": 1549
         },
         {
           "team": "NFC",
-          "elo": 1536.2
+          "elo": 1536
         },
         {
           "team": "Los Angeles Chargers",
-          "elo": 1535.3
+          "elo": 1535
         },
         {
           "team": "Cincinnati Bengals",
-          "elo": 1531.8
+          "elo": 1532
         },
         {
           "team": "Pittsburgh Steelers",
-          "elo": 1506.6
+          "elo": 1507
         },
         {
           "team": "Miami Dolphins",
-          "elo": 1499.6
+          "elo": 1500
         },
         {
           "team": "Washington",
-          "elo": 1476.2
+          "elo": 1476
         },
         {
           "team": "San Francisco 49ers",
-          "elo": 1471.2
+          "elo": 1471
         },
         {
           "team": "AFC",
-          "elo": 1463.8
+          "elo": 1464
         },
         {
           "team": "Indianapolis Colts",
-          "elo": 1456.7
+          "elo": 1457
         },
         {
           "team": "Dallas Cowboys",
-          "elo": 1447.2
+          "elo": 1447
         },
         {
           "team": "Chicago Bears",
-          "elo": 1440.0
+          "elo": 1440
         },
         {
           "team": "New York Jets",
-          "elo": 1437.8
+          "elo": 1438
         },
         {
           "team": "Arizona Cardinals",
-          "elo": 1422.3
+          "elo": 1422
         },
         {
           "team": "Jacksonville Jaguars",
-          "elo": 1421.8
+          "elo": 1422
         },
         {
           "team": "Atlanta Falcons",
-          "elo": 1393.6
+          "elo": 1394
         },
         {
           "team": "New Orleans Saints",
-          "elo": 1365.6
+          "elo": 1366
         },
         {
           "team": "Las Vegas Raiders",
-          "elo": 1341.1
+          "elo": 1341
         },
         {
           "team": "New England Patriots",
-          "elo": 1340.8
+          "elo": 1341
         },
         {
           "team": "Tennessee Titans",
-          "elo": 1333.1
+          "elo": 1333
         },
         {
           "team": "New York Giants",
-          "elo": 1307.3
+          "elo": 1307
         },
         {
           "team": "Carolina Panthers",
-          "elo": 1303.7
+          "elo": 1304
         },
         {
           "team": "Cleveland Browns",
-          "elo": 1300.8
+          "elo": 1301
         }
       ],
       "upcoming": [],
@@ -2863,111 +2863,111 @@
       "rankings": [
         {
           "team": "Manchester City",
-          "elo": 1773.1
+          "elo": 1773
         },
         {
           "team": "Liverpool",
-          "elo": 1687.5
+          "elo": 1688
         },
         {
           "team": "Arsenal",
-          "elo": 1679.5
+          "elo": 1680
         },
         {
           "team": "Aston Villa",
-          "elo": 1572.2
+          "elo": 1572
         },
         {
           "team": "Newcastle",
-          "elo": 1568.0
+          "elo": 1568
         },
         {
           "team": "Manchester United",
-          "elo": 1555.6
+          "elo": 1556
         },
         {
           "team": "Tottenham",
-          "elo": 1551.4
+          "elo": 1551
         },
         {
           "team": "Chelsea",
-          "elo": 1537.1
+          "elo": 1537
         },
         {
           "team": "Brighton & Hove Albion",
-          "elo": 1530.3
+          "elo": 1530
         },
         {
           "team": "Crystal Palace",
-          "elo": 1525.0
+          "elo": 1525
         },
         {
           "team": "Sunderland",
-          "elo": 1502.2
+          "elo": 1502
         },
         {
           "team": "West Ham",
-          "elo": 1500.8
+          "elo": 1501
         },
         {
           "team": "Bournemouth",
-          "elo": 1495.9
+          "elo": 1496
         },
         {
           "team": "Brentford",
-          "elo": 1495.4
+          "elo": 1495
         },
         {
           "team": "Fulham",
-          "elo": 1490.7
+          "elo": 1491
         },
         {
           "team": "Leicester City",
-          "elo": 1475.8
+          "elo": 1476
         },
         {
           "team": "Everton",
-          "elo": 1462.3
+          "elo": 1462
         },
         {
           "team": "Nottingham Forest",
-          "elo": 1456.5
+          "elo": 1456
         },
         {
           "team": "West Bromwich Albion",
-          "elo": 1449.9
+          "elo": 1450
         },
         {
           "team": "Leeds United",
-          "elo": 1447.0
+          "elo": 1447
         },
         {
           "team": "Wolverhampton Wanderers",
-          "elo": 1435.2
+          "elo": 1435
         },
         {
           "team": "Luton Town",
-          "elo": 1414.5
+          "elo": 1414
         },
         {
           "team": "Watford",
-          "elo": 1412.7
+          "elo": 1413
         },
         {
           "team": "Norwich City",
-          "elo": 1395.4
+          "elo": 1395
         },
         {
           "team": "Southampton",
-          "elo": 1393.4
+          "elo": 1393
         },
         {
           "team": "Burnley",
-          "elo": 1363.4
+          "elo": 1363
         },
         {
           "team": "Sheffield United",
-          "elo": 1329.1
+          "elo": 1329
         }
       ],
       "upcoming": [
@@ -3589,115 +3589,115 @@
       "rankings": [
         {
           "team": "Real Madrid",
-          "elo": 1735.5
+          "elo": 1736
         },
         {
           "team": "Barcelona",
-          "elo": 1694.1
+          "elo": 1694
         },
         {
           "team": "Atletico Madrid",
-          "elo": 1610.5
+          "elo": 1610
         },
         {
           "team": "Girona",
-          "elo": 1598.6
+          "elo": 1599
         },
         {
           "team": "Athletic Club",
-          "elo": 1581.4
+          "elo": 1581
         },
         {
           "team": "Sociedad",
-          "elo": 1575.9
+          "elo": 1576
         },
         {
           "team": "Villarreal",
-          "elo": 1565.6
+          "elo": 1566
         },
         {
           "team": "Real Betis",
-          "elo": 1556.9
+          "elo": 1557
         },
         {
           "team": "Oviedo",
-          "elo": 1516.5
+          "elo": 1516
         },
         {
           "team": "Sevilla",
-          "elo": 1502.4
+          "elo": 1502
         },
         {
           "team": "Valencia",
-          "elo": 1483.7
+          "elo": 1484
         },
         {
           "team": "Levante",
-          "elo": 1480.8
+          "elo": 1481
         },
         {
           "team": "Leganes",
-          "elo": 1477.6
+          "elo": 1478
         },
         {
           "team": "Mallorca",
-          "elo": 1476.2
+          "elo": 1476
         },
         {
           "team": "Huesca",
-          "elo": 1475.9
+          "elo": 1476
         },
         {
           "team": "Osasuna",
-          "elo": 1465.7
+          "elo": 1466
         },
         {
           "team": "Las Palmas",
-          "elo": 1464.8
+          "elo": 1465
         },
         {
           "team": "Eibar",
-          "elo": 1458.1
+          "elo": 1458
         },
         {
           "team": "Celta Vigo",
-          "elo": 1457.4
+          "elo": 1457
         },
         {
           "team": "Getafe",
-          "elo": 1450.0
+          "elo": 1450
         },
         {
           "team": "Alaves",
-          "elo": 1448.6
+          "elo": 1449
         },
         {
           "team": "Elche",
-          "elo": 1440.7
+          "elo": 1441
         },
         {
           "team": "Valladolid",
-          "elo": 1439.7
+          "elo": 1440
         },
         {
           "team": "Vallecano",
-          "elo": 1435.0
+          "elo": 1435
         },
         {
           "team": "Espanyol",
-          "elo": 1427.8
+          "elo": 1428
         },
         {
           "team": "Cadiz",
-          "elo": 1412.2
+          "elo": 1412
         },
         {
           "team": "Almeria",
-          "elo": 1389.0
+          "elo": 1389
         },
         {
           "team": "Granada",
-          "elo": 1379.4
+          "elo": 1379
         }
       ],
       "upcoming": [
@@ -4335,107 +4335,107 @@
       "rankings": [
         {
           "team": "Bayer Leverkusen",
-          "elo": 1694.8
+          "elo": 1695
         },
         {
           "team": "Bayern Munich",
-          "elo": 1680.4
+          "elo": 1680
         },
         {
           "team": "RB Leipzig",
-          "elo": 1664.7
+          "elo": 1665
         },
         {
           "team": "Borussia Dortmund",
-          "elo": 1624.4
+          "elo": 1624
         },
         {
           "team": "Stuttgart",
-          "elo": 1604.0
+          "elo": 1604
         },
         {
           "team": "Eintracht Frankfurt",
-          "elo": 1542.4
+          "elo": 1542
         },
         {
           "team": "Freiburg",
-          "elo": 1520.7
+          "elo": 1521
         },
         {
           "team": "Hoffenheim",
-          "elo": 1509.5
+          "elo": 1510
         },
         {
           "team": "Heidenheim",
-          "elo": 1498.1
+          "elo": 1498
         },
         {
           "team": "St Pauli",
-          "elo": 1485.9
+          "elo": 1486
         },
         {
           "team": "Mainz",
-          "elo": 1483.9
+          "elo": 1484
         },
         {
           "team": "Hamburg",
-          "elo": 1482.6
+          "elo": 1483
         },
         {
           "team": "Wolfsburg",
-          "elo": 1479.9
+          "elo": 1480
         },
         {
           "team": "M'gladbach",
-          "elo": 1474.8
+          "elo": 1475
         },
         {
           "team": "Werder Bremen",
-          "elo": 1472.2
+          "elo": 1472
         },
         {
           "team": "Fortuna Dusseldorf",
-          "elo": 1471.0
+          "elo": 1471
         },
         {
           "team": "Augsburg",
-          "elo": 1462.8
+          "elo": 1463
         },
         {
           "team": "Union Berlin",
-          "elo": 1455.8
+          "elo": 1456
         },
         {
           "team": "Paderborn",
-          "elo": 1451.3
+          "elo": 1451
         },
         {
           "team": "Bielefeld",
-          "elo": 1450.7
+          "elo": 1451
         },
         {
           "team": "FC Koln",
-          "elo": 1432.1
+          "elo": 1432
         },
         {
           "team": "Greuther Furth",
-          "elo": 1427.9
+          "elo": 1428
         },
         {
           "team": "Bochum",
-          "elo": 1422.7
+          "elo": 1423
         },
         {
           "team": "Hertha Berlin",
-          "elo": 1420.0
+          "elo": 1420
         },
         {
           "team": "Schalke 04",
-          "elo": 1410.9
+          "elo": 1411
         },
         {
           "team": "Darmstadt",
-          "elo": 1376.2
+          "elo": 1376
         }
       ],
       "upcoming": [
@@ -5050,127 +5050,127 @@
       "rankings": [
         {
           "team": "Inter Milan",
-          "elo": 1751.7
+          "elo": 1752
         },
         {
           "team": "Juventus",
-          "elo": 1664.0
+          "elo": 1664
         },
         {
           "team": "Milan",
-          "elo": 1630.9
+          "elo": 1631
         },
         {
           "team": "Atalanta",
-          "elo": 1621.5
+          "elo": 1622
         },
         {
           "team": "Lazio",
-          "elo": 1613.0
+          "elo": 1613
         },
         {
           "team": "Napoli",
-          "elo": 1602.5
+          "elo": 1602
         },
         {
           "team": "AS Roma",
-          "elo": 1592.4
+          "elo": 1592
         },
         {
           "team": "Bologna",
-          "elo": 1585.1
+          "elo": 1585
         },
         {
           "team": "Fiorentina",
-          "elo": 1576.8
+          "elo": 1577
         },
         {
           "team": "Torino",
-          "elo": 1549.5
+          "elo": 1550
         },
         {
           "team": "Udinese",
-          "elo": 1498.2
+          "elo": 1498
         },
         {
           "team": "Monza",
-          "elo": 1491.1
+          "elo": 1491
         },
         {
           "team": "Como",
-          "elo": 1489.2
+          "elo": 1489
         },
         {
           "team": "Pisa",
-          "elo": 1483.5
+          "elo": 1484
         },
         {
           "team": "Genoa",
-          "elo": 1479.6
+          "elo": 1480
         },
         {
           "team": "Benevento",
-          "elo": 1454.8
+          "elo": 1455
         },
         {
           "team": "Brescia",
-          "elo": 1454.5
+          "elo": 1454
         },
         {
           "team": "Empoli",
-          "elo": 1452.8
+          "elo": 1453
         },
         {
           "team": "Frosinone",
-          "elo": 1447.2
+          "elo": 1447
         },
         {
           "team": "Crotone",
-          "elo": 1445.4
+          "elo": 1445
         },
         {
           "team": "Parma",
-          "elo": 1444.1
+          "elo": 1444
         },
         {
           "team": "Venezia",
-          "elo": 1443.9
+          "elo": 1444
         },
         {
           "team": "Spal",
-          "elo": 1442.9
+          "elo": 1443
         },
         {
           "team": "Cremonese",
-          "elo": 1428.1
+          "elo": 1428
         },
         {
           "team": "Verona",
-          "elo": 1424.6
+          "elo": 1425
         },
         {
           "team": "Spezia",
-          "elo": 1423.5
+          "elo": 1424
         },
         {
           "team": "Cagliari",
-          "elo": 1422.2
+          "elo": 1422
         },
         {
           "team": "Sassuolo",
-          "elo": 1420.9
+          "elo": 1421
         },
         {
           "team": "Lecce",
-          "elo": 1419.4
+          "elo": 1419
         },
         {
           "team": "Sampdoria",
-          "elo": 1397.7
+          "elo": 1398
         },
         {
           "team": "Salernitana",
-          "elo": 1349.2
+          "elo": 1349
         }
       ],
       "upcoming": [
@@ -5818,115 +5818,115 @@
       "rankings": [
         {
           "team": "Paris Saint-Germain",
-          "elo": 1724.2
+          "elo": 1724
         },
         {
           "team": "Lille",
-          "elo": 1624.0
+          "elo": 1624
         },
         {
           "team": "AS Monaco",
-          "elo": 1607.7
+          "elo": 1608
         },
         {
           "team": "Lens",
-          "elo": 1602.0
+          "elo": 1602
         },
         {
           "team": "Olympique Lyonnais",
-          "elo": 1589.1
+          "elo": 1589
         },
         {
           "team": "Olympique de Marseille",
-          "elo": 1584.8
+          "elo": 1585
         },
         {
           "team": "Rennes",
-          "elo": 1579.8
+          "elo": 1580
         },
         {
           "team": "Nice",
-          "elo": 1576.6
+          "elo": 1577
         },
         {
           "team": "Brest",
-          "elo": 1564.3
+          "elo": 1564
         },
         {
           "team": "Paris FC",
-          "elo": 1525.8
+          "elo": 1526
         },
         {
           "team": "Montpellier",
-          "elo": 1516.6
+          "elo": 1517
         },
         {
           "team": "Reims",
-          "elo": 1499.1
+          "elo": 1499
         },
         {
           "team": "Toulouse",
-          "elo": 1480.4
+          "elo": 1480
         },
         {
           "team": "Amiens",
-          "elo": 1472.8
+          "elo": 1473
         },
         {
           "team": "Strasbourg",
-          "elo": 1468.2
+          "elo": 1468
         },
         {
           "team": "Nimes",
-          "elo": 1459.7
+          "elo": 1460
         },
         {
           "team": "Auxerre",
-          "elo": 1456.5
+          "elo": 1456
         },
         {
           "team": "Le Havre",
-          "elo": 1456.5
+          "elo": 1456
         },
         {
           "team": "Lorient",
-          "elo": 1445.6
+          "elo": 1446
         },
         {
           "team": "Bordeaux",
-          "elo": 1441.3
+          "elo": 1441
         },
         {
           "team": "St Etienne",
-          "elo": 1440.4
+          "elo": 1440
         },
         {
           "team": "Dijon",
-          "elo": 1434.5
+          "elo": 1434
         },
         {
           "team": "Nantes",
-          "elo": 1421.8
+          "elo": 1422
         },
         {
           "team": "Clermont Foot",
-          "elo": 1415.7
+          "elo": 1416
         },
         {
           "team": "Troyes",
-          "elo": 1415.3
+          "elo": 1415
         },
         {
           "team": "Ajaccio",
-          "elo": 1413.8
+          "elo": 1414
         },
         {
           "team": "Metz",
-          "elo": 1401.2
+          "elo": 1401
         },
         {
           "team": "Angers",
-          "elo": 1382.3
+          "elo": 1382
         }
       ],
       "upcoming": [
@@ -6536,131 +6536,131 @@
       "rankings": [
         {
           "team": "Columbus Crew",
-          "elo": 1643.5
+          "elo": 1644
         },
         {
           "team": "LA Galaxy",
-          "elo": 1616.1
+          "elo": 1616
         },
         {
           "team": "Seattle Sounders FC",
-          "elo": 1611.1
+          "elo": 1611
         },
         {
           "team": "Inter Miami CF",
-          "elo": 1604.8
+          "elo": 1605
         },
         {
           "team": "Los Angeles FC",
-          "elo": 1595.9
+          "elo": 1596
         },
         {
           "team": "Orlando City SC",
-          "elo": 1573.5
+          "elo": 1574
         },
         {
           "team": "Houston Dynamo FC",
-          "elo": 1561.3
+          "elo": 1561
         },
         {
           "team": "Real Salt Lake",
-          "elo": 1549.2
+          "elo": 1549
         },
         {
           "team": "FC Cincinnati",
-          "elo": 1547.8
+          "elo": 1548
         },
         {
           "team": "Red Bull New York",
-          "elo": 1542.7
+          "elo": 1543
         },
         {
           "team": "Philadelphia Union",
-          "elo": 1542.7
+          "elo": 1543
         },
         {
           "team": "Charlotte FC",
-          "elo": 1523.5
+          "elo": 1524
         },
         {
           "team": "Minnesota United FC",
-          "elo": 1518.7
+          "elo": 1519
         },
         {
           "team": "Arsenal",
-          "elo": 1518.6
+          "elo": 1519
         },
         {
           "team": "Liga MX All-Stars",
-          "elo": 1518.0
+          "elo": 1518
         },
         {
           "team": "Vancouver Whitecaps",
-          "elo": 1516.2
+          "elo": 1516
         },
         {
           "team": "New York City FC",
-          "elo": 1503.5
+          "elo": 1504
         },
         {
           "team": "Portland Timbers",
-          "elo": 1501.6
+          "elo": 1502
         },
         {
           "team": "Atlanta United FC",
-          "elo": 1501.0
+          "elo": 1501
         },
         {
           "team": "FC Dallas",
-          "elo": 1486.1
+          "elo": 1486
         },
         {
           "team": "MLS All-Stars",
-          "elo": 1463.4
+          "elo": 1463
         },
         {
           "team": "Austin FC",
-          "elo": 1456.8
+          "elo": 1457
         },
         {
           "team": "Nashville SC",
-          "elo": 1452.0
+          "elo": 1452
         },
         {
           "team": "Colorado Rapids",
-          "elo": 1446.1
+          "elo": 1446
         },
         {
           "team": "CF Montr\u00e9al",
-          "elo": 1445.1
+          "elo": 1445
         },
         {
           "team": "St. Louis CITY SC",
-          "elo": 1437.8
+          "elo": 1438
         },
         {
           "team": "Sporting Kansas City",
-          "elo": 1432.7
+          "elo": 1433
         },
         {
           "team": "D.C. United",
-          "elo": 1417.8
+          "elo": 1418
         },
         {
           "team": "New England Revolution",
-          "elo": 1408.8
+          "elo": 1409
         },
         {
           "team": "Chicago Fire FC",
-          "elo": 1370.7
+          "elo": 1371
         },
         {
           "team": "Toronto FC",
-          "elo": 1355.2
+          "elo": 1355
         },
         {
           "team": "San Jose Earthquakes",
-          "elo": 1338.2
+          "elo": 1338
         }
       ],
       "upcoming": [
@@ -7158,55 +7158,55 @@
       "rankings": [
         {
           "team": "Melbourne City FC",
-          "elo": 1613.2
+          "elo": 1613
         },
         {
           "team": "Auckland FC",
-          "elo": 1596.7
+          "elo": 1597
         },
         {
           "team": "Western Sydney Wanderers",
-          "elo": 1571.3
+          "elo": 1571
         },
         {
           "team": "Melbourne Victory",
-          "elo": 1566.6
+          "elo": 1567
         },
         {
           "team": "Sydney FC",
-          "elo": 1544.8
+          "elo": 1545
         },
         {
           "team": "Western United",
-          "elo": 1544.6
+          "elo": 1545
         },
         {
           "team": "Macarthur FC",
-          "elo": 1483.8
+          "elo": 1484
         },
         {
           "team": "Adelaide United",
-          "elo": 1481.6
+          "elo": 1482
         },
         {
           "team": "Central Coast Mariners",
-          "elo": 1472.1
+          "elo": 1472
         },
         {
           "team": "Newcastle Jets",
-          "elo": 1457.0
+          "elo": 1457
         },
         {
           "team": "Wellington Phoenix FC",
-          "elo": 1448.1
+          "elo": 1448
         },
         {
           "team": "Brisbane Roar",
-          "elo": 1384.6
+          "elo": 1385
         },
         {
           "team": "Perth Glory",
-          "elo": 1335.7
+          "elo": 1336
         }
       ],
       "upcoming": [
@@ -7803,403 +7803,403 @@
       "rankings": [
         {
           "team": "Manchester City",
-          "elo": 1782.5
+          "elo": 1782
         },
         {
           "team": "Bayern Munich",
-          "elo": 1781.1
+          "elo": 1781
         },
         {
           "team": "Real Madrid",
-          "elo": 1755.8
+          "elo": 1756
         },
         {
           "team": "Liverpool",
-          "elo": 1687.2
+          "elo": 1687
         },
         {
           "team": "Paris Saint-Germain",
-          "elo": 1676.3
+          "elo": 1676
         },
         {
           "team": "Chelsea",
-          "elo": 1672.4
+          "elo": 1672
         },
         {
           "team": "Napoli",
-          "elo": 1659.9
+          "elo": 1660
         },
         {
           "team": "Borussia Dortmund",
-          "elo": 1657.2
+          "elo": 1657
         },
         {
           "team": "Internazionale",
-          "elo": 1652.7
+          "elo": 1653
         },
         {
           "team": "FC Porto",
-          "elo": 1632.5
+          "elo": 1632
         },
         {
           "team": "Barcelona",
-          "elo": 1630.8
+          "elo": 1631
         },
         {
           "team": "Atl\u00e9tico Madrid",
-          "elo": 1628.4
+          "elo": 1628
         },
         {
           "team": "Ajax Amsterdam",
-          "elo": 1628.3
+          "elo": 1628
         },
         {
           "team": "Arsenal",
-          "elo": 1627.1
+          "elo": 1627
         },
         {
           "team": "RB Leipzig",
-          "elo": 1626.5
+          "elo": 1626
         },
         {
           "team": "Juventus",
-          "elo": 1625.7
+          "elo": 1626
         },
         {
           "team": "Rosenborg",
-          "elo": 1621.1
+          "elo": 1621
         },
         {
           "team": "Villarreal",
-          "elo": 1618.3
+          "elo": 1618
         },
         {
           "team": "Benfica",
-          "elo": 1612.5
+          "elo": 1612
         },
         {
           "team": "Real Sociedad",
-          "elo": 1612.5
+          "elo": 1612
         },
         {
           "team": "Apoel Nicosia",
-          "elo": 1608.0
+          "elo": 1608
         },
         {
           "team": "FK Qarabag",
-          "elo": 1607.1
+          "elo": 1607
         },
         {
           "team": "Lazio",
-          "elo": 1606.8
+          "elo": 1607
         },
         {
           "team": "Lyon",
-          "elo": 1604.0
+          "elo": 1604
         },
         {
           "team": "HJK Helsinki",
-          "elo": 1604.0
+          "elo": 1604
         },
         {
           "team": "BATE Borisov",
-          "elo": 1603.0
+          "elo": 1603
         },
         {
           "team": "Tottenham Hotspur",
-          "elo": 1603.0
+          "elo": 1603
         },
         {
           "team": "AIK",
-          "elo": 1602.2
+          "elo": 1602
         },
         {
           "team": "CFR Cluj-Napoca",
-          "elo": 1601.9
+          "elo": 1602
         },
         {
           "team": "NK Maribor",
-          "elo": 1601.4
+          "elo": 1601
         },
         {
           "team": "LASK Linz",
-          "elo": 1601.4
+          "elo": 1601
         },
         {
           "team": "Atalanta",
-          "elo": 1601.1
+          "elo": 1601
         },
         {
           "team": "F91 Dudelange",
-          "elo": 1600.0
+          "elo": 1600
         },
         {
           "team": "Slovan Bratislava",
-          "elo": 1600.0
+          "elo": 1600
         },
         {
           "team": "Riga FC",
-          "elo": 1600.0
+          "elo": 1600
         },
         {
           "team": "KF Shk\u00ebndija",
-          "elo": 1599.9
+          "elo": 1600
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "elo": 1598.7
+          "elo": 1599
         },
         {
           "team": "AC Milan",
-          "elo": 1598.5
+          "elo": 1598
         },
         {
           "team": "FC Astana",
-          "elo": 1598.2
+          "elo": 1598
         },
         {
           "team": "Ararat-Armenia",
-          "elo": 1598.2
+          "elo": 1598
         },
         {
           "team": "Manchester United",
-          "elo": 1597.9
+          "elo": 1598
         },
         {
           "team": "Maccabi Tel-Aviv",
-          "elo": 1597.2
+          "elo": 1597
         },
         {
           "team": "FK Suduva",
-          "elo": 1597.2
+          "elo": 1597
         },
         {
           "team": "PAOK Salonika",
-          "elo": 1597.2
+          "elo": 1597
         },
         {
           "team": "Valencia",
-          "elo": 1595.8
+          "elo": 1596
         },
         {
           "team": "Valletta",
-          "elo": 1595.7
+          "elo": 1596
         },
         {
           "team": "Feronikeli",
-          "elo": 1595.5
+          "elo": 1596
         },
         {
           "team": "Piast Gliwice",
-          "elo": 1595.5
+          "elo": 1596
         },
         {
           "team": "Partizani Tirana",
-          "elo": 1595.5
+          "elo": 1596
         },
         {
           "team": "PSV Eindhoven",
-          "elo": 1595.1
+          "elo": 1595
         },
         {
           "team": "The New Saints",
-          "elo": 1594.6
+          "elo": 1595
         },
         {
           "team": "Dundalk",
-          "elo": 1594.5
+          "elo": 1594
         },
         {
           "team": "HB Torshavn",
-          "elo": 1594.4
+          "elo": 1594
         },
         {
           "team": "Ludogorets Razgrad",
-          "elo": 1592.8
+          "elo": 1593
         },
         {
           "team": "Lens",
-          "elo": 1592.5
+          "elo": 1592
         },
         {
           "team": "Newcastle United",
-          "elo": 1591.4
+          "elo": 1591
         },
         {
           "team": "FC Basel",
-          "elo": 1591.4
+          "elo": 1591
         },
         {
           "team": "FK Sarajevo",
-          "elo": 1590.3
+          "elo": 1590
         },
         {
           "team": "FK Sutjeska",
-          "elo": 1590.2
+          "elo": 1590
         },
         {
           "team": "Dinamo Zagreb",
-          "elo": 1589.3
+          "elo": 1589
         },
         {
           "team": "Saburtalo Tbilisi",
-          "elo": 1589.1
+          "elo": 1589
         },
         {
           "team": "Feyenoord Rotterdam",
-          "elo": 1589.0
+          "elo": 1589
         },
         {
           "team": "Valur Reykjavik",
-          "elo": 1587.0
+          "elo": 1587
         },
         {
           "team": "Linfield",
-          "elo": 1586.9
+          "elo": 1587
         },
         {
           "team": "Nomme Kalju",
-          "elo": 1586.7
+          "elo": 1587
         },
         {
           "team": "Sporting CP",
-          "elo": 1586.4
+          "elo": 1586
         },
         {
           "team": "Olympiacos",
-          "elo": 1586.2
+          "elo": 1586
         },
         {
           "team": "Slavia Prague",
-          "elo": 1586.1
+          "elo": 1586
         },
         {
           "team": "Braga",
-          "elo": 1585.7
+          "elo": 1586
         },
         {
           "team": "Eintracht Frankfurt",
-          "elo": 1585.4
+          "elo": 1585
         },
         {
           "team": "Sheriff Tiraspol",
-          "elo": 1584.9
+          "elo": 1585
         },
         {
           "team": "VfL Wolfsburg",
-          "elo": 1583.2
+          "elo": 1583
         },
         {
           "team": "Lille",
-          "elo": 1583.2
+          "elo": 1583
         },
         {
           "team": "1. FC Union Berlin",
-          "elo": 1580.2
+          "elo": 1580
         },
         {
           "team": "F.C. K\u00f8benhavn",
-          "elo": 1579.4
+          "elo": 1579
         },
         {
           "team": "FC Midtjylland",
-          "elo": 1575.7
+          "elo": 1576
         },
         {
           "team": "Stade Rennais",
-          "elo": 1575.4
+          "elo": 1575
         },
         {
           "team": "Krasnodar",
-          "elo": 1574.8
+          "elo": 1575
         },
         {
           "team": "Bayer Leverkusen",
-          "elo": 1574.7
+          "elo": 1575
         },
         {
           "team": "Marseille",
-          "elo": 1573.0
+          "elo": 1573
         },
         {
           "team": "Galatasaray",
-          "elo": 1573.0
+          "elo": 1573
         },
         {
           "team": "Ferencvaros",
-          "elo": 1571.2
+          "elo": 1571
         },
         {
           "team": "Istanbul Basaksehir",
-          "elo": 1569.1
+          "elo": 1569
         },
         {
           "team": "Malm\u00f6 FF",
-          "elo": 1569.1
+          "elo": 1569
         },
         {
           "team": "Racing Genk",
-          "elo": 1568.5
+          "elo": 1568
         },
         {
           "team": "Zenit St Petersburg",
-          "elo": 1567.4
+          "elo": 1567
         },
         {
           "team": "Young Boys",
-          "elo": 1567.2
+          "elo": 1567
         },
         {
           "team": "Maccabi Haifa",
-          "elo": 1567.0
+          "elo": 1567
         },
         {
           "team": "Lokomotiv Moscow",
-          "elo": 1566.0
+          "elo": 1566
         },
         {
           "team": "Antwerp",
-          "elo": 1564.9
+          "elo": 1565
         },
         {
           "team": "RB Salzburg",
-          "elo": 1560.9
+          "elo": 1561
         },
         {
           "team": "Celtic",
-          "elo": 1560.5
+          "elo": 1560
         },
         {
           "team": "Besiktas",
-          "elo": 1559.5
+          "elo": 1560
         },
         {
           "team": "Sevilla",
-          "elo": 1558.2
+          "elo": 1558
         },
         {
           "team": "Club Brugge",
-          "elo": 1556.8
+          "elo": 1557
         },
         {
           "team": "Dynamo Kyiv",
-          "elo": 1555.8
+          "elo": 1556
         },
         {
           "team": "Shakhtar Donetsk",
-          "elo": 1552.7
+          "elo": 1553
         },
         {
           "team": "Rangers",
-          "elo": 1550.8
+          "elo": 1551
         },
         {
           "team": "Viktoria Plzen",
-          "elo": 1550.2
+          "elo": 1550
         },
         {
           "team": "Red Star Belgrade",
-          "elo": 1547.6
+          "elo": 1548
         }
       ],
       "upcoming": [
@@ -9518,1003 +9518,1003 @@
       "rankings": [
         {
           "team": "Bayer Leverkusen",
-          "elo": 1650.0
+          "elo": 1650
         },
         {
           "team": "Manchester United",
-          "elo": 1630.2
+          "elo": 1630
         },
         {
           "team": "AS Roma",
-          "elo": 1623.4
+          "elo": 1623
         },
         {
           "team": "Arsenal",
-          "elo": 1615.1
+          "elo": 1615
         },
         {
           "team": "Atalanta",
-          "elo": 1614.8
+          "elo": 1615
         },
         {
           "team": "Villarreal",
-          "elo": 1601.9
+          "elo": 1602
         },
         {
           "team": "Sevilla",
-          "elo": 1595.8
+          "elo": 1596
         },
         {
           "team": "West Ham United",
-          "elo": 1592.1
+          "elo": 1592
         },
         {
           "team": "Rangers",
-          "elo": 1590.4
+          "elo": 1590
         },
         {
           "team": "Liverpool",
-          "elo": 1584.6
+          "elo": 1585
         },
         {
           "team": "PSV Eindhoven",
-          "elo": 1578.8
+          "elo": 1579
         },
         {
           "team": "SC Freiburg",
-          "elo": 1576.2
+          "elo": 1576
         },
         {
           "team": "Wolverhampton Wanderers",
-          "elo": 1575.6
+          "elo": 1576
         },
         {
           "team": "Tottenham Hotspur",
-          "elo": 1575.2
+          "elo": 1575
         },
         {
           "team": "Sporting CP",
-          "elo": 1574.3
+          "elo": 1574
         },
         {
           "team": "Eintracht Frankfurt",
-          "elo": 1574.0
+          "elo": 1574
         },
         {
           "team": "Slavia Prague",
-          "elo": 1572.9
+          "elo": 1573
         },
         {
           "team": "Dinamo Zagreb",
-          "elo": 1571.8
+          "elo": 1572
         },
         {
           "team": "FC Basel",
-          "elo": 1570.2
+          "elo": 1570
         },
         {
           "team": "Lyon",
-          "elo": 1569.0
+          "elo": 1569
         },
         {
           "team": "Real Betis",
-          "elo": 1566.7
+          "elo": 1567
         },
         {
           "team": "Juventus",
-          "elo": 1566.4
+          "elo": 1566
         },
         {
           "team": "Benfica",
-          "elo": 1566.3
+          "elo": 1566
         },
         {
           "team": "Stade Rennais",
-          "elo": 1566.1
+          "elo": 1566
         },
         {
           "team": "TSG Hoffenheim",
-          "elo": 1565.9
+          "elo": 1566
         },
         {
           "team": "Neftchi",
-          "elo": 1565.2
+          "elo": 1565
         },
         {
           "team": "Braga",
-          "elo": 1564.9
+          "elo": 1565
         },
         {
           "team": "Dinamo Tbilisi",
-          "elo": 1563.9
+          "elo": 1564
         },
         {
           "team": "Espanyol",
-          "elo": 1563.7
+          "elo": 1564
         },
         {
           "team": "Internazionale",
-          "elo": 1563.5
+          "elo": 1564
         },
         {
           "team": "AC Milan",
-          "elo": 1563.2
+          "elo": 1563
         },
         {
           "team": "Fenerbahce",
-          "elo": 1560.9
+          "elo": 1561
         },
         {
           "team": "Brighton & Hove Albion",
-          "elo": 1559.0
+          "elo": 1559
         },
         {
           "team": "Real Sociedad",
-          "elo": 1559.0
+          "elo": 1559
         },
         {
           "team": "AZ Alkmaar",
-          "elo": 1558.6
+          "elo": 1559
         },
         {
           "team": "Marseille",
-          "elo": 1558.5
+          "elo": 1558
         },
         {
           "team": "IFK Norrk\u00f6ping",
-          "elo": 1558.3
+          "elo": 1558
         },
         {
           "team": "FK Suduva",
-          "elo": 1557.9
+          "elo": 1558
         },
         {
           "team": "Molde",
-          "elo": 1557.7
+          "elo": 1558
         },
         {
           "team": "RB Leipzig",
-          "elo": 1556.8
+          "elo": 1557
         },
         {
           "team": "Zrinjski Mostar",
-          "elo": 1556.6
+          "elo": 1557
         },
         {
           "team": "Leicester City",
-          "elo": 1555.3
+          "elo": 1555
         },
         {
           "team": "Torino",
-          "elo": 1554.5
+          "elo": 1554
         },
         {
           "team": "Apollon Limassol",
-          "elo": 1554.5
+          "elo": 1554
         },
         {
           "team": "Aberdeen",
-          "elo": 1554.5
+          "elo": 1554
         },
         {
           "team": "FCSB",
-          "elo": 1553.2
+          "elo": 1553
         },
         {
           "team": "Haugesund",
-          "elo": 1552.1
+          "elo": 1552
         },
         {
           "team": "Shakhter Soligorsk",
-          "elo": 1551.5
+          "elo": 1552
         },
         {
           "team": "Napoli",
-          "elo": 1551.2
+          "elo": 1551
         },
         {
           "team": "F.C. K\u00f8benhavn",
-          "elo": 1550.7
+          "elo": 1551
         },
         {
           "team": "AS Monaco",
-          "elo": 1550.6
+          "elo": 1551
         },
         {
           "team": "Lille",
-          "elo": 1550.4
+          "elo": 1550
         },
         {
           "team": "1. FC Union Berlin",
-          "elo": 1550.1
+          "elo": 1550
         },
         {
           "team": "Cukaricki Belgrade",
-          "elo": 1549.4
+          "elo": 1549
         },
         {
           "team": "AEK Larnaca",
-          "elo": 1549.3
+          "elo": 1549
         },
         {
           "team": "Partizan Belgrade",
-          "elo": 1549.3
+          "elo": 1549
         },
         {
           "team": "FK Ventspils",
-          "elo": 1549.1
+          "elo": 1549
         },
         {
           "team": "Alashkert FC",
-          "elo": 1548.7
+          "elo": 1549
         },
         {
           "team": "Feh\u00e9rv\u00e1r",
-          "elo": 1548.3
+          "elo": 1548
         },
         {
           "team": "Union St.-Gilloise",
-          "elo": 1547.9
+          "elo": 1548
         },
         {
           "team": "FC Luzern",
-          "elo": 1547.5
+          "elo": 1548
         },
         {
           "team": "Linfield",
-          "elo": 1547.2
+          "elo": 1547
         },
         {
           "team": "CSU Craiova",
-          "elo": 1547.1
+          "elo": 1547
         },
         {
           "team": "Atromitos",
-          "elo": 1547.1
+          "elo": 1547
         },
         {
           "team": "Barcelona",
-          "elo": 1546.6
+          "elo": 1547
         },
         {
           "team": "VfL Wolfsburg",
-          "elo": 1546.1
+          "elo": 1546
         },
         {
           "team": "Getafe",
-          "elo": 1546.0
+          "elo": 1546
         },
         {
           "team": "Ordabasy Shymkent",
-          "elo": 1545.1
+          "elo": 1545
         },
         {
           "team": "FC Vaduz",
-          "elo": 1544.9
+          "elo": 1545
         },
         {
           "team": "Mlada Boleslav",
-          "elo": 1544.6
+          "elo": 1545
         },
         {
           "team": "Saburtalo Tbilisi",
-          "elo": 1544.6
+          "elo": 1545
         },
         {
           "team": "Yeni Malatyaspor",
-          "elo": 1544.5
+          "elo": 1544
         },
         {
           "team": "NK Domzale",
-          "elo": 1544.5
+          "elo": 1544
         },
         {
           "team": "Honv\u00e9d",
-          "elo": 1544.5
+          "elo": 1544
         },
         {
           "team": "Aris",
-          "elo": 1544.5
+          "elo": 1544
         },
         {
           "team": "Spartak Moscow",
-          "elo": 1544.2
+          "elo": 1544
         },
         {
           "team": "Ararat-Armenia",
-          "elo": 1544.2
+          "elo": 1544
         },
         {
           "team": "Red Star Belgrade",
-          "elo": 1543.5
+          "elo": 1544
         },
         {
           "team": "Galatasaray",
-          "elo": 1543.5
+          "elo": 1544
         },
         {
           "team": "Vit\u00f3ria de Guimaraes",
-          "elo": 1543.4
+          "elo": 1543
         },
         {
           "team": "Granada",
-          "elo": 1543.0
+          "elo": 1543
         },
         {
           "team": "KI Klaksvik",
-          "elo": 1542.9
+          "elo": 1543
         },
         {
           "team": "Cardiff MU",
-          "elo": 1542.8
+          "elo": 1543
         },
         {
           "team": "Kairat Almaty",
-          "elo": 1542.6
+          "elo": 1543
         },
         {
           "team": "Buducnost Podgorica",
-          "elo": 1542.1
+          "elo": 1542
         },
         {
           "team": "Toulouse",
-          "elo": 1542.0
+          "elo": 1542
         },
         {
           "team": "Strasbourg",
-          "elo": 1541.8
+          "elo": 1542
         },
         {
           "team": "KuPS Kuopio",
-          "elo": 1541.7
+          "elo": 1542
         },
         {
           "team": "Shamrock Rovers",
-          "elo": 1541.4
+          "elo": 1541
         },
         {
           "team": "Europa FC",
-          "elo": 1540.7
+          "elo": 1541
         },
         {
           "team": "FC Spartak Trnava",
-          "elo": 1540.4
+          "elo": 1540
         },
         {
           "team": "Osijek",
-          "elo": 1540.3
+          "elo": 1540
         },
         {
           "team": "FC Levadia Tallinn",
-          "elo": 1540.1
+          "elo": 1540
         },
         {
           "team": "Riga FC",
-          "elo": 1540.1
+          "elo": 1540
         },
         {
           "team": "NSI Runavik",
-          "elo": 1540.0
+          "elo": 1540
         },
         {
           "team": "Tobol Kostanay",
-          "elo": 1540.0
+          "elo": 1540
         },
         {
           "team": "Trakai",
-          "elo": 1540.0
+          "elo": 1540
         },
         {
           "team": "Cracovia",
-          "elo": 1540.0
+          "elo": 1540
         },
         {
           "team": "Piast Gliwice",
-          "elo": 1539.9
+          "elo": 1540
         },
         {
           "team": "Chikhura Sachkhere",
-          "elo": 1539.9
+          "elo": 1540
         },
         {
           "team": "Istanbul Basaksehir",
-          "elo": 1539.9
+          "elo": 1540
         },
         {
           "team": "Lokomotiv Plovdiv",
-          "elo": 1539.8
+          "elo": 1540
         },
         {
           "team": "Radnik Bijeljina",
-          "elo": 1539.8
+          "elo": 1540
         },
         {
           "team": "Hajduk Split",
-          "elo": 1539.7
+          "elo": 1540
         },
         {
           "team": "Slovan Bratislava",
-          "elo": 1539.5
+          "elo": 1540
         },
         {
           "team": "PAOK Salonika",
-          "elo": 1539.5
+          "elo": 1540
         },
         {
           "team": "FC Inter Turku",
-          "elo": 1539.1
+          "elo": 1539
         },
         {
           "team": "Olimpija Ljubljana",
-          "elo": 1538.3
+          "elo": 1538
         },
         {
           "team": "FC Zorya Luhansk",
-          "elo": 1537.9
+          "elo": 1538
         },
         {
           "team": "Cork",
-          "elo": 1537.5
+          "elo": 1538
         },
         {
           "team": "FC Utrecht",
-          "elo": 1537.4
+          "elo": 1537
         },
         {
           "team": "KS Teuta",
-          "elo": 1537.4
+          "elo": 1537
         },
         {
           "team": "Viitorul Constanta",
-          "elo": 1537.4
+          "elo": 1537
         },
         {
           "team": "Jablonec",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Lazio",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Flora",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Fiorita",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "KF Laci",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "SK Brann",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Breidablik",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "HB Torshavn",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Kilmarnock",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Rigas Futbola Skola",
-          "elo": 1537.2
+          "elo": 1537
         },
         {
           "team": "Pyunik",
-          "elo": 1537.1
+          "elo": 1537
         },
         {
           "team": "Lechia Gdansk",
-          "elo": 1537.0
+          "elo": 1537
         },
         {
           "team": "CFR Cluj-Napoca",
-          "elo": 1536.4
+          "elo": 1536
         },
         {
           "team": "FC Midtjylland",
-          "elo": 1536.4
+          "elo": 1536
         },
         {
           "team": "Lens",
-          "elo": 1536.3
+          "elo": 1536
         },
         {
           "team": "FK Liepaja",
-          "elo": 1535.9
+          "elo": 1536
         },
         {
           "team": "Feyenoord Rotterdam",
-          "elo": 1535.8
+          "elo": 1536
         },
         {
           "team": "Esbjerg FB",
-          "elo": 1535.7
+          "elo": 1536
         },
         {
           "team": "Progres Niederkorn",
-          "elo": 1535.7
+          "elo": 1536
         },
         {
           "team": "FK Sutjeska",
-          "elo": 1535.6
+          "elo": 1536
         },
         {
           "team": "Shkupi",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Dinamo Minsk",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "KF Shk\u00ebndija",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Partizani Tirana",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "AEL",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Prishtina",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Radnicki Nis",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "FC Vitebsk",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Zalgiris Vilnius",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Cliftonville",
-          "elo": 1535.5
+          "elo": 1536
         },
         {
           "team": "Levski Sofia",
-          "elo": 1535.3
+          "elo": 1535
         },
         {
           "team": "Crusaders",
-          "elo": 1535.2
+          "elo": 1535
         },
         {
           "team": "Ajax Amsterdam",
-          "elo": 1535.1
+          "elo": 1535
         },
         {
           "team": "Apoel Nicosia",
-          "elo": 1534.9
+          "elo": 1535
         },
         {
           "team": "Zenit St Petersburg",
-          "elo": 1534.6
+          "elo": 1535
         },
         {
           "team": "Saint-\u00c9tienne",
-          "elo": 1534.5
+          "elo": 1534
         },
         {
           "team": "FK Kukesi",
-          "elo": 1534.4
+          "elo": 1534
         },
         {
           "team": "Santa Coloma",
-          "elo": 1534.4
+          "elo": 1534
         },
         {
           "team": "Shakhtar Donetsk",
-          "elo": 1534.1
+          "elo": 1534
         },
         {
           "team": "Gzira United",
-          "elo": 1533.9
+          "elo": 1534
         },
         {
           "team": "Valletta",
-          "elo": 1533.7
+          "elo": 1534
         },
         {
           "team": "UE Sant Julia",
-          "elo": 1533.5
+          "elo": 1534
         },
         {
           "team": "Barry Town",
-          "elo": 1533.5
+          "elo": 1534
         },
         {
           "team": "Mladost Pogorica",
-          "elo": 1533.5
+          "elo": 1534
         },
         {
           "team": "Valur Reykjavik",
-          "elo": 1533.5
+          "elo": 1534
         },
         {
           "team": "CSKA Sofia",
-          "elo": 1533.4
+          "elo": 1533
         },
         {
           "team": "Maccabi Tel-Aviv",
-          "elo": 1533.4
+          "elo": 1533
         },
         {
           "team": "Young Boys",
-          "elo": 1533.1
+          "elo": 1533
         },
         {
           "team": "Hapoel Be'er",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Connah's Quay",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Sabail",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Balzan FC",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "CS Fola Esch",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Dunajska Streda",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Siroki Brijeg",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Petrocub",
-          "elo": 1532.8
+          "elo": 1533
         },
         {
           "team": "Hibernians",
-          "elo": 1532.8
+          "elo": 1533
         },
         {
           "team": "RoPS",
-          "elo": 1532.8
+          "elo": 1533
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "elo": 1532.8
+          "elo": 1533
         },
         {
           "team": "Borussia Dortmund",
-          "elo": 1532.2
+          "elo": 1532
         },
         {
           "team": "KR Reykjavik",
-          "elo": 1532.1
+          "elo": 1532
         },
         {
           "team": "Sivasspor",
-          "elo": 1532.0
+          "elo": 1532
         },
         {
           "team": "FK Qarabag",
-          "elo": 1531.7
+          "elo": 1532
         },
         {
           "team": "B36 Torshavn",
-          "elo": 1531.2
+          "elo": 1531
         },
         {
           "team": "NS Mura",
-          "elo": 1531.2
+          "elo": 1531
         },
         {
           "team": "FC Milsami",
-          "elo": 1531.2
+          "elo": 1531
         },
         {
           "team": "Lincoln Red Imps",
-          "elo": 1531.2
+          "elo": 1531
         },
         {
           "team": "Debrecen",
-          "elo": 1531.1
+          "elo": 1531
         },
         {
           "team": "FC Arsenal Tula",
-          "elo": 1530.9
+          "elo": 1531
         },
         {
           "team": "FC Porto",
-          "elo": 1530.7
+          "elo": 1531
         },
         {
           "team": "UE Engordany",
-          "elo": 1530.5
+          "elo": 1530
         },
         {
           "team": "FC Lugano",
-          "elo": 1530.3
+          "elo": 1530
         },
         {
           "team": "St Patricks Athletic",
-          "elo": 1530.3
+          "elo": 1530
         },
         {
           "team": "Krasnodar",
-          "elo": 1530.3
+          "elo": 1530
         },
         {
           "team": "Torpedo Kutaisi",
-          "elo": 1530.2
+          "elo": 1530
         },
         {
           "team": "Feronikeli",
-          "elo": 1530.2
+          "elo": 1530
         },
         {
           "team": "Tre Fiori",
-          "elo": 1529.6
+          "elo": 1530
         },
         {
           "team": "FK Zeta",
-          "elo": 1529.6
+          "elo": 1530
         },
         {
           "team": "Jeunesse Esch",
-          "elo": 1529.3
+          "elo": 1529
         },
         {
           "team": "MFK Ruzomberok",
-          "elo": 1528.8
+          "elo": 1529
         },
         {
           "team": "FC Olexandriya",
-          "elo": 1528.6
+          "elo": 1529
         },
         {
           "team": "Club Brugge",
-          "elo": 1528.5
+          "elo": 1528
         },
         {
           "team": "Legia Warsaw",
-          "elo": 1528.4
+          "elo": 1528
         },
         {
           "team": "FK Qabala",
-          "elo": 1528.4
+          "elo": 1528
         },
         {
           "team": "JK Narva Trans",
-          "elo": 1527.7
+          "elo": 1528
         },
         {
           "team": "FK Makedonija",
-          "elo": 1526.9
+          "elo": 1527
         },
         {
           "team": "Kauno Zalgiris",
-          "elo": 1526.9
+          "elo": 1527
         },
         {
           "team": "Maccabi Haifa",
-          "elo": 1526.8
+          "elo": 1527
         },
         {
           "team": "St. Joseph's",
-          "elo": 1526.7
+          "elo": 1527
         },
         {
           "team": "Stjarnan",
-          "elo": 1526.6
+          "elo": 1527
         },
         {
           "team": "Liberec",
-          "elo": 1526.5
+          "elo": 1526
         },
         {
           "team": "Akademija Pandev",
-          "elo": 1526.0
+          "elo": 1526
         },
         {
           "team": "RB Salzburg",
-          "elo": 1525.1
+          "elo": 1525
         },
         {
           "team": "Panathinaikos",
-          "elo": 1524.7
+          "elo": 1525
         },
         {
           "team": "Antwerp",
-          "elo": 1524.5
+          "elo": 1524
         },
         {
           "team": "Rapid Vienna",
-          "elo": 1524.4
+          "elo": 1524
         },
         {
           "team": "FC Astana",
-          "elo": 1524.1
+          "elo": 1524
         },
         {
           "team": "Rijeka",
-          "elo": 1524.0
+          "elo": 1524
         },
         {
           "team": "Speranta Nisporeni",
-          "elo": 1523.9
+          "elo": 1524
         },
         {
           "team": "Trabzonspor",
-          "elo": 1523.4
+          "elo": 1523
         },
         {
           "team": "FC Urartu",
-          "elo": 1523.3
+          "elo": 1523
         },
         {
           "team": "Bodo/Glimt",
-          "elo": 1523.2
+          "elo": 1523
         },
         {
           "team": "Wolfsberger",
-          "elo": 1523.2
+          "elo": 1523
         },
         {
           "team": "Racing Genk",
-          "elo": 1522.8
+          "elo": 1523
         },
         {
           "team": "Tre Penne",
-          "elo": 1522.1
+          "elo": 1522
         },
         {
           "team": "Ballymena",
-          "elo": 1521.8
+          "elo": 1522
         },
         {
           "team": "Besiktas",
-          "elo": 1521.6
+          "elo": 1522
         },
         {
           "team": "LASK Linz",
-          "elo": 1521.5
+          "elo": 1522
         },
         {
           "team": "Standard Liege",
-          "elo": 1521.4
+          "elo": 1521
         },
         {
           "team": "Sparta Prague",
-          "elo": 1520.7
+          "elo": 1521
         },
         {
           "team": "F91 Dudelange",
-          "elo": 1519.1
+          "elo": 1519
         },
         {
           "team": "Br\u00f8ndby IF",
-          "elo": 1518.8
+          "elo": 1519
         },
         {
           "team": "Nice",
-          "elo": 1518.8
+          "elo": 1519
         },
         {
           "team": "Malm\u00f6 FF",
-          "elo": 1518.8
+          "elo": 1519
         },
         {
           "team": "Servette",
-          "elo": 1518.4
+          "elo": 1518
         },
         {
           "team": "Celtic",
-          "elo": 1518.2
+          "elo": 1518
         },
         {
           "team": "KAA Gent",
-          "elo": 1518.1
+          "elo": 1518
         },
         {
           "team": "Lech Poznan",
-          "elo": 1517.8
+          "elo": 1518
         },
         {
           "team": "Nantes",
-          "elo": 1517.6
+          "elo": 1518
         },
         {
           "team": "Aris Limassol",
-          "elo": 1516.0
+          "elo": 1516
         },
         {
           "team": "Rosenborg",
-          "elo": 1515.1
+          "elo": 1515
         },
         {
           "team": "Lokomotiv Moscow",
-          "elo": 1514.7
+          "elo": 1515
         },
         {
           "team": "Rak\u00f3w Czestochowa",
-          "elo": 1514.7
+          "elo": 1515
         },
         {
           "team": "CSKA Moscow",
-          "elo": 1514.0
+          "elo": 1514
         },
         {
           "team": "FC Z\u00fcrich",
-          "elo": 1510.9
+          "elo": 1511
         },
         {
           "team": "Dynamo Kyiv",
-          "elo": 1506.5
+          "elo": 1506
         },
         {
           "team": "HJK Helsinki",
-          "elo": 1506.3
+          "elo": 1506
         },
         {
           "team": "Dundalk",
-          "elo": 1506.2
+          "elo": 1506
         },
         {
           "team": "Ferencvaros",
-          "elo": 1504.3
+          "elo": 1504
         },
         {
           "team": "FK TSC",
-          "elo": 1499.1
+          "elo": 1499
         },
         {
           "team": "Sheriff Tiraspol",
-          "elo": 1497.6
+          "elo": 1498
         },
         {
           "team": "AEK Athens",
-          "elo": 1496.1
+          "elo": 1496
         },
         {
           "team": "SK Sturm Graz",
-          "elo": 1491.3
+          "elo": 1491
         },
         {
           "team": "Ludogorets Razgrad",
-          "elo": 1490.3
+          "elo": 1490
         },
         {
           "team": "Olympiacos",
-          "elo": 1489.7
+          "elo": 1490
         },
         {
           "team": "Omonia Nicosia",
-          "elo": 1487.9
+          "elo": 1488
         },
         {
           "team": "BK H\u00e4cken",
-          "elo": 1486.8
+          "elo": 1487
         }
       ],
       "upcoming": [
@@ -10743,131 +10743,131 @@
       "rankings": [
         {
           "team": "Atlanta Braves",
-          "elo": 1541.5
+          "elo": 1542
         },
         {
           "team": "Los Angeles Dodgers",
-          "elo": 1541.3
+          "elo": 1541
         },
         {
           "team": "Chicago Cubs",
-          "elo": 1538.1
+          "elo": 1538
         },
         {
           "team": "Detroit Tigers",
-          "elo": 1521.5
+          "elo": 1522
         },
         {
           "team": "San Diego Padres",
-          "elo": 1521.4
+          "elo": 1521
         },
         {
           "team": "Baltimore Orioles",
-          "elo": 1515.5
+          "elo": 1516
         },
         {
           "team": "New York Yankees",
-          "elo": 1512.3
+          "elo": 1512
         },
         {
           "team": "Seattle Mariners",
-          "elo": 1507.6
+          "elo": 1508
         },
         {
           "team": "Minnesota Twins",
-          "elo": 1506.6
+          "elo": 1507
         },
         {
           "team": "Texas Rangers",
-          "elo": 1505.3
+          "elo": 1505
         },
         {
           "team": "Houston Astros",
-          "elo": 1503.5
+          "elo": 1504
         },
         {
           "team": "Tampa Bay Rays",
-          "elo": 1503.3
+          "elo": 1503
         },
         {
           "team": "Arizona Diamondbacks",
-          "elo": 1502.6
+          "elo": 1503
         },
         {
           "team": "Athletics",
-          "elo": 1501.9
+          "elo": 1502
         },
         {
           "team": "Cleveland Guardians",
-          "elo": 1500.5
+          "elo": 1500
         },
         {
           "team": "Toronto Blue Jays",
-          "elo": 1499.3
+          "elo": 1499
         },
         {
           "team": "Milwaukee Brewers",
-          "elo": 1499.2
+          "elo": 1499
         },
         {
           "team": "Cleveland Indians",
-          "elo": 1498.6
+          "elo": 1499
         },
         {
           "team": "Cincinnati Reds",
-          "elo": 1498.0
+          "elo": 1498
         },
         {
           "team": "Boston Red Sox",
-          "elo": 1497.6
+          "elo": 1498
         },
         {
           "team": "St. Louis Cardinals",
-          "elo": 1497.1
+          "elo": 1497
         },
         {
           "team": "Philadelphia Phillies",
-          "elo": 1489.2
+          "elo": 1489
         },
         {
           "team": "San Francisco Giants",
-          "elo": 1488.4
+          "elo": 1488
         },
         {
           "team": "Pittsburgh Pirates",
-          "elo": 1487.5
+          "elo": 1488
         },
         {
           "team": "Colorado Rockies",
-          "elo": 1485.8
+          "elo": 1486
         },
         {
           "team": "Kansas City Royals",
-          "elo": 1484.6
+          "elo": 1485
         },
         {
           "team": "Oakland Athletics",
-          "elo": 1482.9
+          "elo": 1483
         },
         {
           "team": "New York Mets",
-          "elo": 1482.3
+          "elo": 1482
         },
         {
           "team": "Los Angeles Angels",
-          "elo": 1481.5
+          "elo": 1482
         },
         {
           "team": "Chicago White Sox",
-          "elo": 1471.5
+          "elo": 1472
         },
         {
           "team": "Washington Nationals",
-          "elo": 1468.0
+          "elo": 1468
         },
         {
           "team": "Miami Marlins",
-          "elo": 1465.8
+          "elo": 1466
         }
       ],
       "upcoming": [
@@ -15629,7 +15629,7 @@
         },
         {
           "team": "Buffalo Sabres",
-          "rating": 1499.0,
+          "rating": 1504.0,
           "rank": 17
         },
         {
@@ -15664,7 +15664,7 @@
         },
         {
           "team": "Boston Bruins",
-          "rating": 1487.9,
+          "rating": 1482.9,
           "rank": 24
         },
         {
@@ -15721,139 +15721,139 @@
       "rankings": [
         {
           "team": "Carolina Hurricanes",
-          "elo": 1565.6
+          "elo": 1566
         },
         {
           "team": "Florida Panthers",
-          "elo": 1559.0
+          "elo": 1559
         },
         {
           "team": "Colorado Avalanche",
-          "elo": 1558.5
+          "elo": 1558
         },
         {
           "team": "Dallas Stars",
-          "elo": 1557.4
+          "elo": 1557
         },
         {
           "team": "Washington Capitals",
-          "elo": 1550.7
+          "elo": 1551
         },
         {
           "team": "Vegas Golden Knights",
-          "elo": 1539.5
+          "elo": 1540
         },
         {
           "team": "Edmonton Oilers",
-          "elo": 1532.9
+          "elo": 1533
         },
         {
           "team": "Winnipeg Jets",
-          "elo": 1527.3
+          "elo": 1527
         },
         {
           "team": "Los Angeles Kings",
-          "elo": 1524.9
+          "elo": 1525
         },
         {
           "team": "St. Louis Blues",
-          "elo": 1523.3
+          "elo": 1523
         },
         {
           "team": "New York Rangers",
-          "elo": 1511.6
+          "elo": 1512
         },
         {
           "team": "Ottawa Senators",
-          "elo": 1510.5
+          "elo": 1510
         },
         {
           "team": "Tampa Bay Lightning",
-          "elo": 1510.0
+          "elo": 1510
         },
         {
           "team": "Calgary Flames",
-          "elo": 1508.9
+          "elo": 1509
         },
         {
           "team": "Vancouver Canucks",
-          "elo": 1508.4
+          "elo": 1508
         },
         {
           "team": "Minnesota Wild",
-          "elo": 1506.3
+          "elo": 1506
         },
         {
           "team": "Buffalo Sabres",
-          "elo": 1499.0
+          "elo": 1504
         },
         {
           "team": "Utah Mammoth",
-          "elo": 1496.6
+          "elo": 1497
         },
         {
           "team": "Utah Hockey Club",
-          "elo": 1493.0
+          "elo": 1493
         },
         {
           "team": "Nashville Predators",
-          "elo": 1490.5
+          "elo": 1490
         },
         {
           "team": "New Jersey Devils",
-          "elo": 1489.9
+          "elo": 1490
         },
         {
           "team": "Toronto Maple Leafs",
-          "elo": 1488.9
+          "elo": 1489
         },
         {
           "team": "Philadelphia Flyers",
-          "elo": 1488.1
+          "elo": 1488
         },
         {
           "team": "Boston Bruins",
-          "elo": 1487.9
+          "elo": 1483
         },
         {
           "team": "Arizona Coyotes",
-          "elo": 1479.8
+          "elo": 1480
         },
         {
           "team": "Detroit Red Wings",
-          "elo": 1479.7
+          "elo": 1480
         },
         {
           "team": "Seattle Kraken",
-          "elo": 1474.5
+          "elo": 1474
         },
         {
           "team": "New York Islanders",
-          "elo": 1473.6
+          "elo": 1474
         },
         {
           "team": "Montreal Canadiens",
-          "elo": 1467.7
+          "elo": 1468
         },
         {
           "team": "Columbus Blue Jackets",
-          "elo": 1461.5
+          "elo": 1462
         },
         {
           "team": "Anaheim Ducks",
-          "elo": 1455.9
+          "elo": 1456
         },
         {
           "team": "Pittsburgh Penguins",
-          "elo": 1444.2
+          "elo": 1444
         },
         {
           "team": "San Jose Sharks",
-          "elo": 1418.0
+          "elo": 1418
         },
         {
           "team": "Chicago Blackhawks",
-          "elo": 1416.5
+          "elo": 1416
         }
       ],
       "upcoming": [
@@ -15946,8 +15946,8 @@
           "away": "Buffalo Sabres",
           "date": "2026-04-26",
           "datetime": "2026-04-26T18:00Z",
-          "home_prob": 57.0,
-          "away_prob": 43.0,
+          "home_prob": 55.6,
+          "away_prob": 44.4,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -16044,8 +16044,8 @@
           "away": "Boston Bruins",
           "date": "2026-04-28",
           "datetime": "2026-04-28T23:30Z",
-          "home_prob": 60.1,
-          "away_prob": 39.9,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -16198,8 +16198,8 @@
           "away": "Buffalo Sabres",
           "date": "2026-05-01",
           "datetime": "2026-05-01T04:00Z",
-          "home_prob": 57.0,
-          "away_prob": 43.0,
+          "home_prob": 55.6,
+          "away_prob": 44.4,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
@@ -16296,8 +16296,8 @@
           "away": "Boston Bruins",
           "date": "2026-05-03",
           "datetime": "2026-05-03T04:00Z",
-          "home_prob": 60.1,
-          "away_prob": 39.9,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -16353,7 +16353,7 @@
           "home": "Boston Bruins",
           "away": "Tampa Bay Lightning",
           "date": "2026-04-11",
-          "home_prob": 55.4,
+          "home_prob": 54.7,
           "winner": "Tampa Bay Lightning",
           "home_score": 1,
           "away_score": 2,
@@ -16523,7 +16523,7 @@
           "home": "Columbus Blue Jackets",
           "away": "Boston Bruins",
           "date": "2026-04-12",
-          "home_prob": 54.8,
+          "home_prob": 55.5,
           "winner": "Boston Bruins",
           "home_score": 2,
           "away_score": 3,
@@ -16623,7 +16623,7 @@
           "home": "Chicago Blackhawks",
           "away": "Buffalo Sabres",
           "date": "2026-04-14",
-          "home_prob": 46.8,
+          "home_prob": 46.1,
           "winner": "Buffalo Sabres",
           "home_score": 1,
           "away_score": 5,
@@ -16663,7 +16663,7 @@
           "home": "Boston Bruins",
           "away": "New Jersey Devils",
           "date": "2026-04-14",
-          "home_prob": 58.3,
+          "home_prob": 57.6,
           "winner": "Boston Bruins",
           "home_score": 4,
           "away_score": 0,
@@ -16753,7 +16753,7 @@
           "home": "Buffalo Sabres",
           "away": "Dallas Stars",
           "date": "2026-04-15",
-          "home_prob": 50.2,
+          "home_prob": 51.0,
           "winner": "Dallas Stars",
           "home_score": 3,
           "away_score": 4,
@@ -16923,7 +16923,7 @@
           "home": "Buffalo Sabres",
           "away": "Boston Bruins",
           "date": "2026-04-19",
-          "home_prob": 60.1,
+          "home_prob": 61.5,
           "winner": "Buffalo Sabres",
           "home_score": 4,
           "away_score": 3,
@@ -16993,7 +16993,7 @@
           "home": "Buffalo Sabres",
           "away": "Boston Bruins",
           "date": "2026-04-21",
-          "home_prob": 60.1,
+          "home_prob": 61.5,
           "winner": "Boston Bruins",
           "home_score": 2,
           "away_score": 4,
@@ -17047,6 +17047,16 @@
           "winner": "Anaheim Ducks",
           "home_score": 4,
           "away_score": 6,
+          "draw_prob": null
+        },
+        {
+          "home": "Boston Bruins",
+          "away": "Buffalo Sabres",
+          "date": "2026-04-23",
+          "home_prob": 55.6,
+          "winner": "Buffalo Sabres",
+          "home_score": 1,
+          "away_score": 3,
           "draw_prob": null
         }
       ]
