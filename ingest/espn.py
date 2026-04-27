@@ -158,7 +158,7 @@ def fetch_season(sport: str, season: int) -> list[dict]:
     # NBA/NHL seasons span two calendar years: season 2023 = Oct 2022–Jun 2023
     # AFL/NRL: season year is the calendar year (Mar–Sep)
     # NFL: season year = year the season starts (Sep–Feb following year)
-    if sport in ('nba', 'wnba', 'nhl'):
+    if sport in ('nba', 'wnba', 'nhl', 'nbl'):
         start = date(season - 1, 9, 1)
         end   = date(season, 8, 31)
     elif sport == 'nfl':

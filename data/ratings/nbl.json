@@ -1,0 +1,16 @@
+{
+  "sport": "nbl",
+  "current_season": 2025,
+  "ratings": {
+    "Illawarra Hawks": 1673.12,
+    "Perth Wildcats": 1621.99,
+    "Melbourne United": 1600.53,
+    "South East Melbourne Phoenix": 1554.58,
+    "Adelaide 36ers": 1512.35,
+    "Sydney Kings": 1489.06,
+    "Tasmania JackJumpers": 1420.11,
+    "Cairns Taipans": 1398.27,
+    "Brisbane Bullets": 1375.85,
+    "New Zealand Breakers": 1354.12
+  }
+}
