@@ -65,6 +65,17 @@ SPORT_CONFIGS: dict[str, dict] = {
         'mean_rating':      1500,
     },
 
+    # ── National Basketball League (Australia) ────────────────────────────────
+    # ~28 home-and-away games + finals. Shorter season than NBA → higher K.
+    # Home advantage moderate — Australian club travel is significant.
+    'nbl': {
+        'k':                24,
+        'home_advantage':   70,
+        'margin_scale':     8,
+        'season_regression': 0.30,
+        'mean_rating':      1500,
+    },
+
     # ── National Football League ──────────────────────────────────────────────
     # 17 games. High single-game variance. QB quality is enormous.
     # FiveThirtyEight K=20 with home_adv=65 (≈2.5 pts).
@@ -221,6 +232,7 @@ SEED_SEASONS: dict[str, list[int]] = {
     'afl':        [2020, 2021, 2022, 2023, 2024],
     'nba':        [2020, 2021, 2022, 2023, 2024],
     'wnba':       [2020, 2021, 2022, 2023, 2024],
+    'nbl':        [2021, 2022, 2023, 2024, 2025],  # NBL seasons span calendar years
     'nfl':        [2020, 2021, 2022, 2023, 2024],
     'nrl':        [2020, 2021, 2022, 2023, 2024],
     'epl':        [2020, 2021, 2022, 2023, 2024],
@@ -244,6 +256,7 @@ INGEST_SOURCE: dict[str, str] = {
     'afl':        'espn',         # ESPN Australian football
     'nba':        'espn',
     'wnba':       'espn',
+    'nbl':        'espn',
     'nfl':        'espn',
     'nrl':        'espn',
     'epl':        'football_data',

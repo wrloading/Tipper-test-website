@@ -37,6 +37,7 @@ ESPN_PATHS: dict[str, str] = {
     'nrl':        'rugby-league/nrl',
     'mlb':        'baseball/mlb',
     'nhl':        'hockey/nhl',
+    'nbl':        'basketball/nbl',
     # Soccer — used by football_data.py for MLS/A-League/UCL/UEL and all upcoming fixtures
     'epl':        'soccer/eng.1',
     'laliga':     'soccer/esp.1',
