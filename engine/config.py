@@ -65,6 +65,18 @@ SPORT_CONFIGS: dict[str, dict] = {
         'mean_rating':      1500,
     },
 
+    # ── Super Netball (Australia) ─────────────────────────────────────────────
+    # 14-round season, 7-8 teams. High-scoring (50–70 goals per side) but ELO
+    # cares only about wins/losses. Short season → higher K.
+    # Home advantage is moderate — most venues are purpose-built indoor arenas.
+    'supernetball': {
+        'k':                32,
+        'home_advantage':   55,
+        'margin_scale':     8,     # typical winning margin in goals
+        'season_regression': 0.33,
+        'mean_rating':      1500,
+    },
+
     # ── National Basketball League (Australia) ────────────────────────────────
     # ~28 home-and-away games + finals. Shorter season than NBA → higher K.
     # Home advantage moderate — Australian club travel is significant.
@@ -233,6 +245,7 @@ SEED_SEASONS: dict[str, list[int]] = {
     'nba':        [2020, 2021, 2022, 2023, 2024],
     'wnba':       [2020, 2021, 2022, 2023, 2024],
     'nbl':        [2021, 2022, 2023, 2024, 2025],  # NBL seasons span calendar years
+    'supernetball': [2022, 2023, 2024, 2025, 2026],
     'nfl':        [2020, 2021, 2022, 2023, 2024],
     'nrl':        [2020, 2021, 2022, 2023, 2024],
     'epl':        [2020, 2021, 2022, 2023, 2024],
@@ -257,6 +270,7 @@ INGEST_SOURCE: dict[str, str] = {
     'nba':        'espn',
     'wnba':       'espn',
     'nbl':        'espn',
+    'supernetball': 'champion_data',
     'nfl':        'espn',
     'nrl':        'espn',
     'epl':        'football_data',

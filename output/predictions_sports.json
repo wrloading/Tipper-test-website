@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-04-27T04:43:00.171497+00:00",
+    "updated": "2026-04-27T05:24:46.321250+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -834,24 +834,24 @@
           "draw_prob": null
         },
         {
-          "home": "Oklahoma City Thunder",
-          "away": "Phoenix Suns",
+          "home": "Detroit Pistons",
+          "away": "Orlando Magic",
           "date": "2026-04-29",
-          "datetime": "2026-04-29T04:00Z",
-          "home_prob": 78.5,
-          "away_prob": 21.5,
-          "margin": 6.8,
-          "home_fav": true,
+          "datetime": "2026-04-29T23:00Z",
+          "home_prob": 42.7,
+          "away_prob": 57.3,
+          "margin": 12.1,
+          "home_fav": false,
           "locked": false,
-          "venue": "Paycom Center",
-          "game_id": "nba_401869376",
+          "venue": "Little Caesars Arena",
+          "game_id": "nba_401869416",
           "draw_prob": null
         },
         {
           "home": "Cleveland Cavaliers",
           "away": "Toronto Raptors",
           "date": "2026-04-29",
-          "datetime": "2026-04-29T04:00Z",
+          "datetime": "2026-04-29T23:30Z",
           "home_prob": 72.7,
           "away_prob": 27.3,
           "margin": 15.5,
@@ -862,10 +862,24 @@
           "draw_prob": null
         },
         {
+          "home": "Oklahoma City Thunder",
+          "away": "Phoenix Suns",
+          "date": "2026-04-30",
+          "datetime": "2026-04-30T01:30Z",
+          "home_prob": 78.5,
+          "away_prob": 21.5,
+          "margin": 6.8,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Paycom Center",
+          "game_id": "nba_401869376",
+          "draw_prob": null
+        },
+        {
           "home": "Los Angeles Lakers",
           "away": "Houston Rockets",
-          "date": "2026-04-29",
-          "datetime": "2026-04-29T04:00Z",
+          "date": "2026-04-30",
+          "datetime": "2026-04-30T02:00Z",
           "home_prob": 64.0,
           "away_prob": 36.0,
           "margin": -3.7,
@@ -873,20 +887,6 @@
           "locked": false,
           "venue": "crypto.com Arena",
           "game_id": "nba_401869407",
-          "draw_prob": null
-        },
-        {
-          "home": "Detroit Pistons",
-          "away": "Orlando Magic",
-          "date": "2026-04-29",
-          "datetime": "2026-04-29T04:00Z",
-          "home_prob": 42.7,
-          "away_prob": 57.3,
-          "margin": 12.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Little Caesars Arena",
-          "game_id": "nba_401869416",
           "draw_prob": null
         },
         {
@@ -1890,6 +1890,251 @@
         }
       ],
       "recent": []
+    },
+    "supernetball": {
+      "ratings": [
+        {
+          "team": "Vixens",
+          "rating": 1721.6,
+          "rank": 1
+        },
+        {
+          "team": "Thunderbirds",
+          "rating": 1645.9,
+          "rank": 2
+        },
+        {
+          "team": "Fever",
+          "rating": 1645.1,
+          "rank": 3
+        },
+        {
+          "team": "Magpies",
+          "rating": 1487.2,
+          "rank": 4
+        },
+        {
+          "team": "Mavericks",
+          "rating": 1467.1,
+          "rank": 5
+        },
+        {
+          "team": "Lightning",
+          "rating": 1453.0,
+          "rank": 6
+        },
+        {
+          "team": "Swifts",
+          "rating": 1411.8,
+          "rank": 7
+        },
+        {
+          "team": "Firebirds",
+          "rating": 1407.2,
+          "rank": 8
+        },
+        {
+          "team": "GIANTS",
+          "rating": 1261.1,
+          "rank": 9
+        }
+      ],
+      "upcoming": [
+        {
+          "home": "Mavericks",
+          "away": "Swifts",
+          "date": "2026-05-02T07:00:00Z",
+          "datetime": "2026-05-02T07:00:00Z",
+          "home_prob": 65.4,
+          "away_prob": 34.6,
+          "margin": 6.9,
+          "home_fav": true,
+          "locked": false,
+          "venue": "John Cain Arena",
+          "game_id": "supernetball_129490801",
+          "draw_prob": null
+        },
+        {
+          "home": "Thunderbirds",
+          "away": "Firebirds",
+          "date": "2026-05-02T09:00:00Z",
+          "datetime": "2026-05-02T09:00:00Z",
+          "home_prob": 84.4,
+          "away_prob": 15.6,
+          "margin": 5.5,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Adelaide Entertainment Centre",
+          "game_id": "supernetball_129490802",
+          "draw_prob": null
+        },
+        {
+          "home": "Lightning",
+          "away": "Fever",
+          "date": "2026-05-03T04:00:00Z",
+          "datetime": "2026-05-03T04:00:00Z",
+          "home_prob": 31.2,
+          "away_prob": 68.8,
+          "margin": 1.4,
+          "home_fav": false,
+          "locked": false,
+          "venue": "UniSC Arena",
+          "game_id": "supernetball_129490803",
+          "draw_prob": null
+        },
+        {
+          "home": "Vixens",
+          "away": "GIANTS",
+          "date": "2026-05-03T06:00:00Z",
+          "datetime": "2026-05-03T06:00:00Z",
+          "home_prob": 95.1,
+          "away_prob": 4.9,
+          "margin": 8.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "John Cain Arena",
+          "game_id": "supernetball_129490804",
+          "draw_prob": null
+        },
+        {
+          "home": "Fever",
+          "away": "Thunderbirds",
+          "date": "2026-05-08T10:00:00Z",
+          "datetime": "2026-05-08T10:00:00Z",
+          "home_prob": 57.7,
+          "away_prob": 42.3,
+          "margin": -7.3,
+          "home_fav": true,
+          "locked": false,
+          "venue": "RAC Arena",
+          "game_id": "supernetball_129490901",
+          "draw_prob": null
+        },
+        {
+          "home": "Swifts",
+          "away": "Lightning",
+          "date": "2026-05-09T07:00:00Z",
+          "datetime": "2026-05-09T07:00:00Z",
+          "home_prob": 52.0,
+          "away_prob": 48.0,
+          "margin": -2.7,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Ken Rosewall Arena",
+          "game_id": "supernetball_129490902",
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Mavericks",
+          "date": "2026-05-10T04:00:00Z",
+          "datetime": "2026-05-10T04:00:00Z",
+          "home_prob": 29.5,
+          "away_prob": 70.5,
+          "margin": -9.2,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Ken Rosewall Arena",
+          "game_id": "supernetball_129490903",
+          "draw_prob": null
+        },
+        {
+          "home": "Vixens",
+          "away": "Firebirds",
+          "date": "2026-05-10T06:00:00Z",
+          "datetime": "2026-05-10T06:00:00Z",
+          "home_prob": 89.3,
+          "away_prob": 10.7,
+          "margin": 2.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "John Cain Arena",
+          "game_id": "supernetball_129490904",
+          "draw_prob": null
+        }
+      ],
+      "recent": [
+        {
+          "home": "Firebirds",
+          "away": "Swifts",
+          "date": "2026-04-18",
+          "home_prob": 57.2,
+          "winner": "Firebirds",
+          "home_score": 77,
+          "away_score": 66,
+          "draw_prob": null
+        },
+        {
+          "home": "Vixens",
+          "away": "Thunderbirds",
+          "date": "2026-04-18",
+          "home_prob": 68.0,
+          "winner": "Vixens",
+          "home_score": 56,
+          "away_score": 50,
+          "draw_prob": null
+        },
+        {
+          "home": "Mavericks",
+          "away": "Fever",
+          "date": "2026-04-19",
+          "home_prob": 33.0,
+          "winner": "Fever",
+          "home_score": 47,
+          "away_score": 59,
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Lightning",
+          "date": "2026-04-19",
+          "home_prob": 31.3,
+          "winner": "Lightning",
+          "home_score": 51,
+          "away_score": 59,
+          "draw_prob": null
+        },
+        {
+          "home": "Swifts",
+          "away": "GIANTS",
+          "date": "2026-04-25",
+          "home_prob": 76.6,
+          "winner": "Swifts",
+          "home_score": 72,
+          "away_score": 59,
+          "draw_prob": null
+        },
+        {
+          "home": "Thunderbirds",
+          "away": "Lightning",
+          "date": "2026-04-25",
+          "home_prob": 80.6,
+          "winner": "Thunderbirds",
+          "home_score": 61,
+          "away_score": 60,
+          "draw_prob": null
+        },
+        {
+          "home": "Firebirds",
+          "away": "Mavericks",
+          "date": "2026-04-26",
+          "home_prob": 49.3,
+          "winner": "Mavericks",
+          "home_score": 57,
+          "away_score": 58,
+          "draw_prob": null
+        },
+        {
+          "home": "Fever",
+          "away": "Vixens",
+          "date": "2026-04-26",
+          "home_prob": 46.9,
+          "winner": "Vixens",
+          "home_score": 44,
+          "away_score": 50,
+          "draw_prob": null
+        }
+      ]
     },
     "nbl": {
       "ratings": [],
@@ -7517,8 +7762,8 @@
           "away": "Los Angeles Angels",
           "date": "2026-04-27",
           "datetime": "2026-04-27T23:40Z",
-          "home_prob": 52.9,
-          "away_prob": 47.1,
+          "home_prob": 52.8,
+          "away_prob": 47.2,
           "margin": -0.8,
           "home_fav": true,
           "locked": false,
@@ -7699,8 +7944,8 @@
           "away": "Los Angeles Angels",
           "date": "2026-04-28",
           "datetime": "2026-04-28T23:40Z",
-          "home_prob": 52.9,
-          "away_prob": 47.1,
+          "home_prob": 52.8,
+          "away_prob": 47.2,
           "margin": -0.8,
           "home_fav": true,
           "locked": false,
@@ -7811,8 +8056,8 @@
           "away": "Los Angeles Angels",
           "date": "2026-04-29",
           "datetime": "2026-04-29T17:10Z",
-          "home_prob": 52.9,
-          "away_prob": 47.1,
+          "home_prob": 52.8,
+          "away_prob": 47.2,
           "margin": -0.8,
           "home_fav": true,
           "locked": false,
@@ -12109,7 +12354,7 @@
         },
         {
           "team": "Edmonton Oilers",
-          "rating": 1527.0,
+          "rating": 1524.2,
           "rank": 8
         },
         {
@@ -12119,7 +12364,7 @@
         },
         {
           "team": "Los Angeles Kings",
-          "rating": 1513.4,
+          "rating": 1513.5,
           "rank": 10
         },
         {
@@ -12139,7 +12384,7 @@
         },
         {
           "team": "Minnesota Wild",
-          "rating": 1509.1,
+          "rating": 1509.0,
           "rank": 14
         },
         {
@@ -12154,7 +12399,7 @@
         },
         {
           "team": "Ottawa Senators",
-          "rating": 1503.3,
+          "rating": 1503.2,
           "rank": 17
         },
         {
@@ -12219,7 +12464,7 @@
         },
         {
           "team": "Anaheim Ducks",
-          "rating": 1461.7,
+          "rating": 1464.6,
           "rank": 30
         },
         {
@@ -12305,8 +12550,8 @@
           "away": "Anaheim Ducks",
           "date": "2026-04-29",
           "datetime": "2026-04-29T02:00Z",
-          "home_prob": 67.3,
-          "away_prob": 32.7,
+          "home_prob": 66.6,
+          "away_prob": 33.4,
           "margin": 0.5,
           "home_fav": true,
           "locked": false,
@@ -12361,10 +12606,10 @@
           "away": "Edmonton Oilers",
           "date": "2026-04-30",
           "datetime": "2026-04-30T04:00Z",
-          "home_prob": 49.2,
-          "away_prob": 50.8,
+          "home_prob": 50.0,
+          "away_prob": 50.0,
           "margin": 0.5,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "venue": "Honda Center",
           "game_id": "nhl_401869776",
@@ -12431,8 +12676,8 @@
           "away": "Anaheim Ducks",
           "date": "2026-05-02",
           "datetime": "2026-05-02T04:00Z",
-          "home_prob": 67.3,
-          "away_prob": 32.7,
+          "home_prob": 66.6,
+          "away_prob": 33.4,
           "margin": 0.5,
           "home_fav": true,
           "locked": false,
@@ -12586,7 +12831,7 @@
           "home": "Edmonton Oilers",
           "away": "Colorado Avalanche",
           "date": "2026-04-14",
-          "home_prob": 52.5,
+          "home_prob": 52.1,
           "winner": "Colorado Avalanche",
           "home_score": 1,
           "away_score": 2,
@@ -12656,7 +12901,7 @@
           "home": "Minnesota Wild",
           "away": "Anaheim Ducks",
           "date": "2026-04-15",
-          "home_prob": 65.0,
+          "home_prob": 64.6,
           "winner": "Minnesota Wild",
           "home_score": 3,
           "away_score": 2,
@@ -12776,7 +13021,7 @@
           "home": "Nashville Predators",
           "away": "Anaheim Ducks",
           "date": "2026-04-17",
-          "home_prob": 62.5,
+          "home_prob": 62.1,
           "winner": "Anaheim Ducks",
           "home_score": 4,
           "away_score": 5,
@@ -12806,7 +13051,7 @@
           "home": "Edmonton Oilers",
           "away": "Vancouver Canucks",
           "date": "2026-04-17",
-          "home_prob": 61.1,
+          "home_prob": 60.7,
           "winner": "Edmonton Oilers",
           "home_score": 6,
           "away_score": 1,
@@ -12926,7 +13171,7 @@
           "home": "Edmonton Oilers",
           "away": "Anaheim Ducks",
           "date": "2026-04-21",
-          "home_prob": 67.3,
+          "home_prob": 66.6,
           "winner": "Edmonton Oilers",
           "home_score": 4,
           "away_score": 3,
@@ -12996,7 +13241,7 @@
           "home": "Edmonton Oilers",
           "away": "Anaheim Ducks",
           "date": "2026-04-23",
-          "home_prob": 67.3,
+          "home_prob": 66.6,
           "winner": "Anaheim Ducks",
           "home_score": 4,
           "away_score": 6,
@@ -13056,7 +13301,7 @@
           "home": "Anaheim Ducks",
           "away": "Edmonton Oilers",
           "date": "2026-04-25",
-          "home_prob": 49.2,
+          "home_prob": 50.0,
           "winner": "Anaheim Ducks",
           "home_score": 7,
           "away_score": 4,
@@ -13119,6 +13364,16 @@
           "home_prob": 52.4,
           "winner": "Tampa Bay Lightning",
           "home_score": 2,
+          "away_score": 3,
+          "draw_prob": null
+        },
+        {
+          "home": "Anaheim Ducks",
+          "away": "Edmonton Oilers",
+          "date": "2026-04-27",
+          "home_prob": 50.0,
+          "winner": "Anaheim Ducks",
+          "home_score": 4,
           "away_score": 3,
           "draw_prob": null
         }

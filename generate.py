@@ -84,6 +84,9 @@ def fetch_recent(sport: str) -> list[dict]:
     elif source == 'football_data':
         from ingest.football_data import fetch_recent_fd
         return fetch_recent_fd(sport, days=RECENT_DAYS)
+    elif source == 'champion_data':
+        from ingest.champion_data import fetch_recent as cd_recent
+        return cd_recent(sport, days=RECENT_DAYS)
     return []
 
 
@@ -121,6 +124,11 @@ def fetch_spread_history(sport: str) -> list[dict]:
         elif source == 'football_data':
             from ingest.football_data import fetch_recent_fd
             for g in fetch_recent_fd(sport, days=SPREAD_DAYS):
+                gid = g.get('id') or f'{g["date"]}_{g["home_team"]}_{g["away_team"]}'
+                games[gid] = g
+        elif source == 'champion_data':
+            from ingest.champion_data import fetch_recent as cd_recent
+            for g in cd_recent(sport, days=SPREAD_DAYS):
                 gid = g.get('id') or f'{g["date"]}_{g["home_team"]}_{g["away_team"]}'
                 games[gid] = g
     except Exception:
@@ -168,6 +176,9 @@ def fetch_upcoming(sport: str) -> list[dict]:
     elif source == 'football_data':
         from ingest.football_data import fetch_upcoming as fd_upcoming
         return fd_upcoming(sport, days=UPCOMING_DAYS)
+    elif source == 'champion_data':
+        from ingest.champion_data import fetch_upcoming as cd_upcoming
+        return cd_upcoming(sport, days=UPCOMING_DAYS)
     return []
 
 
