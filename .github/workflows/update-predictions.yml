@@ -6,11 +6,17 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: update-predictions
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
     steps:
       - name: Checkout repo
@@ -34,11 +40,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add data/predictions.json data/player_ratings.json data/predictions_sports.json data/ratings/
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: update predictions [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update predictions [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push origin HEAD:main
