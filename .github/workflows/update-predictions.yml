@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5.6.0
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -34,11 +34,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add data/predictions.json data/player_ratings.json data/predictions_sports.json data/ratings/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore: update predictions [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git pull --rebase origin main
             git push
           fi
