@@ -2,8 +2,8 @@ name: Update Predictions
 
 on:
   schedule:
-    # Every hour
-    - cron: '0 * * * *'
+    # Every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 concurrency:
