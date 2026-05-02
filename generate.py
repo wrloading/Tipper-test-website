@@ -22,6 +22,8 @@ import os
 from datetime import date
 from pathlib import Path
 
+import requests
+
 from engine.elo import EloEngine
 from engine.config import SPORT_CONFIGS, INGEST_SOURCE
 from engine.output import build_sport_output, build_full_output, write_output
@@ -40,6 +42,11 @@ OUTPUT_PATH   = Path('output/predictions_sports.json')
 RECENT_DAYS   = 14
 SPREAD_DAYS   = 90   # Longer lookback to warm up SpreadEngine rolling averages
 UPCOMING_DAYS = 14
+
+# Must match INJURY_SEASON in TipperApp/lib/injuries.ts
+INJURY_SEASONS: dict[str, int] = {
+    'nba': 2026, 'wnba': 2025, 'nbl': 2026, 'nfl': 2025, 'afl': 2026,
+}
 
 
 def load_engine(sport: str) -> EloEngine:
@@ -191,6 +198,60 @@ def _winner_from_scores(home_score: int, away_score: int,
     return None  # Draw
 
 
+def fetch_injury_adjustments(sport: str) -> dict[str, float]:
+    """
+    Query Supabase team_injuries for current-season midseason injuries and
+    return a team_name → TELO delta map (negative values = players out).
+
+    Only includes rows where prior_season_fallback=false — season-long absentees
+    are already priced into the team's ELO and must not be double-subtracted.
+
+    Requires SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY env vars.
+    Returns {} silently on any failure so predictions degrade gracefully.
+    """
+    url = os.environ.get('SUPABASE_URL', '').rstrip('/')
+    key = os.environ.get('SUPABASE_SERVICE_ROLE_KEY', '')
+    if not url or not key:
+        return {}
+
+    season = INJURY_SEASONS.get(sport)
+    if season is None:
+        return {}
+
+    try:
+        resp = requests.get(
+            f'{url}/rest/v1/rpc/get_league_injuries',
+            json={'p_league': sport, 'p_season': season},
+            headers={
+                'apikey':        key,
+                'Authorization': f'Bearer {key}',
+                'Content-Type':  'application/json',
+            },
+            timeout=10,
+        )
+        if not resp.ok:
+            logger.warning(f'[{sport}] injury fetch failed {resp.status_code}: {resp.text[:200]}')
+            return {}
+
+        adjustments: dict[str, float] = {}
+        for row in resp.json():
+            if row.get('prior_season_fallback'):
+                continue
+            impact = row.get('telo_impact')
+            if impact is None:
+                continue
+            team = row['team_name']
+            adjustments[team] = round(adjustments.get(team, 0.0) + impact, 2)
+
+        if adjustments:
+            logger.info(f'[{sport}] Injury adjustments: {len(adjustments)} team(s) affected')
+        return adjustments
+
+    except Exception as exc:
+        logger.warning(f'[{sport}] injury fetch error: {exc}')
+        return {}
+
+
 def generate_sport(sport: str) -> dict:
     """
     Full generate cycle for one sport.
@@ -245,8 +306,11 @@ def generate_sport(sport: str) -> dict:
     # ── Step 4: Build SpreadEngine from historical + recent data ─────────────
     spread_engine = build_spread_engine(sport, recent_games)
 
-    # ── Step 5: Build output section ──────────────────────────────────────────
-    section = build_sport_output(engine, upcoming_games, recent_games, spread_engine)
+    # ── Step 5: Fetch injury adjustments ─────────────────────────────────────
+    injury_adjustments = fetch_injury_adjustments(sport)
+
+    # ── Step 6: Build output section ──────────────────────────────────────────
+    section = build_sport_output(engine, upcoming_games, recent_games, spread_engine, injury_adjustments)
 
     upcoming_count = len(section['upcoming'])
     recent_count   = len(section['recent'])

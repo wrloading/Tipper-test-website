@@ -185,13 +185,19 @@ class EloEngine:
         home_team: str,
         away_team: str,
         neutral: bool = False,
+        home_adj: float = 0.0,
+        away_adj: float = 0.0,
     ) -> dict:
         """
         Generate a win-probability prediction for an upcoming game.
         Returns home_prob, away_prob, draw_prob (soccer only), and expected margin.
+
+        home_adj / away_adj: TELO point adjustments for player availability
+        (negative = key players out). Applied to effective rating only — stored
+        ratings are never modified.
         """
-        r_home = self.rating(home_team)
-        r_away = self.rating(away_team)
+        r_home = self.rating(home_team) + home_adj
+        r_away = self.rating(away_team) + away_adj
         home_adv = 0.0 if neutral else self.home_adv
 
         home_prob = expected_score(r_home, r_away, home_adv)

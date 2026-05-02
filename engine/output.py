@@ -70,21 +70,30 @@ def build_sport_output(
     upcoming_games: list[dict],
     recent_games: list[dict],
     spread_engine: Optional['SpreadEngine'] = None,
+    injury_adjustments: Optional[dict] = None,
 ) -> dict:
     """
     Build the output section for a single sport.
 
-    upcoming_games: list from fetch_upcoming() — not yet started
-    recent_games:   list from fetch_recent()   — completed in last 14 days
+    upcoming_games:     list from fetch_upcoming() — not yet started
+    recent_games:       list from fetch_recent()   — completed in last 14 days
+    injury_adjustments: team_name → TELO delta (negative = players out).
+                        Applied to upcoming predictions only; recent results
+                        use raw ELO for settlement consistency.
     """
+    adj = injury_adjustments or {}
 
     # ── Upcoming predictions ──────────────────────────────────────────────────
     upcoming_out = []
     for game in upcoming_games:
+        home_adj = adj.get(game['home_team'], 0.0)
+        away_adj = adj.get(game['away_team'], 0.0)
         pred = engine.predict(
             game['home_team'],
             game['away_team'],
             neutral=game.get('neutral', False),
+            home_adj=home_adj,
+            away_adj=away_adj,
         )
         neutral = game.get('neutral', False)
 
