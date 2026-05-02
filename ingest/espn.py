@@ -28,6 +28,19 @@ logger = logging.getLogger(__name__)
 
 ESPN_BASE = 'https://site.api.espn.com/apis/site/v2/sports'
 
+# Only accept these 30 franchises when ingesting NBA games.
+# Prevents international exhibition / NBA-tour opponents from contaminating ratings.
+NBA_TEAMS: frozenset[str] = frozenset({
+    'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets',
+    'Chicago Bulls', 'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets',
+    'Detroit Pistons', 'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers',
+    'LA Clippers', 'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat',
+    'Milwaukee Bucks', 'Minnesota Timberwolves', 'New Orleans Pelicans',
+    'New York Knicks', 'Oklahoma City Thunder', 'Orlando Magic', 'Philadelphia 76ers',
+    'Phoenix Suns', 'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs',
+    'Toronto Raptors', 'Utah Jazz', 'Washington Wizards',
+})
+
 # Paths for each sport — mirrors the app's SPORTS config
 ESPN_PATHS: dict[str, str] = {
     'afl':        'australian-football/afl',
@@ -116,6 +129,11 @@ def _parse_event(event: dict, sport: str) -> Optional[dict]:
     away_name = normalise(away.get('team', {}).get('displayName', ''), sport)
 
     if not home_name or not away_name:
+        return None
+
+    # Reject games where either team is not an NBA franchise (international tours,
+    # exhibition opponents, etc.)
+    if sport == 'nba' and (home_name not in NBA_TEAMS or away_name not in NBA_TEAMS):
         return None
 
     # Extract date (YYYY-MM-DD)

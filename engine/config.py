@@ -242,7 +242,7 @@ SPORT_CONFIGS: dict[str, dict] = {
 
 SEED_SEASONS: dict[str, list[int]] = {
     'afl':        [2020, 2021, 2022, 2023, 2024],
-    'nba':        [2020, 2021, 2022, 2023, 2024],
+    'nba':        [2020, 2021, 2022, 2023, 2024, 2026],
     'wnba':       [2020, 2021, 2022, 2023, 2024],
     'nbl':        [2021, 2022, 2023, 2024, 2025],  # NBL seasons span calendar years
     'supernetball': [2022, 2023, 2024, 2025, 2026],

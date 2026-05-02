@@ -207,7 +207,7 @@ def generate_sport(sport: str) -> dict:
     new_game_count = 0
 
     for game in recent_games:
-        gid = game.get('id', f'{game["date"]}_{game["home_team"]}_{game["away_team"]}')
+        gid = game.get('id') or f'{game["date"]}_{game["home_team"]}_{game["away_team"]}'
         if gid in processed:
             continue
 

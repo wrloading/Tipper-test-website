@@ -43,6 +43,8 @@ def seed_sport(sport: str) -> None:
 
     logger.info(f'[{sport}] Seeding {len(seasons)} seasons via {source}: {seasons}')
 
+    all_game_ids: list[str] = []
+
     for season in sorted(seasons):
         try:
             if source == 'espn':
@@ -62,6 +64,7 @@ def seed_sport(sport: str) -> None:
             continue
 
         for game in games:
+            gid = game.get('id') or f'{game["date"]}_{game["home_team"]}_{game["away_team"]}'
             engine.process_game(
                 home_team=game['home_team'],
                 away_team=game['away_team'],
@@ -71,6 +74,7 @@ def seed_sport(sport: str) -> None:
                 season=int(game['date'][:4]),
                 neutral=game.get('neutral', False),
             )
+            all_game_ids.append(gid)
 
         logger.info(f'[{sport}] Season {season}: {len(games)} games processed, '
                     f'{len(engine.ratings)} teams rated')
@@ -79,6 +83,12 @@ def seed_sport(sport: str) -> None:
     ratings_file = str(RATINGS_DIR / f'{sport}.json')
     engine.save(ratings_file)
     logger.info(f'[{sport}] Saved ratings → {ratings_file}')
+
+    # Write processed IDs so generate.py won't double-process seeded games
+    processed_file = RATINGS_DIR / f'{sport}_processed.json'
+    with open(processed_file, 'w') as f:
+        json.dump(sorted(set(all_game_ids)), f)
+    logger.info(f'[{sport}] Wrote {len(set(all_game_ids))} processed IDs → {processed_file}')
 
     top5 = engine.ratings_table()[:5]
     for r in top5:
