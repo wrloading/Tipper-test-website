@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T16:11:17.799090+00:00",
+    "updated": "2026-05-03T17:10:16.268425+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2639,20 +2639,6 @@
       ],
       "upcoming": [
         {
-          "home": "Manchester United",
-          "away": "Liverpool",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T14:30Z",
-          "home_prob": 35.0,
-          "away_prob": 47.2,
-          "margin": 0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Old Trafford",
-          "game_id": "epl_740943",
-          "draw_prob": 17.8
-        },
-        {
           "home": "Aston Villa",
           "away": "Tottenham Hotspur",
           "date": "2026-05-03",
@@ -3245,20 +3231,6 @@
       ],
       "upcoming": [
         {
-          "home": "Getafe",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T14:15Z",
-          "home_prob": 43.9,
-          "away_prob": 36.2,
-          "margin": 0.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Estadio Coliseum",
-          "game_id": "laliga_748474",
-          "draw_prob": 19.9
-        },
-        {
           "home": "Real Betis",
           "away": "Real Oviedo",
           "date": "2026-05-03",
@@ -3267,7 +3239,7 @@
           "away_prob": 25.8,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio La Cartuja",
           "game_id": "laliga_748479",
           "draw_prob": 14.2
@@ -8667,7 +8639,7 @@
           "away_prob": 49.1,
           "margin": -3.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815196",
           "draw_prob": null
