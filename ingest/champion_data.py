@@ -55,7 +55,7 @@ def _fetch_fixture(comp_id: int) -> list[dict]:
     for attempt in range(MAX_RETRIES):
         try:
             resp = requests.get(url, timeout=15,
-                                headers={'User-Agent': 'TipperPredictions/1.0'})
+                                headers={'User-Agent': 'Tipper/1.0'})
             if resp.status_code == 200:
                 return resp.json().get('fixture', {}).get('match', [])
             logger.warning(f'Champion Data returned {resp.status_code} for comp {comp_id}')

@@ -82,7 +82,7 @@ def _fetch_scoreboard(path: str, date_range: str, limit: int = 200) -> list[dict
     for attempt in range(MAX_RETRIES):
         try:
             resp = requests.get(url, params=params, timeout=15,
-                                headers={'User-Agent': 'TipperPredictions/1.0'})
+                                headers={'User-Agent': 'Tipper/1.0'})
             if resp.status_code == 200:
                 return resp.json().get('events', [])
             if resp.status_code == 429:
@@ -272,7 +272,7 @@ def fetch_upcoming(sport: str, days: int = 14) -> list[dict]:
 
     try:
         resp = requests.get(url, params=params, timeout=15,
-                            headers={'User-Agent': 'TipperPredictions/1.0'})
+                            headers={'User-Agent': 'Tipper/1.0'})
         if not resp.ok:
             return []
         events = resp.json().get('events', [])

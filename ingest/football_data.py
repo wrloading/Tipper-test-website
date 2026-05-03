@@ -62,7 +62,7 @@ def _fetch_fd_csv(league: str, season: int) -> list[dict]:
     url        = f'{FD_BASE}/{season_str}/{code}.csv'
 
     try:
-        resp = requests.get(url, timeout=20, headers={'User-Agent': 'TipperPredictions/1.0'})
+        resp = requests.get(url, timeout=20, headers={'User-Agent': 'Tipper/1.0'})
         if resp.status_code == 404:
             logger.warning(f'football-data: no data for {league} {season} ({url})')
             return []
