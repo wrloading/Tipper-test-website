@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T18:05:41.179526+00:00",
+    "updated": "2026-05-03T19:21:00.874170+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1565,7 +1565,7 @@
           "away_prob": 39.3,
           "margin": 3.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gateway Center",
           "game_id": "wnba_401867795",
           "draw_prob": null
@@ -3231,20 +3231,6 @@
       ],
       "upcoming": [
         {
-          "home": "Real Betis",
-          "away": "Real Oviedo",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T16:30Z",
-          "home_prob": 60.0,
-          "away_prob": 25.8,
-          "margin": 0.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Estadio La Cartuja",
-          "game_id": "laliga_748479",
-          "draw_prob": 14.2
-        },
-        {
           "home": "Espanyol",
           "away": "Real Madrid",
           "date": "2026-05-03",
@@ -3253,7 +3239,7 @@
           "away_prob": 68.9,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "RCDE Stadium",
           "game_id": "laliga_748475",
           "draw_prob": 11.4
@@ -4588,7 +4574,7 @@
           "away_prob": 26.3,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "San Siro",
           "game_id": "seriea_737133",
           "draw_prob": 14.9
@@ -5208,7 +5194,7 @@
           "away_prob": 23.2,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Groupama Stadium",
           "game_id": "ligue1_746692",
           "draw_prob": 12.5
@@ -5820,7 +5806,7 @@
           "away_prob": 22.8,
           "margin": 26.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mls_761598",
           "draw_prob": 10.9
@@ -8667,7 +8653,7 @@
           "away_prob": 51.0,
           "margin": 0.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815195",
           "draw_prob": null
@@ -8681,7 +8667,7 @@
           "away_prob": 40.4,
           "margin": 1.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815194",
           "draw_prob": null
@@ -8695,7 +8681,7 @@
           "away_prob": 55.5,
           "margin": -0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Coors Field",
           "game_id": "mlb_401815197",
           "draw_prob": null
