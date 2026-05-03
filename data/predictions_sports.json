@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T17:10:16.268425+00:00",
+    "updated": "2026-05-03T18:05:41.179526+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2647,7 +2647,7 @@
           "away_prob": 26.2,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Villa Park",
           "game_id": "epl_740937",
           "draw_prob": 13.4
@@ -4031,20 +4031,6 @@
       ],
       "upcoming": [
         {
-          "home": "Borussia M\u00f6nchengladbach",
-          "away": "Borussia Dortmund",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T15:30Z",
-          "home_prob": 35.7,
-          "away_prob": 46.9,
-          "margin": -0.2,
-          "home_fav": false,
-          "locked": true,
-          "venue": "BORUSSIA-PARK",
-          "game_id": "bundesliga_746999",
-          "draw_prob": 17.4
-        },
-        {
           "home": "SC Freiburg",
           "away": "VfL Wolfsburg",
           "date": "2026-05-03",
@@ -4053,7 +4039,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Europa-Park Stadion",
           "game_id": "bundesliga_747003",
           "draw_prob": 15.6
@@ -4593,20 +4579,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Juventus",
-          "away": "Hellas Verona",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T16:00Z",
-          "home_prob": 72.9,
-          "away_prob": 16.9,
-          "margin": 0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Allianz Stadium",
-          "game_id": "seriea_737127",
-          "draw_prob": 10.1
-        },
         {
           "home": "Internazionale",
           "away": "Parma",
@@ -5227,48 +5199,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "AJ Auxerre",
-          "away": "Angers",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T15:15Z",
-          "home_prob": 68.0,
-          "away_prob": 20.6,
-          "margin": 1.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stade de l'Abb\u00e9-Deschamps",
-          "game_id": "ligue1_746699",
-          "draw_prob": 11.4
-        },
-        {
-          "home": "Paris FC",
-          "away": "Brest",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T15:15Z",
-          "home_prob": 45.1,
-          "away_prob": 35.9,
-          "margin": -0.6,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stade Jean Bouin",
-          "game_id": "ligue1_746698",
-          "draw_prob": 19.0
-        },
-        {
-          "home": "Strasbourg",
-          "away": "Toulouse",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T15:15Z",
-          "home_prob": 51.1,
-          "away_prob": 32.1,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stade de la Meinau",
-          "game_id": "ligue1_746696",
-          "draw_prob": 16.8
-        },
         {
           "home": "Olympique Lyonnais",
           "away": "Stade Rennais",
@@ -8653,7 +8583,7 @@
           "away_prob": 43.7,
           "margin": 5.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815187",
           "draw_prob": null
@@ -8667,7 +8597,7 @@
           "away_prob": 47.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815188",
           "draw_prob": null
@@ -8681,7 +8611,7 @@
           "away_prob": 46.4,
           "margin": -3.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815189",
           "draw_prob": null
@@ -8695,7 +8625,7 @@
           "away_prob": 52.2,
           "margin": 1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815190",
           "draw_prob": null
@@ -8709,7 +8639,7 @@
           "away_prob": 50.0,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815191",
           "draw_prob": null
@@ -8723,7 +8653,7 @@
           "away_prob": 41.0,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815192",
           "draw_prob": null
