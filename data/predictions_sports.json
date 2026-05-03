@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T15:26:20.273564+00:00",
+    "updated": "2026-05-03T16:11:17.799090+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4059,20 +4059,6 @@
       ],
       "upcoming": [
         {
-          "home": "St. Pauli",
-          "away": "Mainz",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T13:30Z",
-          "home_prob": 55.3,
-          "away_prob": 30.1,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Millerntor-Stadion",
-          "game_id": "bundesliga_747002",
-          "draw_prob": 14.6
-        },
-        {
           "home": "Borussia M\u00f6nchengladbach",
           "away": "Borussia Dortmund",
           "date": "2026-05-03",
@@ -4081,7 +4067,7 @@
           "away_prob": 46.9,
           "margin": -0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "BORUSSIA-PARK",
           "game_id": "bundesliga_746999",
           "draw_prob": 17.4
@@ -4644,7 +4630,7 @@
           "away_prob": 16.9,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Allianz Stadium",
           "game_id": "seriea_737127",
           "draw_prob": 10.1
