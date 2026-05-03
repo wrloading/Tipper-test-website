@@ -49,6 +49,7 @@ from datetime import datetime, timezone, date, timedelta
 from typing import Optional, TYPE_CHECKING
 
 from engine.elo import EloEngine
+from engine.team_allowlist import filter_ratings
 
 if TYPE_CHECKING:
     from engine.spread import SpreadEngine
@@ -159,7 +160,7 @@ def build_sport_output(
         recent_out.append(entry)
 
     return {
-        'ratings':  engine.ratings_table(),
+        'ratings':  filter_ratings(engine.sport, engine.ratings_table()),
         'upcoming': upcoming_out,
         'recent':   recent_out,
     }

@@ -36,7 +36,25 @@ jobs:
         run: python telo.py --year 2026
 
       - name: Run TELO predictions engine (predictions_sports.json)
-        run: python generate.py
+        run: python generate.py --output data/predictions_sports.json
+
+      - name: Sanity check predictions_sports.json
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, time
+          p = 'data/predictions_sports.json'
+          if not os.path.exists(p):
+              sys.exit(f'FAIL: {p} does not exist')
+          age = time.time() - os.path.getmtime(p)
+          if age > 30 * 60:
+              sys.exit(f'FAIL: {p} mtime is {int(age)}s old, expected <= {30*60}s — generate.py likely did not write it')
+          with open(p) as f:
+              d = json.load(f)
+          n = len(d.get('sports', {}))
+          if n < 15:
+              sys.exit(f'FAIL: only {n} sports in output, expected >= 15')
+          print(f'OK: {n} sports, file age {int(age)}s')
+          PY
 
       - name: Commit updated predictions
         run: |

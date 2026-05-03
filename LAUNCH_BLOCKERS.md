@@ -1,0 +1,9 @@
+# Launch Blockers
+
+Things that need to be resolved before public launch but aren't blocking the daily deploy.
+
+- **NRL ratings empty.** `data/ratings/nrl.json` has zero teams — the rating file has never been seeded. NRL is in `engine/config.SPORT_CONFIGS` and the daily generator runs for it, but its section in `data/predictions_sports.json` will have empty `ratings`/`upcoming`/`recent` arrays until seed data lands. Likely fix: run a one-shot seed script that ingests historical NRL games via ESPN, similar to how NBA/AFL/etc. were originally seeded. The team-name allowlist (`engine/team_allowlist.py`) intentionally has no NRL entry — add one when seeding so the output is filtered consistently with the other major leagues.
+
+- **AFL team-name divergence between two pipelines.** `data/predictions.json` (from `telo.py` + Squiggle) uses canonical names like "Greater Western Sydney" and "Gold Coast". `data/predictions_sports.json` (from `generate.py` + ESPN ingest) uses "GWS GIANTS" and "Gold Coast SUNS". This means `snapshot-telo` writes `team_telo_history` rows under the ESPN names, while AFL team profiles in the app navigate by the Squiggle names — so the historical chart query returns empty for those two teams. The team-profile screen has an `AFL_ESPN_TEAM_MAP` reverse-lookup for `team_injuries` (different ESPN→Squiggle mapping there) but nothing for `team_telo_history`. Fix path: normalise AFL names in `ingest/aliases.py` (or wherever ESPN-ingest hits the engine for AFL) to the Squiggle canonical set, then re-seed AFL to migrate the rating dict.
+
+- **Golden State Valkyries (WNBA) seeded at neutral 1500.** Bootstrapped into `data/ratings/wnba.json` with mean rating because they were missing entirely. Engine will update naturally once they play their first 2026 game. Worth verifying after the WNBA season opener that the rating moves sensibly; if the team gets any 2025 data via ESPN, consider a proper backfill.
