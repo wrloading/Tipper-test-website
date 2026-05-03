@@ -1252,6 +1252,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
 
     wins_map    = {s["name"]: int(s.get("wins",       0))   for s in standings}
     losses_map  = {s["name"]: int(s.get("losses",     0))   for s in standings}
+    draws_map   = {s["name"]: int(s.get("draws",      0))   for s in standings}
     rank_map    = {s["name"]: int(s.get("rank",        0))   for s in standings}
     pct_map     = {s["name"]: round(float(s.get("percentage", 0.0)), 1) for s in standings}
     for_map     = {s["name"]: int(s.get("for",         0))   for s in standings}
@@ -1510,6 +1511,7 @@ def build_predictions(year: int, dry_run: bool = False) -> dict:
         "telo":           round(ratings.get(team, INITIAL_TELO)),
         "wins":           wins_map.get(team, 0),
         "losses":         losses_map.get(team, 0),
+        "draws":          draws_map.get(team, 0),
         "ladder_rank":    rank_map.get(team, 0),
         "percentage":     pct_map.get(team, 0.0),
         "points_for":     for_map.get(team, 0),
