@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T08:29:05.417569+00:00",
+    "updated": "2026-05-03T09:52:45.606780+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Sydney",
-          "away": "Melbourne",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T05:15Z",
-          "home_prob": 85.1,
-          "away_prob": 14.9,
-          "margin": 37.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "SCG",
-          "game_id": "afl_1133553",
-          "draw_prob": null
-        },
-        {
           "home": "Gold Coast SUNS",
           "away": "GWS GIANTS",
           "date": "2026-05-03",
@@ -122,7 +108,7 @@
           "away_prob": 59.9,
           "margin": 57.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "People First Stadium",
           "game_id": "afl_1133554",
           "draw_prob": null
