@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T14:31:16.870335+00:00",
+    "updated": "2026-05-03T15:26:20.273564+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2639,20 +2639,6 @@
       ],
       "upcoming": [
         {
-          "home": "AFC Bournemouth",
-          "away": "Crystal Palace",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T13:00Z",
-          "home_prob": 48.3,
-          "away_prob": 34.3,
-          "margin": 0.0,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Vitality Stadium",
-          "game_id": "epl_740938",
-          "draw_prob": 17.4
-        },
-        {
           "home": "Manchester United",
           "away": "Liverpool",
           "date": "2026-05-03",
@@ -4650,20 +4636,6 @@
       ],
       "upcoming": [
         {
-          "home": "Sassuolo",
-          "away": "AC Milan",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T13:00Z",
-          "home_prob": 40.1,
-          "away_prob": 37.6,
-          "margin": -0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Mapei Stadium",
-          "game_id": "seriea_737124",
-          "draw_prob": 22.3
-        },
-        {
           "home": "Juventus",
           "away": "Hellas Verona",
           "date": "2026-05-03",
@@ -5298,20 +5270,6 @@
       ],
       "upcoming": [
         {
-          "home": "Lille",
-          "away": "Le Havre AC",
-          "date": "2026-05-03",
-          "datetime": "2026-05-03T13:00Z",
-          "home_prob": 69.0,
-          "away_prob": 19.9,
-          "margin": 0.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Decathlon Arena - Stade Pierre-Mauroy",
-          "game_id": "ligue1_746691",
-          "draw_prob": 11.1
-        },
-        {
           "home": "AJ Auxerre",
           "away": "Angers",
           "date": "2026-05-03",
@@ -5320,7 +5278,7 @@
           "away_prob": 20.6,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stade de l'Abb\u00e9-Deschamps",
           "game_id": "ligue1_746699",
           "draw_prob": 11.4
@@ -5334,7 +5292,7 @@
           "away_prob": 35.9,
           "margin": -0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stade Jean Bouin",
           "game_id": "ligue1_746698",
           "draw_prob": 19.0
@@ -5348,7 +5306,7 @@
           "away_prob": 32.1,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stade de la Meinau",
           "game_id": "ligue1_746696",
           "draw_prob": 16.8
