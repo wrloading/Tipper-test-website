@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T15:15:26.048404+10:00",
+    "updated": "2026-05-03T16:43:11.922883+10:00",
     "year": 2026,
     "current_round": 8,
     "model": "TELO v2.0",
@@ -119881,30 +119881,33 @@
       "telo": 1658,
       "wins": 6,
       "losses": 1,
+      "draws": 1,
       "ladder_rank": 2,
       "percentage": 121.2,
       "points_for": 829,
       "points_against": 684,
-      "finals_pct": 99.4,
-      "premiers_pct": 24.2
+      "finals_pct": 99.5,
+      "premiers_pct": 24.5
     },
     {
       "team": "Fremantle",
       "telo": 1655,
       "wins": 7,
       "losses": 1,
+      "draws": 0,
       "ladder_rank": 1,
       "percentage": 133.0,
       "points_for": 758,
       "points_against": 570,
       "finals_pct": 99.8,
-      "premiers_pct": 24.7
+      "premiers_pct": 24.6
     },
     {
       "team": "Brisbane Lions",
       "telo": 1632,
       "wins": 5,
       "losses": 3,
+      "draws": 0,
       "ladder_rank": 4,
       "percentage": 126.0,
       "points_for": 862,
@@ -119917,11 +119920,12 @@
       "telo": 1627,
       "wins": 6,
       "losses": 1,
+      "draws": 0,
       "ladder_rank": 3,
       "percentage": 178.1,
       "points_for": 814,
       "points_against": 457,
-      "finals_pct": 99.2,
+      "finals_pct": 99.1,
       "premiers_pct": 17.8
     },
     {
@@ -119929,35 +119933,38 @@
       "telo": 1603,
       "wins": 5,
       "losses": 3,
+      "draws": 0,
       "ladder_rank": 5,
       "percentage": 114.6,
       "points_for": 791,
       "points_against": 690,
       "finals_pct": 86.0,
-      "premiers_pct": 7.8
+      "premiers_pct": 7.6
     },
     {
       "team": "Collingwood",
       "telo": 1569,
       "wins": 4,
       "losses": 3,
+      "draws": 1,
       "ladder_rank": 7,
       "percentage": 108.6,
       "points_for": 666,
       "points_against": 613,
-      "finals_pct": 67.7,
-      "premiers_pct": 3.2
+      "finals_pct": 67.8,
+      "premiers_pct": 3.1
     },
     {
       "team": "Adelaide",
       "telo": 1555,
       "wins": 4,
       "losses": 4,
+      "draws": 0,
       "ladder_rank": 11,
       "percentage": 96.6,
       "points_for": 685,
       "points_against": 709,
-      "finals_pct": 60.5,
+      "finals_pct": 60.9,
       "premiers_pct": 2.3
     },
     {
@@ -119965,23 +119972,25 @@
       "telo": 1546,
       "wins": 4,
       "losses": 4,
+      "draws": 0,
       "ladder_rank": 12,
       "percentage": 91.5,
       "points_for": 720,
       "points_against": 787,
-      "finals_pct": 53.2,
-      "premiers_pct": 1.8
+      "finals_pct": 53.7,
+      "premiers_pct": 1.7
     },
     {
       "team": "Gold Coast",
       "telo": 1543,
       "wins": 4,
       "losses": 3,
+      "draws": 0,
       "ladder_rank": 9,
       "percentage": 114.4,
       "points_for": 723,
       "points_against": 632,
-      "finals_pct": 42.2,
+      "finals_pct": 42.0,
       "premiers_pct": 1.4
     },
     {
@@ -119989,23 +119998,25 @@
       "telo": 1529,
       "wins": 3,
       "losses": 4,
+      "draws": 0,
       "ladder_rank": 14,
       "percentage": 89.8,
       "points_for": 605,
       "points_against": 674,
-      "finals_pct": 30.9,
-      "premiers_pct": 0.7
+      "finals_pct": 30.4,
+      "premiers_pct": 0.8
     },
     {
       "team": "Melbourne",
       "telo": 1493,
       "wins": 5,
       "losses": 2,
+      "draws": 0,
       "ladder_rank": 6,
       "percentage": 102.8,
       "points_for": 697,
       "points_against": 678,
-      "finals_pct": 41.3,
+      "finals_pct": 41.6,
       "premiers_pct": 0.7
     },
     {
@@ -120013,11 +120024,12 @@
       "telo": 1484,
       "wins": 4,
       "losses": 4,
+      "draws": 0,
       "ladder_rank": 8,
       "percentage": 114.9,
       "points_for": 765,
       "points_against": 666,
-      "finals_pct": 19.0,
+      "finals_pct": 18.9,
       "premiers_pct": 0.2
     },
     {
@@ -120025,11 +120037,12 @@
       "telo": 1437,
       "wins": 3,
       "losses": 5,
+      "draws": 0,
       "ladder_rank": 13,
       "percentage": 110.9,
       "points_for": 703,
       "points_against": 634,
-      "finals_pct": 2.5,
+      "finals_pct": 2.3,
       "premiers_pct": 0.0
     },
     {
@@ -120037,11 +120050,12 @@
       "telo": 1399,
       "wins": 4,
       "losses": 4,
+      "draws": 0,
       "ladder_rank": 10,
       "percentage": 106.1,
       "points_for": 764,
       "points_against": 720,
-      "finals_pct": 2.8,
+      "finals_pct": 2.6,
       "premiers_pct": 0.0
     },
     {
@@ -120049,6 +120063,7 @@
       "telo": 1360,
       "wins": 1,
       "losses": 7,
+      "draws": 0,
       "ladder_rank": 16,
       "percentage": 78.1,
       "points_for": 634,
@@ -120061,6 +120076,7 @@
       "telo": 1326,
       "wins": 1,
       "losses": 7,
+      "draws": 0,
       "ladder_rank": 17,
       "percentage": 70.2,
       "points_for": 649,
@@ -120073,6 +120089,7 @@
       "telo": 1297,
       "wins": 1,
       "losses": 7,
+      "draws": 0,
       "ladder_rank": 18,
       "percentage": 60.0,
       "points_for": 523,
@@ -120085,6 +120102,7 @@
       "telo": 1287,
       "wins": 2,
       "losses": 6,
+      "draws": 0,
       "ladder_rank": 15,
       "percentage": 59.3,
       "points_for": 557,
