@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-03T14:13:13.616219+10:00",
+    "updated": "2026-05-03T15:15:26.048404+10:00",
     "year": 2026,
     "current_round": 8,
     "model": "TELO v2.0",
@@ -30289,7 +30289,7 @@
           "margin": 67.6,
           "home_prob": 82.6,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "W Edwards",
@@ -30362,18 +30362,18 @@
               "player_rank": 164
             },
             {
-              "name": "R Bice",
+              "name": "S Wicks",
               "pos": "HB",
-              "avg_di": 21.7,
+              "avg_di": 15.6,
               "avg_gl": 0.1,
-              "avg_tk": 1.9,
-              "avg_cl": 0.0,
-              "avg_pi": 95.3,
+              "avg_tk": 2.7,
+              "avg_cl": 0.7,
+              "avg_pi": 78.1,
               "games": 7,
-              "ptelo": 1526,
-              "ppos": "DEF",
-              "player_rating": 65,
-              "player_rank": 211
+              "ptelo": 1457,
+              "ppos": "FWD",
+              "player_rating": 59,
+              "player_rank": 384
             },
             {
               "name": "J Serong",
@@ -30544,18 +30544,18 @@
               "player_rank": 43
             },
             {
-              "name": "S Wicks",
+              "name": "R Bice",
               "pos": "INT",
-              "avg_di": 15.6,
+              "avg_di": 21.7,
               "avg_gl": 0.1,
-              "avg_tk": 2.7,
-              "avg_cl": 0.7,
-              "avg_pi": 78.1,
+              "avg_tk": 1.9,
+              "avg_cl": 0.0,
+              "avg_pi": 95.3,
               "games": 7,
-              "ptelo": 1457,
-              "ppos": "FWD",
-              "player_rating": 59,
-              "player_rank": 384
+              "ptelo": 1526,
+              "ppos": "DEF",
+              "player_rating": 65,
+              "player_rank": 211
             },
             {
               "name": "A Sheldrick",
@@ -30612,18 +30612,14 @@
           ],
           "away_named": [
             {
-              "name": "H Sharp",
+              "name": "L Pickett",
               "pos": "FF",
-              "avg_di": 12.9,
-              "avg_gl": 1.3,
-              "avg_tk": 2.9,
-              "avg_cl": 1.3,
-              "avg_pi": 88.3,
-              "games": 7,
-              "ptelo": 1498,
-              "ppos": "MID",
-              "player_rating": 63,
-              "player_rank": 280
+              "avg_di": 9.3,
+              "avg_gl": 0.4,
+              "avg_tk": 0.9,
+              "avg_cl": 1.4,
+              "avg_pi": 51.0,
+              "games": 7
             },
             {
               "name": "J Van Rooyen",
@@ -30696,32 +30692,32 @@
               "player_rank": 574
             },
             {
-              "name": "K Chandler",
+              "name": "H Sharp",
               "pos": "C",
-              "avg_di": 15.1,
+              "avg_di": 12.9,
               "avg_gl": 1.3,
-              "avg_tk": 3.4,
-              "avg_cl": 1.7,
-              "avg_pi": 96.2,
+              "avg_tk": 2.9,
+              "avg_cl": 1.3,
+              "avg_pi": 88.3,
               "games": 7,
-              "ptelo": 1530,
-              "ppos": "FWD",
-              "player_rating": 66,
-              "player_rank": 203
+              "ptelo": 1498,
+              "ppos": "MID",
+              "player_rating": 63,
+              "player_rank": 280
             },
             {
-              "name": "J Steele",
+              "name": "T Sparrow",
               "pos": "C",
-              "avg_di": 24.9,
-              "avg_gl": 0.3,
-              "avg_tk": 7.3,
-              "avg_cl": 6.1,
-              "avg_pi": 158.1,
+              "avg_di": 18.7,
+              "avg_gl": 0.6,
+              "avg_tk": 6.3,
+              "avg_cl": 4.1,
+              "avg_pi": 131.5,
               "games": 7,
-              "ptelo": 1777,
+              "ptelo": 1671,
               "ppos": "MID",
-              "player_rating": 87,
-              "player_rank": 14
+              "player_rating": 78,
+              "player_rank": 47
             },
             {
               "name": "E Langdon",
@@ -30738,42 +30734,46 @@
               "player_rank": 157
             },
             {
-              "name": "P Cross",
+              "name": "K Chandler",
               "pos": "HB",
-              "avg_di": 6.0,
-              "avg_gl": 1.0,
-              "avg_tk": 0.0,
-              "avg_cl": 0.0,
-              "avg_pi": 30.0,
-              "games": 1
-            },
-            {
-              "name": "T Sparrow",
-              "pos": "HB",
-              "avg_di": 18.7,
-              "avg_gl": 0.6,
-              "avg_tk": 6.3,
-              "avg_cl": 4.1,
-              "avg_pi": 131.5,
+              "avg_di": 15.1,
+              "avg_gl": 1.3,
+              "avg_tk": 3.4,
+              "avg_cl": 1.7,
+              "avg_pi": 96.2,
               "games": 7,
-              "ptelo": 1671,
-              "ppos": "MID",
-              "player_rating": 78,
-              "player_rank": 47
+              "ptelo": 1530,
+              "ppos": "FWD",
+              "player_rating": 66,
+              "player_rank": 203
             },
             {
-              "name": "C Jiath",
+              "name": "K Tholstrup",
               "pos": "HB",
-              "avg_di": 13.8,
+              "avg_di": 16.7,
+              "avg_gl": 0.1,
+              "avg_tk": 1.7,
+              "avg_cl": 0.7,
+              "avg_pi": 77.3,
+              "games": 7,
+              "ptelo": 1454,
+              "ppos": "FWD",
+              "player_rating": 59,
+              "player_rank": 389
+            },
+            {
+              "name": "H Petty",
+              "pos": "HB",
+              "avg_di": 8.2,
               "avg_gl": 0.0,
-              "avg_tk": 0.8,
-              "avg_cl": 0.2,
-              "avg_pi": 64.3,
-              "games": 4,
-              "ptelo": 1402,
-              "ppos": "MID",
-              "player_rating": 54,
-              "player_rank": 509
+              "avg_tk": 1.5,
+              "avg_cl": 0.3,
+              "avg_pi": 49.3,
+              "games": 6,
+              "ptelo": 1342,
+              "ppos": "FWD",
+              "player_rating": 49,
+              "player_rank": 603
             },
             {
               "name": "D Turner",
@@ -30860,32 +30860,28 @@
               "player_rank": 269
             },
             {
-              "name": "K Tholstrup",
+              "name": "C Jiath",
               "pos": "INT",
-              "avg_di": 16.7,
-              "avg_gl": 0.1,
-              "avg_tk": 1.7,
-              "avg_cl": 0.7,
-              "avg_pi": 77.3,
-              "games": 7,
-              "ptelo": 1454,
-              "ppos": "FWD",
-              "player_rating": 59,
-              "player_rank": 389
+              "avg_di": 13.8,
+              "avg_gl": 0.0,
+              "avg_tk": 0.8,
+              "avg_cl": 0.2,
+              "avg_pi": 64.3,
+              "games": 4,
+              "ptelo": 1402,
+              "ppos": "MID",
+              "player_rating": 54,
+              "player_rank": 509
             },
             {
-              "name": "B Laurie",
+              "name": "P Cross",
               "pos": "INT",
-              "avg_di": 13.0,
-              "avg_gl": 0.3,
-              "avg_tk": 1.7,
-              "avg_cl": 1.3,
-              "avg_pi": 65.9,
-              "games": 3,
-              "ptelo": 1408,
-              "ppos": "MID",
-              "player_rating": null,
-              "player_rank": null
+              "avg_di": 6.0,
+              "avg_gl": 1.0,
+              "avg_tk": 0.0,
+              "avg_cl": 0.0,
+              "avg_pi": 30.0,
+              "games": 1
             },
             {
               "name": "M Heath",
@@ -30902,28 +30898,32 @@
               "player_rank": 612
             },
             {
-              "name": "L Pickett",
+              "name": "J Steele",
               "pos": "INT",
-              "avg_di": 9.3,
-              "avg_gl": 0.4,
-              "avg_tk": 0.9,
-              "avg_cl": 1.4,
-              "avg_pi": 51.0,
-              "games": 7
+              "avg_di": 24.9,
+              "avg_gl": 0.3,
+              "avg_tk": 7.3,
+              "avg_cl": 6.1,
+              "avg_pi": 158.1,
+              "games": 7,
+              "ptelo": 1777,
+              "ppos": "MID",
+              "player_rating": 87,
+              "player_rank": 14
             },
             {
-              "name": "H Petty",
+              "name": "B Laurie",
               "pos": "INT",
-              "avg_di": 8.2,
-              "avg_gl": 0.0,
-              "avg_tk": 1.5,
-              "avg_cl": 0.3,
-              "avg_pi": 49.3,
-              "games": 6,
-              "ptelo": 1342,
-              "ppos": "FWD",
-              "player_rating": 49,
-              "player_rank": 603
+              "avg_di": 13.0,
+              "avg_gl": 0.3,
+              "avg_tk": 1.7,
+              "avg_cl": 1.3,
+              "avg_pi": 65.9,
+              "games": 3,
+              "ptelo": 1408,
+              "ppos": "MID",
+              "player_rating": null,
+              "player_rank": null
             }
           ],
           "home_outs": [
@@ -119885,8 +119885,8 @@
       "percentage": 121.2,
       "points_for": 829,
       "points_against": 684,
-      "finals_pct": 99.3,
-      "premiers_pct": 24.6
+      "finals_pct": 99.4,
+      "premiers_pct": 24.2
     },
     {
       "team": "Fremantle",
@@ -119898,7 +119898,7 @@
       "points_for": 758,
       "points_against": 570,
       "finals_pct": 99.8,
-      "premiers_pct": 24.5
+      "premiers_pct": 24.7
     },
     {
       "team": "Brisbane Lions",
@@ -119910,7 +119910,7 @@
       "points_for": 862,
       "points_against": 684,
       "finals_pct": 95.5,
-      "premiers_pct": 14.9
+      "premiers_pct": 15.2
     },
     {
       "team": "Sydney",
@@ -119922,7 +119922,7 @@
       "points_for": 814,
       "points_against": 457,
       "finals_pct": 99.2,
-      "premiers_pct": 17.9
+      "premiers_pct": 17.8
     },
     {
       "team": "Geelong",
@@ -119933,8 +119933,8 @@
       "percentage": 114.6,
       "points_for": 791,
       "points_against": 690,
-      "finals_pct": 86.2,
-      "premiers_pct": 7.7
+      "finals_pct": 86.0,
+      "premiers_pct": 7.8
     },
     {
       "team": "Collingwood",
@@ -119945,8 +119945,8 @@
       "percentage": 108.6,
       "points_for": 666,
       "points_against": 613,
-      "finals_pct": 67.5,
-      "premiers_pct": 3.1
+      "finals_pct": 67.7,
+      "premiers_pct": 3.2
     },
     {
       "team": "Adelaide",
@@ -119957,7 +119957,7 @@
       "percentage": 96.6,
       "points_for": 685,
       "points_against": 709,
-      "finals_pct": 60.8,
+      "finals_pct": 60.5,
       "premiers_pct": 2.3
     },
     {
@@ -119969,7 +119969,7 @@
       "percentage": 91.5,
       "points_for": 720,
       "points_against": 787,
-      "finals_pct": 53.3,
+      "finals_pct": 53.2,
       "premiers_pct": 1.8
     },
     {
@@ -119981,7 +119981,7 @@
       "percentage": 114.4,
       "points_for": 723,
       "points_against": 632,
-      "finals_pct": 41.9,
+      "finals_pct": 42.2,
       "premiers_pct": 1.4
     },
     {
@@ -119993,8 +119993,8 @@
       "percentage": 89.8,
       "points_for": 605,
       "points_against": 674,
-      "finals_pct": 30.6,
-      "premiers_pct": 0.8
+      "finals_pct": 30.9,
+      "premiers_pct": 0.7
     },
     {
       "team": "Melbourne",
@@ -120005,7 +120005,7 @@
       "percentage": 102.8,
       "points_for": 697,
       "points_against": 678,
-      "finals_pct": 41.8,
+      "finals_pct": 41.3,
       "premiers_pct": 0.7
     },
     {
@@ -120017,8 +120017,8 @@
       "percentage": 114.9,
       "points_for": 765,
       "points_against": 666,
-      "finals_pct": 18.9,
-      "premiers_pct": 0.3
+      "finals_pct": 19.0,
+      "premiers_pct": 0.2
     },
     {
       "team": "Port Adelaide",
@@ -120029,7 +120029,7 @@
       "percentage": 110.9,
       "points_for": 703,
       "points_against": 634,
-      "finals_pct": 2.4,
+      "finals_pct": 2.5,
       "premiers_pct": 0.0
     },
     {
@@ -120041,7 +120041,7 @@
       "percentage": 106.1,
       "points_for": 764,
       "points_against": 720,
-      "finals_pct": 2.6,
+      "finals_pct": 2.8,
       "premiers_pct": 0.0
     },
     {
