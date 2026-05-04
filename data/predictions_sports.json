@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T04:12:01.615146+00:00",
+    "updated": "2026-05-04T07:26:55.790053+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -514,16 +514,6 @@
           "draw_prob": null
         },
         {
-          "home": "Gold Coast SUNS",
-          "away": "GWS GIANTS",
-          "date": "2026-05-03",
-          "home_prob": 56.5,
-          "winner": "Gold Coast SUNS",
-          "home_score": 83,
-          "away_score": 63,
-          "draw_prob": null
-        },
-        {
           "home": "Sydney",
           "away": "Melbourne",
           "date": "2026-05-03",
@@ -531,6 +521,16 @@
           "winner": "Sydney",
           "home_score": 131,
           "away_score": 114,
+          "draw_prob": null
+        },
+        {
+          "home": "Gold Coast SUNS",
+          "away": "GWS GIANTS",
+          "date": "2026-05-03",
+          "home_prob": 56.5,
+          "winner": "Gold Coast SUNS",
+          "home_score": 83,
+          "away_score": 63,
           "draw_prob": null
         }
       ]
