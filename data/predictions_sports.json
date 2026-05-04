@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T18:58:53.007455+00:00",
+    "updated": "2026-05-04T20:24:11.416137+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2597,7 +2597,7 @@
           "away_prob": 71.5,
           "margin": -0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Hill Dickinson Stadium",
           "game_id": "epl_740941",
           "draw_prob": 10.1
@@ -3215,7 +3215,7 @@
           "away_prob": 31.4,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
           "game_id": "laliga_748478",
           "draw_prob": 17.1
