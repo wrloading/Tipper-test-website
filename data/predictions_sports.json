@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T07:26:55.790053+00:00",
+    "updated": "2026-05-04T09:38:57.287582+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6063,7 +6063,7 @@
           "home": "Nashville SC",
           "away": "D.C. United",
           "date": "2026-05-10",
-          "datetime": "2026-05-10T01:00Z",
+          "datetime": "2026-05-10T01:15Z",
           "home_prob": 59.5,
           "away_prob": 27.5,
           "margin": 19.2,
