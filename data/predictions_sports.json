@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T17:13:44.418593+00:00",
+    "updated": "2026-05-04T18:58:53.007455+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4664,20 +4664,6 @@
       ],
       "upcoming": [
         {
-          "home": "Cremonese",
-          "away": "Lazio",
-          "date": "2026-05-04",
-          "datetime": "2026-05-04T16:30Z",
-          "home_prob": 29.8,
-          "away_prob": 53.3,
-          "margin": -0.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stadio Giovanni Zini",
-          "game_id": "seriea_737129",
-          "draw_prob": 16.9
-        },
-        {
           "home": "AS Roma",
           "away": "Fiorentina",
           "date": "2026-05-04",
@@ -4686,7 +4672,7 @@
           "away_prob": 28.1,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Olimpico",
           "game_id": "seriea_737125",
           "draw_prob": 15.9
@@ -8686,7 +8672,7 @@
           "home": "Detroit Tigers",
           "away": "Boston Red Sox",
           "date": "2026-05-04",
-          "datetime": "2026-05-04T22:40Z",
+          "datetime": "2026-05-04T22:10Z",
           "home_prob": 57.3,
           "away_prob": 42.7,
           "margin": -0.2,
@@ -8742,7 +8728,7 @@
           "home": "Chicago Cubs",
           "away": "Cincinnati Reds",
           "date": "2026-05-04",
-          "datetime": "2026-05-04T23:40Z",
+          "datetime": "2026-05-04T23:10Z",
           "home_prob": 60.8,
           "away_prob": 39.2,
           "margin": 0.5,
