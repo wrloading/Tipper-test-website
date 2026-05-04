@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T22:42:15.496008+00:00",
+    "updated": "2026-05-04T23:39:06.161789+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8727,7 +8727,7 @@
           "away_prob": 42.6,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815202",
           "draw_prob": null
@@ -8741,7 +8741,7 @@
           "away_prob": 39.2,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815206",
           "draw_prob": null
@@ -13489,7 +13489,7 @@
           "away_prob": 28.8,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Lenovo Center",
           "game_id": "nhl_401871411",
           "draw_prob": null
