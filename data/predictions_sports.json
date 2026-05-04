@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T20:24:11.416137+00:00",
+    "updated": "2026-05-04T21:39:53.974181+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2589,20 +2589,6 @@
       ],
       "upcoming": [
         {
-          "home": "Everton",
-          "away": "Manchester City",
-          "date": "2026-05-04",
-          "datetime": "2026-05-04T19:00Z",
-          "home_prob": 18.4,
-          "away_prob": 71.5,
-          "margin": -0.6,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Hill Dickinson Stadium",
-          "game_id": "epl_740941",
-          "draw_prob": 10.1
-        },
-        {
           "home": "Liverpool",
           "away": "Chelsea",
           "date": "2026-05-09",
@@ -3206,20 +3192,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Sevilla",
-          "away": "Real Sociedad",
-          "date": "2026-05-04",
-          "datetime": "2026-05-04T19:00Z",
-          "home_prob": 51.6,
-          "away_prob": 31.4,
-          "margin": 0.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
-          "game_id": "laliga_748478",
-          "draw_prob": 17.1
-        },
         {
           "home": "Levante",
           "away": "Osasuna",
@@ -4663,20 +4635,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "AS Roma",
-          "away": "Fiorentina",
-          "date": "2026-05-04",
-          "datetime": "2026-05-04T18:45Z",
-          "home_prob": 55.9,
-          "away_prob": 28.1,
-          "margin": 0.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Olimpico",
-          "game_id": "seriea_737125",
-          "draw_prob": 15.9
-        },
         {
           "home": "Torino",
           "away": "Sassuolo",
