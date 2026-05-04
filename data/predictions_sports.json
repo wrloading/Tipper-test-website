@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T13:12:27.812811+00:00",
+    "updated": "2026-05-04T15:24:53.964833+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2597,7 +2597,7 @@
           "away_prob": 27.0,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stamford Bridge",
           "game_id": "epl_740940",
           "draw_prob": 13.8
