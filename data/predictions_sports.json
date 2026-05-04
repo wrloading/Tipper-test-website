@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-04T15:24:53.964833+00:00",
+    "updated": "2026-05-04T17:13:44.418593+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2589,20 +2589,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chelsea",
-          "away": "Nottingham Forest",
-          "date": "2026-05-04",
-          "datetime": "2026-05-04T14:00Z",
-          "home_prob": 59.2,
-          "away_prob": 27.0,
-          "margin": -0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stamford Bridge",
-          "game_id": "epl_740940",
-          "draw_prob": 13.8
-        },
-        {
           "home": "Everton",
           "away": "Manchester City",
           "date": "2026-05-04",
@@ -4686,7 +4672,7 @@
           "away_prob": 53.3,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Giovanni Zini",
           "game_id": "seriea_737129",
           "draw_prob": 16.9
