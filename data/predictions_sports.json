@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-05T20:42:43.219906+00:00",
+    "updated": "2026-05-05T21:45:38.349241+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7176,20 +7176,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Arsenal",
-          "away": "Atl\u00e9tico Madrid",
-          "date": "2026-05-05",
-          "datetime": "2026-05-05T19:00Z",
-          "home_prob": 51.1,
-          "away_prob": 32.5,
-          "margin": 11.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Emirates Stadium",
-          "game_id": "ucl_401862896",
-          "draw_prob": 16.4
-        },
         {
           "home": "Bayern Munich",
           "away": "Paris Saint-Germain",
