@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-05T14:29:22.329146+00:00",
+    "updated": "2026-05-05T16:14:19.757055+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3585,20 +3585,6 @@
           "draw_prob": 21.1
         },
         {
-          "home": "Sevilla",
-          "away": "Real Madrid",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T17:00Z",
-          "home_prob": 25.7,
-          "away_prob": 60.0,
-          "margin": -0.5,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
-          "game_id": "laliga_748504",
-          "draw_prob": 14.2
-        },
-        {
           "home": "Real Oviedo",
           "away": "Alav\u00e9s",
           "date": "2026-05-17",
@@ -3625,6 +3611,20 @@
           "venue": "Reale Arena",
           "game_id": "laliga_748505",
           "draw_prob": 16.0
+        },
+        {
+          "home": "Sevilla",
+          "away": "Real Madrid",
+          "date": "2026-05-17",
+          "datetime": "2026-05-17T17:00Z",
+          "home_prob": 25.7,
+          "away_prob": 60.0,
+          "margin": -0.5,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
+          "game_id": "laliga_748504",
+          "draw_prob": 14.2
         }
       ],
       "recent": [
