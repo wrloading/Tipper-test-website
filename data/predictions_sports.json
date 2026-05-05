@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-05T22:41:55.777720+00:00",
+    "updated": "2026-05-05T23:35:51.164195+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -698,7 +698,7 @@
           "away_prob": 39.2,
           "margin": -4.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Little Caesars Arena",
           "game_id": "nba_401871333",
           "draw_prob": null
@@ -8697,7 +8697,7 @@
           "away_prob": 49.6,
           "margin": 1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815217",
           "draw_prob": null
@@ -8711,7 +8711,7 @@
           "away_prob": 41.6,
           "margin": 2.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815218",
           "draw_prob": null
