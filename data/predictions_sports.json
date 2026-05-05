@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-05T04:32:00.394479+00:00",
+    "updated": "2026-05-05T04:44:28.773454+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8551,12 +8551,12 @@
         },
         {
           "team": "Milwaukee Brewers",
-          "rating": 1503.6,
+          "rating": 1503.5,
           "rank": 12
         },
         {
           "team": "Kansas City Royals",
-          "rating": 1500.9,
+          "rating": 1501.0,
           "rank": 13
         },
         {
@@ -13324,7 +13324,7 @@
       "ratings": [
         {
           "team": "Carolina Hurricanes",
-          "rating": 1577.6,
+          "rating": 1577.7,
           "rank": 1
         },
         {
