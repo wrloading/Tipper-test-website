@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-06T16:45:12.725486+00:00",
+    "updated": "2026-05-06T18:09:23.505909+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8609,7 +8609,7 @@
           "away_prob": 43.7,
           "margin": 3.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815234",
           "draw_prob": null
@@ -8623,7 +8623,7 @@
           "away_prob": 45.9,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815238",
           "draw_prob": null
