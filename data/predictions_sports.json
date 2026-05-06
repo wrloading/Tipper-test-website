@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-06T07:38:46.318281+00:00",
+    "updated": "2026-05-06T10:05:13.390731+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8867,6 +8867,20 @@
           "draw_prob": null
         },
         {
+          "home": "Colorado Rockies",
+          "away": "New York Mets",
+          "date": "2026-05-07",
+          "datetime": "2026-05-07T19:10Z",
+          "home_prob": 53.5,
+          "away_prob": 46.5,
+          "margin": 0.7,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Coors Field",
+          "game_id": "mlb_401871498",
+          "draw_prob": null
+        },
+        {
           "home": "Arizona Diamondbacks",
           "away": "Pittsburgh Pirates",
           "date": "2026-05-07",
@@ -11384,20 +11398,6 @@
           "locked": false,
           "venue": "Nationals Park",
           "game_id": "mlb_401815423",
-          "draw_prob": null
-        },
-        {
-          "home": "New York Yankees",
-          "away": "Toronto Blue Jays",
-          "date": "2026-05-20",
-          "datetime": "2026-05-20T23:05Z",
-          "home_prob": 58.1,
-          "away_prob": 41.9,
-          "margin": 4.1,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Yankee Stadium",
-          "game_id": "mlb_401815424",
           "draw_prob": null
         }
       ],
