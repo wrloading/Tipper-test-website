@@ -2,14 +2,14 @@
   "sport": "mlb",
   "current_season": 2026,
   "ratings": {
-    "Atlanta Braves": 1551.82,
+    "Atlanta Braves": 1549.5,
     "Los Angeles Dodgers": 1547.96,
     "Chicago Cubs": 1543.54,
     "New York Yankees": 1535.52,
     "Tampa Bay Rays": 1524.94,
     "Detroit Tigers": 1517.74,
     "San Diego Padres": 1514.67,
-    "Seattle Mariners": 1508.84,
+    "Seattle Mariners": 1511.16,
     "Milwaukee Brewers": 1507.03,
     "St. Louis Cardinals": 1504.29,
     "Boston Red Sox": 1503.0,
@@ -26,13 +26,13 @@
     "Houston Astros": 1493.71,
     "Cincinnati Reds": 1487.03,
     "Pittsburgh Pirates": 1483.64,
-    "Chicago White Sox": 1483.25,
     "Oakland Athletics": 1482.89,
     "Colorado Rockies": 1481.13,
     "New York Mets": 1480.53,
+    "Chicago White Sox": 1479.38,
     "San Francisco Giants": 1471.84,
     "Washington Nationals": 1465.23,
-    "Miami Marlins": 1462.01,
-    "Los Angeles Angels": 1461.22
+    "Los Angeles Angels": 1465.09,
+    "Miami Marlins": 1462.01
   }
 }
