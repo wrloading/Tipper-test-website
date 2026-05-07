@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-07T22:45:33.995545+00:00",
+    "updated": "2026-05-07T23:39:41.009629+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -684,7 +684,7 @@
           "away_prob": 34.2,
           "margin": 11.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Little Caesars Arena",
           "game_id": "nba_401871334",
           "draw_prob": null
@@ -8467,7 +8467,7 @@
         },
         {
           "team": "Colorado Rockies",
-          "rating": 1480.4,
+          "rating": 1480.3,
           "rank": 25
         },
         {
@@ -8534,7 +8534,7 @@
           "away_prob": 49.2,
           "margin": -1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815247",
           "draw_prob": null
