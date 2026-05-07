@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-07T17:13:04.605214+00:00",
+    "updated": "2026-05-07T19:02:11.458805+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8335,7 +8335,7 @@
           "away_prob": 32.4,
           "margin": 11.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Villa Park",
           "game_id": "uel_401862910",
           "draw_prob": 16.3
@@ -8349,7 +8349,7 @@
           "away_prob": 31.3,
           "margin": 13.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Europa-Park Stadion",
           "game_id": "uel_401862909",
           "draw_prob": 15.8
@@ -8562,7 +8562,7 @@
           "away_prob": 46.4,
           "margin": 1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815250",
           "draw_prob": null
@@ -8576,7 +8576,7 @@
           "away_prob": 38.3,
           "margin": 3.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815249",
           "draw_prob": null
