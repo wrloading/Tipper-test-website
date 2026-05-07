@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-07T07:48:52.365368+00:00",
+    "updated": "2026-05-07T10:28:28.993818+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 52.2,
           "margin": 26.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Optus Stadium",
           "game_id": "afl_1133555",
           "draw_prob": null
