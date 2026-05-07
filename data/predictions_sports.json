@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-07T04:59:27.008808+00:00",
+    "updated": "2026-05-07T07:48:52.365368+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8449,7 +8449,7 @@
         },
         {
           "team": "Baltimore Orioles",
-          "rating": 1501.7,
+          "rating": 1501.8,
           "rank": 13
         },
         {
@@ -8489,7 +8489,7 @@
         },
         {
           "team": "Minnesota Twins",
-          "rating": 1490.3,
+          "rating": 1490.2,
           "rank": 21
         },
         {
@@ -10644,8 +10644,8 @@
           "away": "Cleveland Guardians",
           "date": "2026-05-18",
           "datetime": "2026-05-18T22:40Z",
-          "home_prob": 55.6,
-          "away_prob": 44.4,
+          "home_prob": 55.5,
+          "away_prob": 44.5,
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
@@ -10840,8 +10840,8 @@
           "away": "Cleveland Guardians",
           "date": "2026-05-19",
           "datetime": "2026-05-19T22:40Z",
-          "home_prob": 55.6,
-          "away_prob": 44.4,
+          "home_prob": 55.5,
+          "away_prob": 44.5,
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
@@ -11106,8 +11106,8 @@
           "away": "Cleveland Guardians",
           "date": "2026-05-20",
           "datetime": "2026-05-20T22:40Z",
-          "home_prob": 55.6,
-          "away_prob": 44.4,
+          "home_prob": 55.5,
+          "away_prob": 44.5,
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
@@ -11218,8 +11218,8 @@
           "away": "Cleveland Guardians",
           "date": "2026-05-21",
           "datetime": "2026-05-21T17:10Z",
-          "home_prob": 55.6,
-          "away_prob": 44.4,
+          "home_prob": 55.5,
+          "away_prob": 44.5,
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
@@ -13459,7 +13459,7 @@
           "home": "Montreal Canadiens",
           "away": "Buffalo Sabres",
           "date": "2026-05-12",
-          "datetime": "2026-05-12T04:00Z",
+          "datetime": "2026-05-12T23:00Z",
           "home_prob": 51.5,
           "away_prob": 48.5,
           "margin": -1.2,
@@ -13472,8 +13472,8 @@
         {
           "home": "Vegas Golden Knights",
           "away": "Anaheim Ducks",
-          "date": "2026-05-12",
-          "datetime": "2026-05-12T04:00Z",
+          "date": "2026-05-13",
+          "datetime": "2026-05-13T01:30Z",
           "home_prob": 68.3,
           "away_prob": 31.7,
           "margin": -1.1,
