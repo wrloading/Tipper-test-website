@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-07T15:15:36.122573+00:00",
+    "updated": "2026-05-07T17:13:04.605214+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Fremantle",
-          "away": "Hawthorn",
-          "date": "2026-05-07",
-          "datetime": "2026-05-07T10:10Z",
-          "home_prob": 47.8,
-          "away_prob": 52.2,
-          "margin": 26.6,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133555",
-          "draw_prob": null
-        },
         {
           "home": "Brisbane Lions",
           "away": "Carlton",
@@ -8548,7 +8534,7 @@
           "away_prob": 42.1,
           "margin": 2.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815248",
           "draw_prob": null
@@ -8562,7 +8548,7 @@
           "away_prob": 49.4,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815246",
           "draw_prob": null
