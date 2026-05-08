@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T20:35:57.547217+00:00",
+    "updated": "2026-05-08T21:43:41.985047+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3167,20 +3167,6 @@
       ],
       "upcoming": [
         {
-          "home": "Levante",
-          "away": "Osasuna",
-          "date": "2026-05-08",
-          "datetime": "2026-05-08T19:00Z",
-          "home_prob": 52.8,
-          "away_prob": 30.6,
-          "margin": 0.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Estadi Ciutat de Val\u00e8ncia",
-          "game_id": "laliga_748491",
-          "draw_prob": 16.6
-        },
-        {
           "home": "Elche",
           "away": "Alav\u00e9s",
           "date": "2026-05-09",
@@ -4506,20 +4492,6 @@
       ],
       "upcoming": [
         {
-          "home": "Torino",
-          "away": "Sassuolo",
-          "date": "2026-05-08",
-          "datetime": "2026-05-08T18:45Z",
-          "home_prob": 66.0,
-          "away_prob": 21.6,
-          "margin": 0.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stadio Olimpico Grande Torino",
-          "game_id": "seriea_737143",
-          "draw_prob": 12.4
-        },
-        {
           "home": "Cagliari",
           "away": "Udinese",
           "date": "2026-05-09",
@@ -5133,20 +5105,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Lens",
-          "away": "Nantes",
-          "date": "2026-05-08",
-          "datetime": "2026-05-08T18:45Z",
-          "home_prob": 72.9,
-          "away_prob": 17.2,
-          "margin": 1.7,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stade Bollaert-Delelis",
-          "game_id": "ligue1_746702",
-          "draw_prob": 9.9
-        },
         {
           "home": "AJ Auxerre",
           "away": "Nice",
