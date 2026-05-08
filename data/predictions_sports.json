@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T11:21:30.957471+00:00",
+    "updated": "2026-05-08T12:55:22.880771+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1983,13 +1983,13 @@
           "rank": 1
         },
         {
-          "team": "Fever",
-          "rating": 1661.2,
+          "team": "Thunderbirds",
+          "rating": 1716.4,
           "rank": 2
         },
         {
-          "team": "Thunderbirds",
-          "rating": 1660.8,
+          "team": "Fever",
+          "rating": 1605.6,
           "rank": 3
         },
         {
@@ -2024,20 +2024,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Fever",
-          "away": "Thunderbirds",
-          "date": "2026-05-08T10:00:00Z",
-          "datetime": "2026-05-08T10:00:00Z",
-          "home_prob": 57.9,
-          "away_prob": 42.1,
-          "margin": -7.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "RAC Arena",
-          "game_id": "supernetball_129490901",
-          "draw_prob": null
-        },
         {
           "home": "Swifts",
           "away": "Lightning",
@@ -2113,9 +2099,9 @@
           "away": "Swifts",
           "date": "2026-05-17T04:00:00Z",
           "datetime": "2026-05-17T04:00:00Z",
-          "home_prob": 86.1,
-          "away_prob": 13.9,
-          "margin": 8.3,
+          "home_prob": 81.8,
+          "away_prob": 18.2,
+          "margin": 6.1,
           "home_fav": true,
           "locked": false,
           "venue": "RAC Arena",
@@ -2127,8 +2113,8 @@
           "away": "Mavericks",
           "date": "2026-05-17T06:00:00Z",
           "datetime": "2026-05-17T06:00:00Z",
-          "home_prob": 79.6,
-          "away_prob": 20.4,
+          "home_prob": 84.3,
+          "away_prob": 15.7,
           "margin": 7.1,
           "home_fav": true,
           "locked": false,
@@ -2152,7 +2138,7 @@
           "home": "Thunderbirds",
           "away": "Lightning",
           "date": "2026-04-25",
-          "home_prob": 83.3,
+          "home_prob": 87.3,
           "winner": "Thunderbirds",
           "home_score": 61,
           "away_score": 60,
@@ -2172,7 +2158,7 @@
           "home": "Fever",
           "away": "Vixens",
           "date": "2026-04-26",
-          "home_prob": 49.0,
+          "home_prob": 41.1,
           "winner": "Vixens",
           "home_score": 44,
           "away_score": 50,
@@ -2192,7 +2178,7 @@
           "home": "Thunderbirds",
           "away": "Firebirds",
           "date": "2026-05-02",
-          "home_prob": 86.6,
+          "home_prob": 89.9,
           "winner": "Thunderbirds",
           "home_score": 73,
           "away_score": 49,
@@ -2202,7 +2188,7 @@
           "home": "Lightning",
           "away": "Fever",
           "date": "2026-05-03",
-          "home_prob": 27.4,
+          "home_prob": 34.2,
           "winner": "Fever",
           "home_score": 54,
           "away_score": 58,
@@ -2216,6 +2202,16 @@
           "winner": "Vixens",
           "home_score": 66,
           "away_score": 64,
+          "draw_prob": null
+        },
+        {
+          "home": "Fever",
+          "away": "Thunderbirds",
+          "date": "2026-05-08",
+          "home_prob": 42.0,
+          "winner": "Thunderbirds",
+          "home_score": 45,
+          "away_score": 65,
           "draw_prob": null
         }
       ]
