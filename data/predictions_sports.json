@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T17:49:17.414409+00:00",
+    "updated": "2026-05-08T19:24:29.766746+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3175,7 +3175,7 @@
           "away_prob": 30.6,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Ciutat de Val\u00e8ncia",
           "game_id": "laliga_748491",
           "draw_prob": 16.6
@@ -3933,7 +3933,7 @@
           "away_prob": 23.5,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Signal Iduna Park",
           "game_id": "bundesliga_747008",
           "draw_prob": 11.7
@@ -4528,7 +4528,7 @@
           "away_prob": 21.6,
           "margin": 0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Olimpico Grande Torino",
           "game_id": "seriea_737143",
           "draw_prob": 12.4
@@ -5156,7 +5156,7 @@
           "away_prob": 17.2,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stade Bollaert-Delelis",
           "game_id": "ligue1_746702",
           "draw_prob": 9.9
