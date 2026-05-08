@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T12:55:22.880771+00:00",
+    "updated": "2026-05-08T14:55:05.520217+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Brisbane Lions",
-          "away": "Carlton",
-          "date": "2026-05-08",
-          "datetime": "2026-05-08T09:30Z",
-          "home_prob": 92.5,
-          "away_prob": 7.5,
-          "margin": 28.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gabba",
-          "game_id": "afl_1133556",
-          "draw_prob": null
-        },
-        {
-          "home": "Port Adelaide",
-          "away": "Western Bulldogs",
-          "date": "2026-05-08",
-          "datetime": "2026-05-08T10:10Z",
-          "home_prob": 72.4,
-          "away_prob": 27.6,
-          "margin": 23.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133557",
-          "draw_prob": null
-        },
         {
           "home": "North Melbourne",
           "away": "Sydney",
