@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T00:54:36.314171+10:00",
+    "updated": "2026-05-09T02:16:17.088258+10:00",
     "year": 2026,
     "current_round": 9,
     "model": "TELO v2.0",
@@ -121028,8 +121028,8 @@
       "percentage": 131.6,
       "points_for": 846,
       "points_against": 643,
-      "finals_pct": 100.0,
-      "premiers_pct": 28.3
+      "finals_pct": 99.9,
+      "premiers_pct": 28.4
     },
     {
       "team": "Hawthorn",
@@ -121042,7 +121042,7 @@
       "points_for": 902,
       "points_against": 772,
       "finals_pct": 98.6,
-      "premiers_pct": 18.5
+      "premiers_pct": 18.4
     },
     {
       "team": "Sydney",
@@ -121055,7 +121055,7 @@
       "points_for": 945,
       "points_against": 571,
       "finals_pct": 99.6,
-      "premiers_pct": 19.4
+      "premiers_pct": 20.0
     },
     {
       "team": "Brisbane Lions",
@@ -121068,7 +121068,7 @@
       "points_for": 962,
       "points_against": 773,
       "finals_pct": 96.5,
-      "premiers_pct": 15.6
+      "premiers_pct": 15.3
     },
     {
       "team": "Geelong",
@@ -121080,8 +121080,8 @@
       "percentage": 114.6,
       "points_for": 791,
       "points_against": 690,
-      "finals_pct": 85.8,
-      "premiers_pct": 7.2
+      "finals_pct": 85.1,
+      "premiers_pct": 7.0
     },
     {
       "team": "Collingwood",
@@ -121093,8 +121093,8 @@
       "percentage": 108.6,
       "points_for": 666,
       "points_against": 613,
-      "finals_pct": 66.2,
-      "premiers_pct": 2.9
+      "finals_pct": 66.6,
+      "premiers_pct": 2.8
     },
     {
       "team": "Western Bulldogs",
@@ -121106,8 +121106,8 @@
       "percentage": 92.4,
       "points_for": 794,
       "points_against": 859,
-      "finals_pct": 71.7,
-      "premiers_pct": 2.9
+      "finals_pct": 71.5,
+      "premiers_pct": 3.0
     },
     {
       "team": "Gold Coast",
@@ -121119,7 +121119,7 @@
       "percentage": 116.0,
       "points_for": 806,
       "points_against": 695,
-      "finals_pct": 59.8,
+      "finals_pct": 59.9,
       "premiers_pct": 2.4
     },
     {
@@ -121132,7 +121132,7 @@
       "percentage": 96.6,
       "points_for": 685,
       "points_against": 709,
-      "finals_pct": 52.8,
+      "finals_pct": 53.4,
       "premiers_pct": 1.9
     },
     {
@@ -121145,7 +121145,7 @@
       "percentage": 88.2,
       "points_for": 668,
       "points_against": 757,
-      "finals_pct": 17.0,
+      "finals_pct": 16.9,
       "premiers_pct": 0.3
     },
     {
@@ -121158,7 +121158,7 @@
       "percentage": 114.9,
       "points_for": 765,
       "points_against": 666,
-      "finals_pct": 19.1,
+      "finals_pct": 19.0,
       "premiers_pct": 0.2
     },
     {
@@ -121171,8 +121171,8 @@
       "percentage": 100.2,
       "points_for": 811,
       "points_against": 809,
-      "finals_pct": 29.8,
-      "premiers_pct": 0.4
+      "finals_pct": 30.0,
+      "premiers_pct": 0.3
     },
     {
       "team": "Port Adelaide",
@@ -121197,7 +121197,7 @@
       "percentage": 106.1,
       "points_for": 764,
       "points_against": 720,
-      "finals_pct": 2.5,
+      "finals_pct": 2.4,
       "premiers_pct": 0.0
     },
     {
