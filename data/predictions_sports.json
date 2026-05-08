@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T16:16:47.394808+00:00",
+    "updated": "2026-05-08T17:49:17.414409+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -13366,20 +13366,6 @@
           "draw_prob": null
         },
         {
-          "home": "Carolina Hurricanes",
-          "away": "Philadelphia Flyers",
-          "date": "2026-05-11",
-          "datetime": "2026-05-11T04:00Z",
-          "home_prob": 72.7,
-          "away_prob": 27.3,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Lenovo Center",
-          "game_id": "nhl_401871414",
-          "draw_prob": null
-        },
-        {
           "home": "Minnesota Wild",
           "away": "Colorado Avalanche",
           "date": "2026-05-11",
@@ -13391,6 +13377,20 @@
           "locked": false,
           "venue": "Grand Casino Arena",
           "game_id": "nhl_401871419",
+          "draw_prob": null
+        },
+        {
+          "home": "Carolina Hurricanes",
+          "away": "Philadelphia Flyers",
+          "date": "2026-05-11",
+          "datetime": "2026-05-11T23:00Z",
+          "home_prob": 72.7,
+          "away_prob": 27.3,
+          "margin": 0.9,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Lenovo Center",
+          "game_id": "nhl_401871414",
           "draw_prob": null
         },
         {
