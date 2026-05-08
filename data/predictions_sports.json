@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-08T08:11:36.129760+00:00",
+    "updated": "2026-05-08T09:56:26.569104+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 7.5,
           "margin": 28.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gabba",
           "game_id": "afl_1133556",
           "draw_prob": null
