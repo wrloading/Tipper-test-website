@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T17:59:27.289923+00:00",
+    "updated": "2026-05-09T19:17:59.947081+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -652,7 +652,7 @@
           "away_prob": 42.4,
           "margin": 5.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rocket Arena",
           "game_id": "nba_401871335",
           "draw_prob": null
@@ -2554,20 +2554,6 @@
       ],
       "upcoming": [
         {
-          "home": "Manchester City",
-          "away": "Brentford",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T16:30Z",
-          "home_prob": 82.2,
-          "away_prob": 10.9,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Etihad Stadium",
-          "game_id": "epl_740951",
-          "draw_prob": 6.9
-        },
-        {
           "home": "Burnley",
           "away": "Aston Villa",
           "date": "2026-05-10",
@@ -3100,20 +3086,6 @@
       ],
       "upcoming": [
         {
-          "home": "Atl\u00e9tico Madrid",
-          "away": "Celta Vigo",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T16:30Z",
-          "home_prob": 57.4,
-          "away_prob": 27.5,
-          "margin": 0.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Riyadh Air Metropolitano",
-          "game_id": "laliga_748487",
-          "draw_prob": 15.1
-        },
-        {
           "home": "Real Sociedad",
           "away": "Real Betis",
           "date": "2026-05-09",
@@ -3122,7 +3094,7 @@
           "away_prob": 37.0,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Reale Arena",
           "game_id": "laliga_748485",
           "draw_prob": 20.4
@@ -3806,20 +3778,6 @@
       ],
       "upcoming": [
         {
-          "home": "VfL Wolfsburg",
-          "away": "Bayern Munich",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T16:30Z",
-          "home_prob": 30.6,
-          "away_prob": 54.5,
-          "margin": -0.9,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Volkswagen Arena",
-          "game_id": "bundesliga_747014",
-          "draw_prob": 14.9
-        },
-        {
           "home": "Hamburg SV",
           "away": "SC Freiburg",
           "date": "2026-05-10",
@@ -4329,7 +4287,7 @@
           "away_prob": 59.5,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Via Del Mare",
           "game_id": "seriea_737137",
           "draw_prob": 14.7
@@ -5501,20 +5459,6 @@
       ],
       "upcoming": [
         {
-          "home": "Toronto FC",
-          "away": "Inter Miami CF",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T17:00Z",
-          "home_prob": 26.0,
-          "away_prob": 61.6,
-          "margin": -21.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "BMO Field",
-          "game_id": "mls_761611",
-          "draw_prob": 12.3
-        },
-        {
           "home": "Chicago Fire FC",
           "away": "Red Bull New York",
           "date": "2026-05-09",
@@ -5523,7 +5467,7 @@
           "away_prob": 50.6,
           "margin": -10.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Soldier Field",
           "game_id": "mls_761600",
           "draw_prob": 15.9
@@ -8327,7 +8271,7 @@
           "away_prob": 41.1,
           "margin": 5.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815268",
           "draw_prob": null
