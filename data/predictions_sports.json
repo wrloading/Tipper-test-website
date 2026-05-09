@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T15:57:30.685987+00:00",
+    "updated": "2026-05-09T17:00:56.754130+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1337,7 +1337,7 @@
           "away_prob": 22.4,
           "margin": 9.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gainbridge Fieldhouse",
           "game_id": "wnba_401856893",
           "draw_prob": null
@@ -2554,20 +2554,6 @@
       ],
       "upcoming": [
         {
-          "home": "Fulham",
-          "away": "AFC Bournemouth",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T14:00Z",
-          "home_prob": 50.2,
-          "away_prob": 33.1,
-          "margin": 0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Craven Cottage",
-          "game_id": "epl_740949",
-          "draw_prob": 16.7
-        },
-        {
           "home": "Manchester City",
           "away": "Brentford",
           "date": "2026-05-09",
@@ -2576,7 +2562,7 @@
           "away_prob": 10.9,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Etihad Stadium",
           "game_id": "epl_740951",
           "draw_prob": 6.9
@@ -3114,20 +3100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Sevilla",
-          "away": "Espanyol",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T14:15Z",
-          "home_prob": 63.1,
-          "away_prob": 23.7,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
-          "game_id": "laliga_748486",
-          "draw_prob": 13.2
-        },
-        {
           "home": "Atl\u00e9tico Madrid",
           "away": "Celta Vigo",
           "date": "2026-05-09",
@@ -3136,7 +3108,7 @@
           "away_prob": 27.5,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Riyadh Air Metropolitano",
           "game_id": "laliga_748487",
           "draw_prob": 15.1
@@ -3842,7 +3814,7 @@
           "away_prob": 54.5,
           "margin": -0.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Volkswagen Arena",
           "game_id": "bundesliga_747014",
           "draw_prob": 14.9
@@ -4357,7 +4329,7 @@
           "away_prob": 20.4,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Olimpico",
           "game_id": "seriea_737138",
           "draw_prob": 11.9
@@ -5551,7 +5523,7 @@
           "away_prob": 61.6,
           "margin": -21.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "BMO Field",
           "game_id": "mls_761611",
           "draw_prob": 12.3

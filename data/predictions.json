@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T01:57:00.123065+10:00",
+    "updated": "2026-05-10T03:00:24.886186+10:00",
     "year": 2026,
     "current_round": 9,
     "model": "TELO v2.0",
@@ -118248,8 +118248,8 @@
       "percentage": 131.6,
       "points_for": 846,
       "points_against": 643,
-      "finals_pct": 99.9,
-      "premiers_pct": 27.2
+      "finals_pct": 100.0,
+      "premiers_pct": 27.3
     },
     {
       "team": "Sydney",
@@ -118262,7 +118262,7 @@
       "points_for": 1050,
       "points_against": 668,
       "finals_pct": 99.9,
-      "premiers_pct": 21.7
+      "premiers_pct": 21.9
     },
     {
       "team": "Hawthorn",
@@ -118288,7 +118288,7 @@
       "points_for": 962,
       "points_against": 773,
       "finals_pct": 96.1,
-      "premiers_pct": 14.1
+      "premiers_pct": 13.8
     },
     {
       "team": "Geelong",
@@ -118300,8 +118300,8 @@
       "percentage": 120.4,
       "points_for": 913,
       "points_against": 758,
-      "finals_pct": 92.7,
-      "premiers_pct": 9.5
+      "finals_pct": 93.0,
+      "premiers_pct": 9.6
     },
     {
       "team": "Gold Coast",
@@ -118313,8 +118313,8 @@
       "percentage": 118.5,
       "points_for": 895,
       "points_against": 755,
-      "finals_pct": 77.3,
-      "premiers_pct": 3.7
+      "finals_pct": 76.9,
+      "premiers_pct": 3.6
     },
     {
       "team": "Western Bulldogs",
@@ -118326,7 +118326,7 @@
       "percentage": 92.4,
       "points_for": 794,
       "points_against": 859,
-      "finals_pct": 73.5,
+      "finals_pct": 73.1,
       "premiers_pct": 2.8
     },
     {
@@ -118339,8 +118339,8 @@
       "percentage": 96.6,
       "points_for": 685,
       "points_against": 709,
-      "finals_pct": 57.6,
-      "premiers_pct": 1.8
+      "finals_pct": 57.5,
+      "premiers_pct": 1.7
     },
     {
       "team": "Collingwood",
@@ -118352,7 +118352,7 @@
       "percentage": 99.9,
       "points_for": 734,
       "points_against": 735,
-      "finals_pct": 41.8,
+      "finals_pct": 41.9,
       "premiers_pct": 1.1
     },
     {
@@ -118365,7 +118365,7 @@
       "percentage": 91.1,
       "points_for": 771,
       "points_against": 846,
-      "finals_pct": 20.5,
+      "finals_pct": 20.6,
       "premiers_pct": 0.4
     },
     {
@@ -118391,7 +118391,7 @@
       "percentage": 109.3,
       "points_for": 825,
       "points_against": 755,
-      "finals_pct": 9.4,
+      "finals_pct": 9.7,
       "premiers_pct": 0.1
     },
     {
