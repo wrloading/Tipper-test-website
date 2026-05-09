@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T12:05:06.653912+00:00",
+    "updated": "2026-05-09T13:55:20.278746+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Gold Coast SUNS",
-          "away": "St Kilda",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T09:10Z",
-          "home_prob": 42.2,
-          "away_prob": 57.8,
-          "margin": 19.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "TIO Stadium",
-          "game_id": "afl_1133560",
-          "draw_prob": null
-        },
         {
           "home": "Geelong",
           "away": "Collingwood",
@@ -2582,20 +2568,6 @@
       ],
       "upcoming": [
         {
-          "home": "Liverpool",
-          "away": "Chelsea",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T11:30Z",
-          "home_prob": 72.2,
-          "away_prob": 17.9,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Anfield",
-          "game_id": "epl_740950",
-          "draw_prob": 9.9
-        },
-        {
           "home": "Brighton & Hove Albion",
           "away": "Wolverhampton Wanderers",
           "date": "2026-05-09",
@@ -3926,7 +3898,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "WWK Arena",
           "game_id": "bundesliga_747009",
           "draw_prob": 15.6
@@ -3940,7 +3912,7 @@
           "away_prob": 17.9,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Red Bull Arena",
           "game_id": "bundesliga_747011",
           "draw_prob": 9.5
@@ -3954,7 +3926,7 @@
           "away_prob": 28.1,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PreZero Arena",
           "game_id": "bundesliga_747012",
           "draw_prob": 13.7
@@ -3968,7 +3940,7 @@
           "away_prob": 57.7,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "MHPArena",
           "game_id": "bundesliga_747013",
           "draw_prob": 13.9
@@ -4497,7 +4469,7 @@
           "away_prob": 37.4,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Unipol Domus",
           "game_id": "seriea_737142",
           "draw_prob": 22.2
@@ -6552,20 +6524,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Sydney FC",
-          "away": "Newcastle Jets",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T09:40Z",
-          "home_prob": 63.4,
-          "away_prob": 24.2,
-          "margin": 24.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Allianz Stadium",
-          "game_id": "aleague_401870490",
-          "draw_prob": 12.4
-        },
         {
           "home": "Adelaide United",
           "away": "Auckland FC",
