@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T17:00:56.754130+00:00",
+    "updated": "2026-05-09T17:59:27.289923+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4320,20 +4320,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Lazio",
-          "away": "Internazionale",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T16:00Z",
-          "home_prob": 67.7,
-          "away_prob": 20.4,
-          "margin": -0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Olimpico",
-          "game_id": "seriea_737138",
-          "draw_prob": 11.9
-        },
         {
           "home": "Lecce",
           "away": "Juventus",
