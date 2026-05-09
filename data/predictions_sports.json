@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T20:10:14.589502+00:00",
+    "updated": "2026-05-09T21:05:27.162916+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1282,13 +1282,13 @@
           "rank": 4
         },
         {
-          "team": "Indiana Fever",
-          "rating": 1559.1,
+          "team": "Golden State Valkyries",
+          "rating": 1538.4,
           "rank": 5
         },
         {
-          "team": "Golden State Valkyries",
-          "rating": 1538.4,
+          "team": "Indiana Fever",
+          "rating": 1533.3,
           "rank": 6
         },
         {
@@ -1302,13 +1302,13 @@
           "rank": 8
         },
         {
-          "team": "Washington Mystics",
-          "rating": 1426.2,
+          "team": "Dallas Wings",
+          "rating": 1449.2,
           "rank": 9
         },
         {
-          "team": "Dallas Wings",
-          "rating": 1423.4,
+          "team": "Washington Mystics",
+          "rating": 1426.2,
           "rank": 10
         },
         {
@@ -1328,20 +1328,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Indiana Fever",
-          "away": "Dallas Wings",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T17:00Z",
-          "home_prob": 77.6,
-          "away_prob": 22.4,
-          "margin": 9.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gainbridge Fieldhouse",
-          "game_id": "wnba_401856893",
-          "draw_prob": null
-        },
         {
           "home": "Las Vegas Aces",
           "away": "Phoenix Mercury",
@@ -1445,9 +1431,9 @@
           "away": "Atlanta Dream",
           "date": "2026-05-13",
           "datetime": "2026-05-13T00:00Z",
-          "home_prob": 64.6,
-          "away_prob": 35.4,
-          "margin": 4.8,
+          "home_prob": 68.0,
+          "away_prob": 32.0,
+          "margin": 5.9,
           "home_fav": true,
           "locked": false,
           "venue": "College Park Center",
@@ -1529,9 +1515,9 @@
           "away": "Indiana Fever",
           "date": "2026-05-14",
           "datetime": "2026-05-14T02:30Z",
-          "home_prob": 35.0,
-          "away_prob": 65.0,
-          "margin": -4.9,
+          "home_prob": 38.4,
+          "away_prob": 61.6,
+          "margin": -3.7,
           "home_fav": false,
           "locked": false,
           "venue": "crypto.com Arena",
@@ -1543,9 +1529,9 @@
           "away": "Minnesota Lynx",
           "date": "2026-05-15",
           "datetime": "2026-05-15T00:00Z",
-          "home_prob": 35.4,
-          "away_prob": 64.6,
-          "margin": -4.7,
+          "home_prob": 38.9,
+          "away_prob": 61.1,
+          "margin": -3.6,
           "home_fav": false,
           "locked": false,
           "venue": "College Park Center",
@@ -1585,9 +1571,9 @@
           "away": "Washington Mystics",
           "date": "2026-05-15",
           "datetime": "2026-05-15T23:30Z",
-          "home_prob": 77.3,
-          "away_prob": 22.7,
-          "margin": 9.7,
+          "home_prob": 74.6,
+          "away_prob": 25.4,
+          "margin": 8.5,
           "home_fav": true,
           "locked": false,
           "venue": "Gainbridge Fieldhouse",
@@ -1641,9 +1627,9 @@
           "away": "Seattle Storm",
           "date": "2026-05-17",
           "datetime": "2026-05-17T22:00Z",
-          "home_prob": 70.9,
-          "away_prob": 29.1,
-          "margin": 7.0,
+          "home_prob": 67.8,
+          "away_prob": 32.2,
+          "margin": 5.9,
           "home_fav": true,
           "locked": false,
           "venue": "Gainbridge Fieldhouse",
@@ -1683,9 +1669,9 @@
           "away": "Washington Mystics",
           "date": "2026-05-19",
           "datetime": "2026-05-19T00:00Z",
-          "home_prob": 60.9,
-          "away_prob": 39.1,
-          "margin": 3.5,
+          "home_prob": 64.4,
+          "away_prob": 35.6,
+          "margin": 4.7,
           "home_fav": true,
           "locked": false,
           "venue": "College Park Center",
@@ -1725,9 +1711,9 @@
           "away": "Portland Fire",
           "date": "2026-05-20",
           "datetime": "2026-05-20T23:00Z",
-          "home_prob": 69.0,
-          "away_prob": 31.0,
-          "margin": 6.3,
+          "home_prob": 65.7,
+          "away_prob": 34.3,
+          "margin": 5.1,
           "home_fav": true,
           "locked": false,
           "venue": "Gainbridge Fieldhouse",
@@ -1739,9 +1725,9 @@
           "away": "Dallas Wings",
           "date": "2026-05-21",
           "datetime": "2026-05-21T01:00Z",
-          "home_prob": 59.0,
-          "away_prob": 41.0,
-          "margin": 2.9,
+          "home_prob": 55.4,
+          "away_prob": 44.6,
+          "margin": 1.7,
           "home_fav": true,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -1809,9 +1795,9 @@
           "away": "Dallas Wings",
           "date": "2026-05-22",
           "datetime": "2026-05-22T23:30Z",
-          "home_prob": 57.9,
-          "away_prob": 42.1,
-          "margin": 2.5,
+          "home_prob": 54.2,
+          "away_prob": 45.8,
+          "margin": 1.3,
           "home_fav": true,
           "locked": false,
           "venue": "Gateway Center",
@@ -1823,9 +1809,9 @@
           "away": "Golden State Valkyries",
           "date": "2026-05-22",
           "datetime": "2026-05-22T23:30Z",
-          "home_prob": 64.1,
-          "away_prob": 35.9,
-          "margin": 4.6,
+          "home_prob": 60.6,
+          "away_prob": 39.4,
+          "margin": 3.4,
           "home_fav": true,
           "locked": false,
           "venue": "Gainbridge Fieldhouse",
@@ -1918,6 +1904,16 @@
           "winner": "Golden State Valkyries",
           "home_score": 80,
           "away_score": 91,
+          "draw_prob": null
+        },
+        {
+          "home": "Indiana Fever",
+          "away": "Dallas Wings",
+          "date": "2026-05-09",
+          "home_prob": 72.0,
+          "winner": "Dallas Wings",
+          "home_score": 104,
+          "away_score": 107,
           "draw_prob": null
         }
       ]
@@ -3085,20 +3081,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Real Sociedad",
-          "away": "Real Betis",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T19:00Z",
-          "home_prob": 42.6,
-          "away_prob": 37.0,
-          "margin": 0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Reale Arena",
-          "game_id": "laliga_748485",
-          "draw_prob": 20.4
-        },
         {
           "home": "Mallorca",
           "away": "Villarreal",
@@ -4279,20 +4261,6 @@
       ],
       "upcoming": [
         {
-          "home": "Lecce",
-          "away": "Juventus",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T18:45Z",
-          "home_prob": 25.8,
-          "away_prob": 59.5,
-          "margin": 0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Via Del Mare",
-          "game_id": "seriea_737137",
-          "draw_prob": 14.7
-        },
-        {
           "home": "Hellas Verona",
           "away": "Como",
           "date": "2026-05-10",
@@ -5459,20 +5427,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chicago Fire FC",
-          "away": "Red Bull New York",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T18:30Z",
-          "home_prob": 33.4,
-          "away_prob": 50.6,
-          "margin": -10.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Soldier Field",
-          "game_id": "mls_761600",
-          "draw_prob": 15.9
-        },
-        {
           "home": "CF Montr\u00e9al",
           "away": "Orlando City SC",
           "date": "2026-05-09",
@@ -5481,7 +5435,7 @@
           "away_prob": 44.2,
           "margin": -4.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stade Saputo",
           "game_id": "mls_761610",
           "draw_prob": 18.3
