@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T10:09:30.566477+00:00",
+    "updated": "2026-05-09T11:13:39.283831+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "GWS GIANTS",
-          "away": "Essendon",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T06:15Z",
-          "home_prob": 75.9,
-          "away_prob": 24.1,
-          "margin": 35.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "ENGIE Stadium",
-          "game_id": "afl_1133559",
-          "draw_prob": null
-        },
         {
           "home": "Gold Coast SUNS",
           "away": "St Kilda",
