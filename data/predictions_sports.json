@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T08:54:25.362412+00:00",
+    "updated": "2026-05-09T10:09:30.566477+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 57.8,
           "margin": 19.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "TIO Stadium",
           "game_id": "afl_1133560",
           "draw_prob": null
@@ -136,7 +136,7 @@
           "away_prob": 39.5,
           "margin": 4.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133561",
           "draw_prob": null
@@ -1992,13 +1992,13 @@
           "rank": 5
         },
         {
-          "team": "Lightning",
-          "rating": 1436.9,
+          "team": "Swifts",
+          "rating": 1440.7,
           "rank": 6
         },
         {
-          "team": "Swifts",
-          "rating": 1399.6,
+          "team": "Lightning",
+          "rating": 1395.8,
           "rank": 7
         },
         {
@@ -2013,20 +2013,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Swifts",
-          "away": "Lightning",
-          "date": "2026-05-09T07:00:00Z",
-          "datetime": "2026-05-09T07:00:00Z",
-          "home_prob": 52.5,
-          "away_prob": 47.5,
-          "margin": -2.7,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129490902",
-          "draw_prob": null
-        },
         {
           "home": "GIANTS",
           "away": "Mavericks",
@@ -2060,8 +2046,8 @@
           "away": "Vixens",
           "date": "2026-05-16T07:00:00Z",
           "datetime": "2026-05-16T07:00:00Z",
-          "home_prob": 20.9,
-          "away_prob": 79.1,
+          "home_prob": 17.2,
+          "away_prob": 82.8,
           "margin": -5.1,
           "home_fav": false,
           "locked": false,
@@ -2088,8 +2074,8 @@
           "away": "Swifts",
           "date": "2026-05-17T04:00:00Z",
           "datetime": "2026-05-17T04:00:00Z",
-          "home_prob": 81.8,
-          "away_prob": 18.2,
+          "home_prob": 78.0,
+          "away_prob": 22.0,
           "margin": 6.1,
           "home_fav": true,
           "locked": false,
@@ -2130,9 +2116,9 @@
           "away": "Lightning",
           "date": "2026-05-23T09:00:00Z",
           "datetime": "2026-05-23T09:00:00Z",
-          "home_prob": 63.7,
-          "away_prob": 36.3,
-          "margin": 0.0,
+          "home_prob": 68.9,
+          "away_prob": 31.1,
+          "margin": 1.1,
           "home_fav": true,
           "locked": false,
           "venue": "John Cain Arena",
@@ -2145,7 +2131,7 @@
           "home": "Swifts",
           "away": "GIANTS",
           "date": "2026-04-25",
-          "home_prob": 75.5,
+          "home_prob": 79.6,
           "winner": "Swifts",
           "home_score": 72,
           "away_score": 59,
@@ -2155,7 +2141,7 @@
           "home": "Thunderbirds",
           "away": "Lightning",
           "date": "2026-04-25",
-          "home_prob": 87.3,
+          "home_prob": 89.7,
           "winner": "Thunderbirds",
           "home_score": 61,
           "away_score": 60,
@@ -2185,7 +2171,7 @@
           "home": "Mavericks",
           "away": "Swifts",
           "date": "2026-05-02",
-          "home_prob": 68.5,
+          "home_prob": 63.1,
           "winner": "Mavericks",
           "home_score": 62,
           "away_score": 60,
@@ -2205,7 +2191,7 @@
           "home": "Lightning",
           "away": "Fever",
           "date": "2026-05-03",
-          "home_prob": 34.2,
+          "home_prob": 29.1,
           "winner": "Fever",
           "home_score": 54,
           "away_score": 58,
@@ -2229,6 +2215,16 @@
           "winner": "Thunderbirds",
           "home_score": 45,
           "away_score": 65,
+          "draw_prob": null
+        },
+        {
+          "home": "Swifts",
+          "away": "Lightning",
+          "date": "2026-05-09",
+          "home_prob": 64.0,
+          "winner": "Swifts",
+          "home_score": 70,
+          "away_score": 56,
           "draw_prob": null
         }
       ]
@@ -6571,20 +6567,6 @@
       ],
       "upcoming": [
         {
-          "home": "Auckland FC",
-          "away": "Adelaide United",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T06:00Z",
-          "home_prob": 66.9,
-          "away_prob": 21.8,
-          "margin": 27.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Go Media Stadium",
-          "game_id": "aleague_401870491",
-          "draw_prob": 11.3
-        },
-        {
           "home": "Sydney FC",
           "away": "Newcastle Jets",
           "date": "2026-05-09",
@@ -6593,7 +6575,7 @@
           "away_prob": 24.2,
           "margin": 24.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Allianz Stadium",
           "game_id": "aleague_401870490",
           "draw_prob": 12.4
