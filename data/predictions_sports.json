@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T19:17:59.947081+00:00",
+    "updated": "2026-05-09T20:10:14.589502+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1351,7 +1351,7 @@
           "away_prob": 27.1,
           "margin": 7.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "T-Mobile Arena",
           "game_id": "wnba_401856894",
           "draw_prob": null
@@ -8285,7 +8285,7 @@
           "away_prob": 47.4,
           "margin": -5.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815269",
           "draw_prob": null
@@ -8299,7 +8299,7 @@
           "away_prob": 49.5,
           "margin": 2.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815271",
           "draw_prob": null
@@ -8313,7 +8313,7 @@
           "away_prob": 49.5,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815273",
           "draw_prob": null
@@ -8327,7 +8327,7 @@
           "away_prob": 48.7,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815274",
           "draw_prob": null
