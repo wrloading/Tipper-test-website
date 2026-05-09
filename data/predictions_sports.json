@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-09T13:55:20.278746+00:00",
+    "updated": "2026-05-09T14:55:29.235044+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Geelong",
-          "away": "Collingwood",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T09:35Z",
-          "home_prob": 60.5,
-          "away_prob": 39.5,
-          "margin": 4.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133561",
-          "draw_prob": null
-        },
         {
           "home": "Melbourne",
           "away": "West Coast",
@@ -2576,7 +2562,7 @@
           "away_prob": 23.6,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Express Stadium",
           "game_id": "epl_740946",
           "draw_prob": 12.3
@@ -2590,7 +2576,7 @@
           "away_prob": 33.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Craven Cottage",
           "game_id": "epl_740949",
           "draw_prob": 16.7
@@ -2604,7 +2590,7 @@
           "away_prob": 41.1,
           "margin": -0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadium of Light",
           "game_id": "epl_740953",
           "draw_prob": 20.1
@@ -3156,20 +3142,6 @@
       ],
       "upcoming": [
         {
-          "home": "Elche",
-          "away": "Alav\u00e9s",
-          "date": "2026-05-09",
-          "datetime": "2026-05-09T12:00Z",
-          "home_prob": 43.8,
-          "away_prob": 36.3,
-          "margin": 0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Estadio Mart\u00ednez Valero",
-          "game_id": "laliga_748492",
-          "draw_prob": 19.9
-        },
-        {
           "home": "Sevilla",
           "away": "Espanyol",
           "date": "2026-05-09",
@@ -3178,7 +3150,7 @@
           "away_prob": 23.7,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
           "game_id": "laliga_748486",
           "draw_prob": 13.2
