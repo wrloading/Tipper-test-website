@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T12:43:56.695586+00:00",
+    "updated": "2026-05-10T14:11:49.670623+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2568,7 +2568,7 @@
           "away_prob": 56.9,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Turf Moor",
           "game_id": "epl_740947",
           "draw_prob": 14.5
@@ -2582,7 +2582,7 @@
           "away_prob": 27.5,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Selhurst Park",
           "game_id": "epl_740948",
           "draw_prob": 14.0
@@ -2596,7 +2596,7 @@
           "away_prob": 32.8,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "The City Ground",
           "game_id": "epl_740952",
           "draw_prob": 16.6
@@ -3181,20 +3181,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Mallorca",
-          "away": "Villarreal",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T12:00Z",
-          "home_prob": 38.5,
-          "away_prob": 40.0,
-          "margin": 0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Estadi Mallorca Son Moix",
-          "game_id": "laliga_748490",
-          "draw_prob": 21.5
-        },
         {
           "home": "Athletic Club",
           "away": "Valencia",
@@ -3968,7 +3954,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Volksparkstadion",
           "game_id": "bundesliga_747010",
           "draw_prob": 15.6
@@ -4409,7 +4395,7 @@
           "away_prob": 35.3,
           "margin": 0.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Giovanni Zini",
           "game_id": "seriea_737141",
           "draw_prob": 20.5
@@ -4423,7 +4409,7 @@
           "away_prob": 21.9,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Artemio Franchi",
           "game_id": "seriea_737140",
           "draw_prob": 12.6
