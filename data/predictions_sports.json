@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T16:14:20.731619+00:00",
+    "updated": "2026-05-10T17:16:40.219507+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1317,7 +1317,7 @@
           "away_prob": 26.0,
           "margin": 8.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Mohegan Sun Arena",
           "game_id": "wnba_401856896",
           "draw_prob": null
@@ -3140,20 +3140,6 @@
       ],
       "upcoming": [
         {
-          "home": "Athletic Club",
-          "away": "Valencia",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T14:15Z",
-          "home_prob": 66.3,
-          "away_prob": 21.5,
-          "margin": -0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "San Mam\u00e9s",
-          "game_id": "laliga_748488",
-          "draw_prob": 12.2
-        },
-        {
           "home": "Real Oviedo",
           "away": "Getafe",
           "date": "2026-05-10",
@@ -3162,7 +3148,7 @@
           "away_prob": 24.5,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio Carlos Tartiere",
           "game_id": "laliga_748493",
           "draw_prob": 13.6
@@ -8235,7 +8221,7 @@
           "away_prob": 48.3,
           "margin": -0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815289",
           "draw_prob": null
