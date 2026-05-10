@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T21:29:38.678089+00:00",
+    "updated": "2026-05-10T22:26:59.981740+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -520,13 +520,13 @@
     "nba": {
       "ratings": [
         {
-          "team": "Oklahoma City Thunder",
-          "rating": 1746.0,
+          "team": "New York Knicks",
+          "rating": 1747.1,
           "rank": 1
         },
         {
-          "team": "New York Knicks",
-          "rating": 1718.7,
+          "team": "Oklahoma City Thunder",
+          "rating": 1746.0,
           "rank": 2
         },
         {
@@ -545,28 +545,28 @@
           "rank": 5
         },
         {
-          "team": "Philadelphia 76ers",
-          "rating": 1600.1,
-          "rank": 6
-        },
-        {
           "team": "Dallas Mavericks",
           "rating": 1593.4,
-          "rank": 7
+          "rank": 6
         },
         {
           "team": "Houston Rockets",
           "rating": 1592.3,
-          "rank": 8
+          "rank": 7
         },
         {
           "team": "San Antonio Spurs",
           "rating": 1584.8,
-          "rank": 9
+          "rank": 8
         },
         {
           "team": "New Orleans Pelicans",
           "rating": 1583.3,
+          "rank": 9
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "rating": 1571.7,
           "rank": 10
         },
         {
@@ -672,20 +672,6 @@
       ],
       "upcoming": [
         {
-          "home": "Philadelphia 76ers",
-          "away": "New York Knicks",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T19:30Z",
-          "home_prob": 47.3,
-          "away_prob": 52.7,
-          "margin": -26.9,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Xfinity Mobile Arena",
-          "game_id": "nba_401871162",
-          "draw_prob": null
-        },
-        {
           "home": "Minnesota Timberwolves",
           "away": "San Antonio Spurs",
           "date": "2026-05-10",
@@ -746,8 +732,8 @@
           "away": "Philadelphia 76ers",
           "date": "2026-05-12",
           "datetime": "2026-05-12T04:00Z",
-          "home_prob": 77.9,
-          "away_prob": 22.1,
+          "home_prob": 83.0,
+          "away_prob": 17.0,
           "margin": 7.6,
           "home_fav": true,
           "locked": false,
@@ -788,9 +774,9 @@
           "away": "New York Knicks",
           "date": "2026-05-14",
           "datetime": "2026-05-14T04:00Z",
-          "home_prob": 47.3,
-          "away_prob": 52.7,
-          "margin": -26.9,
+          "home_prob": 39.3,
+          "away_prob": 60.7,
+          "margin": -27.2,
           "home_fav": false,
           "locked": false,
           "venue": "Xfinity Mobile Arena",
@@ -858,8 +844,8 @@
           "away": "Philadelphia 76ers",
           "date": "2026-05-17",
           "datetime": "2026-05-17T04:00Z",
-          "home_prob": 77.9,
-          "away_prob": 22.1,
+          "home_prob": 83.0,
+          "away_prob": 17.0,
           "margin": 7.6,
           "home_fav": true,
           "locked": false,
@@ -921,7 +907,7 @@
           "home": "Philadelphia 76ers",
           "away": "Boston Celtics",
           "date": "2026-04-26",
-          "home_prob": 56.4,
+          "home_prob": 52.3,
           "winner": "Boston Celtics",
           "home_score": 96,
           "away_score": 128,
@@ -971,7 +957,7 @@
           "home": "Boston Celtics",
           "away": "Philadelphia 76ers",
           "date": "2026-04-28",
-          "home_prob": 71.0,
+          "home_prob": 74.2,
           "winner": "Philadelphia 76ers",
           "home_score": 97,
           "away_score": 113,
@@ -981,7 +967,7 @@
           "home": "New York Knicks",
           "away": "Atlanta Hawks",
           "date": "2026-04-29",
-          "home_prob": 90.9,
+          "home_prob": 92.1,
           "winner": "New York Knicks",
           "home_score": 126,
           "away_score": 97,
@@ -1031,7 +1017,7 @@
           "home": "Atlanta Hawks",
           "away": "New York Knicks",
           "date": "2026-04-30",
-          "home_prob": 24.1,
+          "home_prob": 21.2,
           "winner": "New York Knicks",
           "home_score": 89,
           "away_score": 140,
@@ -1041,7 +1027,7 @@
           "home": "Philadelphia 76ers",
           "away": "Boston Celtics",
           "date": "2026-05-01",
-          "home_prob": 56.4,
+          "home_prob": 52.3,
           "winner": "Philadelphia 76ers",
           "home_score": 106,
           "away_score": 93,
@@ -1091,7 +1077,7 @@
           "home": "Boston Celtics",
           "away": "Philadelphia 76ers",
           "date": "2026-05-02",
-          "home_prob": 71.0,
+          "home_prob": 74.2,
           "winner": "Philadelphia 76ers",
           "home_score": 100,
           "away_score": 109,
@@ -1121,7 +1107,7 @@
           "home": "New York Knicks",
           "away": "Philadelphia 76ers",
           "date": "2026-05-05",
-          "home_prob": 77.9,
+          "home_prob": 83.0,
           "winner": "New York Knicks",
           "home_score": 137,
           "away_score": 98,
@@ -1161,7 +1147,7 @@
           "home": "New York Knicks",
           "away": "Philadelphia 76ers",
           "date": "2026-05-06",
-          "home_prob": 77.9,
+          "home_prob": 83.0,
           "winner": "New York Knicks",
           "home_score": 108,
           "away_score": 102,
@@ -1201,7 +1187,7 @@
           "home": "Philadelphia 76ers",
           "away": "New York Knicks",
           "date": "2026-05-08",
-          "home_prob": 47.3,
+          "home_prob": 39.3,
           "winner": "New York Knicks",
           "home_score": 94,
           "away_score": 108,
@@ -1235,6 +1221,16 @@
           "winner": "Oklahoma City Thunder",
           "home_score": 108,
           "away_score": 131,
+          "draw_prob": null
+        },
+        {
+          "home": "Philadelphia 76ers",
+          "away": "New York Knicks",
+          "date": "2026-05-10",
+          "home_prob": 39.3,
+          "winner": "New York Knicks",
+          "home_score": 114,
+          "away_score": 144,
           "draw_prob": null
         }
       ]
@@ -1309,20 +1305,6 @@
       ],
       "upcoming": [
         {
-          "home": "Washington Mystics",
-          "away": "New York Liberty",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T19:00Z",
-          "home_prob": 24.5,
-          "away_prob": 75.5,
-          "margin": -8.9,
-          "home_fav": false,
-          "locked": true,
-          "venue": "CareFirst Arena",
-          "game_id": "wnba_401856897",
-          "draw_prob": null
-        },
-        {
           "home": "Los Angeles Sparks",
           "away": "Las Vegas Aces",
           "date": "2026-05-10",
@@ -1331,7 +1313,7 @@
           "away_prob": 57.9,
           "margin": -2.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "crypto.com Arena",
           "game_id": "wnba_401856898",
           "draw_prob": null
