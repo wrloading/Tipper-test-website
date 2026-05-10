@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T09:06:05.273090+00:00",
+    "updated": "2026-05-10T10:39:59.194383+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Richmond",
-          "away": "Adelaide",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T05:15Z",
-          "home_prob": 20.1,
-          "away_prob": 79.9,
-          "margin": -16.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133563",
-          "draw_prob": null
-        },
         {
           "home": "Brisbane Lions",
           "away": "Geelong",
@@ -4423,7 +4409,7 @@
           "away_prob": 31.0,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Marcantonio Bentegodi",
           "game_id": "seriea_737139",
           "draw_prob": 17.7
