@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T04:18:17.425203+00:00",
+    "updated": "2026-05-10T07:14:58.882705+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 79.9,
           "margin": -16.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133563",
           "draw_prob": null
@@ -504,26 +504,6 @@
           "draw_prob": null
         },
         {
-          "home": "Gold Coast SUNS",
-          "away": "St Kilda",
-          "date": "2026-05-09",
-          "home_prob": 58.0,
-          "winner": "Gold Coast SUNS",
-          "home_score": 89,
-          "away_score": 60,
-          "draw_prob": null
-        },
-        {
-          "home": "Geelong",
-          "away": "Collingwood",
-          "date": "2026-05-09",
-          "home_prob": 70.3,
-          "winner": "Geelong",
-          "home_score": 122,
-          "away_score": 68,
-          "draw_prob": null
-        },
-        {
           "home": "North Melbourne",
           "away": "Sydney",
           "date": "2026-05-09",
@@ -541,6 +521,26 @@
           "winner": "GWS GIANTS",
           "home_score": 103,
           "away_score": 89,
+          "draw_prob": null
+        },
+        {
+          "home": "Gold Coast SUNS",
+          "away": "St Kilda",
+          "date": "2026-05-09",
+          "home_prob": 58.0,
+          "winner": "Gold Coast SUNS",
+          "home_score": 89,
+          "away_score": 60,
+          "draw_prob": null
+        },
+        {
+          "home": "Geelong",
+          "away": "Collingwood",
+          "date": "2026-05-09",
+          "home_prob": 70.3,
+          "winner": "Geelong",
+          "home_score": 122,
+          "away_score": 68,
           "draw_prob": null
         }
       ]
@@ -1974,13 +1974,13 @@
           "rank": 3
         },
         {
-          "team": "Magpies",
-          "rating": 1487.2,
+          "team": "Mavericks",
+          "rating": 1506.0,
           "rank": 4
         },
         {
-          "team": "Mavericks",
-          "rating": 1479.3,
+          "team": "Magpies",
+          "rating": 1487.2,
           "rank": 5
         },
         {
@@ -2000,25 +2000,11 @@
         },
         {
           "team": "GIANTS",
-          "rating": 1259.4,
+          "rating": 1232.6,
           "rank": 9
         }
       ],
       "upcoming": [
-        {
-          "home": "GIANTS",
-          "away": "Mavericks",
-          "date": "2026-05-10T04:00:00Z",
-          "datetime": "2026-05-10T04:00:00Z",
-          "home_prob": 27.9,
-          "away_prob": 72.1,
-          "margin": -9.2,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129490903",
-          "draw_prob": null
-        },
         {
           "home": "Vixens",
           "away": "Firebirds",
@@ -2052,8 +2038,8 @@
           "away": "GIANTS",
           "date": "2026-05-16T09:00:00Z",
           "datetime": "2026-05-16T09:00:00Z",
-          "home_prob": 74.7,
-          "away_prob": 25.3,
+          "home_prob": 77.5,
+          "away_prob": 22.5,
           "margin": 0.3,
           "home_fav": true,
           "locked": false,
@@ -2080,9 +2066,9 @@
           "away": "Mavericks",
           "date": "2026-05-17T06:00:00Z",
           "datetime": "2026-05-17T06:00:00Z",
-          "home_prob": 84.3,
-          "away_prob": 15.7,
-          "margin": 7.1,
+          "home_prob": 82.2,
+          "away_prob": 17.8,
+          "margin": 5.4,
           "home_fav": true,
           "locked": false,
           "venue": "Adelaide Entertainment Centre",
@@ -2094,9 +2080,9 @@
           "away": "Thunderbirds",
           "date": "2026-05-23T07:00:00Z",
           "datetime": "2026-05-23T07:00:00Z",
-          "home_prob": 9.0,
-          "away_prob": 91.0,
-          "margin": -18.0,
+          "home_prob": 7.8,
+          "away_prob": 92.2,
+          "margin": -18.4,
           "home_fav": false,
           "locked": false,
           "venue": "Ken Rosewall Arena",
@@ -2108,8 +2094,8 @@
           "away": "Lightning",
           "date": "2026-05-23T09:00:00Z",
           "datetime": "2026-05-23T09:00:00Z",
-          "home_prob": 68.9,
-          "away_prob": 31.1,
+          "home_prob": 72.1,
+          "away_prob": 27.9,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -2151,7 +2137,7 @@
           "home": "Firebirds",
           "away": "Mavericks",
           "date": "2026-04-26",
-          "home_prob": 45.4,
+          "home_prob": 41.6,
           "winner": "Mavericks",
           "home_score": 57,
           "away_score": 58,
@@ -2171,7 +2157,7 @@
           "home": "Mavericks",
           "away": "Swifts",
           "date": "2026-05-02",
-          "home_prob": 63.1,
+          "home_prob": 66.7,
           "winner": "Mavericks",
           "home_score": 62,
           "away_score": 60,
@@ -2201,7 +2187,7 @@
           "home": "Vixens",
           "away": "GIANTS",
           "date": "2026-05-03",
-          "home_prob": 95.2,
+          "home_prob": 95.9,
           "winner": "Vixens",
           "home_score": 66,
           "away_score": 64,
@@ -2225,6 +2211,16 @@
           "winner": "Swifts",
           "home_score": 70,
           "away_score": 56,
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Mavericks",
+          "date": "2026-05-10",
+          "home_prob": 22.1,
+          "winner": "Mavericks",
+          "home_score": 41,
+          "away_score": 60,
           "draw_prob": null
         }
       ]
@@ -8324,7 +8320,7 @@
         },
         {
           "team": "Pittsburgh Pirates",
-          "rating": 1489.9,
+          "rating": 1489.8,
           "rank": 21
         },
         {
@@ -8349,7 +8345,7 @@
         },
         {
           "team": "Colorado Rockies",
-          "rating": 1479.4,
+          "rating": 1479.3,
           "rank": 26
         },
         {
@@ -11930,7 +11926,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-02",
-          "home_prob": 57.9,
+          "home_prob": 57.8,
           "winner": "Chicago White Sox",
           "home_score": 2,
           "away_score": 8,
@@ -12080,7 +12076,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-03",
-          "home_prob": 57.9,
+          "home_prob": 57.8,
           "winner": "Chicago White Sox",
           "home_score": 0,
           "away_score": 4,
@@ -12230,7 +12226,7 @@
           "home": "San Diego Padres",
           "away": "Chicago White Sox",
           "date": "2026-05-03",
-          "home_prob": 57.9,
+          "home_prob": 57.8,
           "winner": "San Diego Padres",
           "home_score": 4,
           "away_score": 3,
