@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T11:36:11.707892+00:00",
+    "updated": "2026-05-10T12:43:56.695586+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3190,7 +3190,7 @@
           "away_prob": 40.0,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Mallorca Son Moix",
           "game_id": "laliga_748490",
           "draw_prob": 21.5
@@ -4400,20 +4400,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Hellas Verona",
-          "away": "Como",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T10:30Z",
-          "home_prob": 51.3,
-          "away_prob": 31.0,
-          "margin": -0.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stadio Marcantonio Bentegodi",
-          "game_id": "seriea_737139",
-          "draw_prob": 17.7
-        },
         {
           "home": "Cremonese",
           "away": "Pisa",
