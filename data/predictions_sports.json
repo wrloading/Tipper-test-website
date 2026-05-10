@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-10T17:16:40.219507+00:00",
+    "updated": "2026-05-10T18:11:06.468191+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2560,20 +2560,6 @@
       ],
       "upcoming": [
         {
-          "home": "West Ham United",
-          "away": "Arsenal",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T15:30Z",
-          "home_prob": 29.7,
-          "away_prob": 55.3,
-          "margin": 0.0,
-          "home_fav": false,
-          "locked": true,
-          "venue": "London Stadium",
-          "game_id": "epl_740955",
-          "draw_prob": 15.0
-        },
-        {
           "home": "Tottenham Hotspur",
           "away": "Leeds United",
           "date": "2026-05-11",
@@ -3890,20 +3876,6 @@
       ],
       "upcoming": [
         {
-          "home": "FC Cologne",
-          "away": "1. FC Heidenheim 1846",
-          "date": "2026-05-10",
-          "datetime": "2026-05-10T15:30Z",
-          "home_prob": 52.3,
-          "away_prob": 32.1,
-          "margin": 12.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "RheinEnergieStadion",
-          "game_id": "bundesliga_747006",
-          "draw_prob": 15.6
-        },
-        {
           "home": "Mainz",
           "away": "1. FC Union Berlin",
           "date": "2026-05-10",
@@ -3912,7 +3884,7 @@
           "away_prob": 33.3,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MEWA ARENA",
           "game_id": "bundesliga_747007",
           "draw_prob": 16.2
@@ -8235,7 +8207,7 @@
           "away_prob": 48.4,
           "margin": -1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815284",
           "draw_prob": null
@@ -8249,7 +8221,7 @@
           "away_prob": 43.6,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815285",
           "draw_prob": null
@@ -8263,7 +8235,7 @@
           "away_prob": 49.5,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815288",
           "draw_prob": null
@@ -8277,7 +8249,7 @@
           "away_prob": 39.9,
           "margin": 2.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815283",
           "draw_prob": null
@@ -8291,7 +8263,7 @@
           "away_prob": 48.9,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815286",
           "draw_prob": null
@@ -8305,7 +8277,7 @@
           "away_prob": 44.4,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815287",
           "draw_prob": null
@@ -8319,7 +8291,7 @@
           "away_prob": 49.0,
           "margin": 3.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815292",
           "draw_prob": null
@@ -8333,7 +8305,7 @@
           "away_prob": 51.0,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815293",
           "draw_prob": null
