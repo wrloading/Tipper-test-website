@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-11T21:03:26.544642+00:00",
+    "updated": "2026-05-11T22:20:18.765036+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2479,20 +2479,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Tottenham Hotspur",
-          "away": "Leeds United",
-          "date": "2026-05-11",
-          "datetime": "2026-05-11T19:00Z",
-          "home_prob": 57.9,
-          "away_prob": 27.9,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Tottenham Hotspur Stadium",
-          "game_id": "epl_740954",
-          "draw_prob": 14.2
-        },
         {
           "home": "Manchester City",
           "away": "Crystal Palace",
@@ -7711,7 +7697,7 @@
           "away_prob": 41.2,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815298",
           "draw_prob": null
@@ -8445,6 +8431,20 @@
           "draw_prob": null
         },
         {
+          "home": "Minnesota Twins",
+          "away": "Milwaukee Brewers",
+          "date": "2026-05-15",
+          "datetime": "2026-05-15T23:10Z",
+          "home_prob": 49.9,
+          "away_prob": 50.1,
+          "margin": 0.0,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Target Field",
+          "game_id": "mlb_401815354",
+          "draw_prob": null
+        },
+        {
           "home": "Atlanta Braves",
           "away": "Boston Red Sox",
           "date": "2026-05-15",
@@ -8470,20 +8470,6 @@
           "locked": false,
           "venue": "Rate Field",
           "game_id": "mlb_401815352",
-          "draw_prob": null
-        },
-        {
-          "home": "Minnesota Twins",
-          "away": "Milwaukee Brewers",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T00:10Z",
-          "home_prob": 49.9,
-          "away_prob": 50.1,
-          "margin": 0.0,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Target Field",
-          "game_id": "mlb_401815354",
           "draw_prob": null
         },
         {
