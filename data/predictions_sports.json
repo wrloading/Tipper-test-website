@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-11T15:41:47.113232+00:00",
+    "updated": "2026-05-11T17:46:32.235635+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3342,8 +3342,8 @@
         {
           "home": "Alav\u00e9s",
           "away": "Rayo Vallecano",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 52.1,
           "away_prob": 31.0,
           "margin": 12.9,
@@ -3356,8 +3356,8 @@
         {
           "home": "Celta Vigo",
           "away": "Sevilla",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 46.1,
           "away_prob": 34.8,
           "margin": 0.6,
@@ -3370,8 +3370,8 @@
         {
           "home": "Espanyol",
           "away": "Real Sociedad",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 40.9,
           "away_prob": 38.0,
           "margin": -0.0,
@@ -3384,8 +3384,8 @@
         {
           "home": "Getafe",
           "away": "Osasuna",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 46.6,
           "away_prob": 34.5,
           "margin": 0.3,
@@ -3398,8 +3398,8 @@
         {
           "home": "Girona",
           "away": "Elche",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 70.1,
           "away_prob": 18.9,
           "margin": 0.7,
@@ -3412,8 +3412,8 @@
         {
           "home": "Mallorca",
           "away": "Real Oviedo",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 49.4,
           "away_prob": 32.8,
           "margin": 0.3,
@@ -3426,8 +3426,8 @@
         {
           "home": "Real Betis",
           "away": "Levante",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 64.7,
           "away_prob": 22.6,
           "margin": 1.4,
@@ -3440,8 +3440,8 @@
         {
           "home": "Real Madrid",
           "away": "Athletic Club",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 71.8,
           "away_prob": 17.7,
           "margin": 0.8,
@@ -3454,8 +3454,8 @@
         {
           "home": "Valencia",
           "away": "Barcelona",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "date": "2026-05-23",
+          "datetime": "2026-05-23T19:00Z",
           "home_prob": 27.0,
           "away_prob": 58.2,
           "margin": -0.0,
@@ -3469,7 +3469,7 @@
           "home": "Villarreal",
           "away": "Atl\u00e9tico Madrid",
           "date": "2026-05-24",
-          "datetime": "2026-05-24T18:00Z",
+          "datetime": "2026-05-24T19:00Z",
           "home_prob": 62.7,
           "away_prob": 23.9,
           "margin": 1.0,
