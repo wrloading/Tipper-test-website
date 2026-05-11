@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-11T19:23:06.310569+00:00",
+    "updated": "2026-05-11T21:03:26.544642+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3046,20 +3046,6 @@
       ],
       "upcoming": [
         {
-          "home": "Rayo Vallecano",
-          "away": "Girona",
-          "date": "2026-05-11",
-          "datetime": "2026-05-11T19:00Z",
-          "home_prob": 40.4,
-          "away_prob": 38.3,
-          "margin": 0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Estadio de Vallecas",
-          "game_id": "laliga_748489",
-          "draw_prob": 21.3
-        },
-        {
           "home": "Celta Vigo",
           "away": "Levante",
           "date": "2026-05-12",
@@ -4106,20 +4092,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Napoli",
-          "away": "Bologna",
-          "date": "2026-05-11",
-          "datetime": "2026-05-11T18:45Z",
-          "home_prob": 57.0,
-          "away_prob": 27.5,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stadio Diego Armando Maradona",
-          "game_id": "seriea_737135",
-          "draw_prob": 15.6
-        },
         {
           "home": "AS Roma",
           "away": "Lazio",
