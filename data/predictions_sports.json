@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-12T17:35:15.158692+00:00",
+    "updated": "2026-05-12T19:24:33.237083+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3042,20 +3042,6 @@
       ],
       "upcoming": [
         {
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "datetime": "2026-05-12T17:00Z",
-          "home_prob": 51.5,
-          "away_prob": 31.4,
-          "margin": 1.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Balaidos",
-          "game_id": "laliga_748500",
-          "draw_prob": 17.1
-        },
-        {
           "home": "Real Betis",
           "away": "Elche",
           "date": "2026-05-12",
@@ -3064,7 +3050,7 @@
           "away_prob": 20.1,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio La Cartuja",
           "game_id": "laliga_748499",
           "draw_prob": 11.6
