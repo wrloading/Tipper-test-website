@@ -2,8 +2,8 @@
   "sport": "nba",
   "current_season": 2026,
   "ratings": {
+    "Oklahoma City Thunder": 1759.98,
     "New York Knicks": 1747.07,
-    "Oklahoma City Thunder": 1746.05,
     "Boston Celtics": 1655.46,
     "Minnesota Timberwolves": 1653.64,
     "Denver Nuggets": 1646.69,
@@ -12,7 +12,7 @@
     "New Orleans Pelicans": 1583.27,
     "San Antonio Spurs": 1574.54,
     "Philadelphia 76ers": 1571.67,
-    "Los Angeles Lakers": 1567.31,
+    "Los Angeles Lakers": 1553.38,
     "Indiana Pacers": 1527.26,
     "Phoenix Suns": 1519.22,
     "Cleveland Cavaliers": 1511.83,
