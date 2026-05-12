@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-12T21:04:30.896996+00:00",
+    "updated": "2026-05-12T22:37:45.740789+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -718,24 +718,10 @@
           "draw_prob": null
         },
         {
-          "home": "Minnesota Timberwolves",
-          "away": "San Antonio Spurs",
-          "date": "2026-05-15",
-          "datetime": "2026-05-15T04:00Z",
-          "home_prob": 73.7,
-          "away_prob": 26.3,
-          "margin": 0.0,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Target Center",
-          "game_id": "nba_401871157",
-          "draw_prob": null
-        },
-        {
           "home": "Cleveland Cavaliers",
           "away": "Detroit Pistons",
           "date": "2026-05-15",
-          "datetime": "2026-05-15T04:00Z",
+          "datetime": "2026-05-15T23:00Z",
           "home_prob": 67.0,
           "away_prob": 33.0,
           "margin": 3.1,
@@ -743,6 +729,20 @@
           "locked": false,
           "venue": "Rocket Arena",
           "game_id": "nba_401871338",
+          "draw_prob": null
+        },
+        {
+          "home": "Minnesota Timberwolves",
+          "away": "San Antonio Spurs",
+          "date": "2026-05-16",
+          "datetime": "2026-05-16T01:30Z",
+          "home_prob": 73.7,
+          "away_prob": 26.3,
+          "margin": 0.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Target Center",
+          "game_id": "nba_401871157",
           "draw_prob": null
         },
         {
@@ -3041,20 +3041,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Osasuna",
-          "away": "Atl\u00e9tico Madrid",
-          "date": "2026-05-12",
-          "datetime": "2026-05-12T19:30Z",
-          "home_prob": 46.6,
-          "away_prob": 34.5,
-          "margin": 0.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "El Sadar",
-          "game_id": "laliga_748494",
-          "draw_prob": 18.9
-        },
         {
           "home": "Espanyol",
           "away": "Athletic Club",
@@ -8029,7 +8015,7 @@
           "away_prob": 40.3,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815304",
           "draw_prob": null
@@ -8043,7 +8029,7 @@
           "away_prob": 50.7,
           "margin": 0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815308",
           "draw_prob": null
@@ -8231,6 +8217,20 @@
           "draw_prob": null
         },
         {
+          "home": "Baltimore Orioles",
+          "away": "New York Yankees",
+          "date": "2026-05-13",
+          "datetime": "2026-05-13T17:05Z",
+          "home_prob": 49.3,
+          "away_prob": 50.7,
+          "margin": 0.6,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Oriole Park at Camden Yards",
+          "game_id": "mlb_401815323",
+          "draw_prob": null
+        },
+        {
           "home": "Cleveland Guardians",
           "away": "Los Angeles Angels",
           "date": "2026-05-13",
@@ -8242,20 +8242,6 @@
           "locked": false,
           "venue": "Progressive Field",
           "game_id": "mlb_401815319",
-          "draw_prob": null
-        },
-        {
-          "home": "Baltimore Orioles",
-          "away": "New York Yankees",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T22:35Z",
-          "home_prob": 49.3,
-          "away_prob": 50.7,
-          "margin": 0.6,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Oriole Park at Camden Yards",
-          "game_id": "mlb_401815323",
           "draw_prob": null
         },
         {
