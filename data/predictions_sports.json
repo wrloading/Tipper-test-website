@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-12T22:37:45.740789+00:00",
+    "updated": "2026-05-12T23:44:08.786829+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8043,7 +8043,7 @@
           "away_prob": 44.8,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815306",
           "draw_prob": null
@@ -8057,7 +8057,7 @@
           "away_prob": 44.6,
           "margin": 4.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815311",
           "draw_prob": null
@@ -8071,7 +8071,7 @@
           "away_prob": 46.7,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815309",
           "draw_prob": null
@@ -8085,7 +8085,7 @@
           "away_prob": 51.2,
           "margin": 0.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815310",
           "draw_prob": null
@@ -8099,7 +8099,7 @@
           "away_prob": 51.3,
           "margin": 4.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815307",
           "draw_prob": null
@@ -8113,7 +8113,7 @@
           "away_prob": 44.9,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815305",
           "draw_prob": null
@@ -8127,7 +8127,7 @@
           "away_prob": 49.1,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815313",
           "draw_prob": null
@@ -8141,7 +8141,7 @@
           "away_prob": 42.9,
           "margin": -2.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815314",
           "draw_prob": null
@@ -8155,7 +8155,7 @@
           "away_prob": 46.3,
           "margin": 4.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815315",
           "draw_prob": null
@@ -12823,7 +12823,7 @@
           "away_prob": 44.3,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Bell Centre",
           "game_id": "nhl_401871407",
           "draw_prob": null

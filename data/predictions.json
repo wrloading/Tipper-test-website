@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T08:37:17.509700+10:00",
+    "updated": "2026-05-13T09:43:40.186344+10:00",
     "year": 2026,
     "current_round": 10,
     "model": "TELO v2.0",
@@ -121312,8 +121312,8 @@
       "percentage": 131.6,
       "points_for": 846,
       "points_against": 643,
-      "finals_pct": 100.0,
-      "premiers_pct": 27.0
+      "finals_pct": 99.9,
+      "premiers_pct": 27.3
     },
     {
       "team": "Sydney",
@@ -121326,7 +121326,7 @@
       "points_for": 1050,
       "points_against": 668,
       "finals_pct": 99.9,
-      "premiers_pct": 21.9
+      "premiers_pct": 21.8
     },
     {
       "team": "Hawthorn",
@@ -121339,7 +121339,7 @@
       "points_for": 902,
       "points_against": 772,
       "finals_pct": 98.5,
-      "premiers_pct": 17.2
+      "premiers_pct": 17.1
     },
     {
       "team": "Brisbane Lions",
@@ -121351,7 +121351,7 @@
       "percentage": 124.5,
       "points_for": 962,
       "points_against": 773,
-      "finals_pct": 96.0,
+      "finals_pct": 95.9,
       "premiers_pct": 13.9
     },
     {
@@ -121364,8 +121364,8 @@
       "percentage": 120.4,
       "points_for": 913,
       "points_against": 758,
-      "finals_pct": 91.9,
-      "premiers_pct": 9.4
+      "finals_pct": 92.0,
+      "premiers_pct": 9.3
     },
     {
       "team": "Gold Coast",
@@ -121377,7 +121377,7 @@
       "percentage": 118.5,
       "points_for": 895,
       "points_against": 755,
-      "finals_pct": 74.8,
+      "finals_pct": 75.0,
       "premiers_pct": 3.5
     },
     {
@@ -121390,8 +121390,8 @@
       "percentage": 101.7,
       "points_for": 783,
       "points_against": 770,
-      "finals_pct": 67.7,
-      "premiers_pct": 2.6
+      "finals_pct": 67.9,
+      "premiers_pct": 2.7
     },
     {
       "team": "Western Bulldogs",
@@ -121403,8 +121403,8 @@
       "percentage": 92.4,
       "points_for": 794,
       "points_against": 859,
-      "finals_pct": 68.2,
-      "premiers_pct": 2.6
+      "finals_pct": 67.7,
+      "premiers_pct": 2.5
     },
     {
       "team": "Collingwood",
@@ -121429,7 +121429,7 @@
       "percentage": 91.1,
       "points_for": 771,
       "points_against": 846,
-      "finals_pct": 18.7,
+      "finals_pct": 18.8,
       "premiers_pct": 0.3
     },
     {
@@ -121442,7 +121442,7 @@
       "percentage": 103.9,
       "points_for": 910,
       "points_against": 876,
-      "finals_pct": 34.9,
+      "finals_pct": 34.6,
       "premiers_pct": 0.5
     },
     {
@@ -121468,7 +121468,7 @@
       "percentage": 109.5,
       "points_for": 775,
       "points_against": 708,
-      "finals_pct": 0.5,
+      "finals_pct": 0.6,
       "premiers_pct": 0.0
     },
     {
