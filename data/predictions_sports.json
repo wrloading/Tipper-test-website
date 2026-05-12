@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-12T08:06:45.073729+00:00",
+    "updated": "2026-05-12T10:44:00.243129+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -704,24 +704,10 @@
           "draw_prob": null
         },
         {
-          "home": "Oklahoma City Thunder",
-          "away": "Los Angeles Lakers",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T04:00Z",
-          "home_prob": 85.4,
-          "away_prob": 14.6,
-          "margin": 0.2,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Paycom Center",
-          "game_id": "nba_401871330",
-          "draw_prob": null
-        },
-        {
           "home": "Detroit Pistons",
           "away": "Cleveland Cavaliers",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T04:00Z",
+          "date": "2026-05-14",
+          "datetime": "2026-05-14T00:00Z",
           "home_prob": 60.9,
           "away_prob": 39.1,
           "margin": 0.3,
@@ -760,20 +746,6 @@
           "draw_prob": null
         },
         {
-          "home": "Los Angeles Lakers",
-          "away": "Oklahoma City Thunder",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T04:00Z",
-          "home_prob": 35.1,
-          "away_prob": 64.9,
-          "margin": -5.3,
-          "home_fav": false,
-          "locked": false,
-          "venue": "crypto.com Arena",
-          "game_id": "nba_401871331",
-          "draw_prob": null
-        },
-        {
           "home": "San Antonio Spurs",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-17",
@@ -799,20 +771,6 @@
           "locked": false,
           "venue": "Little Caesars Arena",
           "game_id": "nba_401871339",
-          "draw_prob": null
-        },
-        {
-          "home": "Oklahoma City Thunder",
-          "away": "Los Angeles Lakers",
-          "date": "2026-05-18",
-          "datetime": "2026-05-18T04:00Z",
-          "home_prob": 85.4,
-          "away_prob": 14.6,
-          "margin": 0.2,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Paycom Center",
-          "game_id": "nba_401871332",
           "draw_prob": null
         }
       ],
@@ -7950,7 +7908,7 @@
         },
         {
           "team": "Los Angeles Dodgers",
-          "rating": 1537.4,
+          "rating": 1537.5,
           "rank": 3
         },
         {
