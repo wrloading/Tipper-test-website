@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T20:19:40.515766+00:00",
+    "updated": "2026-05-13T21:54:54.098177+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2424,20 +2424,6 @@
       ],
       "upcoming": [
         {
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T19:00Z",
-          "home_prob": 81.9,
-          "away_prob": 11.1,
-          "margin": 1.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Etihad Stadium",
-          "game_id": "epl_740902",
-          "draw_prob": 7.0
-        },
-        {
           "home": "Aston Villa",
           "away": "Liverpool",
           "date": "2026-05-15",
@@ -3065,34 +3051,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Alav\u00e9s",
-          "away": "Barcelona",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T19:30Z",
-          "home_prob": 27.9,
-          "away_prob": 56.9,
-          "margin": 0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Mendizorrotza",
-          "game_id": "laliga_748498",
-          "draw_prob": 15.2
-        },
-        {
-          "home": "Getafe",
-          "away": "Mallorca",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T19:30Z",
-          "home_prob": 44.6,
-          "away_prob": 35.8,
-          "margin": 0.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Estadio Coliseum",
-          "game_id": "laliga_748496",
-          "draw_prob": 19.6
-        },
         {
           "home": "Valencia",
           "away": "Rayo Vallecano",
@@ -4850,20 +4808,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Lens",
-          "away": "Paris Saint-Germain",
-          "date": "2026-05-13",
-          "datetime": "2026-05-13T19:00Z",
-          "home_prob": 35.7,
-          "away_prob": 45.5,
-          "margin": 0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stade Bollaert-Delelis",
-          "game_id": "ligue1_746666",
-          "draw_prob": 18.8
-        },
         {
           "home": "Brest",
           "away": "Angers",
