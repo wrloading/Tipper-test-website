@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T05:36:14.480842+00:00",
+    "updated": "2026-05-13T08:26:54.560162+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1062,7 +1062,7 @@
         },
         {
           "team": "Minnesota Lynx",
-          "rating": 1612.1,
+          "rating": 1612.0,
           "rank": 2
         },
         {
@@ -7980,7 +7980,7 @@
         },
         {
           "team": "Pittsburgh Pirates",
-          "rating": 1490.4,
+          "rating": 1490.5,
           "rank": 21
         },
         {
@@ -8122,7 +8122,7 @@
           "home_prob": 50.0,
           "away_prob": 50.0,
           "margin": -4.1,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "venue": "Citi Field",
           "game_id": "mlb_401815322",
@@ -8276,7 +8276,7 @@
           "home_prob": 50.0,
           "away_prob": 50.0,
           "margin": -4.1,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "venue": "Citi Field",
           "game_id": "mlb_401815336",
