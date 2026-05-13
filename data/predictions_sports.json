@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T16:07:55.267343+00:00",
+    "updated": "2026-05-13T18:18:42.021525+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3074,7 +3074,7 @@
           "away_prob": 48.8,
           "margin": -0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "RCDE Stadium",
           "game_id": "laliga_748497",
           "draw_prob": 18.1
@@ -3088,7 +3088,7 @@
           "away_prob": 24.5,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio de la Cer\u00e1mica",
           "game_id": "laliga_748501",
           "draw_prob": 13.6
@@ -4887,7 +4887,7 @@
           "away_prob": 24.3,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stade Francis-Le Bl\u00e9",
           "game_id": "ligue1_746665",
           "draw_prob": 13.0
@@ -8039,7 +8039,7 @@
           "away_prob": 51.6,
           "margin": 3.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815323",
           "draw_prob": null
@@ -8053,7 +8053,7 @@
           "away_prob": 40.0,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815319",
           "draw_prob": null
