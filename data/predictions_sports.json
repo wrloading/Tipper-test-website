@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T08:26:54.560162+00:00",
+    "updated": "2026-05-13T11:09:36.668943+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3192,20 +3192,6 @@
           "draw_prob": 21.3
         },
         {
-          "home": "Barcelona",
-          "away": "Real Betis",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T17:00Z",
-          "home_prob": 71.3,
-          "away_prob": 18.0,
-          "margin": 1.0,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Spotify Camp Nou",
-          "game_id": "laliga_748508",
-          "draw_prob": 10.7
-        },
-        {
           "home": "Elche",
           "away": "Getafe",
           "date": "2026-05-17",
@@ -3302,6 +3288,20 @@
           "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
           "game_id": "laliga_748504",
           "draw_prob": 14.8
+        },
+        {
+          "home": "Barcelona",
+          "away": "Real Betis",
+          "date": "2026-05-17",
+          "datetime": "2026-05-17T19:15Z",
+          "home_prob": 71.3,
+          "away_prob": 18.0,
+          "margin": 1.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Spotify Camp Nou",
+          "game_id": "laliga_748508",
+          "draw_prob": 10.7
         },
         {
           "home": "Alav\u00e9s",
