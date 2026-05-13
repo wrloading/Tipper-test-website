@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-13T21:54:54.098177+00:00",
+    "updated": "2026-05-13T23:08:17.616501+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1131,7 +1131,7 @@
           "away_prob": 45.0,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Coca-Cola Coliseum",
           "game_id": "wnba_401856904",
           "draw_prob": null
@@ -7941,7 +7941,7 @@
           "away_prob": 44.2,
           "margin": -3.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815321",
           "draw_prob": null
@@ -7955,7 +7955,7 @@
           "away_prob": 45.8,
           "margin": -8.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815326",
           "draw_prob": null
@@ -7969,7 +7969,7 @@
           "away_prob": 47.1,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815324",
           "draw_prob": null
@@ -7983,7 +7983,7 @@
           "away_prob": 51.6,
           "margin": 3.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815325",
           "draw_prob": null
