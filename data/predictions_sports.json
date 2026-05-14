@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-14T14:43:38.545582+00:00",
+    "updated": "2026-05-14T16:35:54.043802+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Brisbane Lions",
-          "away": "Geelong",
-          "date": "2026-05-14",
-          "datetime": "2026-05-14T09:30Z",
-          "home_prob": 74.7,
-          "away_prob": 25.3,
-          "margin": 28.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gabba",
-          "game_id": "afl_1133564",
-          "draw_prob": null
-        },
         {
           "home": "Sydney",
           "away": "Collingwood",
@@ -7723,7 +7709,7 @@
           "away_prob": 45.4,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815335",
           "draw_prob": null
@@ -9857,6 +9843,20 @@
           "draw_prob": null
         },
         {
+          "home": "Pittsburgh Pirates",
+          "away": "Chicago Cubs",
+          "date": "2026-05-25",
+          "datetime": "2026-05-25T17:35Z",
+          "home_prob": 45.9,
+          "away_prob": 54.1,
+          "margin": -3.3,
+          "home_fav": false,
+          "locked": false,
+          "venue": "PNC Park",
+          "game_id": "mlb_401815486",
+          "draw_prob": null
+        },
+        {
           "home": "Chicago White Sox",
           "away": "Minnesota Twins",
           "date": "2026-05-25",
@@ -9938,20 +9938,6 @@
           "locked": false,
           "venue": "Progressive Field",
           "game_id": "mlb_401815490",
-          "draw_prob": null
-        },
-        {
-          "home": "Pittsburgh Pirates",
-          "away": "Chicago Cubs",
-          "date": "2026-05-25",
-          "datetime": "2026-05-25T22:40Z",
-          "home_prob": 45.9,
-          "away_prob": 54.1,
-          "margin": -3.3,
-          "home_fav": false,
-          "locked": false,
-          "venue": "PNC Park",
-          "game_id": "mlb_401815486",
           "draw_prob": null
         },
         {
