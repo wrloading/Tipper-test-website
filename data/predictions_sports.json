@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-14T22:43:08.616861+00:00",
+    "updated": "2026-05-14T23:40:58.495385+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7789,20 +7789,6 @@
       ],
       "upcoming": [
         {
-          "home": "Athletics",
-          "away": "St. Louis Cardinals",
-          "date": "2026-05-14",
-          "datetime": "2026-05-14T19:05Z",
-          "home_prob": 53.2,
-          "away_prob": 46.8,
-          "margin": -0.7,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Sutter Health Park",
-          "game_id": "mlb_401815344",
-          "draw_prob": null
-        },
-        {
           "home": "Boston Red Sox",
           "away": "Philadelphia Phillies",
           "date": "2026-05-14",
@@ -7811,7 +7797,7 @@
           "away_prob": 46.5,
           "margin": 0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815337",
           "draw_prob": null
@@ -7825,7 +7811,7 @@
           "away_prob": 43.5,
           "margin": -2.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815334",
           "draw_prob": null
@@ -7839,7 +7825,7 @@
           "away_prob": 48.3,
           "margin": -0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815339",
           "draw_prob": null
@@ -12611,7 +12597,7 @@
           "away_prob": 37.8,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "KeyBank Center",
           "game_id": "nhl_401871408",
           "draw_prob": null
