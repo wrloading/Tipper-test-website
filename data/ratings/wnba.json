@@ -2,8 +2,8 @@
   "sport": "wnba",
   "current_season": 2026,
   "ratings": {
-    "New York Liberty": 1692.75,
-    "Minnesota Lynx": 1612.05,
+    "New York Liberty": 1714.41,
+    "Minnesota Lynx": 1625.38,
     "Las Vegas Aces": 1582.5,
     "Indiana Fever": 1552.29,
     "Golden State Valkyries": 1528.14,
@@ -17,10 +17,10 @@
     "Chicago Sky": 1490.39,
     "Phoenix Mercury": 1477.23,
     "Team USA": 1476.17,
-    "Portland Fire": 1470.89,
+    "Portland Fire": 1449.23,
     "Atlanta Dream": 1440.94,
-    "Dallas Wings": 1420.71,
     "Washington Mystics": 1415.71,
+    "Dallas Wings": 1407.38,
     "Los Angeles Sparks": 1322.04
   }
 }
