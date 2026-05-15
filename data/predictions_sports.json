@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T21:43:51.271083+00:00",
+    "updated": "2026-05-15T22:41:11.784328+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7773,7 +7773,7 @@
           "away_prob": 48.8,
           "margin": 2.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815350",
           "draw_prob": null
@@ -7787,7 +7787,7 @@
           "away_prob": 46.1,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815351",
           "draw_prob": null
