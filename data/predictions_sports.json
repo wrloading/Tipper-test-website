@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T08:32:24.284575+00:00",
+    "updated": "2026-05-15T11:08:20.303104+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 17.6,
           "margin": 23.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "SCG",
           "game_id": "afl_1133565",
           "draw_prob": null
@@ -122,7 +122,7 @@
           "away_prob": 39.1,
           "margin": 29.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "TIO Stadium",
           "game_id": "afl_1133566",
           "draw_prob": null
@@ -229,7 +229,7 @@
           "home": "Richmond",
           "away": "Essendon",
           "date": "2026-05-22",
-          "datetime": "2026-05-22T09:40Z",
+          "datetime": "2026-05-22T09:45Z",
           "home_prob": 38.1,
           "away_prob": 61.9,
           "margin": 7.0,
@@ -5867,7 +5867,7 @@
           "away_prob": 44.5,
           "margin": -5.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Hindmarsh Stadium",
           "game_id": "aleague_401870492",
           "draw_prob": 19.1
