@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T17:17:33.497364+00:00",
+    "updated": "2026-05-15T19:08:48.171676+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2400,7 +2400,7 @@
           "away_prob": 46.5,
           "margin": -0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Villa Park",
           "game_id": "epl_740957",
           "draw_prob": 18.0
