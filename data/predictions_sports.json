@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T22:41:11.784328+00:00",
+    "updated": "2026-05-15T23:40:55.643074+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -670,7 +670,7 @@
           "away_prob": 28.2,
           "margin": 4.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rocket Arena",
           "game_id": "nba_401871338",
           "draw_prob": null
@@ -1039,7 +1039,7 @@
           "away_prob": 49.9,
           "margin": -18.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Mohegan Sun Arena",
           "game_id": "wnba_401856910",
           "draw_prob": null
@@ -1053,7 +1053,7 @@
           "away_prob": 22.3,
           "margin": 9.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gainbridge Fieldhouse",
           "game_id": "wnba_401856911",
           "draw_prob": null
@@ -7801,7 +7801,7 @@
           "away_prob": 50.6,
           "margin": 0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815345",
           "draw_prob": null
@@ -7815,7 +7815,7 @@
           "away_prob": 43.1,
           "margin": 4.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815347",
           "draw_prob": null
@@ -7829,7 +7829,7 @@
           "away_prob": 36.8,
           "margin": 2.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815348",
           "draw_prob": null
@@ -7843,7 +7843,7 @@
           "away_prob": 50.2,
           "margin": -3.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815354",
           "draw_prob": null
@@ -7857,7 +7857,7 @@
           "away_prob": 51.8,
           "margin": 5.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815349",
           "draw_prob": null
@@ -7871,7 +7871,7 @@
           "away_prob": 38.6,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815346",
           "draw_prob": null
@@ -7885,7 +7885,7 @@
           "away_prob": 54.3,
           "margin": -2.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815352",
           "draw_prob": null
