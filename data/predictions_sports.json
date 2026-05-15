@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T05:42:15.018272+00:00",
+    "updated": "2026-05-15T08:32:24.284575+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7740,7 +7740,7 @@
         },
         {
           "team": "Boston Red Sox",
-          "rating": 1500.9,
+          "rating": 1501.0,
           "rank": 15
         },
         {
@@ -9795,20 +9795,6 @@
           "draw_prob": null
         },
         {
-          "home": "Baltimore Orioles",
-          "away": "Tampa Bay Rays",
-          "date": "2026-05-25",
-          "datetime": "2026-05-25T17:35Z",
-          "home_prob": 48.9,
-          "away_prob": 51.1,
-          "margin": -1.8,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Oriole Park at Camden Yards",
-          "game_id": "mlb_401815489",
-          "draw_prob": null
-        },
-        {
           "home": "Pittsburgh Pirates",
           "away": "Chicago Cubs",
           "date": "2026-05-25",
@@ -9820,6 +9806,20 @@
           "locked": false,
           "venue": "PNC Park",
           "game_id": "mlb_401815486",
+          "draw_prob": null
+        },
+        {
+          "home": "Baltimore Orioles",
+          "away": "Tampa Bay Rays",
+          "date": "2026-05-25",
+          "datetime": "2026-05-25T17:35Z",
+          "home_prob": 48.9,
+          "away_prob": 51.1,
+          "margin": -1.8,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Oriole Park at Camden Yards",
+          "game_id": "mlb_401815489",
           "draw_prob": null
         },
         {
