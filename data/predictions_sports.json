@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-15T20:37:11.429002+00:00",
+    "updated": "2026-05-15T21:43:51.271083+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2391,20 +2391,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Aston Villa",
-          "away": "Liverpool",
-          "date": "2026-05-15",
-          "datetime": "2026-05-15T19:00Z",
-          "home_prob": 35.4,
-          "away_prob": 46.5,
-          "margin": -0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Villa Park",
-          "game_id": "epl_740957",
-          "draw_prob": 18.0
-        },
         {
           "home": "Manchester United",
           "away": "Nottingham Forest",
