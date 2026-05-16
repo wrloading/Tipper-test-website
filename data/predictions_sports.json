@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T15:36:04.007179+00:00",
+    "updated": "2026-05-16T16:40:13.710285+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Carlton",
-          "away": "Western Bulldogs",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T09:35Z",
-          "home_prob": 41.9,
-          "away_prob": 58.1,
-          "margin": 0.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133569",
-          "draw_prob": null
-        },
         {
           "home": "Essendon",
           "away": "Fremantle",
@@ -3790,134 +3776,7 @@
           "rank": 26
         }
       ],
-      "upcoming": [
-        {
-          "home": "1. FC Heidenheim 1846",
-          "away": "Mainz",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 56.2,
-          "away_prob": 29.5,
-          "margin": -0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Voith-Arena",
-          "game_id": "bundesliga_747015",
-          "draw_prob": 14.4
-        },
-        {
-          "home": "1. FC Union Berlin",
-          "away": "FC Augsburg",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 52.3,
-          "away_prob": 32.1,
-          "margin": 12.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stadion An der Alten F\u00f6rsterei",
-          "game_id": "bundesliga_747016",
-          "draw_prob": 15.6
-        },
-        {
-          "home": "Bayer Leverkusen",
-          "away": "Hamburg SV",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 76.5,
-          "away_prob": 15.1,
-          "margin": 0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "BayArena",
-          "game_id": "bundesliga_747017",
-          "draw_prob": 8.4
-        },
-        {
-          "home": "Bayern Munich",
-          "away": "FC Cologne",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 75.8,
-          "away_prob": 15.6,
-          "margin": 1.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Allianz Arena",
-          "game_id": "bundesliga_747020",
-          "draw_prob": 8.6
-        },
-        {
-          "home": "Borussia M\u00f6nchengladbach",
-          "away": "TSG Hoffenheim",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 52.3,
-          "away_prob": 32.1,
-          "margin": 12.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "BORUSSIA-PARK",
-          "game_id": "bundesliga_747018",
-          "draw_prob": 15.6
-        },
-        {
-          "home": "Eintracht Frankfurt",
-          "away": "VfB Stuttgart",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 56.4,
-          "away_prob": 29.3,
-          "margin": 0.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Deutsche Bank Park",
-          "game_id": "bundesliga_747023",
-          "draw_prob": 14.3
-        },
-        {
-          "home": "SC Freiburg",
-          "away": "RB Leipzig",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 32.9,
-          "away_prob": 51.1,
-          "margin": 0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Europa-Park Stadion",
-          "game_id": "bundesliga_747019",
-          "draw_prob": 16.0
-        },
-        {
-          "home": "St. Pauli",
-          "away": "VfL Wolfsburg",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 52.3,
-          "away_prob": 32.1,
-          "margin": 12.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Millerntor-Stadion",
-          "game_id": "bundesliga_747021",
-          "draw_prob": 15.6
-        },
-        {
-          "home": "Werder Bremen",
-          "away": "Borussia Dortmund",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T13:30Z",
-          "home_prob": 31.7,
-          "away_prob": 52.9,
-          "margin": 0.2,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Weserstadion",
-          "game_id": "bundesliga_747022",
-          "draw_prob": 15.4
-        }
-      ],
+      "upcoming": [],
       "recent": [
         {
           "home": "Bayern Munich",
@@ -5863,22 +5722,7 @@
           "rank": 13
         }
       ],
-      "upcoming": [
-        {
-          "home": "Newcastle Jets",
-          "away": "Sydney FC",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T09:40Z",
-          "home_prob": 38.7,
-          "away_prob": 40.5,
-          "margin": -1.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "McDonald Jones Stadium",
-          "game_id": "aleague_401870493",
-          "draw_prob": 20.8
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "ucl": {
