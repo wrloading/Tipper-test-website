@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T14:24:23.371611+00:00",
+    "updated": "2026-05-16T15:36:04.007179+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,6 +99,20 @@
         }
       ],
       "upcoming": [
+        {
+          "home": "Carlton",
+          "away": "Western Bulldogs",
+          "date": "2026-05-16",
+          "datetime": "2026-05-16T09:35Z",
+          "home_prob": 41.9,
+          "away_prob": 58.1,
+          "margin": 0.8,
+          "home_fav": false,
+          "locked": true,
+          "venue": "Marvel Stadium",
+          "game_id": "afl_1133569",
+          "draw_prob": null
+        },
         {
           "home": "Essendon",
           "away": "Fremantle",
@@ -5849,7 +5863,22 @@
           "rank": 13
         }
       ],
-      "upcoming": [],
+      "upcoming": [
+        {
+          "home": "Newcastle Jets",
+          "away": "Sydney FC",
+          "date": "2026-05-16",
+          "datetime": "2026-05-16T09:40Z",
+          "home_prob": 38.7,
+          "away_prob": 40.5,
+          "margin": -1.1,
+          "home_fav": false,
+          "locked": true,
+          "venue": "McDonald Jones Stadium",
+          "game_id": "aleague_401870493",
+          "draw_prob": 20.8
+        }
+      ],
       "recent": []
     },
     "ucl": {
