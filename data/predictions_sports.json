@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T17:43:00.076275+00:00",
+    "updated": "2026-05-16T18:43:09.486975+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5722,22 +5722,7 @@
           "rank": 13
         }
       ],
-      "upcoming": [
-        {
-          "home": "Auckland FC",
-          "away": "Sydney FC",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T08:10Z",
-          "home_prob": 58.6,
-          "away_prob": 27.4,
-          "margin": 18.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Go Media Stadium",
-          "game_id": "aleague_401873206",
-          "draw_prob": 14.0
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "ucl": {
@@ -7709,7 +7694,7 @@
           "away_prob": 44.2,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815368",
           "draw_prob": null
