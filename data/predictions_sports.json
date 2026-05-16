@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T04:56:12.443836+00:00",
+    "updated": "2026-05-16T07:18:37.769047+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 65.4,
           "margin": 15.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133568",
           "draw_prob": null
@@ -676,20 +676,6 @@
       ],
       "upcoming": [
         {
-          "home": "San Antonio Spurs",
-          "away": "Minnesota Timberwolves",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T04:00Z",
-          "home_prob": 71.2,
-          "away_prob": 28.8,
-          "margin": 10.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Frost Bank Center",
-          "game_id": "nba_401871158",
-          "draw_prob": null
-        },
-        {
           "home": "Detroit Pistons",
           "away": "Cleveland Cavaliers",
           "date": "2026-05-18",
@@ -847,7 +833,7 @@
           "home": "San Antonio Spurs",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-05",
-          "home_prob": 71.2,
+          "home_prob": 71.3,
           "winner": "Minnesota Timberwolves",
           "home_score": 102,
           "away_score": 104,
@@ -887,7 +873,7 @@
           "home": "San Antonio Spurs",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-07",
-          "home_prob": 71.2,
+          "home_prob": 71.3,
           "winner": "San Antonio Spurs",
           "home_score": 133,
           "away_score": 95,
@@ -997,7 +983,7 @@
           "home": "San Antonio Spurs",
           "away": "Minnesota Timberwolves",
           "date": "2026-05-13",
-          "home_prob": 71.2,
+          "home_prob": 71.3,
           "winner": "San Antonio Spurs",
           "home_score": 126,
           "away_score": 97,
@@ -7737,7 +7723,7 @@
         },
         {
           "team": "Los Angeles Dodgers",
-          "rating": 1541.4,
+          "rating": 1541.3,
           "rank": 3
         },
         {
@@ -7817,7 +7803,7 @@
         },
         {
           "team": "Kansas City Royals",
-          "rating": 1492.1,
+          "rating": 1492.2,
           "rank": 19
         },
         {
