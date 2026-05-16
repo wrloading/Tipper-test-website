@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T12:47:22.344224+00:00",
+    "updated": "2026-05-16T14:24:23.371611+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Carlton",
-          "away": "Western Bulldogs",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T09:35Z",
-          "home_prob": 41.9,
-          "away_prob": 58.1,
-          "margin": 0.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133569",
-          "draw_prob": null
-        },
         {
           "home": "Essendon",
           "away": "Fremantle",
@@ -3800,7 +3786,7 @@
           "away_prob": 29.5,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Voith-Arena",
           "game_id": "bundesliga_747015",
           "draw_prob": 14.4
@@ -3814,7 +3800,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadion An der Alten F\u00f6rsterei",
           "game_id": "bundesliga_747016",
           "draw_prob": 15.6
@@ -3828,7 +3814,7 @@
           "away_prob": 15.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "BayArena",
           "game_id": "bundesliga_747017",
           "draw_prob": 8.4
@@ -3842,7 +3828,7 @@
           "away_prob": 15.6,
           "margin": 1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Allianz Arena",
           "game_id": "bundesliga_747020",
           "draw_prob": 8.6
@@ -3856,7 +3842,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "BORUSSIA-PARK",
           "game_id": "bundesliga_747018",
           "draw_prob": 15.6
@@ -3870,7 +3856,7 @@
           "away_prob": 29.3,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Deutsche Bank Park",
           "game_id": "bundesliga_747023",
           "draw_prob": 14.3
@@ -3884,7 +3870,7 @@
           "away_prob": 51.1,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Europa-Park Stadion",
           "game_id": "bundesliga_747019",
           "draw_prob": 16.0
@@ -3898,7 +3884,7 @@
           "away_prob": 32.1,
           "margin": 12.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Millerntor-Stadion",
           "game_id": "bundesliga_747021",
           "draw_prob": 15.6
@@ -3912,7 +3898,7 @@
           "away_prob": 52.9,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Weserstadion",
           "game_id": "bundesliga_747022",
           "draw_prob": 15.4
@@ -5863,22 +5849,7 @@
           "rank": 13
         }
       ],
-      "upcoming": [
-        {
-          "home": "Newcastle Jets",
-          "away": "Sydney FC",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T09:40Z",
-          "home_prob": 38.7,
-          "away_prob": 40.5,
-          "margin": -1.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "McDonald Jones Stadium",
-          "game_id": "aleague_401870493",
-          "draw_prob": 20.8
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "ucl": {
