@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-16T09:13:35.372252+00:00",
+    "updated": "2026-05-16T10:40:53.334103+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Melbourne",
-          "away": "Hawthorn",
-          "date": "2026-05-16",
-          "datetime": "2026-05-16T06:15Z",
-          "home_prob": 34.6,
-          "away_prob": 65.4,
-          "margin": 15.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133568",
-          "draw_prob": null
-        },
-        {
           "home": "Carlton",
           "away": "Western Bulldogs",
           "date": "2026-05-16",
@@ -122,7 +108,7 @@
           "away_prob": 58.1,
           "margin": 0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133569",
           "draw_prob": null
@@ -5891,7 +5877,7 @@
           "away_prob": 40.5,
           "margin": -1.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "McDonald Jones Stadium",
           "game_id": "aleague_401870493",
           "draw_prob": 20.8
