@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T10:41:31.688902+00:00",
+    "updated": "2026-05-17T11:46:45.425215+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2570,7 +2570,7 @@
           "away_prob": 25.6,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Old Trafford",
           "game_id": "epl_740963",
           "draw_prob": 13.1
