@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T11:46:45.425215+00:00",
+    "updated": "2026-05-17T12:44:53.420565+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "West Coast",
-          "away": "GWS GIANTS",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T08:15Z",
-          "home_prob": 18.0,
-          "away_prob": 82.0,
-          "margin": 20.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133572",
-          "draw_prob": null
-        },
         {
           "home": "Hawthorn",
           "away": "Adelaide",
@@ -4085,76 +4071,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "AS Roma",
-          "away": "Lazio",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T10:00Z",
-          "home_prob": 54.0,
-          "away_prob": 29.3,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Olimpico",
-          "game_id": "seriea_737148",
-          "draw_prob": 16.6
-        },
-        {
-          "home": "Como",
-          "away": "Parma",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T10:00Z",
-          "home_prob": 61.2,
-          "away_prob": 24.7,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Giuseppe Sinigaglia",
-          "game_id": "seriea_737153",
-          "draw_prob": 14.1
-        },
-        {
-          "home": "Genoa",
-          "away": "AC Milan",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T10:00Z",
-          "home_prob": 46.7,
-          "away_prob": 33.8,
-          "margin": 0.7,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stadio Luigi Ferraris",
-          "game_id": "seriea_737152",
-          "draw_prob": 19.5
-        },
-        {
-          "home": "Juventus",
-          "away": "Fiorentina",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T10:00Z",
-          "home_prob": 65.7,
-          "away_prob": 21.7,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Allianz Stadium",
-          "game_id": "seriea_737150",
-          "draw_prob": 12.5
-        },
-        {
-          "home": "Pisa",
-          "away": "Napoli",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T10:00Z",
-          "home_prob": 34.1,
-          "away_prob": 46.3,
-          "margin": -0.2,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Arena Garibaldi - Stadio Romeo Anconetani",
-          "game_id": "seriea_737149",
-          "draw_prob": 19.6
-        },
         {
           "home": "Internazionale",
           "away": "Hellas Verona",
