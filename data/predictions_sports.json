@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T16:40:46.631059+00:00",
+    "updated": "2026-05-17T17:44:12.170094+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1135,7 +1135,7 @@
           "away_prob": 62.2,
           "margin": -10.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "State Farm Arena",
           "game_id": "wnba_401856915",
           "draw_prob": null
@@ -3060,7 +3060,7 @@
           "away_prob": 22.1,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "San Mam\u00e9s",
           "game_id": "laliga_748506",
           "draw_prob": 12.5
@@ -3074,7 +3074,7 @@
           "away_prob": 38.3,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Riyadh Air Metropolitano",
           "game_id": "laliga_748509",
           "draw_prob": 21.3
@@ -3088,7 +3088,7 @@
           "away_prob": 31.0,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio Mart\u00ednez Valero",
           "game_id": "laliga_748507",
           "draw_prob": 16.9
@@ -3102,7 +3102,7 @@
           "away_prob": 29.7,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Ciutat de Val\u00e8ncia",
           "game_id": "laliga_748510",
           "draw_prob": 16.2
@@ -3116,7 +3116,7 @@
           "away_prob": 28.8,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "El Sadar",
           "game_id": "laliga_748511",
           "draw_prob": 15.7
@@ -3130,7 +3130,7 @@
           "away_prob": 37.2,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio de Vallecas",
           "game_id": "laliga_748512",
           "draw_prob": 20.5
@@ -3144,7 +3144,7 @@
           "away_prob": 31.0,
           "margin": 12.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio Carlos Tartiere",
           "game_id": "laliga_748513",
           "draw_prob": 16.9
@@ -3158,7 +3158,7 @@
           "away_prob": 30.3,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Reale Arena",
           "game_id": "laliga_748505",
           "draw_prob": 16.5
@@ -3172,7 +3172,7 @@
           "away_prob": 57.3,
           "margin": 0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
           "game_id": "laliga_748504",
           "draw_prob": 15.1
@@ -7255,7 +7255,7 @@
           "away_prob": 48.8,
           "margin": 4.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815375",
           "draw_prob": null
@@ -7269,7 +7269,7 @@
           "away_prob": 38.8,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815376",
           "draw_prob": null
@@ -7283,7 +7283,7 @@
           "away_prob": 50.6,
           "margin": -1.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815380",
           "draw_prob": null
@@ -7297,7 +7297,7 @@
           "away_prob": 42.9,
           "margin": 1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815377",
           "draw_prob": null
@@ -7311,7 +7311,7 @@
           "away_prob": 51.7,
           "margin": 5.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815379",
           "draw_prob": null
@@ -7325,7 +7325,7 @@
           "away_prob": 46.2,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815381",
           "draw_prob": null
