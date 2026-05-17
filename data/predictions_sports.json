@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T15:33:09.746008+00:00",
+    "updated": "2026-05-17T16:40:46.631059+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2548,62 +2548,6 @@
       ],
       "upcoming": [
         {
-          "home": "Brentford",
-          "away": "Crystal Palace",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T14:00Z",
-          "home_prob": 50.4,
-          "away_prob": 33.0,
-          "margin": 0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gtech Community Stadium",
-          "game_id": "epl_740959",
-          "draw_prob": 16.7
-        },
-        {
-          "home": "Everton",
-          "away": "Sunderland",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T14:00Z",
-          "home_prob": 48.3,
-          "away_prob": 34.3,
-          "margin": -0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Hill Dickinson Stadium",
-          "game_id": "epl_740961",
-          "draw_prob": 17.4
-        },
-        {
-          "home": "Leeds United",
-          "away": "Brighton & Hove Albion",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T14:00Z",
-          "home_prob": 40.1,
-          "away_prob": 39.4,
-          "margin": -0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Elland Road",
-          "game_id": "epl_740962",
-          "draw_prob": 20.5
-        },
-        {
-          "home": "Wolverhampton Wanderers",
-          "away": "Fulham",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T14:00Z",
-          "home_prob": 42.1,
-          "away_prob": 38.2,
-          "margin": 0.0,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Molineux Stadium",
-          "game_id": "epl_740965",
-          "draw_prob": 19.7
-        },
-        {
           "home": "Newcastle United",
           "away": "West Ham United",
           "date": "2026-05-17",
@@ -2612,7 +2556,7 @@
           "away_prob": 32.4,
           "margin": 11.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "St. James' Park",
           "game_id": "epl_740964",
           "draw_prob": 16.3
@@ -4066,7 +4010,7 @@
           "away_prob": 27.1,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "New Balance Arena",
           "game_id": "seriea_737144",
           "draw_prob": 15.4
@@ -7297,7 +7241,7 @@
           "away_prob": 37.4,
           "margin": 1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815378",
           "draw_prob": null
