@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T14:16:31.730696+00:00",
+    "updated": "2026-05-17T15:33:09.746008+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4057,20 +4057,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Internazionale",
-          "away": "Hellas Verona",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T13:00Z",
-          "home_prob": 51.7,
-          "away_prob": 30.8,
-          "margin": 12.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "San Siro",
-          "game_id": "seriea_737151",
-          "draw_prob": 17.5
-        },
         {
           "home": "Atalanta",
           "away": "Bologna",
