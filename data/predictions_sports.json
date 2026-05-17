@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T17:44:12.170094+00:00",
+    "updated": "2026-05-17T18:46:51.913237+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2548,20 +2548,6 @@
       ],
       "upcoming": [
         {
-          "home": "Newcastle United",
-          "away": "West Ham United",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T16:30Z",
-          "home_prob": 51.3,
-          "away_prob": 32.4,
-          "margin": 11.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "St. James' Park",
-          "game_id": "epl_740964",
-          "draw_prob": 16.3
-        },
-        {
           "home": "Arsenal",
           "away": "Burnley",
           "date": "2026-05-18",
@@ -4002,20 +3988,6 @@
       ],
       "upcoming": [
         {
-          "home": "Atalanta",
-          "away": "Bologna",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T16:00Z",
-          "home_prob": 57.5,
-          "away_prob": 27.1,
-          "margin": -0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "New Balance Arena",
-          "game_id": "seriea_737144",
-          "draw_prob": 15.4
-        },
-        {
           "home": "Cagliari",
           "away": "Torino",
           "date": "2026-05-17",
@@ -4024,7 +3996,7 @@
           "away_prob": 43.3,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Unipol Domus",
           "game_id": "seriea_737145",
           "draw_prob": 20.9
@@ -4038,7 +4010,7 @@
           "away_prob": 30.1,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Mapei Stadium",
           "game_id": "seriea_737147",
           "draw_prob": 17.1
@@ -4052,7 +4024,7 @@
           "away_prob": 22.8,
           "margin": 1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Friuli",
           "game_id": "seriea_737146",
           "draw_prob": 13.1
@@ -7339,7 +7311,7 @@
           "away_prob": 54.1,
           "margin": -2.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815382",
           "draw_prob": null
@@ -7353,7 +7325,7 @@
           "away_prob": 51.0,
           "margin": 0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815384",
           "draw_prob": null
@@ -7367,7 +7339,7 @@
           "away_prob": 47.8,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401815385",
           "draw_prob": null
@@ -7381,7 +7353,7 @@
           "away_prob": 43.6,
           "margin": -1.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815383",
           "draw_prob": null
