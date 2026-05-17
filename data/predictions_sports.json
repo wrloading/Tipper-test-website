@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-17T06:49:02.742376+00:00",
+    "updated": "2026-05-17T09:09:19.982156+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,34 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Essendon",
-          "away": "Fremantle",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T03:10Z",
-          "home_prob": 19.3,
-          "away_prob": 80.7,
-          "margin": -30.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133570",
-          "draw_prob": null
-        },
-        {
-          "home": "St Kilda",
-          "away": "Richmond",
-          "date": "2026-05-17",
-          "datetime": "2026-05-17T05:15Z",
-          "home_prob": 91.6,
-          "away_prob": 8.4,
-          "margin": 13.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133571",
-          "draw_prob": null
-        },
-        {
           "home": "West Coast",
           "away": "GWS GIANTS",
           "date": "2026-05-17",
@@ -136,7 +108,7 @@
           "away_prob": 82.0,
           "margin": 20.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Optus Stadium",
           "game_id": "afl_1133572",
           "draw_prob": null
@@ -480,16 +452,6 @@
           "draw_prob": null
         },
         {
-          "home": "Carlton",
-          "away": "Western Bulldogs",
-          "date": "2026-05-16",
-          "home_prob": 55.6,
-          "winner": "Carlton",
-          "home_score": 74,
-          "away_score": 62,
-          "draw_prob": null
-        },
-        {
           "home": "Adelaide",
           "away": "North Melbourne",
           "date": "2026-05-16",
@@ -507,6 +469,16 @@
           "winner": "Melbourne",
           "home_score": 120,
           "away_score": 81,
+          "draw_prob": null
+        },
+        {
+          "home": "Carlton",
+          "away": "Western Bulldogs",
+          "date": "2026-05-16",
+          "home_prob": 55.6,
+          "winner": "Carlton",
+          "home_score": 74,
+          "away_score": 62,
           "draw_prob": null
         }
       ]
@@ -1962,7 +1934,7 @@
       "ratings": [
         {
           "team": "Thunderbirds",
-          "rating": 1716.4,
+          "rating": 1725.6,
           "rank": 1
         },
         {
@@ -1977,7 +1949,7 @@
         },
         {
           "team": "Mavericks",
-          "rating": 1506.0,
+          "rating": 1496.9,
           "rank": 4
         },
         {
@@ -2008,26 +1980,12 @@
       ],
       "upcoming": [
         {
-          "home": "Thunderbirds",
-          "away": "Mavericks",
-          "date": "2026-05-17T06:00:00Z",
-          "datetime": "2026-05-17T06:00:00Z",
-          "home_prob": 82.2,
-          "away_prob": 17.8,
-          "margin": 5.4,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Adelaide Entertainment Centre",
-          "game_id": "supernetball_129491004",
-          "draw_prob": null
-        },
-        {
           "home": "GIANTS",
           "away": "Thunderbirds",
           "date": "2026-05-23T07:00:00Z",
           "datetime": "2026-05-23T07:00:00Z",
-          "home_prob": 7.2,
-          "away_prob": 92.8,
+          "home_prob": 6.8,
+          "away_prob": 93.2,
           "margin": -18.4,
           "home_fav": false,
           "locked": false,
@@ -2040,8 +1998,8 @@
           "away": "Lightning",
           "date": "2026-05-23T09:00:00Z",
           "datetime": "2026-05-23T09:00:00Z",
-          "home_prob": 64.2,
-          "away_prob": 35.8,
+          "home_prob": 62.9,
+          "away_prob": 37.1,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -2096,9 +2054,9 @@
           "away": "Mavericks",
           "date": "2026-05-30T09:00:00Z",
           "datetime": "2026-05-30T09:00:00Z",
-          "home_prob": 64.8,
-          "away_prob": 35.2,
-          "margin": -3.0,
+          "home_prob": 66.0,
+          "away_prob": 34.0,
+          "margin": -2.2,
           "home_fav": true,
           "locked": false,
           "venue": "RAC Arena",
@@ -2124,9 +2082,9 @@
           "away": "Vixens",
           "date": "2026-05-31T06:00:00Z",
           "datetime": "2026-05-31T06:00:00Z",
-          "home_prob": 64.4,
-          "away_prob": 35.6,
-          "margin": 4.8,
+          "home_prob": 65.6,
+          "away_prob": 34.4,
+          "margin": 3.8,
           "home_fav": true,
           "locked": false,
           "venue": "Adelaide Entertainment Centre",
@@ -2159,7 +2117,7 @@
           "home": "Fever",
           "away": "Thunderbirds",
           "date": "2026-05-08",
-          "home_prob": 35.4,
+          "home_prob": 34.2,
           "winner": "Thunderbirds",
           "home_score": 45,
           "away_score": 65,
@@ -2179,7 +2137,7 @@
           "home": "GIANTS",
           "away": "Mavericks",
           "date": "2026-05-10",
-          "home_prob": 20.6,
+          "home_prob": 21.5,
           "winner": "Mavericks",
           "home_score": 41,
           "away_score": 60,
@@ -2223,6 +2181,16 @@
           "winner": "Swifts",
           "home_score": 57,
           "away_score": 63,
+          "draw_prob": null
+        },
+        {
+          "home": "Thunderbirds",
+          "away": "Mavericks",
+          "date": "2026-05-17",
+          "home_prob": 83.7,
+          "winner": "Thunderbirds",
+          "home_score": 55,
+          "away_score": 51,
           "draw_prob": null
         }
       ]
