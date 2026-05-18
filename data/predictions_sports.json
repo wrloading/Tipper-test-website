@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-18T21:40:03.803391+00:00",
+    "updated": "2026-05-18T22:41:39.231762+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6678,7 +6678,7 @@
           "away_prob": 60.7,
           "margin": -0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815390",
           "draw_prob": null
@@ -6692,7 +6692,7 @@
           "away_prob": 41.7,
           "margin": 5.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815391",
           "draw_prob": null
@@ -6706,7 +6706,7 @@
           "away_prob": 41.4,
           "margin": 3.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815392",
           "draw_prob": null
@@ -6720,7 +6720,7 @@
           "away_prob": 48.2,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815393",
           "draw_prob": null
@@ -11584,8 +11584,8 @@
         {
           "home": "Vegas Golden Knights",
           "away": "Colorado Avalanche",
-          "date": "2026-05-26",
-          "datetime": "2026-05-26T04:00Z",
+          "date": "2026-05-27",
+          "datetime": "2026-05-27T01:00Z",
           "home_prob": 55.2,
           "away_prob": 44.8,
           "margin": -1.2,
