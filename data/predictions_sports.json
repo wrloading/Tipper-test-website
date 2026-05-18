@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-18T20:04:37.226820+00:00",
+    "updated": "2026-05-18T21:40:03.803391+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2553,20 +2553,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Arsenal",
-          "away": "Burnley",
-          "date": "2026-05-18",
-          "datetime": "2026-05-18T19:00Z",
-          "home_prob": 86.5,
-          "away_prob": 7.9,
-          "margin": 1.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Emirates Stadium",
-          "game_id": "epl_740956",
-          "draw_prob": 5.6
-        },
         {
           "home": "AFC Bournemouth",
           "away": "Manchester City",
