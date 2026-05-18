@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-18T22:41:39.231762+00:00",
+    "updated": "2026-05-18T23:48:51.003761+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6734,7 +6734,7 @@
           "away_prob": 49.0,
           "margin": -2.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815394",
           "draw_prob": null
@@ -6748,7 +6748,7 @@
           "away_prob": 43.6,
           "margin": 6.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815395",
           "draw_prob": null
@@ -6762,7 +6762,7 @@
           "away_prob": 47.4,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815396",
           "draw_prob": null
@@ -6776,7 +6776,7 @@
           "away_prob": 45.7,
           "margin": -1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815397",
           "draw_prob": null
@@ -6790,7 +6790,7 @@
           "away_prob": 43.6,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815398",
           "draw_prob": null
@@ -11492,7 +11492,7 @@
           "away_prob": 37.4,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "KeyBank Center",
           "game_id": "nhl_401871410",
           "draw_prob": null
@@ -11514,8 +11514,8 @@
         {
           "home": "Carolina Hurricanes",
           "away": "Sabres/Canadiens",
-          "date": "2026-05-21",
-          "datetime": "2026-05-21T04:00Z",
+          "date": "2026-05-22",
+          "datetime": "2026-05-22T00:00Z",
           "home_prob": 69.7,
           "away_prob": 30.3,
           "margin": 0.6,
@@ -11543,7 +11543,7 @@
           "home": "Carolina Hurricanes",
           "away": "Sabres/Canadiens",
           "date": "2026-05-23",
-          "datetime": "2026-05-23T04:00Z",
+          "datetime": "2026-05-23T23:00Z",
           "home_prob": 69.7,
           "away_prob": 30.3,
           "margin": 0.6,
@@ -11570,8 +11570,8 @@
         {
           "home": "Sabres/Canadiens",
           "away": "Carolina Hurricanes",
-          "date": "2026-05-25",
-          "datetime": "2026-05-25T04:00Z",
+          "date": "2026-05-26",
+          "datetime": "2026-05-26T00:00Z",
           "home_prob": 46.4,
           "away_prob": 53.6,
           "margin": 0.1,
@@ -11598,8 +11598,8 @@
         {
           "home": "Sabres/Canadiens",
           "away": "Carolina Hurricanes",
-          "date": "2026-05-27",
-          "datetime": "2026-05-27T04:00Z",
+          "date": "2026-05-28",
+          "datetime": "2026-05-28T00:00Z",
           "home_prob": 46.4,
           "away_prob": 53.6,
           "margin": 0.1,
@@ -11626,8 +11626,8 @@
         {
           "home": "Carolina Hurricanes",
           "away": "Sabres/Canadiens",
-          "date": "2026-05-29",
-          "datetime": "2026-05-29T04:00Z",
+          "date": "2026-05-30",
+          "datetime": "2026-05-30T00:00Z",
           "home_prob": 69.7,
           "away_prob": 30.3,
           "margin": 0.6,
