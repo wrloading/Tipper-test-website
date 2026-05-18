@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-18T12:17:00.691810+00:00",
+    "updated": "2026-05-18T16:04:46.119274+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4442,7 +4442,7 @@
           "home": "St. Louis CITY SC",
           "away": "Austin FC",
           "date": "2026-05-23",
-          "datetime": "2026-05-23T18:30Z",
+          "datetime": "2026-05-23T18:45Z",
           "home_prob": 51.9,
           "away_prob": 32.6,
           "margin": 11.6,
