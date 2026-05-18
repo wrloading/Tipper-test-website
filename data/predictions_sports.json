@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-18T04:45:41.695082+00:00",
+    "updated": "2026-05-18T08:39:49.396087+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1100,7 +1100,7 @@
         },
         {
           "team": "Chicago Sky",
-          "rating": 1508.7,
+          "rating": 1508.8,
           "rank": 6
         },
         {
