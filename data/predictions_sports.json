@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-19T11:23:41.320329+00:00",
+    "updated": "2026-05-19T14:12:26.369044+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2831,7 +2831,7 @@
           "home": "West Ham",
           "away": "Arsenal",
           "date": "2026-05-10",
-          "home_prob": 27.5,
+          "home_prob": 27.6,
           "winner": "Arsenal",
           "home_score": 0,
           "away_score": 1,
@@ -2978,12 +2978,12 @@
         },
         {
           "team": "Villarreal",
-          "rating": 1555.6,
+          "rating": 1555.7,
           "rank": 8
         },
         {
           "team": "Sevilla",
-          "rating": 1512.4,
+          "rating": 1512.5,
           "rank": 9
         },
         {
@@ -3359,7 +3359,7 @@
           "home": "Espanyol",
           "away": "Athletic Club",
           "date": "2026-05-13",
-          "home_prob": 36.4,
+          "home_prob": 36.3,
           "winner": "Espanyol",
           "home_score": 2,
           "away_score": 0,
@@ -3898,7 +3898,7 @@
         },
         {
           "team": "Como",
-          "rating": 1513.9,
+          "rating": 1513.8,
           "rank": 11
         },
         {
