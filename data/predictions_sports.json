@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-19T07:51:59.400836+00:00",
+    "updated": "2026-05-19T11:23:41.320329+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2447,37 +2447,37 @@
         },
         {
           "team": "Arsenal",
-          "rating": 1692.7,
+          "rating": 1693.8,
           "rank": 2
         },
         {
           "team": "Liverpool",
-          "rating": 1683.9,
+          "rating": 1671.4,
           "rank": 3
         },
         {
           "team": "Newcastle",
-          "rating": 1572.0,
+          "rating": 1578.2,
           "rank": 4
         },
         {
           "team": "Manchester United",
-          "rating": 1567.8,
+          "rating": 1571.9,
           "rank": 5
+        },
+        {
+          "team": "Aston Villa",
+          "rating": 1569.1,
+          "rank": 6
         },
         {
           "team": "Tottenham",
           "rating": 1566.3,
-          "rank": 6
-        },
-        {
-          "team": "Aston Villa",
-          "rating": 1556.6,
           "rank": 7
         },
         {
           "team": "Brighton & Hove Albion",
-          "rating": 1530.2,
+          "rating": 1523.4,
           "rank": 8
         },
         {
@@ -2502,12 +2502,12 @@
         },
         {
           "team": "Nottingham Forest",
-          "rating": 1495.8,
+          "rating": 1491.7,
           "rank": 13
         },
         {
-          "team": "West Ham",
-          "rating": 1489.4,
+          "team": "Sunderland",
+          "rating": 1491.0,
           "rank": 14
         },
         {
@@ -2516,8 +2516,8 @@
           "rank": 15
         },
         {
-          "team": "Sunderland",
-          "rating": 1478.1,
+          "team": "West Ham",
+          "rating": 1483.2,
           "rank": 16
         },
         {
@@ -2526,18 +2526,18 @@
           "rank": 17
         },
         {
-          "team": "Everton",
-          "rating": 1457.6,
-          "rank": 18
-        },
-        {
           "team": "Leeds United",
-          "rating": 1453.2,
-          "rank": 19
+          "rating": 1460.1,
+          "rank": 18
         },
         {
           "team": "West Bromwich Albion",
           "rating": 1449.9,
+          "rank": 19
+        },
+        {
+          "team": "Everton",
+          "rating": 1444.8,
           "rank": 20
         },
         {
@@ -2567,7 +2567,7 @@
         },
         {
           "team": "Burnley",
-          "rating": 1357.2,
+          "rating": 1356.1,
           "rank": 26
         },
         {
@@ -2610,42 +2610,42 @@
           "away": "Manchester United",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 45.8,
-          "away_prob": 35.9,
+          "home_prob": 44.2,
+          "away_prob": 36.9,
           "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "venue": "American Express Stadium",
           "game_id": "epl_740966",
-          "draw_prob": 18.3
+          "draw_prob": 18.9
         },
         {
           "home": "Burnley",
           "away": "Wolverhampton Wanderers",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 41.9,
-          "away_prob": 38.3,
+          "home_prob": 41.8,
+          "away_prob": 38.4,
           "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "venue": "Turf Moor",
           "game_id": "epl_740967",
-          "draw_prob": 19.7
+          "draw_prob": 19.8
         },
         {
           "home": "Crystal Palace",
           "away": "Arsenal",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 29.8,
-          "away_prob": 55.2,
+          "home_prob": 29.7,
+          "away_prob": 55.3,
           "margin": 0.1,
           "home_fav": false,
           "locked": false,
           "venue": "Selhurst Park",
           "game_id": "epl_740968",
-          "draw_prob": 15.1
+          "draw_prob": 15.0
         },
         {
           "home": "Fulham",
@@ -2666,84 +2666,84 @@
           "away": "Brentford",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 74.6,
-          "away_prob": 16.2,
+          "home_prob": 73.3,
+          "away_prob": 17.2,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
           "venue": "Anfield",
           "game_id": "epl_740975",
-          "draw_prob": 9.2
+          "draw_prob": 9.6
         },
         {
           "home": "Manchester City",
           "away": "Aston Villa",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 78.2,
-          "away_prob": 13.7,
+          "home_prob": 77.1,
+          "away_prob": 14.5,
           "margin": 1.4,
           "home_fav": true,
           "locked": false,
           "venue": "Etihad Stadium",
           "game_id": "epl_740970",
-          "draw_prob": 8.1
+          "draw_prob": 8.4
         },
         {
           "home": "Nottingham Forest",
           "away": "AFC Bournemouth",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 50.7,
-          "away_prob": 32.8,
+          "home_prob": 50.1,
+          "away_prob": 33.2,
           "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "venue": "The City Ground",
           "game_id": "epl_740972",
-          "draw_prob": 16.6
+          "draw_prob": 16.8
         },
         {
           "home": "Sunderland",
           "away": "Chelsea",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 44.9,
-          "away_prob": 36.5,
+          "home_prob": 46.8,
+          "away_prob": 35.3,
           "margin": -0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Stadium of Light",
           "game_id": "epl_740973",
-          "draw_prob": 18.6
+          "draw_prob": 17.9
         },
         {
           "home": "Tottenham Hotspur",
           "away": "Everton",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 57.3,
-          "away_prob": 28.3,
+          "home_prob": 59.1,
+          "away_prob": 27.1,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
           "venue": "Tottenham Hotspur Stadium",
           "game_id": "epl_740974",
-          "draw_prob": 14.4
+          "draw_prob": 13.8
         },
         {
           "home": "West Ham United",
           "away": "Leeds United",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 57.9,
-          "away_prob": 27.9,
+          "home_prob": 57.0,
+          "away_prob": 28.6,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
           "venue": "London Stadium",
           "game_id": "epl_740971",
-          "draw_prob": 14.2
+          "draw_prob": 14.5
         }
       ],
       "recent": [
@@ -2751,21 +2751,21 @@
           "home": "Liverpool",
           "away": "Chelsea",
           "date": "2026-05-09",
-          "home_prob": 72.2,
+          "home_prob": 70.8,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 9.9
+          "draw_prob": 10.3
         },
         {
           "home": "Brighton & Hove Albion",
           "away": "Wolverhampton Wanderers",
           "date": "2026-05-09",
-          "home_prob": 66.0,
+          "home_prob": 65.2,
           "winner": "Brighton & Hove Albion",
           "home_score": 3,
           "away_score": 0,
-          "draw_prob": 11.7
+          "draw_prob": 12.0
         },
         {
           "home": "Fulham",
@@ -2781,11 +2781,11 @@
           "home": "Sunderland",
           "away": "Manchester United",
           "date": "2026-05-09",
-          "home_prob": 38.8,
+          "home_prob": 39.6,
           "winner": null,
           "home_score": 0,
           "away_score": 0,
-          "draw_prob": 20.1
+          "draw_prob": 20.6
         },
         {
           "home": "Manchester City",
@@ -2801,51 +2801,51 @@
           "home": "Burnley",
           "away": "Aston Villa",
           "date": "2026-05-10",
-          "home_prob": 28.6,
+          "home_prob": 27.3,
           "winner": null,
           "home_score": 2,
           "away_score": 2,
-          "draw_prob": 14.5
+          "draw_prob": 13.9
         },
         {
           "home": "Crystal Palace",
           "away": "Everton",
           "date": "2026-05-10",
-          "home_prob": 58.1,
+          "home_prob": 59.8,
           "winner": null,
           "home_score": 2,
           "away_score": 2,
-          "draw_prob": 14.1
+          "draw_prob": 13.6
         },
         {
           "home": "Nottingham Forest",
           "away": "Newcastle",
           "date": "2026-05-10",
-          "home_prob": 40.2,
+          "home_prob": 39.1,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 20.4
+          "draw_prob": 20.3
         },
         {
           "home": "West Ham",
           "away": "Arsenal",
           "date": "2026-05-10",
-          "home_prob": 28.2,
+          "home_prob": 27.5,
           "winner": "Arsenal",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 14.3
+          "draw_prob": 14.0
         },
         {
           "home": "Tottenham",
           "away": "Leeds United",
           "date": "2026-05-11",
-          "home_prob": 66.6,
+          "home_prob": 65.7,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 11.5
+          "draw_prob": 11.8
         },
         {
           "home": "Manchester City",
@@ -2856,6 +2856,86 @@
           "home_score": 3,
           "away_score": 0,
           "draw_prob": 6.8
+        },
+        {
+          "home": "Aston Villa",
+          "away": "Liverpool",
+          "date": "2026-05-15",
+          "home_prob": 37.7,
+          "winner": "Aston Villa",
+          "home_score": 4,
+          "away_score": 2,
+          "draw_prob": 19.4
+        },
+        {
+          "home": "Manchester United",
+          "away": "Nottingham Forest",
+          "date": "2026-05-17",
+          "home_prob": 62.4,
+          "winner": "Manchester United",
+          "home_score": 3,
+          "away_score": 2,
+          "draw_prob": 12.8
+        },
+        {
+          "home": "Brentford",
+          "away": "Crystal Palace",
+          "date": "2026-05-17",
+          "home_prob": 50.4,
+          "winner": null,
+          "home_score": 2,
+          "away_score": 2,
+          "draw_prob": 16.7
+        },
+        {
+          "home": "Everton",
+          "away": "Sunderland",
+          "date": "2026-05-17",
+          "home_prob": 44.6,
+          "winner": "Sunderland",
+          "home_score": 1,
+          "away_score": 3,
+          "draw_prob": 18.7
+        },
+        {
+          "home": "Leeds United",
+          "away": "Brighton & Hove Albion",
+          "date": "2026-05-17",
+          "home_prob": 42.1,
+          "winner": "Leeds United",
+          "home_score": 1,
+          "away_score": 0,
+          "draw_prob": 19.7
+        },
+        {
+          "home": "Wolverhampton Wanderers",
+          "away": "Fulham",
+          "date": "2026-05-17",
+          "home_prob": 42.1,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 19.7
+        },
+        {
+          "home": "Newcastle",
+          "away": "West Ham",
+          "date": "2026-05-17",
+          "home_prob": 64.3,
+          "winner": "Newcastle",
+          "home_score": 3,
+          "away_score": 1,
+          "draw_prob": 12.2
+        },
+        {
+          "home": "Arsenal",
+          "away": "Burnley",
+          "date": "2026-05-18",
+          "home_prob": 86.7,
+          "winner": "Arsenal",
+          "home_score": 1,
+          "away_score": 0,
+          "draw_prob": 5.5
         }
       ]
     },
@@ -2863,62 +2943,62 @@
       "ratings": [
         {
           "team": "Real Madrid",
-          "rating": 1734.0,
+          "rating": 1738.5,
           "rank": 1
         },
         {
           "team": "Barcelona",
-          "rating": 1703.9,
+          "rating": 1708.6,
           "rank": 2
         },
         {
           "team": "Atletico Madrid",
-          "rating": 1619.5,
+          "rating": 1624.0,
           "rank": 3
         },
         {
           "team": "Girona",
-          "rating": 1580.4,
+          "rating": 1576.0,
           "rank": 4
         },
         {
-          "team": "Sociedad",
-          "rating": 1569.2,
-          "rank": 5
-        },
-        {
           "team": "Real Betis",
-          "rating": 1568.6,
-          "rank": 6
-        },
-        {
-          "team": "Villarreal",
-          "rating": 1567.5,
-          "rank": 7
+          "rating": 1563.9,
+          "rank": 5
         },
         {
           "team": "Athletic Club",
           "rating": 1563.2,
+          "rank": 6
+        },
+        {
+          "team": "Sociedad",
+          "rating": 1559.1,
+          "rank": 7
+        },
+        {
+          "team": "Villarreal",
+          "rating": 1555.6,
           "rank": 8
         },
         {
           "team": "Sevilla",
-          "rating": 1517.0,
+          "rating": 1512.4,
           "rank": 9
         },
         {
-          "team": "Oviedo",
-          "rating": 1495.0,
+          "team": "Valencia",
+          "rating": 1501.7,
           "rank": 10
         },
         {
-          "team": "Valencia",
-          "rating": 1491.7,
+          "team": "Levante",
+          "rating": 1493.8,
           "rank": 11
         },
         {
-          "team": "Levante",
-          "rating": 1486.0,
+          "team": "Oviedo",
+          "rating": 1485.5,
           "rank": 12
         },
         {
@@ -2932,58 +3012,58 @@
           "rank": 14
         },
         {
-          "team": "Mallorca",
-          "rating": 1471.4,
-          "rank": 15
-        },
-        {
           "team": "Las Palmas",
           "rating": 1464.8,
-          "rank": 16
+          "rank": 15
         },
         {
           "team": "Celta Vigo",
           "rating": 1464.8,
+          "rank": 16
+        },
+        {
+          "team": "Alaves",
+          "rating": 1464.0,
           "rank": 17
+        },
+        {
+          "team": "Mallorca",
+          "rating": 1463.6,
+          "rank": 18
+        },
+        {
+          "team": "Vallecano",
+          "rating": 1460.9,
+          "rank": 19
         },
         {
           "team": "Eibar",
           "rating": 1458.1,
-          "rank": 18
-        },
-        {
-          "team": "Osasuna",
-          "rating": 1456.5,
-          "rank": 19
-        },
-        {
-          "team": "Alaves",
-          "rating": 1454.6,
           "rank": 20
         },
         {
-          "team": "Vallecano",
-          "rating": 1449.0,
+          "team": "Osasuna",
+          "rating": 1447.3,
           "rank": 21
+        },
+        {
+          "team": "Elche",
+          "rating": 1444.6,
+          "rank": 22
+        },
+        {
+          "team": "Espanyol",
+          "rating": 1441.4,
+          "rank": 23
         },
         {
           "team": "Valladolid",
           "rating": 1439.7,
-          "rank": 22
-        },
-        {
-          "team": "Elche",
-          "rating": 1439.5,
-          "rank": 23
-        },
-        {
-          "team": "Getafe",
-          "rating": 1439.4,
           "rank": 24
         },
         {
-          "team": "Espanyol",
-          "rating": 1432.2,
+          "team": "Getafe",
+          "rating": 1434.2,
           "rank": 25
         },
         {
@@ -3022,126 +3102,126 @@
           "away": "Sevilla",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 44.5,
-          "away_prob": 35.8,
+          "home_prob": 45.2,
+          "away_prob": 35.4,
           "margin": 0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Balaidos",
           "game_id": "laliga_748517",
-          "draw_prob": 19.7
+          "draw_prob": 19.4
         },
         {
           "home": "Espanyol",
           "away": "Real Sociedad",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 42.3,
-          "away_prob": 37.2,
+          "home_prob": 43.6,
+          "away_prob": 36.4,
           "margin": 0.2,
           "home_fav": false,
           "locked": false,
           "venue": "RCDE Stadium",
           "game_id": "laliga_748516",
-          "draw_prob": 20.5
+          "draw_prob": 20.0
         },
         {
           "home": "Getafe",
           "away": "Osasuna",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 49.6,
-          "away_prob": 32.6,
+          "home_prob": 50.2,
+          "away_prob": 32.3,
           "margin": 0.4,
-          "home_fav": false,
+          "home_fav": true,
           "locked": false,
           "venue": "Estadio Coliseum",
           "game_id": "laliga_748518",
-          "draw_prob": 17.8
+          "draw_prob": 17.5
         },
         {
           "home": "Girona",
           "away": "Elche",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 70.4,
-          "away_prob": 18.6,
+          "home_prob": 69.3,
+          "away_prob": 19.4,
           "margin": 0.4,
           "home_fav": true,
           "locked": false,
           "venue": "Estadi Montilivi",
           "game_id": "laliga_748520",
-          "draw_prob": 10.9
+          "draw_prob": 11.3
         },
         {
           "home": "Mallorca",
           "away": "Real Oviedo",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 48.0,
-          "away_prob": 33.7,
+          "home_prob": 46.8,
+          "away_prob": 34.4,
           "margin": 0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Estadi Mallorca Son Moix",
           "game_id": "laliga_748521",
-          "draw_prob": 18.4
+          "draw_prob": 18.8
         },
         {
           "home": "Real Betis",
           "away": "Levante",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 63.4,
-          "away_prob": 23.5,
+          "home_prob": 61.8,
+          "away_prob": 24.6,
           "margin": 1.2,
           "home_fav": true,
           "locked": false,
           "venue": "Estadio La Cartuja",
           "game_id": "laliga_748522",
-          "draw_prob": 13.1
+          "draw_prob": 13.6
         },
         {
           "home": "Real Madrid",
           "away": "Athletic Club",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 73.7,
-          "away_prob": 16.4,
+          "home_prob": 74.1,
+          "away_prob": 16.1,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "venue": "Santiago Bernab\u00e9u",
           "game_id": "laliga_748514",
-          "draw_prob": 9.9
+          "draw_prob": 9.8
         },
         {
           "home": "Valencia",
           "away": "Barcelona",
           "date": "2026-05-23",
           "datetime": "2026-05-23T19:00Z",
-          "home_prob": 28.0,
-          "away_prob": 56.6,
+          "home_prob": 28.5,
+          "away_prob": 55.9,
           "margin": -0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Mestalla Stadium",
           "game_id": "laliga_748519",
-          "draw_prob": 15.3
+          "draw_prob": 15.6
         },
         {
           "home": "Villarreal",
           "away": "Atl\u00e9tico Madrid",
           "date": "2026-05-24",
           "datetime": "2026-05-24T19:00Z",
-          "home_prob": 61.4,
-          "away_prob": 24.8,
+          "home_prob": 59.9,
+          "away_prob": 25.9,
           "margin": 0.8,
           "home_fav": true,
           "locked": false,
           "venue": "Estadio de la Cer\u00e1mica",
           "game_id": "laliga_748515",
-          "draw_prob": 13.8
+          "draw_prob": 14.3
         }
       ],
       "recent": [
@@ -3149,87 +3229,87 @@
           "home": "Levante",
           "away": "Osasuna",
           "date": "2026-05-08",
-          "home_prob": 56.3,
+          "home_prob": 58.6,
           "winner": "Levante",
           "home_score": 3,
           "away_score": 2,
-          "draw_prob": 15.4
+          "draw_prob": 14.7
         },
         {
           "home": "Elche",
           "away": "Alaves",
           "date": "2026-05-09",
-          "home_prob": 49.9,
+          "home_prob": 49.3,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 17.6
+          "draw_prob": 17.9
         },
         {
           "home": "Sevilla",
           "away": "Espanyol",
           "date": "2026-05-09",
-          "home_prob": 63.7,
+          "home_prob": 61.9,
           "winner": "Sevilla",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 13.0
+          "draw_prob": 13.6
         },
         {
           "home": "Atletico Madrid",
           "away": "Celta Vigo",
           "date": "2026-05-09",
-          "home_prob": 72.0,
+          "home_prob": 72.4,
           "winner": "Celta Vigo",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 10.5
+          "draw_prob": 10.3
         },
         {
           "home": "Sociedad",
           "away": "Real Betis",
           "date": "2026-05-09",
-          "home_prob": 52.2,
+          "home_prob": 51.4,
           "winner": null,
           "home_score": 2,
           "away_score": 2,
-          "draw_prob": 16.9
+          "draw_prob": 17.1
         },
         {
           "home": "Mallorca",
           "away": "Villarreal",
           "date": "2026-05-10",
-          "home_prob": 38.6,
+          "home_prob": 38.9,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 21.5
+          "draw_prob": 21.7
         },
         {
           "home": "Athletic Club",
           "away": "Valencia",
           "date": "2026-05-10",
-          "home_prob": 62.0,
+          "home_prob": 60.6,
           "winner": "Valencia",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 13.6
+          "draw_prob": 14.0
         },
         {
           "home": "Oviedo",
           "away": "Getafe",
           "date": "2026-05-10",
-          "home_prob": 59.8,
+          "home_prob": 59.3,
           "winner": null,
           "home_score": 0,
           "away_score": 0,
-          "draw_prob": 14.3
+          "draw_prob": 14.5
         },
         {
           "home": "Barcelona",
           "away": "Real Madrid",
           "date": "2026-05-10",
-          "home_prob": 47.7,
+          "home_prob": 47.8,
           "winner": "Barcelona",
           "home_score": 2,
           "away_score": 0,
@@ -3239,111 +3319,211 @@
           "home": "Vallecano",
           "away": "Girona",
           "date": "2026-05-11",
-          "home_prob": 35.5,
+          "home_prob": 36.9,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 19.5
+          "draw_prob": 20.4
         },
         {
           "home": "Celta Vigo",
           "away": "Levante",
           "date": "2026-05-12",
-          "home_prob": 49.0,
+          "home_prob": 47.9,
           "winner": "Levante",
           "home_score": 2,
           "away_score": 3,
-          "draw_prob": 18.0
+          "draw_prob": 18.4
         },
         {
           "home": "Real Betis",
           "away": "Elche",
           "date": "2026-05-12",
-          "home_prob": 69.1,
+          "home_prob": 67.9,
           "winner": "Real Betis",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 11.3
+          "draw_prob": 11.7
         },
         {
           "home": "Osasuna",
           "away": "Atletico Madrid",
           "date": "2026-05-12",
-          "home_prob": 32.6,
+          "home_prob": 31.3,
           "winner": "Atletico Madrid",
           "home_score": 1,
           "away_score": 2,
-          "draw_prob": 17.7
+          "draw_prob": 17.0
         },
         {
           "home": "Espanyol",
           "away": "Athletic Club",
           "date": "2026-05-13",
-          "home_prob": 35.5,
+          "home_prob": 36.4,
           "winner": "Espanyol",
           "home_score": 2,
           "away_score": 0,
-          "draw_prob": 19.5
+          "draw_prob": 20.0
         },
         {
           "home": "Villarreal",
           "away": "Sevilla",
           "date": "2026-05-13",
-          "home_prob": 59.2,
+          "home_prob": 58.2,
           "winner": "Sevilla",
           "home_score": 2,
           "away_score": 3,
-          "draw_prob": 14.5
+          "draw_prob": 14.8
         },
         {
           "home": "Alaves",
           "away": "Barcelona",
           "date": "2026-05-13",
-          "home_prob": 24.6,
+          "home_prob": 25.1,
           "winner": "Alaves",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 13.7
+          "draw_prob": 13.9
         },
         {
           "home": "Getafe",
           "away": "Mallorca",
           "date": "2026-05-13",
-          "home_prob": 47.5,
+          "home_prob": 47.8,
           "winner": "Getafe",
           "home_score": 3,
           "away_score": 1,
-          "draw_prob": 18.5
+          "draw_prob": 18.4
         },
         {
           "home": "Valencia",
           "away": "Vallecano",
           "date": "2026-05-14",
-          "home_prob": 58.1,
+          "home_prob": 57.8,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 14.8
+          "draw_prob": 14.9
         },
         {
           "home": "Girona",
           "away": "Sociedad",
           "date": "2026-05-14",
-          "home_prob": 53.7,
+          "home_prob": 54.5,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 16.3
+          "draw_prob": 16.0
         },
         {
           "home": "Real Madrid",
           "away": "Oviedo",
           "date": "2026-05-14",
-          "home_prob": 80.0,
+          "home_prob": 81.1,
           "winner": "Real Madrid",
           "home_score": 2,
           "away_score": 0,
-          "draw_prob": 8.0
+          "draw_prob": 7.6
+        },
+        {
+          "home": "Athletic Club",
+          "away": "Celta Vigo",
+          "date": "2026-05-17",
+          "home_prob": 65.4,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 12.5
+        },
+        {
+          "home": "Atletico Madrid",
+          "away": "Girona",
+          "date": "2026-05-17",
+          "home_prob": 58.8,
+          "winner": "Atletico Madrid",
+          "home_score": 1,
+          "away_score": 0,
+          "draw_prob": 14.6
+        },
+        {
+          "home": "Elche",
+          "away": "Getafe",
+          "date": "2026-05-17",
+          "home_prob": 53.6,
+          "winner": "Elche",
+          "home_score": 1,
+          "away_score": 0,
+          "draw_prob": 16.4
+        },
+        {
+          "home": "Levante",
+          "away": "Mallorca",
+          "date": "2026-05-17",
+          "home_prob": 56.4,
+          "winner": "Levante",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 15.4
+        },
+        {
+          "home": "Osasuna",
+          "away": "Espanyol",
+          "date": "2026-05-17",
+          "home_prob": 52.9,
+          "winner": "Espanyol",
+          "home_score": 1,
+          "away_score": 2,
+          "draw_prob": 16.6
+        },
+        {
+          "home": "Oviedo",
+          "away": "Alaves",
+          "date": "2026-05-17",
+          "home_prob": 55.2,
+          "winner": "Alaves",
+          "home_score": 0,
+          "away_score": 1,
+          "draw_prob": 15.8
+        },
+        {
+          "home": "Sevilla",
+          "away": "Real Madrid",
+          "date": "2026-05-17",
+          "home_prob": 26.8,
+          "winner": "Real Madrid",
+          "home_score": 0,
+          "away_score": 1,
+          "draw_prob": 14.7
+        },
+        {
+          "home": "Sociedad",
+          "away": "Valencia",
+          "date": "2026-05-17",
+          "home_prob": 60.1,
+          "winner": "Valencia",
+          "home_score": 3,
+          "away_score": 4,
+          "draw_prob": 14.2
+        },
+        {
+          "home": "Vallecano",
+          "away": "Villarreal",
+          "date": "2026-05-17",
+          "home_prob": 38.7,
+          "winner": "Vallecano",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 21.6
+        },
+        {
+          "home": "Barcelona",
+          "away": "Real Betis",
+          "date": "2026-05-17",
+          "home_prob": 70.8,
+          "winner": "Barcelona",
+          "home_score": 3,
+          "away_score": 1,
+          "draw_prob": 10.8
         }
       ]
     },
@@ -3356,17 +3536,17 @@
         },
         {
           "team": "Bayern Munich",
-          "rating": 1689.8,
+          "rating": 1693.5,
           "rank": 2
         },
         {
           "team": "RB Leipzig",
-          "rating": 1661.1,
+          "rating": 1644.5,
           "rank": 3
         },
         {
           "team": "Borussia Dortmund",
-          "rating": 1627.8,
+          "rating": 1636.1,
           "rank": 4
         },
         {
@@ -3380,18 +3560,18 @@
           "rank": 6
         },
         {
-          "team": "Hoffenheim",
-          "rating": 1521.8,
+          "team": "Freiburg",
+          "rating": 1523.4,
           "rank": 7
         },
         {
-          "team": "Heidenheim",
-          "rating": 1517.3,
+          "team": "Hoffenheim",
+          "rating": 1507.5,
           "rank": 8
         },
         {
-          "team": "Freiburg",
-          "rating": 1506.8,
+          "team": "Heidenheim",
+          "rating": 1502.4,
           "rank": 9
         },
         {
@@ -3400,53 +3580,53 @@
           "rank": 10
         },
         {
-          "team": "Augsburg",
-          "rating": 1485.3,
+          "team": "M'gladbach",
+          "rating": 1489.0,
           "rank": 11
         },
         {
           "team": "Wolfsburg",
-          "rating": 1475.3,
+          "rating": 1488.7,
           "rank": 12
         },
         {
-          "team": "M'gladbach",
-          "rating": 1474.6,
+          "team": "Mainz",
+          "rating": 1488.0,
           "rank": 13
         },
         {
-          "team": "Mainz",
-          "rating": 1473.1,
+          "team": "Union Berlin",
+          "rating": 1480.1,
           "rank": 14
+        },
+        {
+          "team": "Augsburg",
+          "rating": 1472.2,
+          "rank": 15
         },
         {
           "team": "Fortuna Dusseldorf",
           "rating": 1471.0,
-          "rank": 15
-        },
-        {
-          "team": "Union Berlin",
-          "rating": 1467.0,
           "rank": 16
         },
         {
           "team": "St Pauli",
-          "rating": 1467.0,
+          "rating": 1453.6,
           "rank": 17
-        },
-        {
-          "team": "Werder Bremen",
-          "rating": 1454.1,
-          "rank": 18
         },
         {
           "team": "Paderborn",
           "rating": 1451.3,
-          "rank": 19
+          "rank": 18
         },
         {
           "team": "Bielefeld",
           "rating": 1450.7,
+          "rank": 19
+        },
+        {
+          "team": "Werder Bremen",
+          "rating": 1445.9,
           "rank": 20
         },
         {
@@ -3466,7 +3646,7 @@
         },
         {
           "team": "FC Koln",
-          "rating": 1417.2,
+          "rating": 1413.6,
           "rank": 24
         },
         {
@@ -3486,41 +3666,41 @@
           "home": "Borussia Dortmund",
           "away": "Eintracht Frankfurt",
           "date": "2026-05-08",
-          "home_prob": 65.7,
+          "home_prob": 66.7,
           "winner": "Borussia Dortmund",
           "home_score": 3,
           "away_score": 2,
-          "draw_prob": 11.5
+          "draw_prob": 11.2
         },
         {
           "home": "Augsburg",
           "away": "M'gladbach",
           "date": "2026-05-09",
-          "home_prob": 53.9,
+          "home_prob": 49.9,
           "winner": "Augsburg",
           "home_score": 3,
           "away_score": 1,
-          "draw_prob": 15.1
+          "draw_prob": 16.4
         },
         {
           "home": "Hoffenheim",
           "away": "Werder Bremen",
           "date": "2026-05-09",
-          "home_prob": 61.7,
+          "home_prob": 60.9,
           "winner": "Hoffenheim",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 12.7
+          "draw_prob": 12.9
         },
         {
           "home": "RB Leipzig",
           "away": "St Pauli",
           "date": "2026-05-09",
-          "home_prob": 76.3,
+          "home_prob": 76.0,
           "winner": "RB Leipzig",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 8.4
+          "draw_prob": 8.5
         },
         {
           "home": "Stuttgart",
@@ -3536,41 +3716,131 @@
           "home": "Wolfsburg",
           "away": "Bayern Munich",
           "date": "2026-05-09",
-          "home_prob": 27.8,
+          "home_prob": 28.7,
           "winner": "Bayern Munich",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 13.6
+          "draw_prob": 14.0
         },
         {
           "home": "Hamburg",
           "away": "Freiburg",
           "date": "2026-05-10",
-          "home_prob": 49.9,
+          "home_prob": 47.5,
           "winner": "Hamburg",
           "home_score": 3,
           "away_score": 2,
-          "draw_prob": 16.4
+          "draw_prob": 17.2
         },
         {
           "home": "FC Koln",
           "away": "Heidenheim",
           "date": "2026-05-10",
-          "home_prob": 38.7,
+          "home_prob": 39.7,
           "winner": "Heidenheim",
           "home_score": 1,
           "away_score": 3,
-          "draw_prob": 19.2
+          "draw_prob": 19.8
         },
         {
           "home": "Mainz",
           "away": "Union Berlin",
           "date": "2026-05-10",
-          "home_prob": 53.2,
+          "home_prob": 53.5,
           "winner": "Union Berlin",
           "home_score": 1,
           "away_score": 3,
-          "draw_prob": 15.3
+          "draw_prob": 15.2
+        },
+        {
+          "home": "Bayern Munich",
+          "away": "FC Koln",
+          "date": "2026-05-16",
+          "home_prob": 83.4,
+          "winner": "Bayern Munich",
+          "home_score": 5,
+          "away_score": 1,
+          "draw_prob": 6.4
+        },
+        {
+          "home": "Eintracht Frankfurt",
+          "away": "Stuttgart",
+          "date": "2026-05-16",
+          "home_prob": 39.8,
+          "winner": null,
+          "home_score": 2,
+          "away_score": 2,
+          "draw_prob": 19.9
+        },
+        {
+          "home": "Freiburg",
+          "away": "RB Leipzig",
+          "date": "2026-05-16",
+          "home_prob": 36.7,
+          "winner": "Freiburg",
+          "home_score": 4,
+          "away_score": 1,
+          "draw_prob": 18.0
+        },
+        {
+          "home": "Heidenheim",
+          "away": "Mainz",
+          "date": "2026-05-16",
+          "home_prob": 54.4,
+          "winner": "Mainz",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 14.9
+        },
+        {
+          "home": "Bayer Leverkusen",
+          "away": "Hamburg",
+          "date": "2026-05-16",
+          "home_prob": 77.4,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 8.1
+        },
+        {
+          "home": "M'gladbach",
+          "away": "Hoffenheim",
+          "date": "2026-05-16",
+          "home_prob": 49.7,
+          "winner": "M'gladbach",
+          "home_score": 4,
+          "away_score": 0,
+          "draw_prob": 16.5
+        },
+        {
+          "home": "St Pauli",
+          "away": "Wolfsburg",
+          "date": "2026-05-16",
+          "home_prob": 47.2,
+          "winner": "Wolfsburg",
+          "home_score": 1,
+          "away_score": 3,
+          "draw_prob": 17.3
+        },
+        {
+          "home": "Union Berlin",
+          "away": "Augsburg",
+          "date": "2026-05-16",
+          "home_prob": 53.5,
+          "winner": "Union Berlin",
+          "home_score": 4,
+          "away_score": 0,
+          "draw_prob": 15.2
+        },
+        {
+          "home": "Werder Bremen",
+          "away": "Borussia Dortmund",
+          "date": "2026-05-16",
+          "home_prob": 30.1,
+          "winner": "Borussia Dortmund",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 14.7
         }
       ]
     },
@@ -3583,57 +3853,57 @@
         },
         {
           "team": "Juventus",
-          "rating": 1668.2,
+          "rating": 1651.7,
           "rank": 2
         },
         {
           "team": "AS Roma",
-          "rating": 1622.2,
+          "rating": 1629.9,
           "rank": 3
         },
         {
-          "team": "Atalanta",
-          "rating": 1621.2,
+          "team": "Milan",
+          "rating": 1613.5,
           "rank": 4
         },
         {
-          "team": "Milan",
-          "rating": 1607.5,
+          "team": "Atalanta",
+          "rating": 1611.8,
           "rank": 5
         },
         {
-          "team": "Lazio",
-          "rating": 1606.0,
+          "team": "Napoli",
+          "rating": 1610.6,
           "rank": 6
         },
         {
-          "team": "Napoli",
-          "rating": 1598.9,
+          "team": "Lazio",
+          "rating": 1598.2,
           "rank": 7
         },
         {
           "team": "Bologna",
-          "rating": 1580.9,
+          "rating": 1590.4,
           "rank": 8
         },
         {
           "team": "Fiorentina",
-          "rating": 1566.0,
+          "rating": 1582.5,
           "rank": 9
         },
         {
           "team": "Torino",
-          "rating": 1543.2,
+          "rating": 1535.6,
           "rank": 10
         },
         {
-          "team": "Udinese",
-          "rating": 1519.3,
+          "team": "Como",
+          "rating": 1513.9,
           "rank": 11
         },
         {
-          "team": "Como",
-          "rating": 1509.9,
+          "team": "Udinese",
+          "rating": 1509.1,
           "rank": 12
         },
         {
@@ -3643,42 +3913,42 @@
         },
         {
           "team": "Genoa",
-          "rating": 1466.1,
+          "rating": 1460.2,
           "rank": 14
-        },
-        {
-          "team": "Pisa",
-          "rating": 1455.5,
-          "rank": 15
         },
         {
           "team": "Benevento",
           "rating": 1454.8,
-          "rank": 16
+          "rank": 15
         },
         {
           "team": "Brescia",
           "rating": 1454.5,
-          "rank": 17
+          "rank": 16
         },
         {
           "team": "Empoli",
           "rating": 1452.8,
-          "rank": 18
+          "rank": 17
         },
         {
           "team": "Frosinone",
           "rating": 1447.2,
-          "rank": 19
+          "rank": 18
         },
         {
           "team": "Crotone",
           "rating": 1445.4,
-          "rank": 20
+          "rank": 19
         },
         {
           "team": "Venezia",
           "rating": 1443.9,
+          "rank": 20
+        },
+        {
+          "team": "Pisa",
+          "rating": 1443.8,
           "rank": 21
         },
         {
@@ -3687,23 +3957,23 @@
           "rank": 22
         },
         {
-          "team": "Parma",
-          "rating": 1442.5,
+          "team": "Cremonese",
+          "rating": 1439.8,
           "rank": 23
         },
         {
-          "team": "Sassuolo",
-          "rating": 1432.2,
+          "team": "Parma",
+          "rating": 1438.5,
           "rank": 24
         },
         {
-          "team": "Cremonese",
-          "rating": 1429.6,
+          "team": "Lecce",
+          "rating": 1433.7,
           "rank": 25
         },
         {
-          "team": "Lecce",
-          "rating": 1424.9,
+          "team": "Cagliari",
+          "rating": 1427.5,
           "rank": 26
         },
         {
@@ -3712,8 +3982,8 @@
           "rank": 27
         },
         {
-          "team": "Cagliari",
-          "rating": 1419.9,
+          "team": "Sassuolo",
+          "rating": 1423.3,
           "rank": 28
         },
         {
@@ -3738,140 +4008,140 @@
           "away": "Atalanta",
           "date": "2026-05-22",
           "datetime": "2026-05-22T18:45Z",
-          "home_prob": 43.6,
-          "away_prob": 35.7,
+          "home_prob": 47.4,
+          "away_prob": 33.4,
           "margin": 0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Stadio Artemio Franchi",
           "game_id": "seriea_737161",
-          "draw_prob": 20.8
+          "draw_prob": 19.2
         },
         {
           "home": "Bologna",
           "away": "Internazionale",
           "date": "2026-05-23",
           "datetime": "2026-05-23T16:00Z",
-          "home_prob": 63.0,
-          "away_prob": 23.5,
+          "home_prob": 64.2,
+          "away_prob": 22.7,
           "margin": 0.2,
           "home_fav": true,
           "locked": false,
           "venue": "Renato Dall'Ara",
           "game_id": "seriea_737154",
-          "draw_prob": 13.5
+          "draw_prob": 13.0
         },
         {
           "home": "Lazio",
           "away": "Pisa",
           "date": "2026-05-23",
           "datetime": "2026-05-23T18:45Z",
-          "home_prob": 71.5,
-          "away_prob": 17.9,
+          "home_prob": 71.9,
+          "away_prob": 17.6,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
           "venue": "Olimpico",
           "game_id": "seriea_737159",
-          "draw_prob": 10.6
+          "draw_prob": 10.5
         },
         {
           "home": "Parma",
           "away": "Sassuolo",
           "date": "2026-05-24",
           "datetime": "2026-05-24T13:00Z",
-          "home_prob": 53.2,
-          "away_prob": 29.9,
+          "home_prob": 53.9,
+          "away_prob": 29.4,
           "margin": 0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Ennio Tardini",
           "game_id": "seriea_737155",
-          "draw_prob": 16.9
+          "draw_prob": 16.7
         },
         {
           "home": "Napoli",
           "away": "Udinese",
           "date": "2026-05-24",
           "datetime": "2026-05-24T16:00Z",
-          "home_prob": 62.8,
-          "away_prob": 23.7,
+          "home_prob": 65.6,
+          "away_prob": 21.8,
           "margin": 0.1,
           "home_fav": true,
           "locked": false,
           "venue": "Stadio Diego Armando Maradona",
           "game_id": "seriea_737156",
-          "draw_prob": 13.5
+          "draw_prob": 12.6
         },
         {
           "home": "AC Milan",
           "away": "Cagliari",
           "date": "2026-05-24",
           "datetime": "2026-05-24T18:45Z",
-          "home_prob": 62.9,
-          "away_prob": 23.6,
+          "home_prob": 61.9,
+          "away_prob": 24.3,
           "margin": 0.6,
           "home_fav": true,
           "locked": false,
           "venue": "San Siro",
           "game_id": "seriea_737157",
-          "draw_prob": 13.5
+          "draw_prob": 13.8
         },
         {
           "home": "Cremonese",
           "away": "Como",
           "date": "2026-05-24",
           "datetime": "2026-05-24T18:45Z",
-          "home_prob": 39.9,
-          "away_prob": 37.7,
+          "home_prob": 40.8,
+          "away_prob": 37.2,
           "margin": -0.6,
           "home_fav": false,
           "locked": false,
           "venue": "Stadio Giovanni Zini",
           "game_id": "seriea_737162",
-          "draw_prob": 22.4
+          "draw_prob": 22.0
         },
         {
           "home": "Hellas Verona",
           "away": "AS Roma",
           "date": "2026-05-24",
           "datetime": "2026-05-24T18:45Z",
-          "home_prob": 35.9,
-          "away_prob": 43.2,
+          "home_prob": 35.2,
+          "away_prob": 44.3,
           "margin": 0.4,
           "home_fav": false,
           "locked": false,
           "venue": "Stadio Marcantonio Bentegodi",
           "game_id": "seriea_737160",
-          "draw_prob": 21.0
+          "draw_prob": 20.5
         },
         {
           "home": "Lecce",
           "away": "Genoa",
           "date": "2026-05-24",
           "datetime": "2026-05-24T18:45Z",
-          "home_prob": 45.6,
-          "away_prob": 34.5,
+          "home_prob": 47.8,
+          "away_prob": 33.2,
           "margin": -0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Via Del Mare",
           "game_id": "seriea_737163",
-          "draw_prob": 19.9
+          "draw_prob": 19.0
         },
         {
           "home": "Torino",
           "away": "Juventus",
           "date": "2026-05-24",
           "datetime": "2026-05-24T18:45Z",
-          "home_prob": 35.6,
-          "away_prob": 43.6,
+          "home_prob": 36.4,
+          "away_prob": 42.3,
           "margin": 0.5,
           "home_fav": false,
           "locked": false,
           "venue": "Stadio Olimpico Grande Torino",
           "game_id": "seriea_737158",
-          "draw_prob": 20.8
+          "draw_prob": 21.3
         }
       ],
       "recent": [
@@ -3879,101 +4149,201 @@
           "home": "Torino",
           "away": "Sassuolo",
           "date": "2026-05-08",
-          "home_prob": 66.8,
+          "home_prob": 67.0,
           "winner": "Torino",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 12.2
+          "draw_prob": 12.1
         },
         {
           "home": "Cagliari",
           "away": "Udinese",
           "date": "2026-05-09",
-          "home_prob": 37.7,
+          "home_prob": 39.7,
           "winner": "Udinese",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 22.4
+          "draw_prob": 22.5
         },
         {
           "home": "Lazio",
           "away": "Inter Milan",
           "date": "2026-05-09",
-          "home_prob": 32.6,
+          "home_prob": 31.9,
           "winner": "Inter Milan",
           "home_score": 0,
           "away_score": 3,
-          "draw_prob": 18.7
+          "draw_prob": 18.2
         },
         {
           "home": "Lecce",
           "away": "Juventus",
           "date": "2026-05-09",
-          "home_prob": 25.1,
+          "home_prob": 27.4,
           "winner": "Juventus",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 14.3
+          "draw_prob": 15.5
         },
         {
           "home": "Verona",
           "away": "Como",
           "date": "2026-05-10",
-          "home_prob": 38.3,
+          "home_prob": 38.0,
           "winner": "Como",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 22.9
+          "draw_prob": 22.6
         },
         {
           "home": "Cremonese",
           "away": "Pisa",
           "date": "2026-05-10",
-          "home_prob": 47.9,
+          "home_prob": 51.1,
           "winner": "Cremonese",
           "home_score": 3,
           "away_score": 0,
-          "draw_prob": 19.0
+          "draw_prob": 17.7
         },
         {
           "home": "Fiorentina",
           "away": "Genoa",
           "date": "2026-05-10",
-          "home_prob": 65.4,
+          "home_prob": 68.2,
           "winner": null,
           "home_score": 0,
           "away_score": 0,
-          "draw_prob": 12.6
+          "draw_prob": 11.7
         },
         {
           "home": "Parma",
           "away": "AS Roma",
           "date": "2026-05-10",
-          "home_prob": 30.8,
+          "home_prob": 29.8,
           "winner": "AS Roma",
           "home_score": 2,
           "away_score": 3,
-          "draw_prob": 17.5
+          "draw_prob": 16.9
         },
         {
           "home": "Milan",
           "away": "Atalanta",
           "date": "2026-05-10",
-          "home_prob": 49.7,
+          "home_prob": 51.9,
           "winner": "Atalanta",
           "home_score": 2,
           "away_score": 3,
-          "draw_prob": 18.3
+          "draw_prob": 17.4
         },
         {
           "home": "Napoli",
           "away": "Bologna",
           "date": "2026-05-11",
-          "home_prob": 54.3,
+          "home_prob": 54.6,
           "winner": "Bologna",
           "home_score": 2,
           "away_score": 3,
-          "draw_prob": 16.5
+          "draw_prob": 16.4
+        },
+        {
+          "home": "Como",
+          "away": "Parma",
+          "date": "2026-05-17",
+          "home_prob": 62.3,
+          "winner": "Como",
+          "home_score": 1,
+          "away_score": 0,
+          "draw_prob": 13.7
+        },
+        {
+          "home": "Genoa",
+          "away": "Milan",
+          "date": "2026-05-17",
+          "home_prob": 33.2,
+          "winner": "Milan",
+          "home_score": 1,
+          "away_score": 2,
+          "draw_prob": 19.0
+        },
+        {
+          "home": "Juventus",
+          "away": "Fiorentina",
+          "date": "2026-05-17",
+          "home_prob": 61.4,
+          "winner": "Fiorentina",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 14.0
+        },
+        {
+          "home": "Pisa",
+          "away": "Napoli",
+          "date": "2026-05-17",
+          "home_prob": 32.0,
+          "winner": "Napoli",
+          "home_score": 0,
+          "away_score": 3,
+          "draw_prob": 18.3
+        },
+        {
+          "home": "AS Roma",
+          "away": "Lazio",
+          "date": "2026-05-17",
+          "home_prob": 56.3,
+          "winner": "AS Roma",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 15.8
+        },
+        {
+          "home": "Inter Milan",
+          "away": "Verona",
+          "date": "2026-05-17",
+          "home_prob": 87.7,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 5.3
+        },
+        {
+          "home": "Atalanta",
+          "away": "Bologna",
+          "date": "2026-05-17",
+          "home_prob": 54.8,
+          "winner": "Bologna",
+          "home_score": 0,
+          "away_score": 1,
+          "draw_prob": 16.3
+        },
+        {
+          "home": "Cagliari",
+          "away": "Torino",
+          "date": "2026-05-17",
+          "home_prob": 37.0,
+          "winner": "Cagliari",
+          "home_score": 2,
+          "away_score": 1,
+          "draw_prob": 21.9
+        },
+        {
+          "home": "Sassuolo",
+          "away": "Lecce",
+          "date": "2026-05-17",
+          "home_prob": 50.2,
+          "winner": "Lecce",
+          "home_score": 2,
+          "away_score": 3,
+          "draw_prob": 18.1
+        },
+        {
+          "home": "Udinese",
+          "away": "Cremonese",
+          "date": "2026-05-17",
+          "home_prob": 61.5,
+          "winner": "Cremonese",
+          "home_score": 0,
+          "away_score": 1,
+          "draw_prob": 14.0
         }
       ]
     },
@@ -3981,37 +4351,37 @@
       "ratings": [
         {
           "team": "Paris Saint-Germain",
-          "rating": 1741.5,
+          "rating": 1732.1,
           "rank": 1
         },
         {
           "team": "Lille",
-          "rating": 1638.9,
+          "rating": 1621.0,
           "rank": 2
         },
         {
-          "team": "AS Monaco",
-          "rating": 1604.0,
+          "team": "Lens",
+          "rating": 1614.9,
           "rank": 3
         },
         {
-          "team": "Lens",
-          "rating": 1595.0,
+          "team": "AS Monaco",
+          "rating": 1596.3,
           "rank": 4
         },
         {
-          "team": "Olympique Lyonnais",
-          "rating": 1592.8,
+          "team": "Olympique de Marseille",
+          "rating": 1582.6,
           "rank": 5
         },
         {
-          "team": "Rennes",
-          "rating": 1579.0,
+          "team": "Olympique Lyonnais",
+          "rating": 1572.9,
           "rank": 6
         },
         {
-          "team": "Olympique de Marseille",
-          "rating": 1574.1,
+          "team": "Rennes",
+          "rating": 1570.5,
           "rank": 7
         },
         {
@@ -4020,13 +4390,13 @@
           "rank": 8
         },
         {
-          "team": "Brest",
-          "rating": 1537.5,
+          "team": "Paris FC",
+          "rating": 1538.2,
           "rank": 9
         },
         {
-          "team": "Paris FC",
-          "rating": 1528.8,
+          "team": "Brest",
+          "rating": 1537.5,
           "rank": 10
         },
         {
@@ -4046,32 +4416,32 @@
         },
         {
           "team": "Strasbourg",
-          "rating": 1477.8,
+          "rating": 1485.5,
           "rank": 14
+        },
+        {
+          "team": "Auxerre",
+          "rating": 1485.1,
+          "rank": 15
         },
         {
           "team": "Amiens",
           "rating": 1472.8,
-          "rank": 15
+          "rank": 16
         },
         {
-          "team": "Auxerre",
-          "rating": 1467.2,
-          "rank": 16
+          "team": "Le Havre",
+          "rating": 1463.9,
+          "rank": 17
         },
         {
           "team": "Nimes",
           "rating": 1459.7,
-          "rank": 17
-        },
-        {
-          "team": "Lorient",
-          "rating": 1455.6,
           "rank": 18
         },
         {
-          "team": "Le Havre",
-          "rating": 1450.1,
+          "team": "Lorient",
+          "rating": 1441.8,
           "rank": 19
         },
         {
@@ -4126,111 +4496,191 @@
           "home": "Lens",
           "away": "Nantes",
           "date": "2026-05-08",
-          "home_prob": 72.4,
+          "home_prob": 74.5,
           "winner": "Lens",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 10.1
+          "draw_prob": 9.4
         },
         {
           "home": "Angers",
           "away": "Strasbourg",
           "date": "2026-05-10",
-          "home_prob": 37.5,
+          "home_prob": 36.8,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 20.0
+          "draw_prob": 19.5
         },
         {
           "home": "Auxerre",
           "away": "Nice",
           "date": "2026-05-10",
-          "home_prob": 37.9,
+          "home_prob": 39.5,
           "winner": "Auxerre",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 20.3
+          "draw_prob": 21.2
         },
         {
           "home": "Le Havre",
           "away": "Olympique de Marseille",
           "date": "2026-05-10",
-          "home_prob": 36.0,
+          "home_prob": 36.4,
           "winner": "Olympique de Marseille",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 19.0
+          "draw_prob": 19.3
         },
         {
           "home": "Metz",
           "away": "Lorient",
           "date": "2026-05-10",
-          "home_prob": 40.5,
+          "home_prob": 42.5,
           "winner": "Lorient",
           "home_score": 0,
           "away_score": 4,
-          "draw_prob": 20.8
+          "draw_prob": 20.0
         },
         {
           "home": "AS Monaco",
           "away": "Lille",
           "date": "2026-05-10",
-          "home_prob": 46.6,
+          "home_prob": 48.1,
           "winner": "Lille",
           "home_score": 0,
           "away_score": 1,
-          "draw_prob": 18.4
+          "draw_prob": 17.9
         },
         {
           "home": "Paris Saint-Germain",
           "away": "Brest",
           "date": "2026-05-10",
-          "home_prob": 76.7,
+          "home_prob": 75.8,
           "winner": "Paris Saint-Germain",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 8.8
+          "draw_prob": 9.0
         },
         {
           "home": "Rennes",
           "away": "Paris FC",
           "date": "2026-05-10",
-          "home_prob": 58.7,
+          "home_prob": 56.3,
           "winner": "Rennes",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 14.3
+          "draw_prob": 15.1
         },
         {
           "home": "Toulouse",
           "away": "Olympique Lyonnais",
           "date": "2026-05-10",
-          "home_prob": 38.4,
+          "home_prob": 40.6,
           "winner": "Toulouse",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 20.6
+          "draw_prob": 20.8
         },
         {
           "home": "Brest",
           "away": "Strasbourg",
           "date": "2026-05-13",
-          "home_prob": 60.0,
+          "home_prob": 59.0,
           "winner": "Strasbourg",
           "home_score": 1,
           "away_score": 2,
-          "draw_prob": 13.9
+          "draw_prob": 14.2
         },
         {
           "home": "Lens",
           "away": "Paris Saint-Germain",
           "date": "2026-05-13",
-          "home_prob": 33.9,
+          "home_prob": 36.6,
           "winner": "Paris Saint-Germain",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 17.8
+          "draw_prob": 19.4
+        },
+        {
+          "home": "Brest",
+          "away": "Angers",
+          "date": "2026-05-17",
+          "home_prob": 73.0,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 9.9
+        },
+        {
+          "home": "Lille",
+          "away": "Auxerre",
+          "date": "2026-05-17",
+          "home_prob": 69.6,
+          "winner": "Auxerre",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 10.9
+        },
+        {
+          "home": "Lorient",
+          "away": "Le Havre",
+          "date": "2026-05-17",
+          "home_prob": 48.5,
+          "winner": "Le Havre",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 17.7
+        },
+        {
+          "home": "Olympique Lyonnais",
+          "away": "Lens",
+          "date": "2026-05-17",
+          "home_prob": 45.6,
+          "winner": "Lens",
+          "home_score": 0,
+          "away_score": 4,
+          "draw_prob": 18.8
+        },
+        {
+          "home": "Olympique de Marseille",
+          "away": "Rennes",
+          "date": "2026-05-17",
+          "home_prob": 53.4,
+          "winner": "Olympique de Marseille",
+          "home_score": 3,
+          "away_score": 1,
+          "draw_prob": 16.0
+        },
+        {
+          "home": "Nice",
+          "away": "Metz",
+          "date": "2026-05-17",
+          "home_prob": 75.4,
+          "winner": null,
+          "home_score": 0,
+          "away_score": 0,
+          "draw_prob": 9.2
+        },
+        {
+          "home": "Paris FC",
+          "away": "Paris Saint-Germain",
+          "date": "2026-05-17",
+          "home_prob": 29.4,
+          "winner": "Paris FC",
+          "home_score": 2,
+          "away_score": 1,
+          "draw_prob": 15.5
+        },
+        {
+          "home": "Strasbourg",
+          "away": "AS Monaco",
+          "date": "2026-05-17",
+          "home_prob": 37.2,
+          "winner": "Strasbourg",
+          "home_score": 5,
+          "away_score": 4,
+          "draw_prob": 19.8
         }
       ]
     },
@@ -6638,7 +7088,7 @@
         },
         {
           "team": "Los Angeles Angels",
-          "rating": 1447.6,
+          "rating": 1447.7,
           "rank": 30
         }
       ],
@@ -9489,7 +9939,7 @@
           "home": "Washington Nationals",
           "away": "Minnesota Twins",
           "date": "2026-05-05",
-          "home_prob": 50.0,
+          "home_prob": 50.1,
           "winner": "Minnesota Twins",
           "home_score": 3,
           "away_score": 11,
@@ -9669,7 +10119,7 @@
           "home": "Washington Nationals",
           "away": "Minnesota Twins",
           "date": "2026-05-06",
-          "home_prob": 50.0,
+          "home_prob": 50.1,
           "winner": "Washington Nationals",
           "home_score": 15,
           "away_score": 2,
@@ -9739,7 +10189,7 @@
           "home": "Washington Nationals",
           "away": "Minnesota Twins",
           "date": "2026-05-07",
-          "home_prob": 50.0,
+          "home_prob": 50.1,
           "winner": "Washington Nationals",
           "home_score": 7,
           "away_score": 5,
