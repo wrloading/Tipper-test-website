@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-19T21:03:10.295745+00:00",
+    "updated": "2026-05-19T22:40:19.373965+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2577,20 +2577,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Chelsea",
-          "away": "Tottenham Hotspur",
-          "date": "2026-05-19",
-          "datetime": "2026-05-19T19:15Z",
-          "home_prob": 54.4,
-          "away_prob": 30.3,
-          "margin": -0.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stamford Bridge",
-          "game_id": "epl_740960",
-          "draw_prob": 15.3
-        },
         {
           "home": "Brighton & Hove Albion",
           "away": "Manchester United",
@@ -7102,7 +7088,7 @@
           "away_prob": 40.6,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815405",
           "draw_prob": null
@@ -7116,7 +7102,7 @@
           "away_prob": 41.0,
           "margin": 3.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815406",
           "draw_prob": null
@@ -7130,7 +7116,7 @@
           "away_prob": 49.4,
           "margin": -2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815407",
           "draw_prob": null
