@@ -2,7 +2,7 @@
   "sport": "mlb",
   "current_season": 2026,
   "ratings": {
-    "Atlanta Braves": 1553.91,
+    "Atlanta Braves": 1556.55,
     "Los Angeles Dodgers": 1547.94,
     "Tampa Bay Rays": 1534.77,
     "Chicago Cubs": 1534.66,
@@ -32,7 +32,7 @@
     "San Francisco Giants": 1476.53,
     "Colorado Rockies": 1472.01,
     "Washington Nationals": 1469.21,
-    "Miami Marlins": 1467.03,
+    "Miami Marlins": 1464.39,
     "Los Angeles Angels": 1447.65
   }
 }
