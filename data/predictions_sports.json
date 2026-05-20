@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-20T16:41:28.990232+00:00",
+    "updated": "2026-05-20T19:10:43.240914+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6937,7 +6937,7 @@
           "away_prob": 28.9,
           "margin": 16.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Vodafone Park",
           "game_id": "uel_401862911",
           "draw_prob": 14.7
@@ -7108,7 +7108,7 @@
           "away_prob": 42.0,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815421",
           "draw_prob": null
@@ -7122,7 +7122,7 @@
           "away_prob": 39.9,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815420",
           "draw_prob": null
@@ -7136,7 +7136,7 @@
           "away_prob": 45.4,
           "margin": -2.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815426",
           "draw_prob": null
@@ -7150,7 +7150,7 @@
           "away_prob": 52.0,
           "margin": -4.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Coors Field",
           "game_id": "mlb_401815429",
           "draw_prob": null
