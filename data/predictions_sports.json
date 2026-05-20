@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-20T19:10:43.240914+00:00",
+    "updated": "2026-05-20T21:16:04.340920+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6927,22 +6927,7 @@
           "rank": 250
         }
       ],
-      "upcoming": [
-        {
-          "home": "SC Freiburg",
-          "away": "Aston Villa",
-          "date": "2026-05-20",
-          "datetime": "2026-05-20T19:00Z",
-          "home_prob": 56.4,
-          "away_prob": 28.9,
-          "margin": 16.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Vodafone Park",
-          "game_id": "uel_401862911",
-          "draw_prob": 14.7
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "mlb": {
@@ -7100,48 +7085,6 @@
       ],
       "upcoming": [
         {
-          "home": "Philadelphia Phillies",
-          "away": "Cincinnati Reds",
-          "date": "2026-05-20",
-          "datetime": "2026-05-20T17:05Z",
-          "home_prob": 58.0,
-          "away_prob": 42.0,
-          "margin": 1.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Citizens Bank Park",
-          "game_id": "mlb_401815421",
-          "draw_prob": null
-        },
-        {
-          "home": "Tampa Bay Rays",
-          "away": "Baltimore Orioles",
-          "date": "2026-05-20",
-          "datetime": "2026-05-20T17:10Z",
-          "home_prob": 60.1,
-          "away_prob": 39.9,
-          "margin": 1.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Tropicana Field",
-          "game_id": "mlb_401815420",
-          "draw_prob": null
-        },
-        {
-          "home": "Minnesota Twins",
-          "away": "Houston Astros",
-          "date": "2026-05-20",
-          "datetime": "2026-05-20T17:40Z",
-          "home_prob": 54.6,
-          "away_prob": 45.4,
-          "margin": -2.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Target Field",
-          "game_id": "mlb_401815426",
-          "draw_prob": null
-        },
-        {
           "home": "Colorado Rockies",
           "away": "Texas Rangers",
           "date": "2026-05-20",
@@ -7164,7 +7107,7 @@
           "away_prob": 42.5,
           "margin": -1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Chase Field",
           "game_id": "mlb_401815433",
           "draw_prob": null
@@ -7178,7 +7121,7 @@
           "away_prob": 43.3,
           "margin": 3.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "T-Mobile Park",
           "game_id": "mlb_401815431",
           "draw_prob": null
