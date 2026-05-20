@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-20T07:49:33.886353+00:00",
+    "updated": "2026-05-20T10:55:15.525484+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2486,17 +2486,17 @@
         },
         {
           "team": "Tottenham",
-          "rating": 1566.3,
+          "rating": 1560.1,
           "rank": 7
+        },
+        {
+          "team": "Chelsea",
+          "rating": 1528.2,
+          "rank": 8
         },
         {
           "team": "Brighton & Hove Albion",
           "rating": 1523.4,
-          "rank": 8
-        },
-        {
-          "team": "Chelsea",
-          "rating": 1522.0,
           "rank": 9
         },
         {
@@ -2694,14 +2694,14 @@
           "away": "Chelsea",
           "date": "2026-05-24",
           "datetime": "2026-05-24T15:00Z",
-          "home_prob": 46.8,
-          "away_prob": 35.3,
+          "home_prob": 45.9,
+          "away_prob": 35.9,
           "margin": -0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Stadium of Light",
           "game_id": "epl_740973",
-          "draw_prob": 17.9
+          "draw_prob": 18.2
         },
         {
           "home": "Tottenham Hotspur",
@@ -2737,11 +2737,11 @@
           "home": "Liverpool",
           "away": "Chelsea",
           "date": "2026-05-09",
-          "home_prob": 70.8,
+          "home_prob": 70.1,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 10.3
+          "draw_prob": 10.5
         },
         {
           "home": "Brighton & Hove Albion",
@@ -2827,11 +2827,11 @@
           "home": "Tottenham",
           "away": "Leeds United",
           "date": "2026-05-11",
-          "home_prob": 65.7,
+          "home_prob": 64.9,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 11.8
+          "draw_prob": 12.0
         },
         {
           "home": "Manchester City",
@@ -2922,6 +2922,26 @@
           "home_score": 1,
           "away_score": 0,
           "draw_prob": 5.5
+        },
+        {
+          "home": "Bournemouth",
+          "away": "Manchester City",
+          "date": "2026-05-19",
+          "home_prob": 22.7,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 11.9
+        },
+        {
+          "home": "Chelsea",
+          "away": "Tottenham",
+          "date": "2026-05-19",
+          "home_prob": 46.7,
+          "winner": "Chelsea",
+          "home_score": 2,
+          "away_score": 1,
+          "draw_prob": 18.0
         }
       ]
     },
