@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-21T04:47:10.270625+00:00",
+    "updated": "2026-05-21T08:25:26.920731+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -680,8 +680,8 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-05-23",
           "datetime": "2026-05-23T00:30Z",
-          "home_prob": 53.0,
-          "away_prob": 47.0,
+          "home_prob": 52.9,
+          "away_prob": 47.1,
           "margin": 2.1,
           "home_fav": true,
           "locked": false,
@@ -708,8 +708,8 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-05-25",
           "datetime": "2026-05-25T00:00Z",
-          "home_prob": 53.0,
-          "away_prob": 47.0,
+          "home_prob": 52.9,
+          "away_prob": 47.1,
           "margin": 2.1,
           "home_fav": true,
           "locked": false,
@@ -764,8 +764,8 @@
           "away": "Oklahoma City Thunder",
           "date": "2026-05-29",
           "datetime": "2026-05-29T00:30Z",
-          "home_prob": 53.0,
-          "away_prob": 47.0,
+          "home_prob": 52.9,
+          "away_prob": 47.1,
           "margin": 2.1,
           "home_fav": true,
           "locked": false,
@@ -6951,7 +6951,7 @@
         },
         {
           "team": "New York Yankees",
-          "rating": 1524.7,
+          "rating": 1524.8,
           "rank": 6
         },
         {
@@ -7071,7 +7071,7 @@
         },
         {
           "team": "Los Angeles Angels",
-          "rating": 1442.4,
+          "rating": 1442.3,
           "rank": 30
         }
       ],
