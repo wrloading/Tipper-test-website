@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-21T17:47:23.004373+00:00",
+    "updated": "2026-05-21T19:58:30.983503+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7074,20 +7074,6 @@
           "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815435",
-          "draw_prob": null
-        },
-        {
-          "home": "St. Louis Cardinals",
-          "away": "Pittsburgh Pirates",
-          "date": "2026-05-21",
-          "datetime": "2026-05-21T17:15Z",
-          "home_prob": 56.8,
-          "away_prob": 43.2,
-          "margin": -0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Busch Stadium",
-          "game_id": "mlb_401815438",
           "draw_prob": null
         },
         {
