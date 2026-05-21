@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-21T15:35:45.436623+00:00",
+    "updated": "2026-05-21T17:47:23.004373+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Hawthorn",
-          "away": "Adelaide",
-          "date": "2026-05-21",
-          "datetime": "2026-05-21T09:30Z",
-          "home_prob": 63.8,
-          "away_prob": 36.2,
-          "margin": 10.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "UTAS Stadium",
-          "game_id": "afl_1133573",
-          "draw_prob": null
-        },
         {
           "home": "Richmond",
           "away": "Essendon",
@@ -7085,7 +7071,7 @@
           "away_prob": 50.2,
           "margin": -1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815435",
           "draw_prob": null
@@ -7099,7 +7085,7 @@
           "away_prob": 43.2,
           "margin": -0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815438",
           "draw_prob": null
