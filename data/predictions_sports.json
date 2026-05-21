@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-21T08:25:26.920731+00:00",
+    "updated": "2026-05-21T11:48:58.204114+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 36.2,
           "margin": 10.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "UTAS Stadium",
           "game_id": "afl_1133573",
           "draw_prob": null
