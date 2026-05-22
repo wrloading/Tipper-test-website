@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-22T18:19:58.856541+00:00",
+    "updated": "2026-05-22T20:21:58.045217+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4002,7 +4002,7 @@
           "away_prob": 33.4,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Artemio Franchi",
           "game_id": "seriea_737161",
           "draw_prob": 19.2
@@ -7077,7 +7077,7 @@
           "away_prob": 40.0,
           "margin": -5.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815449",
           "draw_prob": null
