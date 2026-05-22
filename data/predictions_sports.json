@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-22T20:21:58.045217+00:00",
+    "updated": "2026-05-22T21:44:38.832943+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3993,20 +3993,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Fiorentina",
-          "away": "Atalanta",
-          "date": "2026-05-22",
-          "datetime": "2026-05-22T18:45Z",
-          "home_prob": 47.4,
-          "away_prob": 33.4,
-          "margin": 0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stadio Artemio Franchi",
-          "game_id": "seriea_737161",
-          "draw_prob": 19.2
-        },
         {
           "home": "Bologna",
           "away": "Internazionale",
