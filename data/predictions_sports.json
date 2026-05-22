@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-22T11:20:26.561960+00:00",
+    "updated": "2026-05-22T13:55:19.495752+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Richmond",
-          "away": "Essendon",
-          "date": "2026-05-22",
-          "datetime": "2026-05-22T09:45Z",
-          "home_prob": 39.5,
-          "away_prob": 60.5,
-          "margin": 7.0,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133574",
-          "draw_prob": null
-        },
-        {
-          "home": "Fremantle",
-          "away": "St Kilda",
-          "date": "2026-05-22",
-          "datetime": "2026-05-22T10:30Z",
-          "home_prob": 74.9,
-          "away_prob": 25.1,
-          "margin": 20.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133575",
-          "draw_prob": null
-        },
         {
           "home": "North Melbourne",
           "away": "Gold Coast SUNS",
