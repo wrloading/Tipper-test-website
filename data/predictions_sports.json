@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-23T15:44:18.329643+00:00",
+    "updated": "2026-05-23T16:44:13.412555+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3945,7 +3945,7 @@
           "away_prob": 22.7,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Renato Dall'Ara",
           "game_id": "seriea_737154",
           "draw_prob": 13.0
