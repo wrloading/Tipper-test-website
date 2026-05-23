@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-23T17:47:50.189876+00:00",
+    "updated": "2026-05-23T19:16:25.717584+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -979,20 +979,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chicago Sky",
-          "away": "Minnesota Lynx",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T17:00Z",
-          "home_prob": 41.4,
-          "away_prob": 58.6,
-          "margin": -2.0,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Wintrust Arena",
-          "game_id": "wnba_401856930",
-          "draw_prob": null
-        },
-        {
           "home": "Toronto Tempo",
           "away": "Portland Fire",
           "date": "2026-05-23",
@@ -1111,7 +1097,7 @@
           "datetime": "2026-05-28T00:00Z",
           "home_prob": 55.1,
           "away_prob": 44.9,
-          "margin": 2.2,
+          "margin": -2.8,
           "home_fav": true,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -1223,7 +1209,7 @@
           "datetime": "2026-05-29T23:30Z",
           "home_prob": 41.4,
           "away_prob": 58.6,
-          "margin": -2.0,
+          "margin": -7.4,
           "home_fav": false,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -1321,7 +1307,7 @@
           "datetime": "2026-06-02T02:00Z",
           "home_prob": 35.3,
           "away_prob": 64.7,
-          "margin": -4.0,
+          "margin": -4.3,
           "home_fav": false,
           "locked": false,
           "venue": "Mortgage Matchup Center",
@@ -1447,7 +1433,7 @@
           "datetime": "2026-06-05T23:30Z",
           "home_prob": 62.8,
           "away_prob": 37.2,
-          "margin": 11.5,
+          "margin": 6.4,
           "home_fav": true,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -3045,7 +3031,7 @@
           "away_prob": 31.0,
           "margin": 12.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Mendizorrotza",
           "game_id": "laliga_748523",
           "draw_prob": 16.9
@@ -3059,7 +3045,7 @@
           "away_prob": 35.4,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Balaidos",
           "game_id": "laliga_748517",
           "draw_prob": 19.4
@@ -3073,7 +3059,7 @@
           "away_prob": 36.4,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "RCDE Stadium",
           "game_id": "laliga_748516",
           "draw_prob": 20.0
@@ -3087,7 +3073,7 @@
           "away_prob": 32.3,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio Coliseum",
           "game_id": "laliga_748518",
           "draw_prob": 17.5
@@ -3101,7 +3087,7 @@
           "away_prob": 19.4,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Montilivi",
           "game_id": "laliga_748520",
           "draw_prob": 11.3
@@ -3115,7 +3101,7 @@
           "away_prob": 34.4,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Estadi Mallorca Son Moix",
           "game_id": "laliga_748521",
           "draw_prob": 18.8
@@ -3129,7 +3115,7 @@
           "away_prob": 24.6,
           "margin": 1.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Estadio La Cartuja",
           "game_id": "laliga_748522",
           "draw_prob": 13.6
@@ -3143,7 +3129,7 @@
           "away_prob": 16.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Santiago Bernab\u00e9u",
           "game_id": "laliga_748514",
           "draw_prob": 9.8
@@ -3157,7 +3143,7 @@
           "away_prob": 55.9,
           "margin": -0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Mestalla Stadium",
           "game_id": "laliga_748519",
           "draw_prob": 15.6
@@ -3937,20 +3923,6 @@
       ],
       "upcoming": [
         {
-          "home": "Bologna",
-          "away": "Internazionale",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T16:00Z",
-          "home_prob": 64.2,
-          "away_prob": 22.7,
-          "margin": 0.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Renato Dall'Ara",
-          "game_id": "seriea_737154",
-          "draw_prob": 13.0
-        },
-        {
           "home": "Lazio",
           "away": "Pisa",
           "date": "2026-05-23",
@@ -3959,7 +3931,7 @@
           "away_prob": 17.6,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Olimpico",
           "game_id": "seriea_737159",
           "draw_prob": 10.5
@@ -4756,7 +4728,7 @@
           "away_prob": 32.6,
           "margin": 11.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Energizer Park",
           "game_id": "mls_761644",
           "draw_prob": 15.5
@@ -6999,7 +6971,7 @@
           "away_prob": 40.7,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815464",
           "draw_prob": null
@@ -7013,7 +6985,7 @@
           "away_prob": 43.0,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815460",
           "draw_prob": null
@@ -7201,6 +7173,20 @@
           "draw_prob": null
         },
         {
+          "home": "Baltimore Orioles",
+          "away": "Detroit Tigers",
+          "date": "2026-05-24",
+          "datetime": "2026-05-24T16:35Z",
+          "home_prob": 53.8,
+          "away_prob": 46.2,
+          "margin": 0.7,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Oriole Park at Camden Yards",
+          "game_id": "mlb_401815472",
+          "draw_prob": null
+        },
+        {
           "home": "Philadelphia Phillies",
           "away": "Cleveland Guardians",
           "date": "2026-05-24",
@@ -7212,20 +7198,6 @@
           "locked": false,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815471",
-          "draw_prob": null
-        },
-        {
-          "home": "Baltimore Orioles",
-          "away": "Detroit Tigers",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T17:35Z",
-          "home_prob": 53.8,
-          "away_prob": 46.2,
-          "margin": 0.7,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Oriole Park at Camden Yards",
-          "game_id": "mlb_401815472",
           "draw_prob": null
         },
         {
