@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-23T08:37:11.590664+00:00",
+    "updated": "2026-05-23T10:17:39.645705+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,34 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Geelong",
-          "away": "Sydney",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T06:15Z",
-          "home_prob": 51.0,
-          "away_prob": 49.0,
-          "margin": 5.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "GMHBA Stadium",
-          "game_id": "afl_1133577",
-          "draw_prob": null
-        },
-        {
-          "home": "Collingwood",
-          "away": "West Coast",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T06:35Z",
-          "home_prob": 85.7,
-          "away_prob": 14.3,
-          "margin": 28.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133578",
-          "draw_prob": null
-        },
-        {
           "home": "Port Adelaide",
           "away": "Carlton",
           "date": "2026-05-23",
@@ -136,7 +108,7 @@
           "away_prob": 29.3,
           "margin": 30.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Adelaide Oval",
           "game_id": "afl_1133579",
           "draw_prob": null
@@ -1972,51 +1944,42 @@
           "rank": 3
         },
         {
+          "team": "Karntu",
+          "rating": 1520.4,
+          "rank": 4
+        },
+        {
           "team": "Mavericks",
           "rating": 1496.9,
-          "rank": 4
+          "rank": 5
         },
         {
           "team": "Swifts",
           "rating": 1489.3,
-          "rank": 5
+          "rank": 6
         },
         {
           "team": "Magpies",
           "rating": 1487.2,
-          "rank": 6
+          "rank": 7
         },
         {
           "team": "Lightning",
           "rating": 1459.9,
-          "rank": 7
+          "rank": 8
         },
         {
           "team": "Firebirds",
           "rating": 1398.5,
-          "rank": 8
+          "rank": 9
         },
         {
           "team": "GIANTS",
-          "rating": 1217.0,
-          "rank": 9
+          "rating": 1196.7,
+          "rank": 10
         }
       ],
       "upcoming": [
-        {
-          "home": "GIANTS",
-          "away": "Karntu",
-          "date": "2026-05-23T07:00:00Z",
-          "datetime": "2026-05-23T07:00:00Z",
-          "home_prob": 21.2,
-          "away_prob": 78.8,
-          "margin": -18.4,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129491101",
-          "draw_prob": null
-        },
         {
           "home": "Mavericks",
           "away": "Lightning",
@@ -2064,8 +2027,8 @@
           "away": "GIANTS",
           "date": "2026-05-30T07:00:00Z",
           "datetime": "2026-05-30T07:00:00Z",
-          "home_prob": 84.7,
-          "away_prob": 15.3,
+          "home_prob": 86.2,
+          "away_prob": 13.8,
           "margin": 4.4,
           "home_fav": true,
           "locked": false,
@@ -2106,8 +2069,8 @@
           "away": "Vixens",
           "date": "2026-05-31T06:00:00Z",
           "datetime": "2026-05-31T06:00:00Z",
-          "home_prob": 34.2,
-          "away_prob": 65.8,
+          "home_prob": 36.9,
+          "away_prob": 63.1,
           "margin": 3.8,
           "home_fav": false,
           "locked": false,
@@ -2120,9 +2083,9 @@
           "away": "Karntu",
           "date": "2026-06-06T07:00:00Z",
           "datetime": "2026-06-06T07:00:00Z",
-          "home_prob": 56.3,
-          "away_prob": 43.7,
-          "margin": -11.9,
+          "home_prob": 53.4,
+          "away_prob": 46.6,
+          "margin": -13.2,
           "home_fav": true,
           "locked": false,
           "venue": "Ken Rosewall Arena",
@@ -2159,7 +2122,7 @@
           "home": "GIANTS",
           "away": "Mavericks",
           "date": "2026-05-10",
-          "home_prob": 21.5,
+          "home_prob": 19.6,
           "winner": "Mavericks",
           "home_score": 41,
           "away_score": 60,
@@ -2189,7 +2152,7 @@
           "home": "Firebirds",
           "away": "GIANTS",
           "date": "2026-05-16",
-          "home_prob": 79.6,
+          "home_prob": 81.4,
           "winner": "Firebirds",
           "home_score": 71,
           "away_score": 64,
@@ -2209,10 +2172,20 @@
           "home": "Karntu",
           "away": "Mavericks",
           "date": "2026-05-17",
-          "home_prob": 58.3,
+          "home_prob": 61.1,
           "winner": "Karntu",
           "home_score": 55,
           "away_score": 51,
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Karntu",
+          "date": "2026-05-23",
+          "home_prob": 17.6,
+          "winner": "Karntu",
+          "home_score": 37,
+          "away_score": 70,
           "draw_prob": null
         }
       ]
@@ -5073,22 +5046,7 @@
           "rank": 13
         }
       ],
-      "upcoming": [
-        {
-          "home": "Auckland FC",
-          "away": "Sydney FC",
-          "date": "2026-05-23",
-          "datetime": "2026-05-23T08:10Z",
-          "home_prob": 58.6,
-          "away_prob": 27.4,
-          "margin": 18.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Go Media Stadium",
-          "game_id": "aleague_401873206",
-          "draw_prob": 14.0
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "ucl": {
