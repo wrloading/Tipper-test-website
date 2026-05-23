@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-23T16:44:13.412555+00:00",
+    "updated": "2026-05-23T17:47:50.189876+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -987,7 +987,7 @@
           "away_prob": 58.6,
           "margin": -2.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Wintrust Arena",
           "game_id": "wnba_401856930",
           "draw_prob": null
@@ -6971,7 +6971,7 @@
           "away_prob": 49.0,
           "margin": 2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401873647",
           "draw_prob": null
@@ -6985,7 +6985,7 @@
           "away_prob": 49.6,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815462",
           "draw_prob": null
