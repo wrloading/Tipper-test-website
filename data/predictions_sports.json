@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-24T15:35:43.220408+00:00",
+    "updated": "2026-05-24T16:45:13.208623+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3655,7 +3655,7 @@
           "away_prob": 21.8,
           "margin": 0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Diego Armando Maradona",
           "game_id": "seriea_737156",
           "draw_prob": 12.6
@@ -6441,7 +6441,7 @@
           "away_prob": 42.3,
           "margin": -1.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815475",
           "draw_prob": null
@@ -6455,7 +6455,7 @@
           "away_prob": 46.2,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815472",
           "draw_prob": null
