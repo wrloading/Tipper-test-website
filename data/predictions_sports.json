@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-24T17:46:19.977852+00:00",
+    "updated": "2026-05-24T18:54:51.546650+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -3506,20 +3506,6 @@
       ],
       "upcoming": [
         {
-          "home": "Napoli",
-          "away": "Udinese",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T16:00Z",
-          "home_prob": 65.6,
-          "away_prob": 21.8,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Stadio Diego Armando Maradona",
-          "game_id": "seriea_737156",
-          "draw_prob": 12.6
-        },
-        {
           "home": "AC Milan",
           "away": "Cagliari",
           "date": "2026-05-24",
@@ -3528,7 +3514,7 @@
           "away_prob": 24.3,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "San Siro",
           "game_id": "seriea_737157",
           "draw_prob": 13.8
@@ -3542,7 +3528,7 @@
           "away_prob": 37.2,
           "margin": -0.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Giovanni Zini",
           "game_id": "seriea_737162",
           "draw_prob": 22.0
@@ -3556,7 +3542,7 @@
           "away_prob": 44.3,
           "margin": 0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Marcantonio Bentegodi",
           "game_id": "seriea_737160",
           "draw_prob": 20.5
@@ -3570,7 +3556,7 @@
           "away_prob": 33.2,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Via Del Mare",
           "game_id": "seriea_737163",
           "draw_prob": 19.0
@@ -3584,7 +3570,7 @@
           "away_prob": 42.3,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Stadio Olimpico Grande Torino",
           "game_id": "seriea_737158",
           "draw_prob": 21.3
@@ -6398,7 +6384,7 @@
           "away_prob": 50.2,
           "margin": -2.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815480",
           "draw_prob": null
@@ -6412,7 +6398,7 @@
           "away_prob": 50.0,
           "margin": -1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815481",
           "draw_prob": null
@@ -6426,7 +6412,7 @@
           "away_prob": 41.6,
           "margin": -0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815479",
           "draw_prob": null
