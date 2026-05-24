@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-24T16:45:13.208623+00:00",
+    "updated": "2026-05-24T17:46:19.977852+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2513,148 +2513,7 @@
           "rank": 27
         }
       ],
-      "upcoming": [
-        {
-          "home": "Brighton & Hove Albion",
-          "away": "Manchester United",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 44.2,
-          "away_prob": 36.9,
-          "margin": 0.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "American Express Stadium",
-          "game_id": "epl_740966",
-          "draw_prob": 18.9
-        },
-        {
-          "home": "Burnley",
-          "away": "Wolverhampton Wanderers",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 41.8,
-          "away_prob": 38.4,
-          "margin": 0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Turf Moor",
-          "game_id": "epl_740967",
-          "draw_prob": 19.8
-        },
-        {
-          "home": "Crystal Palace",
-          "away": "Arsenal",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 29.7,
-          "away_prob": 55.3,
-          "margin": -0.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Selhurst Park",
-          "game_id": "epl_740968",
-          "draw_prob": 15.0
-        },
-        {
-          "home": "Fulham",
-          "away": "Newcastle United",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 49.1,
-          "away_prob": 33.8,
-          "margin": 0.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Craven Cottage",
-          "game_id": "epl_740969",
-          "draw_prob": 17.1
-        },
-        {
-          "home": "Liverpool",
-          "away": "Brentford",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 73.3,
-          "away_prob": 17.2,
-          "margin": 1.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Anfield",
-          "game_id": "epl_740975",
-          "draw_prob": 9.6
-        },
-        {
-          "home": "Manchester City",
-          "away": "Aston Villa",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 77.1,
-          "away_prob": 14.5,
-          "margin": 1.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Etihad Stadium",
-          "game_id": "epl_740970",
-          "draw_prob": 8.4
-        },
-        {
-          "home": "Nottingham Forest",
-          "away": "AFC Bournemouth",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 50.1,
-          "away_prob": 33.2,
-          "margin": 0.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "The City Ground",
-          "game_id": "epl_740972",
-          "draw_prob": 16.8
-        },
-        {
-          "home": "Sunderland",
-          "away": "Chelsea",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 45.9,
-          "away_prob": 35.9,
-          "margin": -0.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Stadium of Light",
-          "game_id": "epl_740973",
-          "draw_prob": 18.2
-        },
-        {
-          "home": "Tottenham Hotspur",
-          "away": "Everton",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 59.1,
-          "away_prob": 27.1,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Tottenham Hotspur Stadium",
-          "game_id": "epl_740974",
-          "draw_prob": 13.8
-        },
-        {
-          "home": "West Ham United",
-          "away": "Leeds United",
-          "date": "2026-05-24",
-          "datetime": "2026-05-24T15:00Z",
-          "home_prob": 57.0,
-          "away_prob": 28.6,
-          "margin": 0.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "London Stadium",
-          "game_id": "epl_740971",
-          "draw_prob": 14.5
-        }
-      ],
+      "upcoming": [],
       "recent": [
         {
           "home": "Burnley",
@@ -6469,7 +6328,7 @@
           "away_prob": 47.8,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815471",
           "draw_prob": null
@@ -6483,7 +6342,7 @@
           "away_prob": 46.2,
           "margin": -1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815473",
           "draw_prob": null
@@ -6497,7 +6356,7 @@
           "away_prob": 49.6,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815477",
           "draw_prob": null
@@ -6511,7 +6370,7 @@
           "away_prob": 50.1,
           "margin": 2.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815474",
           "draw_prob": null
@@ -6525,7 +6384,7 @@
           "away_prob": 49.8,
           "margin": 2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815476",
           "draw_prob": null
