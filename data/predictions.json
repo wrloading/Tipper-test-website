@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-24T10:14:49.492966+10:00",
+    "updated": "2026-05-24T14:43:30.192694+10:00",
     "year": 2026,
     "current_round": 11,
     "model": "TELO v2.0",
@@ -43213,10 +43213,10 @@
           "venue": "Sydney Showground",
           "datetime": "Sun 24 May \u00b7 12:30pm AEST",
           "home_fav": false,
-          "margin": 1.6,
-          "home_prob": 49.1,
+          "margin": 2.1,
+          "home_prob": 48.8,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "J Laverde",
@@ -43275,18 +43275,18 @@
               "player_rank": 301
             },
             {
-              "name": "L Whitfield",
+              "name": "H Oliver",
               "pos": "HB",
-              "avg_di": 29.7,
-              "avg_gl": 0.0,
-              "avg_tk": 2.4,
-              "avg_cl": 0.5,
-              "avg_pi": 123.8,
-              "games": 10,
-              "ptelo": 1649,
+              "avg_di": 13.0,
+              "avg_gl": 1.0,
+              "avg_tk": 3.0,
+              "avg_cl": 1.0,
+              "avg_pi": 62.0,
+              "games": 1,
+              "ptelo": 1500,
               "ppos": "DEF",
-              "player_rating": 78,
-              "player_rank": 66
+              "player_rating": null,
+              "player_rank": null
             },
             {
               "name": "L Ash",
@@ -43565,18 +43565,18 @@
               "player_rank": 185
             },
             {
-              "name": "K Lohmann",
+              "name": "C McKenna",
               "pos": "FF",
-              "avg_di": 11.8,
-              "avg_gl": 1.8,
-              "avg_tk": 2.8,
-              "avg_cl": 1.6,
-              "avg_pi": 87.2,
-              "games": 10,
-              "ptelo": 1502,
-              "ppos": "FWD",
-              "player_rating": 66,
-              "player_rank": 276
+              "avg_di": 11.5,
+              "avg_gl": 1.2,
+              "avg_tk": 1.2,
+              "avg_cl": 0.2,
+              "avg_pi": 70.7,
+              "games": 4,
+              "ptelo": 1437,
+              "ppos": "DEF",
+              "player_rating": 61,
+              "player_rank": 436
             },
             {
               "name": "C Cameron",
@@ -43621,6 +43621,20 @@
               "player_rank": 126
             },
             {
+              "name": "B Reville",
+              "pos": "C",
+              "avg_di": 16.3,
+              "avg_gl": 0.4,
+              "avg_tk": 1.6,
+              "avg_cl": 1.5,
+              "avg_pi": 93.6,
+              "games": 10,
+              "ptelo": 1528,
+              "ppos": "MID",
+              "player_rating": 68,
+              "player_rank": 223
+            },
+            {
               "name": "H McCluggage",
               "pos": "C",
               "avg_di": 17.0,
@@ -43633,20 +43647,6 @@
               "ppos": "MID",
               "player_rating": 77,
               "player_rank": 76
-            },
-            {
-              "name": "W Ashcroft",
-              "pos": "C",
-              "avg_di": 27.4,
-              "avg_gl": 0.3,
-              "avg_tk": 3.5,
-              "avg_cl": 5.0,
-              "avg_pi": 140.1,
-              "games": 10,
-              "ptelo": 1714,
-              "ppos": "MID",
-              "player_rating": 84,
-              "player_rank": 32
             },
             {
               "name": "Z Bailey",
@@ -43691,18 +43691,18 @@
               "player_rank": 587
             },
             {
-              "name": "B Reville",
+              "name": "J Tunstill",
               "pos": "HB",
-              "avg_di": 16.3,
-              "avg_gl": 0.4,
-              "avg_tk": 1.6,
-              "avg_cl": 1.5,
-              "avg_pi": 93.6,
-              "games": 10,
-              "ptelo": 1528,
+              "avg_di": 11.5,
+              "avg_gl": 0.2,
+              "avg_tk": 0.2,
+              "avg_cl": 0.5,
+              "avg_pi": 61.1,
+              "games": 4,
+              "ptelo": 1398,
               "ppos": "MID",
-              "player_rating": 68,
-              "player_rank": 223
+              "player_rating": 58,
+              "player_rank": 523
             },
             {
               "name": "K Coleman",
@@ -43789,6 +43789,20 @@
               "player_rank": 5
             },
             {
+              "name": "K Lohmann",
+              "pos": "INT",
+              "avg_di": 11.8,
+              "avg_gl": 1.8,
+              "avg_tk": 2.8,
+              "avg_cl": 1.6,
+              "avg_pi": 87.2,
+              "games": 10,
+              "ptelo": 1502,
+              "ppos": "FWD",
+              "player_rating": 66,
+              "player_rank": 276
+            },
+            {
               "name": "J Fletcher",
               "pos": "INT",
               "avg_di": 18.3,
@@ -43801,6 +43815,20 @@
               "ppos": "MID",
               "player_rating": 65,
               "player_rank": 302
+            },
+            {
+              "name": "W Ashcroft",
+              "pos": "INT",
+              "avg_di": 27.4,
+              "avg_gl": 0.3,
+              "avg_tk": 3.5,
+              "avg_cl": 5.0,
+              "avg_pi": 140.1,
+              "games": 10,
+              "ptelo": 1714,
+              "ppos": "MID",
+              "player_rating": 84,
+              "player_rank": 32
             },
             {
               "name": "S Marshall",
@@ -43817,43 +43845,27 @@
               "player_rank": 408
             },
             {
-              "name": "C McKenna",
-              "pos": "INT",
-              "avg_di": 11.5,
-              "avg_gl": 1.2,
-              "avg_tk": 1.2,
-              "avg_cl": 0.2,
-              "avg_pi": 70.7,
-              "games": 4,
-              "ptelo": 1437,
-              "ppos": "DEF",
-              "player_rating": 61,
-              "player_rank": 436
-            },
-            {
               "name": "W McLachlan",
               "pos": "INT",
               "ptelo": 1355,
               "ppos": "FWD",
               "player_rating": 54,
               "player_rank": 597
-            },
-            {
-              "name": "J Tunstill",
-              "pos": "INT",
-              "avg_di": 11.5,
-              "avg_gl": 0.2,
-              "avg_tk": 0.2,
-              "avg_cl": 0.5,
-              "avg_pi": 61.1,
-              "games": 4,
-              "ptelo": 1398,
-              "ppos": "MID",
-              "player_rating": 58,
-              "player_rank": 523
             }
           ],
           "home_outs": [
+            {
+              "name": "L Whitfield",
+              "avg_di": 29.7,
+              "avg_gl": 0.0,
+              "avg_tk": 2.4,
+              "avg_cl": 0.5,
+              "avg_pi": 123.8,
+              "games": 10,
+              "ptelo": 1649,
+              "player_rating": 78,
+              "player_rank": 66
+            },
             {
               "name": "R Angwin",
               "avg_di": 17.0,
@@ -43877,18 +43889,6 @@
               "ptelo": 1402,
               "player_rating": 58,
               "player_rank": 514
-            },
-            {
-              "name": "H Oliver",
-              "avg_di": 13.0,
-              "avg_gl": 1.0,
-              "avg_tk": 3.0,
-              "avg_cl": 1.0,
-              "avg_pi": 62.0,
-              "games": 1,
-              "ptelo": 1500,
-              "player_rating": null,
-              "player_rank": null
             }
           ],
           "away_outs": [
@@ -43916,7 +43916,7 @@
           ],
           "selections_announced": true,
           "selections_round": 11,
-          "home_squad_impact": 5.5,
+          "home_squad_impact": 3.6,
           "away_squad_impact": 4.9
         },
         {
@@ -115088,7 +115088,7 @@
       "points_for": 1054,
       "points_against": 778,
       "finals_pct": 100.0,
-      "premiers_pct": 30.2
+      "premiers_pct": 30.1
     },
     {
       "team": "Geelong",
@@ -115100,7 +115100,7 @@
       "percentage": 124.4,
       "points_for": 1137,
       "points_against": 914,
-      "finals_pct": 99.5,
+      "finals_pct": 99.6,
       "premiers_pct": 22.1
     },
     {
@@ -115113,8 +115113,8 @@
       "percentage": 142.5,
       "points_for": 1211,
       "points_against": 850,
-      "finals_pct": 100.0,
-      "premiers_pct": 19.4
+      "finals_pct": 99.9,
+      "premiers_pct": 19.6
     },
     {
       "team": "Hawthorn",
@@ -115139,8 +115139,8 @@
       "percentage": 116.6,
       "points_for": 1038,
       "points_against": 890,
-      "finals_pct": 91.7,
-      "premiers_pct": 6.9
+      "finals_pct": 91.9,
+      "premiers_pct": 6.8
     },
     {
       "team": "Adelaide",
@@ -115153,7 +115153,7 @@
       "points_for": 982,
       "points_against": 910,
       "finals_pct": 74.5,
-      "premiers_pct": 2.3
+      "premiers_pct": 2.4
     },
     {
       "team": "Gold Coast",
@@ -115165,7 +115165,7 @@
       "percentage": 116.9,
       "points_for": 1098,
       "points_against": 939,
-      "finals_pct": 64.2,
+      "finals_pct": 64.3,
       "premiers_pct": 1.8
     },
     {
@@ -115178,7 +115178,7 @@
       "percentage": 100.3,
       "points_for": 901,
       "points_against": 898,
-      "finals_pct": 41.9,
+      "finals_pct": 42.0,
       "premiers_pct": 1.0
     },
     {
@@ -115191,8 +115191,8 @@
       "percentage": 91.7,
       "points_for": 856,
       "points_against": 933,
-      "finals_pct": 39.3,
-      "premiers_pct": 0.8
+      "finals_pct": 39.2,
+      "premiers_pct": 0.7
     },
     {
       "team": "Melbourne",
@@ -115204,7 +115204,7 @@
       "percentage": 107.6,
       "points_for": 1030,
       "points_against": 957,
-      "finals_pct": 70.0,
+      "finals_pct": 69.9,
       "premiers_pct": 1.4
     },
     {
@@ -115217,7 +115217,7 @@
       "percentage": 90.1,
       "points_for": 842,
       "points_against": 934,
-      "finals_pct": 6.1,
+      "finals_pct": 6.0,
       "premiers_pct": 0.1
     },
     {
@@ -115230,7 +115230,7 @@
       "percentage": 108.2,
       "points_for": 1008,
       "points_against": 932,
-      "finals_pct": 11.4,
+      "finals_pct": 11.2,
       "premiers_pct": 0.1
     },
     {
@@ -115256,7 +115256,7 @@
       "percentage": 97.6,
       "points_for": 1037,
       "points_against": 1063,
-      "finals_pct": 2.6,
+      "finals_pct": 2.5,
       "premiers_pct": 0.0
     },
     {
