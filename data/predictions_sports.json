@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-25T16:34:59.827155+00:00",
+    "updated": "2026-05-25T18:18:01.469889+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6205,7 +6205,7 @@
           "away_prob": 51.6,
           "margin": 1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815486",
           "draw_prob": null
@@ -6219,7 +6219,7 @@
           "away_prob": 53.6,
           "margin": -0.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815489",
           "draw_prob": null
@@ -6233,7 +6233,7 @@
           "away_prob": 48.9,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815492",
           "draw_prob": null
@@ -6247,7 +6247,7 @@
           "away_prob": 43.7,
           "margin": -0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815494",
           "draw_prob": null
