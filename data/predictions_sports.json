@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-25T18:18:01.469889+00:00",
+    "updated": "2026-05-25T20:11:11.317075+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6261,7 +6261,7 @@
           "away_prob": 51.4,
           "margin": -0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815493",
           "draw_prob": null
@@ -6275,7 +6275,7 @@
           "away_prob": 46.4,
           "margin": 2.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815487",
           "draw_prob": null
