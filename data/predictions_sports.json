@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-26T21:49:10.269075+00:00",
+    "updated": "2026-05-26T23:14:22.153862+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6157,7 +6157,7 @@
           "away_prob": 41.8,
           "margin": -1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815505",
           "draw_prob": null
@@ -6171,7 +6171,7 @@
           "away_prob": 52.9,
           "margin": -1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815504",
           "draw_prob": null
@@ -6185,7 +6185,7 @@
           "away_prob": 40.8,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815499",
           "draw_prob": null
@@ -6199,7 +6199,7 @@
           "away_prob": 51.2,
           "margin": 1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815501",
           "draw_prob": null
@@ -6213,7 +6213,7 @@
           "away_prob": 55.1,
           "margin": 3.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815500",
           "draw_prob": null
@@ -6227,7 +6227,7 @@
           "away_prob": 42.0,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815503",
           "draw_prob": null
@@ -6241,7 +6241,7 @@
           "away_prob": 47.5,
           "margin": 2.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815502",
           "draw_prob": null
