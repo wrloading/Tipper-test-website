@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-27T22:44:28.480009+00:00",
+    "updated": "2026-05-27T23:50:59.147769+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -943,7 +943,7 @@
           "away_prob": 21.1,
           "margin": -3.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Barclays Center",
           "game_id": "wnba_401856938",
           "draw_prob": null
@@ -6117,6 +6117,62 @@
       ],
       "upcoming": [
         {
+          "home": "Toronto Blue Jays",
+          "away": "Miami Marlins",
+          "date": "2026-05-27",
+          "datetime": "2026-05-27T17:07Z",
+          "home_prob": 59.3,
+          "away_prob": 40.7,
+          "margin": -0.1,
+          "home_fav": true,
+          "locked": true,
+          "venue": "Rogers Centre",
+          "game_id": "mlb_401815518",
+          "draw_prob": null
+        },
+        {
+          "home": "Athletics",
+          "away": "Seattle Mariners",
+          "date": "2026-05-27",
+          "datetime": "2026-05-27T19:05Z",
+          "home_prob": 50.7,
+          "away_prob": 49.3,
+          "margin": 0.8,
+          "home_fav": true,
+          "locked": true,
+          "venue": "Sutter Health Park",
+          "game_id": "mlb_401815528",
+          "draw_prob": null
+        },
+        {
+          "home": "San Francisco Giants",
+          "away": "Arizona Diamondbacks",
+          "date": "2026-05-27",
+          "datetime": "2026-05-27T19:45Z",
+          "home_prob": 47.1,
+          "away_prob": 52.9,
+          "margin": -1.9,
+          "home_fav": false,
+          "locked": true,
+          "venue": "Oracle Park",
+          "game_id": "mlb_401815525",
+          "draw_prob": null
+        },
+        {
+          "home": "San Diego Padres",
+          "away": "Philadelphia Phillies",
+          "date": "2026-05-27",
+          "datetime": "2026-05-27T20:10Z",
+          "home_prob": 53.4,
+          "away_prob": 46.6,
+          "margin": 0.3,
+          "home_fav": true,
+          "locked": true,
+          "venue": "Petco Park",
+          "game_id": "mlb_401815527",
+          "draw_prob": null
+        },
+        {
           "home": "Baltimore Orioles",
           "away": "Tampa Bay Rays",
           "date": "2026-05-27",
@@ -6167,7 +6223,7 @@
           "away_prob": 55.5,
           "margin": 4.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815515",
           "draw_prob": null
@@ -6181,7 +6237,7 @@
           "away_prob": 48.6,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815517",
           "draw_prob": null
@@ -6195,7 +6251,7 @@
           "away_prob": 49.0,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815522",
           "draw_prob": null
@@ -6209,7 +6265,7 @@
           "away_prob": 53.3,
           "margin": 0.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815523",
           "draw_prob": null
@@ -7503,6 +7559,20 @@
           "draw_prob": null
         },
         {
+          "home": "Boston Red Sox",
+          "away": "Baltimore Orioles",
+          "date": "2026-06-04",
+          "datetime": "2026-06-04T16:30Z",
+          "home_prob": 53.8,
+          "away_prob": 46.2,
+          "margin": 1.4,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Fenway Park",
+          "game_id": "mlb_401815619",
+          "draw_prob": null
+        },
+        {
           "home": "Philadelphia Phillies",
           "away": "San Diego Padres",
           "date": "2026-06-04",
@@ -7514,20 +7584,6 @@
           "locked": false,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815621",
-          "draw_prob": null
-        },
-        {
-          "home": "Boston Red Sox",
-          "away": "Baltimore Orioles",
-          "date": "2026-06-04",
-          "datetime": "2026-06-04T17:35Z",
-          "home_prob": 53.8,
-          "away_prob": 46.2,
-          "margin": 1.4,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Fenway Park",
-          "game_id": "mlb_401815619",
           "draw_prob": null
         },
         {
