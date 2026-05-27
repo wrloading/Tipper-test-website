@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-27T04:57:43.436724+00:00",
+    "updated": "2026-05-27T08:42:22.124482+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6041,7 +6041,7 @@
         },
         {
           "team": "Texas Rangers",
-          "rating": 1496.7,
+          "rating": 1496.8,
           "rank": 16
         },
         {
@@ -6177,8 +6177,8 @@
           "away": "Arizona Diamondbacks",
           "date": "2026-05-27",
           "datetime": "2026-05-27T19:45Z",
-          "home_prob": 47.0,
-          "away_prob": 53.0,
+          "home_prob": 47.1,
+          "away_prob": 52.9,
           "margin": -1.9,
           "home_fav": false,
           "locked": false,
@@ -10590,7 +10590,7 @@
           "home": "San Francisco Giants",
           "away": "Arizona Diamondbacks",
           "date": "2026-05-25",
-          "home_prob": 47.0,
+          "home_prob": 47.1,
           "winner": "Arizona Diamondbacks",
           "home_score": 2,
           "away_score": 6,
@@ -10790,7 +10790,7 @@
           "home": "San Francisco Giants",
           "away": "Arizona Diamondbacks",
           "date": "2026-05-27",
-          "home_prob": 47.0,
+          "home_prob": 47.1,
           "winner": "Arizona Diamondbacks",
           "home_score": 5,
           "away_score": 7,
