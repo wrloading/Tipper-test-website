@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-27T16:09:17.985374+00:00",
+    "updated": "2026-05-27T18:37:04.612437+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6125,7 +6125,7 @@
           "away_prob": 41.0,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815518",
           "draw_prob": null
@@ -6139,7 +6139,7 @@
           "away_prob": 42.7,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815520",
           "draw_prob": null
@@ -6153,7 +6153,7 @@
           "away_prob": 41.9,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815524",
           "draw_prob": null
