@@ -2,7 +2,7 @@
   "sport": "mlb",
   "current_season": 2026,
   "ratings": {
-    "Los Angeles Dodgers": 1561.47,
+    "Los Angeles Dodgers": 1563.26,
     "Atlanta Braves": 1555.76,
     "New York Yankees": 1532.66,
     "Milwaukee Brewers": 1532.46,
@@ -32,7 +32,7 @@
     "New York Mets": 1477.91,
     "San Francisco Giants": 1468.9,
     "Miami Marlins": 1465.24,
-    "Colorado Rockies": 1457.2,
+    "Colorado Rockies": 1455.41,
     "Los Angeles Angels": 1449.88
   }
 }
