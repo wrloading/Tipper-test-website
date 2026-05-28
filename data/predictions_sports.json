@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-28T21:02:18.134387+00:00",
+    "updated": "2026-05-28T22:46:37.977516+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6019,20 +6019,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chicago White Sox",
-          "away": "Minnesota Twins",
-          "date": "2026-05-28",
-          "datetime": "2026-05-28T18:10Z",
-          "home_prob": 53.4,
-          "away_prob": 46.6,
-          "margin": 1.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Rate Field",
-          "game_id": "mlb_401815534",
-          "draw_prob": null
-        },
-        {
           "home": "Boston Red Sox",
           "away": "Atlanta Braves",
           "date": "2026-05-28",
@@ -6055,7 +6041,7 @@
           "away_prob": 47.4,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815532",
           "draw_prob": null
@@ -6069,7 +6055,7 @@
           "away_prob": 50.8,
           "margin": 1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815531",
           "draw_prob": null
