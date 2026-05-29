@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-29T11:49:00.658184+00:00",
+    "updated": "2026-05-29T15:43:01.991940+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1119,8 +1119,8 @@
         {
           "home": "New York Liberty",
           "away": "Toronto Tempo",
-          "date": "2026-06-04",
-          "datetime": "2026-06-04T00:00Z",
+          "date": "2026-06-03",
+          "datetime": "2026-06-03T23:30Z",
           "home_prob": 72.1,
           "away_prob": 27.9,
           "margin": 9.4,
@@ -10850,7 +10850,7 @@
           "home": "Montreal Canadiens",
           "away": "Carolina Hurricanes",
           "date": "2026-05-31",
-          "datetime": "2026-05-31T04:00Z",
+          "datetime": "2026-05-31T23:30Z",
           "home_prob": 43.6,
           "away_prob": 56.4,
           "margin": 0.5,
