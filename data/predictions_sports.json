@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-29T08:26:10.461719+00:00",
+    "updated": "2026-05-29T11:49:00.658184+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 75.8,
           "margin": 12.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133583",
           "draw_prob": null
@@ -1680,7 +1680,7 @@
           "home": "Indiana Fever",
           "away": "Golden State Valkyries",
           "date": "2026-05-22",
-          "home_prob": 59.7,
+          "home_prob": 59.8,
           "winner": "Indiana Fever",
           "home_score": 90,
           "away_score": 82,
