@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T01:42:31.365473+10:00",
+    "updated": "2026-05-30T04:23:20.560063+10:00",
     "year": 2026,
     "current_round": 12,
     "model": "TELO v2.0",
@@ -117032,7 +117032,7 @@
       "points_for": 1054,
       "points_against": 778,
       "finals_pct": 100.0,
-      "premiers_pct": 30.8
+      "premiers_pct": 31.1
     },
     {
       "team": "Hawthorn",
@@ -117045,7 +117045,7 @@
       "points_for": 1177,
       "points_against": 1025,
       "finals_pct": 99.6,
-      "premiers_pct": 19.7
+      "premiers_pct": 19.3
     },
     {
       "team": "Sydney",
@@ -117058,7 +117058,7 @@
       "points_for": 1211,
       "points_against": 850,
       "finals_pct": 100.0,
-      "premiers_pct": 21.1
+      "premiers_pct": 20.9
     },
     {
       "team": "Geelong",
@@ -117071,7 +117071,7 @@
       "points_for": 1221,
       "points_against": 1002,
       "finals_pct": 98.2,
-      "premiers_pct": 15.1
+      "premiers_pct": 15.3
     },
     {
       "team": "Brisbane Lions",
@@ -117083,8 +117083,8 @@
       "percentage": 106.6,
       "points_for": 1126,
       "points_against": 1056,
-      "finals_pct": 80.4,
-      "premiers_pct": 4.4
+      "finals_pct": 80.9,
+      "premiers_pct": 4.3
     },
     {
       "team": "Adelaide",
@@ -117096,8 +117096,8 @@
       "percentage": 107.9,
       "points_for": 982,
       "points_against": 910,
-      "finals_pct": 74.8,
-      "premiers_pct": 2.8
+      "finals_pct": 74.7,
+      "premiers_pct": 2.7
     },
     {
       "team": "Gold Coast",
@@ -117109,7 +117109,7 @@
       "percentage": 116.9,
       "points_for": 1098,
       "points_against": 939,
-      "finals_pct": 64.6,
+      "finals_pct": 64.7,
       "premiers_pct": 2.1
     },
     {
@@ -117122,8 +117122,8 @@
       "percentage": 92.8,
       "points_for": 949,
       "points_against": 1023,
-      "finals_pct": 60.3,
-      "premiers_pct": 1.7
+      "finals_pct": 59.8,
+      "premiers_pct": 1.8
     },
     {
       "team": "Collingwood",
@@ -117135,7 +117135,7 @@
       "percentage": 100.3,
       "points_for": 901,
       "points_against": 898,
-      "finals_pct": 40.3,
+      "finals_pct": 40.4,
       "premiers_pct": 1.1
     },
     {
@@ -117148,7 +117148,7 @@
       "percentage": 98.6,
       "points_for": 1008,
       "points_against": 1022,
-      "finals_pct": 18.4,
+      "finals_pct": 18.2,
       "premiers_pct": 0.3
     },
     {
@@ -117161,7 +117161,7 @@
       "percentage": 106.7,
       "points_for": 1120,
       "points_against": 1050,
-      "finals_pct": 54.7,
+      "finals_pct": 54.8,
       "premiers_pct": 0.9
     },
     {
@@ -117174,7 +117174,7 @@
       "percentage": 102.3,
       "points_for": 1075,
       "points_against": 1051,
-      "finals_pct": 5.2,
+      "finals_pct": 5.3,
       "premiers_pct": 0.0
     },
     {
@@ -117187,7 +117187,7 @@
       "percentage": 87.5,
       "points_for": 977,
       "points_against": 1116,
-      "finals_pct": 0.7,
+      "finals_pct": 0.6,
       "premiers_pct": 0.0
     },
     {
@@ -117200,7 +117200,7 @@
       "percentage": 97.6,
       "points_for": 1037,
       "points_against": 1063,
-      "finals_pct": 2.7,
+      "finals_pct": 2.9,
       "premiers_pct": 0.0
     },
     {
