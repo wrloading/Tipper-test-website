@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T15:38:36.641459+00:00",
+    "updated": "2026-05-30T16:45:55.546946+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -270,6 +270,16 @@
       ],
       "recent": [
         {
+          "home": "Carlton",
+          "away": "Western Bulldogs",
+          "date": "2026-05-16",
+          "home_prob": 66.7,
+          "winner": "Carlton",
+          "home_score": 74,
+          "away_score": 62,
+          "draw_prob": null
+        },
+        {
           "home": "Adelaide",
           "away": "North Melbourne",
           "date": "2026-05-16",
@@ -287,16 +297,6 @@
           "winner": "Melbourne",
           "home_score": 120,
           "away_score": 81,
-          "draw_prob": null
-        },
-        {
-          "home": "Carlton",
-          "away": "Western Bulldogs",
-          "date": "2026-05-16",
-          "home_prob": 66.7,
-          "winner": "Carlton",
-          "home_score": 74,
-          "away_score": 62,
           "draw_prob": null
         },
         {
@@ -4532,7 +4532,7 @@
           "away_prob": 27.7,
           "margin": 18.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Pusk\u00e1s Ar\u00e9na",
           "game_id": "ucl_401862897",
           "draw_prob": 14.1
