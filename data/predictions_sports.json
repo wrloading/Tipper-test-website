@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T16:45:55.546946+00:00",
+    "updated": "2026-05-30T17:49:50.258045+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -270,16 +270,6 @@
       ],
       "recent": [
         {
-          "home": "Carlton",
-          "away": "Western Bulldogs",
-          "date": "2026-05-16",
-          "home_prob": 66.7,
-          "winner": "Carlton",
-          "home_score": 74,
-          "away_score": 62,
-          "draw_prob": null
-        },
-        {
           "home": "Adelaide",
           "away": "North Melbourne",
           "date": "2026-05-16",
@@ -297,6 +287,16 @@
           "winner": "Melbourne",
           "home_score": 120,
           "away_score": 81,
+          "draw_prob": null
+        },
+        {
+          "home": "Carlton",
+          "away": "Western Bulldogs",
+          "date": "2026-05-16",
+          "home_prob": 66.7,
+          "winner": "Carlton",
+          "home_score": 74,
+          "away_score": 62,
           "draw_prob": null
         },
         {
@@ -871,7 +871,7 @@
           "away_prob": 33.9,
           "margin": -2.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Coca-Cola Coliseum",
           "game_id": "wnba_401856949",
           "draw_prob": null
