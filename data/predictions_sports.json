@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T19:22:14.570472+00:00",
+    "updated": "2026-05-30T20:35:03.734102+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4518,22 +4518,7 @@
           "rank": 100
         }
       ],
-      "upcoming": [
-        {
-          "home": "Paris Saint-Germain",
-          "away": "Arsenal",
-          "date": "2026-05-30",
-          "datetime": "2026-05-30T16:00Z",
-          "home_prob": 58.2,
-          "away_prob": 27.7,
-          "margin": 18.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Pusk\u00e1s Ar\u00e9na",
-          "game_id": "ucl_401862897",
-          "draw_prob": 14.1
-        }
-      ],
+      "upcoming": [],
       "recent": []
     },
     "uel": {
@@ -5969,7 +5954,7 @@
           "away_prob": 47.5,
           "margin": -2.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815554",
           "draw_prob": null
@@ -5983,7 +5968,7 @@
           "away_prob": 50.7,
           "margin": 1.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815555",
           "draw_prob": null
@@ -5997,7 +5982,7 @@
           "away_prob": 48.3,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815556",
           "draw_prob": null
@@ -6011,7 +5996,7 @@
           "away_prob": 43.5,
           "margin": -2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Globe Life Field",
           "game_id": "mlb_401815559",
           "draw_prob": null
@@ -6025,7 +6010,7 @@
           "away_prob": 35.8,
           "margin": -2.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815550",
           "draw_prob": null
@@ -6039,7 +6024,7 @@
           "away_prob": 44.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815552",
           "draw_prob": null
@@ -6053,7 +6038,7 @@
           "away_prob": 44.2,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815553",
           "draw_prob": null
@@ -6067,7 +6052,7 @@
           "away_prob": 52.0,
           "margin": 0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401815560",
           "draw_prob": null
