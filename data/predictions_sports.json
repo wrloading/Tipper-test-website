@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T06:39:40.580312+00:00",
+    "updated": "2026-05-30T09:07:34.874495+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Sydney",
-          "away": "Richmond",
-          "date": "2026-05-30",
-          "datetime": "2026-05-30T03:15Z",
-          "home_prob": 95.1,
-          "away_prob": 4.9,
-          "margin": 33.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "SCG",
-          "game_id": "afl_1133584",
-          "draw_prob": null
-        },
         {
           "home": "Brisbane Lions",
           "away": "Fremantle",
@@ -1871,7 +1857,7 @@
         },
         {
           "team": "Lightning",
-          "rating": 1431.5,
+          "rating": 1446.7,
           "rank": 8
         },
         {
@@ -1881,25 +1867,11 @@
         },
         {
           "team": "GIANTS",
-          "rating": 1196.7,
+          "rating": 1181.4,
           "rank": 10
         }
       ],
       "upcoming": [
-        {
-          "home": "Lightning",
-          "away": "GIANTS",
-          "date": "2026-05-30T07:00:00Z",
-          "datetime": "2026-05-30T07:00:00Z",
-          "home_prob": 84.1,
-          "away_prob": 15.9,
-          "margin": 4.4,
-          "home_fav": true,
-          "locked": false,
-          "venue": "UniSC Arena",
-          "game_id": "supernetball_129491201",
-          "draw_prob": null
-        },
         {
           "home": "Fever",
           "away": "Mavericks",
@@ -1961,8 +1933,8 @@
           "away": "Lightning",
           "date": "2026-06-06T09:00:00Z",
           "datetime": "2026-06-06T09:00:00Z",
-          "home_prob": 48.4,
-          "away_prob": 51.6,
+          "home_prob": 46.2,
+          "away_prob": 53.8,
           "margin": -1.1,
           "home_fav": false,
           "locked": false,
@@ -1989,8 +1961,8 @@
           "away": "Fever",
           "date": "2026-06-07T06:00:00Z",
           "datetime": "2026-06-07T06:00:00Z",
-          "home_prob": 12.4,
-          "away_prob": 87.6,
+          "home_prob": 11.5,
+          "away_prob": 88.5,
           "margin": -11.5,
           "home_fav": false,
           "locked": false,
@@ -2003,9 +1975,9 @@
           "away": "Karntu",
           "date": "2026-06-13T07:00:00Z",
           "datetime": "2026-06-13T07:00:00Z",
-          "home_prob": 45.1,
-          "away_prob": 54.9,
-          "margin": -10.2,
+          "home_prob": 47.3,
+          "away_prob": 52.7,
+          "margin": -8.4,
           "home_fav": false,
           "locked": false,
           "venue": "UniSC Arena",
@@ -2032,7 +2004,7 @@
           "home": "Lightning",
           "away": "Vixens",
           "date": "2026-05-16",
-          "home_prob": 24.2,
+          "home_prob": 25.9,
           "winner": "Lightning",
           "home_score": 66,
           "away_score": 56,
@@ -2042,7 +2014,7 @@
           "home": "Firebirds",
           "away": "GIANTS",
           "date": "2026-05-16",
-          "home_prob": 78.3,
+          "home_prob": 79.8,
           "winner": "Firebirds",
           "home_score": 71,
           "away_score": 64,
@@ -2072,7 +2044,7 @@
           "home": "GIANTS",
           "away": "Karntu",
           "date": "2026-05-23",
-          "home_prob": 17.6,
+          "home_prob": 16.3,
           "winner": "Karntu",
           "home_score": 37,
           "away_score": 70,
@@ -2082,7 +2054,7 @@
           "home": "Mavericks",
           "away": "Lightning",
           "date": "2026-05-23",
-          "home_prob": 70.2,
+          "home_prob": 68.3,
           "winner": "Mavericks",
           "home_score": 63,
           "away_score": 53,
@@ -2106,6 +2078,16 @@
           "winner": "Vixens",
           "home_score": 67,
           "away_score": 57,
+          "draw_prob": null
+        },
+        {
+          "home": "Lightning",
+          "away": "GIANTS",
+          "date": "2026-05-30",
+          "home_prob": 86.3,
+          "winner": "Lightning",
+          "home_score": 74,
+          "away_score": 54,
           "draw_prob": null
         }
       ]
