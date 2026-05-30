@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-30T14:06:58.659017+00:00",
+    "updated": "2026-05-30T15:38:36.641459+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Western Bulldogs",
-          "away": "Collingwood",
-          "date": "2026-05-30",
-          "datetime": "2026-05-30T09:35Z",
-          "home_prob": 48.4,
-          "away_prob": 51.6,
-          "margin": 11.2,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133586",
-          "draw_prob": null
-        },
         {
           "home": "Melbourne",
           "away": "GWS GIANTS",
