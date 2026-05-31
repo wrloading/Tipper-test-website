@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-31T09:34:16.694315+00:00",
+    "updated": "2026-05-31T11:22:43.010751+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -298,16 +298,6 @@
       ],
       "recent": [
         {
-          "home": "West Coast",
-          "away": "GWS GIANTS",
-          "date": "2026-05-17",
-          "home_prob": 25.1,
-          "winner": "West Coast",
-          "home_score": 88,
-          "away_score": 71,
-          "draw_prob": null
-        },
-        {
           "home": "Essendon",
           "away": "Fremantle",
           "date": "2026-05-17",
@@ -325,6 +315,16 @@
           "winner": "St Kilda",
           "home_score": 109,
           "away_score": 73,
+          "draw_prob": null
+        },
+        {
+          "home": "West Coast",
+          "away": "GWS GIANTS",
+          "date": "2026-05-17",
+          "home_prob": 25.1,
+          "winner": "West Coast",
+          "home_score": 88,
+          "away_score": 71,
           "draw_prob": null
         },
         {
