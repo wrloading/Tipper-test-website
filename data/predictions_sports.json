@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-31T16:14:22.350514+00:00",
+    "updated": "2026-05-31T17:34:00.325070+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -284,6 +284,16 @@
       ],
       "recent": [
         {
+          "home": "West Coast",
+          "away": "GWS GIANTS",
+          "date": "2026-05-17",
+          "home_prob": 25.1,
+          "winner": "West Coast",
+          "home_score": 88,
+          "away_score": 71,
+          "draw_prob": null
+        },
+        {
           "home": "Essendon",
           "away": "Fremantle",
           "date": "2026-05-17",
@@ -301,16 +311,6 @@
           "winner": "St Kilda",
           "home_score": 109,
           "away_score": 73,
-          "draw_prob": null
-        },
-        {
-          "home": "West Coast",
-          "away": "GWS GIANTS",
-          "date": "2026-05-17",
-          "home_prob": 25.1,
-          "winner": "West Coast",
-          "home_score": 88,
-          "away_score": 71,
           "draw_prob": null
         },
         {
@@ -5879,7 +5879,7 @@
           "away_prob": 47.9,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815571",
           "draw_prob": null
