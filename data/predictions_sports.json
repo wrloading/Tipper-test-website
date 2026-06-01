@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-01T04:21:32.485861+00:00",
+    "updated": "2026-06-01T09:42:52.988903+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -29,7 +29,7 @@
         },
         {
           "team": "GWS GIANTS",
-          "rating": 1577.4,
+          "rating": 1577.3,
           "rank": 5
         },
         {
@@ -5380,7 +5380,7 @@
         },
         {
           "team": "Milwaukee Brewers",
-          "rating": 1531.6,
+          "rating": 1531.7,
           "rank": 4
         },
         {
@@ -5495,7 +5495,7 @@
         },
         {
           "team": "San Francisco Giants",
-          "rating": 1468.9,
+          "rating": 1469.0,
           "rank": 27
         },
         {
@@ -6906,8 +6906,8 @@
           "away": "Washington Nationals",
           "date": "2026-06-09",
           "datetime": "2026-06-09T01:45Z",
-          "home_prob": 50.6,
-          "away_prob": 49.4,
+          "home_prob": 50.7,
+          "away_prob": 49.3,
           "margin": -1.7,
           "home_fav": true,
           "locked": false,
@@ -7116,8 +7116,8 @@
           "away": "Washington Nationals",
           "date": "2026-06-10",
           "datetime": "2026-06-10T01:45Z",
-          "home_prob": 50.6,
-          "away_prob": 49.4,
+          "home_prob": 50.7,
+          "away_prob": 49.3,
           "margin": -1.7,
           "home_fav": true,
           "locked": false,
@@ -7172,8 +7172,8 @@
           "away": "Washington Nationals",
           "date": "2026-06-10",
           "datetime": "2026-06-10T19:45Z",
-          "home_prob": 50.6,
-          "away_prob": 49.4,
+          "home_prob": 50.7,
+          "away_prob": 49.3,
           "margin": -1.7,
           "home_fav": true,
           "locked": false,
