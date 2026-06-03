@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-03T05:29:11.991565+00:00",
+    "updated": "2026-06-03T10:24:18.650941+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5403,7 +5403,7 @@
         },
         {
           "team": "Chicago Cubs",
-          "rating": 1516.9,
+          "rating": 1516.8,
           "rank": 7
         },
         {
@@ -5478,7 +5478,7 @@
         },
         {
           "team": "Detroit Tigers",
-          "rating": 1484.6,
+          "rating": 1484.5,
           "rank": 22
         },
         {
@@ -5878,8 +5878,8 @@
           "away": "Chicago White Sox",
           "date": "2026-06-05",
           "datetime": "2026-06-05T22:40Z",
-          "home_prob": 56.3,
-          "away_prob": 43.7,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": -1.2,
           "home_fav": true,
           "locked": false,
@@ -6144,8 +6144,8 @@
           "away": "Chicago White Sox",
           "date": "2026-06-06",
           "datetime": "2026-06-06T20:05Z",
-          "home_prob": 56.3,
-          "away_prob": 43.7,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": -1.2,
           "home_fav": true,
           "locked": false,
@@ -6298,8 +6298,8 @@
           "away": "Chicago White Sox",
           "date": "2026-06-07",
           "datetime": "2026-06-07T17:35Z",
-          "home_prob": 56.3,
-          "away_prob": 43.7,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": -1.2,
           "home_fav": true,
           "locked": false,
