@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-03T15:19:56.668222+00:00",
+    "updated": "2026-06-03T19:10:17.332708+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -291,7 +291,7 @@
           "margin": -13.8,
           "home_fav": false,
           "locked": false,
-          "venue": "Ninja Stadium",
+          "venue": "Blundstone Arena",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -5532,7 +5532,7 @@
           "away_prob": 44.1,
           "margin": -0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815608",
           "draw_prob": null
@@ -5546,7 +5546,7 @@
           "away_prob": 41.7,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815606",
           "draw_prob": null
@@ -5560,7 +5560,7 @@
           "away_prob": 46.9,
           "margin": 2.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815612",
           "draw_prob": null
@@ -7487,7 +7487,7 @@
           "home": "Kansas City Royals",
           "away": "Houston Astros",
           "date": "2026-06-13",
-          "datetime": "2026-06-13T23:15Z",
+          "datetime": "2026-06-13T23:10Z",
           "home_prob": 50.5,
           "away_prob": 49.5,
           "margin": -0.4,
@@ -7501,7 +7501,7 @@
           "home": "Milwaukee Brewers",
           "away": "Philadelphia Phillies",
           "date": "2026-06-13",
-          "datetime": "2026-06-13T23:15Z",
+          "datetime": "2026-06-13T23:10Z",
           "home_prob": 57.0,
           "away_prob": 43.0,
           "margin": 1.0,
