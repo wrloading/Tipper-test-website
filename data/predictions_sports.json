@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-04T22:14:10.545637+00:00",
+    "updated": "2026-06-04T23:40:56.794010+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -855,7 +855,7 @@
           "away_prob": 36.8,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gainbridge Fieldhouse",
           "game_id": "wnba_401856961",
           "draw_prob": null
@@ -5480,7 +5480,7 @@
           "away_prob": 37.6,
           "margin": 0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815622",
           "draw_prob": null
@@ -5494,7 +5494,7 @@
           "away_prob": 45.3,
           "margin": 3.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815624",
           "draw_prob": null
