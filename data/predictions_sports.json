@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-04T05:07:47.516897+00:00",
+    "updated": "2026-06-04T09:03:38.749251+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -8723,7 +8723,7 @@
           "home": "Milwaukee Brewers",
           "away": "St. Louis Cardinals",
           "date": "2026-05-25",
-          "home_prob": 59.2,
+          "home_prob": 59.1,
           "winner": "Milwaukee Brewers",
           "home_score": 5,
           "away_score": 1,
@@ -8913,7 +8913,7 @@
           "home": "Milwaukee Brewers",
           "away": "St. Louis Cardinals",
           "date": "2026-05-26",
-          "home_prob": 59.2,
+          "home_prob": 59.1,
           "winner": "Milwaukee Brewers",
           "home_score": 6,
           "away_score": 0,
@@ -8993,7 +8993,7 @@
           "home": "Milwaukee Brewers",
           "away": "St. Louis Cardinals",
           "date": "2026-05-27",
-          "home_prob": 59.2,
+          "home_prob": 59.1,
           "winner": "Milwaukee Brewers",
           "home_score": 2,
           "away_score": 1,
