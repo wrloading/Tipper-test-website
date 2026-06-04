@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-04T16:01:40.165331+00:00",
+    "updated": "2026-06-04T18:28:55.022246+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5480,7 +5480,7 @@
           "away_prob": 44.9,
           "margin": -0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815621",
           "draw_prob": null
@@ -5494,7 +5494,7 @@
           "away_prob": 45.5,
           "margin": -1.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815619",
           "draw_prob": null
@@ -5508,7 +5508,7 @@
           "away_prob": 43.8,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815620",
           "draw_prob": null
@@ -5522,7 +5522,7 @@
           "away_prob": 36.4,
           "margin": 2.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815626",
           "draw_prob": null
