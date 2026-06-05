@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-05T06:27:56.065396+00:00",
+    "updated": "2026-06-05T10:35:22.025833+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 19.6,
           "margin": 17.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133590",
           "draw_prob": null
@@ -277,7 +277,7 @@
           "margin": -13.8,
           "home_fav": false,
           "locked": false,
-          "venue": "Blundstone Arena",
+          "venue": "Ninja Stadium",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -5606,6 +5606,20 @@
           "draw_prob": null
         },
         {
+          "home": "St. Louis Cardinals",
+          "away": "Cincinnati Reds",
+          "date": "2026-06-06",
+          "datetime": "2026-06-06T00:15Z",
+          "home_prob": 56.0,
+          "away_prob": 44.0,
+          "margin": -0.8,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Busch Stadium",
+          "game_id": "mlb_401815635",
+          "draw_prob": null
+        },
+        {
           "home": "Texas Rangers",
           "away": "Cleveland Guardians",
           "date": "2026-06-06",
@@ -5631,20 +5645,6 @@
           "locked": false,
           "venue": "Target Field",
           "game_id": "mlb_401815637",
-          "draw_prob": null
-        },
-        {
-          "home": "St. Louis Cardinals",
-          "away": "Cincinnati Reds",
-          "date": "2026-06-06",
-          "datetime": "2026-06-06T00:15Z",
-          "home_prob": 56.0,
-          "away_prob": 44.0,
-          "margin": -0.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Busch Stadium",
-          "game_id": "mlb_401815635",
           "draw_prob": null
         },
         {
