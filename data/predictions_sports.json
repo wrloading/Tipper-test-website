@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-05T13:45:26.794424+00:00",
+    "updated": "2026-06-05T16:21:37.605824+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Hawthorn",
-          "away": "Western Bulldogs",
-          "date": "2026-06-05",
-          "datetime": "2026-06-05T09:40Z",
-          "home_prob": 80.4,
-          "away_prob": 19.6,
-          "margin": 17.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133590",
-          "draw_prob": null
-        },
         {
           "home": "North Melbourne",
           "away": "Fremantle",
