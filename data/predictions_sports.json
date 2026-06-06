@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-06T05:36:42.514578+00:00",
+    "updated": "2026-06-06T08:16:27.957735+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 44.9,
           "margin": 28.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "People First Stadium",
           "game_id": "afl_1133592",
           "draw_prob": null
@@ -477,7 +477,7 @@
         },
         {
           "team": "San Antonio Spurs",
-          "rating": 1680.1,
+          "rating": 1680.2,
           "rank": 3
         },
         {
@@ -1478,7 +1478,7 @@
           "home": "Atlanta Dream",
           "away": "Phoenix Mercury",
           "date": "2026-05-24",
-          "home_prob": 70.9,
+          "home_prob": 70.8,
           "winner": "Atlanta Dream",
           "home_score": 82,
           "away_score": 80,
@@ -5349,7 +5349,7 @@
         },
         {
           "team": "Cleveland Guardians",
-          "rating": 1509.9,
+          "rating": 1509.8,
           "rank": 9
         },
         {
@@ -5369,7 +5369,7 @@
         },
         {
           "team": "Texas Rangers",
-          "rating": 1502.9,
+          "rating": 1503.0,
           "rank": 13
         },
         {
@@ -5379,7 +5379,7 @@
         },
         {
           "team": "St. Louis Cardinals",
-          "rating": 1499.9,
+          "rating": 1500.0,
           "rank": 15
         },
         {
@@ -5394,7 +5394,7 @@
         },
         {
           "team": "Chicago White Sox",
-          "rating": 1495.6,
+          "rating": 1495.5,
           "rank": 18
         },
         {
@@ -5404,7 +5404,7 @@
         },
         {
           "team": "Pittsburgh Pirates",
-          "rating": 1491.9,
+          "rating": 1491.8,
           "rank": 20
         },
         {
@@ -8343,7 +8343,7 @@
           "home": "Los Angeles Angels",
           "away": "Texas Rangers",
           "date": "2026-05-24",
-          "home_prob": 46.5,
+          "home_prob": 46.4,
           "winner": "Los Angeles Angels",
           "home_score": 5,
           "away_score": 2,
@@ -8503,7 +8503,7 @@
           "home": "Los Angeles Angels",
           "away": "Texas Rangers",
           "date": "2026-05-24",
-          "home_prob": 46.5,
+          "home_prob": 46.4,
           "winner": "Los Angeles Angels",
           "home_score": 2,
           "away_score": 1,
