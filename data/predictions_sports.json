@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-06T11:56:33.560785+00:00",
+    "updated": "2026-06-06T13:50:43.301879+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -235,7 +235,7 @@
           "margin": -13.8,
           "home_fav": false,
           "locked": false,
-          "venue": "Blundstone Arena",
+          "venue": "Ninja Stadium",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -284,16 +284,6 @@
       ],
       "recent": [
         {
-          "home": "Port Adelaide",
-          "away": "Carlton",
-          "date": "2026-05-23",
-          "home_prob": 46.9,
-          "winner": "Carlton",
-          "home_score": 58,
-          "away_score": 92,
-          "draw_prob": null
-        },
-        {
           "home": "North Melbourne",
           "away": "Gold Coast SUNS",
           "date": "2026-05-23",
@@ -321,6 +311,16 @@
           "winner": "Collingwood",
           "home_score": 92,
           "away_score": 82,
+          "draw_prob": null
+        },
+        {
+          "home": "Port Adelaide",
+          "away": "Carlton",
+          "date": "2026-05-23",
+          "home_prob": 46.9,
+          "winner": "Carlton",
+          "home_score": 58,
+          "away_score": 92,
           "draw_prob": null
         },
         {
