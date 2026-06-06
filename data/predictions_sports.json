@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-06T16:42:20.233388+00:00",
+    "updated": "2026-06-06T17:51:28.489874+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -807,7 +807,7 @@
           "away_prob": 9.7,
           "margin": 3.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Center",
           "game_id": "wnba_401856966",
           "draw_prob": null
@@ -5418,7 +5418,7 @@
           "away_prob": 50.7,
           "margin": -0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815647",
           "draw_prob": null
