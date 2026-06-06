@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-06T08:16:27.957735+00:00",
+    "updated": "2026-06-06T10:26:21.627029+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "North Melbourne",
-          "away": "Fremantle",
-          "date": "2026-06-06",
-          "datetime": "2026-06-06T04:15Z",
-          "home_prob": 10.1,
-          "away_prob": 89.9,
-          "margin": 4.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Hands Oval",
-          "game_id": "afl_1133591",
-          "draw_prob": null
-        },
-        {
           "home": "Gold Coast SUNS",
           "away": "Brisbane Lions",
           "date": "2026-06-06",
@@ -136,7 +122,7 @@
           "away_prob": 57.8,
           "margin": 9.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Optus Stadium",
           "game_id": "afl_1133593",
           "draw_prob": null
@@ -1810,7 +1796,7 @@
       "ratings": [
         {
           "team": "Thunderbirds",
-          "rating": 1725.6,
+          "rating": 1741.9,
           "rank": 1
         },
         {
@@ -1834,13 +1820,13 @@
           "rank": 5
         },
         {
-          "team": "Swifts",
-          "rating": 1491.0,
+          "team": "Magpies",
+          "rating": 1487.2,
           "rank": 6
         },
         {
-          "team": "Magpies",
-          "rating": 1487.2,
+          "team": "Swifts",
+          "rating": 1474.6,
           "rank": 7
         },
         {
@@ -1860,20 +1846,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Swifts",
-          "away": "Thunderbirds",
-          "date": "2026-06-06T07:00:00Z",
-          "datetime": "2026-06-06T07:00:00Z",
-          "home_prob": 26.2,
-          "away_prob": 73.8,
-          "margin": -13.0,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129491301",
-          "draw_prob": null
-        },
         {
           "home": "Firebirds",
           "away": "Lightning",
@@ -1921,9 +1893,9 @@
           "away": "Thunderbirds",
           "date": "2026-06-13T07:00:00Z",
           "datetime": "2026-06-13T07:00:00Z",
-          "home_prob": 21.6,
-          "away_prob": 78.4,
-          "margin": -8.4,
+          "home_prob": 20.1,
+          "away_prob": 79.9,
+          "margin": -7.1,
           "home_fav": false,
           "locked": false,
           "venue": "UniSC Arena",
@@ -1963,8 +1935,8 @@
           "away": "Swifts",
           "date": "2026-06-14T06:00:00Z",
           "datetime": "2026-06-14T06:00:00Z",
-          "home_prob": 18.8,
-          "away_prob": 81.2,
+          "home_prob": 20.2,
+          "away_prob": 79.8,
           "margin": -5.9,
           "home_fav": false,
           "locked": false,
@@ -1978,7 +1950,7 @@
           "home": "GIANTS",
           "away": "Thunderbirds",
           "date": "2026-05-23",
-          "home_prob": 5.6,
+          "home_prob": 5.2,
           "winner": "Thunderbirds",
           "home_score": 37,
           "away_score": 70,
@@ -2008,7 +1980,7 @@
           "home": "Vixens",
           "away": "Swifts",
           "date": "2026-05-24",
-          "home_prob": 74.5,
+          "home_prob": 76.2,
           "winner": "Vixens",
           "home_score": 67,
           "away_score": 57,
@@ -2038,7 +2010,7 @@
           "home": "Swifts",
           "away": "Firebirds",
           "date": "2026-05-31",
-          "home_prob": 75.8,
+          "home_prob": 74.0,
           "winner": "Swifts",
           "home_score": 68,
           "away_score": 62,
@@ -2048,10 +2020,20 @@
           "home": "Thunderbirds",
           "away": "Vixens",
           "date": "2026-05-31",
-          "home_prob": 71.4,
+          "home_prob": 73.3,
           "winner": "Thunderbirds",
           "home_score": 61,
           "away_score": 42,
+          "draw_prob": null
+        },
+        {
+          "home": "Swifts",
+          "away": "Thunderbirds",
+          "date": "2026-06-06",
+          "home_prob": 22.8,
+          "winner": "Thunderbirds",
+          "home_score": 60,
+          "away_score": 66,
           "draw_prob": null
         }
       ]
