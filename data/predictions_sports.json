@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-07T17:22:29.556970+00:00",
+    "updated": "2026-06-07T18:50:32.653503+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -193,7 +193,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Ninja Stadium",
+          "venue": "Blundstone Arena",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -284,16 +284,6 @@
       ],
       "recent": [
         {
-          "home": "Western Bulldogs",
-          "away": "Melbourne",
-          "date": "2026-05-24",
-          "home_prob": 69.0,
-          "winner": "Western Bulldogs",
-          "home_score": 93,
-          "away_score": 90,
-          "draw_prob": null
-        },
-        {
           "home": "GWS GIANTS",
           "away": "Brisbane Lions",
           "date": "2026-05-24",
@@ -301,6 +291,16 @@
           "winner": "GWS GIANTS",
           "home_score": 166,
           "away_score": 88,
+          "draw_prob": null
+        },
+        {
+          "home": "Western Bulldogs",
+          "away": "Melbourne",
+          "date": "2026-05-24",
+          "home_prob": 69.0,
+          "winner": "Western Bulldogs",
+          "home_score": 93,
+          "away_score": 90,
           "draw_prob": null
         },
         {
@@ -5270,7 +5270,7 @@
           "away_prob": 43.2,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815659",
           "draw_prob": null
@@ -5284,7 +5284,7 @@
           "away_prob": 44.2,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815660",
           "draw_prob": null
@@ -5298,7 +5298,7 @@
           "away_prob": 36.0,
           "margin": -1.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815661",
           "draw_prob": null
@@ -5312,7 +5312,7 @@
           "away_prob": 47.2,
           "margin": -2.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815658",
           "draw_prob": null
@@ -5326,7 +5326,7 @@
           "away_prob": 51.6,
           "margin": -1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815662",
           "draw_prob": null
@@ -5340,7 +5340,7 @@
           "away_prob": 54.0,
           "margin": 2.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815663",
           "draw_prob": null
@@ -5354,7 +5354,7 @@
           "away_prob": 43.8,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401815664",
           "draw_prob": null
@@ -5368,7 +5368,7 @@
           "away_prob": 45.8,
           "margin": 3.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401815667",
           "draw_prob": null
@@ -5382,7 +5382,7 @@
           "away_prob": 42.6,
           "margin": -1.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401815665",
           "draw_prob": null
@@ -5396,7 +5396,7 @@
           "away_prob": 48.7,
           "margin": -3.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Globe Life Field",
           "game_id": "mlb_401815666",
           "draw_prob": null
