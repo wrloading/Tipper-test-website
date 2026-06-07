@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-07T12:24:54.399185+00:00",
+    "updated": "2026-06-07T14:30:54.982706+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Essendon",
-          "away": "Carlton",
-          "date": "2026-06-07",
-          "datetime": "2026-06-07T09:20Z",
-          "home_prob": 22.8,
-          "away_prob": 77.2,
-          "margin": -23.6,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133595",
-          "draw_prob": null
-        },
         {
           "home": "Collingwood",
           "away": "Melbourne",
