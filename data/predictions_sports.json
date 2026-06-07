@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-07T05:09:40.530594+00:00",
+    "updated": "2026-06-07T08:32:27.436774+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Sydney",
-          "away": "St Kilda",
-          "date": "2026-06-07",
-          "datetime": "2026-06-07T05:15Z",
-          "home_prob": 83.3,
-          "away_prob": 16.7,
-          "margin": 27.6,
-          "home_fav": true,
-          "locked": false,
-          "venue": "SCG",
-          "game_id": "afl_1133594",
-          "draw_prob": null
-        },
         {
           "home": "Essendon",
           "away": "Carlton",
@@ -221,7 +207,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Blundstone Arena",
+          "venue": "Ninja Stadium",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -312,16 +298,6 @@
       ],
       "recent": [
         {
-          "home": "GWS GIANTS",
-          "away": "Brisbane Lions",
-          "date": "2026-05-24",
-          "home_prob": 54.2,
-          "winner": "GWS GIANTS",
-          "home_score": 166,
-          "away_score": 88,
-          "draw_prob": null
-        },
-        {
           "home": "Western Bulldogs",
           "away": "Melbourne",
           "date": "2026-05-24",
@@ -329,6 +305,16 @@
           "winner": "Western Bulldogs",
           "home_score": 93,
           "away_score": 90,
+          "draw_prob": null
+        },
+        {
+          "home": "GWS GIANTS",
+          "away": "Brisbane Lions",
+          "date": "2026-05-24",
+          "home_prob": 54.2,
+          "winner": "GWS GIANTS",
+          "home_score": 166,
+          "away_score": 88,
           "draw_prob": null
         },
         {
@@ -965,8 +951,8 @@
           "away": "Chicago Sky",
           "date": "2026-06-11",
           "datetime": "2026-06-11T23:00Z",
-          "home_prob": 80.3,
-          "away_prob": 19.7,
+          "home_prob": 80.2,
+          "away_prob": 19.8,
           "margin": -1.9,
           "home_fav": true,
           "locked": false,
@@ -1790,8 +1776,8 @@
           "rank": 1
         },
         {
-          "team": "Vixens",
-          "rating": 1621.9,
+          "team": "Mavericks",
+          "rating": 1604.1,
           "rank": 2
         },
         {
@@ -1800,13 +1786,13 @@
           "rank": 3
         },
         {
-          "team": "Fever",
-          "rating": 1560.9,
+          "team": "Vixens",
+          "rating": 1572.6,
           "rank": 4
         },
         {
-          "team": "Mavericks",
-          "rating": 1554.9,
+          "team": "Fever",
+          "rating": 1563.9,
           "rank": 5
         },
         {
@@ -1831,39 +1817,11 @@
         },
         {
           "team": "GIANTS",
-          "rating": 1181.4,
+          "rating": 1178.5,
           "rank": 10
         }
       ],
       "upcoming": [
-        {
-          "home": "Vixens",
-          "away": "Mavericks",
-          "date": "2026-06-07T04:00:00Z",
-          "datetime": "2026-06-07T04:00:00Z",
-          "home_prob": 66.9,
-          "away_prob": 33.1,
-          "margin": 2.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "John Cain Arena",
-          "game_id": "supernetball_129491303",
-          "draw_prob": null
-        },
-        {
-          "home": "GIANTS",
-          "away": "Fever",
-          "date": "2026-06-07T06:00:00Z",
-          "datetime": "2026-06-07T06:00:00Z",
-          "home_prob": 13.4,
-          "away_prob": 86.6,
-          "margin": -11.5,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129491304",
-          "draw_prob": null
-        },
         {
           "home": "Lightning",
           "away": "Thunderbirds",
@@ -1883,9 +1841,9 @@
           "away": "Firebirds",
           "date": "2026-06-13T09:00:00Z",
           "datetime": "2026-06-13T09:00:00Z",
-          "home_prob": 78.5,
-          "away_prob": 21.5,
-          "margin": 2.9,
+          "home_prob": 82.9,
+          "away_prob": 17.1,
+          "margin": 3.8,
           "home_fav": true,
           "locked": false,
           "venue": "John Cain Arena",
@@ -1897,9 +1855,9 @@
           "away": "Fever",
           "date": "2026-06-14T04:00:00Z",
           "datetime": "2026-06-14T04:00:00Z",
-          "home_prob": 66.1,
-          "away_prob": 33.9,
-          "margin": 2.9,
+          "home_prob": 59.1,
+          "away_prob": 40.9,
+          "margin": 1.5,
           "home_fav": true,
           "locked": false,
           "venue": "John Cain Arena",
@@ -1911,9 +1869,9 @@
           "away": "Swifts",
           "date": "2026-06-14T06:00:00Z",
           "datetime": "2026-06-14T06:00:00Z",
-          "home_prob": 20.2,
-          "away_prob": 79.8,
-          "margin": -5.9,
+          "home_prob": 20.0,
+          "away_prob": 80.0,
+          "margin": -4.1,
           "home_fav": false,
           "locked": false,
           "venue": "Ken Rosewall Arena",
@@ -1926,7 +1884,7 @@
           "home": "Firebirds",
           "away": "Fever",
           "date": "2026-05-24",
-          "home_prob": 33.3,
+          "home_prob": 32.9,
           "winner": "Fever",
           "home_score": 51,
           "away_score": 69,
@@ -1936,7 +1894,7 @@
           "home": "Vixens",
           "away": "Swifts",
           "date": "2026-05-24",
-          "home_prob": 76.2,
+          "home_prob": 70.7,
           "winner": "Vixens",
           "home_score": 67,
           "away_score": 57,
@@ -1946,7 +1904,7 @@
           "home": "Lightning",
           "away": "GIANTS",
           "date": "2026-05-30",
-          "home_prob": 83.6,
+          "home_prob": 83.8,
           "winner": "Lightning",
           "home_score": 74,
           "away_score": 54,
@@ -1956,7 +1914,7 @@
           "home": "Fever",
           "away": "Mavericks",
           "date": "2026-05-30",
-          "home_prob": 58.7,
+          "home_prob": 52.1,
           "winner": "Mavericks",
           "home_score": 57,
           "away_score": 60,
@@ -1976,7 +1934,7 @@
           "home": "Thunderbirds",
           "away": "Vixens",
           "date": "2026-05-31",
-          "home_prob": 73.3,
+          "home_prob": 78.4,
           "winner": "Thunderbirds",
           "home_score": 61,
           "away_score": 42,
@@ -2000,6 +1958,26 @@
           "winner": "Firebirds",
           "home_score": 66,
           "away_score": 59,
+          "draw_prob": null
+        },
+        {
+          "home": "Vixens",
+          "away": "Mavericks",
+          "date": "2026-06-07",
+          "home_prob": 53.4,
+          "winner": "Mavericks",
+          "home_score": 50,
+          "away_score": 59,
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Fever",
+          "date": "2026-06-07",
+          "home_prob": 13.0,
+          "winner": "Fever",
+          "home_score": 60,
+          "away_score": 61,
           "draw_prob": null
         }
       ]
@@ -9928,7 +9906,7 @@
         },
         {
           "team": "Vegas Golden Knights",
-          "rating": 1574.7,
+          "rating": 1574.8,
           "rank": 2
         },
         {
