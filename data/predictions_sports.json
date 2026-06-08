@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-08T21:53:51.665095+00:00",
+    "updated": "2026-06-08T23:14:59.092501+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -805,7 +805,7 @@
           "away_prob": 69.8,
           "margin": -7.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Mohegan Sun Arena",
           "game_id": "wnba_401856972",
           "draw_prob": null
@@ -819,7 +819,7 @@
           "away_prob": 58.1,
           "margin": -2.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "CareFirst Arena",
           "game_id": "wnba_401856973",
           "draw_prob": null
@@ -5089,7 +5089,7 @@
           "away_prob": 49.0,
           "margin": -1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815676",
           "draw_prob": null
@@ -5103,7 +5103,7 @@
           "away_prob": 45.1,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815673",
           "draw_prob": null
@@ -5117,7 +5117,7 @@
           "away_prob": 50.0,
           "margin": -4.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815674",
           "draw_prob": null
@@ -5131,7 +5131,7 @@
           "away_prob": 48.4,
           "margin": -3.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815675",
           "draw_prob": null
