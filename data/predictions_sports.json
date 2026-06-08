@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-08T05:04:51.478632+00:00",
+    "updated": "2026-06-08T09:58:00.435637+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Collingwood",
-          "away": "Melbourne",
-          "date": "2026-06-08",
-          "datetime": "2026-06-08T05:15Z",
-          "home_prob": 65.5,
-          "away_prob": 34.5,
-          "margin": 6.7,
-          "home_fav": true,
-          "locked": false,
-          "venue": "MCG",
-          "game_id": "afl_1133596",
-          "draw_prob": null
-        },
-        {
           "home": "Western Bulldogs",
           "away": "Adelaide",
           "date": "2026-06-11",
@@ -193,7 +179,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Ninja Stadium",
+          "venue": "Blundstone Arena",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -432,16 +418,6 @@
           "draw_prob": null
         },
         {
-          "home": "Essendon",
-          "away": "Carlton",
-          "date": "2026-06-07",
-          "home_prob": 20.3,
-          "winner": "Carlton",
-          "home_score": 67,
-          "away_score": 72,
-          "draw_prob": null
-        },
-        {
           "home": "Sydney",
           "away": "St Kilda",
           "date": "2026-06-07",
@@ -449,6 +425,16 @@
           "winner": "Sydney",
           "home_score": 104,
           "away_score": 102,
+          "draw_prob": null
+        },
+        {
+          "home": "Essendon",
+          "away": "Carlton",
+          "date": "2026-06-07",
+          "home_prob": 20.3,
+          "winner": "Carlton",
+          "home_score": 67,
+          "away_score": 72,
           "draw_prob": null
         }
       ]
