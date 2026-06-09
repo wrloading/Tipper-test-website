@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-09T14:59:13.725114+00:00",
+    "updated": "2026-06-09T17:28:42.946947+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -179,7 +179,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Blundstone Arena",
+          "venue": "Ninja Stadium",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
