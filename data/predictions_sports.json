@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-09T21:26:33.148567+00:00",
+    "updated": "2026-06-09T23:01:23.665460+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -179,7 +179,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Ninja Stadium",
+          "venue": "Blundstone Arena",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -801,7 +801,7 @@
           "away_prob": 61.4,
           "margin": -4.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Wintrust Arena",
           "game_id": "wnba_401856975",
           "draw_prob": null
@@ -5067,7 +5067,7 @@
           "away_prob": 49.8,
           "margin": -0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815687",
           "draw_prob": null
@@ -5081,7 +5081,7 @@
           "away_prob": 51.6,
           "margin": -3.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815681",
           "draw_prob": null
@@ -5095,7 +5095,7 @@
           "away_prob": 44.6,
           "margin": -0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815682",
           "draw_prob": null
@@ -5109,7 +5109,7 @@
           "away_prob": 57.4,
           "margin": 4.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815683",
           "draw_prob": null
@@ -5123,7 +5123,7 @@
           "away_prob": 45.4,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815684",
           "draw_prob": null
@@ -5137,7 +5137,7 @@
           "away_prob": 50.7,
           "margin": -4.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815685",
           "draw_prob": null
