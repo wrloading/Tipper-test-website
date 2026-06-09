@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-09T08:33:47.924579+00:00",
+    "updated": "2026-06-09T11:55:51.207326+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1807,146 +1807,8 @@
           "rank": 10
         }
       ],
-      "upcoming": [
-        {
-          "home": "Lightning",
-          "away": "Thunderbirds",
-          "date": "2026-06-13T07:00:00Z",
-          "datetime": "2026-06-13T07:00:00Z",
-          "home_prob": 16.8,
-          "away_prob": 83.2,
-          "margin": -7.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "UniSC Arena",
-          "game_id": "supernetball_129491401",
-          "draw_prob": null
-        },
-        {
-          "home": "Mavericks",
-          "away": "Firebirds",
-          "date": "2026-06-13T09:00:00Z",
-          "datetime": "2026-06-13T09:00:00Z",
-          "home_prob": 82.9,
-          "away_prob": 17.1,
-          "margin": 3.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "John Cain Arena",
-          "game_id": "supernetball_129491402",
-          "draw_prob": null
-        },
-        {
-          "home": "Vixens",
-          "away": "Fever",
-          "date": "2026-06-14T04:00:00Z",
-          "datetime": "2026-06-14T04:00:00Z",
-          "home_prob": 59.1,
-          "away_prob": 40.9,
-          "margin": 1.5,
-          "home_fav": true,
-          "locked": false,
-          "venue": "John Cain Arena",
-          "game_id": "supernetball_129491403",
-          "draw_prob": null
-        },
-        {
-          "home": "GIANTS",
-          "away": "Swifts",
-          "date": "2026-06-14T06:00:00Z",
-          "datetime": "2026-06-14T06:00:00Z",
-          "home_prob": 20.0,
-          "away_prob": 80.0,
-          "margin": -4.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129491404",
-          "draw_prob": null
-        }
-      ],
-      "recent": [
-        {
-          "home": "Lightning",
-          "away": "GIANTS",
-          "date": "2026-05-30",
-          "home_prob": 83.8,
-          "winner": "Lightning",
-          "home_score": 74,
-          "away_score": 54,
-          "draw_prob": null
-        },
-        {
-          "home": "Fever",
-          "away": "Mavericks",
-          "date": "2026-05-30",
-          "home_prob": 52.1,
-          "winner": "Mavericks",
-          "home_score": 57,
-          "away_score": 60,
-          "draw_prob": null
-        },
-        {
-          "home": "Swifts",
-          "away": "Firebirds",
-          "date": "2026-05-31",
-          "home_prob": 69.7,
-          "winner": "Swifts",
-          "home_score": 68,
-          "away_score": 62,
-          "draw_prob": null
-        },
-        {
-          "home": "Thunderbirds",
-          "away": "Vixens",
-          "date": "2026-05-31",
-          "home_prob": 78.4,
-          "winner": "Thunderbirds",
-          "home_score": 61,
-          "away_score": 42,
-          "draw_prob": null
-        },
-        {
-          "home": "Swifts",
-          "away": "Thunderbirds",
-          "date": "2026-06-06",
-          "home_prob": 22.8,
-          "winner": "Thunderbirds",
-          "home_score": 60,
-          "away_score": 66,
-          "draw_prob": null
-        },
-        {
-          "home": "Firebirds",
-          "away": "Lightning",
-          "date": "2026-06-06",
-          "home_prob": 54.4,
-          "winner": "Firebirds",
-          "home_score": 66,
-          "away_score": 59,
-          "draw_prob": null
-        },
-        {
-          "home": "Vixens",
-          "away": "Mavericks",
-          "date": "2026-06-07",
-          "home_prob": 53.4,
-          "winner": "Mavericks",
-          "home_score": 50,
-          "away_score": 59,
-          "draw_prob": null
-        },
-        {
-          "home": "GIANTS",
-          "away": "Fever",
-          "date": "2026-06-07",
-          "home_prob": 13.0,
-          "winner": "Fever",
-          "home_score": 60,
-          "away_score": 61,
-          "draw_prob": null
-        }
-      ]
+      "upcoming": [],
+      "recent": []
     },
     "nbl": {
       "ratings": [
