@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-10T16:28:46.403919+00:00",
+    "updated": "2026-06-10T19:15:51.012681+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5101,7 +5101,7 @@
           "away_prob": 44.2,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815697",
           "draw_prob": null
@@ -5115,7 +5115,7 @@
           "away_prob": 51.1,
           "margin": -2.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815700",
           "draw_prob": null
