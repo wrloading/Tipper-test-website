@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-10T09:00:28.110207+00:00",
+    "updated": "2026-06-10T12:34:30.398139+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -179,7 +179,7 @@
           "margin": -18.1,
           "home_fav": false,
           "locked": false,
-          "venue": "Ninja Stadium",
+          "venue": "Blundstone Arena",
           "game_id": "afl_1133602",
           "draw_prob": null
         },
@@ -5251,8 +5251,8 @@
           "away": "Texas Rangers",
           "date": "2026-06-10",
           "datetime": "2026-06-10T23:40Z",
-          "home_prob": 50.8,
-          "away_prob": 49.2,
+          "home_prob": 50.7,
+          "away_prob": 49.3,
           "margin": -1.8,
           "home_fav": true,
           "locked": false,
@@ -5349,8 +5349,8 @@
           "away": "Texas Rangers",
           "date": "2026-06-11",
           "datetime": "2026-06-11T18:10Z",
-          "home_prob": 50.8,
-          "away_prob": 49.2,
+          "home_prob": 50.7,
+          "away_prob": 49.3,
           "margin": -1.8,
           "home_fav": true,
           "locked": false,
@@ -9648,7 +9648,7 @@
           "home": "Kansas City Royals",
           "away": "Texas Rangers",
           "date": "2026-06-09",
-          "home_prob": 50.8,
+          "home_prob": 50.7,
           "winner": "Kansas City Royals",
           "home_score": 5,
           "away_score": 3,
