@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-11T06:30:22.092076+00:00",
+    "updated": "2026-06-11T11:14:36.136889+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 42.4,
           "margin": 8.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133597",
           "draw_prob": null
@@ -763,7 +763,7 @@
         },
         {
           "team": "Connecticut Sun",
-          "rating": 1371.6,
+          "rating": 1371.7,
           "rank": 11
         },
         {
@@ -5037,7 +5037,7 @@
         },
         {
           "team": "Minnesota Twins",
-          "rating": 1481.4,
+          "rating": 1481.3,
           "rank": 24
         },
         {
