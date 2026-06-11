@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-11T21:03:11.187399+00:00",
+    "updated": "2026-06-11T23:01:18.061042+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,6 +99,20 @@
         }
       ],
       "upcoming": [
+        {
+          "home": "Western Bulldogs",
+          "away": "Adelaide",
+          "date": "2026-06-11",
+          "datetime": "2026-06-11T09:30Z",
+          "home_prob": 57.6,
+          "away_prob": 42.4,
+          "margin": 8.3,
+          "home_fav": true,
+          "locked": true,
+          "venue": "Marvel Stadium",
+          "game_id": "afl_1133597",
+          "draw_prob": null
+        },
         {
           "home": "Geelong",
           "away": "Gold Coast SUNS",
@@ -773,7 +787,7 @@
           "away_prob": 15.7,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gainbridge Fieldhouse",
           "game_id": "wnba_401856980",
           "draw_prob": null
@@ -5059,34 +5073,6 @@
       ],
       "upcoming": [
         {
-          "home": "Kansas City Royals",
-          "away": "Texas Rangers",
-          "date": "2026-06-11",
-          "datetime": "2026-06-11T18:10Z",
-          "home_prob": 50.1,
-          "away_prob": 49.9,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Kauffman Stadium",
-          "game_id": "mlb_401815717",
-          "draw_prob": null
-        },
-        {
-          "home": "Colorado Rockies",
-          "away": "Chicago Cubs",
-          "date": "2026-06-11",
-          "datetime": "2026-06-11T19:10Z",
-          "home_prob": 46.1,
-          "away_prob": 53.9,
-          "margin": -1.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Coors Field",
-          "game_id": "mlb_401815718",
-          "draw_prob": null
-        },
-        {
           "home": "Pittsburgh Pirates",
           "away": "Los Angeles Dodgers",
           "date": "2026-06-11",
@@ -5095,7 +5081,7 @@
           "away_prob": 58.1,
           "margin": -1.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815712",
           "draw_prob": null
@@ -5109,7 +5095,7 @@
           "away_prob": 49.1,
           "margin": 1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815714",
           "draw_prob": null
