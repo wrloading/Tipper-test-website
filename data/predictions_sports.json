@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-11T11:14:36.136889+00:00",
+    "updated": "2026-06-11T14:58:48.526503+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Western Bulldogs",
-          "away": "Adelaide",
-          "date": "2026-06-11",
-          "datetime": "2026-06-11T09:30Z",
-          "home_prob": 57.6,
-          "away_prob": 42.4,
-          "margin": 8.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133597",
-          "draw_prob": null
-        },
         {
           "home": "Geelong",
           "away": "Gold Coast SUNS",
