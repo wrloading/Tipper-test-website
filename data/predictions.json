@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-12T15:16:40.585457+10:00",
+    "updated": "2026-06-12T19:17:14.670178+10:00",
     "year": 2026,
     "current_round": 14,
     "model": "TELO v2.0",
@@ -54622,8 +54622,8 @@
           "venue": "Kardinia Park",
           "datetime": "Fri 12 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 64.8,
-          "home_prob": 81.6,
+          "margin": 64.5,
+          "home_prob": 81.5,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -54650,18 +54650,18 @@
               "player_rank": 518
             },
             {
-              "name": "L Humphries",
+              "name": "O Mullin",
               "pos": "FB",
-              "avg_di": 20.4,
-              "avg_gl": 0.2,
-              "avg_tk": 2.3,
-              "avg_cl": 0.5,
-              "avg_pi": 108.9,
-              "games": 12,
-              "ptelo": 1592,
+              "avg_di": 13.8,
+              "avg_gl": 0.1,
+              "avg_tk": 3.8,
+              "avg_cl": 2.2,
+              "avg_pi": 85.7,
+              "games": 13,
+              "ptelo": 1499,
               "ppos": "DEF",
-              "player_rating": 75,
-              "player_rank": 122
+              "player_rating": 67,
+              "player_rank": 287
             },
             {
               "name": "J Kolodjashnij",
@@ -54700,18 +54700,18 @@
               "player_rank": 234
             },
             {
-              "name": "J Bowes",
+              "name": "T Bruhn",
               "pos": "C",
-              "avg_di": 18.9,
-              "avg_gl": 1.0,
-              "avg_tk": 2.4,
-              "avg_cl": 1.0,
-              "avg_pi": 100.4,
-              "games": 7,
-              "ptelo": 1558,
+              "avg_di": 22.2,
+              "avg_gl": 0.0,
+              "avg_tk": 3.3,
+              "avg_cl": 1.8,
+              "avg_pi": 107.0,
+              "games": 12,
+              "ptelo": 1584,
               "ppos": "MID",
-              "player_rating": 72,
-              "player_rank": 164
+              "player_rating": 74,
+              "player_rank": 133
             },
             {
               "name": "B Smith",
@@ -54728,8 +54728,22 @@
               "player_rank": 2
             },
             {
-              "name": "O Dempsey",
+              "name": "M Blicavs",
               "pos": "C",
+              "avg_di": 12.7,
+              "avg_gl": 0.1,
+              "avg_tk": 3.1,
+              "avg_cl": 2.0,
+              "avg_pi": 72.7,
+              "games": 10,
+              "ptelo": 1447,
+              "ppos": "MID",
+              "player_rating": 62,
+              "player_rank": 415
+            },
+            {
+              "name": "O Dempsey",
+              "pos": "HF",
               "avg_di": 18.4,
               "avg_gl": 1.0,
               "avg_tk": 1.8,
@@ -54740,20 +54754,6 @@
               "ppos": "MID",
               "player_rating": 72,
               "player_rank": 157
-            },
-            {
-              "name": "O Henry",
-              "pos": "HF",
-              "avg_di": 11.1,
-              "avg_gl": 1.8,
-              "avg_tk": 1.7,
-              "avg_cl": 0.5,
-              "avg_pi": 83.5,
-              "games": 12,
-              "ptelo": 1490,
-              "ppos": "FWD",
-              "player_rating": 66,
-              "player_rank": 316
             },
             {
               "name": "J Cameron",
@@ -54784,18 +54784,18 @@
               "player_rank": 578
             },
             {
-              "name": "P Dangerfield",
+              "name": "S Mannagh",
               "pos": "FF",
-              "avg_di": 14.1,
-              "avg_gl": 1.2,
-              "avg_tk": 1.3,
-              "avg_cl": 2.0,
-              "avg_pi": 100.3,
-              "games": 9,
-              "ptelo": 1558,
-              "ppos": "MID",
-              "player_rating": 72,
-              "player_rank": 163
+              "avg_di": 15.8,
+              "avg_gl": 1.6,
+              "avg_tk": 2.4,
+              "avg_cl": 2.1,
+              "avg_pi": 106.9,
+              "games": 13,
+              "ptelo": 1584,
+              "ppos": "FWD",
+              "player_rating": 74,
+              "player_rank": 134
             },
             {
               "name": "S Neale",
@@ -54868,6 +54868,20 @@
               "player_rank": 184
             },
             {
+              "name": "L Humphries",
+              "pos": "INT",
+              "avg_di": 20.4,
+              "avg_gl": 0.2,
+              "avg_tk": 2.3,
+              "avg_cl": 0.5,
+              "avg_pi": 108.9,
+              "games": 12,
+              "ptelo": 1592,
+              "ppos": "DEF",
+              "player_rating": 75,
+              "player_rank": 122
+            },
+            {
               "name": "S De Koning",
               "pos": "INT",
               "avg_di": 14.2,
@@ -54882,76 +54896,56 @@
               "player_rank": 255
             },
             {
-              "name": "T Bruhn",
+              "name": "G Stevens",
               "pos": "INT",
-              "avg_di": 22.2,
-              "avg_gl": 0.0,
-              "avg_tk": 3.3,
-              "avg_cl": 1.8,
-              "avg_pi": 107.0,
-              "games": 12,
-              "ptelo": 1584,
+              "ptelo": 1472,
               "ppos": "MID",
-              "player_rating": 74,
-              "player_rank": 133
+              "player_rating": 65,
+              "player_rank": 350
             },
             {
-              "name": "O Mullin",
+              "name": "P Dangerfield",
               "pos": "INT",
-              "avg_di": 13.8,
-              "avg_gl": 0.1,
-              "avg_tk": 3.8,
-              "avg_cl": 2.2,
-              "avg_pi": 85.7,
-              "games": 13,
-              "ptelo": 1499,
-              "ppos": "DEF",
-              "player_rating": 67,
-              "player_rank": 287
-            },
-            {
-              "name": "M Blicavs",
-              "pos": "INT",
-              "avg_di": 12.7,
-              "avg_gl": 0.1,
-              "avg_tk": 3.1,
+              "avg_di": 14.1,
+              "avg_gl": 1.2,
+              "avg_tk": 1.3,
               "avg_cl": 2.0,
-              "avg_pi": 72.7,
-              "games": 10,
-              "ptelo": 1447,
+              "avg_pi": 100.3,
+              "games": 9,
+              "ptelo": 1558,
               "ppos": "MID",
-              "player_rating": 62,
-              "player_rank": 415
+              "player_rating": 72,
+              "player_rank": 163
             },
             {
-              "name": "S Mannagh",
+              "name": "O Henry",
               "pos": "INT",
-              "avg_di": 15.8,
-              "avg_gl": 1.6,
-              "avg_tk": 2.4,
-              "avg_cl": 2.1,
-              "avg_pi": 106.9,
-              "games": 13,
-              "ptelo": 1584,
+              "avg_di": 11.1,
+              "avg_gl": 1.8,
+              "avg_tk": 1.7,
+              "avg_cl": 0.5,
+              "avg_pi": 83.5,
+              "games": 12,
+              "ptelo": 1490,
               "ppos": "FWD",
-              "player_rating": 74,
-              "player_rank": 134
+              "player_rating": 66,
+              "player_rank": 316
             }
           ],
           "away_named": [
             {
-              "name": "L Lombard",
+              "name": "S Clohesy",
               "pos": "FF",
-              "avg_di": 14.0,
-              "avg_gl": 0.5,
-              "avg_tk": 2.6,
-              "avg_cl": 0.6,
-              "avg_pi": 76.2,
-              "games": 12,
-              "ptelo": 1461,
+              "avg_di": 15.3,
+              "avg_gl": 0.3,
+              "avg_tk": 2.4,
+              "avg_cl": 0.7,
+              "avg_pi": 74.7,
+              "games": 7,
+              "ptelo": 1455,
               "ppos": "MID",
-              "player_rating": 64,
-              "player_rank": 383
+              "player_rating": 63,
+              "player_rank": 394
             },
             {
               "name": "B King",
@@ -55104,18 +55098,18 @@
               "player_rank": 230
             },
             {
-              "name": "C Ballard",
+              "name": "O Adams",
               "pos": "FB",
-              "avg_di": 10.0,
+              "avg_di": 10.3,
               "avg_gl": 0.0,
-              "avg_tk": 0.8,
+              "avg_tk": 1.4,
               "avg_cl": 0.0,
-              "avg_pi": 46.5,
-              "games": 4,
-              "ptelo": 1342,
+              "avg_pi": 48.2,
+              "games": 9,
+              "ptelo": 1349,
               "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
+              "player_rating": 54,
+              "player_rank": 608
             },
             {
               "name": "S Collins",
@@ -55188,6 +55182,34 @@
               "player_rank": 30
             },
             {
+              "name": "L Lombard",
+              "pos": "INT",
+              "avg_di": 14.0,
+              "avg_gl": 0.5,
+              "avg_tk": 2.6,
+              "avg_cl": 0.6,
+              "avg_pi": 76.2,
+              "games": 12,
+              "ptelo": 1461,
+              "ppos": "MID",
+              "player_rating": 64,
+              "player_rank": 383
+            },
+            {
+              "name": "C Ballard",
+              "pos": "INT",
+              "avg_di": 10.0,
+              "avg_gl": 0.0,
+              "avg_tk": 0.8,
+              "avg_cl": 0.0,
+              "avg_pi": 46.5,
+              "games": 4,
+              "ptelo": 1342,
+              "ppos": "DEF",
+              "player_rating": null,
+              "player_rank": null
+            },
+            {
               "name": "J Jeffrey",
               "pos": "INT",
               "avg_di": 18.2,
@@ -55200,20 +55222,6 @@
               "ppos": "DEF",
               "player_rating": 68,
               "player_rank": 245
-            },
-            {
-              "name": "S Clohesy",
-              "pos": "INT",
-              "avg_di": 15.3,
-              "avg_gl": 0.3,
-              "avg_tk": 2.4,
-              "avg_cl": 0.7,
-              "avg_pi": 74.7,
-              "games": 7,
-              "ptelo": 1455,
-              "ppos": "MID",
-              "player_rating": 63,
-              "player_rank": 394
             },
             {
               "name": "J Murray",
@@ -55238,23 +55246,21 @@
               "ppos": "FWD",
               "player_rating": null,
               "player_rank": null
-            },
-            {
-              "name": "O Adams",
-              "pos": "INT",
-              "avg_di": 10.3,
-              "avg_gl": 0.0,
-              "avg_tk": 1.4,
-              "avg_cl": 0.0,
-              "avg_pi": 48.2,
-              "games": 9,
-              "ptelo": 1349,
-              "ppos": "DEF",
-              "player_rating": 54,
-              "player_rank": 608
             }
           ],
           "home_outs": [
+            {
+              "name": "J Bowes",
+              "avg_di": 18.9,
+              "avg_gl": 1.0,
+              "avg_tk": 2.4,
+              "avg_cl": 1.0,
+              "avg_pi": 100.4,
+              "games": 7,
+              "ptelo": 1558,
+              "player_rating": 72,
+              "player_rank": 164
+            },
             {
               "name": "T Stewart",
               "avg_di": 20.8,
@@ -55332,7 +55338,7 @@
           ],
           "selections_announced": true,
           "selections_round": 14,
-          "home_squad_impact": 3.6,
+          "home_squad_impact": 2.5,
           "away_squad_impact": 9.8
         },
         {
@@ -57445,8 +57451,8 @@
           "venue": "Bellerive Oval",
           "datetime": "Sun 14 Jun \u00b7 1:10pm AEST",
           "home_fav": false,
-          "margin": 57.6,
-          "home_prob": 21.0,
+          "margin": 58.5,
+          "home_prob": 20.7,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -57479,12 +57485,18 @@
               "player_rank": 366
             },
             {
-              "name": "K Smith",
+              "name": "T Brown",
               "pos": "FB",
-              "ptelo": 1431,
+              "avg_di": 13.0,
+              "avg_gl": 0.0,
+              "avg_tk": 1.0,
+              "avg_cl": 0.0,
+              "avg_pi": 64.7,
+              "games": 7,
+              "ptelo": 1415,
               "ppos": "DEF",
-              "player_rating": 61,
-              "player_rank": 465
+              "player_rating": 60,
+              "player_rank": 492
             },
             {
               "name": "N Vlastuin",
@@ -57707,14 +57719,8 @@
               "player_rank": 474
             },
             {
-              "name": "N R-Thomson",
-              "pos": "INT",
-              "avg_di": 6.0,
-              "avg_gl": 1.3,
-              "avg_tk": 2.0,
-              "avg_cl": 0.3,
-              "avg_pi": 45.7,
-              "games": 3
+              "name": "K Annand",
+              "pos": "INT"
             },
             {
               "name": "S Grlj",
@@ -57753,38 +57759,6 @@
               "ppos": "MID",
               "player_rating": 75,
               "player_rank": 115
-            },
-            {
-              "name": "K Annand",
-              "pos": "INT"
-            },
-            {
-              "name": "T Brown",
-              "pos": "INT",
-              "avg_di": 13.0,
-              "avg_gl": 0.0,
-              "avg_tk": 1.0,
-              "avg_cl": 0.0,
-              "avg_pi": 64.7,
-              "games": 7,
-              "ptelo": 1415,
-              "ppos": "DEF",
-              "player_rating": 60,
-              "player_rank": 492
-            },
-            {
-              "name": "S Ryan",
-              "pos": "INT",
-              "avg_di": 8.3,
-              "avg_gl": 0.0,
-              "avg_tk": 1.7,
-              "avg_cl": 2.3,
-              "avg_pi": 59.5,
-              "games": 3,
-              "ptelo": 1394,
-              "ppos": "RUC",
-              "player_rating": 58,
-              "player_rank": 534
             }
           ],
           "away_named": [
@@ -58055,28 +58029,6 @@
               "player_rank": 338
             },
             {
-              "name": "L Beecken",
-              "pos": "INT",
-              "ptelo": 1302,
-              "ppos": "DEF",
-              "player_rating": null,
-              "player_rank": null
-            },
-            {
-              "name": "S Marshall",
-              "pos": "INT",
-              "avg_di": 16.5,
-              "avg_gl": 0.0,
-              "avg_tk": 2.0,
-              "avg_cl": 0.5,
-              "avg_pi": 74.3,
-              "games": 2,
-              "ptelo": 1453,
-              "ppos": "MID",
-              "player_rating": 63,
-              "player_rank": 398
-            },
-            {
               "name": "C McKenna",
               "pos": "INT",
               "avg_di": 11.0,
@@ -58125,20 +58077,6 @@
               "ppos": "DEF",
               "player_rating": null,
               "player_rank": null
-            },
-            {
-              "name": "D Joyce",
-              "pos": "INT",
-              "avg_di": 10.0,
-              "avg_gl": 0.0,
-              "avg_tk": 0.3,
-              "avg_cl": 0.0,
-              "avg_pi": 53.9,
-              "games": 3,
-              "ptelo": 1372,
-              "ppos": "DEF",
-              "player_rating": 56,
-              "player_rank": 576
             }
           ],
           "home_outs": [
@@ -58165,13 +58103,35 @@
               "ptelo": 1418,
               "player_rating": 60,
               "player_rank": 482
+            },
+            {
+              "name": "N R-Thomson",
+              "avg_di": 6.0,
+              "avg_gl": 1.3,
+              "avg_tk": 2.0,
+              "avg_cl": 0.3,
+              "avg_pi": 45.7,
+              "games": 3
             }
           ],
-          "away_outs": [],
+          "away_outs": [
+            {
+              "name": "D Joyce",
+              "avg_di": 10.0,
+              "avg_gl": 0.0,
+              "avg_tk": 0.3,
+              "avg_cl": 0.0,
+              "avg_pi": 53.9,
+              "games": 3,
+              "ptelo": 1372,
+              "player_rating": 56,
+              "player_rank": 576
+            }
+          ],
           "selections_announced": true,
           "selections_round": 14,
-          "home_squad_impact": -0.5,
-          "away_squad_impact": -1.7
+          "home_squad_impact": 1.3,
+          "away_squad_impact": 3.5
         },
         {
           "home": "St Kilda",
@@ -58179,8 +58139,8 @@
           "venue": "Docklands",
           "datetime": "Sun 14 Jun \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 18.9,
-          "home_prob": 39.3,
+          "margin": 19.5,
+          "home_prob": 39.0,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -58489,20 +58449,6 @@
               "player_rank": 604
             },
             {
-              "name": "M Phillipou",
-              "pos": "INT",
-              "avg_di": 14.5,
-              "avg_gl": 0.7,
-              "avg_tk": 3.2,
-              "avg_cl": 1.8,
-              "avg_pi": 86.5,
-              "games": 13,
-              "ptelo": 1502,
-              "ppos": "MID",
-              "player_rating": 67,
-              "player_rank": 274
-            },
-            {
               "name": "A Tauru",
               "pos": "INT",
               "avg_di": 8.6,
@@ -58515,28 +58461,6 @@
               "ppos": "DEF",
               "player_rating": 56,
               "player_rank": 585
-            },
-            {
-              "name": "A Dodson",
-              "pos": "INT",
-              "ptelo": 1350,
-              "ppos": "RUC",
-              "player_rating": null,
-              "player_rank": null
-            },
-            {
-              "name": "H Boxshall",
-              "pos": "INT",
-              "avg_di": 11.4,
-              "avg_gl": 0.0,
-              "avg_tk": 4.6,
-              "avg_cl": 1.4,
-              "avg_pi": 70.9,
-              "games": 5,
-              "ptelo": 1440,
-              "ppos": "MID",
-              "player_rating": 62,
-              "player_rank": 436
             }
           ],
           "away_named": [
@@ -58821,20 +58745,6 @@
               "player_rank": 412
             },
             {
-              "name": "R Angwin",
-              "pos": "INT",
-              "avg_di": 17.0,
-              "avg_gl": 0.3,
-              "avg_tk": 2.6,
-              "avg_cl": 0.9,
-              "avg_pi": 76.7,
-              "games": 9,
-              "ptelo": 1463,
-              "ppos": "MID",
-              "player_rating": 64,
-              "player_rank": 374
-            },
-            {
               "name": "T McMullin",
               "pos": "INT",
               "avg_di": 10.0,
@@ -58849,6 +58759,20 @@
               "player_rank": 605
             },
             {
+              "name": "R Angwin",
+              "pos": "INT",
+              "avg_di": 17.0,
+              "avg_gl": 0.3,
+              "avg_tk": 2.6,
+              "avg_cl": 0.9,
+              "avg_pi": 76.7,
+              "games": 9,
+              "ptelo": 1463,
+              "ppos": "MID",
+              "player_rating": 64,
+              "player_rank": 374
+            },
+            {
               "name": "C Brown",
               "pos": "INT",
               "avg_di": 10.3,
@@ -58861,51 +58785,22 @@
               "ppos": "FWD",
               "player_rating": 61,
               "player_rank": 474
-            },
-            {
-              "name": "J Delana",
-              "pos": "INT",
-              "avg_di": 6.0,
-              "avg_gl": 0.0,
-              "avg_tk": 3.0,
-              "avg_cl": 0.5,
-              "avg_pi": 35.2,
-              "games": 4,
-              "ptelo": 1297,
-              "ppos": "MID",
-              "player_rating": 50,
-              "player_rank": 630
-            },
-            {
-              "name": "H Oliver",
-              "pos": "INT",
-              "avg_di": 11.5,
-              "avg_gl": 0.5,
-              "avg_tk": 2.5,
-              "avg_cl": 1.0,
-              "avg_pi": 54.4,
-              "games": 2,
-              "ptelo": 1374,
-              "ppos": "DEF",
-              "player_rating": 56,
-              "player_rank": 574
-            },
-            {
-              "name": "M Gruzewski",
-              "pos": "INT",
-              "avg_di": 7.6,
-              "avg_gl": 1.8,
-              "avg_tk": 0.5,
-              "avg_cl": 0.0,
-              "avg_pi": 74.4,
-              "games": 8,
-              "ptelo": 1454,
-              "ppos": "FWD",
-              "player_rating": 63,
-              "player_rank": 397
             }
           ],
-          "home_outs": [],
+          "home_outs": [
+            {
+              "name": "M Phillipou",
+              "avg_di": 14.5,
+              "avg_gl": 0.7,
+              "avg_tk": 3.2,
+              "avg_cl": 1.8,
+              "avg_pi": 86.5,
+              "games": 13,
+              "ptelo": 1502,
+              "player_rating": 67,
+              "player_rank": 274
+            }
+          ],
           "away_outs": [
             {
               "name": "S Coniglio",
@@ -58918,12 +58813,24 @@
               "ptelo": 1468,
               "player_rating": 64,
               "player_rank": 361
+            },
+            {
+              "name": "M Gruzewski",
+              "avg_di": 7.6,
+              "avg_gl": 1.8,
+              "avg_tk": 0.5,
+              "avg_cl": 0.0,
+              "avg_pi": 74.4,
+              "games": 8,
+              "ptelo": 1454,
+              "player_rating": 63,
+              "player_rank": 397
             }
           ],
           "selections_announced": true,
           "selections_round": 14,
-          "home_squad_impact": 7.3,
-          "away_squad_impact": 6.2
+          "home_squad_impact": 11.1,
+          "away_squad_impact": 12.3
         }
       ]
     },
@@ -114998,7 +114905,7 @@
       "points_for": 1312,
       "points_against": 887,
       "finals_pct": 100.0,
-      "premiers_pct": 37.6
+      "premiers_pct": 37.3
     },
     {
       "team": "Sydney",
@@ -115024,7 +114931,7 @@
       "points_for": 1248,
       "points_against": 1102,
       "finals_pct": 98.3,
-      "premiers_pct": 11.9
+      "premiers_pct": 12.0
     },
     {
       "team": "Geelong",
@@ -115036,7 +114943,7 @@
       "percentage": 120.2,
       "points_for": 1295,
       "points_against": 1077,
-      "finals_pct": 95.9,
+      "finals_pct": 95.8,
       "premiers_pct": 9.7
     },
     {
@@ -115075,8 +114982,8 @@
       "percentage": 90.7,
       "points_for": 1187,
       "points_against": 1308,
-      "finals_pct": 82.3,
-      "premiers_pct": 2.8
+      "finals_pct": 82.0,
+      "premiers_pct": 2.9
     },
     {
       "team": "Greater Western Sydney",
@@ -115088,8 +114995,8 @@
       "percentage": 103.2,
       "points_for": 1127,
       "points_against": 1092,
-      "finals_pct": 40.7,
-      "premiers_pct": 0.8
+      "finals_pct": 40.6,
+      "premiers_pct": 0.9
     },
     {
       "team": "Gold Coast",
@@ -115101,7 +115008,7 @@
       "percentage": 112.2,
       "points_for": 1173,
       "points_against": 1045,
-      "finals_pct": 32.0,
+      "finals_pct": 32.7,
       "premiers_pct": 0.6
     },
     {
@@ -115114,7 +115021,7 @@
       "percentage": 102.3,
       "points_for": 1273,
       "points_against": 1244,
-      "finals_pct": 57.2,
+      "finals_pct": 57.3,
       "premiers_pct": 0.8
     },
     {
@@ -115153,7 +115060,7 @@
       "percentage": 101.9,
       "points_for": 1177,
       "points_against": 1155,
-      "finals_pct": 2.8,
+      "finals_pct": 2.6,
       "premiers_pct": 0.0
     },
     {

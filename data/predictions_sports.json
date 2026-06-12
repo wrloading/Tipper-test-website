@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-12T05:17:10.397911+00:00",
+    "updated": "2026-06-12T09:17:48.857014+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4963,7 +4963,7 @@
         },
         {
           "team": "Baltimore Orioles",
-          "rating": 1507.6,
+          "rating": 1507.7,
           "rank": 10
         },
         {
