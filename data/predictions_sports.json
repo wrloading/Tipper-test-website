@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-12T22:11:58.567651+00:00",
+    "updated": "2026-06-12T23:54:31.146546+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -763,7 +763,7 @@
           "away_prob": 55.6,
           "margin": 1.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "CareFirst Arena",
           "game_id": "wnba_401856984",
           "draw_prob": null
@@ -5063,7 +5063,7 @@
           "away_prob": 45.5,
           "margin": 1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815722",
           "draw_prob": null
@@ -5077,7 +5077,7 @@
           "away_prob": 51.3,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815725",
           "draw_prob": null
@@ -5091,7 +5091,7 @@
           "away_prob": 45.0,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815724",
           "draw_prob": null
@@ -5105,7 +5105,7 @@
           "away_prob": 45.6,
           "margin": -2.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815721",
           "draw_prob": null
@@ -5119,7 +5119,7 @@
           "away_prob": 47.6,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815726",
           "draw_prob": null
@@ -5133,7 +5133,7 @@
           "away_prob": 49.8,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815719",
           "draw_prob": null
@@ -5147,7 +5147,7 @@
           "away_prob": 57.6,
           "margin": -0.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815720",
           "draw_prob": null
@@ -5161,7 +5161,7 @@
           "away_prob": 52.2,
           "margin": -2.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815723",
           "draw_prob": null
@@ -5175,7 +5175,7 @@
           "away_prob": 56.6,
           "margin": 1.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815728",
           "draw_prob": null
@@ -5189,7 +5189,7 @@
           "away_prob": 44.2,
           "margin": 5.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401815729",
           "draw_prob": null
