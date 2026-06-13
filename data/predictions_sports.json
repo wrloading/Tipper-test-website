@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-13T12:17:46.984818+00:00",
+    "updated": "2026-06-13T14:40:21.395515+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Port Adelaide",
-          "away": "Sydney",
-          "date": "2026-06-13",
-          "datetime": "2026-06-13T09:35Z",
-          "home_prob": 24.7,
-          "away_prob": 75.3,
-          "margin": 2.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133601",
-          "draw_prob": null
-        },
         {
           "home": "Richmond",
           "away": "Brisbane Lions",
