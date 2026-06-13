@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-13T19:41:59.792689+00:00",
+    "updated": "2026-06-13T20:55:49.831335+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5049,7 +5049,7 @@
           "away_prob": 46.6,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815737",
           "draw_prob": null
@@ -5063,7 +5063,7 @@
           "away_prob": 44.1,
           "margin": 2.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815739",
           "draw_prob": null
@@ -5077,7 +5077,7 @@
           "away_prob": 52.6,
           "margin": 2.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815740",
           "draw_prob": null
@@ -5091,7 +5091,7 @@
           "away_prob": 50.6,
           "margin": 1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815734",
           "draw_prob": null
@@ -5105,7 +5105,7 @@
           "away_prob": 56.9,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815735",
           "draw_prob": null
@@ -5119,7 +5119,7 @@
           "away_prob": 45.2,
           "margin": -4.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815736",
           "draw_prob": null
@@ -5133,7 +5133,7 @@
           "away_prob": 46.3,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815741",
           "draw_prob": null
@@ -5147,7 +5147,7 @@
           "away_prob": 55.3,
           "margin": 3.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401815743",
           "draw_prob": null
