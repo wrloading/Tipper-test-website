@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-13T07:59:13.687945+00:00",
+    "updated": "2026-06-13T10:36:41.532540+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 75.3,
           "margin": 2.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Adelaide Oval",
           "game_id": "afl_1133601",
           "draw_prob": null
@@ -1748,7 +1748,7 @@
       "ratings": [
         {
           "team": "Thunderbirds",
-          "rating": 1741.9,
+          "rating": 1757.8,
           "rank": 1
         },
         {
@@ -1783,7 +1783,7 @@
         },
         {
           "team": "Lightning",
-          "rating": 1409.2,
+          "rating": 1393.4,
           "rank": 8
         },
         {
@@ -1798,20 +1798,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Lightning",
-          "away": "Thunderbirds",
-          "date": "2026-06-13T07:00:00Z",
-          "datetime": "2026-06-13T07:00:00Z",
-          "home_prob": 16.8,
-          "away_prob": 83.2,
-          "margin": -7.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "UniSC Arena",
-          "game_id": "supernetball_129491401",
-          "draw_prob": null
-        },
         {
           "home": "Mavericks",
           "away": "Firebirds",
@@ -1860,7 +1846,7 @@
           "home": "Lightning",
           "away": "GIANTS",
           "date": "2026-05-30",
-          "home_prob": 83.8,
+          "home_prob": 82.5,
           "winner": "Lightning",
           "home_score": 74,
           "away_score": 54,
@@ -1890,7 +1876,7 @@
           "home": "Thunderbirds",
           "away": "Vixens",
           "date": "2026-05-31",
-          "home_prob": 78.4,
+          "home_prob": 79.9,
           "winner": "Thunderbirds",
           "home_score": 61,
           "away_score": 42,
@@ -1900,7 +1886,7 @@
           "home": "Swifts",
           "away": "Thunderbirds",
           "date": "2026-06-06",
-          "home_prob": 22.8,
+          "home_prob": 21.2,
           "winner": "Thunderbirds",
           "home_score": 60,
           "away_score": 66,
@@ -1910,7 +1896,7 @@
           "home": "Firebirds",
           "away": "Lightning",
           "date": "2026-06-06",
-          "home_prob": 54.4,
+          "home_prob": 56.7,
           "winner": "Firebirds",
           "home_score": 66,
           "away_score": 59,
@@ -1934,6 +1920,16 @@
           "winner": "Fever",
           "home_score": 60,
           "away_score": 61,
+          "draw_prob": null
+        },
+        {
+          "home": "Lightning",
+          "away": "Thunderbirds",
+          "date": "2026-06-13",
+          "home_prob": 14.4,
+          "winner": "Thunderbirds",
+          "home_score": 49,
+          "away_score": 67,
           "draw_prob": null
         }
       ]
