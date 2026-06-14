@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-14T14:44:59.629217+00:00",
+    "updated": "2026-06-14T16:15:11.874336+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5016,7 +5016,7 @@
           "away_prob": 46.3,
           "margin": 4.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815752",
           "draw_prob": null
