@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-14T16:15:11.874336+00:00",
+    "updated": "2026-06-14T17:53:27.546160+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5030,7 +5030,7 @@
           "away_prob": 45.4,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815754",
           "draw_prob": null
@@ -5044,7 +5044,7 @@
           "away_prob": 51.5,
           "margin": 1.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815755",
           "draw_prob": null
@@ -5058,7 +5058,7 @@
           "away_prob": 52.0,
           "margin": -2.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815753",
           "draw_prob": null
@@ -5072,7 +5072,7 @@
           "away_prob": 50.2,
           "margin": 1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815749",
           "draw_prob": null
@@ -5086,7 +5086,7 @@
           "away_prob": 57.4,
           "margin": 1.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815750",
           "draw_prob": null
@@ -5100,7 +5100,7 @@
           "away_prob": 44.7,
           "margin": -3.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401815751",
           "draw_prob": null
