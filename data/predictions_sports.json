@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-14T06:59:55.082028+00:00",
+    "updated": "2026-06-14T10:31:48.636620+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "St Kilda",
-          "away": "GWS GIANTS",
-          "date": "2026-06-14",
-          "datetime": "2026-06-14T05:15Z",
-          "home_prob": 46.1,
-          "away_prob": 53.9,
-          "margin": 5.4,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133603",
-          "draw_prob": null
-        },
         {
           "home": "Fremantle",
           "away": "Geelong",
@@ -404,16 +390,6 @@
           "draw_prob": null
         },
         {
-          "home": "Port Adelaide",
-          "away": "Sydney",
-          "date": "2026-06-13",
-          "home_prob": 22.4,
-          "winner": "Sydney",
-          "home_score": 90,
-          "away_score": 93,
-          "draw_prob": null
-        },
-        {
           "home": "Melbourne",
           "away": "Essendon",
           "date": "2026-06-13",
@@ -431,6 +407,16 @@
           "winner": "North Melbourne",
           "home_score": 74,
           "away_score": 73,
+          "draw_prob": null
+        },
+        {
+          "home": "Port Adelaide",
+          "away": "Sydney",
+          "date": "2026-06-13",
+          "home_prob": 22.4,
+          "winner": "Sydney",
+          "home_score": 90,
+          "away_score": 93,
           "draw_prob": null
         }
       ]
@@ -614,7 +600,7 @@
           "home": "New York Knicks",
           "away": "San Antonio Spurs",
           "date": "2026-06-09",
-          "home_prob": 79.1,
+          "home_prob": 79.2,
           "winner": "San Antonio Spurs",
           "home_score": 111,
           "away_score": 115,
@@ -624,7 +610,7 @@
           "home": "New York Knicks",
           "away": "San Antonio Spurs",
           "date": "2026-06-11",
-          "home_prob": 79.1,
+          "home_prob": 79.2,
           "winner": "New York Knicks",
           "home_score": 107,
           "away_score": 106,
@@ -1745,7 +1731,7 @@
         },
         {
           "team": "Swifts",
-          "rating": 1474.7,
+          "rating": 1456.9,
           "rank": 7
         },
         {
@@ -1760,25 +1746,11 @@
         },
         {
           "team": "GIANTS",
-          "rating": 1178.5,
+          "rating": 1196.2,
           "rank": 10
         }
       ],
       "upcoming": [
-        {
-          "home": "GIANTS",
-          "away": "Swifts",
-          "date": "2026-06-14T06:00:00Z",
-          "datetime": "2026-06-14T06:00:00Z",
-          "home_prob": 20.0,
-          "away_prob": 80.0,
-          "margin": -7.5,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Ken Rosewall Arena",
-          "game_id": "supernetball_129491404",
-          "draw_prob": null
-        },
         {
           "home": "Thunderbirds",
           "away": "Vixens",
@@ -1827,7 +1799,7 @@
           "home": "Swifts",
           "away": "Firebirds",
           "date": "2026-05-31",
-          "home_prob": 70.6,
+          "home_prob": 68.4,
           "winner": "Swifts",
           "home_score": 68,
           "away_score": 62,
@@ -1847,7 +1819,7 @@
           "home": "Swifts",
           "away": "Thunderbirds",
           "date": "2026-06-06",
-          "home_prob": 21.2,
+          "home_prob": 19.5,
           "winner": "Thunderbirds",
           "home_score": 60,
           "away_score": 66,
@@ -1877,7 +1849,7 @@
           "home": "GIANTS",
           "away": "Fever",
           "date": "2026-06-07",
-          "home_prob": 10.4,
+          "home_prob": 11.4,
           "winner": "Fever",
           "home_score": 60,
           "away_score": 61,
@@ -1911,6 +1883,16 @@
           "winner": "Fever",
           "home_score": 55,
           "away_score": 64,
+          "draw_prob": null
+        },
+        {
+          "home": "GIANTS",
+          "away": "Swifts",
+          "date": "2026-06-14",
+          "home_prob": 23.4,
+          "winner": "GIANTS",
+          "home_score": 66,
+          "away_score": 65,
           "draw_prob": null
         }
       ]
@@ -4955,7 +4937,7 @@
         },
         {
           "team": "Houston Astros",
-          "rating": 1495.4,
+          "rating": 1495.5,
           "rank": 17
         },
         {
