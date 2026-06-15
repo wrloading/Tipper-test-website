@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-15T18:20:17.106694+00:00",
+    "updated": "2026-06-15T21:36:13.777717+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -7210,6 +7210,20 @@
           "draw_prob": null
         },
         {
+          "home": "Boston Red Sox",
+          "away": "New York Yankees",
+          "date": "2026-06-27",
+          "datetime": "2026-06-27T17:00Z",
+          "home_prob": 47.7,
+          "away_prob": 52.3,
+          "margin": -2.6,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Fenway Park",
+          "game_id": "mlb_401815924",
+          "draw_prob": null
+        },
+        {
           "home": "Detroit Tigers",
           "away": "Houston Astros",
           "date": "2026-06-27",
@@ -7221,20 +7235,6 @@
           "locked": false,
           "venue": "Comerica Park",
           "game_id": "mlb_401815923",
-          "draw_prob": null
-        },
-        {
-          "home": "Boston Red Sox",
-          "away": "New York Yankees",
-          "date": "2026-06-27",
-          "datetime": "2026-06-27T17:10Z",
-          "home_prob": 47.7,
-          "away_prob": 52.3,
-          "margin": -2.6,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Fenway Park",
-          "game_id": "mlb_401815924",
           "draw_prob": null
         },
         {
@@ -7658,6 +7658,20 @@
           "draw_prob": null
         },
         {
+          "home": "Cleveland Guardians",
+          "away": "Texas Rangers",
+          "date": "2026-06-29",
+          "datetime": "2026-06-29T23:00Z",
+          "home_prob": 54.1,
+          "away_prob": 45.9,
+          "margin": -0.3,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Progressive Field",
+          "game_id": "mlb_401815955",
+          "draw_prob": null
+        },
+        {
           "home": "New York Yankees",
           "away": "Detroit Tigers",
           "date": "2026-06-29",
@@ -7683,20 +7697,6 @@
           "locked": false,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815953",
-          "draw_prob": null
-        },
-        {
-          "home": "Cleveland Guardians",
-          "away": "Texas Rangers",
-          "date": "2026-06-29",
-          "datetime": "2026-06-29T23:10Z",
-          "home_prob": 54.1,
-          "away_prob": 45.9,
-          "margin": -0.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Progressive Field",
-          "game_id": "mlb_401815955",
           "draw_prob": null
         },
         {
