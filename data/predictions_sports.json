@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-15T07:42:41.598061+00:00",
+    "updated": "2026-06-15T13:43:54.087465+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -98,204 +98,7 @@
           "rank": 18
         }
       ],
-      "upcoming": [
-        {
-          "home": "Fremantle",
-          "away": "Geelong",
-          "date": "2026-06-18",
-          "datetime": "2026-06-18T10:10Z",
-          "home_prob": 67.4,
-          "away_prob": 32.6,
-          "margin": 18.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133604",
-          "draw_prob": null
-        },
-        {
-          "home": "Gold Coast SUNS",
-          "away": "Hawthorn",
-          "date": "2026-06-19",
-          "datetime": "2026-06-19T09:40Z",
-          "home_prob": 37.6,
-          "away_prob": 62.4,
-          "margin": 1.6,
-          "home_fav": false,
-          "locked": false,
-          "venue": "People First Stadium",
-          "game_id": "afl_1133605",
-          "draw_prob": null
-        },
-        {
-          "home": "Adelaide",
-          "away": "Melbourne",
-          "date": "2026-06-20",
-          "datetime": "2026-06-20T03:15Z",
-          "home_prob": 70.2,
-          "away_prob": 29.8,
-          "margin": 11.5,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133606",
-          "draw_prob": null
-        },
-        {
-          "home": "GWS GIANTS",
-          "away": "Carlton",
-          "date": "2026-06-20",
-          "datetime": "2026-06-20T06:15Z",
-          "home_prob": 61.0,
-          "away_prob": 39.0,
-          "margin": 9.6,
-          "home_fav": true,
-          "locked": false,
-          "venue": "ENGIE Stadium",
-          "game_id": "afl_1133607",
-          "draw_prob": null
-        },
-        {
-          "home": "Collingwood",
-          "away": "Port Adelaide",
-          "date": "2026-06-20",
-          "datetime": "2026-06-20T09:35Z",
-          "home_prob": 61.9,
-          "away_prob": 38.1,
-          "margin": -7.1,
-          "home_fav": true,
-          "locked": false,
-          "venue": "MCG",
-          "game_id": "afl_1133608",
-          "draw_prob": null
-        },
-        {
-          "home": "Richmond",
-          "away": "North Melbourne",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T03:10Z",
-          "home_prob": 48.9,
-          "away_prob": 51.1,
-          "margin": -8.3,
-          "home_fav": false,
-          "locked": false,
-          "venue": "MCG",
-          "game_id": "afl_1133609",
-          "draw_prob": null
-        },
-        {
-          "home": "St Kilda",
-          "away": "Western Bulldogs",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T05:15Z",
-          "home_prob": 65.2,
-          "away_prob": 34.8,
-          "margin": 3.5,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133610",
-          "draw_prob": null
-        },
-        {
-          "home": "Brisbane Lions",
-          "away": "Sydney",
-          "date": "2026-06-25",
-          "datetime": "2026-06-25T09:30Z",
-          "home_prob": 45.7,
-          "away_prob": 54.3,
-          "margin": 5.9,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Gabba",
-          "game_id": "afl_1133611",
-          "draw_prob": null
-        },
-        {
-          "home": "Hawthorn",
-          "away": "GWS GIANTS",
-          "date": "2026-06-26",
-          "datetime": "2026-06-26T09:40Z",
-          "home_prob": 69.1,
-          "away_prob": 30.9,
-          "margin": 7.2,
-          "home_fav": true,
-          "locked": false,
-          "venue": "MCG",
-          "game_id": "afl_1133614",
-          "draw_prob": null
-        },
-        {
-          "home": "Carlton",
-          "away": "West Coast",
-          "date": "2026-06-27",
-          "datetime": "2026-06-27T03:15Z",
-          "home_prob": 86.3,
-          "away_prob": 13.7,
-          "margin": 3.6,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133612",
-          "draw_prob": null
-        },
-        {
-          "home": "Collingwood",
-          "away": "Richmond",
-          "date": "2026-06-27",
-          "datetime": "2026-06-27T06:15Z",
-          "home_prob": 84.4,
-          "away_prob": 15.6,
-          "margin": 30.2,
-          "home_fav": true,
-          "locked": false,
-          "venue": "MCG",
-          "game_id": "afl_1133613",
-          "draw_prob": null
-        },
-        {
-          "home": "Port Adelaide",
-          "away": "Adelaide",
-          "date": "2026-06-27",
-          "datetime": "2026-06-27T09:35Z",
-          "home_prob": 36.7,
-          "away_prob": 63.3,
-          "margin": 3.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133616",
-          "draw_prob": null
-        },
-        {
-          "home": "North Melbourne",
-          "away": "Essendon",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T05:15Z",
-          "home_prob": 71.3,
-          "away_prob": 28.7,
-          "margin": 26.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133615",
-          "draw_prob": null
-        },
-        {
-          "home": "Fremantle",
-          "away": "Gold Coast SUNS",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T07:10Z",
-          "home_prob": 89.1,
-          "away_prob": 10.9,
-          "margin": 16.2,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133617",
-          "draw_prob": null
-        }
-      ],
+      "upcoming": [],
       "recent": [
         {
           "home": "Adelaide",
@@ -9615,7 +9418,7 @@
       "ratings": [
         {
           "team": "Carolina Hurricanes",
-          "rating": 1600.6,
+          "rating": 1600.5,
           "rank": 1
         },
         {
