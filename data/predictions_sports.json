@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-16T20:56:42.772772+00:00",
+    "updated": "2026-06-16T22:56:14.305013+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4988,7 +4988,7 @@
           "away_prob": 40.6,
           "margin": 2.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815776",
           "draw_prob": null
@@ -5002,7 +5002,7 @@
           "away_prob": 43.6,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815775",
           "draw_prob": null
@@ -5016,7 +5016,7 @@
           "away_prob": 45.9,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401815779",
           "draw_prob": null
