@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-16T12:34:31.638077+00:00",
+    "updated": "2026-06-16T17:52:39.426531+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6114,6 +6114,20 @@
           "draw_prob": null
         },
         {
+          "home": "Detroit Tigers",
+          "away": "New York Yankees",
+          "date": "2026-06-22",
+          "datetime": "2026-06-22T22:10Z",
+          "home_prob": 46.8,
+          "away_prob": 53.2,
+          "margin": -0.4,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Comerica Park",
+          "game_id": "mlb_401815858",
+          "draw_prob": null
+        },
+        {
           "home": "Tampa Bay Rays",
           "away": "Kansas City Royals",
           "date": "2026-06-22",
@@ -6125,20 +6139,6 @@
           "locked": false,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815856",
-          "draw_prob": null
-        },
-        {
-          "home": "Detroit Tigers",
-          "away": "New York Yankees",
-          "date": "2026-06-22",
-          "datetime": "2026-06-22T22:40Z",
-          "home_prob": 46.8,
-          "away_prob": 53.2,
-          "margin": -0.4,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Comerica Park",
-          "game_id": "mlb_401815858",
           "draw_prob": null
         },
         {
