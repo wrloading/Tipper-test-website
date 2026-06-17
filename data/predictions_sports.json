@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-17T14:06:54.864644+00:00",
+    "updated": "2026-06-17T17:27:10.853515+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4958,7 +4958,7 @@
           "away_prob": 48.1,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815792",
           "draw_prob": null
@@ -4972,7 +4972,7 @@
           "away_prob": 43.1,
           "margin": -0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815790",
           "draw_prob": null
@@ -4986,7 +4986,7 @@
           "away_prob": 39.7,
           "margin": 2.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815791",
           "draw_prob": null
