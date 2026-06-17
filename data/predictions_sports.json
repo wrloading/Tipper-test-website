@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-17T05:27:36.002452+00:00",
+    "updated": "2026-06-17T10:17:24.066025+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4830,7 +4830,7 @@
         },
         {
           "team": "Cleveland Guardians",
-          "rating": 1504.6,
+          "rating": 1504.7,
           "rank": 10
         },
         {
@@ -4935,6 +4935,20 @@
         }
       ],
       "upcoming": [
+        {
+          "home": "Atlanta Braves",
+          "away": "San Francisco Giants",
+          "date": "2026-06-16",
+          "datetime": "2026-06-16T23:15Z",
+          "home_prob": 65.8,
+          "away_prob": 34.2,
+          "margin": 1.0,
+          "home_fav": true,
+          "locked": true,
+          "venue": "Truist Park",
+          "game_id": "mlb_401815778",
+          "draw_prob": null
+        },
         {
           "home": "Cincinnati Reds",
           "away": "New York Mets",
@@ -5990,8 +6004,8 @@
           "away": "Arizona Diamondbacks",
           "date": "2026-06-22",
           "datetime": "2026-06-22T23:45Z",
-          "home_prob": 56.5,
-          "away_prob": 43.5,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": 2.9,
           "home_fav": true,
           "locked": false,
@@ -6186,8 +6200,8 @@
           "away": "Arizona Diamondbacks",
           "date": "2026-06-23",
           "datetime": "2026-06-23T23:45Z",
-          "home_prob": 56.5,
-          "away_prob": 43.5,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": 2.9,
           "home_fav": true,
           "locked": false,
@@ -6424,8 +6438,8 @@
           "away": "Arizona Diamondbacks",
           "date": "2026-06-24",
           "datetime": "2026-06-24T23:45Z",
-          "home_prob": 56.5,
-          "away_prob": 43.5,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": 2.9,
           "home_fav": true,
           "locked": false,
@@ -6578,8 +6592,8 @@
           "away": "Arizona Diamondbacks",
           "date": "2026-06-25",
           "datetime": "2026-06-25T23:45Z",
-          "home_prob": 56.5,
-          "away_prob": 43.5,
+          "home_prob": 56.4,
+          "away_prob": 43.6,
           "margin": 2.9,
           "home_fav": true,
           "locked": false,
@@ -7719,20 +7733,6 @@
           "locked": false,
           "venue": "Truist Park",
           "game_id": "mlb_401815983",
-          "draw_prob": null
-        },
-        {
-          "home": "Kansas City Royals",
-          "away": "Tampa Bay Rays",
-          "date": "2026-07-01",
-          "datetime": "2026-07-01T23:40Z",
-          "home_prob": 47.6,
-          "away_prob": 52.4,
-          "margin": 1.2,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Kauffman Stadium",
-          "game_id": "mlb_401815989",
           "draw_prob": null
         }
       ],
