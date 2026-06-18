@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-18T06:33:12.776136+00:00",
+    "updated": "2026-06-18T11:04:00.331089+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 32.6,
           "margin": 18.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Optus Stadium",
           "game_id": "afl_1133604",
           "draw_prob": null
@@ -655,7 +655,7 @@
         },
         {
           "team": "New York Liberty",
-          "rating": 1683.3,
+          "rating": 1683.2,
           "rank": 2
         },
         {
@@ -4843,7 +4843,7 @@
         },
         {
           "team": "Boston Red Sox",
-          "rating": 1496.3,
+          "rating": 1496.2,
           "rank": 15
         },
         {
@@ -7056,8 +7056,8 @@
           "away": "Detroit Tigers",
           "date": "2026-06-29",
           "datetime": "2026-06-29T23:05Z",
-          "home_prob": 61.4,
-          "away_prob": 38.6,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -7238,8 +7238,8 @@
           "away": "Detroit Tigers",
           "date": "2026-06-30",
           "datetime": "2026-06-30T23:05Z",
-          "home_prob": 61.4,
-          "away_prob": 38.6,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
@@ -7434,8 +7434,8 @@
           "away": "Detroit Tigers",
           "date": "2026-07-01",
           "datetime": "2026-07-01T17:35Z",
-          "home_prob": 61.4,
-          "away_prob": 38.6,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 1.1,
           "home_fav": true,
           "locked": false,
