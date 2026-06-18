@@ -2,12 +2,12 @@
   "sport": "wnba",
   "current_season": 2026,
   "ratings": {
-    "Minnesota Lynx": 1709.06,
-    "New York Liberty": 1680.18,
-    "Las Vegas Aces": 1629.81,
+    "Minnesota Lynx": 1727.01,
+    "New York Liberty": 1683.25,
+    "Las Vegas Aces": 1645.35,
+    "Golden State Valkyries": 1619.97,
     "Indiana Fever": 1606.89,
-    "Dallas Wings": 1597.22,
-    "Golden State Valkyries": 1596.87,
+    "Dallas Wings": 1574.12,
     "Atlanta Dream": 1561.83,
     "Team WNBA": 1523.83,
     "TEAM STEWART": 1506.71,
@@ -15,12 +15,12 @@
     "Team Wilson": 1493.29,
     "Team USA": 1476.17,
     "Toronto Tempo": 1451.84,
-    "Los Angeles Sparks": 1450.95,
+    "Los Angeles Sparks": 1433.0,
     "Washington Mystics": 1430.22,
-    "Portland Fire": 1410.47,
-    "Phoenix Mercury": 1377.04,
-    "Chicago Sky": 1342.33,
-    "Seattle Storm": 1335.58,
-    "Connecticut Sun": 1325.3
+    "Portland Fire": 1422.97,
+    "Phoenix Mercury": 1361.5,
+    "Chicago Sky": 1339.26,
+    "Connecticut Sun": 1325.3,
+    "Seattle Storm": 1323.08
   }
 }
