@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-19T22:41:38.855669+00:00",
+    "updated": "2026-06-19T23:51:26.669015+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -710,7 +710,7 @@
           "away_prob": 56.7,
           "margin": -1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Mohegan Sun Arena",
           "game_id": "wnba_401857003",
           "draw_prob": null
@@ -724,7 +724,7 @@
           "away_prob": 12.8,
           "margin": 9.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Barclays Center",
           "game_id": "wnba_401857004",
           "draw_prob": null
@@ -4914,20 +4914,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chicago Cubs",
-          "away": "Toronto Blue Jays",
-          "date": "2026-06-19",
-          "datetime": "2026-06-19T18:20Z",
-          "home_prob": 55.4,
-          "away_prob": 44.6,
-          "margin": -1.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Wrigley Field",
-          "game_id": "mlb_401815820",
-          "draw_prob": null
-        },
-        {
           "home": "Detroit Tigers",
           "away": "Chicago White Sox",
           "date": "2026-06-19",
@@ -4950,7 +4936,7 @@
           "away_prob": 35.9,
           "margin": 2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815813",
           "draw_prob": null
@@ -4964,7 +4950,7 @@
           "away_prob": 45.9,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815815",
           "draw_prob": null
@@ -4978,7 +4964,7 @@
           "away_prob": 43.8,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815816",
           "draw_prob": null
@@ -4992,7 +4978,7 @@
           "away_prob": 45.8,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815814",
           "draw_prob": null
@@ -5144,7 +5130,7 @@
           "datetime": "2026-06-20T18:20Z",
           "home_prob": 55.4,
           "away_prob": 44.6,
-          "margin": -1.3,
+          "margin": -0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -5410,7 +5396,7 @@
           "datetime": "2026-06-21T18:20Z",
           "home_prob": 55.4,
           "away_prob": 44.6,
-          "margin": -1.3,
+          "margin": -0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -6978,7 +6964,7 @@
           "datetime": "2026-06-30T00:05Z",
           "home_prob": 55.4,
           "away_prob": 44.6,
-          "margin": -1.1,
+          "margin": -0.5,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -7188,7 +7174,7 @@
           "datetime": "2026-07-01T00:05Z",
           "home_prob": 55.4,
           "away_prob": 44.6,
-          "margin": -1.1,
+          "margin": -0.5,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -7328,7 +7314,7 @@
           "datetime": "2026-07-01T18:20Z",
           "home_prob": 55.4,
           "away_prob": 44.6,
-          "margin": -1.1,
+          "margin": -0.5,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -7594,7 +7580,7 @@
           "datetime": "2026-07-03T20:05Z",
           "home_prob": 54.9,
           "away_prob": 45.1,
-          "margin": -0.5,
+          "margin": 0.1,
           "home_fav": true,
           "locked": false,
           "venue": "Wrigley Field",
@@ -9513,6 +9499,16 @@
           "winner": "Athletics",
           "home_score": 5,
           "away_score": 0,
+          "draw_prob": null
+        },
+        {
+          "home": "Chicago Cubs",
+          "away": "Toronto Blue Jays",
+          "date": "2026-06-19",
+          "home_prob": 55.4,
+          "winner": "Chicago Cubs",
+          "home_score": 16,
+          "away_score": 2,
           "draw_prob": null
         }
       ]
