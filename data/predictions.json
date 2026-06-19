@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-19T23:45:42.172363+10:00",
+    "updated": "2026-06-20T02:25:54.761315+10:00",
     "year": 2026,
     "current_round": 15,
     "model": "TELO v2.0",
@@ -112792,7 +112792,7 @@
       "points_for": 1411,
       "points_against": 977,
       "finals_pct": 100.0,
-      "premiers_pct": 38.2
+      "premiers_pct": 37.7
     },
     {
       "team": "Sydney",
@@ -112805,7 +112805,7 @@
       "points_for": 1578,
       "points_against": 1098,
       "finals_pct": 100.0,
-      "premiers_pct": 22.5
+      "premiers_pct": 22.8
     },
     {
       "team": "Hawthorn",
@@ -112830,8 +112830,8 @@
       "percentage": 120.6,
       "points_for": 1490,
       "points_against": 1236,
-      "finals_pct": 97.9,
-      "premiers_pct": 8.3
+      "finals_pct": 97.8,
+      "premiers_pct": 8.4
     },
     {
       "team": "Adelaide",
@@ -112844,7 +112844,7 @@
       "points_for": 1178,
       "points_against": 1048,
       "finals_pct": 97.9,
-      "premiers_pct": 7.5
+      "premiers_pct": 7.6
     },
     {
       "team": "Brisbane Lions",
@@ -112857,7 +112857,7 @@
       "points_for": 1425,
       "points_against": 1314,
       "finals_pct": 93.3,
-      "premiers_pct": 4.7
+      "premiers_pct": 4.8
     },
     {
       "team": "Western Bulldogs",
@@ -112869,8 +112869,8 @@
       "percentage": 90.7,
       "points_for": 1187,
       "points_against": 1308,
-      "finals_pct": 86.1,
-      "premiers_pct": 2.6
+      "finals_pct": 85.7,
+      "premiers_pct": 2.5
     },
     {
       "team": "Greater Western Sydney",
@@ -112882,7 +112882,7 @@
       "percentage": 102.3,
       "points_for": 1215,
       "points_against": 1188,
-      "finals_pct": 22.4,
+      "finals_pct": 23.0,
       "premiers_pct": 0.3
     },
     {
@@ -112895,7 +112895,7 @@
       "percentage": 105.7,
       "points_for": 1368,
       "points_against": 1294,
-      "finals_pct": 74.9,
+      "finals_pct": 75.0,
       "premiers_pct": 1.0
     },
     {
@@ -112908,7 +112908,7 @@
       "percentage": 99.2,
       "points_for": 1069,
       "points_against": 1078,
-      "finals_pct": 6.9,
+      "finals_pct": 6.7,
       "premiers_pct": 0.1
     },
     {
@@ -112921,7 +112921,7 @@
       "percentage": 105.3,
       "points_for": 1330,
       "points_against": 1263,
-      "finals_pct": 8.9,
+      "finals_pct": 8.6,
       "premiers_pct": 0.1
     },
     {
@@ -112934,7 +112934,7 @@
       "percentage": 102.4,
       "points_for": 1273,
       "points_against": 1243,
-      "finals_pct": 8.0,
+      "finals_pct": 8.2,
       "premiers_pct": 0.0
     },
     {
@@ -112947,7 +112947,7 @@
       "percentage": 88.7,
       "points_for": 1049,
       "points_against": 1183,
-      "finals_pct": 1.3,
+      "finals_pct": 1.5,
       "premiers_pct": 0.0
     },
     {
@@ -112960,7 +112960,7 @@
       "percentage": 88.5,
       "points_for": 1142,
       "points_against": 1291,
-      "finals_pct": 2.7,
+      "finals_pct": 2.6,
       "premiers_pct": 0.0
     },
     {
