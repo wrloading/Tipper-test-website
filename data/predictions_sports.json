@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-20T10:36:23.596948+00:00",
+    "updated": "2026-06-20T12:21:10.033100+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "GWS GIANTS",
-          "away": "Carlton",
-          "date": "2026-06-20",
-          "datetime": "2026-06-20T06:15Z",
-          "home_prob": 61.0,
-          "away_prob": 39.0,
-          "margin": 20.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "ENGIE Stadium",
-          "game_id": "afl_1133607",
-          "draw_prob": null
-        },
         {
           "home": "Collingwood",
           "away": "Port Adelaide",
