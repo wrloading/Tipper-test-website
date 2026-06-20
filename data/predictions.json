@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-21T02:09:32.280211+10:00",
+    "updated": "2026-06-21T03:50:22.028975+10:00",
     "year": 2026,
     "current_round": 15,
     "model": "TELO v2.0",
@@ -110731,7 +110731,7 @@
       "points_for": 1411,
       "points_against": 977,
       "finals_pct": 100.0,
-      "premiers_pct": 37.7
+      "premiers_pct": 37.6
     },
     {
       "team": "Sydney",
@@ -110744,7 +110744,7 @@
       "points_for": 1578,
       "points_against": 1098,
       "finals_pct": 100.0,
-      "premiers_pct": 22.1
+      "premiers_pct": 22.2
     },
     {
       "team": "Hawthorn",
@@ -110770,7 +110770,7 @@
       "points_for": 1257,
       "points_against": 1110,
       "finals_pct": 99.4,
-      "premiers_pct": 10.6
+      "premiers_pct": 10.5
     },
     {
       "team": "Geelong",
@@ -110795,7 +110795,7 @@
       "percentage": 108.4,
       "points_for": 1425,
       "points_against": 1314,
-      "finals_pct": 93.8,
+      "finals_pct": 93.9,
       "premiers_pct": 4.7
     },
     {
@@ -110834,8 +110834,8 @@
       "percentage": 104.2,
       "points_for": 1430,
       "points_against": 1373,
-      "finals_pct": 70.4,
-      "premiers_pct": 0.7
+      "finals_pct": 70.5,
+      "premiers_pct": 0.6
     },
     {
       "team": "Gold Coast",
@@ -110847,7 +110847,7 @@
       "percentage": 105.3,
       "points_for": 1330,
       "points_against": 1263,
-      "finals_pct": 10.7,
+      "finals_pct": 10.5,
       "premiers_pct": 0.1
     },
     {
@@ -110860,7 +110860,7 @@
       "percentage": 100.3,
       "points_for": 1280,
       "points_against": 1276,
-      "finals_pct": 4.2,
+      "finals_pct": 4.4,
       "premiers_pct": 0.0
     },
     {
@@ -110873,7 +110873,7 @@
       "percentage": 91.1,
       "points_for": 1137,
       "points_against": 1248,
-      "finals_pct": 5.8,
+      "finals_pct": 5.7,
       "premiers_pct": 0.0
     },
     {
@@ -110899,7 +110899,7 @@
       "percentage": 88.5,
       "points_for": 1142,
       "points_against": 1291,
-      "finals_pct": 3.2,
+      "finals_pct": 3.1,
       "premiers_pct": 0.0
     },
     {
