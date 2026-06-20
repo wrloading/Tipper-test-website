@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-20T22:20:42.793393+10:00",
+    "updated": "2026-06-21T00:42:58.184739+10:00",
     "year": 2026,
     "current_round": 15,
     "model": "TELO v2.0",
@@ -110731,7 +110731,7 @@
       "points_for": 1411,
       "points_against": 977,
       "finals_pct": 100.0,
-      "premiers_pct": 37.1
+      "premiers_pct": 37.2
     },
     {
       "team": "Sydney",
@@ -110744,7 +110744,7 @@
       "points_for": 1578,
       "points_against": 1098,
       "finals_pct": 100.0,
-      "premiers_pct": 22.5
+      "premiers_pct": 22.6
     },
     {
       "team": "Hawthorn",
@@ -110757,7 +110757,7 @@
       "points_for": 1361,
       "points_against": 1199,
       "finals_pct": 99.8,
-      "premiers_pct": 14.8
+      "premiers_pct": 14.4
     },
     {
       "team": "Adelaide",
@@ -110783,7 +110783,7 @@
       "points_for": 1490,
       "points_against": 1236,
       "finals_pct": 98.3,
-      "premiers_pct": 7.1
+      "premiers_pct": 7.3
     },
     {
       "team": "Brisbane Lions",
@@ -110795,8 +110795,8 @@
       "percentage": 108.4,
       "points_for": 1425,
       "points_against": 1314,
-      "finals_pct": 93.7,
-      "premiers_pct": 4.6
+      "finals_pct": 94.0,
+      "premiers_pct": 4.4
     },
     {
       "team": "Western Bulldogs",
@@ -110808,7 +110808,7 @@
       "percentage": 90.7,
       "points_for": 1187,
       "points_against": 1308,
-      "finals_pct": 87.4,
+      "finals_pct": 87.5,
       "premiers_pct": 2.4
     },
     {
@@ -110821,7 +110821,7 @@
       "percentage": 101.6,
       "points_for": 1147,
       "points_against": 1129,
-      "finals_pct": 18.2,
+      "finals_pct": 18.1,
       "premiers_pct": 0.2
     },
     {
@@ -110834,7 +110834,7 @@
       "percentage": 104.2,
       "points_for": 1430,
       "points_against": 1373,
-      "finals_pct": 70.6,
+      "finals_pct": 70.0,
       "premiers_pct": 0.7
     },
     {
@@ -110847,7 +110847,7 @@
       "percentage": 105.3,
       "points_for": 1330,
       "points_against": 1263,
-      "finals_pct": 10.8,
+      "finals_pct": 10.6,
       "premiers_pct": 0.1
     },
     {
@@ -110873,7 +110873,7 @@
       "percentage": 91.1,
       "points_for": 1137,
       "points_against": 1248,
-      "finals_pct": 5.7,
+      "finals_pct": 5.8,
       "premiers_pct": 0.0
     },
     {
@@ -110886,8 +110886,8 @@
       "percentage": 102.4,
       "points_for": 1273,
       "points_against": 1243,
-      "finals_pct": 8.7,
-      "premiers_pct": 0.0
+      "finals_pct": 9.0,
+      "premiers_pct": 0.1
     },
     {
       "team": "North Melbourne",
@@ -110899,7 +110899,7 @@
       "percentage": 88.5,
       "points_for": 1142,
       "points_against": 1291,
-      "finals_pct": 3.0,
+      "finals_pct": 3.1,
       "premiers_pct": 0.0
     },
     {
