@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-21T17:07:56.571126+00:00",
+    "updated": "2026-06-21T18:55:04.343100+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4874,7 +4874,7 @@
           "away_prob": 36.8,
           "margin": 1.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401815840",
           "draw_prob": null
@@ -4888,7 +4888,7 @@
           "away_prob": 45.0,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815841",
           "draw_prob": null
@@ -4902,7 +4902,7 @@
           "away_prob": 46.4,
           "margin": 5.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815839",
           "draw_prob": null
@@ -4916,7 +4916,7 @@
           "away_prob": 44.8,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815843",
           "draw_prob": null
@@ -4930,7 +4930,7 @@
           "away_prob": 43.6,
           "margin": -0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815844",
           "draw_prob": null
@@ -4944,7 +4944,7 @@
           "away_prob": 48.5,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401815845",
           "draw_prob": null
@@ -4958,7 +4958,7 @@
           "away_prob": 49.6,
           "margin": 1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815847",
           "draw_prob": null
@@ -4972,7 +4972,7 @@
           "away_prob": 45.3,
           "margin": -0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401815848",
           "draw_prob": null
@@ -4986,7 +4986,7 @@
           "away_prob": 48.3,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Globe Life Field",
           "game_id": "mlb_401815846",
           "draw_prob": null
