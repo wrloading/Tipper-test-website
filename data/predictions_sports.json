@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-21T07:11:47.997728+00:00",
+    "updated": "2026-06-21T10:49:06.233111+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "St Kilda",
-          "away": "Western Bulldogs",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T05:15Z",
-          "home_prob": 65.2,
-          "away_prob": 34.8,
-          "margin": 12.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133610",
-          "draw_prob": null
-        },
         {
           "home": "Brisbane Lions",
           "away": "Sydney",
@@ -277,7 +263,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -432,16 +418,6 @@
           "draw_prob": null
         },
         {
-          "home": "Collingwood",
-          "away": "Port Adelaide",
-          "date": "2026-06-20",
-          "home_prob": 71.2,
-          "winner": "Collingwood",
-          "home_score": 78,
-          "away_score": 52,
-          "draw_prob": null
-        },
-        {
           "home": "Adelaide",
           "away": "Melbourne",
           "date": "2026-06-20",
@@ -459,6 +435,16 @@
           "winner": "Carlton",
           "home_score": 65,
           "away_score": 88,
+          "draw_prob": null
+        },
+        {
+          "home": "Collingwood",
+          "away": "Port Adelaide",
+          "date": "2026-06-20",
+          "home_prob": 71.2,
+          "winner": "Collingwood",
+          "home_score": 78,
+          "away_score": 52,
           "draw_prob": null
         }
       ]
@@ -1611,13 +1597,13 @@
           "rank": 1
         },
         {
-          "team": "Mavericks",
-          "rating": 1611.7,
+          "team": "Fever",
+          "rating": 1629.4,
           "rank": 2
         },
         {
-          "team": "Fever",
-          "rating": 1607.4,
+          "team": "Mavericks",
+          "rating": 1589.7,
           "rank": 3
         },
         {
@@ -1627,7 +1613,7 @@
         },
         {
           "team": "Vixens",
-          "rating": 1514.9,
+          "rating": 1515.0,
           "rank": 5
         },
         {
@@ -1658,41 +1644,27 @@
       ],
       "upcoming": [
         {
-          "home": "Fever",
-          "away": "Mavericks",
-          "date": "2026-06-21T06:00:00Z",
-          "datetime": "2026-06-21T06:00:00Z",
-          "home_prob": 57.2,
-          "away_prob": 42.8,
-          "margin": -2.0,
-          "home_fav": true,
-          "locked": false,
-          "venue": "RAC Arena",
-          "game_id": "supernetball_129500102",
-          "draw_prob": null
-        },
-        {
-          "home": "TBA",
-          "away": "TBA",
+          "home": "Vixens",
+          "away": "Fever",
           "date": "2026-06-27T09:30:00Z",
           "datetime": "2026-06-27T09:30:00Z",
-          "home_prob": 57.8,
-          "away_prob": 42.2,
-          "margin": 7.9,
-          "home_fav": true,
+          "home_prob": 41.5,
+          "away_prob": 58.5,
+          "margin": -5.4,
+          "home_fav": false,
           "locked": false,
-          "venue": "To Be Confirmed",
+          "venue": "John Cain Arena",
           "game_id": "supernetball_129500201",
           "draw_prob": null
         },
         {
-          "home": "TBA",
+          "home": "Thunderbirds",
           "away": "TBA",
           "date": "2026-07-04T09:30:00Z",
           "datetime": "2026-07-04T09:30:00Z",
-          "home_prob": 57.8,
-          "away_prob": 42.2,
-          "margin": 7.9,
+          "home_prob": 86.8,
+          "away_prob": 13.2,
+          "margin": 3.8,
           "home_fav": true,
           "locked": false,
           "venue": "John Cain Arena",
@@ -1705,7 +1677,7 @@
           "home": "Vixens",
           "away": "Mavericks",
           "date": "2026-06-07",
-          "home_prob": 44.0,
+          "home_prob": 47.2,
           "winner": "Mavericks",
           "home_score": 50,
           "away_score": 59,
@@ -1715,7 +1687,7 @@
           "home": "GIANTS",
           "away": "Fever",
           "date": "2026-06-07",
-          "home_prob": 11.4,
+          "home_prob": 10.2,
           "winner": "Fever",
           "home_score": 60,
           "away_score": 61,
@@ -1735,7 +1707,7 @@
           "home": "Mavericks",
           "away": "Firebirds",
           "date": "2026-06-13",
-          "home_prob": 84.1,
+          "home_prob": 82.3,
           "winner": "Mavericks",
           "home_score": 60,
           "away_score": 57,
@@ -1745,7 +1717,7 @@
           "home": "Vixens",
           "away": "Fever",
           "date": "2026-06-14",
-          "home_prob": 44.6,
+          "home_prob": 41.5,
           "winner": "Fever",
           "home_score": 55,
           "away_score": 64,
@@ -1769,6 +1741,16 @@
           "winner": "Thunderbirds",
           "home_score": 58,
           "away_score": 44,
+          "draw_prob": null
+        },
+        {
+          "home": "Fever",
+          "away": "Mavericks",
+          "date": "2026-06-21",
+          "home_prob": 63.3,
+          "winner": "Fever",
+          "home_score": 56,
+          "away_score": 52,
           "draw_prob": null
         }
       ]
