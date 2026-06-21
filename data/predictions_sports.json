@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-21T18:55:04.343100+00:00",
+    "updated": "2026-06-21T20:28:05.942792+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -263,7 +263,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -714,7 +714,7 @@
           "away_prob": 32.5,
           "margin": -5.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Michelob ULTRA Arena",
           "game_id": "wnba_401857009",
           "draw_prob": null
@@ -4880,76 +4880,6 @@
           "draw_prob": null
         },
         {
-          "home": "Atlanta Braves",
-          "away": "Milwaukee Brewers",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T17:35Z",
-          "home_prob": 55.0,
-          "away_prob": 45.0,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Truist Park",
-          "game_id": "mlb_401815841",
-          "draw_prob": null
-        },
-        {
-          "home": "Detroit Tigers",
-          "away": "Chicago White Sox",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T17:40Z",
-          "home_prob": 53.6,
-          "away_prob": 46.4,
-          "margin": 5.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Comerica Park",
-          "game_id": "mlb_401815839",
-          "draw_prob": null
-        },
-        {
-          "home": "Miami Marlins",
-          "away": "San Francisco Giants",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T17:40Z",
-          "home_prob": 55.2,
-          "away_prob": 44.8,
-          "margin": 0.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "loanDepot park",
-          "game_id": "mlb_401815843",
-          "draw_prob": null
-        },
-        {
-          "home": "Tampa Bay Rays",
-          "away": "Washington Nationals",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T17:40Z",
-          "home_prob": 56.4,
-          "away_prob": 43.6,
-          "margin": -0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Tropicana Field",
-          "game_id": "mlb_401815844",
-          "draw_prob": null
-        },
-        {
-          "home": "Houston Astros",
-          "away": "Cleveland Guardians",
-          "date": "2026-06-21",
-          "datetime": "2026-06-21T18:10Z",
-          "home_prob": 51.5,
-          "away_prob": 48.5,
-          "margin": -0.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Daikin Park",
-          "game_id": "mlb_401815845",
-          "draw_prob": null
-        },
-        {
           "home": "Kansas City Royals",
           "away": "St. Louis Cardinals",
           "date": "2026-06-21",
@@ -5000,7 +4930,7 @@
           "away_prob": 49.9,
           "margin": -1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Coors Field",
           "game_id": "mlb_401815849",
           "draw_prob": null
@@ -5014,7 +4944,7 @@
           "away_prob": 46.1,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Chase Field",
           "game_id": "mlb_401815853",
           "draw_prob": null
@@ -5028,7 +4958,7 @@
           "away_prob": 44.1,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Sutter Health Park",
           "game_id": "mlb_401815850",
           "draw_prob": null
@@ -5042,7 +4972,7 @@
           "away_prob": 37.3,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Dodger Stadium",
           "game_id": "mlb_401815851",
           "draw_prob": null
@@ -5056,7 +4986,7 @@
           "away_prob": 45.2,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "T-Mobile Park",
           "game_id": "mlb_401815852",
           "draw_prob": null
