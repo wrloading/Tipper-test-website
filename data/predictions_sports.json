@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-22T21:15:55.024476+00:00",
+    "updated": "2026-06-22T22:59:06.384213+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4892,7 +4892,7 @@
           "away_prob": 52.5,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815858",
           "draw_prob": null
@@ -4906,7 +4906,7 @@
           "away_prob": 41.7,
           "margin": 2.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815856",
           "draw_prob": null
@@ -4920,7 +4920,7 @@
           "away_prob": 47.1,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815860",
           "draw_prob": null
@@ -4934,7 +4934,7 @@
           "away_prob": 51.2,
           "margin": -3.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815859",
           "draw_prob": null
