@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-23T22:21:19.912858+00:00",
+    "updated": "2026-06-23T23:37:56.151968+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -263,7 +263,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -4868,7 +4868,7 @@
           "away_prob": 42.1,
           "margin": 2.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815869",
           "draw_prob": null
@@ -4882,7 +4882,7 @@
           "away_prob": 51.8,
           "margin": -0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815871",
           "draw_prob": null
@@ -4896,7 +4896,7 @@
           "away_prob": 51.2,
           "margin": -0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815873",
           "draw_prob": null
@@ -4910,7 +4910,7 @@
           "away_prob": 47.6,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815874",
           "draw_prob": null
@@ -4924,7 +4924,7 @@
           "away_prob": 50.4,
           "margin": -3.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401815872",
           "draw_prob": null
@@ -4938,7 +4938,7 @@
           "away_prob": 50.6,
           "margin": 0.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401815867",
           "draw_prob": null
@@ -4952,7 +4952,7 @@
           "away_prob": 57.0,
           "margin": -1.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401815870",
           "draw_prob": null
