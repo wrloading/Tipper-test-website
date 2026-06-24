@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-24T15:11:13.512635+00:00",
+    "updated": "2026-06-24T17:21:48.828762+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4862,7 +4862,7 @@
           "away_prob": 47.0,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401815889",
           "draw_prob": null
@@ -4876,7 +4876,7 @@
           "away_prob": 51.4,
           "margin": 0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401879401",
           "draw_prob": null
