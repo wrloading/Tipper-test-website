@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-24T19:14:15.217430+00:00",
+    "updated": "2026-06-24T21:00:02.985207+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -263,7 +263,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -4854,20 +4854,6 @@
       ],
       "upcoming": [
         {
-          "home": "New York Mets",
-          "away": "Chicago Cubs",
-          "date": "2026-06-24",
-          "datetime": "2026-06-24T17:10Z",
-          "home_prob": 48.6,
-          "away_prob": 51.4,
-          "margin": 0.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Citi Field",
-          "game_id": "mlb_401879401",
-          "draw_prob": null
-        },
-        {
           "home": "Chicago White Sox",
           "away": "Cleveland Guardians",
           "date": "2026-06-24",
@@ -4904,7 +4890,7 @@
           "away_prob": 52.2,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Angel Stadium",
           "game_id": "mlb_401815896",
           "draw_prob": null
@@ -6664,8 +6650,8 @@
           "away": "Miami Marlins",
           "date": "2026-07-04",
           "datetime": "2026-07-04T01:40Z",
-          "home_prob": 51.9,
-          "away_prob": 48.1,
+          "home_prob": 52.0,
+          "away_prob": 48.0,
           "margin": 3.3,
           "home_fav": true,
           "locked": false,
@@ -6888,8 +6874,8 @@
           "away": "Miami Marlins",
           "date": "2026-07-05",
           "datetime": "2026-07-05T01:40Z",
-          "home_prob": 51.9,
-          "away_prob": 48.1,
+          "home_prob": 52.0,
+          "away_prob": 48.0,
           "margin": 3.3,
           "home_fav": true,
           "locked": false,
@@ -7084,8 +7070,8 @@
           "away": "Miami Marlins",
           "date": "2026-07-05",
           "datetime": "2026-07-05T20:30Z",
-          "home_prob": 51.9,
-          "away_prob": 48.1,
+          "home_prob": 52.0,
+          "away_prob": 48.0,
           "margin": 3.3,
           "home_fav": true,
           "locked": false,
