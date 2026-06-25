@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-26T05:26:54.554527+10:00",
+    "updated": "2026-06-26T07:13:58.621062+10:00",
     "year": 2026,
     "current_round": 16,
     "model": "TELO v2.0",
@@ -112470,7 +112470,7 @@
       "points_for": 1661,
       "points_against": 1224,
       "finals_pct": 100.0,
-      "premiers_pct": 18.6
+      "premiers_pct": 19.0
     },
     {
       "team": "Hawthorn",
@@ -112482,8 +112482,8 @@
       "percentage": 113.5,
       "points_for": 1361,
       "points_against": 1199,
-      "finals_pct": 99.8,
-      "premiers_pct": 14.9
+      "finals_pct": 99.7,
+      "premiers_pct": 14.6
     },
     {
       "team": "Brisbane Lions",
@@ -112495,8 +112495,8 @@
       "percentage": 111.0,
       "points_for": 1551,
       "points_against": 1397,
-      "finals_pct": 98.1,
-      "premiers_pct": 8.3
+      "finals_pct": 98.2,
+      "premiers_pct": 8.1
     },
     {
       "team": "Adelaide",
@@ -112509,7 +112509,7 @@
       "points_for": 1257,
       "points_against": 1110,
       "finals_pct": 99.4,
-      "premiers_pct": 9.6
+      "premiers_pct": 9.5
     },
     {
       "team": "Geelong",
@@ -112521,7 +112521,7 @@
       "percentage": 120.6,
       "points_for": 1490,
       "points_against": 1236,
-      "finals_pct": 97.9,
+      "finals_pct": 98.0,
       "premiers_pct": 6.5
     },
     {
@@ -112534,8 +112534,8 @@
       "percentage": 92.8,
       "points_for": 1270,
       "points_against": 1369,
-      "finals_pct": 95.4,
-      "premiers_pct": 3.6
+      "finals_pct": 95.2,
+      "premiers_pct": 3.7
     },
     {
       "team": "Collingwood",
@@ -112547,8 +112547,8 @@
       "percentage": 101.6,
       "points_for": 1147,
       "points_against": 1129,
-      "finals_pct": 16.5,
-      "premiers_pct": 0.1
+      "finals_pct": 16.4,
+      "premiers_pct": 0.2
     },
     {
       "team": "Melbourne",
@@ -112560,7 +112560,7 @@
       "percentage": 104.2,
       "points_for": 1430,
       "points_against": 1373,
-      "finals_pct": 68.7,
+      "finals_pct": 68.6,
       "premiers_pct": 0.6
     },
     {

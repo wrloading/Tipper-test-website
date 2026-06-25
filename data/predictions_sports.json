@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-25T19:27:22.633074+00:00",
+    "updated": "2026-06-25T21:14:32.253455+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -249,7 +249,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -4715,12 +4715,12 @@
         },
         {
           "team": "Tampa Bay Rays",
-          "rating": 1514.4,
+          "rating": 1514.5,
           "rank": 7
         },
         {
           "team": "Seattle Mariners",
-          "rating": 1506.9,
+          "rating": 1507.0,
           "rank": 8
         },
         {
@@ -4844,7 +4844,7 @@
           "away_prob": 46.9,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oracle Park",
           "game_id": "mlb_401815905",
           "draw_prob": null
