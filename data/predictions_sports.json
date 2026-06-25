@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-25T12:10:39.248355+00:00",
+    "updated": "2026-06-25T15:17:29.083798+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Brisbane Lions",
-          "away": "Sydney",
-          "date": "2026-06-25",
-          "datetime": "2026-06-25T09:30Z",
-          "home_prob": 45.7,
-          "away_prob": 54.3,
-          "margin": -20.7,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Gabba",
-          "game_id": "afl_1133611",
-          "draw_prob": null
-        },
         {
           "home": "Hawthorn",
           "away": "GWS GIANTS",
@@ -263,7 +249,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
