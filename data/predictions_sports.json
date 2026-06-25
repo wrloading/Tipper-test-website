@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-25T15:17:29.083798+00:00",
+    "updated": "2026-06-25T17:28:01.034453+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4844,7 +4844,7 @@
           "away_prob": 42.9,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401815899",
           "draw_prob": null
@@ -4858,7 +4858,7 @@
           "away_prob": 50.2,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815902",
           "draw_prob": null
