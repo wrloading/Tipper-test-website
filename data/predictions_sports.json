@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-26T21:22:47.170930+00:00",
+    "updated": "2026-06-26T22:47:59.080423+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -235,7 +235,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -4834,7 +4834,7 @@
           "away_prob": 44.2,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815907",
           "draw_prob": null
@@ -4848,7 +4848,7 @@
           "away_prob": 46.9,
           "margin": 2.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401815908",
           "draw_prob": null
