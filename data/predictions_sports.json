@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-26T11:25:59.308694+00:00",
+    "updated": "2026-06-26T13:32:11.819561+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Hawthorn",
-          "away": "GWS GIANTS",
-          "date": "2026-06-26",
-          "datetime": "2026-06-26T09:40Z",
-          "home_prob": 79.2,
-          "away_prob": 20.8,
-          "margin": 6.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133614",
-          "draw_prob": null
-        },
         {
           "home": "Carlton",
           "away": "West Coast",
@@ -249,7 +235,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -1549,6 +1535,36 @@
           "winner": "Golden State Valkyries",
           "home_score": 77,
           "away_score": 66,
+          "draw_prob": null
+        },
+        {
+          "home": "Toronto Tempo",
+          "away": "Los Angeles Sparks",
+          "date": "2026-06-25",
+          "home_prob": 69.9,
+          "winner": "Toronto Tempo",
+          "home_score": 125,
+          "away_score": 97,
+          "draw_prob": null
+        },
+        {
+          "home": "Las Vegas Aces",
+          "away": "Dallas Wings",
+          "date": "2026-06-26",
+          "home_prob": 72.7,
+          "winner": "Las Vegas Aces",
+          "home_score": 99,
+          "away_score": 84,
+          "draw_prob": null
+        },
+        {
+          "home": "Seattle Storm",
+          "away": "New York Liberty",
+          "date": "2026-06-26",
+          "home_prob": 23.3,
+          "winner": "Seattle Storm",
+          "home_score": 99,
+          "away_score": 88,
           "draw_prob": null
         }
       ]
