@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-28T01:56:40.218936+10:00",
+    "updated": "2026-06-28T03:14:26.028785+10:00",
     "year": 2026,
     "current_round": 16,
     "model": "TELO v2.0",
@@ -109609,7 +109609,7 @@
       "points_for": 1411,
       "points_against": 977,
       "finals_pct": 100.0,
-      "premiers_pct": 37.9
+      "premiers_pct": 37.8
     },
     {
       "team": "Hawthorn",
@@ -109635,7 +109635,7 @@
       "points_for": 1661,
       "points_against": 1224,
       "finals_pct": 100.0,
-      "premiers_pct": 18.4
+      "premiers_pct": 18.5
     },
     {
       "team": "Brisbane Lions",
@@ -109647,7 +109647,7 @@
       "percentage": 111.0,
       "points_for": 1551,
       "points_against": 1397,
-      "finals_pct": 98.0,
+      "finals_pct": 97.9,
       "premiers_pct": 8.9
     },
     {
@@ -109660,7 +109660,7 @@
       "percentage": 120.6,
       "points_for": 1490,
       "points_against": 1236,
-      "finals_pct": 98.2,
+      "finals_pct": 98.1,
       "premiers_pct": 7.7
     },
     {
@@ -109674,7 +109674,7 @@
       "points_for": 1270,
       "points_against": 1369,
       "finals_pct": 95.5,
-      "premiers_pct": 4.1
+      "premiers_pct": 4.0
     },
     {
       "team": "Adelaide",
@@ -109686,8 +109686,8 @@
       "percentage": 110.0,
       "points_for": 1328,
       "points_against": 1207,
-      "finals_pct": 97.0,
-      "premiers_pct": 4.3
+      "finals_pct": 96.9,
+      "premiers_pct": 4.4
     },
     {
       "team": "Collingwood",
@@ -109699,7 +109699,7 @@
       "percentage": 104.3,
       "points_for": 1253,
       "points_against": 1201,
-      "finals_pct": 20.8,
+      "finals_pct": 20.5,
       "premiers_pct": 0.3
     },
     {
@@ -109725,7 +109725,7 @@
       "percentage": 105.3,
       "points_for": 1330,
       "points_against": 1263,
-      "finals_pct": 9.3,
+      "finals_pct": 9.4,
       "premiers_pct": 0.1
     },
     {
@@ -109738,8 +109738,8 @@
       "percentage": 95.6,
       "points_for": 1254,
       "points_against": 1312,
-      "finals_pct": 6.1,
-      "premiers_pct": 0.0
+      "finals_pct": 6.3,
+      "premiers_pct": 0.1
     },
     {
       "team": "Greater Western Sydney",
@@ -109751,7 +109751,7 @@
       "percentage": 99.3,
       "points_for": 1362,
       "points_against": 1372,
-      "finals_pct": 1.7,
+      "finals_pct": 1.8,
       "premiers_pct": 0.0
     },
     {
@@ -109777,7 +109777,7 @@
       "percentage": 90.7,
       "points_for": 1215,
       "points_against": 1339,
-      "finals_pct": 5.0,
+      "finals_pct": 5.2,
       "premiers_pct": 0.0
     },
     {
