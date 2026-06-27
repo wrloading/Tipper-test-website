@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-27T14:53:17.644230+00:00",
+    "updated": "2026-06-27T15:57:16.665222+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -193,7 +193,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -284,16 +284,6 @@
       ],
       "recent": [
         {
-          "home": "North Melbourne",
-          "away": "West Coast",
-          "date": "2026-06-13",
-          "home_prob": 69.8,
-          "winner": "North Melbourne",
-          "home_score": 74,
-          "away_score": 73,
-          "draw_prob": null
-        },
-        {
           "home": "Melbourne",
           "away": "Essendon",
           "date": "2026-06-13",
@@ -301,6 +291,16 @@
           "winner": "Melbourne",
           "home_score": 95,
           "away_score": 50,
+          "draw_prob": null
+        },
+        {
+          "home": "North Melbourne",
+          "away": "West Coast",
+          "date": "2026-06-13",
+          "home_prob": 69.8,
+          "winner": "North Melbourne",
+          "home_score": 74,
+          "away_score": 73,
           "draw_prob": null
         },
         {
