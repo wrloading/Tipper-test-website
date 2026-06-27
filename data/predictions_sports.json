@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-27T11:38:16.214524+00:00",
+    "updated": "2026-06-27T12:58:42.246266+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -98,18 +98,205 @@
           "rank": 18
         }
       ],
-      "upcoming": [],
-      "recent": [
+      "upcoming": [
         {
-          "home": "Melbourne",
-          "away": "Essendon",
-          "date": "2026-06-13",
-          "home_prob": 87.8,
-          "winner": "Melbourne",
-          "home_score": 95,
-          "away_score": 50,
+          "home": "Port Adelaide",
+          "away": "Adelaide",
+          "date": "2026-06-27",
+          "datetime": "2026-06-27T09:35Z",
+          "home_prob": 28.6,
+          "away_prob": 71.4,
+          "margin": 5.0,
+          "home_fav": false,
+          "locked": true,
+          "venue": "Adelaide Oval",
+          "game_id": "afl_1133616",
           "draw_prob": null
         },
+        {
+          "home": "North Melbourne",
+          "away": "Essendon",
+          "date": "2026-06-28",
+          "datetime": "2026-06-28T05:15Z",
+          "home_prob": 76.5,
+          "away_prob": 23.5,
+          "margin": 19.4,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Marvel Stadium",
+          "game_id": "afl_1133615",
+          "draw_prob": null
+        },
+        {
+          "home": "Fremantle",
+          "away": "Gold Coast SUNS",
+          "date": "2026-06-28",
+          "datetime": "2026-06-28T07:10Z",
+          "home_prob": 92.0,
+          "away_prob": 8.0,
+          "margin": 30.8,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Optus Stadium",
+          "game_id": "afl_1133617",
+          "draw_prob": null
+        },
+        {
+          "home": "Geelong",
+          "away": "Brisbane Lions",
+          "date": "2026-07-02",
+          "datetime": "2026-07-02T09:30Z",
+          "home_prob": 58.8,
+          "away_prob": 41.2,
+          "margin": 19.7,
+          "home_fav": true,
+          "locked": false,
+          "venue": "GMHBA Stadium",
+          "game_id": "afl_1133619",
+          "draw_prob": null
+        },
+        {
+          "home": "Sydney",
+          "away": "Western Bulldogs",
+          "date": "2026-07-03",
+          "datetime": "2026-07-03T09:40Z",
+          "home_prob": 75.3,
+          "away_prob": 24.7,
+          "margin": 27.6,
+          "home_fav": true,
+          "locked": false,
+          "venue": "SCG",
+          "game_id": "afl_1133624",
+          "draw_prob": null
+        },
+        {
+          "home": "West Coast",
+          "away": "Adelaide",
+          "date": "2026-07-03",
+          "datetime": "2026-07-03T10:10Z",
+          "home_prob": 15.7,
+          "away_prob": 84.3,
+          "margin": -11.9,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Optus Stadium",
+          "game_id": "afl_1133626",
+          "draw_prob": null
+        },
+        {
+          "home": "Hawthorn",
+          "away": "Melbourne",
+          "date": "2026-07-04",
+          "datetime": "2026-07-04T03:15Z",
+          "home_prob": 80.0,
+          "away_prob": 20.0,
+          "margin": 9.4,
+          "home_fav": true,
+          "locked": false,
+          "venue": "UTAS Stadium",
+          "game_id": "afl_1133622",
+          "draw_prob": null
+        },
+        {
+          "home": "GWS GIANTS",
+          "away": "Fremantle",
+          "date": "2026-07-04",
+          "datetime": "2026-07-04T03:35Z",
+          "home_prob": 18.5,
+          "away_prob": 81.5,
+          "margin": -4.5,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Corroboree Group Oval Manuka",
+          "game_id": "afl_1133621",
+          "draw_prob": null
+        },
+        {
+          "home": "Gold Coast SUNS",
+          "away": "Collingwood",
+          "date": "2026-07-04",
+          "datetime": "2026-07-04T06:15Z",
+          "home_prob": 49.2,
+          "away_prob": 50.8,
+          "margin": 10.2,
+          "home_fav": false,
+          "locked": false,
+          "venue": "People First Stadium",
+          "game_id": "afl_1133620",
+          "draw_prob": null
+        },
+        {
+          "home": "Richmond",
+          "away": "Carlton",
+          "date": "2026-07-04",
+          "datetime": "2026-07-04T09:35Z",
+          "home_prob": 12.8,
+          "away_prob": 87.2,
+          "margin": -16.3,
+          "home_fav": false,
+          "locked": false,
+          "venue": "MCG",
+          "game_id": "afl_1133623",
+          "draw_prob": null
+        },
+        {
+          "home": "Essendon",
+          "away": "St Kilda",
+          "date": "2026-07-05",
+          "datetime": "2026-07-05T05:15Z",
+          "home_prob": 25.8,
+          "away_prob": 74.2,
+          "margin": -9.0,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Marvel Stadium",
+          "game_id": "afl_1133618",
+          "draw_prob": null
+        },
+        {
+          "home": "Port Adelaide",
+          "away": "North Melbourne",
+          "date": "2026-07-05",
+          "datetime": "2026-07-05T06:40Z",
+          "home_prob": 66.3,
+          "away_prob": 33.7,
+          "margin": 5.2,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Adelaide Oval",
+          "game_id": "afl_1133625",
+          "draw_prob": null
+        },
+        {
+          "home": "Fremantle",
+          "away": "Sydney",
+          "date": "2026-07-09",
+          "datetime": "2026-07-09T10:10Z",
+          "home_prob": 73.8,
+          "away_prob": 26.2,
+          "margin": -4.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Optus Stadium",
+          "game_id": "afl_1133635",
+          "draw_prob": null
+        },
+        {
+          "home": "Collingwood",
+          "away": "North Melbourne",
+          "date": "2026-07-10",
+          "datetime": "2026-07-10T09:40Z",
+          "home_prob": 77.0,
+          "away_prob": 23.0,
+          "margin": 8.1,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Marvel Stadium",
+          "game_id": "afl_1133629",
+          "draw_prob": null
+        }
+      ],
+      "recent": [
         {
           "home": "North Melbourne",
           "away": "West Coast",
@@ -118,6 +305,16 @@
           "winner": "North Melbourne",
           "home_score": 74,
           "away_score": 73,
+          "draw_prob": null
+        },
+        {
+          "home": "Melbourne",
+          "away": "Essendon",
+          "date": "2026-06-13",
+          "home_prob": 87.8,
+          "winner": "Melbourne",
+          "home_score": 95,
+          "away_score": 50,
           "draw_prob": null
         },
         {
@@ -1382,7 +1579,7 @@
         },
         {
           "team": "Fever",
-          "rating": 1582.9,
+          "rating": 1583.0,
           "rank": 3
         },
         {
