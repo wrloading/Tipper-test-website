@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-29T03:38:21.969660+10:00",
+    "updated": "2026-06-29T04:52:21.559750+10:00",
     "year": 2026,
     "current_round": 17,
     "model": "TELO v2.0",
@@ -108234,7 +108234,7 @@
       "points_for": 1457,
       "points_against": 1281,
       "finals_pct": 99.9,
-      "premiers_pct": 17.2
+      "premiers_pct": 17.0
     },
     {
       "team": "Sydney",
@@ -108259,7 +108259,7 @@
       "percentage": 111.0,
       "points_for": 1551,
       "points_against": 1397,
-      "finals_pct": 98.3,
+      "finals_pct": 98.1,
       "premiers_pct": 8.5
     },
     {
@@ -108272,7 +108272,7 @@
       "percentage": 120.6,
       "points_for": 1490,
       "points_against": 1236,
-      "finals_pct": 98.2,
+      "finals_pct": 98.1,
       "premiers_pct": 7.5
     },
     {
@@ -108286,7 +108286,7 @@
       "points_for": 1270,
       "points_against": 1369,
       "finals_pct": 95.4,
-      "premiers_pct": 4.0
+      "premiers_pct": 4.1
     },
     {
       "team": "Adelaide",
@@ -108299,7 +108299,7 @@
       "points_for": 1328,
       "points_against": 1207,
       "finals_pct": 97.2,
-      "premiers_pct": 4.3
+      "premiers_pct": 4.2
     },
     {
       "team": "Collingwood",
@@ -108311,7 +108311,7 @@
       "percentage": 104.3,
       "points_for": 1253,
       "points_against": 1201,
-      "finals_pct": 20.6,
+      "finals_pct": 20.8,
       "premiers_pct": 0.3
     },
     {
@@ -108325,7 +108325,7 @@
       "points_for": 1430,
       "points_against": 1373,
       "finals_pct": 66.1,
-      "premiers_pct": 0.6
+      "premiers_pct": 0.7
     },
     {
       "team": "Carlton",
@@ -108337,7 +108337,7 @@
       "percentage": 95.6,
       "points_for": 1254,
       "points_against": 1312,
-      "finals_pct": 6.8,
+      "finals_pct": 6.7,
       "premiers_pct": 0.1
     },
     {
@@ -108350,8 +108350,8 @@
       "percentage": 101.2,
       "points_for": 1359,
       "points_against": 1343,
-      "finals_pct": 6.3,
-      "premiers_pct": 0.1
+      "finals_pct": 6.4,
+      "premiers_pct": 0.0
     },
     {
       "team": "Greater Western Sydney",
