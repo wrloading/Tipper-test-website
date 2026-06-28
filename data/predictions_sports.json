@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-28T18:52:49.020417+00:00",
+    "updated": "2026-06-28T20:17:19.290394+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -165,7 +165,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -679,20 +679,6 @@
       ],
       "upcoming": [
         {
-          "home": "Dallas Wings",
-          "away": "Minnesota Lynx",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T18:00Z",
-          "home_prob": 39.1,
-          "away_prob": 60.9,
-          "margin": -0.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "College Park Center",
-          "game_id": "wnba_401857030",
-          "draw_prob": null
-        },
-        {
           "home": "Washington Mystics",
           "away": "Portland Fire",
           "date": "2026-06-28",
@@ -701,7 +687,7 @@
           "away_prob": 26.0,
           "margin": 7.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "CareFirst Arena",
           "game_id": "wnba_401857031",
           "draw_prob": null
@@ -715,7 +701,7 @@
           "away_prob": 75.3,
           "margin": -5.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "United Center",
           "game_id": "wnba_401857032",
           "draw_prob": null
@@ -4847,20 +4833,6 @@
           "draw_prob": null
         },
         {
-          "home": "Tampa Bay Rays",
-          "away": "Arizona Diamondbacks",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T17:40Z",
-          "home_prob": 57.5,
-          "away_prob": 42.5,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Tropicana Field",
-          "game_id": "mlb_401815936",
-          "draw_prob": null
-        },
-        {
           "home": "Detroit Tigers",
           "away": "Houston Astros",
           "date": "2026-06-28",
@@ -4967,7 +4939,7 @@
           "away_prob": 48.4,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Angel Stadium",
           "game_id": "mlb_401815948",
           "draw_prob": null
@@ -4981,7 +4953,7 @@
           "away_prob": 56.2,
           "margin": -1.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oracle Park",
           "game_id": "mlb_401815949",
           "draw_prob": null
@@ -4995,7 +4967,7 @@
           "away_prob": 55.6,
           "margin": -2.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Petco Park",
           "game_id": "mlb_401815950",
           "draw_prob": null
