@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-28T16:15:12.115862+00:00",
+    "updated": "2026-06-28T17:38:57.967518+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -165,7 +165,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -4813,7 +4813,7 @@
           "away_prob": 45.6,
           "margin": -0.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401815937",
           "draw_prob": null
@@ -4827,7 +4827,7 @@
           "away_prob": 43.5,
           "margin": -3.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401815943",
           "draw_prob": null
@@ -4841,7 +4841,7 @@
           "away_prob": 46.3,
           "margin": -3.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401815942",
           "draw_prob": null
