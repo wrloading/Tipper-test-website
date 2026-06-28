@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-28T12:59:27.169918+00:00",
+    "updated": "2026-06-28T14:53:50.348334+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -422,16 +422,6 @@
           "draw_prob": null
         },
         {
-          "home": "Port Adelaide",
-          "away": "Adelaide",
-          "date": "2026-06-27",
-          "home_prob": 46.9,
-          "winner": "Port Adelaide",
-          "home_score": 97,
-          "away_score": 71,
-          "draw_prob": null
-        },
-        {
           "home": "Carlton",
           "away": "West Coast",
           "date": "2026-06-27",
@@ -449,6 +439,16 @@
           "winner": "Collingwood",
           "home_score": 106,
           "away_score": 72,
+          "draw_prob": null
+        },
+        {
+          "home": "Port Adelaide",
+          "away": "Adelaide",
+          "date": "2026-06-27",
+          "home_prob": 46.9,
+          "winner": "Port Adelaide",
+          "home_score": 97,
+          "away_score": 71,
           "draw_prob": null
         }
       ]
