@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-28T06:23:23.180057+00:00",
+    "updated": "2026-06-28T09:44:26.510297+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,34 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "North Melbourne",
-          "away": "Essendon",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T05:15Z",
-          "home_prob": 76.5,
-          "away_prob": 23.5,
-          "margin": 19.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133615",
-          "draw_prob": null
-        },
-        {
-          "home": "Fremantle",
-          "away": "Gold Coast SUNS",
-          "date": "2026-06-28",
-          "datetime": "2026-06-28T07:10Z",
-          "home_prob": 92.0,
-          "away_prob": 8.0,
-          "margin": 30.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133617",
-          "draw_prob": null
-        },
-        {
           "home": "Geelong",
           "away": "Brisbane Lions",
           "date": "2026-07-02",
@@ -193,7 +165,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
@@ -450,6 +422,16 @@
           "draw_prob": null
         },
         {
+          "home": "Port Adelaide",
+          "away": "Adelaide",
+          "date": "2026-06-27",
+          "home_prob": 46.9,
+          "winner": "Port Adelaide",
+          "home_score": 97,
+          "away_score": 71,
+          "draw_prob": null
+        },
+        {
           "home": "Carlton",
           "away": "West Coast",
           "date": "2026-06-27",
@@ -467,16 +449,6 @@
           "winner": "Collingwood",
           "home_score": 106,
           "away_score": 72,
-          "draw_prob": null
-        },
-        {
-          "home": "Port Adelaide",
-          "away": "Adelaide",
-          "date": "2026-06-27",
-          "home_prob": 46.9,
-          "winner": "Port Adelaide",
-          "home_score": 97,
-          "away_score": 71,
           "draw_prob": null
         }
       ]
@@ -4822,7 +4794,7 @@
         },
         {
           "team": "Los Angeles Angels",
-          "rating": 1468.6,
+          "rating": 1468.7,
           "rank": 29
         },
         {
