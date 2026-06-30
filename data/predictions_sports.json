@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-30T16:58:44.223274+00:00",
+    "updated": "2026-06-30T19:01:10.037209+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -165,7 +165,7 @@
           "margin": -4.5,
           "home_fav": false,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133621",
           "draw_prob": null
         },
