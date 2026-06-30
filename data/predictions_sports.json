@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-06-30T14:54:31.607511+00:00",
+    "updated": "2026-06-30T16:58:44.223274+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1657,8 +1657,54 @@
           "rank": 10
         }
       ],
-      "upcoming": [],
-      "recent": []
+      "upcoming": [
+        {
+          "home": "Thunderbirds",
+          "away": "Vixens",
+          "date": "2026-07-04T09:30:00Z",
+          "datetime": "2026-07-04T09:30:00Z",
+          "home_prob": 82.2,
+          "away_prob": 17.8,
+          "margin": 5.1,
+          "home_fav": true,
+          "locked": false,
+          "venue": "John Cain Arena",
+          "game_id": "supernetball_129500301",
+          "draw_prob": null
+        }
+      ],
+      "recent": [
+        {
+          "home": "Thunderbirds",
+          "away": "Vixens",
+          "date": "2026-06-21",
+          "home_prob": 82.2,
+          "winner": "Thunderbirds",
+          "home_score": 58,
+          "away_score": 44,
+          "draw_prob": null
+        },
+        {
+          "home": "Fever",
+          "away": "Mavericks",
+          "date": "2026-06-21",
+          "home_prob": 56.9,
+          "winner": "Fever",
+          "home_score": 56,
+          "away_score": 52,
+          "draw_prob": null
+        },
+        {
+          "home": "Vixens",
+          "away": "Fever",
+          "date": "2026-06-27",
+          "home_prob": 54.8,
+          "winner": "Vixens",
+          "home_score": 62,
+          "away_score": 51,
+          "draw_prob": null
+        }
+      ]
     },
     "nbl": {
       "ratings": [
