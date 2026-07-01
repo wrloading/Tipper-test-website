@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-01T22:06:27.517957+00:00",
+    "updated": "2026-07-01T23:45:45.202835+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4734,7 +4734,7 @@
         },
         {
           "team": "Detroit Tigers",
-          "rating": 1506.4,
+          "rating": 1506.5,
           "rank": 9
         },
         {
@@ -4845,20 +4845,6 @@
       ],
       "upcoming": [
         {
-          "home": "Toronto Blue Jays",
-          "away": "New York Mets",
-          "date": "2026-07-01",
-          "datetime": "2026-07-01T19:07Z",
-          "home_prob": 55.7,
-          "away_prob": 44.3,
-          "margin": -1.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Rogers Centre",
-          "game_id": "mlb_401815981",
-          "draw_prob": null
-        },
-        {
           "home": "Philadelphia Phillies",
           "away": "Pittsburgh Pirates",
           "date": "2026-07-01",
@@ -4867,7 +4853,7 @@
           "away_prob": 40.7,
           "margin": -0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401815982",
           "draw_prob": null
@@ -4881,7 +4867,7 @@
           "away_prob": 41.1,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401815983",
           "draw_prob": null
@@ -4895,7 +4881,7 @@
           "away_prob": 54.3,
           "margin": 0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401815989",
           "draw_prob": null
