@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-01T18:33:37.736590+10:00",
+    "updated": "2026-07-01T21:45:47.121387+10:00",
     "year": 2026,
     "current_round": 17,
     "model": "TELO v2.0",
@@ -111491,7 +111491,7 @@
       "points_for": 1491,
       "points_against": 1006,
       "finals_pct": 100.0,
-      "premiers_pct": 39.0
+      "premiers_pct": 39.1
     },
     {
       "team": "Hawthorn",
@@ -111504,7 +111504,7 @@
       "points_for": 1457,
       "points_against": 1281,
       "finals_pct": 99.9,
-      "premiers_pct": 17.3
+      "premiers_pct": 17.0
     },
     {
       "team": "Sydney",
@@ -111517,7 +111517,7 @@
       "points_for": 1661,
       "points_against": 1224,
       "finals_pct": 100.0,
-      "premiers_pct": 18.4
+      "premiers_pct": 18.5
     },
     {
       "team": "Brisbane Lions",
@@ -111530,7 +111530,7 @@
       "points_for": 1551,
       "points_against": 1397,
       "finals_pct": 98.0,
-      "premiers_pct": 8.6
+      "premiers_pct": 8.8
     },
     {
       "team": "Geelong",
@@ -111556,7 +111556,7 @@
       "points_for": 1270,
       "points_against": 1369,
       "finals_pct": 95.5,
-      "premiers_pct": 4.1
+      "premiers_pct": 3.9
     },
     {
       "team": "Adelaide",
@@ -111568,7 +111568,7 @@
       "percentage": 110.0,
       "points_for": 1328,
       "points_against": 1207,
-      "finals_pct": 97.2,
+      "finals_pct": 97.1,
       "premiers_pct": 4.1
     },
     {
@@ -111581,7 +111581,7 @@
       "percentage": 104.3,
       "points_for": 1253,
       "points_against": 1201,
-      "finals_pct": 20.9,
+      "finals_pct": 20.8,
       "premiers_pct": 0.3
     },
     {
@@ -111594,7 +111594,7 @@
       "percentage": 104.2,
       "points_for": 1430,
       "points_against": 1373,
-      "finals_pct": 66.2,
+      "finals_pct": 66.3,
       "premiers_pct": 0.6
     },
     {
@@ -111607,8 +111607,8 @@
       "percentage": 95.6,
       "points_for": 1254,
       "points_against": 1312,
-      "finals_pct": 6.6,
-      "premiers_pct": 0.1
+      "finals_pct": 6.7,
+      "premiers_pct": 0.0
     },
     {
       "team": "Gold Coast",
@@ -111620,7 +111620,7 @@
       "percentage": 101.2,
       "points_for": 1359,
       "points_against": 1343,
-      "finals_pct": 6.4,
+      "finals_pct": 6.2,
       "premiers_pct": 0.0
     },
     {
