@@ -15,7 +15,6 @@
     "Boston Red Sox": 1502.42,
     "Cleveland Guardians": 1500.79,
     "Baltimore Orioles": 1499.68,
-    "Miami Marlins": 1498.91,
     "Cleveland Indians": 1498.57,
     "Texas Rangers": 1497.14,
     "St. Louis Cardinals": 1496.02,
@@ -23,6 +22,7 @@
     "Washington Nationals": 1495.27,
     "Toronto Blue Jays": 1495.16,
     "Houston Astros": 1494.47,
+    "Miami Marlins": 1493.79,
     "Arizona Diamondbacks": 1490.72,
     "Minnesota Twins": 1489.68,
     "Pittsburgh Pirates": 1488.35,
@@ -33,6 +33,6 @@
     "Cincinnati Reds": 1472.29,
     "Kansas City Royals": 1468.96,
     "Los Angeles Angels": 1465.74,
-    "Colorado Rockies": 1451.62
+    "Colorado Rockies": 1456.74
   }
 }
