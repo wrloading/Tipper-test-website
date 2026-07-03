@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-03T05:30:34.101075+00:00",
+    "updated": "2026-07-03T08:38:54.493803+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -753,8 +753,8 @@
           "away": "Golden State Valkyries",
           "date": "2026-07-04",
           "datetime": "2026-07-04T17:00Z",
-          "home_prob": 44.5,
-          "away_prob": 55.5,
+          "home_prob": 44.6,
+          "away_prob": 55.4,
           "margin": 5.3,
           "home_fav": false,
           "locked": false,
