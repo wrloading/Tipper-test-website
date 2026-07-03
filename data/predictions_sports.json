@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-03T08:38:54.493803+00:00",
+    "updated": "2026-07-03T13:22:24.088364+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Sydney",
-          "away": "Western Bulldogs",
-          "date": "2026-07-03",
-          "datetime": "2026-07-03T09:40Z",
-          "home_prob": 75.3,
-          "away_prob": 24.7,
-          "margin": 27.6,
-          "home_fav": true,
-          "locked": false,
-          "venue": "SCG",
-          "game_id": "afl_1133624",
-          "draw_prob": null
-        },
-        {
-          "home": "West Coast",
-          "away": "Adelaide",
-          "date": "2026-07-03",
-          "datetime": "2026-07-03T10:10Z",
-          "home_prob": 20.7,
-          "away_prob": 79.3,
-          "margin": -10.9,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133626",
-          "draw_prob": null
-        },
         {
           "home": "Hawthorn",
           "away": "Melbourne",
