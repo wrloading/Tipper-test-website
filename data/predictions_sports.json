@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-03T20:05:48.216775+00:00",
+    "updated": "2026-07-03T21:34:02.406569+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -120,7 +120,7 @@
           "datetime": "2026-07-04T03:35Z",
           "home_prob": 17.8,
           "away_prob": 82.2,
-          "margin": -5.1,
+          "margin": -2.3,
           "home_fav": false,
           "locked": false,
           "venue": "Corroboree Group Oval Manuka",
