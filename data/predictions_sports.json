@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-04T22:42:43.958229+00:00",
+    "updated": "2026-07-04T23:46:36.288611+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4875,7 +4875,7 @@
           "away_prob": 51.3,
           "margin": -1.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816015",
           "draw_prob": null
@@ -4889,7 +4889,7 @@
           "away_prob": 46.4,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816016",
           "draw_prob": null
@@ -4903,7 +4903,7 @@
           "away_prob": 52.5,
           "margin": -1.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401816023",
           "draw_prob": null
@@ -5170,7 +5170,7 @@
           "margin": -0.7,
           "home_fav": false,
           "locked": false,
-          "venue": "Chase Field",
+          "venue": "Chase Field (NH)",
           "game_id": "mlb_401816042",
           "draw_prob": null
         },
