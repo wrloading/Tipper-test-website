@@ -2,23 +2,23 @@
   "sport": "afl",
   "current_season": 2026,
   "ratings": {
-    "Fremantle": 1793.14,
     "Brisbane Lions": 1735.94,
+    "Fremantle": 1714.27,
     "Sydney": 1694.01,
-    "Hawthorn": 1666.26,
     "Geelong": 1620.04,
-    "Carlton": 1594.77,
+    "Carlton": 1598.83,
+    "Hawthorn": 1589.45,
     "Adelaide": 1580.43,
+    "Melbourne": 1567.18,
+    "GWS GIANTS": 1541.69,
+    "Collingwood": 1536.55,
     "Western Bulldogs": 1517.88,
-    "Collingwood": 1507.5,
-    "Melbourne": 1490.37,
     "Port Adelaide": 1473.72,
-    "GWS GIANTS": 1462.82,
     "St Kilda": 1460.43,
-    "Gold Coast SUNS": 1419.25,
+    "Gold Coast SUNS": 1390.2,
     "North Melbourne": 1372.9,
     "West Coast": 1242.27,
     "Essendon": 1191.94,
-    "Richmond": 1176.31
+    "Richmond": 1172.25
   }
 }
