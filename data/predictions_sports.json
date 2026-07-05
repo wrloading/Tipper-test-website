@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-05T10:54:17.468461+00:00",
+    "updated": "2026-07-05T12:20:27.665250+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Port Adelaide",
-          "away": "North Melbourne",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T06:40Z",
-          "home_prob": 72.2,
-          "away_prob": 27.8,
-          "margin": 6.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133625",
-          "draw_prob": null
-        },
         {
           "home": "Fremantle",
           "away": "Sydney",
@@ -446,16 +432,6 @@
           "draw_prob": null
         },
         {
-          "home": "Richmond",
-          "away": "Carlton",
-          "date": "2026-07-04",
-          "home_prob": 11.1,
-          "winner": "Carlton",
-          "home_score": 72,
-          "away_score": 74,
-          "draw_prob": null
-        },
-        {
           "home": "Hawthorn",
           "away": "Melbourne",
           "date": "2026-07-04",
@@ -483,6 +459,16 @@
           "winner": "Collingwood",
           "home_score": 98,
           "away_score": 104,
+          "draw_prob": null
+        },
+        {
+          "home": "Richmond",
+          "away": "Carlton",
+          "date": "2026-07-04",
+          "home_prob": 11.1,
+          "winner": "Carlton",
+          "home_score": 72,
+          "away_score": 74,
           "draw_prob": null
         }
       ]
