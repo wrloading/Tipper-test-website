@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-05T05:44:43.444968+00:00",
+    "updated": "2026-07-05T08:34:23.846969+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Essendon",
-          "away": "St Kilda",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T05:15Z",
-          "home_prob": 23.7,
-          "away_prob": 76.3,
-          "margin": -12.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133618",
-          "draw_prob": null
-        },
-        {
           "home": "Port Adelaide",
           "away": "North Melbourne",
           "date": "2026-07-05",
@@ -122,7 +108,7 @@
           "away_prob": 27.8,
           "margin": 6.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Adelaide Oval",
           "game_id": "afl_1133625",
           "draw_prob": null
@@ -460,6 +446,16 @@
           "draw_prob": null
         },
         {
+          "home": "Richmond",
+          "away": "Carlton",
+          "date": "2026-07-04",
+          "home_prob": 11.1,
+          "winner": "Carlton",
+          "home_score": 72,
+          "away_score": 74,
+          "draw_prob": null
+        },
+        {
           "home": "Hawthorn",
           "away": "Melbourne",
           "date": "2026-07-04",
@@ -487,16 +483,6 @@
           "winner": "Collingwood",
           "home_score": 98,
           "away_score": 104,
-          "draw_prob": null
-        },
-        {
-          "home": "Richmond",
-          "away": "Carlton",
-          "date": "2026-07-04",
-          "home_prob": 11.1,
-          "winner": "Carlton",
-          "home_score": 72,
-          "away_score": 74,
           "draw_prob": null
         }
       ]
@@ -5099,8 +5085,8 @@
           "away": "Miami Marlins",
           "date": "2026-07-05",
           "datetime": "2026-07-05T20:30Z",
-          "home_prob": 48.8,
-          "away_prob": 51.2,
+          "home_prob": 48.9,
+          "away_prob": 51.1,
           "margin": -2.3,
           "home_fav": false,
           "locked": false,
@@ -8872,7 +8858,7 @@
           "home": "Athletics",
           "away": "Miami Marlins",
           "date": "2026-07-04",
-          "home_prob": 48.8,
+          "home_prob": 48.9,
           "winner": "Miami Marlins",
           "home_score": 5,
           "away_score": 12,
@@ -9032,7 +9018,7 @@
           "home": "Athletics",
           "away": "Miami Marlins",
           "date": "2026-07-05",
-          "home_prob": 48.8,
+          "home_prob": 48.9,
           "winner": "Miami Marlins",
           "home_score": 2,
           "away_score": 7,
