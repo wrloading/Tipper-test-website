@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-05T21:05:32.824078+00:00",
+    "updated": "2026-07-05T22:16:00.021193+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -699,20 +699,6 @@
       ],
       "upcoming": [
         {
-          "home": "Toronto Tempo",
-          "away": "Dallas Wings",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T19:00Z",
-          "home_prob": 45.9,
-          "away_prob": 54.1,
-          "margin": 2.2,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Coca-Cola Coliseum",
-          "game_id": "wnba_401857041",
-          "draw_prob": null
-        },
-        {
           "home": "Las Vegas Aces",
           "away": "Indiana Fever",
           "date": "2026-07-05",
@@ -775,7 +761,7 @@
           "datetime": "2026-07-08T00:00Z",
           "home_prob": 75.3,
           "away_prob": 24.7,
-          "margin": 7.1,
+          "margin": 6.2,
           "home_fav": true,
           "locked": false,
           "venue": "Barclays Center",
@@ -803,7 +789,7 @@
           "datetime": "2026-07-08T23:00Z",
           "home_prob": 31.8,
           "away_prob": 68.2,
-          "margin": -0.3,
+          "margin": -1.3,
           "home_fav": false,
           "locked": false,
           "venue": "Coca-Cola Coliseum",
@@ -901,7 +887,7 @@
           "datetime": "2026-07-10T23:30Z",
           "home_prob": 45.9,
           "away_prob": 54.1,
-          "margin": 1.5,
+          "margin": -0.3,
           "home_fav": false,
           "locked": false,
           "venue": "Bell Centre",
@@ -971,7 +957,7 @@
           "datetime": "2026-07-12T19:00Z",
           "home_prob": 30.6,
           "away_prob": 69.4,
-          "margin": -0.7,
+          "margin": -1.6,
           "home_fav": false,
           "locked": false,
           "venue": "Bell Centre",
@@ -1069,7 +1055,7 @@
           "datetime": "2026-07-14T23:00Z",
           "home_prob": 56.4,
           "away_prob": 43.6,
-          "margin": 3.0,
+          "margin": 2.0,
           "home_fav": true,
           "locked": false,
           "venue": "Coca-Cola Coliseum",
@@ -1167,7 +1153,7 @@
           "datetime": "2026-07-17T23:30Z",
           "home_prob": 53.4,
           "away_prob": 46.6,
-          "margin": 1.7,
+          "margin": 0.7,
           "home_fav": true,
           "locked": false,
           "venue": "Coca-Cola Coliseum",
@@ -1287,338 +1273,7 @@
           "draw_prob": null
         }
       ],
-      "recent": [
-        {
-          "home": "Las Vegas Aces",
-          "away": "Golden State Valkyries",
-          "date": "2026-06-21",
-          "home_prob": 59.8,
-          "winner": "Las Vegas Aces",
-          "home_score": 92,
-          "away_score": 73,
-          "draw_prob": null
-        },
-        {
-          "home": "Minnesota Lynx",
-          "away": "Washington Mystics",
-          "date": "2026-06-21",
-          "home_prob": 85.3,
-          "winner": "Washington Mystics",
-          "home_score": 79,
-          "away_score": 84,
-          "draw_prob": null
-        },
-        {
-          "home": "Los Angeles Sparks",
-          "away": "New York Liberty",
-          "date": "2026-06-22",
-          "home_prob": 25.5,
-          "winner": "Los Angeles Sparks",
-          "home_score": 98,
-          "away_score": 97,
-          "draw_prob": null
-        },
-        {
-          "home": "Connecticut Sun",
-          "away": "Chicago Sky",
-          "date": "2026-06-22",
-          "home_prob": 61.8,
-          "winner": "Connecticut Sun",
-          "home_score": 92,
-          "away_score": 63,
-          "draw_prob": null
-        },
-        {
-          "home": "Atlanta Dream",
-          "away": "Toronto Tempo",
-          "date": "2026-06-22",
-          "home_prob": 68.7,
-          "winner": "Atlanta Dream",
-          "home_score": 94,
-          "away_score": 87,
-          "draw_prob": null
-        },
-        {
-          "home": "Indiana Fever",
-          "away": "Phoenix Mercury",
-          "date": "2026-06-23",
-          "home_prob": 73.3,
-          "winner": "Indiana Fever",
-          "home_score": 86,
-          "away_score": 77,
-          "draw_prob": null
-        },
-        {
-          "home": "Seattle Storm",
-          "away": "Dallas Wings",
-          "date": "2026-06-23",
-          "home_prob": 31.8,
-          "winner": "Dallas Wings",
-          "home_score": 110,
-          "away_score": 112,
-          "draw_prob": null
-        },
-        {
-          "home": "Las Vegas Aces",
-          "away": "New York Liberty",
-          "date": "2026-06-24",
-          "home_prob": 58.5,
-          "winner": "New York Liberty",
-          "home_score": 76,
-          "away_score": 87,
-          "draw_prob": null
-        },
-        {
-          "home": "Indiana Fever",
-          "away": "Phoenix Mercury",
-          "date": "2026-06-24",
-          "home_prob": 73.3,
-          "winner": "Phoenix Mercury",
-          "home_score": 109,
-          "away_score": 111,
-          "draw_prob": null
-        },
-        {
-          "home": "Washington Mystics",
-          "away": "Minnesota Lynx",
-          "date": "2026-06-24",
-          "home_prob": 30.2,
-          "winner": "Minnesota Lynx",
-          "home_score": 76,
-          "away_score": 78,
-          "draw_prob": null
-        },
-        {
-          "home": "Chicago Sky",
-          "away": "Portland Fire",
-          "date": "2026-06-25",
-          "home_prob": 59.1,
-          "winner": "Chicago Sky",
-          "home_score": 101,
-          "away_score": 78,
-          "draw_prob": null
-        },
-        {
-          "home": "Golden State Valkyries",
-          "away": "Atlanta Dream",
-          "date": "2026-06-25",
-          "home_prob": 79.6,
-          "winner": "Golden State Valkyries",
-          "home_score": 77,
-          "away_score": 66,
-          "draw_prob": null
-        },
-        {
-          "home": "Toronto Tempo",
-          "away": "Los Angeles Sparks",
-          "date": "2026-06-25",
-          "home_prob": 67.1,
-          "winner": "Toronto Tempo",
-          "home_score": 125,
-          "away_score": 97,
-          "draw_prob": null
-        },
-        {
-          "home": "Las Vegas Aces",
-          "away": "Dallas Wings",
-          "date": "2026-06-26",
-          "home_prob": 73.0,
-          "winner": "Las Vegas Aces",
-          "home_score": 99,
-          "away_score": 84,
-          "draw_prob": null
-        },
-        {
-          "home": "Seattle Storm",
-          "away": "New York Liberty",
-          "date": "2026-06-26",
-          "home_prob": 19.5,
-          "winner": "Seattle Storm",
-          "home_score": 99,
-          "away_score": 88,
-          "draw_prob": null
-        },
-        {
-          "home": "Connecticut Sun",
-          "away": "Washington Mystics",
-          "date": "2026-06-26",
-          "home_prob": 44.7,
-          "winner": "Connecticut Sun",
-          "home_score": 68,
-          "away_score": 57,
-          "draw_prob": null
-        },
-        {
-          "home": "Chicago Sky",
-          "away": "Portland Fire",
-          "date": "2026-06-26",
-          "home_prob": 59.1,
-          "winner": "Chicago Sky",
-          "home_score": 124,
-          "away_score": 94,
-          "draw_prob": null
-        },
-        {
-          "home": "Golden State Valkyries",
-          "away": "Atlanta Dream",
-          "date": "2026-06-27",
-          "home_prob": 79.6,
-          "winner": "Golden State Valkyries",
-          "home_score": 78,
-          "away_score": 75,
-          "draw_prob": null
-        },
-        {
-          "home": "Toronto Tempo",
-          "away": "Phoenix Mercury",
-          "date": "2026-06-27",
-          "home_prob": 59.2,
-          "winner": "Phoenix Mercury",
-          "home_score": 80,
-          "away_score": 89,
-          "draw_prob": null
-        },
-        {
-          "home": "Indiana Fever",
-          "away": "Los Angeles Sparks",
-          "date": "2026-06-28",
-          "home_prob": 79.4,
-          "winner": "Indiana Fever",
-          "home_score": 111,
-          "away_score": 87,
-          "draw_prob": null
-        },
-        {
-          "home": "Seattle Storm",
-          "away": "Atlanta Dream",
-          "date": "2026-06-28",
-          "home_prob": 38.6,
-          "winner": "Seattle Storm",
-          "home_score": 105,
-          "away_score": 90,
-          "draw_prob": null
-        },
-        {
-          "home": "Dallas Wings",
-          "away": "Minnesota Lynx",
-          "date": "2026-06-28",
-          "home_prob": 39.8,
-          "winner": "Minnesota Lynx",
-          "home_score": 77,
-          "away_score": 85,
-          "draw_prob": null
-        },
-        {
-          "home": "Washington Mystics",
-          "away": "Portland Fire",
-          "date": "2026-06-28",
-          "home_prob": 74.3,
-          "winner": "Washington Mystics",
-          "home_score": 124,
-          "away_score": 123,
-          "draw_prob": null
-        },
-        {
-          "home": "Chicago Sky",
-          "away": "Las Vegas Aces",
-          "date": "2026-06-28",
-          "home_prob": 23.2,
-          "winner": "Las Vegas Aces",
-          "home_score": 99,
-          "away_score": 107,
-          "draw_prob": null
-        },
-        {
-          "home": "Golden State Valkyries",
-          "away": "New York Liberty",
-          "date": "2026-06-28",
-          "home_prob": 60.0,
-          "winner": "Golden State Valkyries",
-          "home_score": 76,
-          "away_score": 67,
-          "draw_prob": null
-        },
-        {
-          "home": "New York Liberty",
-          "away": "Las Vegas Aces",
-          "date": "2026-06-30",
-          "home_prob": 64.1,
-          "winner": "New York Liberty",
-          "home_score": 93,
-          "away_score": 85,
-          "draw_prob": null
-        },
-        {
-          "home": "Washington Mystics",
-          "away": "Atlanta Dream",
-          "date": "2026-07-02",
-          "home_prob": 58.4,
-          "winner": "Washington Mystics",
-          "home_score": 81,
-          "away_score": 76,
-          "draw_prob": null
-        },
-        {
-          "home": "Connecticut Sun",
-          "away": "Dallas Wings",
-          "date": "2026-07-03",
-          "home_prob": 34.6,
-          "winner": "Dallas Wings",
-          "home_score": 83,
-          "away_score": 86,
-          "draw_prob": null
-        },
-        {
-          "home": "Phoenix Mercury",
-          "away": "Seattle Storm",
-          "date": "2026-07-03",
-          "home_prob": 75.9,
-          "winner": "Phoenix Mercury",
-          "home_score": 90,
-          "away_score": 67,
-          "draw_prob": null
-        },
-        {
-          "home": "New York Liberty",
-          "away": "Minnesota Lynx",
-          "date": "2026-07-03",
-          "home_prob": 55.9,
-          "winner": "New York Liberty",
-          "home_score": 99,
-          "away_score": 86,
-          "draw_prob": null
-        },
-        {
-          "home": "Las Vegas Aces",
-          "away": "Chicago Sky",
-          "date": "2026-07-04",
-          "home_prob": 89.2,
-          "winner": "Las Vegas Aces",
-          "home_score": 98,
-          "away_score": 90,
-          "draw_prob": null
-        },
-        {
-          "home": "Atlanta Dream",
-          "away": "Golden State Valkyries",
-          "date": "2026-07-04",
-          "home_prob": 39.2,
-          "winner": "Golden State Valkyries",
-          "home_score": 83,
-          "away_score": 88,
-          "draw_prob": null
-        },
-        {
-          "home": "Seattle Storm",
-          "away": "Portland Fire",
-          "date": "2026-07-05",
-          "home_prob": 56.5,
-          "winner": "Portland Fire",
-          "home_score": 72,
-          "away_score": 77,
-          "draw_prob": null
-        }
-      ]
+      "recent": []
     },
     "supernetball": {
       "ratings": [
@@ -4797,7 +4452,7 @@
         },
         {
           "team": "New York Yankees",
-          "rating": 1511.1,
+          "rating": 1511.0,
           "rank": 8
         },
         {
@@ -4913,20 +4568,6 @@
       ],
       "upcoming": [
         {
-          "home": "Atlanta Braves",
-          "away": "New York Mets",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T16:30Z",
-          "home_prob": 63.6,
-          "away_prob": 36.4,
-          "margin": 3.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Truist Park",
-          "game_id": "mlb_401816033",
-          "draw_prob": null
-        },
-        {
           "home": "Cleveland Guardians",
           "away": "Chicago White Sox",
           "date": "2026-07-05",
@@ -4938,34 +4579,6 @@
           "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816031",
-          "draw_prob": null
-        },
-        {
-          "home": "Chicago Cubs",
-          "away": "St. Louis Cardinals",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T18:30Z",
-          "home_prob": 55.7,
-          "away_prob": 44.3,
-          "margin": -0.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Wrigley Field",
-          "game_id": "mlb_401816037",
-          "draw_prob": null
-        },
-        {
-          "home": "Kansas City Royals",
-          "away": "Philadelphia Phillies",
-          "date": "2026-07-05",
-          "datetime": "2026-07-05T19:00Z",
-          "home_prob": 43.9,
-          "away_prob": 56.1,
-          "margin": -1.6,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Kauffman Stadium",
-          "game_id": "mlb_401816036",
           "draw_prob": null
         },
         {
