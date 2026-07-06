@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-06T17:24:05.686258+00:00",
+    "updated": "2026-07-06T19:19:45.894187+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4947,7 +4947,7 @@
           "away_prob": 55.2,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401816049",
           "draw_prob": null
