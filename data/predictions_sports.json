@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-06T10:58:37.306727+00:00",
+    "updated": "2026-07-06T14:31:23.469167+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6499,7 +6499,7 @@
           "datetime": "2026-07-18T01:40Z",
           "home_prob": 50.6,
           "away_prob": 49.4,
-          "margin": -0.4,
+          "margin": -0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Chase Field",
@@ -6681,7 +6681,7 @@
           "datetime": "2026-07-18T20:10Z",
           "home_prob": 50.6,
           "away_prob": 49.4,
-          "margin": -0.4,
+          "margin": -0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Chase Field",
@@ -6933,7 +6933,7 @@
           "datetime": "2026-07-19T20:10Z",
           "home_prob": 50.6,
           "away_prob": 49.4,
-          "margin": -0.4,
+          "margin": -0.3,
           "home_fav": true,
           "locked": false,
           "venue": "Chase Field",
@@ -7129,7 +7129,7 @@
           "datetime": "2026-07-21T01:40Z",
           "home_prob": 56.3,
           "away_prob": 43.7,
-          "margin": 0.8,
+          "margin": 0.9,
           "home_fav": true,
           "locked": false,
           "venue": "Chase Field",
