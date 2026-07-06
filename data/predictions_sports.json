@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-06T22:41:36.786843+00:00",
+    "updated": "2026-07-06T23:48:42.785415+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -749,7 +749,7 @@
           "away_prob": 63.7,
           "margin": -1.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "CareFirst Arena",
           "game_id": "wnba_401857043",
           "draw_prob": null
@@ -4961,7 +4961,7 @@
           "away_prob": 47.6,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816045",
           "draw_prob": null
@@ -4975,7 +4975,7 @@
           "away_prob": 36.9,
           "margin": 3.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816047",
           "draw_prob": null
@@ -4989,7 +4989,7 @@
           "away_prob": 52.6,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401816048",
           "draw_prob": null
