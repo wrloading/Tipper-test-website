@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-07T18:04:04.697054+00:00",
+    "updated": "2026-07-07T20:17:17.986871+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -4895,7 +4895,7 @@
           "away_prob": 53.0,
           "margin": 0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401871790",
           "draw_prob": null
@@ -6805,6 +6805,20 @@
           "draw_prob": null
         },
         {
+          "home": "Philadelphia Phillies",
+          "away": "Los Angeles Dodgers",
+          "date": "2026-07-20",
+          "datetime": "2026-07-20T23:00Z",
+          "home_prob": 45.7,
+          "away_prob": 54.3,
+          "margin": -1.1,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Citizens Bank Park",
+          "game_id": "mlb_401816187",
+          "draw_prob": null
+        },
+        {
           "home": "New York Yankees",
           "away": "Pittsburgh Pirates",
           "date": "2026-07-20",
@@ -6844,20 +6858,6 @@
           "locked": false,
           "venue": "Fenway Park",
           "game_id": "mlb_401816186",
-          "draw_prob": null
-        },
-        {
-          "home": "Philadelphia Phillies",
-          "away": "Los Angeles Dodgers",
-          "date": "2026-07-20",
-          "datetime": "2026-07-20T23:10Z",
-          "home_prob": 45.7,
-          "away_prob": 54.3,
-          "margin": -1.1,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Citizens Bank Park",
-          "game_id": "mlb_401816187",
           "draw_prob": null
         },
         {
@@ -6990,7 +6990,7 @@
           "home": "Los Angeles Angels",
           "away": "St. Louis Cardinals",
           "date": "2026-07-21",
-          "datetime": "2026-07-21T02:10Z",
+          "datetime": "2026-07-21T02:00Z",
           "home_prob": 46.1,
           "away_prob": 53.9,
           "margin": -3.2,
