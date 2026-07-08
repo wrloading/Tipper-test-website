@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-08T21:44:43.575278+00:00",
+    "updated": "2026-07-08T22:47:30.880370+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5185,7 +5185,7 @@
           "away_prob": 50.8,
           "margin": 0.2,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816070",
           "draw_prob": null
@@ -5199,7 +5199,7 @@
           "away_prob": 40.1,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816068",
           "draw_prob": null
@@ -5213,7 +5213,7 @@
           "away_prob": 51.4,
           "margin": 1.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816069",
           "draw_prob": null
@@ -5227,7 +5227,7 @@
           "away_prob": 44.5,
           "margin": 1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816073",
           "draw_prob": null
@@ -5241,7 +5241,7 @@
           "away_prob": 48.3,
           "margin": 3.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816075",
           "draw_prob": null
@@ -5255,7 +5255,7 @@
           "away_prob": 48.1,
           "margin": -0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816071",
           "draw_prob": null
