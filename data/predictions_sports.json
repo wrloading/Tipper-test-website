@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-08T06:18:31.492509+00:00",
+    "updated": "2026-07-08T09:09:55.544193+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5107,7 +5107,7 @@
         },
         {
           "team": "San Diego Padres",
-          "rating": 1491.4,
+          "rating": 1491.5,
           "rank": 20
         },
         {
