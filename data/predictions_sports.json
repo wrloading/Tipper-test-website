@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-09T22:01:11.984016+00:00",
+    "updated": "2026-07-09T23:23:22.105404+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5105,7 +5105,7 @@
           "away_prob": 39.3,
           "margin": -0.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816083",
           "draw_prob": null
@@ -5119,7 +5119,7 @@
           "away_prob": 47.7,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816089",
           "draw_prob": null
@@ -5133,7 +5133,7 @@
           "away_prob": 53.6,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816088",
           "draw_prob": null
