@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-09T13:40:07.743580+00:00",
+    "updated": "2026-07-09T16:18:34.239260+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5142,7 +5142,7 @@
           "home": "Baltimore Orioles",
           "away": "Chicago Cubs",
           "date": "2026-07-09",
-          "datetime": "2026-07-09T17:35Z",
+          "datetime": "2026-07-09T17:30Z",
           "home_prob": 48.5,
           "away_prob": 51.5,
           "margin": 0.4,
