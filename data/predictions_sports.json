@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-09T16:18:34.239260+00:00",
+    "updated": "2026-07-09T18:20:13.602912+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2872,7 +2872,7 @@
           "home": "Nashville SC",
           "away": "Atlanta United FC",
           "date": "2026-07-18",
-          "datetime": "2026-07-18T00:00Z",
+          "datetime": "2026-07-18T00:10Z",
           "home_prob": 47.5,
           "away_prob": 35.4,
           "margin": 7.3,
@@ -5105,7 +5105,7 @@
           "away_prob": 52.2,
           "margin": 0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816084",
           "draw_prob": null
@@ -5119,7 +5119,7 @@
           "away_prob": 46.9,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816086",
           "draw_prob": null
@@ -5133,7 +5133,7 @@
           "away_prob": 43.8,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816087",
           "draw_prob": null
@@ -5147,7 +5147,7 @@
           "away_prob": 51.5,
           "margin": 0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816085",
           "draw_prob": null
@@ -5161,7 +5161,7 @@
           "away_prob": 46.1,
           "margin": 3.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401816092",
           "draw_prob": null
@@ -5175,7 +5175,7 @@
           "away_prob": 49.5,
           "margin": -1.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401816091",
           "draw_prob": null
