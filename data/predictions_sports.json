@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-09T10:34:39.716779+00:00",
+    "updated": "2026-07-09T13:40:07.743580+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Fremantle",
-          "away": "Sydney",
-          "date": "2026-07-09",
-          "datetime": "2026-07-09T10:10Z",
-          "home_prob": 62.0,
-          "away_prob": 38.0,
-          "margin": 8.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133635",
-          "draw_prob": null
-        },
         {
           "home": "Collingwood",
           "away": "North Melbourne",
@@ -2900,7 +2886,7 @@
           "home": "LA Galaxy",
           "away": "Los Angeles FC",
           "date": "2026-07-18",
-          "datetime": "2026-07-18T02:45Z",
+          "datetime": "2026-07-18T02:25Z",
           "home_prob": 57.6,
           "away_prob": 28.8,
           "margin": 17.2,
@@ -5100,7 +5086,7 @@
         },
         {
           "team": "Colorado Rockies",
-          "rating": 1460.9,
+          "rating": 1461.0,
           "rank": 29
         },
         {
