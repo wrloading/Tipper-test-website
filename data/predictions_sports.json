@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-10T11:36:54.068987+00:00",
+    "updated": "2026-07-10T13:46:49.667839+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Collingwood",
-          "away": "North Melbourne",
-          "date": "2026-07-10",
-          "datetime": "2026-07-10T09:40Z",
-          "home_prob": 81.3,
-          "away_prob": 18.7,
-          "margin": 11.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133629",
-          "draw_prob": null
-        },
         {
           "home": "St Kilda",
           "away": "Port Adelaide",
