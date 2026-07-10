@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-10T15:10:37.070056+10:00",
+    "updated": "2026-07-10T18:43:41.012446+10:00",
     "year": 2026,
     "current_round": 18,
     "model": "TELO v2.0",
@@ -109205,7 +109205,7 @@
       "points_for": 1690,
       "points_against": 1188,
       "finals_pct": 100.0,
-      "premiers_pct": 37.2
+      "premiers_pct": 37.1
     },
     {
       "team": "Brisbane Lions",
@@ -109218,7 +109218,7 @@
       "points_for": 1674,
       "points_against": 1498,
       "finals_pct": 99.5,
-      "premiers_pct": 16.4
+      "premiers_pct": 16.6
     },
     {
       "team": "Sydney",
@@ -109243,7 +109243,7 @@
       "percentage": 110.0,
       "points_for": 1547,
       "points_against": 1406,
-      "finals_pct": 99.3,
+      "finals_pct": 99.2,
       "premiers_pct": 10.7
     },
     {
@@ -109256,8 +109256,8 @@
       "percentage": 111.4,
       "points_for": 1427,
       "points_against": 1281,
-      "finals_pct": 97.9,
-      "premiers_pct": 6.4
+      "finals_pct": 97.8,
+      "premiers_pct": 6.3
     },
     {
       "team": "Geelong",
@@ -109269,8 +109269,8 @@
       "percentage": 117.1,
       "points_for": 1591,
       "points_against": 1359,
-      "finals_pct": 90.5,
-      "premiers_pct": 4.0
+      "finals_pct": 90.7,
+      "premiers_pct": 4.1
     },
     {
       "team": "Western Bulldogs",
@@ -109282,7 +109282,7 @@
       "percentage": 90.8,
       "points_for": 1325,
       "points_against": 1459,
-      "finals_pct": 88.2,
+      "finals_pct": 88.0,
       "premiers_pct": 3.0
     },
     {
@@ -109295,7 +109295,7 @@
       "percentage": 104.5,
       "points_for": 1357,
       "points_against": 1299,
-      "finals_pct": 24.6,
+      "finals_pct": 25.0,
       "premiers_pct": 0.5
     },
     {
@@ -109308,8 +109308,8 @@
       "percentage": 106.3,
       "points_for": 1555,
       "points_against": 1463,
-      "finals_pct": 84.8,
-      "premiers_pct": 1.8
+      "finals_pct": 84.7,
+      "premiers_pct": 1.9
     },
     {
       "team": "Greater Western Sydney",
@@ -109321,7 +109321,7 @@
       "percentage": 100.8,
       "points_for": 1471,
       "points_against": 1460,
-      "finals_pct": 5.1,
+      "finals_pct": 5.2,
       "premiers_pct": 0.1
     },
     {
@@ -109334,7 +109334,7 @@
       "percentage": 96.0,
       "points_for": 1328,
       "points_against": 1384,
-      "finals_pct": 5.8,
+      "finals_pct": 5.7,
       "premiers_pct": 0.1
     },
     {
@@ -109360,7 +109360,7 @@
       "percentage": 105.5,
       "points_for": 1451,
       "points_against": 1376,
-      "finals_pct": 2.2,
+      "finals_pct": 2.4,
       "premiers_pct": 0.0
     },
     {

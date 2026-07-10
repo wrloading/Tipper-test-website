@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-10T05:11:01.360033+00:00",
+    "updated": "2026-07-10T08:44:05.288756+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5028,7 +5028,7 @@
         },
         {
           "team": "Arizona Diamondbacks",
-          "rating": 1489.4,
+          "rating": 1489.5,
           "rank": 23
         },
         {
