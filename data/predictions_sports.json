@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-10T22:18:52.700965+00:00",
+    "updated": "2026-07-10T23:32:10.493718+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -735,7 +735,7 @@
           "away_prob": 80.5,
           "margin": -3.6,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Mohegan Sun Arena",
           "game_id": "wnba_401857054",
           "draw_prob": null
@@ -749,7 +749,7 @@
           "away_prob": 69.5,
           "margin": -1.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Bell Centre",
           "game_id": "wnba_401857055",
           "draw_prob": null
@@ -5063,7 +5063,7 @@
           "away_prob": 55.8,
           "margin": 1.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816100",
           "draw_prob": null
@@ -5077,7 +5077,7 @@
           "away_prob": 47.1,
           "margin": 3.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816102",
           "draw_prob": null
@@ -5091,7 +5091,7 @@
           "away_prob": 49.9,
           "margin": -1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816101",
           "draw_prob": null
@@ -5105,7 +5105,7 @@
           "away_prob": 42.2,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816099",
           "draw_prob": null
@@ -5119,7 +5119,7 @@
           "away_prob": 55.6,
           "margin": 2.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816097",
           "draw_prob": null
@@ -5133,7 +5133,7 @@
           "away_prob": 45.1,
           "margin": -1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816098",
           "draw_prob": null
@@ -5147,23 +5147,9 @@
           "away_prob": 44.7,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816103",
-          "draw_prob": null
-        },
-        {
-          "home": "New York Mets",
-          "away": "Boston Red Sox",
-          "date": "2026-07-10",
-          "datetime": "2026-07-10T23:15Z",
-          "home_prob": 46.7,
-          "away_prob": 53.3,
-          "margin": -3.2,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Citi Field",
-          "game_id": "mlb_401816096",
           "draw_prob": null
         },
         {
@@ -5178,6 +5164,20 @@
           "locked": false,
           "venue": "Rate Field",
           "game_id": "mlb_401816105",
+          "draw_prob": null
+        },
+        {
+          "home": "New York Mets",
+          "away": "Boston Red Sox",
+          "date": "2026-07-10",
+          "datetime": "2026-07-10T23:50Z",
+          "home_prob": 46.7,
+          "away_prob": 53.3,
+          "margin": -3.2,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Citi Field",
+          "game_id": "mlb_401816096",
           "draw_prob": null
         },
         {
