@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-11T15:17:49.422592+00:00",
+    "updated": "2026-07-11T16:28:07.912634+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Adelaide",
-          "away": "Gold Coast SUNS",
-          "date": "2026-07-11",
-          "datetime": "2026-07-11T10:10Z",
-          "home_prob": 81.3,
-          "away_prob": 18.7,
-          "margin": 24.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133634",
-          "draw_prob": null
-        },
         {
           "home": "Western Bulldogs",
           "away": "West Coast",
@@ -5231,7 +5217,7 @@
           "away_prob": 55.8,
           "margin": 2.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401889917",
           "draw_prob": null
@@ -5713,20 +5699,6 @@
           "draw_prob": null
         },
         {
-          "home": "Toronto Blue Jays",
-          "away": "Chicago White Sox",
-          "date": "2026-07-17",
-          "datetime": "2026-07-17T23:07Z",
-          "home_prob": 52.8,
-          "away_prob": 47.2,
-          "margin": -2.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Rogers Centre",
-          "game_id": "mlb_401816141",
-          "draw_prob": null
-        },
-        {
           "home": "Cleveland Guardians",
           "away": "Pittsburgh Pirates",
           "date": "2026-07-17",
@@ -5752,6 +5724,20 @@
           "locked": false,
           "venue": "Fenway Park",
           "game_id": "mlb_401816145",
+          "draw_prob": null
+        },
+        {
+          "home": "Toronto Blue Jays",
+          "away": "Chicago White Sox",
+          "date": "2026-07-17",
+          "datetime": "2026-07-17T23:15Z",
+          "home_prob": 52.8,
+          "away_prob": 47.2,
+          "margin": -2.3,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Rogers Centre",
+          "game_id": "mlb_401816141",
           "draw_prob": null
         },
         {
