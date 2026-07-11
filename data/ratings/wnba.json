@@ -2,9 +2,9 @@
   "sport": "wnba",
   "current_season": 2026,
   "ratings": {
+    "Golden State Valkyries": 1706.84,
     "Minnesota Lynx": 1699.46,
-    "Golden State Valkyries": 1693.84,
-    "Dallas Wings": 1625.28,
+    "Dallas Wings": 1644.59,
     "New York Liberty": 1623.59,
     "Las Vegas Aces": 1612.77,
     "Indiana Fever": 1570.93,
@@ -15,12 +15,12 @@
     "Team Wilson": 1493.29,
     "Team USA": 1476.17,
     "Washington Mystics": 1456.59,
-    "Chicago Sky": 1402.7,
+    "Los Angeles Sparks": 1425.33,
     "Phoenix Mercury": 1402.19,
-    "Toronto Tempo": 1402.04,
-    "Los Angeles Sparks": 1399.27,
+    "Toronto Tempo": 1382.73,
+    "Chicago Sky": 1376.64,
     "Seattle Storm": 1374.46,
-    "Connecticut Sun": 1367.95,
-    "Portland Fire": 1358.68
+    "Portland Fire": 1358.68,
+    "Connecticut Sun": 1354.95
   }
 }
