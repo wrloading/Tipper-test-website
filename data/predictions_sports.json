@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-11T17:33:01.074668+00:00",
+    "updated": "2026-07-11T18:38:30.584933+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5231,7 +5231,7 @@
           "away_prob": 41.5,
           "margin": 1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401816119",
           "draw_prob": null
@@ -5245,7 +5245,7 @@
           "away_prob": 40.2,
           "margin": -0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401816120",
           "draw_prob": null
