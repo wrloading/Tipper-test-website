@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-11T12:31:14.536426+00:00",
+    "updated": "2026-07-11T14:05:52.899050+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,6 +99,20 @@
         }
       ],
       "upcoming": [
+        {
+          "home": "Carlton",
+          "away": "Hawthorn",
+          "date": "2026-07-11",
+          "datetime": "2026-07-11T09:35Z",
+          "home_prob": 60.5,
+          "away_prob": 39.5,
+          "margin": -2.1,
+          "home_fav": true,
+          "locked": true,
+          "venue": "MCG",
+          "game_id": "afl_1133628",
+          "draw_prob": null
+        },
         {
           "home": "Adelaide",
           "away": "Gold Coast SUNS",
