@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-12T22:54:43.718531+00:00",
+    "updated": "2026-07-12T23:59:28.770997+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -731,7 +731,7 @@
           "away_prob": 11.9,
           "margin": 3.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Airlines Center",
           "game_id": "wnba_401857062",
           "draw_prob": null
@@ -5172,20 +5172,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Los Angeles Dodgers",
-          "away": "Arizona Diamondbacks",
-          "date": "2026-07-12",
-          "datetime": "2026-07-12T20:10Z",
-          "home_prob": 62.3,
-          "away_prob": 37.7,
-          "margin": 0.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Dodger Stadium",
-          "game_id": "mlb_401816138",
-          "draw_prob": null
-        },
         {
           "home": "National All-Stars",
           "away": "American All-Stars",
