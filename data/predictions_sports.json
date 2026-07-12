@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-12T06:22:05.214791+00:00",
+    "updated": "2026-07-12T08:41:07.658883+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Melbourne",
-          "away": "Richmond",
-          "date": "2026-07-12",
-          "datetime": "2026-07-12T05:15Z",
-          "home_prob": 93.4,
-          "away_prob": 6.6,
-          "margin": 40.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133631",
-          "draw_prob": null
-        },
-        {
           "home": "Brisbane Lions",
           "away": "Essendon",
           "date": "2026-07-12",
@@ -122,7 +108,7 @@
           "away_prob": 2.6,
           "margin": 21.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gabba",
           "game_id": "afl_1133627",
           "draw_prob": null
@@ -484,26 +470,6 @@
           "draw_prob": null
         },
         {
-          "home": "St Kilda",
-          "away": "Port Adelaide",
-          "date": "2026-07-11",
-          "home_prob": 66.9,
-          "winner": "St Kilda",
-          "home_score": 87,
-          "away_score": 73,
-          "draw_prob": null
-        },
-        {
-          "home": "GWS GIANTS",
-          "away": "Geelong",
-          "date": "2026-07-11",
-          "home_prob": 60.5,
-          "winner": "GWS GIANTS",
-          "home_score": 86,
-          "away_score": 73,
-          "draw_prob": null
-        },
-        {
           "home": "Carlton",
           "away": "Hawthorn",
           "date": "2026-07-11",
@@ -521,6 +487,26 @@
           "winner": "Adelaide",
           "home_score": 128,
           "away_score": 49,
+          "draw_prob": null
+        },
+        {
+          "home": "St Kilda",
+          "away": "Port Adelaide",
+          "date": "2026-07-11",
+          "home_prob": 66.9,
+          "winner": "St Kilda",
+          "home_score": 87,
+          "away_score": 73,
+          "draw_prob": null
+        },
+        {
+          "home": "GWS GIANTS",
+          "away": "Geelong",
+          "date": "2026-07-11",
+          "home_prob": 60.5,
+          "winner": "GWS GIANTS",
+          "home_score": 86,
+          "away_score": 73,
           "draw_prob": null
         }
       ]
