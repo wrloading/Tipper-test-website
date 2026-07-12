@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-12T10:17:20.977057+00:00",
+    "updated": "2026-07-12T11:36:17.219946+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Brisbane Lions",
-          "away": "Essendon",
-          "date": "2026-07-12",
-          "datetime": "2026-07-12T06:40Z",
-          "home_prob": 97.4,
-          "away_prob": 2.6,
-          "margin": 21.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gabba",
-          "game_id": "afl_1133627",
-          "draw_prob": null
-        },
         {
           "home": "Geelong",
           "away": "St Kilda",
@@ -470,26 +456,6 @@
           "draw_prob": null
         },
         {
-          "home": "Carlton",
-          "away": "Hawthorn",
-          "date": "2026-07-11",
-          "home_prob": 44.0,
-          "winner": "Hawthorn",
-          "home_score": 39,
-          "away_score": 103,
-          "draw_prob": null
-        },
-        {
-          "home": "Adelaide",
-          "away": "Gold Coast SUNS",
-          "date": "2026-07-11",
-          "home_prob": 84.2,
-          "winner": "Adelaide",
-          "home_score": 128,
-          "away_score": 49,
-          "draw_prob": null
-        },
-        {
           "home": "St Kilda",
           "away": "Port Adelaide",
           "date": "2026-07-11",
@@ -507,6 +473,26 @@
           "winner": "GWS GIANTS",
           "home_score": 86,
           "away_score": 73,
+          "draw_prob": null
+        },
+        {
+          "home": "Carlton",
+          "away": "Hawthorn",
+          "date": "2026-07-11",
+          "home_prob": 44.0,
+          "winner": "Hawthorn",
+          "home_score": 39,
+          "away_score": 103,
+          "draw_prob": null
+        },
+        {
+          "home": "Adelaide",
+          "away": "Gold Coast SUNS",
+          "date": "2026-07-11",
+          "home_prob": 84.2,
+          "winner": "Adelaide",
+          "home_score": 128,
+          "away_score": 49,
           "draw_prob": null
         }
       ]
