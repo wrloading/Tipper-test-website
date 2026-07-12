@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-12T17:39:02.104980+00:00",
+    "updated": "2026-07-12T18:40:55.774377+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5231,7 +5231,7 @@
           "away_prob": 55.0,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816126",
           "draw_prob": null
@@ -5245,7 +5245,7 @@
           "away_prob": 55.1,
           "margin": 1.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816127",
           "draw_prob": null
@@ -5259,7 +5259,7 @@
           "away_prob": 46.4,
           "margin": -2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816128",
           "draw_prob": null
@@ -5273,7 +5273,7 @@
           "away_prob": 46.6,
           "margin": 2.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816132",
           "draw_prob": null
@@ -5287,7 +5287,7 @@
           "away_prob": 42.9,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816133",
           "draw_prob": null
@@ -5301,7 +5301,7 @@
           "away_prob": 41.0,
           "margin": 2.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401816134",
           "draw_prob": null
@@ -5315,7 +5315,7 @@
           "away_prob": 39.9,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401816135",
           "draw_prob": null
@@ -5329,7 +5329,7 @@
           "away_prob": 50.5,
           "margin": -3.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401816136",
           "draw_prob": null
@@ -5343,7 +5343,7 @@
           "away_prob": 47.2,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Globe Life Field",
           "game_id": "mlb_401816137",
           "draw_prob": null
