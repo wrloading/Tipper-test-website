@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-13T22:41:34.647996+00:00",
+    "updated": "2026-07-13T23:38:51.022992+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -769,7 +769,7 @@
           "away_prob": 32.8,
           "margin": 5.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Gateway Center",
           "game_id": "wnba_401857064",
           "draw_prob": null
