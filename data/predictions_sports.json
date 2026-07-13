@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-13T15:37:52.216779+00:00",
+    "updated": "2026-07-13T17:44:30.672407+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1155,8 +1155,8 @@
         {
           "home": "TBD",
           "away": "TBD",
-          "date": "2026-07-25",
-          "datetime": "2026-07-25T04:00Z",
+          "date": "2026-07-26",
+          "datetime": "2026-07-26T00:30Z",
           "home_prob": 61.3,
           "away_prob": 38.7,
           "margin": 3.6,
