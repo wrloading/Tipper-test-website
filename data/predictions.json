@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-15T07:05:00.416061+10:00",
+    "updated": "2026-07-15T08:14:36.574611+10:00",
     "year": 2026,
     "current_round": 19,
     "model": "TELO v2.0",
@@ -108273,7 +108273,7 @@
       "points_for": 1690,
       "points_against": 1188,
       "finals_pct": 100.0,
-      "premiers_pct": 35.8
+      "premiers_pct": 35.9
     },
     {
       "team": "Brisbane Lions",
@@ -108286,7 +108286,7 @@
       "points_for": 1823,
       "points_against": 1557,
       "finals_pct": 99.7,
-      "premiers_pct": 16.9
+      "premiers_pct": 16.1
     },
     {
       "team": "Sydney",
@@ -108312,7 +108312,7 @@
       "points_for": 1650,
       "points_against": 1445,
       "finals_pct": 99.9,
-      "premiers_pct": 13.9
+      "premiers_pct": 14.2
     },
     {
       "team": "Adelaide",
@@ -108324,8 +108324,8 @@
       "percentage": 116.9,
       "points_for": 1555,
       "points_against": 1330,
-      "finals_pct": 98.9,
-      "premiers_pct": 7.0
+      "finals_pct": 99.1,
+      "premiers_pct": 7.1
     },
     {
       "team": "Western Bulldogs",
@@ -108337,8 +108337,8 @@
       "percentage": 92.3,
       "points_for": 1411,
       "points_against": 1529,
-      "finals_pct": 92.6,
-      "premiers_pct": 3.1
+      "finals_pct": 92.5,
+      "premiers_pct": 3.0
     },
     {
       "team": "Geelong",
@@ -108350,8 +108350,8 @@
       "percentage": 115.2,
       "points_for": 1664,
       "points_against": 1445,
-      "finals_pct": 74.6,
-      "premiers_pct": 1.8
+      "finals_pct": 74.9,
+      "premiers_pct": 2.0
     },
     {
       "team": "Collingwood",
@@ -108363,7 +108363,7 @@
       "percentage": 104.5,
       "points_for": 1446,
       "points_against": 1384,
-      "finals_pct": 31.7,
+      "finals_pct": 31.6,
       "premiers_pct": 0.7
     },
     {
@@ -108376,8 +108376,8 @@
       "percentage": 109.0,
       "points_for": 1666,
       "points_against": 1528,
-      "finals_pct": 86.8,
-      "premiers_pct": 1.9
+      "finals_pct": 86.7,
+      "premiers_pct": 2.0
     },
     {
       "team": "Greater Western Sydney",
