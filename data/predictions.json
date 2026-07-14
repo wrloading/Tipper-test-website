@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-14T14:19:06.798390+10:00",
+    "updated": "2026-07-14T16:36:47.533065+10:00",
     "year": 2026,
     "current_round": 19,
     "model": "TELO v2.0",
@@ -108273,7 +108273,7 @@
       "points_for": 1690,
       "points_against": 1188,
       "finals_pct": 100.0,
-      "premiers_pct": 35.8
+      "premiers_pct": 36.0
     },
     {
       "team": "Brisbane Lions",
@@ -108299,7 +108299,7 @@
       "points_for": 1824,
       "points_against": 1390,
       "finals_pct": 100.0,
-      "premiers_pct": 18.9
+      "premiers_pct": 18.7
     },
     {
       "team": "Hawthorn",
@@ -108312,7 +108312,7 @@
       "points_for": 1650,
       "points_against": 1445,
       "finals_pct": 99.9,
-      "premiers_pct": 14.1
+      "premiers_pct": 13.8
     },
     {
       "team": "Adelaide",
@@ -108325,7 +108325,7 @@
       "points_for": 1555,
       "points_against": 1330,
       "finals_pct": 99.0,
-      "premiers_pct": 6.8
+      "premiers_pct": 7.1
     },
     {
       "team": "Western Bulldogs",
@@ -108338,7 +108338,7 @@
       "points_for": 1411,
       "points_against": 1529,
       "finals_pct": 92.7,
-      "premiers_pct": 3.0
+      "premiers_pct": 3.1
     },
     {
       "team": "Geelong",
@@ -108363,8 +108363,8 @@
       "percentage": 104.5,
       "points_for": 1446,
       "points_against": 1384,
-      "finals_pct": 31.1,
-      "premiers_pct": 0.7
+      "finals_pct": 31.5,
+      "premiers_pct": 0.8
     },
     {
       "team": "Melbourne",
@@ -108376,7 +108376,7 @@
       "percentage": 109.0,
       "points_for": 1666,
       "points_against": 1528,
-      "finals_pct": 87.0,
+      "finals_pct": 86.8,
       "premiers_pct": 2.0
     },
     {
@@ -108389,7 +108389,7 @@
       "percentage": 101.6,
       "points_for": 1557,
       "points_against": 1533,
-      "finals_pct": 9.5,
+      "finals_pct": 9.3,
       "premiers_pct": 0.1
     },
     {
