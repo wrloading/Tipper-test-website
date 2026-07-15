@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-16T01:53:08.413463+10:00",
+    "updated": "2026-07-16T03:21:35.171219+10:00",
     "year": 2026,
     "current_round": 19,
     "model": "TELO v2.0",
@@ -108273,7 +108273,7 @@
       "points_for": 1690,
       "points_against": 1188,
       "finals_pct": 100.0,
-      "premiers_pct": 36.2
+      "premiers_pct": 35.4
     },
     {
       "team": "Brisbane Lions",
@@ -108286,7 +108286,7 @@
       "points_for": 1823,
       "points_against": 1557,
       "finals_pct": 99.7,
-      "premiers_pct": 16.3
+      "premiers_pct": 16.5
     },
     {
       "team": "Sydney",
@@ -108299,7 +108299,7 @@
       "points_for": 1824,
       "points_against": 1390,
       "finals_pct": 100.0,
-      "premiers_pct": 18.6
+      "premiers_pct": 19.0
     },
     {
       "team": "Hawthorn",
@@ -108312,7 +108312,7 @@
       "points_for": 1650,
       "points_against": 1445,
       "finals_pct": 99.9,
-      "premiers_pct": 13.9
+      "premiers_pct": 14.2
     },
     {
       "team": "Adelaide",
@@ -108324,7 +108324,7 @@
       "percentage": 116.9,
       "points_for": 1555,
       "points_against": 1330,
-      "finals_pct": 98.9,
+      "finals_pct": 99.0,
       "premiers_pct": 7.2
     },
     {
@@ -108337,8 +108337,8 @@
       "percentage": 92.3,
       "points_for": 1411,
       "points_against": 1529,
-      "finals_pct": 92.7,
-      "premiers_pct": 3.1
+      "finals_pct": 92.6,
+      "premiers_pct": 3.0
     },
     {
       "team": "Geelong",
@@ -108363,7 +108363,7 @@
       "percentage": 104.5,
       "points_for": 1446,
       "points_against": 1384,
-      "finals_pct": 31.4,
+      "finals_pct": 31.5,
       "premiers_pct": 0.6
     },
     {
@@ -108376,7 +108376,7 @@
       "percentage": 109.0,
       "points_for": 1666,
       "points_against": 1528,
-      "finals_pct": 86.8,
+      "finals_pct": 86.7,
       "premiers_pct": 2.0
     },
     {
@@ -108390,7 +108390,7 @@
       "points_for": 1557,
       "points_against": 1533,
       "finals_pct": 9.6,
-      "premiers_pct": 0.1
+      "premiers_pct": 0.2
     },
     {
       "team": "Carlton",
