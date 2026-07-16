@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-16T17:25:57.731658+00:00",
+    "updated": "2026-07-16T18:43:46.022957+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -926,6 +926,20 @@
           "locked": false,
           "venue": "Coca-Cola Coliseum",
           "game_id": "wnba_401857083",
+          "draw_prob": null
+        },
+        {
+          "home": "Dallas Wings",
+          "away": "New York Liberty",
+          "date": "2026-07-21",
+          "datetime": "2026-07-21T00:00Z",
+          "home_prob": 68.8,
+          "away_prob": 31.2,
+          "margin": 1.9,
+          "home_fav": true,
+          "locked": false,
+          "venue": "College Park Center",
+          "game_id": "wnba_401892393",
           "draw_prob": null
         },
         {
