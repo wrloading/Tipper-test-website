@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-16T19:49:32.178856+00:00",
+    "updated": "2026-07-16T21:04:49.381755+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5282,7 +5282,7 @@
           "home": "Philadelphia Phillies",
           "away": "New York Mets",
           "date": "2026-07-16",
-          "datetime": "2026-07-16T23:00Z",
+          "datetime": "2026-07-16T22:00Z",
           "home_prob": 61.3,
           "away_prob": 38.7,
           "margin": -0.2,
