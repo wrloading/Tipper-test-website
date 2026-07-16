@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-16T15:58:54.458812+00:00",
+    "updated": "2026-07-16T17:25:57.731658+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Geelong",
-          "away": "St Kilda",
-          "date": "2026-07-16",
-          "datetime": "2026-07-16T09:30Z",
-          "home_prob": 66.7,
-          "away_prob": 33.3,
-          "margin": 18.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "GMHBA Stadium",
-          "game_id": "afl_1133638",
-          "draw_prob": null
-        },
         {
           "home": "Sydney",
           "away": "Adelaide",
