@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-16T21:04:49.381755+00:00",
+    "updated": "2026-07-16T22:18:00.244407+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2785,20 +2785,6 @@
           "draw_prob": 10.7
         },
         {
-          "home": "Chicago Fire FC",
-          "away": "Vancouver Whitecaps",
-          "date": "2026-07-17",
-          "datetime": "2026-07-17T00:30Z",
-          "home_prob": 35.9,
-          "away_prob": 46.7,
-          "margin": -6.5,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Soldier Field",
-          "game_id": "mls_761660",
-          "draw_prob": 17.3
-        },
-        {
           "home": "St. Louis CITY SC",
           "away": "Sporting Kansas City",
           "date": "2026-07-17",
@@ -5287,7 +5273,7 @@
           "away_prob": 38.7,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401816143",
           "draw_prob": null
