@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-17T13:44:42.333074+00:00",
+    "updated": "2026-07-17T15:05:24.343608+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,6 +99,20 @@
         }
       ],
       "upcoming": [
+        {
+          "home": "Sydney",
+          "away": "Adelaide",
+          "date": "2026-07-17",
+          "datetime": "2026-07-17T09:40Z",
+          "home_prob": 67.1,
+          "away_prob": 32.9,
+          "margin": 19.0,
+          "home_fav": true,
+          "locked": true,
+          "venue": "SCG",
+          "game_id": "afl_1133642",
+          "draw_prob": null
+        },
         {
           "home": "Port Adelaide",
           "away": "Fremantle",
