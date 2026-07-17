@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-17T16:37:42.144248+00:00",
+    "updated": "2026-07-17T17:49:07.953561+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5239,7 +5239,7 @@
           "away_prob": 46.4,
           "margin": -1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401872178",
           "draw_prob": null
@@ -5408,7 +5408,7 @@
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
-          "venue": "Chase Field",
+          "venue": "Chase Field (NH)",
           "game_id": "mlb_401816154",
           "draw_prob": null
         },
@@ -5590,7 +5590,7 @@
           "margin": -0.3,
           "home_fav": true,
           "locked": false,
-          "venue": "Chase Field",
+          "venue": "Chase Field (NH)",
           "game_id": "mlb_401816169",
           "draw_prob": null
         },
