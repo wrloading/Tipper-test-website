@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-17T08:31:12.459908+00:00",
+    "updated": "2026-07-17T10:23:49.140236+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 32.9,
           "margin": 19.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "SCG",
           "game_id": "afl_1133642",
           "draw_prob": null
