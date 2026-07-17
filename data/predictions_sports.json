@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-17T06:07:57.560166+00:00",
+    "updated": "2026-07-17T08:31:12.459908+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1041,8 +1041,8 @@
           "draw_prob": null
         },
         {
-          "home": "TBD",
-          "away": "TBD",
+          "home": "TEAM COOP",
+          "away": "TEAM SPOON",
           "date": "2026-07-26",
           "datetime": "2026-07-26T00:30Z",
           "home_prob": 61.3,
