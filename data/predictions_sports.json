@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T05:55:11.701557+00:00",
+    "updated": "2026-07-18T07:56:26.786713+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 72.9,
           "margin": 6.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133640",
           "draw_prob": null
@@ -5280,7 +5280,7 @@
         },
         {
           "team": "Baltimore Orioles",
-          "rating": 1509.6,
+          "rating": 1509.7,
           "rank": 11
         },
         {
@@ -7891,8 +7891,8 @@
           "away": "Philadelphia Phillies",
           "date": "2026-07-31",
           "datetime": "2026-07-31T23:05Z",
-          "home_prob": 52.1,
-          "away_prob": 47.9,
+          "home_prob": 52.2,
+          "away_prob": 47.8,
           "margin": 2.8,
           "home_fav": true,
           "locked": false,
@@ -8045,8 +8045,8 @@
           "away": "Boston Red Sox",
           "date": "2026-08-01",
           "datetime": "2026-08-01T02:10Z",
-          "home_prob": 57.3,
-          "away_prob": 42.7,
+          "home_prob": 57.4,
+          "away_prob": 42.6,
           "margin": -0.1,
           "home_fav": true,
           "locked": false,
@@ -8143,8 +8143,8 @@
           "away": "Philadelphia Phillies",
           "date": "2026-08-01",
           "datetime": "2026-08-01T23:05Z",
-          "home_prob": 52.1,
-          "away_prob": 47.9,
+          "home_prob": 52.2,
+          "away_prob": 47.8,
           "margin": 2.8,
           "home_fav": true,
           "locked": false,
