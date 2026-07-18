@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T09:30:24.139103+00:00",
+    "updated": "2026-07-18T10:49:45.013411+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -122,7 +122,7 @@
           "away_prob": 40.0,
           "margin": 13.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133636",
           "draw_prob": null
@@ -136,7 +136,7 @@
           "away_prob": 92.7,
           "margin": -14.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Optus Stadium",
           "game_id": "afl_1133644",
           "draw_prob": null

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T19:29:55.566075+10:00",
+    "updated": "2026-07-18T20:49:18.270394+10:00",
     "year": 2026,
     "current_round": 19,
     "model": "TELO v2.0",
@@ -73344,7 +73344,7 @@
           "margin": 16.1,
           "home_prob": 59.2,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Edward Allan",
@@ -73980,7 +73980,7 @@
           "margin": 97.5,
           "home_prob": 9.6,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Bo Allan",
@@ -105717,7 +105717,7 @@
       "points_for": 1793,
       "points_against": 1263,
       "finals_pct": 100.0,
-      "premiers_pct": 37.4
+      "premiers_pct": 37.2
     },
     {
       "team": "Brisbane Lions",
@@ -105729,8 +105729,8 @@
       "percentage": 117.1,
       "points_for": 1823,
       "points_against": 1557,
-      "finals_pct": 99.5,
-      "premiers_pct": 15.4
+      "finals_pct": 99.6,
+      "premiers_pct": 15.6
     },
     {
       "team": "Adelaide",
@@ -105743,7 +105743,7 @@
       "points_for": 1642,
       "points_against": 1401,
       "finals_pct": 99.9,
-      "premiers_pct": 13.9
+      "premiers_pct": 13.6
     },
     {
       "team": "Hawthorn",
@@ -105756,7 +105756,7 @@
       "points_for": 1650,
       "points_against": 1445,
       "finals_pct": 99.9,
-      "premiers_pct": 11.8
+      "premiers_pct": 12.1
     },
     {
       "team": "Sydney",
@@ -105769,7 +105769,7 @@
       "points_for": 1895,
       "points_against": 1477,
       "finals_pct": 100.0,
-      "premiers_pct": 13.1
+      "premiers_pct": 13.2
     },
     {
       "team": "Geelong",
@@ -105781,7 +105781,7 @@
       "percentage": 116.2,
       "points_for": 1766,
       "points_against": 1520,
-      "finals_pct": 86.7,
+      "finals_pct": 86.5,
       "premiers_pct": 2.5
     },
     {
@@ -105794,7 +105794,7 @@
       "percentage": 92.3,
       "points_for": 1411,
       "points_against": 1529,
-      "finals_pct": 89.6,
+      "finals_pct": 89.4,
       "premiers_pct": 2.6
     },
     {
@@ -105808,7 +105808,7 @@
       "points_for": 1758,
       "points_against": 1604,
       "finals_pct": 97.3,
-      "premiers_pct": 2.8
+      "premiers_pct": 2.7
     },
     {
       "team": "Collingwood",
@@ -105820,7 +105820,7 @@
       "percentage": 104.5,
       "points_for": 1446,
       "points_against": 1384,
-      "finals_pct": 18.5,
+      "finals_pct": 18.8,
       "premiers_pct": 0.4
     },
     {
@@ -105833,7 +105833,7 @@
       "percentage": 101.6,
       "points_for": 1557,
       "points_against": 1533,
-      "finals_pct": 6.8,
+      "finals_pct": 6.9,
       "premiers_pct": 0.1
     },
     {
@@ -105846,7 +105846,7 @@
       "percentage": 91.9,
       "points_for": 1367,
       "points_against": 1487,
-      "finals_pct": 1.0,
+      "finals_pct": 0.9,
       "premiers_pct": 0.0
     },
     {
@@ -105872,7 +105872,7 @@
       "percentage": 95.6,
       "points_for": 1506,
       "points_against": 1575,
-      "finals_pct": 0.1,
+      "finals_pct": 0.001,
       "premiers_pct": 0.0
     },
     {
