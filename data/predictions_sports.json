@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T14:37:03.283650+00:00",
+    "updated": "2026-07-18T15:40:52.033837+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Collingwood",
-          "away": "Carlton",
-          "date": "2026-07-18",
-          "datetime": "2026-07-18T09:35Z",
-          "home_prob": 60.0,
-          "away_prob": 40.0,
-          "margin": 13.5,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133636",
-          "draw_prob": null
-        },
-        {
-          "home": "West Coast",
-          "away": "Brisbane Lions",
-          "date": "2026-07-18",
-          "datetime": "2026-07-18T10:10Z",
-          "home_prob": 7.3,
-          "away_prob": 92.7,
-          "margin": -14.1,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133644",
-          "draw_prob": null
-        },
         {
           "home": "Richmond",
           "away": "Hawthorn",
@@ -5395,6 +5367,20 @@
           "draw_prob": null
         },
         {
+          "home": "Philadelphia Phillies",
+          "away": "New York Mets",
+          "date": "2026-07-18",
+          "datetime": "2026-07-18T19:05Z",
+          "home_prob": 60.3,
+          "away_prob": 39.7,
+          "margin": -0.3,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Citizens Bank Park",
+          "game_id": "mlb_401816158",
+          "draw_prob": null
+        },
+        {
           "home": "Toronto Blue Jays",
           "away": "Chicago White Sox",
           "date": "2026-07-18",
@@ -5420,20 +5406,6 @@
           "locked": false,
           "venue": "Coors Field",
           "game_id": "mlb_401816166",
-          "draw_prob": null
-        },
-        {
-          "home": "Philadelphia Phillies",
-          "away": "New York Mets",
-          "date": "2026-07-18",
-          "datetime": "2026-07-18T20:05Z",
-          "home_prob": 60.3,
-          "away_prob": 39.7,
-          "margin": -0.3,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Citizens Bank Park",
-          "game_id": "mlb_401816158",
           "draw_prob": null
         },
         {

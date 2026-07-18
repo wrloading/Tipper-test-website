@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-19T00:36:37.049890+10:00",
+    "updated": "2026-07-19T01:40:25.786915+10:00",
     "year": 2026,
     "current_round": 19,
     "model": "TELO v2.0",
@@ -104474,7 +104474,7 @@
       "points_for": 1916,
       "points_against": 1626,
       "finals_pct": 99.8,
-      "premiers_pct": 17.0
+      "premiers_pct": 16.6
     },
     {
       "team": "Adelaide",
@@ -104486,8 +104486,8 @@
       "percentage": 117.2,
       "points_for": 1642,
       "points_against": 1401,
-      "finals_pct": 99.9,
-      "premiers_pct": 13.1
+      "finals_pct": 99.8,
+      "premiers_pct": 13.4
     },
     {
       "team": "Hawthorn",
@@ -104513,7 +104513,7 @@
       "points_for": 1895,
       "points_against": 1477,
       "finals_pct": 100.0,
-      "premiers_pct": 12.9
+      "premiers_pct": 12.8
     },
     {
       "team": "Geelong",
@@ -104525,7 +104525,7 @@
       "percentage": 116.2,
       "points_for": 1766,
       "points_against": 1520,
-      "finals_pct": 83.5,
+      "finals_pct": 83.6,
       "premiers_pct": 2.4
     },
     {
@@ -104538,7 +104538,7 @@
       "percentage": 92.3,
       "points_for": 1411,
       "points_against": 1529,
-      "finals_pct": 88.0,
+      "finals_pct": 87.9,
       "premiers_pct": 2.7
     },
     {
