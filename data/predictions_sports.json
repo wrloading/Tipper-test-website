@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T19:54:40.705782+00:00",
+    "updated": "2026-07-18T20:54:33.581162+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5403,7 +5403,7 @@
           "away_prob": 44.6,
           "margin": 0.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401816160",
           "draw_prob": null
@@ -5417,7 +5417,7 @@
           "away_prob": 39.3,
           "margin": 3.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816161",
           "draw_prob": null
@@ -5431,7 +5431,7 @@
           "away_prob": 48.9,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401816162",
           "draw_prob": null
@@ -5445,7 +5445,7 @@
           "away_prob": 39.6,
           "margin": -2.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "American Family Field",
           "game_id": "mlb_401816163",
           "draw_prob": null
@@ -5459,7 +5459,7 @@
           "away_prob": 50.6,
           "margin": 0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401816165",
           "draw_prob": null
@@ -5473,7 +5473,7 @@
           "away_prob": 47.4,
           "margin": -2.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Chase Field (NH)",
           "game_id": "mlb_401816169",
           "draw_prob": null
