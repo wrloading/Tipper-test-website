@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-18T00:12:17.246498+00:00",
+    "updated": "2026-07-18T03:34:51.536325+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 78.3,
           "margin": -15.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Adelaide Oval",
           "game_id": "afl_1133643",
           "draw_prob": null
