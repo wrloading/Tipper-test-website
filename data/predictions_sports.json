@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-19T15:19:24.257859+00:00",
+    "updated": "2026-07-19T16:29:41.559768+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5374,7 +5374,7 @@
           "away_prob": 49.1,
           "margin": -2.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401816171",
           "draw_prob": null
