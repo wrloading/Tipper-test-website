@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-19T08:35:28.027472+00:00",
+    "updated": "2026-07-19T10:17:49.381891+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5394,6 +5394,20 @@
           "draw_prob": null
         },
         {
+          "home": "New York Yankees",
+          "away": "Los Angeles Dodgers",
+          "date": "2026-07-19",
+          "datetime": "2026-07-19T16:35Z",
+          "home_prob": 47.5,
+          "away_prob": 52.5,
+          "margin": -0.5,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Yankee Stadium",
+          "game_id": "mlb_401897386",
+          "draw_prob": null
+        },
+        {
           "home": "Philadelphia Phillies",
           "away": "New York Mets",
           "date": "2026-07-19",
@@ -8163,20 +8177,6 @@
           "locked": false,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816366",
-          "draw_prob": null
-        },
-        {
-          "home": "Houston Astros",
-          "away": "Texas Rangers",
-          "date": "2026-08-02",
-          "datetime": "2026-08-02T18:10Z",
-          "home_prob": 53.5,
-          "away_prob": 46.5,
-          "margin": -2.6,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Daikin Park",
-          "game_id": "mlb_401816370",
           "draw_prob": null
         }
       ],
