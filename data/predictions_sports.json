@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-19T06:08:05.952640+00:00",
+    "updated": "2026-07-19T08:35:28.027472+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,34 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Richmond",
-          "away": "Hawthorn",
-          "date": "2026-07-19",
-          "datetime": "2026-07-19T03:10Z",
-          "home_prob": 8.3,
-          "away_prob": 91.7,
-          "margin": -23.9,
-          "home_fav": false,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133641",
-          "draw_prob": null
-        },
-        {
-          "home": "Gold Coast SUNS",
-          "away": "Western Bulldogs",
-          "date": "2026-07-19",
-          "datetime": "2026-07-19T05:15Z",
-          "home_prob": 37.1,
-          "away_prob": 62.9,
-          "margin": 3.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "People First Stadium",
-          "game_id": "afl_1133639",
-          "draw_prob": null
-        },
-        {
           "home": "Essendon",
           "away": "GWS GIANTS",
           "date": "2026-07-19",
@@ -136,7 +108,7 @@
           "away_prob": 88.5,
           "margin": -24.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133637",
           "draw_prob": null
@@ -484,26 +456,6 @@
           "draw_prob": null
         },
         {
-          "home": "Collingwood",
-          "away": "Carlton",
-          "date": "2026-07-18",
-          "home_prob": 70.0,
-          "winner": "Collingwood",
-          "home_score": 90,
-          "away_score": 69,
-          "draw_prob": null
-        },
-        {
-          "home": "West Coast",
-          "away": "Brisbane Lions",
-          "date": "2026-07-18",
-          "home_prob": 6.7,
-          "winner": "Brisbane Lions",
-          "home_score": 69,
-          "away_score": 93,
-          "draw_prob": null
-        },
-        {
           "home": "Port Adelaide",
           "away": "Fremantle",
           "date": "2026-07-18",
@@ -521,6 +473,26 @@
           "winner": "Melbourne",
           "home_score": 76,
           "away_score": 92,
+          "draw_prob": null
+        },
+        {
+          "home": "Collingwood",
+          "away": "Carlton",
+          "date": "2026-07-18",
+          "home_prob": 70.0,
+          "winner": "Collingwood",
+          "home_score": 90,
+          "away_score": 69,
+          "draw_prob": null
+        },
+        {
+          "home": "West Coast",
+          "away": "Brisbane Lions",
+          "date": "2026-07-18",
+          "home_prob": 6.7,
+          "winner": "Brisbane Lions",
+          "home_score": 69,
+          "away_score": 93,
           "draw_prob": null
         }
       ]
@@ -5322,7 +5294,7 @@
         },
         {
           "team": "Cleveland Guardians",
-          "rating": 1504.6,
+          "rating": 1504.5,
           "rank": 14
         },
         {
@@ -5332,7 +5304,7 @@
         },
         {
           "team": "Pittsburgh Pirates",
-          "rating": 1502.7,
+          "rating": 1502.8,
           "rank": 16
         },
         {
