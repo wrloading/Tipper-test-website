@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-20T18:31:45.899405+00:00",
+    "updated": "2026-07-20T20:11:09.100750+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -6828,6 +6828,20 @@
           "draw_prob": null
         },
         {
+          "home": "Cincinnati Reds",
+          "away": "Cleveland Guardians",
+          "date": "2026-07-27",
+          "datetime": "2026-07-27T23:00Z",
+          "home_prob": 49.1,
+          "away_prob": 50.9,
+          "margin": -0.4,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Great American Ball Park",
+          "game_id": "mlb_401816283",
+          "draw_prob": null
+        },
+        {
           "home": "New York Mets",
           "away": "Atlanta Braves",
           "date": "2026-07-27",
@@ -6839,20 +6853,6 @@
           "locked": false,
           "venue": "Citi Field",
           "game_id": "mlb_401816281",
-          "draw_prob": null
-        },
-        {
-          "home": "Cincinnati Reds",
-          "away": "Cleveland Guardians",
-          "date": "2026-07-27",
-          "datetime": "2026-07-27T23:10Z",
-          "home_prob": 49.1,
-          "away_prob": 50.9,
-          "margin": -0.4,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Great American Ball Park",
-          "game_id": "mlb_401816283",
           "draw_prob": null
         },
         {
@@ -7402,6 +7402,20 @@
           "draw_prob": null
         },
         {
+          "home": "Atlanta Braves",
+          "away": "Washington Nationals",
+          "date": "2026-07-30",
+          "datetime": "2026-07-30T23:00Z",
+          "home_prob": 60.8,
+          "away_prob": 39.2,
+          "margin": 0.9,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Truist Park",
+          "game_id": "mlb_401816325",
+          "draw_prob": null
+        },
+        {
           "home": "New York Mets",
           "away": "Miami Marlins",
           "date": "2026-07-30",
@@ -7427,20 +7441,6 @@
           "locked": false,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816323",
-          "draw_prob": null
-        },
-        {
-          "home": "Atlanta Braves",
-          "away": "Washington Nationals",
-          "date": "2026-07-30",
-          "datetime": "2026-07-30T23:15Z",
-          "home_prob": 60.8,
-          "away_prob": 39.2,
-          "margin": 0.9,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Truist Park",
-          "game_id": "mlb_401816325",
           "draw_prob": null
         },
         {
