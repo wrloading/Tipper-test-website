@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-21T22:07:13.226318+00:00",
+    "updated": "2026-07-21T23:15:10.894030+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5404,7 +5404,7 @@
           "away_prob": 52.4,
           "margin": 2.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citizens Bank Park",
           "game_id": "mlb_401816202",
           "draw_prob": null
@@ -5418,7 +5418,7 @@
           "away_prob": 44.6,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816203",
           "draw_prob": null
@@ -5432,7 +5432,7 @@
           "away_prob": 44.2,
           "margin": 1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Yankee Stadium",
           "game_id": "mlb_401816204",
           "draw_prob": null
@@ -5446,7 +5446,7 @@
           "away_prob": 51.6,
           "margin": -0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401816206",
           "draw_prob": null
@@ -5460,7 +5460,7 @@
           "away_prob": 42.8,
           "margin": -0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401816201",
           "draw_prob": null
@@ -5474,7 +5474,7 @@
           "away_prob": 39.7,
           "margin": 1.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816205",
           "draw_prob": null
