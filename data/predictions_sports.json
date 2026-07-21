@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-21T10:05:28.821418+00:00",
+    "updated": "2026-07-21T12:03:21.506617+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2846,20 +2846,6 @@
           "draw_prob": 13.5
         },
         {
-          "home": "Austin FC",
-          "away": "Seattle Sounders FC",
-          "date": "2026-07-23",
-          "datetime": "2026-07-23T00:30Z",
-          "home_prob": 35.1,
-          "away_prob": 48.0,
-          "margin": -7.8,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Q2 Stadium",
-          "game_id": "mls_761674",
-          "draw_prob": 16.9
-        },
-        {
           "home": "Houston Dynamo FC",
           "away": "D.C. United",
           "date": "2026-07-23",
@@ -2900,6 +2886,20 @@
           "venue": "Children's Mercy Park",
           "game_id": "mls_761672",
           "draw_prob": 19.2
+        },
+        {
+          "home": "Austin FC",
+          "away": "Seattle Sounders FC",
+          "date": "2026-07-23",
+          "datetime": "2026-07-23T01:30Z",
+          "home_prob": 35.1,
+          "away_prob": 48.0,
+          "margin": -7.8,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Q2 Stadium",
+          "game_id": "mls_761674",
+          "draw_prob": 16.9
         },
         {
           "home": "Colorado Rapids",
