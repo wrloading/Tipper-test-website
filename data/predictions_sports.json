@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-21T14:25:41.701982+00:00",
+    "updated": "2026-07-21T16:04:24.123149+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2989,7 +2989,7 @@
           "home": "Columbus Crew",
           "away": "FC Cincinnati",
           "date": "2026-07-25",
-          "datetime": "2026-07-25T23:00Z",
+          "datetime": "2026-07-25T23:15Z",
           "home_prob": 67.6,
           "away_prob": 21.9,
           "margin": 28.0,
