@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-21T17:48:23.569398+00:00",
+    "updated": "2026-07-21T19:28:55.971485+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5609,7 +5609,7 @@
           "home": "New York Yankees",
           "away": "Pittsburgh Pirates",
           "date": "2026-07-22",
-          "datetime": "2026-07-22T17:35Z",
+          "datetime": "2026-07-22T17:05Z",
           "home_prob": 55.8,
           "away_prob": 44.2,
           "margin": 1.0,
