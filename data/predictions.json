@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-23T01:11:29.201066+10:00",
+    "updated": "2026-07-23T02:49:05.963758+10:00",
     "year": 2026,
     "current_round": 20,
     "model": "TELO v2.0",
@@ -106735,7 +106735,7 @@
       "points_for": 1793,
       "points_against": 1263,
       "finals_pct": 100.0,
-      "premiers_pct": 36.8
+      "premiers_pct": 36.6
     },
     {
       "team": "Brisbane Lions",
@@ -106747,7 +106747,7 @@
       "percentage": 117.8,
       "points_for": 1916,
       "points_against": 1626,
-      "finals_pct": 99.9,
+      "finals_pct": 99.8,
       "premiers_pct": 16.5
     },
     {
@@ -106761,7 +106761,7 @@
       "points_for": 1772,
       "points_against": 1497,
       "finals_pct": 99.9,
-      "premiers_pct": 13.9
+      "premiers_pct": 14.2
     },
     {
       "team": "Adelaide",
@@ -106774,7 +106774,7 @@
       "points_for": 1642,
       "points_against": 1401,
       "finals_pct": 99.9,
-      "premiers_pct": 11.2
+      "premiers_pct": 11.3
     },
     {
       "team": "Sydney",
@@ -106787,7 +106787,7 @@
       "points_for": 1895,
       "points_against": 1477,
       "finals_pct": 100.0,
-      "premiers_pct": 12.6
+      "premiers_pct": 12.3
     },
     {
       "team": "Western Bulldogs",
@@ -106799,8 +106799,8 @@
       "percentage": 93.2,
       "points_for": 1488,
       "points_against": 1597,
-      "finals_pct": 97.8,
-      "premiers_pct": 3.6
+      "finals_pct": 97.9,
+      "premiers_pct": 3.7
     },
     {
       "team": "Geelong",
@@ -106812,7 +106812,7 @@
       "percentage": 116.2,
       "points_for": 1766,
       "points_against": 1520,
-      "finals_pct": 81.5,
+      "finals_pct": 81.6,
       "premiers_pct": 2.2
     },
     {
@@ -106825,7 +106825,7 @@
       "percentage": 105.7,
       "points_for": 1536,
       "points_against": 1453,
-      "finals_pct": 28.9,
+      "finals_pct": 28.5,
       "premiers_pct": 0.7
     },
     {
@@ -106838,7 +106838,7 @@
       "percentage": 109.6,
       "points_for": 1758,
       "points_against": 1604,
-      "finals_pct": 91.3,
+      "finals_pct": 91.4,
       "premiers_pct": 2.5
     },
     {
