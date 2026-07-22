@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-22T18:10:56.736097+00:00",
+    "updated": "2026-07-22T19:46:39.384805+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -769,7 +769,7 @@
           "away_prob": 39.2,
           "margin": -2.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "crypto.com Arena",
           "game_id": "wnba_401857086",
           "draw_prob": null
@@ -783,7 +783,7 @@
           "away_prob": 86.0,
           "margin": -3.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Climate Pledge Arena",
           "game_id": "wnba_401857087",
           "draw_prob": null
@@ -5496,7 +5496,7 @@
           "away_prob": 52.1,
           "margin": -1.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Coors Field",
           "game_id": "mlb_401816227",
           "draw_prob": null
@@ -5510,7 +5510,7 @@
           "away_prob": 39.4,
           "margin": -1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Chase Field",
           "game_id": "mlb_401816228",
           "draw_prob": null
@@ -5524,7 +5524,7 @@
           "away_prob": 40.8,
           "margin": 2.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "T-Mobile Park",
           "game_id": "mlb_401816229",
           "draw_prob": null
