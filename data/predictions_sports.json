@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-22T06:32:59.484616+00:00",
+    "updated": "2026-07-22T09:18:03.667356+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5356,7 +5356,7 @@
         },
         {
           "team": "St. Louis Cardinals",
-          "rating": 1498.4,
+          "rating": 1498.3,
           "rank": 16
         },
         {
