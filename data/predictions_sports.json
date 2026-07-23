@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-23T16:10:21.210765+00:00",
+    "updated": "2026-07-23T17:48:32.017398+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5219,7 +5219,7 @@
           "away_prob": 40.5,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816233",
           "draw_prob": null
@@ -5233,7 +5233,7 @@
           "away_prob": 44.9,
           "margin": 1.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816232",
           "draw_prob": null
