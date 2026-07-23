@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-23T14:24:50.830241+00:00",
+    "updated": "2026-07-23T16:10:21.210765+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Adelaide",
-          "away": "Collingwood",
-          "date": "2026-07-23",
-          "datetime": "2026-07-23T09:30Z",
-          "home_prob": 69.1,
-          "away_prob": 30.9,
-          "margin": -5.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133652",
-          "draw_prob": null
-        },
         {
           "home": "Melbourne",
           "away": "Geelong",
