@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-23T04:37:22.510731+00:00",
+    "updated": "2026-07-23T07:22:44.272156+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5119,7 +5119,7 @@
         },
         {
           "team": "Baltimore Orioles",
-          "rating": 1514.9,
+          "rating": 1514.8,
           "rank": 10
         },
         {
@@ -5144,7 +5144,7 @@
         },
         {
           "team": "Cleveland Guardians",
-          "rating": 1503.4,
+          "rating": 1503.5,
           "rank": 15
         },
         {
@@ -5184,7 +5184,7 @@
         },
         {
           "team": "Toronto Blue Jays",
-          "rating": 1477.9,
+          "rating": 1477.8,
           "rank": 23
         },
         {
