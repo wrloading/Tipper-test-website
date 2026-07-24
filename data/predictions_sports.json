@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-24T07:21:16.850335+00:00",
+    "updated": "2026-07-24T09:58:38.836539+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 42.2,
           "margin": 23.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133650",
           "draw_prob": null
@@ -5279,20 +5279,6 @@
           "draw_prob": null
         },
         {
-          "home": "Philadelphia Phillies",
-          "away": "New York Yankees",
-          "date": "2026-07-24",
-          "datetime": "2026-07-24T22:45Z",
-          "home_prob": 52.8,
-          "away_prob": 47.2,
-          "margin": -0.0,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Citizens Bank Park",
-          "game_id": "mlb_401816241",
-          "draw_prob": null
-        },
-        {
           "home": "Washington Nationals",
           "away": "Arizona Diamondbacks",
           "date": "2026-07-24",
@@ -5304,6 +5290,20 @@
           "locked": false,
           "venue": "Nationals Park",
           "game_id": "mlb_401816235",
+          "draw_prob": null
+        },
+        {
+          "home": "Philadelphia Phillies",
+          "away": "New York Yankees",
+          "date": "2026-07-24",
+          "datetime": "2026-07-24T22:45Z",
+          "home_prob": 52.8,
+          "away_prob": 47.2,
+          "margin": -0.0,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Citizens Bank Park",
+          "game_id": "mlb_401816241",
           "draw_prob": null
         },
         {
