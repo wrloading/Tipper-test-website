@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-24T19:58:11.843769+10:00",
+    "updated": "2026-07-24T21:46:31.635088+10:00",
     "year": 2026,
     "current_round": 20,
     "model": "TELO v2.0",
@@ -78259,7 +78259,7 @@
           "margin": 123.0,
           "home_prob": 94.4,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Jye Amiss",
@@ -106114,7 +106114,7 @@
       "points_for": 1916,
       "points_against": 1626,
       "finals_pct": 99.6,
-      "premiers_pct": 17.6
+      "premiers_pct": 17.8
     },
     {
       "team": "Hawthorn",
@@ -106126,8 +106126,8 @@
       "percentage": 118.4,
       "points_for": 1772,
       "points_against": 1497,
-      "finals_pct": 99.8,
-      "premiers_pct": 14.7
+      "finals_pct": 99.9,
+      "premiers_pct": 14.9
     },
     {
       "team": "Sydney",
@@ -106140,7 +106140,7 @@
       "points_for": 1895,
       "points_against": 1477,
       "finals_pct": 100.0,
-      "premiers_pct": 13.8
+      "premiers_pct": 13.7
     },
     {
       "team": "Adelaide",
@@ -106152,8 +106152,8 @@
       "percentage": 113.7,
       "points_for": 1716,
       "points_against": 1509,
-      "finals_pct": 99.4,
-      "premiers_pct": 5.8
+      "finals_pct": 99.5,
+      "premiers_pct": 5.6
     },
     {
       "team": "Collingwood",
@@ -106165,7 +106165,7 @@
       "percentage": 107.7,
       "points_for": 1644,
       "points_against": 1527,
-      "finals_pct": 72.6,
+      "finals_pct": 72.8,
       "premiers_pct": 2.8
     },
     {
@@ -106178,8 +106178,8 @@
       "percentage": 93.2,
       "points_for": 1488,
       "points_against": 1597,
-      "finals_pct": 92.6,
-      "premiers_pct": 3.8
+      "finals_pct": 92.5,
+      "premiers_pct": 3.6
     },
     {
       "team": "Geelong",
@@ -106191,8 +106191,8 @@
       "percentage": 116.2,
       "points_for": 1766,
       "points_against": 1520,
-      "finals_pct": 50.0,
-      "premiers_pct": 1.4
+      "finals_pct": 50.1,
+      "premiers_pct": 1.5
     },
     {
       "team": "Melbourne",
@@ -106204,7 +106204,7 @@
       "percentage": 109.6,
       "points_for": 1758,
       "points_against": 1604,
-      "finals_pct": 85.6,
+      "finals_pct": 85.3,
       "premiers_pct": 2.7
     },
     {
