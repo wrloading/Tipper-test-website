@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-24T13:10:48.210925+00:00",
+    "updated": "2026-07-24T15:09:48.371058+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Melbourne",
-          "away": "Geelong",
-          "date": "2026-07-24",
-          "datetime": "2026-07-24T09:40Z",
-          "home_prob": 57.8,
-          "away_prob": 42.2,
-          "margin": 23.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133650",
-          "draw_prob": null
-        },
-        {
-          "home": "Fremantle",
-          "away": "West Coast",
-          "date": "2026-07-24",
-          "datetime": "2026-07-24T10:10Z",
-          "home_prob": 97.1,
-          "away_prob": 2.9,
-          "margin": 38.2,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133653",
-          "draw_prob": null
-        },
         {
           "home": "Carlton",
           "away": "Gold Coast SUNS",
