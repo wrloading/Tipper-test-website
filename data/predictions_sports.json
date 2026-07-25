@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-25T19:47:33.791520+00:00",
+    "updated": "2026-07-25T20:36:02.198515+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5211,7 +5211,7 @@
           "away_prob": 49.2,
           "margin": -2.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816250",
           "draw_prob": null
@@ -5225,7 +5225,7 @@
           "away_prob": 44.5,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oracle Park",
           "game_id": "mlb_401816264",
           "draw_prob": null
@@ -5239,7 +5239,7 @@
           "away_prob": 47.9,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816257",
           "draw_prob": null
@@ -5253,7 +5253,7 @@
           "away_prob": 37.9,
           "margin": 2.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401816258",
           "draw_prob": null
