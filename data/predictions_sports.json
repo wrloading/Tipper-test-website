@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-25T16:08:12.655451+00:00",
+    "updated": "2026-07-25T17:18:49.670580+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5211,7 +5211,7 @@
           "away_prob": 38.3,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816254",
           "draw_prob": null
