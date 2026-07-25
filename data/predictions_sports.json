@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-25T13:40:54.443273+00:00",
+    "updated": "2026-07-25T14:51:55.519234+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Western Bulldogs",
-          "away": "Richmond",
-          "date": "2026-07-25",
-          "datetime": "2026-07-25T09:40Z",
-          "home_prob": 93.5,
-          "away_prob": 6.5,
-          "margin": 10.7,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133651",
-          "draw_prob": null
-        },
         {
           "home": "Brisbane Lions",
           "away": "Port Adelaide",
