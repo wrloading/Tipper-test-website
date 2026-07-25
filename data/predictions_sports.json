@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-25T09:08:36.860467+00:00",
+    "updated": "2026-07-25T10:46:48.238611+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,34 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Hawthorn",
-          "away": "Essendon",
-          "date": "2026-07-25",
-          "datetime": "2026-07-25T06:15Z",
-          "home_prob": 95.1,
-          "away_prob": 4.9,
-          "margin": 26.8,
-          "home_fav": true,
-          "locked": true,
-          "venue": "MCG",
-          "game_id": "afl_1133648",
-          "draw_prob": null
-        },
-        {
-          "home": "GWS GIANTS",
-          "away": "Sydney",
-          "date": "2026-07-25",
-          "datetime": "2026-07-25T06:35Z",
-          "home_prob": 52.1,
-          "away_prob": 47.9,
-          "margin": 13.9,
-          "home_fav": true,
-          "locked": true,
-          "venue": "ENGIE Stadium",
-          "game_id": "afl_1133647",
-          "draw_prob": null
-        },
-        {
           "home": "Western Bulldogs",
           "away": "Richmond",
           "date": "2026-07-25",
@@ -136,7 +108,7 @@
           "away_prob": 6.5,
           "margin": 10.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133651",
           "draw_prob": null
