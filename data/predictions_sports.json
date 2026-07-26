@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-26T05:01:11.378719+00:00",
+    "updated": "2026-07-26T07:44:45.168581+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Brisbane Lions",
-          "away": "Port Adelaide",
-          "date": "2026-07-26",
-          "datetime": "2026-07-26T03:10Z",
-          "home_prob": 89.3,
-          "away_prob": 10.7,
-          "margin": 14.6,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Gabba",
-          "game_id": "afl_1133645",
-          "draw_prob": null
-        },
-        {
           "home": "North Melbourne",
           "away": "St Kilda",
           "date": "2026-07-26",
@@ -122,7 +108,7 @@
           "away_prob": 65.5,
           "margin": -9.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133649",
           "draw_prob": null
@@ -490,6 +476,16 @@
           "draw_prob": null
         },
         {
+          "home": "Western Bulldogs",
+          "away": "Richmond",
+          "date": "2026-07-25",
+          "home_prob": 93.9,
+          "winner": "Western Bulldogs",
+          "home_score": 105,
+          "away_score": 48,
+          "draw_prob": null
+        },
+        {
           "home": "Carlton",
           "away": "Gold Coast SUNS",
           "date": "2026-07-25",
@@ -517,16 +513,6 @@
           "winner": "Sydney",
           "home_score": 88,
           "away_score": 139,
-          "draw_prob": null
-        },
-        {
-          "home": "Western Bulldogs",
-          "away": "Richmond",
-          "date": "2026-07-25",
-          "home_prob": 93.9,
-          "winner": "Western Bulldogs",
-          "home_score": 105,
-          "away_score": 48,
           "draw_prob": null
         }
       ]
@@ -7231,8 +7217,8 @@
           "away": "Toronto Blue Jays",
           "date": "2026-08-06",
           "datetime": "2026-08-06T18:20Z",
-          "home_prob": 61.4,
-          "away_prob": 38.6,
+          "home_prob": 61.5,
+          "away_prob": 38.5,
           "margin": 2.4,
           "home_fav": true,
           "locked": false,
@@ -8086,7 +8072,7 @@
           "home": "Atlanta Braves",
           "away": "Texas Rangers",
           "date": "2026-07-17",
-          "home_prob": 60.2,
+          "home_prob": 60.1,
           "winner": "Atlanta Braves",
           "home_score": 15,
           "away_score": 1,
@@ -8246,7 +8232,7 @@
           "home": "Atlanta Braves",
           "away": "Texas Rangers",
           "date": "2026-07-18",
-          "home_prob": 60.2,
+          "home_prob": 60.1,
           "winner": "Texas Rangers",
           "home_score": 6,
           "away_score": 7,
@@ -8376,7 +8362,7 @@
           "home": "Atlanta Braves",
           "away": "Texas Rangers",
           "date": "2026-07-19",
-          "home_prob": 60.2,
+          "home_prob": 60.1,
           "winner": "Atlanta Braves",
           "home_score": 8,
           "away_score": 5,
