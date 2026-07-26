@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-26T15:42:19.830900+00:00",
+    "updated": "2026-07-26T16:38:50.025855+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5051,7 +5051,7 @@
           "away_prob": 41.6,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816268",
           "draw_prob": null
