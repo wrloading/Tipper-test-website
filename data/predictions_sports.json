@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-26T16:38:50.025855+00:00",
+    "updated": "2026-07-26T17:47:23.146108+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5065,7 +5065,7 @@
           "away_prob": 48.5,
           "margin": 1.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816265",
           "draw_prob": null
@@ -5079,7 +5079,7 @@
           "away_prob": 50.1,
           "margin": -0.4,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816266",
           "draw_prob": null
@@ -5093,7 +5093,7 @@
           "away_prob": 52.5,
           "margin": -0.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816267",
           "draw_prob": null
@@ -5107,7 +5107,7 @@
           "away_prob": 39.2,
           "margin": 2.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Fenway Park",
           "game_id": "mlb_401816273",
           "draw_prob": null
@@ -5121,7 +5121,7 @@
           "away_prob": 38.7,
           "margin": -1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816269",
           "draw_prob": null
@@ -5135,7 +5135,7 @@
           "away_prob": 60.6,
           "margin": 2.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816270",
           "draw_prob": null
@@ -5149,7 +5149,7 @@
           "away_prob": 48.9,
           "margin": -1.0,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816272",
           "draw_prob": null
