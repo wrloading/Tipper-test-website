@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-26T11:19:23.311174+10:00",
+    "updated": "2026-07-26T15:00:46.196354+10:00",
     "year": 2026,
     "current_round": 20,
     "model": "TELO v2.0",
@@ -77695,7 +77695,7 @@
           "margin": 93.9,
           "home_prob": 89.7,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Harris Andrews",
@@ -102321,7 +102321,7 @@
       "points_for": 1905,
       "points_against": 1305,
       "finals_pct": 100.0,
-      "premiers_pct": 36.4
+      "premiers_pct": 36.5
     },
     {
       "team": "Brisbane Lions",
@@ -102333,8 +102333,8 @@
       "percentage": 117.8,
       "points_for": 1916,
       "points_against": 1626,
-      "finals_pct": 99.3,
-      "premiers_pct": 16.9
+      "finals_pct": 99.4,
+      "premiers_pct": 16.7
     },
     {
       "team": "Hawthorn",
@@ -102347,7 +102347,7 @@
       "points_for": 1904,
       "points_against": 1536,
       "finals_pct": 99.9,
-      "premiers_pct": 15.2
+      "premiers_pct": 14.8
     },
     {
       "team": "Sydney",
@@ -102360,7 +102360,7 @@
       "points_for": 2034,
       "points_against": 1565,
       "finals_pct": 100.0,
-      "premiers_pct": 16.0
+      "premiers_pct": 16.1
     },
     {
       "team": "Adelaide",
@@ -102373,7 +102373,7 @@
       "points_for": 1716,
       "points_against": 1509,
       "finals_pct": 99.2,
-      "premiers_pct": 5.5
+      "premiers_pct": 5.6
     },
     {
       "team": "Geelong",
@@ -102385,7 +102385,7 @@
       "percentage": 116.5,
       "points_for": 1883,
       "points_against": 1617,
-      "finals_pct": 90.0,
+      "finals_pct": 90.2,
       "premiers_pct": 3.4
     },
     {
@@ -102398,7 +102398,7 @@
       "percentage": 96.8,
       "points_for": 1593,
       "points_against": 1645,
-      "finals_pct": 93.3,
+      "finals_pct": 93.0,
       "premiers_pct": 3.8
     },
     {
@@ -102411,8 +102411,8 @@
       "percentage": 107.7,
       "points_for": 1644,
       "points_against": 1527,
-      "finals_pct": 51.8,
-      "premiers_pct": 1.8
+      "finals_pct": 51.6,
+      "premiers_pct": 1.9
     },
     {
       "team": "Melbourne",
@@ -102424,8 +102424,8 @@
       "percentage": 107.8,
       "points_for": 1855,
       "points_against": 1721,
-      "finals_pct": 66.4,
-      "premiers_pct": 1.0
+      "finals_pct": 66.6,
+      "premiers_pct": 1.1
     },
     {
       "team": "Carlton",
