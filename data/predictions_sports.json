@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-27T22:31:13.534715+00:00",
+    "updated": "2026-07-27T23:39:55.287052+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5071,7 +5071,7 @@
           "away_prob": 47.4,
           "margin": 2.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816280",
           "draw_prob": null
@@ -5085,7 +5085,7 @@
           "away_prob": 45.9,
           "margin": 0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816282",
           "draw_prob": null
@@ -5099,7 +5099,7 @@
           "away_prob": 51.5,
           "margin": -1.0,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816284",
           "draw_prob": null
@@ -5113,7 +5113,7 @@
           "away_prob": 44.2,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816285",
           "draw_prob": null
@@ -5127,7 +5127,7 @@
           "away_prob": 49.6,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816283",
           "draw_prob": null
@@ -5141,7 +5141,7 @@
           "away_prob": 56.2,
           "margin": 1.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816281",
           "draw_prob": null
