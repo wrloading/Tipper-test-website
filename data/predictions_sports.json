@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-27T21:15:32.933978+00:00",
+    "updated": "2026-07-27T22:31:13.534715+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5012,7 +5012,7 @@
         },
         {
           "team": "Texas Rangers",
-          "rating": 1492.7,
+          "rating": 1492.8,
           "rank": 21
         },
         {
