@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-28T04:10:13.722355+10:00",
+    "updated": "2026-07-28T05:57:29.931736+10:00",
     "year": 2026,
     "current_round": 21,
     "model": "TELO v2.0",
@@ -105173,7 +105173,7 @@
       "points_for": 1905,
       "points_against": 1305,
       "finals_pct": 100.0,
-      "premiers_pct": 35.6
+      "premiers_pct": 35.8
     },
     {
       "team": "Brisbane Lions",
@@ -105186,7 +105186,7 @@
       "points_for": 2042,
       "points_against": 1693,
       "finals_pct": 99.8,
-      "premiers_pct": 18.2
+      "premiers_pct": 18.4
     },
     {
       "team": "Hawthorn",
@@ -105199,7 +105199,7 @@
       "points_for": 1904,
       "points_against": 1536,
       "finals_pct": 99.9,
-      "premiers_pct": 14.9
+      "premiers_pct": 14.7
     },
     {
       "team": "Sydney",
@@ -105212,7 +105212,7 @@
       "points_for": 2034,
       "points_against": 1565,
       "finals_pct": 100.0,
-      "premiers_pct": 16.1
+      "premiers_pct": 16.0
     },
     {
       "team": "Adelaide",
@@ -105225,7 +105225,7 @@
       "points_for": 1716,
       "points_against": 1509,
       "finals_pct": 99.1,
-      "premiers_pct": 5.1
+      "premiers_pct": 5.2
     },
     {
       "team": "Geelong",
@@ -105237,7 +105237,7 @@
       "percentage": 116.5,
       "points_for": 1883,
       "points_against": 1617,
-      "finals_pct": 90.6,
+      "finals_pct": 90.4,
       "premiers_pct": 3.4
     },
     {
@@ -105250,8 +105250,8 @@
       "percentage": 96.8,
       "points_for": 1593,
       "points_against": 1645,
-      "finals_pct": 93.4,
-      "premiers_pct": 3.8
+      "finals_pct": 93.2,
+      "premiers_pct": 3.7
     },
     {
       "team": "Collingwood",
@@ -105264,7 +105264,7 @@
       "points_for": 1644,
       "points_against": 1527,
       "finals_pct": 50.9,
-      "premiers_pct": 1.9
+      "premiers_pct": 1.7
     },
     {
       "team": "Melbourne",
@@ -105276,8 +105276,8 @@
       "percentage": 107.8,
       "points_for": 1855,
       "points_against": 1721,
-      "finals_pct": 66.0,
-      "premiers_pct": 1.0
+      "finals_pct": 66.4,
+      "premiers_pct": 1.1
     },
     {
       "team": "St Kilda",
