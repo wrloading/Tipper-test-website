@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-28T14:45:16.404218+00:00",
+    "updated": "2026-07-28T16:27:30.292736+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5211,6 +5211,20 @@
       ],
       "upcoming": [
         {
+          "home": "Cincinnati Reds",
+          "away": "Cleveland Guardians",
+          "date": "2026-07-28",
+          "datetime": "2026-07-28T17:40Z",
+          "home_prob": 50.4,
+          "away_prob": 49.6,
+          "margin": -4.4,
+          "home_fav": true,
+          "locked": false,
+          "venue": "Great American Ball Park",
+          "game_id": "mlb_401901849",
+          "draw_prob": null
+        },
+        {
           "home": "Pittsburgh Pirates",
           "away": "Arizona Diamondbacks",
           "date": "2026-07-28",
@@ -6877,6 +6891,20 @@
           "draw_prob": null
         },
         {
+          "home": "Milwaukee Brewers",
+          "away": "Pittsburgh Pirates",
+          "date": "2026-08-05",
+          "datetime": "2026-08-05T23:30Z",
+          "home_prob": 60.4,
+          "away_prob": 39.6,
+          "margin": 1.8,
+          "home_fav": true,
+          "locked": false,
+          "venue": "American Family Field",
+          "game_id": "mlb_401816408",
+          "draw_prob": null
+        },
+        {
           "home": "Kansas City Royals",
           "away": "Minnesota Twins",
           "date": "2026-08-05",
@@ -6888,20 +6916,6 @@
           "locked": false,
           "venue": "Kauffman Stadium",
           "game_id": "mlb_401816407",
-          "draw_prob": null
-        },
-        {
-          "home": "Milwaukee Brewers",
-          "away": "Pittsburgh Pirates",
-          "date": "2026-08-05",
-          "datetime": "2026-08-05T23:40Z",
-          "home_prob": 60.4,
-          "away_prob": 39.6,
-          "margin": 1.8,
-          "home_fav": true,
-          "locked": false,
-          "venue": "American Family Field",
-          "game_id": "mlb_401816408",
           "draw_prob": null
         },
         {
@@ -7062,7 +7076,7 @@
           "home": "Kansas City Royals",
           "away": "Minnesota Twins",
           "date": "2026-08-06",
-          "datetime": "2026-08-06T23:40Z",
+          "datetime": "2026-08-06T23:30Z",
           "home_prob": 49.2,
           "away_prob": 50.8,
           "margin": -0.5,
@@ -7994,20 +8008,6 @@
           "locked": false,
           "venue": "Angel Stadium",
           "game_id": "mlb_401816493",
-          "draw_prob": null
-        },
-        {
-          "home": "Arizona Diamondbacks",
-          "away": "Colorado Rockies",
-          "date": "2026-08-12",
-          "datetime": "2026-08-12T01:40Z",
-          "home_prob": 61.7,
-          "away_prob": 38.3,
-          "margin": -0.1,
-          "home_fav": true,
-          "locked": false,
-          "venue": "Chase Field",
-          "game_id": "mlb_401816488",
           "draw_prob": null
         }
       ],
