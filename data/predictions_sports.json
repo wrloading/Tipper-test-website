@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-29T14:44:50.746621+00:00",
+    "updated": "2026-07-29T16:14:19.661276+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -319,7 +319,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -5095,7 +5095,7 @@
           "away_prob": 50.6,
           "margin": -0.7,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "loanDepot park",
           "game_id": "mlb_401816311",
           "draw_prob": null
