@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-29T16:14:19.661276+00:00",
+    "updated": "2026-07-29T17:42:09.723014+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5109,7 +5109,7 @@
           "away_prob": 47.4,
           "margin": 1.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "PNC Park",
           "game_id": "mlb_401816307",
           "draw_prob": null
@@ -5123,7 +5123,7 @@
           "away_prob": 44.0,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Nationals Park",
           "game_id": "mlb_401816313",
           "draw_prob": null
@@ -5137,7 +5137,7 @@
           "away_prob": 54.6,
           "margin": -0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816308",
           "draw_prob": null
@@ -5151,7 +5151,7 @@
           "away_prob": 45.3,
           "margin": 1.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Comerica Park",
           "game_id": "mlb_401816309",
           "draw_prob": null
