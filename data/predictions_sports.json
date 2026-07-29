@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-29T07:22:46.686542+00:00",
+    "updated": "2026-07-29T10:11:35.830944+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -876,7 +876,7 @@
         },
         {
           "team": "Los Angeles Sparks",
-          "rating": 1334.6,
+          "rating": 1334.7,
           "rank": 12
         },
         {
@@ -5092,7 +5092,7 @@
         },
         {
           "team": "New York Yankees",
-          "rating": 1524.6,
+          "rating": 1524.7,
           "rank": 7
         },
         {
@@ -5182,7 +5182,7 @@
         },
         {
           "team": "Cincinnati Reds",
-          "rating": 1473.6,
+          "rating": 1473.7,
           "rank": 25
         },
         {
@@ -5192,7 +5192,7 @@
         },
         {
           "team": "Kansas City Royals",
-          "rating": 1464.9,
+          "rating": 1465.0,
           "rank": 27
         },
         {
