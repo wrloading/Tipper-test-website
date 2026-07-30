@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-30T17:03:14.402652+00:00",
+    "updated": "2026-07-30T18:42:24.549071+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5169,7 +5169,7 @@
           "away_prob": 43.0,
           "margin": -1.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Target Field",
           "game_id": "mlb_401816327",
           "draw_prob": null
@@ -5183,7 +5183,7 @@
           "away_prob": 48.8,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rate Field",
           "game_id": "mlb_401816328",
           "draw_prob": null
@@ -5197,7 +5197,7 @@
           "away_prob": 54.5,
           "margin": -1.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Busch Stadium",
           "game_id": "mlb_401816326",
           "draw_prob": null
