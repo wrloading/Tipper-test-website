@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-30T09:21:15.166346+00:00",
+    "updated": "2026-07-30T11:32:15.714720+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -108,7 +108,7 @@
           "away_prob": 42.5,
           "margin": -11.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "MCG",
           "game_id": "afl_1133655",
           "draw_prob": null
@@ -319,7 +319,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
