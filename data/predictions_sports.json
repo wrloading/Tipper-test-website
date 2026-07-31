@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-31T17:57:16.844101+00:00",
+    "updated": "2026-07-31T19:39:19.343919+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5189,7 +5189,7 @@
           "away_prob": 43.1,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401816339",
           "draw_prob": null
