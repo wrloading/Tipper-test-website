@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T05:38:54.758503+10:00",
+    "updated": "2026-08-01T06:50:36.228908+10:00",
     "year": 2026,
     "current_round": 21,
     "model": "TELO v2.0",
@@ -103903,7 +103903,7 @@
       "points_for": 1983,
       "points_against": 1346,
       "finals_pct": 100.0,
-      "premiers_pct": 37.5
+      "premiers_pct": 37.4
     },
     {
       "team": "Brisbane Lions",
@@ -103916,7 +103916,7 @@
       "points_for": 2042,
       "points_against": 1693,
       "finals_pct": 99.9,
-      "premiers_pct": 18.0
+      "premiers_pct": 18.1
     },
     {
       "team": "Hawthorn",
@@ -103928,8 +103928,8 @@
       "percentage": 124.0,
       "points_for": 1904,
       "points_against": 1536,
-      "finals_pct": 100.0,
-      "premiers_pct": 14.3
+      "finals_pct": 99.9,
+      "premiers_pct": 14.5
     },
     {
       "team": "Sydney",
@@ -103955,7 +103955,7 @@
       "points_for": 1980,
       "points_against": 1689,
       "finals_pct": 99.7,
-      "premiers_pct": 5.9
+      "premiers_pct": 6.0
     },
     {
       "team": "Adelaide",
@@ -103968,7 +103968,7 @@
       "points_for": 1716,
       "points_against": 1509,
       "finals_pct": 99.6,
-      "premiers_pct": 4.6
+      "premiers_pct": 4.4
     },
     {
       "team": "Western Bulldogs",
@@ -103980,8 +103980,8 @@
       "percentage": 94.8,
       "points_for": 1634,
       "points_against": 1723,
-      "finals_pct": 96.7,
-      "premiers_pct": 2.7
+      "finals_pct": 96.6,
+      "premiers_pct": 2.6
     },
     {
       "team": "Collingwood",
@@ -103993,7 +103993,7 @@
       "percentage": 105.6,
       "points_for": 1716,
       "points_against": 1625,
-      "finals_pct": 26.3,
+      "finals_pct": 26.2,
       "premiers_pct": 0.6
     },
     {
@@ -104006,8 +104006,8 @@
       "percentage": 107.8,
       "points_for": 1855,
       "points_against": 1721,
-      "finals_pct": 77.2,
-      "premiers_pct": 1.1
+      "finals_pct": 77.5,
+      "premiers_pct": 1.0
     },
     {
       "team": "St Kilda",
