@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-31T06:48:03.553156+00:00",
+    "updated": "2026-07-31T09:36:39.356911+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -305,7 +305,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -5044,7 +5044,7 @@
       "ratings": [
         {
           "team": "Los Angeles Dodgers",
-          "rating": 1566.1,
+          "rating": 1566.2,
           "rank": 1
         },
         {
@@ -5114,7 +5114,7 @@
         },
         {
           "team": "Seattle Mariners",
-          "rating": 1498.3,
+          "rating": 1498.2,
           "rank": 15
         },
         {
