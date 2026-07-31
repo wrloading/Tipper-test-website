@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-31T20:51:03.716929+00:00",
+    "updated": "2026-07-31T22:10:27.317655+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -291,7 +291,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -5181,20 +5181,6 @@
       ],
       "upcoming": [
         {
-          "home": "Chicago Cubs",
-          "away": "New York Yankees",
-          "date": "2026-07-31",
-          "datetime": "2026-07-31T18:20Z",
-          "home_prob": 56.2,
-          "away_prob": 43.8,
-          "margin": 2.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Wrigley Field",
-          "game_id": "mlb_401816339",
-          "draw_prob": null
-        },
-        {
           "home": "Cincinnati Reds",
           "away": "Pittsburgh Pirates",
           "date": "2026-07-31",
@@ -5203,7 +5189,7 @@
           "away_prob": 50.0,
           "margin": -0.8,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816336",
           "draw_prob": null
@@ -7606,7 +7592,7 @@
           "home": "New York Yankees",
           "away": "Seattle Mariners",
           "date": "2026-08-12",
-          "datetime": "2026-08-12T23:05Z",
+          "datetime": "2026-08-12T23:00Z",
           "home_prob": 57.2,
           "away_prob": 42.8,
           "margin": 0.9,
@@ -7659,6 +7645,20 @@
           "draw_prob": null
         },
         {
+          "home": "Los Angeles Angels",
+          "away": "Texas Rangers",
+          "date": "2026-08-13",
+          "datetime": "2026-08-13T02:00Z",
+          "home_prob": 46.9,
+          "away_prob": 53.1,
+          "margin": 1.4,
+          "home_fav": false,
+          "locked": false,
+          "venue": "Angel Stadium",
+          "game_id": "mlb_401816508",
+          "draw_prob": null
+        },
+        {
           "home": "Los Angeles Dodgers",
           "away": "Kansas City Royals",
           "date": "2026-08-13",
@@ -7670,20 +7670,6 @@
           "locked": false,
           "venue": "Dodger Stadium",
           "game_id": "mlb_401816505",
-          "draw_prob": null
-        },
-        {
-          "home": "Los Angeles Angels",
-          "away": "Texas Rangers",
-          "date": "2026-08-13",
-          "datetime": "2026-08-13T02:10Z",
-          "home_prob": 46.9,
-          "away_prob": 53.1,
-          "margin": 1.4,
-          "home_fav": false,
-          "locked": false,
-          "venue": "Angel Stadium",
-          "game_id": "mlb_401816508",
           "draw_prob": null
         },
         {
