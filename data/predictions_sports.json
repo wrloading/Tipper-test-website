@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-31T11:51:44.258258+00:00",
+    "updated": "2026-07-31T14:13:57.988128+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,20 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Fremantle",
-          "away": "Western Bulldogs",
-          "date": "2026-07-31",
-          "datetime": "2026-07-31T10:10Z",
-          "home_prob": 83.1,
-          "away_prob": 16.9,
-          "margin": 17.0,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Optus Stadium",
-          "game_id": "afl_1133662",
-          "draw_prob": null
-        },
         {
           "home": "St Kilda",
           "away": "Sydney",
