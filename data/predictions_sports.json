@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-31T22:10:27.317655+00:00",
+    "updated": "2026-07-31T23:18:35.576070+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -291,7 +291,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -5203,7 +5203,7 @@
           "away_prob": 46.3,
           "margin": 0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816335",
           "draw_prob": null
@@ -5217,7 +5217,7 @@
           "away_prob": 47.1,
           "margin": -0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401816337",
           "draw_prob": null
@@ -5231,7 +5231,7 @@
           "away_prob": 48.3,
           "margin": 0.8,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816332",
           "draw_prob": null
@@ -5245,7 +5245,7 @@
           "away_prob": 43.3,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816333",
           "draw_prob": null
@@ -5259,7 +5259,7 @@
           "away_prob": 47.0,
           "margin": 3.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816334",
           "draw_prob": null
@@ -5273,7 +5273,7 @@
           "away_prob": 40.5,
           "margin": 0.6,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816338",
           "draw_prob": null
