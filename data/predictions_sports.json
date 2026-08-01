@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T11:08:07.490787+00:00",
+    "updated": "2026-08-01T14:01:16.951642+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -99,34 +99,6 @@
         }
       ],
       "upcoming": [
-        {
-          "home": "Port Adelaide",
-          "away": "GWS GIANTS",
-          "date": "2026-08-01",
-          "datetime": "2026-08-01T08:35Z",
-          "home_prob": 50.1,
-          "away_prob": 49.9,
-          "margin": 2.4,
-          "home_fav": true,
-          "locked": true,
-          "venue": "Adelaide Oval",
-          "game_id": "afl_1133661",
-          "draw_prob": null
-        },
-        {
-          "home": "Carlton",
-          "away": "Brisbane Lions",
-          "date": "2026-08-01",
-          "datetime": "2026-08-01T09:40Z",
-          "home_prob": 27.3,
-          "away_prob": 72.7,
-          "margin": 16.5,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133654",
-          "draw_prob": null
-        },
         {
           "home": "Richmond",
           "away": "West Coast",
