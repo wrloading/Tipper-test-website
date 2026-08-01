@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T07:18:51.086940+00:00",
+    "updated": "2026-08-01T09:34:07.475025+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,6 +100,20 @@
       ],
       "upcoming": [
         {
+          "home": "Hawthorn",
+          "away": "North Melbourne",
+          "date": "2026-08-01",
+          "datetime": "2026-08-01T03:35Z",
+          "home_prob": 92.9,
+          "away_prob": 7.1,
+          "margin": 24.3,
+          "home_fav": true,
+          "locked": true,
+          "venue": "UTAS Stadium",
+          "game_id": "afl_1133658",
+          "draw_prob": null
+        },
+        {
           "home": "Port Adelaide",
           "away": "GWS GIANTS",
           "date": "2026-08-01",
@@ -108,7 +122,7 @@
           "away_prob": 49.9,
           "margin": 2.4,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Adelaide Oval",
           "game_id": "afl_1133661",
           "draw_prob": null
@@ -263,7 +277,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -5283,7 +5297,7 @@
         },
         {
           "team": "Boston Red Sox",
-          "rating": 1545.1,
+          "rating": 1545.2,
           "rank": 3
         },
         {
