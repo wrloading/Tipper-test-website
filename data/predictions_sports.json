@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T19:48:53.733045+00:00",
+    "updated": "2026-08-01T20:57:14.123562+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -235,7 +235,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -691,6 +691,20 @@
       ],
       "upcoming": [
         {
+          "home": "Chicago Sky",
+          "away": "Las Vegas Aces",
+          "date": "2026-08-01",
+          "datetime": "2026-08-01T17:00Z",
+          "home_prob": 36.7,
+          "away_prob": 63.3,
+          "margin": -2.9,
+          "home_fav": false,
+          "locked": true,
+          "venue": "Wintrust Arena",
+          "game_id": "wnba_401857105",
+          "draw_prob": null
+        },
+        {
           "home": "Phoenix Mercury",
           "away": "New York Liberty",
           "date": "2026-08-01",
@@ -767,7 +781,7 @@
           "datetime": "2026-08-03T23:00Z",
           "home_prob": 53.2,
           "away_prob": 46.8,
-          "margin": -2.2,
+          "margin": -2.9,
           "home_fav": true,
           "locked": false,
           "venue": "State Farm Arena",
@@ -795,7 +809,7 @@
           "datetime": "2026-08-04T01:00Z",
           "home_prob": 63.1,
           "away_prob": 36.9,
-          "margin": 1.7,
+          "margin": 1.9,
           "home_fav": true,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -865,7 +879,7 @@
           "datetime": "2026-08-06T01:00Z",
           "home_prob": 73.4,
           "away_prob": 26.6,
-          "margin": 4.4,
+          "margin": 4.5,
           "home_fav": true,
           "locked": false,
           "venue": "Wintrust Arena",
@@ -879,7 +893,7 @@
           "datetime": "2026-08-06T23:00Z",
           "home_prob": 68.9,
           "away_prob": 31.1,
-          "margin": 1.1,
+          "margin": 0.5,
           "home_fav": true,
           "locked": false,
           "venue": "Gainbridge Fieldhouse",
@@ -963,7 +977,7 @@
           "datetime": "2026-08-08T17:00Z",
           "home_prob": 78.6,
           "away_prob": 21.4,
-          "margin": -0.1,
+          "margin": -0.7,
           "home_fav": true,
           "locked": false,
           "venue": "Target Center",
@@ -977,7 +991,7 @@
           "datetime": "2026-08-08T19:30Z",
           "home_prob": 29.4,
           "away_prob": 70.6,
-          "margin": -3.4,
+          "margin": -3.3,
           "home_fav": false,
           "locked": false,
           "venue": "United Center",
@@ -1005,7 +1019,7 @@
           "datetime": "2026-08-09T16:30Z",
           "home_prob": 57.2,
           "away_prob": 42.8,
-          "margin": 0.4,
+          "margin": -0.2,
           "home_fav": true,
           "locked": false,
           "venue": "Barclays Center",
@@ -1578,16 +1592,6 @@
           "winner": "Indiana Fever",
           "home_score": 98,
           "away_score": 112,
-          "draw_prob": null
-        },
-        {
-          "home": "Chicago Sky",
-          "away": "Las Vegas Aces",
-          "date": "2026-08-01",
-          "home_prob": 36.7,
-          "winner": "Chicago Sky",
-          "home_score": 84,
-          "away_score": 83,
           "draw_prob": null
         }
       ]
@@ -5414,7 +5418,7 @@
           "away_prob": 44.5,
           "margin": 0.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816348",
           "draw_prob": null
@@ -5428,7 +5432,7 @@
           "away_prob": 47.9,
           "margin": 3.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816349",
           "draw_prob": null
@@ -5442,7 +5446,7 @@
           "away_prob": 46.7,
           "margin": -1.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "T-Mobile Park",
           "game_id": "mlb_401816360",
           "draw_prob": null
