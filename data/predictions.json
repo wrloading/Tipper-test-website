@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T19:33:43.058942+10:00",
+    "updated": "2026-08-01T21:07:44.214654+10:00",
     "year": 2026,
     "current_round": 21,
     "model": "TELO v2.0",
@@ -82602,7 +82602,7 @@
           "margin": 36.0,
           "home_prob": 30.4,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Blake Acres",
@@ -102627,7 +102627,7 @@
       "points_for": 1983,
       "points_against": 1346,
       "finals_pct": 100.0,
-      "premiers_pct": 36.6
+      "premiers_pct": 36.7
     },
     {
       "team": "Brisbane Lions",
@@ -102640,7 +102640,7 @@
       "points_for": 2042,
       "points_against": 1693,
       "finals_pct": 99.9,
-      "premiers_pct": 17.2
+      "premiers_pct": 16.9
     },
     {
       "team": "Sydney",
@@ -102653,7 +102653,7 @@
       "points_for": 2141,
       "points_against": 1653,
       "finals_pct": 100.0,
-      "premiers_pct": 17.6
+      "premiers_pct": 17.7
     },
     {
       "team": "Hawthorn",
@@ -102666,7 +102666,7 @@
       "points_for": 2003,
       "points_against": 1619,
       "finals_pct": 100.0,
-      "premiers_pct": 15.0
+      "premiers_pct": 14.8
     },
     {
       "team": "Geelong",
@@ -102692,7 +102692,7 @@
       "points_for": 1716,
       "points_against": 1509,
       "finals_pct": 99.6,
-      "premiers_pct": 4.3
+      "premiers_pct": 4.2
     },
     {
       "team": "Western Bulldogs",
@@ -102705,7 +102705,7 @@
       "points_for": 1634,
       "points_against": 1723,
       "finals_pct": 96.7,
-      "premiers_pct": 2.4
+      "premiers_pct": 2.6
     },
     {
       "team": "Collingwood",
@@ -102718,7 +102718,7 @@
       "points_for": 1716,
       "points_against": 1625,
       "finals_pct": 26.3,
-      "premiers_pct": 0.6
+      "premiers_pct": 0.5
     },
     {
       "team": "Melbourne",
@@ -102730,8 +102730,8 @@
       "percentage": 107.8,
       "points_for": 1855,
       "points_against": 1721,
-      "finals_pct": 77.7,
-      "premiers_pct": 0.9
+      "finals_pct": 77.6,
+      "premiers_pct": 1.0
     },
     {
       "team": "Carlton",

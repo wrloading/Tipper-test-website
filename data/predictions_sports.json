@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T09:34:07.475025+00:00",
+    "updated": "2026-08-01T11:08:07.490787+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Hawthorn",
-          "away": "North Melbourne",
-          "date": "2026-08-01",
-          "datetime": "2026-08-01T03:35Z",
-          "home_prob": 92.9,
-          "away_prob": 7.1,
-          "margin": 24.3,
-          "home_fav": true,
-          "locked": true,
-          "venue": "UTAS Stadium",
-          "game_id": "afl_1133658",
-          "draw_prob": null
-        },
-        {
           "home": "Port Adelaide",
           "away": "GWS GIANTS",
           "date": "2026-08-01",
@@ -136,7 +122,7 @@
           "away_prob": 72.7,
           "margin": 16.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133654",
           "draw_prob": null
@@ -277,7 +263,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Manuka Oval",
+          "venue": "Corroboree Group Oval Manuka",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
