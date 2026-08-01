@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T11:05:48.841239+10:00",
+    "updated": "2026-08-01T14:38:08.111536+10:00",
     "year": 2026,
     "current_round": 21,
     "model": "TELO v2.0",
@@ -81934,7 +81934,7 @@
           "margin": 24.8,
           "home_prob": 36.1,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Hugh Boxshall",
@@ -82586,7 +82586,7 @@
           "margin": 87.3,
           "home_prob": 88.2,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Tom Barrass",
@@ -103903,7 +103903,7 @@
       "points_for": 1983,
       "points_against": 1346,
       "finals_pct": 100.0,
-      "premiers_pct": 37.8
+      "premiers_pct": 37.2
     },
     {
       "team": "Brisbane Lions",
@@ -103916,7 +103916,7 @@
       "points_for": 2042,
       "points_against": 1693,
       "finals_pct": 99.9,
-      "premiers_pct": 17.5
+      "premiers_pct": 18.2
     },
     {
       "team": "Hawthorn",
@@ -103928,8 +103928,8 @@
       "percentage": 124.0,
       "points_for": 1904,
       "points_against": 1536,
-      "finals_pct": 99.9,
-      "premiers_pct": 14.6
+      "finals_pct": 100.0,
+      "premiers_pct": 14.4
     },
     {
       "team": "Sydney",
@@ -103942,7 +103942,7 @@
       "points_for": 2034,
       "points_against": 1565,
       "finals_pct": 100.0,
-      "premiers_pct": 15.4
+      "premiers_pct": 15.2
     },
     {
       "team": "Geelong",
@@ -103955,7 +103955,7 @@
       "points_for": 1980,
       "points_against": 1689,
       "finals_pct": 99.8,
-      "premiers_pct": 5.8
+      "premiers_pct": 6.0
     },
     {
       "team": "Adelaide",
@@ -103967,8 +103967,8 @@
       "percentage": 113.7,
       "points_for": 1716,
       "points_against": 1509,
-      "finals_pct": 99.5,
-      "premiers_pct": 4.4
+      "finals_pct": 99.6,
+      "premiers_pct": 4.5
     },
     {
       "team": "Western Bulldogs",
@@ -103981,7 +103981,7 @@
       "points_for": 1634,
       "points_against": 1723,
       "finals_pct": 96.6,
-      "premiers_pct": 2.7
+      "premiers_pct": 2.8
     },
     {
       "team": "Collingwood",
@@ -103993,7 +103993,7 @@
       "percentage": 105.6,
       "points_for": 1716,
       "points_against": 1625,
-      "finals_pct": 26.1,
+      "finals_pct": 25.9,
       "premiers_pct": 0.6
     },
     {
@@ -104006,8 +104006,8 @@
       "percentage": 107.8,
       "points_for": 1855,
       "points_against": 1721,
-      "finals_pct": 77.6,
-      "premiers_pct": 1.1
+      "finals_pct": 77.8,
+      "premiers_pct": 1.0
     },
     {
       "team": "St Kilda",
