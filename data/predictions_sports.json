@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-01T16:15:31.526556+00:00",
+    "updated": "2026-08-01T17:20:10.932682+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -699,7 +699,7 @@
           "away_prob": 66.1,
           "margin": -2.9,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Wintrust Arena",
           "game_id": "wnba_401857105",
           "draw_prob": null
