@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-02T17:20:59.585981+00:00",
+    "updated": "2026-08-02T18:33:10.476172+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -5338,7 +5338,7 @@
           "away_prob": 46.8,
           "margin": -0.9,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Oriole Park at Camden Yards",
           "game_id": "mlb_401816365",
           "draw_prob": null
@@ -5352,7 +5352,7 @@
           "away_prob": 39.0,
           "margin": 1.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Truist Park",
           "game_id": "mlb_401816368",
           "draw_prob": null
@@ -5366,7 +5366,7 @@
           "away_prob": 45.7,
           "margin": 0.3,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Rogers Centre",
           "game_id": "mlb_401816367",
           "draw_prob": null
@@ -5380,7 +5380,7 @@
           "away_prob": 50.1,
           "margin": -0.1,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Progressive Field",
           "game_id": "mlb_401816362",
           "draw_prob": null
@@ -5394,7 +5394,7 @@
           "away_prob": 44.1,
           "margin": -0.5,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Tropicana Field",
           "game_id": "mlb_401816363",
           "draw_prob": null
@@ -5408,7 +5408,7 @@
           "away_prob": 48.9,
           "margin": 2.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Citi Field",
           "game_id": "mlb_401816364",
           "draw_prob": null
@@ -5422,7 +5422,7 @@
           "away_prob": 50.4,
           "margin": -0.5,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Great American Ball Park",
           "game_id": "mlb_401816366",
           "draw_prob": null
@@ -5436,7 +5436,7 @@
           "away_prob": 43.4,
           "margin": 0.2,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Daikin Park",
           "game_id": "mlb_401816370",
           "draw_prob": null
@@ -5450,7 +5450,7 @@
           "away_prob": 43.1,
           "margin": 1.7,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "Wrigley Field",
           "game_id": "mlb_401816369",
           "draw_prob": null
