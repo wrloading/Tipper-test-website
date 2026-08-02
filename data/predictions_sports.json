@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-02T22:05:04.688012+00:00",
+    "updated": "2026-08-02T23:14:52.248119+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -727,7 +727,7 @@
           "away_prob": 11.7,
           "margin": 8.1,
           "home_fav": true,
-          "locked": false,
+          "locked": true,
           "venue": "College Park Center",
           "game_id": "wnba_401857109",
           "draw_prob": null
@@ -5333,20 +5333,6 @@
           "locked": true,
           "venue": "Sutter Health Park",
           "game_id": "mlb_401816373",
-          "draw_prob": null
-        },
-        {
-          "home": "Seattle Mariners",
-          "away": "Minnesota Twins",
-          "date": "2026-08-02",
-          "datetime": "2026-08-02T20:10Z",
-          "home_prob": 53.7,
-          "away_prob": 46.3,
-          "margin": -1.1,
-          "home_fav": true,
-          "locked": true,
-          "venue": "T-Mobile Park",
-          "game_id": "mlb_401816375",
           "draw_prob": null
         },
         {
