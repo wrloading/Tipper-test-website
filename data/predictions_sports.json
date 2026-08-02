@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-02T06:37:35.749027+00:00",
+    "updated": "2026-08-02T09:02:56.216712+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Gold Coast SUNS",
-          "away": "Melbourne",
-          "date": "2026-08-02",
-          "datetime": "2026-08-02T05:15Z",
-          "home_prob": 29.5,
-          "away_prob": 70.5,
-          "margin": -10.8,
-          "home_fav": false,
-          "locked": true,
-          "venue": "People First Stadium",
-          "game_id": "afl_1133657",
-          "draw_prob": null
-        },
-        {
           "home": "Essendon",
           "away": "Adelaide",
           "date": "2026-08-02",
@@ -122,7 +108,7 @@
           "away_prob": 86.8,
           "margin": -23.3,
           "home_fav": false,
-          "locked": false,
+          "locked": true,
           "venue": "Marvel Stadium",
           "game_id": "afl_1133656",
           "draw_prob": null
@@ -8243,7 +8229,7 @@
           "home": "Kansas City Royals",
           "away": "San Diego Padres",
           "date": "2026-07-19",
-          "home_prob": 46.9,
+          "home_prob": 46.8,
           "winner": "San Diego Padres",
           "home_score": 2,
           "away_score": 19,
