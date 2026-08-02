@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-02T09:02:56.216712+00:00",
+    "updated": "2026-08-02T10:49:22.188846+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -100,20 +100,6 @@
       ],
       "upcoming": [
         {
-          "home": "Essendon",
-          "away": "Adelaide",
-          "date": "2026-08-02",
-          "datetime": "2026-08-02T06:40Z",
-          "home_prob": 13.2,
-          "away_prob": 86.8,
-          "margin": -23.3,
-          "home_fav": false,
-          "locked": true,
-          "venue": "Marvel Stadium",
-          "game_id": "afl_1133656",
-          "draw_prob": null
-        },
-        {
           "home": "Western Bulldogs",
           "away": "North Melbourne",
           "date": "2026-08-06",
@@ -207,7 +193,7 @@
           "margin": 17.6,
           "home_fav": true,
           "locked": false,
-          "venue": "Corroboree Group Oval Manuka",
+          "venue": "Manuka Oval",
           "game_id": "afl_1133665",
           "draw_prob": null
         },
@@ -466,26 +452,6 @@
           "draw_prob": null
         },
         {
-          "home": "Port Adelaide",
-          "away": "GWS GIANTS",
-          "date": "2026-08-01",
-          "home_prob": 38.5,
-          "winner": "GWS GIANTS",
-          "home_score": 63,
-          "away_score": 75,
-          "draw_prob": null
-        },
-        {
-          "home": "Carlton",
-          "away": "Brisbane Lions",
-          "date": "2026-08-01",
-          "home_prob": 45.6,
-          "winner": "Carlton",
-          "home_score": 154,
-          "away_score": 78,
-          "draw_prob": null
-        },
-        {
           "home": "St Kilda",
           "away": "Sydney",
           "date": "2026-08-01",
@@ -503,6 +469,26 @@
           "winner": "Hawthorn",
           "home_score": 99,
           "away_score": 83,
+          "draw_prob": null
+        },
+        {
+          "home": "Port Adelaide",
+          "away": "GWS GIANTS",
+          "date": "2026-08-01",
+          "home_prob": 38.5,
+          "winner": "GWS GIANTS",
+          "home_score": 63,
+          "away_score": 75,
+          "draw_prob": null
+        },
+        {
+          "home": "Carlton",
+          "away": "Brisbane Lions",
+          "date": "2026-08-01",
+          "home_prob": 45.6,
+          "winner": "Carlton",
+          "home_score": 154,
+          "away_score": 78,
           "draw_prob": null
         }
       ]
