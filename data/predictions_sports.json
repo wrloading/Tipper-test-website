@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-03T21:16:49.142905+00:00",
+    "updated": "2026-08-03T22:31:08.285686+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2349,99 +2349,149 @@
           "rank": 9
         },
         {
+          "team": "Partick",
+          "rating": 1508.7,
+          "rank": 10
+        },
+        {
+          "team": "Ayr",
+          "rating": 1508.2,
+          "rank": 11
+        },
+        {
+          "team": "Livingston",
+          "rating": 1508.2,
+          "rank": 12
+        },
+        {
           "team": "Sevilla",
           "rating": 1506.4,
-          "rank": 10
+          "rank": 13
+        },
+        {
+          "team": "Inverness C",
+          "rating": 1500.0,
+          "rank": 14
+        },
+        {
+          "team": "Dunfermline",
+          "rating": 1500.0,
+          "rank": 15
+        },
+        {
+          "team": "Raith Rvs",
+          "rating": 1500.0,
+          "rank": 16
+        },
+        {
+          "team": "Stenhousemuir",
+          "rating": 1500.0,
+          "rank": 17
+        },
+        {
+          "team": "Arbroath",
+          "rating": 1491.8,
+          "rank": 18
+        },
+        {
+          "team": "Queens Park",
+          "rating": 1491.8,
+          "rank": 19
+        },
+        {
+          "team": "Morton",
+          "rating": 1491.3,
+          "rank": 20
         },
         {
           "team": "Levante",
           "rating": 1489.8,
-          "rank": 11
+          "rank": 21
         },
         {
           "team": "Leganes",
           "rating": 1477.6,
-          "rank": 12
+          "rank": 22
         },
         {
           "team": "Huesca",
           "rating": 1475.9,
-          "rank": 13
+          "rank": 23
         },
         {
           "team": "Mallorca",
           "rating": 1474.8,
-          "rank": 14
+          "rank": 24
         },
         {
           "team": "Oviedo",
           "rating": 1474.3,
-          "rank": 15
+          "rank": 25
         },
         {
           "team": "Celta Vigo",
           "rating": 1470.9,
-          "rank": 16
+          "rank": 26
         },
         {
           "team": "Vallecano",
           "rating": 1469.7,
-          "rank": 17
+          "rank": 27
         },
         {
           "team": "Las Palmas",
           "rating": 1464.8,
-          "rank": 18
+          "rank": 28
         },
         {
           "team": "Eibar",
           "rating": 1458.1,
-          "rank": 19
+          "rank": 29
         },
         {
           "team": "Alaves",
           "rating": 1455.2,
-          "rank": 20
+          "rank": 30
         },
         {
           "team": "Elche",
           "rating": 1444.6,
-          "rank": 21
+          "rank": 31
         },
         {
           "team": "Osasuna",
           "rating": 1441.9,
-          "rank": 22
+          "rank": 32
         },
         {
           "team": "Espanyol",
           "rating": 1441.4,
-          "rank": 23
+          "rank": 33
         },
         {
           "team": "Valladolid",
           "rating": 1439.7,
-          "rank": 24
+          "rank": 34
         },
         {
           "team": "Getafe",
           "rating": 1439.6,
-          "rank": 25
+          "rank": 35
         },
         {
           "team": "Cadiz",
           "rating": 1412.2,
-          "rank": 26
+          "rank": 36
         },
         {
           "team": "Almeria",
           "rating": 1389.0,
-          "rank": 27
+          "rank": 37
         },
         {
           "team": "Granada",
           "rating": 1379.4,
-          "rank": 28
+          "rank": 38
         }
       ],
       "upcoming": [
@@ -2530,7 +2580,58 @@
           "draw_prob": 14.3
         }
       ],
-      "recent": []
+      "recent": [
+        {
+          "home": "Ayr",
+          "away": "Arbroath",
+          "date": "2026-08-01",
+          "home_prob": 54.4,
+          "winner": "Ayr",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 16.1
+        },
+        {
+          "home": "Inverness C",
+          "away": "Dunfermline",
+          "date": "2026-08-01",
+          "home_prob": 52.1,
+          "winner": null,
+          "home_score": 0,
+          "away_score": 0,
+          "draw_prob": 16.9
+        },
+        {
+          "home": "Livingston",
+          "away": "Queens Park",
+          "date": "2026-08-01",
+          "home_prob": 54.4,
+          "winner": "Livingston",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 16.1
+        },
+        {
+          "home": "Morton",
+          "away": "Partick",
+          "date": "2026-08-01",
+          "home_prob": 49.6,
+          "winner": "Partick",
+          "home_score": 0,
+          "away_score": 1,
+          "draw_prob": 17.8
+        },
+        {
+          "home": "Raith Rvs",
+          "away": "Stenhousemuir",
+          "date": "2026-08-01",
+          "home_prob": 52.1,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 16.9
+        }
+      ]
     },
     "bundesliga": {
       "ratings": [
