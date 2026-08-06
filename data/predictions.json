@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-06T19:24:58.355847+10:00",
+    "updated": "2026-08-06T21:43:03.361257+10:00",
     "year": 2026,
     "current_round": 22,
     "model": "TELO v2.0",
@@ -86215,7 +86215,7 @@
           "margin": 65.6,
           "home_prob": 81.9,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Marcus Bontempelli",
@@ -103677,7 +103677,7 @@
       "points_for": 1983,
       "points_against": 1346,
       "finals_pct": 100.0,
-      "premiers_pct": 38.1
+      "premiers_pct": 38.3
     },
     {
       "team": "Sydney",
@@ -103690,7 +103690,7 @@
       "points_for": 2141,
       "points_against": 1653,
       "finals_pct": 100.0,
-      "premiers_pct": 18.7
+      "premiers_pct": 18.4
     },
     {
       "team": "Hawthorn",
@@ -103703,7 +103703,7 @@
       "points_for": 2003,
       "points_against": 1619,
       "finals_pct": 100.0,
-      "premiers_pct": 16.5
+      "premiers_pct": 16.6
     },
     {
       "team": "Brisbane Lions",
@@ -103716,7 +103716,7 @@
       "points_for": 2120,
       "points_against": 1847,
       "finals_pct": 99.5,
-      "premiers_pct": 10.1
+      "premiers_pct": 10.2
     },
     {
       "team": "Geelong",
@@ -103742,7 +103742,7 @@
       "points_for": 1861,
       "points_against": 1582,
       "finals_pct": 99.9,
-      "premiers_pct": 5.6
+      "premiers_pct": 5.4
     },
     {
       "team": "Western Bulldogs",
@@ -103755,7 +103755,7 @@
       "points_for": 1634,
       "points_against": 1723,
       "finals_pct": 95.5,
-      "premiers_pct": 2.6
+      "premiers_pct": 2.7
     },
     {
       "team": "Collingwood",
@@ -103781,7 +103781,7 @@
       "points_for": 1969,
       "points_against": 1826,
       "finals_pct": 90.0,
-      "premiers_pct": 1.9
+      "premiers_pct": 1.8
     },
     {
       "team": "Carlton",
