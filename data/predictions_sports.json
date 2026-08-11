@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-11T07:59:21.068398+00:00",
+    "updated": "2026-08-11T09:06:01.461654+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1141,129 +1141,139 @@
           "rank": 29
         },
         {
+          "team": "Santa Clara",
+          "rating": 1500.0,
+          "rank": 30
+        },
+        {
+          "team": "Nacional",
+          "rating": 1500.0,
+          "rank": 31
+        },
+        {
           "team": "Casa Pia",
           "rating": 1494.8,
-          "rank": 30
+          "rank": 32
         },
         {
           "team": "Rio Ave",
           "rating": 1494.8,
-          "rank": 31
+          "rank": 33
         },
         {
           "team": "Arbroath",
           "rating": 1491.8,
-          "rank": 32
+          "rank": 34
         },
         {
           "team": "Queens Park",
           "rating": 1491.8,
-          "rank": 33
+          "rank": 35
         },
         {
           "team": "Alverca",
           "rating": 1491.8,
-          "rank": 34
+          "rank": 36
         },
         {
           "team": "Guimaraes",
           "rating": 1491.3,
-          "rank": 35
+          "rank": 37
         },
         {
           "team": "Morton",
           "rating": 1491.3,
-          "rank": 36
+          "rank": 38
         },
         {
           "team": "Levante",
           "rating": 1489.8,
-          "rank": 37
+          "rank": 39
         },
         {
           "team": "Leganes",
           "rating": 1477.6,
-          "rank": 38
+          "rank": 40
         },
         {
           "team": "Huesca",
           "rating": 1475.9,
-          "rank": 39
+          "rank": 41
         },
         {
           "team": "Mallorca",
           "rating": 1474.8,
-          "rank": 40
+          "rank": 42
         },
         {
           "team": "Oviedo",
           "rating": 1474.3,
-          "rank": 41
+          "rank": 43
         },
         {
           "team": "Celta Vigo",
           "rating": 1470.9,
-          "rank": 42
+          "rank": 44
         },
         {
           "team": "Vallecano",
           "rating": 1469.7,
-          "rank": 43
+          "rank": 45
         },
         {
           "team": "Las Palmas",
           "rating": 1464.8,
-          "rank": 44
+          "rank": 46
         },
         {
           "team": "Eibar",
           "rating": 1458.1,
-          "rank": 45
+          "rank": 47
         },
         {
           "team": "Alaves",
           "rating": 1455.2,
-          "rank": 46
+          "rank": 48
         },
         {
           "team": "Elche",
           "rating": 1444.6,
-          "rank": 47
+          "rank": 49
         },
         {
           "team": "Osasuna",
           "rating": 1441.9,
-          "rank": 48
+          "rank": 50
         },
         {
           "team": "Espanyol",
           "rating": 1441.4,
-          "rank": 49
+          "rank": 51
         },
         {
           "team": "Valladolid",
           "rating": 1439.7,
-          "rank": 50
+          "rank": 52
         },
         {
           "team": "Getafe",
           "rating": 1439.6,
-          "rank": 51
+          "rank": 53
         },
         {
           "team": "Cadiz",
           "rating": 1412.2,
-          "rank": 52
+          "rank": 54
         },
         {
           "team": "Almeria",
           "rating": 1389.0,
-          "rank": 53
+          "rank": 55
         },
         {
           "team": "Granada",
           "rating": 1379.4,
-          "rank": 54
+          "rank": 56
         }
       ],
       "upcoming": [],
@@ -1342,6 +1352,16 @@
           "home": "Moreirense",
           "away": "Sp Braga",
           "date": "2026-08-09",
+          "home_prob": 52.1,
+          "winner": null,
+          "home_score": 2,
+          "away_score": 2,
+          "draw_prob": 16.9
+        },
+        {
+          "home": "Santa Clara",
+          "away": "Nacional",
+          "date": "2026-08-10",
           "home_prob": 52.1,
           "winner": null,
           "home_score": 2,
