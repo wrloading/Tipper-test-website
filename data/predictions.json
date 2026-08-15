@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-15T23:17:30.958831+10:00",
+    "updated": "2026-08-15T23:52:12.200700+10:00",
     "year": 2026,
     "current_round": 23,
     "model": "TELO v2.0",
@@ -3111,7 +3111,7 @@
       "points_for": 2204,
       "points_against": 1547,
       "finals_pct": 100.0,
-      "premiers_pct": 33.9
+      "premiers_pct": 34.3
     },
     {
       "team": "Brisbane Lions",
@@ -3124,7 +3124,7 @@
       "points_for": 2340,
       "points_against": 1958,
       "finals_pct": 100.0,
-      "premiers_pct": 18.5
+      "premiers_pct": 19.0
     },
     {
       "team": "Sydney",
@@ -3137,7 +3137,7 @@
       "points_for": 2308,
       "points_against": 1723,
       "finals_pct": 100.0,
-      "premiers_pct": 19.9
+      "premiers_pct": 19.8
     },
     {
       "team": "Geelong",
@@ -3150,7 +3150,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 9.8
+      "premiers_pct": 9.3
     },
     {
       "team": "Hawthorn",
@@ -3163,7 +3163,7 @@
       "points_for": 2153,
       "points_against": 1836,
       "finals_pct": 100.0,
-      "premiers_pct": 4.8
+      "premiers_pct": 4.6
     },
     {
       "team": "Adelaide",
@@ -3176,7 +3176,7 @@
       "points_for": 2012,
       "points_against": 1748,
       "finals_pct": 100.0,
-      "premiers_pct": 3.4
+      "premiers_pct": 3.3
     },
     {
       "team": "Melbourne",
@@ -3201,7 +3201,7 @@
       "percentage": 106.1,
       "points_for": 1925,
       "points_against": 1815,
-      "finals_pct": 46.8,
+      "finals_pct": 46.4,
       "premiers_pct": 1.3
     },
     {
@@ -3214,7 +3214,7 @@
       "percentage": 93.9,
       "points_for": 1711,
       "points_against": 1823,
-      "finals_pct": 49.0,
+      "finals_pct": 49.1,
       "premiers_pct": 0.8
     },
     {
@@ -3227,7 +3227,7 @@
       "percentage": 99.6,
       "points_for": 1806,
       "points_against": 1814,
-      "finals_pct": 4.2,
+      "finals_pct": 4.5,
       "premiers_pct": 0.1
     },
     {
