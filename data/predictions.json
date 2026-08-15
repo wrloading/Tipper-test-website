@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-15T19:41:41.739648+10:00",
+    "updated": "2026-08-15T19:59:57.361040+10:00",
     "year": 2026,
     "current_round": 23,
     "model": "TELO v2.0",
@@ -3109,7 +3109,7 @@
       "points_for": 2204,
       "points_against": 1547,
       "finals_pct": 100.0,
-      "premiers_pct": 34.1
+      "premiers_pct": 33.7
     },
     {
       "team": "Brisbane Lions",
@@ -3122,7 +3122,7 @@
       "points_for": 2340,
       "points_against": 1958,
       "finals_pct": 100.0,
-      "premiers_pct": 17.5
+      "premiers_pct": 17.7
     },
     {
       "team": "Sydney",
@@ -3135,7 +3135,7 @@
       "points_for": 2308,
       "points_against": 1723,
       "finals_pct": 100.0,
-      "premiers_pct": 19.7
+      "premiers_pct": 19.9
     },
     {
       "team": "Geelong",
@@ -3148,7 +3148,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 8.3
+      "premiers_pct": 8.4
     },
     {
       "team": "Hawthorn",
@@ -3161,7 +3161,7 @@
       "points_for": 2061,
       "points_against": 1744,
       "finals_pct": 100.0,
-      "premiers_pct": 10.3
+      "premiers_pct": 10.2
     },
     {
       "team": "Adelaide",
@@ -3174,7 +3174,7 @@
       "points_for": 2012,
       "points_against": 1748,
       "finals_pct": 100.0,
-      "premiers_pct": 3.4
+      "premiers_pct": 3.6
     },
     {
       "team": "Collingwood",
@@ -3186,7 +3186,7 @@
       "percentage": 106.4,
       "points_for": 1833,
       "points_against": 1723,
-      "finals_pct": 60.0,
+      "finals_pct": 60.1,
       "premiers_pct": 1.5
     },
     {
@@ -3200,7 +3200,7 @@
       "points_for": 2082,
       "points_against": 1935,
       "finals_pct": 100.0,
-      "premiers_pct": 4.4
+      "premiers_pct": 4.3
     },
     {
       "team": "Western Bulldogs",
@@ -3212,7 +3212,7 @@
       "percentage": 93.9,
       "points_for": 1711,
       "points_against": 1823,
-      "finals_pct": 37.2,
+      "finals_pct": 37.1,
       "premiers_pct": 0.7
     },
     {
