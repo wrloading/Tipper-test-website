@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-15T23:52:12.200700+10:00",
+    "updated": "2026-08-16T00:24:07.559323+10:00",
     "year": 2026,
     "current_round": 23,
     "model": "TELO v2.0",
@@ -3124,7 +3124,7 @@
       "points_for": 2340,
       "points_against": 1958,
       "finals_pct": 100.0,
-      "premiers_pct": 19.0
+      "premiers_pct": 18.9
     },
     {
       "team": "Sydney",
@@ -3176,7 +3176,7 @@
       "points_for": 2012,
       "points_against": 1748,
       "finals_pct": 100.0,
-      "premiers_pct": 3.3
+      "premiers_pct": 3.4
     },
     {
       "team": "Melbourne",
@@ -3201,7 +3201,7 @@
       "percentage": 106.1,
       "points_for": 1925,
       "points_against": 1815,
-      "finals_pct": 46.4,
+      "finals_pct": 46.5,
       "premiers_pct": 1.3
     },
     {
@@ -3227,7 +3227,7 @@
       "percentage": 99.6,
       "points_for": 1806,
       "points_against": 1814,
-      "finals_pct": 4.5,
+      "finals_pct": 4.4,
       "premiers_pct": 0.1
     },
     {
