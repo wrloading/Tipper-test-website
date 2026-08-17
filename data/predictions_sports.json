@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-17T22:44:40.106611+00:00",
+    "updated": "2026-08-17T23:04:12.452862+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -870,128 +870,7 @@
         }
       ],
       "upcoming": [],
-      "recent": [
-        {
-          "home": "Altrincham",
-          "away": "Southend",
-          "date": "2026-08-08",
-          "home_prob": 47.4,
-          "winner": "Southend",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 17.7
-        },
-        {
-          "home": "Boreham Wood",
-          "away": "Tamworth",
-          "date": "2026-08-08",
-          "home_prob": 51.3,
-          "winner": null,
-          "home_score": 3,
-          "away_score": 3,
-          "draw_prob": 16.3
-        },
-        {
-          "home": "Boston Utd",
-          "away": "Aldershot",
-          "date": "2026-08-08",
-          "home_prob": 48.8,
-          "winner": "Aldershot",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 17.2
-        },
-        {
-          "home": "Carlisle",
-          "away": "Worthing",
-          "date": "2026-08-08",
-          "home_prob": 48.8,
-          "winner": "Worthing",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 17.2
-        },
-        {
-          "home": "Eastleigh",
-          "away": "Gateshead",
-          "date": "2026-08-08",
-          "home_prob": 52.8,
-          "winner": "Eastleigh",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 15.8
-        },
-        {
-          "home": "Forest Green",
-          "away": "Halifax",
-          "date": "2026-08-08",
-          "home_prob": 52.8,
-          "winner": "Forest Green",
-          "home_score": 3,
-          "away_score": 2,
-          "draw_prob": 15.8
-        },
-        {
-          "home": "Fylde",
-          "away": "Wealdstone",
-          "date": "2026-08-08",
-          "home_prob": 51.3,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 16.3
-        },
-        {
-          "home": "Harrogate",
-          "away": "Solihull",
-          "date": "2026-08-08",
-          "home_prob": 54.4,
-          "winner": "Harrogate",
-          "home_score": 5,
-          "away_score": 2,
-          "draw_prob": 15.3
-        },
-        {
-          "home": "Hartlepool",
-          "away": "Barrow",
-          "date": "2026-08-08",
-          "home_prob": 53.7,
-          "winner": "Hartlepool",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 15.5
-        },
-        {
-          "home": "Hornchurch",
-          "away": "Kidderminster",
-          "date": "2026-08-08",
-          "home_prob": 54.4,
-          "winner": "Hornchurch",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 15.3
-        },
-        {
-          "home": "Scunthorpe",
-          "away": "Yeovil",
-          "date": "2026-08-08",
-          "home_prob": 51.3,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 16.3
-        },
-        {
-          "home": "Woking",
-          "away": "Sutton",
-          "date": "2026-08-08",
-          "home_prob": 46.4,
-          "winner": "Sutton",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 18.1
-        }
-      ]
+      "recent": []
     },
     "laliga": {
       "ratings": [
@@ -1041,33 +920,33 @@
           "rank": 9
         },
         {
-          "team": "Partick",
-          "rating": 1508.7,
+          "team": "Sevilla",
+          "rating": 1510.9,
           "rank": 10
         },
         {
-          "team": "Arouca",
+          "team": "Partick",
           "rating": 1508.7,
           "rank": 11
         },
         {
-          "team": "Porto",
-          "rating": 1508.2,
+          "team": "Arouca",
+          "rating": 1508.7,
           "rank": 12
         },
         {
-          "team": "Ayr",
+          "team": "Porto",
           "rating": 1508.2,
           "rank": 13
         },
         {
-          "team": "Livingston",
+          "team": "Ayr",
           "rating": 1508.2,
           "rank": 14
         },
         {
-          "team": "Sevilla",
-          "rating": 1506.4,
+          "team": "Livingston",
+          "rating": 1508.2,
           "rank": 15
         },
         {
@@ -1151,222 +1030,192 @@
           "rank": 31
         },
         {
+          "team": "Santander",
+          "rating": 1500.0,
+          "rank": 32
+        },
+        {
+          "team": "Dep. A Coruna",
+          "rating": 1500.0,
+          "rank": 33
+        },
+        {
           "team": "Casa Pia",
           "rating": 1494.8,
-          "rank": 32
+          "rank": 34
         },
         {
           "team": "Rio Ave",
           "rating": 1494.8,
-          "rank": 33
+          "rank": 35
         },
         {
           "team": "Arbroath",
           "rating": 1491.8,
-          "rank": 34
+          "rank": 36
         },
         {
           "team": "Queens Park",
           "rating": 1491.8,
-          "rank": 35
+          "rank": 37
         },
         {
           "team": "Alverca",
           "rating": 1491.8,
-          "rank": 36
+          "rank": 38
         },
         {
           "team": "Guimaraes",
           "rating": 1491.3,
-          "rank": 37
+          "rank": 39
         },
         {
           "team": "Morton",
           "rating": 1491.3,
-          "rank": 38
-        },
-        {
-          "team": "Levante",
-          "rating": 1489.8,
-          "rank": 39
+          "rank": 40
         },
         {
           "team": "Leganes",
           "rating": 1477.6,
-          "rank": 40
+          "rank": 41
+        },
+        {
+          "team": "Levante",
+          "rating": 1477.6,
+          "rank": 42
         },
         {
           "team": "Huesca",
           "rating": 1475.9,
-          "rank": 41
+          "rank": 43
         },
         {
           "team": "Mallorca",
           "rating": 1474.8,
-          "rank": 42
+          "rank": 44
         },
         {
           "team": "Oviedo",
           "rating": 1474.3,
-          "rank": 43
+          "rank": 45
         },
         {
           "team": "Celta Vigo",
           "rating": 1470.9,
-          "rank": 44
-        },
-        {
-          "team": "Vallecano",
-          "rating": 1469.7,
-          "rank": 45
-        },
-        {
-          "team": "Las Palmas",
-          "rating": 1464.8,
           "rank": 46
         },
         {
-          "team": "Eibar",
-          "rating": 1458.1,
+          "team": "Vallecano",
+          "rating": 1465.2,
           "rank": 47
         },
         {
           "team": "Alaves",
-          "rating": 1455.2,
+          "rating": 1465.0,
           "rank": 48
         },
         {
-          "team": "Elche",
-          "rating": 1444.6,
+          "team": "Las Palmas",
+          "rating": 1464.8,
           "rank": 49
         },
         {
-          "team": "Osasuna",
-          "rating": 1441.9,
+          "team": "Eibar",
+          "rating": 1458.1,
           "rank": 50
         },
         {
           "team": "Espanyol",
-          "rating": 1441.4,
+          "rating": 1453.6,
           "rank": 51
+        },
+        {
+          "team": "Elche",
+          "rating": 1444.6,
+          "rank": 52
+        },
+        {
+          "team": "Osasuna",
+          "rating": 1441.9,
+          "rank": 53
         },
         {
           "team": "Valladolid",
           "rating": 1439.7,
-          "rank": 52
+          "rank": 54
         },
         {
           "team": "Getafe",
-          "rating": 1439.6,
-          "rank": 53
+          "rating": 1429.8,
+          "rank": 55
         },
         {
           "team": "Cadiz",
           "rating": 1412.2,
-          "rank": 54
+          "rank": 56
         },
         {
           "team": "Almeria",
           "rating": 1389.0,
-          "rank": 55
+          "rank": 57
         },
         {
           "team": "Granada",
           "rating": 1379.4,
-          "rank": 56
+          "rank": 58
         }
       ],
       "upcoming": [],
       "recent": [
         {
-          "home": "Estoril",
-          "away": "Famalicao",
-          "date": "2026-08-07",
-          "home_prob": 52.1,
+          "home": "Alaves",
+          "away": "Getafe",
+          "date": "2026-08-15",
+          "home_prob": 57.1,
+          "winner": "Alaves",
+          "home_score": 3,
+          "away_score": 0,
+          "draw_prob": 15.2
+        },
+        {
+          "home": "Sevilla",
+          "away": "Vallecano",
+          "date": "2026-08-15",
+          "home_prob": 58.5,
+          "winner": "Sevilla",
+          "home_score": 2,
+          "away_score": 1,
+          "draw_prob": 14.7
+        },
+        {
+          "home": "Santander",
+          "away": "Villarreal",
+          "date": "2026-08-16",
+          "home_prob": 41.8,
+          "winner": null,
+          "home_score": 2,
+          "away_score": 2,
+          "draw_prob": 20.7
+        },
+        {
+          "home": "Espanyol",
+          "away": "Levante",
+          "date": "2026-08-16",
+          "home_prob": 48.6,
+          "winner": "Espanyol",
+          "home_score": 3,
+          "away_score": 0,
+          "draw_prob": 18.1
+        },
+        {
+          "home": "Dep. A Coruna",
+          "away": "Elche",
+          "date": "2026-08-17",
+          "home_prob": 59.8,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 16.9
-        },
-        {
-          "home": "Maritimo",
-          "away": "Casa Pia",
-          "date": "2026-08-08",
-          "home_prob": 53.6,
-          "winner": "Maritimo",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 16.4
-        },
-        {
-          "home": "Guimaraes",
-          "away": "Arouca",
-          "date": "2026-08-08",
-          "home_prob": 49.6,
-          "winner": "Arouca",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 17.8
-        },
-        {
-          "home": "Estrela",
-          "away": "Sp Lisbon",
-          "date": "2026-08-08",
-          "home_prob": 52.1,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 16.9
-        },
-        {
-          "home": "Porto",
-          "away": "Alverca",
-          "date": "2026-08-09",
-          "home_prob": 54.4,
-          "winner": "Porto",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 16.1
-        },
-        {
-          "home": "Benfica",
-          "away": "Academico Viseu",
-          "date": "2026-08-09",
-          "home_prob": 52.1,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 16.9
-        },
-        {
-          "home": "Gil Vicente",
-          "away": "Rio Ave",
-          "date": "2026-08-09",
-          "home_prob": 53.6,
-          "winner": "Gil Vicente",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 16.4
-        },
-        {
-          "home": "Moreirense",
-          "away": "Sp Braga",
-          "date": "2026-08-09",
-          "home_prob": 52.1,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 16.9
-        },
-        {
-          "home": "Santa Clara",
-          "away": "Nacional",
-          "date": "2026-08-10",
-          "home_prob": 52.1,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 16.9
+          "draw_prob": 14.3
         }
       ]
     },
