@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-20T18:21:06.794852+10:00",
+    "updated": "2026-08-20T19:08:13.489925+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -100685,7 +100685,7 @@
       "points_for": 2204,
       "points_against": 1547,
       "finals_pct": 100.0,
-      "premiers_pct": 33.8
+      "premiers_pct": 34.3
     },
     {
       "team": "Sydney",
@@ -100711,7 +100711,7 @@
       "points_for": 2340,
       "points_against": 1958,
       "finals_pct": 100.0,
-      "premiers_pct": 18.4
+      "premiers_pct": 18.7
     },
     {
       "team": "Geelong",
@@ -100724,7 +100724,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 9.3
+      "premiers_pct": 8.9
     },
     {
       "team": "Hawthorn",
@@ -100737,7 +100737,7 @@
       "points_for": 2153,
       "points_against": 1836,
       "finals_pct": 100.0,
-      "premiers_pct": 4.8
+      "premiers_pct": 4.4
     },
     {
       "team": "Adelaide",
@@ -100763,7 +100763,7 @@
       "points_for": 2214,
       "points_against": 1991,
       "finals_pct": 100.0,
-      "premiers_pct": 7.5
+      "premiers_pct": 7.4
     },
     {
       "team": "Collingwood",
@@ -100776,7 +100776,7 @@
       "points_for": 1925,
       "points_against": 1815,
       "finals_pct": 82.0,
-      "premiers_pct": 2.2
+      "premiers_pct": 2.1
     },
     {
       "team": "Western Bulldogs",
