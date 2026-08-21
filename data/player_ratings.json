@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T07:08:18.678764+10:00",
+  "updated": "2026-08-22T07:48:41.617873+10:00",
   "league_avg": 83.9,
   "players": [
     {
@@ -92,8 +92,8 @@
       "games": 23,
       "cost": 1092000,
       "status": "available",
-      "telo": 1825,
-      "avg_pi": 165.2,
+      "telo": 1826,
+      "avg_pi": 165.5,
       "last3_pi": 171.7,
       "player_rating": 95,
       "player_rank": 9
@@ -124,8 +124,8 @@
       "games": 23,
       "cost": 1089000,
       "status": "available",
-      "telo": 1866,
-      "avg_pi": 175.5,
+      "telo": 1868,
+      "avg_pi": 175.9,
       "last3_pi": 178.3,
       "player_rating": 99,
       "player_rank": 3
@@ -236,11 +236,11 @@
       "games": 11,
       "cost": 1039000,
       "status": "injured",
-      "telo": 1581,
+      "telo": 1580,
       "avg_pi": 104.1,
       "last3_pi": 115.3,
       "player_rating": 74,
-      "player_rank": 140
+      "player_rank": 141
     },
     {
       "id": 992016,
@@ -300,8 +300,8 @@
       "games": 23,
       "cost": 964000,
       "status": "available",
-      "telo": 1755,
-      "avg_pi": 147.6,
+      "telo": 1754,
+      "avg_pi": 147.4,
       "last3_pi": 159.7,
       "player_rating": 89,
       "player_rank": 28
@@ -333,7 +333,7 @@
       "cost": 894000,
       "status": "available",
       "telo": 1695,
-      "avg_pi": 132.6,
+      "avg_pi": 132.7,
       "last3_pi": 121.0,
       "player_rating": 84,
       "player_rank": 51
@@ -384,7 +384,7 @@
       "avg_pi": 176.2,
       "last3_pi": 218.0,
       "player_rating": 99,
-      "player_rank": 2
+      "player_rank": 1
     },
     {
       "id": 1009253,
@@ -399,7 +399,7 @@
       "telo": 1668,
       "avg_pi": 125.9,
       "last3_pi": 119.7,
-      "player_rating": 81,
+      "player_rating": 82,
       "player_rank": 60
     },
     {
@@ -556,7 +556,7 @@
       "avg_pi": 116.0,
       "last3_pi": 98.7,
       "player_rating": 78,
-      "player_rank": 83
+      "player_rank": 84
     },
     {
       "id": 296205,
@@ -616,11 +616,11 @@
       "games": 19,
       "cost": 888000,
       "status": "injured",
-      "telo": 1585,
-      "avg_pi": 105.3,
+      "telo": 1584,
+      "avg_pi": 105.0,
       "last3_pi": 114.0,
       "player_rating": 74,
-      "player_rank": 135
+      "player_rank": 137
     },
     {
       "id": 1009399,
@@ -632,8 +632,8 @@
       "games": 20,
       "cost": 900000,
       "status": "available",
-      "telo": 1754,
-      "avg_pi": 147.5,
+      "telo": 1753,
+      "avg_pi": 147.3,
       "last3_pi": 159.0,
       "player_rating": 89,
       "player_rank": 29
@@ -652,7 +652,7 @@
       "avg_pi": 155.9,
       "last3_pi": 151.0,
       "player_rating": 92,
-      "player_rank": 18
+      "player_rank": 19
     },
     {
       "id": 1005054,
@@ -664,8 +664,8 @@
       "games": 23,
       "cost": 896000,
       "status": "available",
-      "telo": 1686,
-      "avg_pi": 130.6,
+      "telo": 1688,
+      "avg_pi": 130.8,
       "last3_pi": 148.0,
       "player_rating": 83,
       "player_rank": 53
@@ -700,7 +700,7 @@
       "avg_pi": 91.2,
       "last3_pi": 75.7,
       "player_rating": 69,
-      "player_rank": 233
+      "player_rank": 234
     },
     {
       "id": 1000980,
@@ -729,7 +729,7 @@
       "cost": 877000,
       "status": "available",
       "telo": 1734,
-      "avg_pi": 142.4,
+      "avg_pi": 142.5,
       "last3_pi": 138.7,
       "player_rating": 87,
       "player_rank": 35
@@ -748,7 +748,7 @@
       "avg_pi": 71.0,
       "last3_pi": 52.0,
       "player_rating": 62,
-      "player_rank": 415
+      "player_rank": 412
     },
     {
       "id": 291975,
@@ -776,8 +776,8 @@
       "games": 20,
       "cost": 931000,
       "status": "available",
-      "telo": 1594,
-      "avg_pi": 107.4,
+      "telo": 1595,
+      "avg_pi": 107.8,
       "last3_pi": 88.0,
       "player_rating": 75,
       "player_rank": 119
@@ -792,11 +792,11 @@
       "games": 23,
       "cost": 845000,
       "status": "available",
-      "telo": 1787,
-      "avg_pi": 155.8,
+      "telo": 1789,
+      "avg_pi": 156.2,
       "last3_pi": 165.0,
       "player_rating": 92,
-      "player_rank": 19
+      "player_rank": 18
     },
     {
       "id": 298272,
@@ -811,7 +811,7 @@
       "telo": 1668,
       "avg_pi": 125.9,
       "last3_pi": 124.7,
-      "player_rating": 81,
+      "player_rating": 82,
       "player_rank": 61
     },
     {
@@ -858,7 +858,7 @@
       "status": "available",
       "telo": 1625,
       "player_rating": 78,
-      "player_rank": 87
+      "player_rank": 86
     },
     {
       "id": 291856,
@@ -872,7 +872,7 @@
       "status": "unavailable",
       "telo": 1625,
       "player_rating": 78,
-      "player_rank": 88
+      "player_rank": 87
     },
     {
       "id": 295467,
@@ -920,7 +920,7 @@
       "avg_pi": 105.9,
       "last3_pi": 71.7,
       "player_rating": 75,
-      "player_rank": 128
+      "player_rank": 127
     },
     {
       "id": 1006152,
@@ -932,11 +932,11 @@
       "games": 23,
       "cost": 832000,
       "status": "available",
-      "telo": 1570,
-      "avg_pi": 101.4,
+      "telo": 1568,
+      "avg_pi": 101.0,
       "last3_pi": 100.7,
       "player_rating": 73,
-      "player_rank": 162
+      "player_rank": 163
     },
     {
       "id": 993905,
@@ -996,8 +996,8 @@
       "games": 23,
       "cost": 901000,
       "status": "available",
-      "telo": 1806,
-      "avg_pi": 160.3,
+      "telo": 1805,
+      "avg_pi": 160.2,
       "last3_pi": 149.0,
       "player_rating": 93,
       "player_rank": 13
@@ -1030,7 +1030,7 @@
       "status": "available",
       "telo": 1615,
       "player_rating": 77,
-      "player_rank": 100
+      "player_rank": 99
     },
     {
       "id": 1012014,
@@ -1142,7 +1142,7 @@
       "avg_pi": 70.9,
       "last3_pi": 73.0,
       "player_rating": 62,
-      "player_rank": 416
+      "player_rank": 413
     },
     {
       "id": 1001195,
@@ -1154,11 +1154,11 @@
       "games": 22,
       "cost": 807000,
       "status": "unavailable",
-      "telo": 1870,
-      "avg_pi": 176.5,
+      "telo": 1869,
+      "avg_pi": 176.3,
       "last3_pi": 220.7,
       "player_rating": 99,
-      "player_rank": 1
+      "player_rank": 2
     },
     {
       "id": 1008550,
@@ -1190,7 +1190,7 @@
       "avg_pi": 87.0,
       "last3_pi": 77.0,
       "player_rating": 68,
-      "player_rank": 274
+      "player_rank": 275
     },
     {
       "id": 260257,
@@ -1202,8 +1202,8 @@
       "games": 20,
       "cost": 845000,
       "status": "available",
-      "telo": 1631,
-      "avg_pi": 116.7,
+      "telo": 1629,
+      "avg_pi": 116.3,
       "last3_pi": 122.7,
       "player_rating": 78,
       "player_rank": 81
@@ -1254,7 +1254,7 @@
       "avg_pi": 120.0,
       "last3_pi": 120.0,
       "player_rating": 79,
-      "player_rank": 73
+      "player_rank": 74
     },
     {
       "id": 997078,
@@ -1283,10 +1283,10 @@
       "cost": 793000,
       "status": "available",
       "telo": 1493,
-      "avg_pi": 82.1,
+      "avg_pi": 82.2,
       "last3_pi": 73.3,
       "player_rating": 66,
-      "player_rank": 324
+      "player_rank": 321
     },
     {
       "id": 993817,
@@ -1302,7 +1302,7 @@
       "avg_pi": 119.9,
       "last3_pi": 94.3,
       "player_rating": 79,
-      "player_rank": 74
+      "player_rank": 75
     },
     {
       "id": 998133,
@@ -1382,7 +1382,7 @@
       "avg_pi": 94.7,
       "last3_pi": 82.0,
       "player_rating": 71,
-      "player_rank": 205
+      "player_rank": 204
     },
     {
       "id": 295518,
@@ -1395,7 +1395,7 @@
       "cost": 846000,
       "status": "unavailable",
       "telo": 1599,
-      "player_rating": 75,
+      "player_rating": 76,
       "player_rank": 115
     },
     {
@@ -1440,11 +1440,11 @@
       "games": 23,
       "cost": 811000,
       "status": "available",
-      "telo": 1589,
-      "avg_pi": 106.2,
+      "telo": 1588,
+      "avg_pi": 106.0,
       "last3_pi": 96.0,
       "player_rating": 75,
-      "player_rank": 125
+      "player_rank": 128
     },
     {
       "id": 293845,
@@ -1536,11 +1536,11 @@
       "games": 23,
       "cost": 780000,
       "status": "available",
-      "telo": 1562,
-      "avg_pi": 99.4,
+      "telo": 1564,
+      "avg_pi": 99.9,
       "last3_pi": 103.7,
       "player_rating": 72,
-      "player_rank": 173
+      "player_rank": 171
     },
     {
       "id": 1008384,
@@ -1553,7 +1553,7 @@
       "cost": 833000,
       "status": "available",
       "telo": 1567,
-      "avg_pi": 100.7,
+      "avg_pi": 100.8,
       "last3_pi": 109.0,
       "player_rating": 73,
       "player_rank": 164
@@ -1636,7 +1636,7 @@
       "avg_pi": 106.1,
       "last3_pi": 97.7,
       "player_rating": 75,
-      "player_rank": 126
+      "player_rank": 125
     },
     {
       "id": 1017126,
@@ -1680,11 +1680,11 @@
       "games": 23,
       "cost": 719000,
       "status": "available",
-      "telo": 1540,
-      "avg_pi": 93.8,
+      "telo": 1537,
+      "avg_pi": 93.1,
       "last3_pi": 90.0,
       "player_rating": 70,
-      "player_rank": 214
+      "player_rank": 219
     },
     {
       "id": 1006314,
@@ -1700,7 +1700,7 @@
       "avg_pi": 105.1,
       "last3_pi": 104.3,
       "player_rating": 74,
-      "player_rank": 136
+      "player_rank": 135
     },
     {
       "id": 297401,
@@ -1745,7 +1745,7 @@
       "telo": 1714,
       "avg_pi": 137.5,
       "last3_pi": 119.3,
-      "player_rating": 85,
+      "player_rating": 86,
       "player_rank": 41
     },
     {
@@ -1760,7 +1760,7 @@
       "status": "injured",
       "telo": 1585,
       "player_rating": 74,
-      "player_rank": 137
+      "player_rank": 136
     },
     {
       "id": 291800,
@@ -1824,7 +1824,7 @@
       "avg_pi": 78.4,
       "last3_pi": 68.3,
       "player_rating": 65,
-      "player_rank": 351
+      "player_rank": 349
     },
     {
       "id": 993946,
@@ -1836,8 +1836,8 @@
       "games": 23,
       "cost": 730000,
       "status": "available",
-      "telo": 1485,
-      "avg_pi": 80.2,
+      "telo": 1484,
+      "avg_pi": 79.9,
       "last3_pi": 57.7,
       "player_rating": 66,
       "player_rank": 340
@@ -1856,7 +1856,7 @@
       "avg_pi": 81.7,
       "last3_pi": 73.7,
       "player_rating": 66,
-      "player_rank": 331
+      "player_rank": 330
     },
     {
       "id": 298268,
@@ -1888,7 +1888,7 @@
       "avg_pi": 95.9,
       "last3_pi": 78.0,
       "player_rating": 71,
-      "player_rank": 199
+      "player_rank": 198
     },
     {
       "id": 1013197,
@@ -1904,7 +1904,7 @@
       "avg_pi": 72.1,
       "last3_pi": 62.0,
       "player_rating": 63,
-      "player_rank": 402
+      "player_rank": 401
     },
     {
       "id": 290627,
@@ -1920,7 +1920,7 @@
       "avg_pi": 101.6,
       "last3_pi": 97.7,
       "player_rating": 73,
-      "player_rank": 159
+      "player_rank": 160
     },
     {
       "id": 1024272,
@@ -1936,7 +1936,7 @@
       "avg_pi": 94.7,
       "last3_pi": 95.3,
       "player_rating": 71,
-      "player_rank": 206
+      "player_rank": 205
     },
     {
       "id": 1006126,
@@ -2012,11 +2012,11 @@
       "games": 12,
       "cost": 816000,
       "status": "available",
-      "telo": 1571,
-      "avg_pi": 101.6,
+      "telo": 1573,
+      "avg_pi": 102.2,
       "last3_pi": 127.3,
       "player_rating": 73,
-      "player_rank": 160
+      "player_rank": 156
     },
     {
       "id": 1009191,
@@ -2080,7 +2080,7 @@
       "avg_pi": 104.1,
       "last3_pi": 66.7,
       "player_rating": 74,
-      "player_rank": 141
+      "player_rank": 140
     },
     {
       "id": 294674,
@@ -2112,7 +2112,7 @@
       "avg_pi": 118.0,
       "last3_pi": 112.7,
       "player_rating": 79,
-      "player_rank": 80
+      "player_rank": 79
     },
     {
       "id": 1017124,
@@ -2125,10 +2125,10 @@
       "cost": 680000,
       "status": "available",
       "telo": 1572,
-      "avg_pi": 101.8,
+      "avg_pi": 102.0,
       "last3_pi": 108.3,
       "player_rating": 73,
-      "player_rank": 156
+      "player_rank": 157
     },
     {
       "id": 992351,
@@ -2156,11 +2156,11 @@
       "games": 23,
       "cost": 756000,
       "status": "available",
-      "telo": 1464,
+      "telo": 1463,
       "avg_pi": 74.8,
       "last3_pi": 63.0,
       "player_rating": 64,
-      "player_rank": 381
+      "player_rank": 382
     },
     {
       "id": 1000860,
@@ -2172,11 +2172,11 @@
       "games": 14,
       "cost": 739000,
       "status": "available",
-      "telo": 1564,
-      "avg_pi": 99.8,
+      "telo": 1562,
+      "avg_pi": 99.6,
       "last3_pi": 107.3,
       "player_rating": 72,
-      "player_rank": 171
+      "player_rank": 173
     },
     {
       "id": 1005992,
@@ -2191,7 +2191,7 @@
       "telo": 1495,
       "avg_pi": 82.8,
       "last3_pi": 64.3,
-      "player_rating": 66,
+      "player_rating": 67,
       "player_rank": 316
     },
     {
@@ -2298,11 +2298,11 @@
       "games": 23,
       "cost": 765000,
       "status": "available",
-      "telo": 1514,
-      "avg_pi": 87.5,
+      "telo": 1515,
+      "avg_pi": 87.8,
       "last3_pi": 72.7,
       "player_rating": 68,
-      "player_rank": 267
+      "player_rank": 266
     },
     {
       "id": 298289,
@@ -2318,7 +2318,7 @@
       "avg_pi": 95.7,
       "last3_pi": 96.0,
       "player_rating": 71,
-      "player_rank": 202
+      "player_rank": 201
     },
     {
       "id": 1012817,
@@ -2334,7 +2334,7 @@
       "avg_pi": 69.4,
       "last3_pi": 74.0,
       "player_rating": 62,
-      "player_rank": 426
+      "player_rank": 424
     },
     {
       "id": 1000972,
@@ -2366,7 +2366,7 @@
       "avg_pi": 82.0,
       "last3_pi": 83.3,
       "player_rating": 66,
-      "player_rank": 328
+      "player_rank": 326
     },
     {
       "id": 1027887,
@@ -2504,11 +2504,11 @@
       "games": 19,
       "cost": 737000,
       "status": "available",
-      "telo": 1637,
+      "telo": 1636,
       "avg_pi": 118.1,
       "last3_pi": 123.0,
       "player_rating": 79,
-      "player_rank": 79
+      "player_rank": 80
     },
     {
       "id": 1019916,
@@ -2524,7 +2524,7 @@
       "avg_pi": 95.9,
       "last3_pi": 97.0,
       "player_rating": 71,
-      "player_rank": 200
+      "player_rank": 199
     },
     {
       "id": 1006133,
@@ -2540,7 +2540,7 @@
       "avg_pi": 115.9,
       "last3_pi": 119.0,
       "player_rating": 78,
-      "player_rank": 84
+      "player_rank": 85
     },
     {
       "id": 1006059,
@@ -2570,7 +2570,7 @@
       "avg_pi": 68.9,
       "last3_pi": 54.0,
       "player_rating": 62,
-      "player_rank": 429
+      "player_rank": 427
     },
     {
       "id": 291783,
@@ -2632,7 +2632,7 @@
       "avg_pi": 87.6,
       "last3_pi": 89.0,
       "player_rating": 68,
-      "player_rank": 266
+      "player_rank": 267
     },
     {
       "id": 281085,
@@ -2659,9 +2659,9 @@
       "cost": 763000,
       "status": "available",
       "telo": 1668,
-      "avg_pi": 125.8,
+      "avg_pi": 125.9,
       "last3_pi": 133.7,
-      "player_rating": 81,
+      "player_rating": 82,
       "player_rank": 62
     },
     {
@@ -2678,7 +2678,7 @@
       "avg_pi": 87.3,
       "last3_pi": 89.3,
       "player_rating": 68,
-      "player_rank": 273
+      "player_rank": 274
     },
     {
       "id": 1027704,
@@ -2694,7 +2694,7 @@
       "avg_pi": 106.3,
       "last3_pi": 113.0,
       "player_rating": 75,
-      "player_rank": 127
+      "player_rank": 126
     },
     {
       "id": 1002947,
@@ -2725,7 +2725,7 @@
       "telo": 1553,
       "avg_pi": 97.2,
       "last3_pi": 88.3,
-      "player_rating": 71,
+      "player_rating": 72,
       "player_rank": 189
     },
     {
@@ -2754,11 +2754,11 @@
       "games": 18,
       "cost": 681000,
       "status": "injured",
-      "telo": 1596,
-      "avg_pi": 108.0,
+      "telo": 1598,
+      "avg_pi": 108.4,
       "last3_pi": 109.0,
       "player_rating": 75,
-      "player_rank": 118
+      "player_rank": 117
     },
     {
       "id": 1005521,
@@ -2772,7 +2772,7 @@
       "status": "unavailable",
       "telo": 1543,
       "player_rating": 71,
-      "player_rank": 207
+      "player_rank": 206
     },
     {
       "id": 1005144,
@@ -2786,7 +2786,7 @@
       "status": "available",
       "telo": 1543,
       "player_rating": 71,
-      "player_rank": 208
+      "player_rank": 207
     },
     {
       "id": 1008436,
@@ -2802,7 +2802,7 @@
       "avg_pi": 108.5,
       "last3_pi": 93.7,
       "player_rating": 75,
-      "player_rank": 117
+      "player_rank": 118
     },
     {
       "id": 1013464,
@@ -2830,11 +2830,11 @@
       "games": 7,
       "cost": 683000,
       "status": "unavailable",
-      "telo": 1626,
-      "avg_pi": 115.5,
+      "telo": 1624,
+      "avg_pi": 114.8,
       "last3_pi": 143.3,
       "player_rating": 78,
-      "player_rank": 86
+      "player_rank": 89
     },
     {
       "id": 998134,
@@ -2862,8 +2862,8 @@
       "games": 22,
       "cost": 654000,
       "status": "available",
-      "telo": 1658,
-      "avg_pi": 123.4,
+      "telo": 1659,
+      "avg_pi": 123.8,
       "last3_pi": 114.7,
       "player_rating": 81,
       "player_rank": 66
@@ -2898,7 +2898,7 @@
       "avg_pi": 78.4,
       "last3_pi": 72.7,
       "player_rating": 65,
-      "player_rank": 352
+      "player_rank": 350
     },
     {
       "id": 1027935,
@@ -2914,7 +2914,7 @@
       "avg_pi": 78.3,
       "last3_pi": 60.0,
       "player_rating": 65,
-      "player_rank": 353
+      "player_rank": 351
     },
     {
       "id": 296420,
@@ -2926,11 +2926,11 @@
       "games": 23,
       "cost": 722000,
       "status": "available",
-      "telo": 1544,
-      "avg_pi": 95.0,
+      "telo": 1543,
+      "avg_pi": 94.8,
       "last3_pi": 93.0,
       "player_rating": 71,
-      "player_rank": 204
+      "player_rank": 208
     },
     {
       "id": 1010174,
@@ -2976,7 +2976,7 @@
       "status": "unavailable",
       "telo": 1538,
       "player_rating": 70,
-      "player_rank": 218
+      "player_rank": 217
     },
     {
       "id": 992128,
@@ -3054,7 +3054,7 @@
       "avg_pi": 91.1,
       "last3_pi": 86.0,
       "player_rating": 69,
-      "player_rank": 234
+      "player_rank": 235
     },
     {
       "id": 1009260,
@@ -3070,7 +3070,7 @@
       "avg_pi": 115.2,
       "last3_pi": 109.3,
       "player_rating": 78,
-      "player_rank": 89
+      "player_rank": 88
     },
     {
       "id": 1023477,
@@ -3114,11 +3114,11 @@
       "games": 19,
       "cost": 634000,
       "status": "available",
-      "telo": 1449,
+      "telo": 1448,
       "avg_pi": 71.1,
       "last3_pi": 55.3,
       "player_rating": 62,
-      "player_rank": 411
+      "player_rank": 414
     },
     {
       "id": 1000958,
@@ -3142,11 +3142,11 @@
       "games": 23,
       "cost": 570000,
       "status": "available",
-      "telo": 1509,
-      "avg_pi": 86.1,
+      "telo": 1511,
+      "avg_pi": 86.7,
       "last3_pi": 96.0,
       "player_rating": 68,
-      "player_rank": 282
+      "player_rank": 277
     },
     {
       "id": 1012862,
@@ -3158,11 +3158,11 @@
       "games": 5,
       "cost": 705000,
       "status": "unavailable",
-      "telo": 1451,
-      "avg_pi": 71.7,
-      "last3_pi": 66.3,
-      "player_rating": 63,
-      "player_rank": 405
+      "telo": 1428,
+      "avg_pi": 66.0,
+      "last3_pi": 69.3,
+      "player_rating": 61,
+      "player_rank": 468
     },
     {
       "id": 1004863,
@@ -3192,7 +3192,7 @@
       "avg_pi": 87.3,
       "last3_pi": 96.3,
       "player_rating": 68,
-      "player_rank": 268
+      "player_rank": 269
     },
     {
       "id": 295461,
@@ -3208,7 +3208,7 @@
       "avg_pi": 65.0,
       "last3_pi": 64.0,
       "player_rating": 60,
-      "player_rank": 477
+      "player_rank": 476
     },
     {
       "id": 298280,
@@ -3224,7 +3224,7 @@
       "avg_pi": 62.7,
       "last3_pi": 55.3,
       "player_rating": 60,
-      "player_rank": 494
+      "player_rank": 493
     },
     {
       "id": 994295,
@@ -3236,11 +3236,11 @@
       "games": 19,
       "cost": 610000,
       "status": "available",
-      "telo": 1575,
-      "avg_pi": 102.7,
+      "telo": 1577,
+      "avg_pi": 103.2,
       "last3_pi": 97.3,
-      "player_rating": 73,
-      "player_rank": 151
+      "player_rating": 74,
+      "player_rank": 149
     },
     {
       "id": 1003130,
@@ -3256,7 +3256,7 @@
       "avg_pi": 103.1,
       "last3_pi": 98.3,
       "player_rating": 74,
-      "player_rank": 149
+      "player_rank": 150
     },
     {
       "id": 297899,
@@ -3270,7 +3270,7 @@
       "status": "unavailable",
       "telo": 1529,
       "player_rating": 69,
-      "player_rank": 235
+      "player_rank": 236
     },
     {
       "id": 1023492,
@@ -3298,11 +3298,11 @@
       "games": 18,
       "cost": 667000,
       "status": "available",
-      "telo": 1522,
-      "avg_pi": 89.4,
+      "telo": 1519,
+      "avg_pi": 88.8,
       "last3_pi": 87.0,
       "player_rating": 69,
-      "player_rank": 253
+      "player_rank": 256
     },
     {
       "id": 1000864,
@@ -3318,7 +3318,7 @@
       "avg_pi": 87.3,
       "last3_pi": 100.3,
       "player_rating": 68,
-      "player_rank": 269
+      "player_rank": 270
     },
     {
       "id": 1009226,
@@ -3348,7 +3348,7 @@
       "avg_pi": 74.9,
       "last3_pi": 78.7,
       "player_rating": 64,
-      "player_rank": 382
+      "player_rank": 380
     },
     {
       "id": 1017939,
@@ -3412,7 +3412,7 @@
       "avg_pi": 77.5,
       "last3_pi": 93.7,
       "player_rating": 65,
-      "player_rank": 361
+      "player_rank": 360
     },
     {
       "id": 996731,
@@ -3520,7 +3520,7 @@
       "avg_pi": 72.2,
       "last3_pi": 65.7,
       "player_rating": 63,
-      "player_rank": 403
+      "player_rank": 402
     },
     {
       "id": 1008239,
@@ -3568,7 +3568,7 @@
       "avg_pi": 80.0,
       "last3_pi": 72.0,
       "player_rating": 66,
-      "player_rank": 342
+      "player_rank": 341
     },
     {
       "id": 1007102,
@@ -3582,7 +3582,7 @@
       "status": "injured",
       "telo": 1520,
       "player_rating": 69,
-      "player_rank": 254
+      "player_rank": 253
     },
     {
       "id": 1017057,
@@ -3598,7 +3598,7 @@
       "avg_pi": 75.2,
       "last3_pi": 74.7,
       "player_rating": 64,
-      "player_rank": 378
+      "player_rank": 376
     },
     {
       "id": 998145,
@@ -3610,11 +3610,11 @@
       "games": 16,
       "cost": 658000,
       "status": "available",
-      "telo": 1383,
-      "avg_pi": 54.7,
-      "last3_pi": 42.7,
-      "player_rating": 57,
-      "player_rank": 570
+      "telo": 1407,
+      "avg_pi": 60.6,
+      "last3_pi": 52.3,
+      "player_rating": 59,
+      "player_rank": 508
     },
     {
       "id": 280317,
@@ -3673,8 +3673,8 @@
       "telo": 1449,
       "avg_pi": 71.2,
       "last3_pi": 75.3,
-      "player_rating": 62,
-      "player_rank": 412
+      "player_rating": 63,
+      "player_rank": 409
     },
     {
       "id": 993940,
@@ -3686,11 +3686,11 @@
       "games": 17,
       "cost": 617000,
       "status": "available",
-      "telo": 1510,
-      "avg_pi": 86.5,
+      "telo": 1509,
+      "avg_pi": 86.2,
       "last3_pi": 79.7,
       "player_rating": 68,
-      "player_rank": 278
+      "player_rank": 282
     },
     {
       "id": 993979,
@@ -3703,7 +3703,7 @@
       "cost": 609000,
       "status": "injured",
       "telo": 1518,
-      "player_rating": 68,
+      "player_rating": 69,
       "player_rank": 260
     },
     {
@@ -3750,7 +3750,7 @@
       "avg_pi": 93.6,
       "last3_pi": 70.0,
       "player_rating": 70,
-      "player_rank": 215
+      "player_rank": 214
     },
     {
       "id": 1027875,
@@ -3782,7 +3782,7 @@
       "avg_pi": 87.0,
       "last3_pi": 79.7,
       "player_rating": 68,
-      "player_rank": 275
+      "player_rank": 276
     },
     {
       "id": 295898,
@@ -3846,7 +3846,7 @@
       "avg_pi": 82.2,
       "last3_pi": 76.3,
       "player_rating": 66,
-      "player_rank": 325
+      "player_rank": 322
     },
     {
       "id": 1001026,
@@ -3890,7 +3890,7 @@
       "status": "available",
       "telo": 1514,
       "player_rating": 68,
-      "player_rank": 270
+      "player_rank": 271
     },
     {
       "id": 998205,
@@ -3902,11 +3902,11 @@
       "games": 23,
       "cost": 581000,
       "status": "available",
-      "telo": 1468,
-      "avg_pi": 75.9,
+      "telo": 1465,
+      "avg_pi": 75.1,
       "last3_pi": 65.7,
       "player_rating": 64,
-      "player_rank": 371
+      "player_rank": 377
     },
     {
       "id": 1013268,
@@ -3922,7 +3922,7 @@
       "avg_pi": 82.2,
       "last3_pi": 66.3,
       "player_rating": 66,
-      "player_rank": 326
+      "player_rank": 323
     },
     {
       "id": 1017665,
@@ -3937,8 +3937,8 @@
       "telo": 1576,
       "avg_pi": 103.0,
       "last3_pi": 101.7,
-      "player_rating": 73,
-      "player_rank": 150
+      "player_rating": 74,
+      "player_rank": 151
     },
     {
       "id": 1009256,
@@ -3998,11 +3998,11 @@
       "games": 23,
       "cost": 600000,
       "status": "available",
-      "telo": 1627,
-      "avg_pi": 115.6,
+      "telo": 1629,
+      "avg_pi": 116.2,
       "last3_pi": 134.0,
       "player_rating": 78,
-      "player_rank": 85
+      "player_rank": 82
     },
     {
       "id": 1017051,
@@ -4014,11 +4014,11 @@
       "games": 13,
       "cost": 593000,
       "status": "injured",
-      "telo": 1495,
-      "avg_pi": 82.7,
+      "telo": 1492,
+      "avg_pi": 82.0,
       "last3_pi": 69.7,
       "player_rating": 66,
-      "player_rank": 317
+      "player_rank": 327
     },
     {
       "id": 1023482,
@@ -4033,7 +4033,7 @@
       "telo": 1622,
       "avg_pi": 114.4,
       "last3_pi": 117.3,
-      "player_rating": 77,
+      "player_rating": 78,
       "player_rank": 93
     },
     {
@@ -4050,7 +4050,7 @@
       "avg_pi": 67.9,
       "last3_pi": 73.7,
       "player_rating": 61,
-      "player_rank": 445
+      "player_rank": 444
     },
     {
       "id": 1009386,
@@ -4082,7 +4082,7 @@
       "avg_pi": 93.4,
       "last3_pi": 94.3,
       "player_rating": 70,
-      "player_rank": 219
+      "player_rank": 218
     },
     {
       "id": 1012807,
@@ -4094,8 +4094,8 @@
       "games": 17,
       "cost": 671000,
       "status": "available",
-      "telo": 1712,
-      "avg_pi": 136.8,
+      "telo": 1711,
+      "avg_pi": 136.7,
       "last3_pi": 136.0,
       "player_rating": 85,
       "player_rank": 42
@@ -4114,7 +4114,7 @@
       "avg_pi": 68.7,
       "last3_pi": 61.0,
       "player_rating": 62,
-      "player_rank": 433
+      "player_rank": 432
     },
     {
       "id": 1020339,
@@ -4162,7 +4162,7 @@
       "avg_pi": 87.5,
       "last3_pi": 68.7,
       "player_rating": 68,
-      "player_rank": 271
+      "player_rank": 272
     },
     {
       "id": 996059,
@@ -4178,7 +4178,7 @@
       "avg_pi": 82.4,
       "last3_pi": 72.0,
       "player_rating": 66,
-      "player_rank": 320
+      "player_rank": 319
     },
     {
       "id": 1020650,
@@ -4222,7 +4222,7 @@
       "avg_pi": 64.8,
       "last3_pi": 59.0,
       "player_rating": 60,
-      "player_rank": 483
+      "player_rank": 482
     },
     {
       "id": 993832,
@@ -4238,7 +4238,7 @@
       "avg_pi": 75.6,
       "last3_pi": 81.7,
       "player_rating": 64,
-      "player_rank": 377
+      "player_rank": 375
     },
     {
       "id": 280506,
@@ -4250,11 +4250,11 @@
       "games": 21,
       "cost": 588000,
       "status": "available",
-      "telo": 1502,
-      "avg_pi": 84.5,
+      "telo": 1500,
+      "avg_pi": 83.9,
       "last3_pi": 91.3,
       "player_rating": 67,
-      "player_rank": 300
+      "player_rank": 301
     },
     {
       "id": 997230,
@@ -4284,7 +4284,7 @@
       "avg_pi": 71.4,
       "last3_pi": 66.3,
       "player_rating": 63,
-      "player_rank": 407
+      "player_rank": 405
     },
     {
       "id": 1001396,
@@ -4296,11 +4296,11 @@
       "games": 22,
       "cost": 642000,
       "status": "available",
-      "telo": 1478,
-      "avg_pi": 78.3,
+      "telo": 1476,
+      "avg_pi": 77.9,
       "last3_pi": 71.3,
       "player_rating": 65,
-      "player_rank": 354
+      "player_rank": 356
     },
     {
       "id": 294685,
@@ -4312,11 +4312,11 @@
       "games": 19,
       "cost": 627000,
       "status": "available",
-      "telo": 1534,
-      "avg_pi": 92.4,
+      "telo": 1533,
+      "avg_pi": 92.1,
       "last3_pi": 77.7,
       "player_rating": 70,
-      "player_rank": 225
+      "player_rank": 226
     },
     {
       "id": 1016433,
@@ -4332,7 +4332,7 @@
       "avg_pi": 101.9,
       "last3_pi": 114.3,
       "player_rating": 73,
-      "player_rank": 157
+      "player_rank": 158
     },
     {
       "id": 1027284,
@@ -4348,7 +4348,7 @@
       "avg_pi": 56.5,
       "last3_pi": 51.0,
       "player_rating": 57,
-      "player_rank": 548
+      "player_rank": 549
     },
     {
       "id": 999391,
@@ -4380,7 +4380,7 @@
       "avg_pi": 59.1,
       "last3_pi": 59.3,
       "player_rating": 58,
-      "player_rank": 522
+      "player_rank": 521
     },
     {
       "id": 996554,
@@ -4412,7 +4412,7 @@
       "avg_pi": 72.4,
       "last3_pi": 73.7,
       "player_rating": 63,
-      "player_rank": 397
+      "player_rank": 396
     },
     {
       "id": 293883,
@@ -4442,7 +4442,7 @@
       "avg_pi": 67.9,
       "last3_pi": 61.0,
       "player_rating": 61,
-      "player_rank": 446
+      "player_rank": 445
     },
     {
       "id": 1023272,
@@ -4486,11 +4486,11 @@
       "games": 16,
       "cost": 569000,
       "status": "available",
-      "telo": 1616,
-      "avg_pi": 113.0,
+      "telo": 1615,
+      "avg_pi": 112.7,
       "last3_pi": 134.7,
       "player_rating": 77,
-      "player_rank": 99
+      "player_rank": 100
     },
     {
       "id": 1032108,
@@ -4518,11 +4518,11 @@
       "games": 23,
       "cost": 618000,
       "status": "available",
-      "telo": 1494,
-      "avg_pi": 82.5,
+      "telo": 1491,
+      "avg_pi": 81.7,
       "last3_pi": 76.0,
       "player_rating": 66,
-      "player_rank": 321
+      "player_rank": 331
     },
     {
       "id": 1000937,
@@ -4538,7 +4538,7 @@
       "avg_pi": 58.9,
       "last3_pi": 59.0,
       "player_rating": 58,
-      "player_rank": 526
+      "player_rank": 525
     },
     {
       "id": 1013996,
@@ -4586,7 +4586,7 @@
       "avg_pi": 72.4,
       "last3_pi": 66.3,
       "player_rating": 63,
-      "player_rank": 398
+      "player_rank": 397
     },
     {
       "id": 281065,
@@ -4694,7 +4694,7 @@
       "avg_pi": 75.7,
       "last3_pi": 72.3,
       "player_rating": 64,
-      "player_rank": 375
+      "player_rank": 373
     },
     {
       "id": 998260,
@@ -4710,7 +4710,7 @@
       "avg_pi": 87.5,
       "last3_pi": 80.7,
       "player_rating": 68,
-      "player_rank": 272
+      "player_rank": 273
     },
     {
       "id": 999321,
@@ -4814,11 +4814,11 @@
       "games": 10,
       "cost": 630000,
       "status": "available",
-      "telo": 1549,
-      "avg_pi": 96.1,
+      "telo": 1548,
+      "avg_pi": 96.0,
       "last3_pi": 98.0,
       "player_rating": 71,
-      "player_rank": 197
+      "player_rank": 200
     },
     {
       "id": 290826,
@@ -4847,8 +4847,8 @@
       "cost": 559000,
       "status": "unavailable",
       "telo": 1495,
-      "player_rating": 66,
-      "player_rank": 318
+      "player_rating": 67,
+      "player_rank": 317
     },
     {
       "id": 1008478,
@@ -4880,7 +4880,7 @@
       "avg_pi": 82.1,
       "last3_pi": 78.3,
       "player_rating": 66,
-      "player_rank": 327
+      "player_rank": 324
     },
     {
       "id": 1013229,
@@ -4893,8 +4893,8 @@
       "cost": 543000,
       "status": "unavailable",
       "telo": 1495,
-      "player_rating": 66,
-      "player_rank": 319
+      "player_rating": 67,
+      "player_rank": 318
     },
     {
       "id": 1018433,
@@ -4910,7 +4910,7 @@
       "avg_pi": 64.4,
       "last3_pi": 54.7,
       "player_rating": 60,
-      "player_rank": 484
+      "player_rank": 483
     },
     {
       "id": 1008855,
@@ -4974,7 +4974,7 @@
       "avg_pi": 67.1,
       "last3_pi": 65.3,
       "player_rating": 61,
-      "player_rank": 454
+      "player_rank": 453
     },
     {
       "id": 291978,
@@ -5022,7 +5022,7 @@
       "avg_pi": 74.2,
       "last3_pi": 78.7,
       "player_rating": 64,
-      "player_rank": 385
+      "player_rank": 384
     },
     {
       "id": 1015873,
@@ -5038,7 +5038,7 @@
       "avg_pi": 75.2,
       "last3_pi": 74.0,
       "player_rating": 64,
-      "player_rank": 379
+      "player_rank": 378
     },
     {
       "id": 998130,
@@ -5050,8 +5050,8 @@
       "games": 21,
       "cost": 558000,
       "status": "available",
-      "telo": 1536,
-      "avg_pi": 93.0,
+      "telo": 1537,
+      "avg_pi": 93.1,
       "last3_pi": 75.3,
       "player_rating": 70,
       "player_rank": 221
@@ -5070,7 +5070,7 @@
       "avg_pi": 88.8,
       "last3_pi": 96.7,
       "player_rating": 69,
-      "player_rank": 255
+      "player_rank": 254
     },
     {
       "id": 1006135,
@@ -5084,7 +5084,7 @@
       "status": "available",
       "telo": 1492,
       "player_rating": 66,
-      "player_rank": 329
+      "player_rank": 328
     },
     {
       "id": 1017114,
@@ -5100,7 +5100,7 @@
       "avg_pi": 82.4,
       "last3_pi": 79.0,
       "player_rating": 66,
-      "player_rank": 322
+      "player_rank": 320
     },
     {
       "id": 1028019,
@@ -5130,7 +5130,7 @@
       "status": "available",
       "telo": 1492,
       "player_rating": 66,
-      "player_rank": 330
+      "player_rank": 329
     },
     {
       "id": 291548,
@@ -5142,11 +5142,11 @@
       "games": 22,
       "cost": 512000,
       "status": "available",
-      "telo": 1485,
+      "telo": 1484,
       "avg_pi": 80.1,
       "last3_pi": 70.7,
       "player_rating": 66,
-      "player_rank": 341
+      "player_rank": 342
     },
     {
       "id": 993480,
@@ -5158,11 +5158,11 @@
       "games": 3,
       "cost": 528000,
       "status": "injured",
-      "telo": 1398,
+      "telo": 1397,
       "avg_pi": 58.3,
       "last3_pi": 47.0,
       "player_rating": 58,
-      "player_rank": 532
+      "player_rank": 535
     },
     {
       "id": 1004364,
@@ -5178,7 +5178,7 @@
       "avg_pi": 62.1,
       "last3_pi": 47.3,
       "player_rating": 59,
-      "player_rank": 500
+      "player_rank": 499
     },
     {
       "id": 294469,
@@ -5194,7 +5194,7 @@
       "avg_pi": 76.0,
       "last3_pi": 70.0,
       "player_rating": 64,
-      "player_rank": 372
+      "player_rank": 370
     },
     {
       "id": 1024279,
@@ -5224,7 +5224,7 @@
       "avg_pi": 83.8,
       "last3_pi": 84.7,
       "player_rating": 67,
-      "player_rank": 302
+      "player_rank": 301
     },
     {
       "id": 1020250,
@@ -5236,11 +5236,11 @@
       "games": 15,
       "cost": 582000,
       "status": "available",
-      "telo": 1529,
-      "avg_pi": 91.3,
+      "telo": 1530,
+      "avg_pi": 91.5,
       "last3_pi": 84.0,
-      "player_rating": 69,
-      "player_rank": 236
+      "player_rating": 70,
+      "player_rank": 233
     },
     {
       "id": 1013409,
@@ -5317,10 +5317,10 @@
       "cost": 498000,
       "status": "available",
       "telo": 1629,
-      "avg_pi": 116.2,
+      "avg_pi": 116.3,
       "last3_pi": 150.7,
       "player_rating": 78,
-      "player_rank": 82
+      "player_rank": 83
     },
     {
       "id": 1017396,
@@ -5395,8 +5395,8 @@
       "telo": 1472,
       "avg_pi": 77.0,
       "last3_pi": 65.3,
-      "player_rating": 64,
-      "player_rank": 365
+      "player_rating": 65,
+      "player_rank": 364
     },
     {
       "id": 997100,
@@ -5440,11 +5440,11 @@
       "games": 21,
       "cost": 563000,
       "status": "available",
-      "telo": 1402,
+      "telo": 1401,
       "avg_pi": 59.3,
       "last3_pi": 59.3,
       "player_rating": 58,
-      "player_rank": 521
+      "player_rank": 522
     },
     {
       "id": 1002228,
@@ -5459,7 +5459,7 @@
       "telo": 1334,
       "avg_pi": 42.4,
       "last3_pi": 43.0,
-      "player_rating": 52,
+      "player_rating": 53,
       "player_rank": 622
     },
     {
@@ -5476,7 +5476,7 @@
       "avg_pi": 84.1,
       "last3_pi": 77.3,
       "player_rating": 67,
-      "player_rank": 301
+      "player_rank": 300
     },
     {
       "id": 1026960,
@@ -5488,11 +5488,11 @@
       "games": 8,
       "cost": 530000,
       "status": "injured",
-      "telo": 1404,
+      "telo": 1403,
       "avg_pi": 59.8,
       "last3_pi": 39.0,
       "player_rating": 59,
-      "player_rank": 517
+      "player_rank": 519
     },
     {
       "id": 1028513,
@@ -5504,8 +5504,8 @@
       "games": 23,
       "cost": 530000,
       "status": "available",
-      "telo": 1582,
-      "avg_pi": 104.5,
+      "telo": 1583,
+      "avg_pi": 104.7,
       "last3_pi": 96.7,
       "player_rating": 74,
       "player_rank": 139
@@ -5520,11 +5520,11 @@
       "games": 17,
       "cost": 572000,
       "status": "available",
-      "telo": 1458,
-      "avg_pi": 73.3,
+      "telo": 1456,
+      "avg_pi": 73.1,
       "last3_pi": 82.0,
       "player_rating": 63,
-      "player_rank": 390
+      "player_rank": 391
     },
     {
       "id": 1023025,
@@ -5540,7 +5540,7 @@
       "avg_pi": 76.2,
       "last3_pi": 81.7,
       "player_rating": 64,
-      "player_rank": 369
+      "player_rank": 368
     },
     {
       "id": 1005717,
@@ -5556,7 +5556,7 @@
       "avg_pi": 71.4,
       "last3_pi": 78.0,
       "player_rating": 63,
-      "player_rank": 408
+      "player_rank": 406
     },
     {
       "id": 1024188,
@@ -5599,10 +5599,10 @@
       "cost": 557000,
       "status": "available",
       "telo": 1539,
-      "avg_pi": 93.8,
+      "avg_pi": 93.6,
       "last3_pi": 101.3,
       "player_rating": 70,
-      "player_rank": 216
+      "player_rank": 215
     },
     {
       "id": 990740,
@@ -5634,7 +5634,7 @@
       "avg_pi": 59.8,
       "last3_pi": 54.0,
       "player_rating": 59,
-      "player_rank": 518
+      "player_rank": 517
     },
     {
       "id": 1015370,
@@ -5646,11 +5646,11 @@
       "games": 19,
       "cost": 552000,
       "status": "injured",
-      "telo": 1439,
+      "telo": 1438,
       "avg_pi": 68.6,
       "last3_pi": 61.3,
       "player_rating": 62,
-      "player_rank": 434
+      "player_rank": 436
     },
     {
       "id": 1013974,
@@ -5666,7 +5666,7 @@
       "avg_pi": 64.9,
       "last3_pi": 60.0,
       "player_rating": 60,
-      "player_rank": 478
+      "player_rank": 477
     },
     {
       "id": 993953,
@@ -5698,7 +5698,7 @@
       "avg_pi": 92.4,
       "last3_pi": 96.0,
       "player_rating": 70,
-      "player_rank": 226
+      "player_rank": 225
     },
     {
       "id": 294508,
@@ -5714,7 +5714,7 @@
       "avg_pi": 53.6,
       "last3_pi": 42.7,
       "player_rating": 56,
-      "player_rank": 577
+      "player_rank": 576
     },
     {
       "id": 1017754,
@@ -5726,11 +5726,11 @@
       "games": 19,
       "cost": 520000,
       "status": "available",
-      "telo": 1512,
-      "avg_pi": 86.9,
+      "telo": 1515,
+      "avg_pi": 87.7,
       "last3_pi": 75.7,
       "player_rating": 68,
-      "player_rank": 276
+      "player_rank": 268
     },
     {
       "id": 1017703,
@@ -5742,11 +5742,11 @@
       "games": 17,
       "cost": 474000,
       "status": "available",
-      "telo": 1431,
-      "avg_pi": 66.6,
+      "telo": 1432,
+      "avg_pi": 66.9,
       "last3_pi": 56.7,
       "player_rating": 61,
-      "player_rank": 459
+      "player_rank": 456
     },
     {
       "id": 280824,
@@ -5762,7 +5762,7 @@
       "avg_pi": 54.9,
       "last3_pi": 52.3,
       "player_rating": 57,
-      "player_rank": 567
+      "player_rank": 568
     },
     {
       "id": 991988,
@@ -5776,7 +5776,7 @@
       "status": "available",
       "telo": 1479,
       "player_rating": 65,
-      "player_rank": 348
+      "player_rank": 347
     },
     {
       "id": 1004757,
@@ -5788,8 +5788,8 @@
       "games": 17,
       "cost": 549000,
       "status": "available",
-      "telo": 1541,
-      "avg_pi": 94.1,
+      "telo": 1540,
+      "avg_pi": 94.0,
       "last3_pi": 114.7,
       "player_rating": 70,
       "player_rank": 213
@@ -5808,7 +5808,7 @@
       "avg_pi": 64.9,
       "last3_pi": 54.3,
       "player_rating": 60,
-      "player_rank": 479
+      "player_rank": 478
     },
     {
       "id": 1028491,
@@ -5840,7 +5840,7 @@
       "avg_pi": 60.8,
       "last3_pi": 39.0,
       "player_rating": 59,
-      "player_rank": 510
+      "player_rank": 509
     },
     {
       "id": 1002347,
@@ -5854,7 +5854,7 @@
       "status": "injured",
       "telo": 1478,
       "player_rating": 65,
-      "player_rank": 355
+      "player_rank": 352
     },
     {
       "id": 280109,
@@ -5868,7 +5868,7 @@
       "status": "unavailable",
       "telo": 1477,
       "player_rating": 65,
-      "player_rank": 357
+      "player_rank": 355
     },
     {
       "id": 998114,
@@ -5884,7 +5884,7 @@
       "avg_pi": 69.0,
       "last3_pi": 56.7,
       "player_rating": 62,
-      "player_rank": 430
+      "player_rank": 428
     },
     {
       "id": 1017128,
@@ -5900,7 +5900,7 @@
       "avg_pi": 54.9,
       "last3_pi": 47.0,
       "player_rating": 57,
-      "player_rank": 568
+      "player_rank": 569
     },
     {
       "id": 1027821,
@@ -5944,11 +5944,11 @@
       "games": 22,
       "cost": 465000,
       "status": "available",
-      "telo": 1442,
-      "avg_pi": 69.5,
+      "telo": 1443,
+      "avg_pi": 69.6,
       "last3_pi": 76.3,
       "player_rating": 62,
-      "player_rank": 427
+      "player_rank": 420
     },
     {
       "id": 293884,
@@ -5980,7 +5980,7 @@
       "avg_pi": 74.0,
       "last3_pi": 71.0,
       "player_rating": 63,
-      "player_rank": 387
+      "player_rank": 386
     },
     {
       "id": 1006533,
@@ -5994,7 +5994,7 @@
       "status": "available",
       "telo": 1476,
       "player_rating": 65,
-      "player_rank": 358
+      "player_rank": 357
     },
     {
       "id": 298421,
@@ -6010,7 +6010,7 @@
       "avg_pi": 60.8,
       "last3_pi": 51.3,
       "player_rating": 59,
-      "player_rank": 507
+      "player_rank": 506
     },
     {
       "id": 1028495,
@@ -6024,7 +6024,7 @@
       "status": "available",
       "telo": 1476,
       "player_rating": 65,
-      "player_rank": 359
+      "player_rank": 358
     },
     {
       "id": 1017720,
@@ -6056,7 +6056,7 @@
       "avg_pi": 76.6,
       "last3_pi": 76.3,
       "player_rating": 64,
-      "player_rank": 366
+      "player_rank": 365
     },
     {
       "id": 990609,
@@ -6072,7 +6072,7 @@
       "avg_pi": 93.8,
       "last3_pi": 104.0,
       "player_rating": 70,
-      "player_rank": 217
+      "player_rank": 216
     },
     {
       "id": 1027965,
@@ -6084,11 +6084,11 @@
       "games": 4,
       "cost": 411000,
       "status": "unavailable",
-      "telo": 1364,
+      "telo": 1363,
       "avg_pi": 49.8,
       "last3_pi": 49.0,
       "player_rating": 55,
-      "player_rank": 595
+      "player_rank": 596
     },
     {
       "id": 1006136,
@@ -6102,7 +6102,7 @@
       "status": "unavailable",
       "telo": 1474,
       "player_rating": 65,
-      "player_rank": 362
+      "player_rank": 361
     },
     {
       "id": 1015329,
@@ -6130,7 +6130,7 @@
       "status": "available",
       "telo": 1474,
       "player_rating": 65,
-      "player_rank": 363
+      "player_rank": 362
     },
     {
       "id": 296334,
@@ -6144,7 +6144,7 @@
       "status": "unavailable",
       "telo": 1474,
       "player_rating": 65,
-      "player_rank": 364
+      "player_rank": 363
     },
     {
       "id": 295446,
@@ -6172,11 +6172,11 @@
       "games": 9,
       "cost": 513000,
       "status": "available",
-      "telo": 1644,
-      "avg_pi": 120.0,
+      "telo": 1649,
+      "avg_pi": 121.1,
       "last3_pi": 102.3,
-      "player_rating": 79,
-      "player_rank": 75
+      "player_rating": 80,
+      "player_rank": 72
     },
     {
       "id": 1006114,
@@ -6208,7 +6208,7 @@
       "avg_pi": 70.9,
       "last3_pi": 79.0,
       "player_rating": 62,
-      "player_rank": 417
+      "player_rank": 415
     },
     {
       "id": 1023681,
@@ -6256,7 +6256,7 @@
       "avg_pi": 71.7,
       "last3_pi": 48.3,
       "player_rating": 63,
-      "player_rank": 406
+      "player_rank": 404
     },
     {
       "id": 291748,
@@ -6288,7 +6288,7 @@
       "avg_pi": 65.8,
       "last3_pi": 69.7,
       "player_rating": 61,
-      "player_rank": 470
+      "player_rank": 469
     },
     {
       "id": 1028531,
@@ -6304,7 +6304,7 @@
       "avg_pi": 78.5,
       "last3_pi": 79.0,
       "player_rating": 65,
-      "player_rank": 356
+      "player_rank": 353
     },
     {
       "id": 298281,
@@ -6320,7 +6320,7 @@
       "avg_pi": 71.4,
       "last3_pi": 60.7,
       "player_rating": 63,
-      "player_rank": 409
+      "player_rank": 407
     },
     {
       "id": 1003203,
@@ -6336,7 +6336,7 @@
       "avg_pi": 61.0,
       "last3_pi": 50.7,
       "player_rating": 59,
-      "player_rank": 508
+      "player_rank": 507
     },
     {
       "id": 1002227,
@@ -6352,7 +6352,7 @@
       "avg_pi": 76.2,
       "last3_pi": 79.3,
       "player_rating": 64,
-      "player_rank": 370
+      "player_rank": 369
     },
     {
       "id": 1023487,
@@ -6376,11 +6376,11 @@
       "games": 18,
       "cost": 417000,
       "status": "available",
-      "telo": 1494,
-      "avg_pi": 82.4,
+      "telo": 1493,
+      "avg_pi": 82.2,
       "last3_pi": 79.7,
       "player_rating": 66,
-      "player_rank": 323
+      "player_rank": 325
     },
     {
       "id": 294596,
@@ -6392,11 +6392,11 @@
       "games": 21,
       "cost": 458000,
       "status": "available",
-      "telo": 1532,
-      "avg_pi": 92.0,
+      "telo": 1531,
+      "avg_pi": 91.7,
       "last3_pi": 78.7,
       "player_rating": 70,
-      "player_rank": 230
+      "player_rank": 231
     },
     {
       "id": 1021103,
@@ -6412,7 +6412,7 @@
       "avg_pi": 73.0,
       "last3_pi": 72.0,
       "player_rating": 63,
-      "player_rank": 393
+      "player_rank": 392
     },
     {
       "id": 1015929,
@@ -6474,7 +6474,7 @@
       "status": "unavailable",
       "telo": 1468,
       "player_rating": 64,
-      "player_rank": 373
+      "player_rank": 371
     },
     {
       "id": 1005326,
@@ -6490,7 +6490,7 @@
       "avg_pi": 71.9,
       "last3_pi": 66.7,
       "player_rating": 63,
-      "player_rank": 404
+      "player_rank": 403
     },
     {
       "id": 290314,
@@ -6504,7 +6504,7 @@
       "status": "unavailable",
       "telo": 1467,
       "player_rating": 64,
-      "player_rank": 376
+      "player_rank": 374
     },
     {
       "id": 1029084,
@@ -6552,7 +6552,7 @@
       "avg_pi": 101.5,
       "last3_pi": 111.3,
       "player_rating": 73,
-      "player_rank": 163
+      "player_rank": 162
     },
     {
       "id": 1024096,
@@ -6596,7 +6596,7 @@
       "avg_pi": 69.8,
       "last3_pi": 62.0,
       "player_rating": 62,
-      "player_rank": 422
+      "player_rank": 421
     },
     {
       "id": 1017700,
@@ -6610,7 +6610,7 @@
       "status": "available",
       "telo": 1465,
       "player_rating": 64,
-      "player_rank": 380
+      "player_rank": 379
     },
     {
       "id": 1015862,
@@ -6626,7 +6626,7 @@
       "avg_pi": 66.5,
       "last3_pi": 71.7,
       "player_rating": 61,
-      "player_rank": 464
+      "player_rank": 462
     },
     {
       "id": 993816,
@@ -6640,7 +6640,7 @@
       "status": "injured",
       "telo": 1464,
       "player_rating": 64,
-      "player_rank": 383
+      "player_rank": 381
     },
     {
       "id": 290757,
@@ -6654,7 +6654,7 @@
       "status": "unavailable",
       "telo": 1463,
       "player_rating": 64,
-      "player_rank": 384
+      "player_rank": 383
     },
     {
       "id": 1028519,
@@ -6728,7 +6728,7 @@
       "avg_pi": 120.8,
       "last3_pi": 125.3,
       "player_rating": 80,
-      "player_rank": 72
+      "player_rank": 73
     },
     {
       "id": 1023473,
@@ -6744,7 +6744,7 @@
       "avg_pi": 96.1,
       "last3_pi": 92.3,
       "player_rating": 71,
-      "player_rank": 198
+      "player_rank": 197
     },
     {
       "id": 1004385,
@@ -6760,7 +6760,7 @@
       "avg_pi": 65.0,
       "last3_pi": 57.3,
       "player_rating": 60,
-      "player_rank": 480
+      "player_rank": 479
     },
     {
       "id": 1027966,
@@ -6772,7 +6772,7 @@
       "games": 2,
       "cost": 294000,
       "status": "unavailable",
-      "telo": 1711,
+      "telo": 1710,
       "avg_pi": 136.6,
       "last3_pi": 136.0,
       "player_rating": 85,
@@ -6805,10 +6805,10 @@
       "cost": 469000,
       "status": "available",
       "telo": 1456,
-      "avg_pi": 72.8,
+      "avg_pi": 73.0,
       "last3_pi": 60.7,
       "player_rating": 63,
-      "player_rank": 394
+      "player_rank": 393
     },
     {
       "id": 1019938,
@@ -6838,7 +6838,7 @@
       "status": "available",
       "telo": 1459,
       "player_rating": 63,
-      "player_rank": 388
+      "player_rank": 387
     },
     {
       "id": 1018424,
@@ -6853,7 +6853,7 @@
       "telo": 1357,
       "avg_pi": 48.2,
       "last3_pi": 43.7,
-      "player_rating": 54,
+      "player_rating": 55,
       "player_rank": 600
     },
     {
@@ -6870,7 +6870,7 @@
       "avg_pi": 68.9,
       "last3_pi": 76.0,
       "player_rating": 62,
-      "player_rank": 431
+      "player_rank": 429
     },
     {
       "id": 1027678,
@@ -6902,7 +6902,7 @@
       "avg_pi": 62.6,
       "last3_pi": 71.7,
       "player_rating": 60,
-      "player_rank": 495
+      "player_rank": 494
     },
     {
       "id": 1009421,
@@ -6918,7 +6918,7 @@
       "avg_pi": 58.8,
       "last3_pi": 53.0,
       "player_rating": 58,
-      "player_rank": 527
+      "player_rank": 526
     },
     {
       "id": 1008454,
@@ -6934,7 +6934,7 @@
       "avg_pi": 76.7,
       "last3_pi": 66.0,
       "player_rating": 64,
-      "player_rank": 367
+      "player_rank": 366
     },
     {
       "id": 1006144,
@@ -6950,7 +6950,7 @@
       "avg_pi": 72.5,
       "last3_pi": 73.0,
       "player_rating": 63,
-      "player_rank": 399
+      "player_rank": 398
     },
     {
       "id": 1022915,
@@ -6980,7 +6980,7 @@
       "status": "available",
       "telo": 1455,
       "player_rating": 63,
-      "player_rank": 395
+      "player_rank": 394
     },
     {
       "id": 1009380,
@@ -6994,7 +6994,7 @@
       "status": "unavailable",
       "telo": 1454,
       "player_rating": 63,
-      "player_rank": 400
+      "player_rank": 399
     },
     {
       "id": 298630,
@@ -7010,7 +7010,7 @@
       "avg_pi": 76.0,
       "last3_pi": 68.0,
       "player_rating": 64,
-      "player_rank": 374
+      "player_rank": 372
     },
     {
       "id": 1008893,
@@ -7056,7 +7056,7 @@
       "status": "injured",
       "telo": 1454,
       "player_rating": 63,
-      "player_rank": 401
+      "player_rank": 400
     },
     {
       "id": 1031913,
@@ -7072,7 +7072,7 @@
       "avg_pi": 66.5,
       "last3_pi": 63.0,
       "player_rating": 61,
-      "player_rank": 465
+      "player_rank": 463
     },
     {
       "id": 1002251,
@@ -7101,7 +7101,7 @@
       "cost": 552000,
       "status": "injured",
       "telo": 1509,
-      "avg_pi": 86.1,
+      "avg_pi": 86.3,
       "last3_pi": 97.0,
       "player_rating": 68,
       "player_rank": 287
@@ -7136,7 +7136,7 @@
       "avg_pi": 66.2,
       "last3_pi": 71.7,
       "player_rating": 61,
-      "player_rank": 469
+      "player_rank": 467
     },
     {
       "id": 1004095,
@@ -7152,7 +7152,7 @@
       "avg_pi": 73.6,
       "last3_pi": 60.7,
       "player_rating": 63,
-      "player_rank": 389
+      "player_rank": 388
     },
     {
       "id": 1028563,
@@ -7184,7 +7184,7 @@
       "avg_pi": 91.9,
       "last3_pi": 91.3,
       "player_rating": 70,
-      "player_rank": 231
+      "player_rank": 230
     },
     {
       "id": 1004034,
@@ -7216,7 +7216,7 @@
       "avg_pi": 56.6,
       "last3_pi": 56.3,
       "player_rating": 57,
-      "player_rank": 547
+      "player_rank": 548
     },
     {
       "id": 296351,
@@ -7252,11 +7252,11 @@
       "games": 13,
       "cost": 409000,
       "status": "available",
-      "telo": 1416,
-      "avg_pi": 62.8,
+      "telo": 1421,
+      "avg_pi": 64.3,
       "last3_pi": 84.7,
       "player_rating": 60,
-      "player_rank": 491
+      "player_rank": 484
     },
     {
       "id": 997933,
@@ -7272,7 +7272,7 @@
       "avg_pi": 56.4,
       "last3_pi": 69.7,
       "player_rating": 57,
-      "player_rank": 549
+      "player_rank": 550
     },
     {
       "id": 1028526,
@@ -7286,7 +7286,7 @@
       "status": "injured",
       "telo": 1450,
       "player_rating": 63,
-      "player_rank": 410
+      "player_rank": 408
     },
     {
       "id": 1024057,
@@ -7302,7 +7302,7 @@
       "avg_pi": 65.0,
       "last3_pi": 51.3,
       "player_rating": 60,
-      "player_rank": 481
+      "player_rank": 480
     },
     {
       "id": 1009392,
@@ -7334,7 +7334,7 @@
       "avg_pi": 83.8,
       "last3_pi": 106.7,
       "player_rating": 67,
-      "player_rank": 302
+      "player_rank": 301
     },
     {
       "id": 1017718,
@@ -7349,7 +7349,7 @@
       "telo": 1380,
       "avg_pi": 54.0,
       "last3_pi": 43.3,
-      "player_rating": 56,
+      "player_rating": 57,
       "player_rank": 574
     },
     {
@@ -7398,7 +7398,7 @@
       "avg_pi": 77.9,
       "last3_pi": 62.3,
       "player_rating": 65,
-      "player_rank": 360
+      "player_rank": 359
     },
     {
       "id": 1015919,
@@ -7414,7 +7414,7 @@
       "avg_pi": 68.4,
       "last3_pi": 58.0,
       "player_rating": 62,
-      "player_rank": 438
+      "player_rank": 437
     },
     {
       "id": 1020979,
@@ -7462,7 +7462,7 @@
       "avg_pi": 74.3,
       "last3_pi": 72.0,
       "player_rating": 64,
-      "player_rank": 386
+      "player_rank": 385
     },
     {
       "id": 1020371,
@@ -7478,7 +7478,7 @@
       "avg_pi": 66.5,
       "last3_pi": 61.0,
       "player_rating": 61,
-      "player_rank": 466
+      "player_rank": 464
     },
     {
       "id": 996743,
@@ -7494,7 +7494,7 @@
       "avg_pi": 62.6,
       "last3_pi": 75.3,
       "player_rating": 60,
-      "player_rank": 496
+      "player_rank": 495
     },
     {
       "id": 1027501,
@@ -7506,7 +7506,7 @@
       "games": 3,
       "cost": 324000,
       "status": "injured",
-      "telo": 1504,
+      "telo": 1503,
       "avg_pi": 84.8,
       "last3_pi": 90.3,
       "player_rating": 67,
@@ -7526,7 +7526,7 @@
       "avg_pi": 56.3,
       "last3_pi": 57.7,
       "player_rating": 57,
-      "player_rank": 552
+      "player_rank": 553
     },
     {
       "id": 1032966,
@@ -7540,7 +7540,7 @@
       "status": "available",
       "telo": 1445,
       "player_rating": 62,
-      "player_rank": 419
+      "player_rank": 417
     },
     {
       "id": 298409,
@@ -7552,8 +7552,8 @@
       "games": 15,
       "cost": 434000,
       "status": "available",
-      "telo": 1327,
-      "avg_pi": 40.6,
+      "telo": 1324,
+      "avg_pi": 39.9,
       "last3_pi": 35.0,
       "player_rating": 52,
       "player_rank": 627
@@ -7572,7 +7572,7 @@
       "avg_pi": 86.8,
       "last3_pi": 71.7,
       "player_rating": 68,
-      "player_rank": 277
+      "player_rank": 278
     },
     {
       "id": 1002401,
@@ -7588,7 +7588,7 @@
       "avg_pi": 63.2,
       "last3_pi": 59.3,
       "player_rating": 60,
-      "player_rank": 489
+      "player_rank": 488
     },
     {
       "id": 1012218,
@@ -7603,8 +7603,8 @@
       "telo": 1426,
       "avg_pi": 65.3,
       "last3_pi": 68.7,
-      "player_rating": 60,
-      "player_rank": 472
+      "player_rating": 61,
+      "player_rank": 471
     },
     {
       "id": 1028538,
@@ -7616,11 +7616,11 @@
       "games": 11,
       "cost": 426000,
       "status": "available",
-      "telo": 1401,
+      "telo": 1400,
       "avg_pi": 59.1,
       "last3_pi": 63.3,
       "player_rating": 58,
-      "player_rank": 523
+      "player_rank": 527
     },
     {
       "id": 1020877,
@@ -7650,7 +7650,7 @@
       "status": "injured",
       "telo": 1443,
       "player_rating": 62,
-      "player_rank": 423
+      "player_rank": 422
     },
     {
       "id": 1021031,
@@ -7662,11 +7662,11 @@
       "games": 7,
       "cost": 499000,
       "status": "unavailable",
-      "telo": 1479,
-      "avg_pi": 78.7,
+      "telo": 1478,
+      "avg_pi": 78.5,
       "last3_pi": 76.3,
       "player_rating": 65,
-      "player_rank": 349
+      "player_rank": 354
     },
     {
       "id": 996232,
@@ -7728,7 +7728,7 @@
       "status": "unavailable",
       "telo": 1440,
       "player_rating": 62,
-      "player_rank": 432
+      "player_rank": 430
     },
     {
       "id": 1036103,
@@ -7774,7 +7774,7 @@
       "status": "unavailable",
       "telo": 1438,
       "player_rating": 62,
-      "player_rank": 439
+      "player_rank": 438
     },
     {
       "id": 1022452,
@@ -7788,7 +7788,7 @@
       "status": "injured",
       "telo": 1438,
       "player_rating": 62,
-      "player_rank": 440
+      "player_rank": 439
     },
     {
       "id": 298111,
@@ -7802,7 +7802,7 @@
       "status": "unavailable",
       "telo": 1438,
       "player_rating": 62,
-      "player_rank": 441
+      "player_rank": 440
     },
     {
       "id": 298288,
@@ -7833,7 +7833,7 @@
       "telo": 1334,
       "avg_pi": 42.5,
       "last3_pi": 41.3,
-      "player_rating": 52,
+      "player_rating": 53,
       "player_rank": 623
     },
     {
@@ -7849,7 +7849,7 @@
       "telo": 1380,
       "avg_pi": 53.9,
       "last3_pi": 41.7,
-      "player_rating": 56,
+      "player_rating": 57,
       "player_rank": 575
     },
     {
@@ -7866,7 +7866,7 @@
       "avg_pi": 76.6,
       "last3_pi": 82.0,
       "player_rating": 64,
-      "player_rank": 368
+      "player_rank": 367
     },
     {
       "id": 1017122,
@@ -7882,7 +7882,7 @@
       "avg_pi": 72.7,
       "last3_pi": 69.0,
       "player_rating": 63,
-      "player_rank": 396
+      "player_rank": 395
     },
     {
       "id": 998480,
@@ -7914,7 +7914,7 @@
       "avg_pi": 68.7,
       "last3_pi": 66.0,
       "player_rating": 62,
-      "player_rank": 435
+      "player_rank": 433
     },
     {
       "id": 994385,
@@ -7928,7 +7928,7 @@
       "status": "unavailable",
       "telo": 1436,
       "player_rating": 61,
-      "player_rank": 447
+      "player_rank": 446
     },
     {
       "id": 1023530,
@@ -7944,7 +7944,7 @@
       "avg_pi": 58.5,
       "last3_pi": 71.3,
       "player_rating": 58,
-      "player_rank": 533
+      "player_rank": 532
     },
     {
       "id": 291753,
@@ -7958,7 +7958,7 @@
       "status": "available",
       "telo": 1436,
       "player_rating": 61,
-      "player_rank": 448
+      "player_rank": 447
     },
     {
       "id": 1004819,
@@ -7972,7 +7972,7 @@
       "status": "available",
       "telo": 1436,
       "player_rating": 61,
-      "player_rank": 449
+      "player_rank": 448
     },
     {
       "id": 1005000,
@@ -7986,7 +7986,7 @@
       "status": "injured",
       "telo": 1435,
       "player_rating": 61,
-      "player_rank": 451
+      "player_rank": 450
     },
     {
       "id": 294472,
@@ -8000,7 +8000,7 @@
       "status": "injured",
       "telo": 1434,
       "player_rating": 61,
-      "player_rank": 452
+      "player_rank": 451
     },
     {
       "id": 1032624,
@@ -8016,7 +8016,7 @@
       "avg_pi": 63.0,
       "last3_pi": 64.7,
       "player_rating": 60,
-      "player_rank": 492
+      "player_rank": 491
     },
     {
       "id": 1011583,
@@ -8032,7 +8032,7 @@
       "avg_pi": 68.8,
       "last3_pi": 75.3,
       "player_rating": 62,
-      "player_rank": 436
+      "player_rank": 434
     },
     {
       "id": 1027033,
@@ -8064,7 +8064,7 @@
       "avg_pi": 65.0,
       "last3_pi": 65.0,
       "player_rating": 60,
-      "player_rank": 482
+      "player_rank": 481
     },
     {
       "id": 1032100,
@@ -8080,7 +8080,7 @@
       "avg_pi": 67.3,
       "last3_pi": 61.0,
       "player_rating": 61,
-      "player_rank": 455
+      "player_rank": 454
     },
     {
       "id": 1032053,
@@ -8096,7 +8096,7 @@
       "avg_pi": 59.1,
       "last3_pi": 51.0,
       "player_rating": 58,
-      "player_rank": 524
+      "player_rank": 523
     },
     {
       "id": 281078,
@@ -8112,7 +8112,7 @@
       "avg_pi": 68.8,
       "last3_pi": 75.3,
       "player_rating": 62,
-      "player_rank": 437
+      "player_rank": 435
     },
     {
       "id": 291720,
@@ -8156,7 +8156,7 @@
       "status": "injured",
       "telo": 1431,
       "player_rating": 61,
-      "player_rank": 460
+      "player_rank": 458
     },
     {
       "id": 1009015,
@@ -8172,7 +8172,7 @@
       "avg_pi": 55.7,
       "last3_pi": 63.7,
       "player_rating": 57,
-      "player_rank": 560
+      "player_rank": 561
     },
     {
       "id": 1022999,
@@ -8186,7 +8186,7 @@
       "status": "unavailable",
       "telo": 1431,
       "player_rating": 61,
-      "player_rank": 461
+      "player_rank": 459
     },
     {
       "id": 991773,
@@ -8198,11 +8198,11 @@
       "games": 14,
       "cost": 427000,
       "status": "available",
-      "telo": 1380,
-      "avg_pi": 54.0,
+      "telo": 1379,
+      "avg_pi": 53.7,
       "last3_pi": 52.3,
       "player_rating": 56,
-      "player_rank": 576
+      "player_rank": 577
     },
     {
       "id": 1012386,
@@ -8232,7 +8232,7 @@
       "status": "injured",
       "telo": 1430,
       "player_rating": 61,
-      "player_rank": 467
+      "player_rank": 465
     },
     {
       "id": 1027971,
@@ -8278,7 +8278,7 @@
       "status": "unavailable",
       "telo": 1430,
       "player_rating": 61,
-      "player_rank": 468
+      "player_rank": 466
     },
     {
       "id": 1017087,
@@ -8310,7 +8310,7 @@
       "avg_pi": 62.2,
       "last3_pi": 63.5,
       "player_rating": 59,
-      "player_rank": 501
+      "player_rank": 500
     },
     {
       "id": 296269,
@@ -8356,7 +8356,7 @@
       "status": "injured",
       "telo": 1427,
       "player_rating": 61,
-      "player_rank": 471
+      "player_rank": 470
     },
     {
       "id": 990290,
@@ -8400,11 +8400,11 @@
       "games": 23,
       "cost": 392000,
       "status": "available",
-      "telo": 1548,
-      "avg_pi": 95.9,
+      "telo": 1547,
+      "avg_pi": 95.8,
       "last3_pi": 85.0,
       "player_rating": 71,
-      "player_rank": 201
+      "player_rank": 202
     },
     {
       "id": 1011437,
@@ -8433,8 +8433,8 @@
       "cost": 321000,
       "status": "unavailable",
       "telo": 1426,
-      "player_rating": 60,
-      "player_rank": 473
+      "player_rating": 61,
+      "player_rank": 472
     },
     {
       "id": 1027713,
@@ -8447,8 +8447,8 @@
       "cost": 375000,
       "status": "available",
       "telo": 1426,
-      "player_rating": 60,
-      "player_rank": 474
+      "player_rating": 61,
+      "player_rank": 473
     },
     {
       "id": 1017065,
@@ -8464,7 +8464,7 @@
       "avg_pi": 69.9,
       "last3_pi": 69.7,
       "player_rating": 62,
-      "player_rank": 421
+      "player_rank": 419
     },
     {
       "id": 1008510,
@@ -8480,7 +8480,7 @@
       "avg_pi": 69.8,
       "last3_pi": 73.0,
       "player_rating": 62,
-      "player_rank": 424
+      "player_rank": 423
     },
     {
       "id": 1002282,
@@ -8496,7 +8496,7 @@
       "avg_pi": 73.2,
       "last3_pi": 74.0,
       "player_rating": 63,
-      "player_rank": 391
+      "player_rank": 389
     },
     {
       "id": 1018323,
@@ -8541,8 +8541,8 @@
       "telo": 1449,
       "avg_pi": 71.1,
       "last3_pi": 90.0,
-      "player_rating": 62,
-      "player_rank": 413
+      "player_rating": 63,
+      "player_rank": 410
     },
     {
       "id": 1002143,
@@ -8588,7 +8588,7 @@
       "avg_pi": 65.1,
       "last3_pi": 75.3,
       "player_rating": 60,
-      "player_rank": 476
+      "player_rank": 475
     },
     {
       "id": 1023489,
@@ -8602,7 +8602,7 @@
       "status": "available",
       "telo": 1415,
       "player_rating": 60,
-      "player_rank": 497
+      "player_rank": 496
     },
     {
       "id": 1023537,
@@ -8632,7 +8632,7 @@
       "status": "unavailable",
       "telo": 1414,
       "player_rating": 59,
-      "player_rank": 499
+      "player_rank": 498
     },
     {
       "id": 1011950,
@@ -8662,7 +8662,7 @@
       "avg_pi": 73.3,
       "last3_pi": 75.0,
       "player_rating": 63,
-      "player_rank": 392
+      "player_rank": 390
     },
     {
       "id": 1023736,
@@ -8678,7 +8678,7 @@
       "avg_pi": 66.8,
       "last3_pi": 81.7,
       "player_rating": 61,
-      "player_rank": 462
+      "player_rank": 460
     },
     {
       "id": 1018996,
@@ -8692,7 +8692,7 @@
       "status": "injured",
       "telo": 1412,
       "player_rating": 59,
-      "player_rank": 504
+      "player_rank": 503
     },
     {
       "id": 1008230,
@@ -8704,11 +8704,11 @@
       "games": 10,
       "cost": 337000,
       "status": "available",
-      "telo": 1432,
-      "avg_pi": 66.8,
+      "telo": 1440,
+      "avg_pi": 69.0,
       "last3_pi": 78.7,
-      "player_rating": 61,
-      "player_rank": 458
+      "player_rating": 62,
+      "player_rank": 431
     },
     {
       "id": 1028196,
@@ -8720,11 +8720,11 @@
       "games": 10,
       "cost": 361000,
       "status": "available",
-      "telo": 1408,
+      "telo": 1407,
       "avg_pi": 60.8,
       "last3_pi": 59.7,
       "player_rating": 59,
-      "player_rank": 509
+      "player_rank": 510
     },
     {
       "id": 1023346,
@@ -8752,7 +8752,7 @@
       "status": "unavailable",
       "telo": 1410,
       "player_rating": 59,
-      "player_rank": 506
+      "player_rank": 505
     },
     {
       "id": 1027872,
@@ -8768,7 +8768,7 @@
       "avg_pi": 61.7,
       "last3_pi": 64.7,
       "player_rating": 59,
-      "player_rank": 505
+      "player_rank": 504
     },
     {
       "id": 297456,
@@ -8784,7 +8784,7 @@
       "avg_pi": 56.4,
       "last3_pi": 59.0,
       "player_rating": 57,
-      "player_rank": 550
+      "player_rank": 551
     },
     {
       "id": 1032023,
@@ -8816,7 +8816,7 @@
       "avg_pi": 56.2,
       "last3_pi": 57.5,
       "player_rating": 57,
-      "player_rank": 553
+      "player_rank": 554
     },
     {
       "id": 1011558,
@@ -8828,11 +8828,11 @@
       "games": 15,
       "cost": 324000,
       "status": "unavailable",
-      "telo": 1437,
+      "telo": 1438,
       "avg_pi": 68.3,
       "last3_pi": 66.7,
-      "player_rating": 61,
-      "player_rank": 444
+      "player_rating": 62,
+      "player_rank": 441
     },
     {
       "id": 1013201,
@@ -8878,7 +8878,7 @@
       "avg_pi": 66.6,
       "last3_pi": 72.7,
       "player_rating": 61,
-      "player_rank": 463
+      "player_rank": 461
     },
     {
       "id": 1008691,
@@ -8894,7 +8894,7 @@
       "avg_pi": 69.4,
       "last3_pi": 64.7,
       "player_rating": 62,
-      "player_rank": 428
+      "player_rank": 425
     },
     {
       "id": 291776,
@@ -8936,11 +8936,11 @@
       "games": 7,
       "cost": 333000,
       "status": "unavailable",
-      "telo": 1389,
-      "avg_pi": 56.2,
+      "telo": 1388,
+      "avg_pi": 56.0,
       "last3_pi": 51.0,
       "player_rating": 57,
-      "player_rank": 554
+      "player_rank": 557
     },
     {
       "id": 1027693,
@@ -8956,7 +8956,7 @@
       "avg_pi": 45.4,
       "last3_pi": 38.0,
       "player_rating": 54,
-      "player_rank": 614
+      "player_rank": 613
     },
     {
       "id": 1012842,
@@ -8970,7 +8970,7 @@
       "status": "available",
       "telo": 1404,
       "player_rating": 59,
-      "player_rank": 519
+      "player_rank": 518
     },
     {
       "id": 1028498,
@@ -9016,7 +9016,7 @@
       "avg_pi": 55.3,
       "last3_pi": 60.7,
       "player_rating": 57,
-      "player_rank": 563
+      "player_rank": 564
     },
     {
       "id": 1028561,
@@ -9032,7 +9032,7 @@
       "avg_pi": 70.6,
       "last3_pi": 70.3,
       "player_rating": 62,
-      "player_rank": 418
+      "player_rank": 416
     },
     {
       "id": 1035198,
@@ -9046,7 +9046,7 @@
       "status": "unavailable",
       "telo": 1401,
       "player_rating": 58,
-      "player_rank": 525
+      "player_rank": 524
     },
     {
       "id": 1020881,
@@ -9062,7 +9062,7 @@
       "avg_pi": 55.8,
       "last3_pi": 40.0,
       "player_rating": 57,
-      "player_rank": 557
+      "player_rank": 558
     },
     {
       "id": 1009197,
@@ -9104,7 +9104,7 @@
       "status": "unavailable",
       "telo": 1398,
       "player_rating": 58,
-      "player_rank": 534
+      "player_rank": 533
     },
     {
       "id": 1023496,
@@ -9117,10 +9117,10 @@
       "cost": 372000,
       "status": "available",
       "telo": 1572,
-      "avg_pi": 101.8,
+      "avg_pi": 102.0,
       "last3_pi": 108.3,
       "player_rating": 73,
-      "player_rank": 158
+      "player_rank": 159
     },
     {
       "id": 1023640,
@@ -9178,11 +9178,11 @@
       "games": 8,
       "cost": 310000,
       "status": "unavailable",
-      "telo": 1418,
+      "telo": 1417,
       "avg_pi": 63.3,
       "last3_pi": 69.7,
       "player_rating": 60,
-      "player_rank": 488
+      "player_rank": 489
     },
     {
       "id": 1029589,
@@ -9214,7 +9214,7 @@
       "avg_pi": 67.1,
       "last3_pi": 68.7,
       "player_rating": 61,
-      "player_rank": 456
+      "player_rank": 455
     },
     {
       "id": 1018425,
@@ -9268,11 +9268,9 @@
       "games": 3,
       "cost": 495000,
       "status": "unavailable",
-      "telo": 1480,
-      "avg_pi": 78.9,
-      "last3_pi": 80.5,
-      "player_rating": 65,
-      "player_rank": 347
+      "telo": 1392,
+      "player_rating": 58,
+      "player_rank": 547
     },
     {
       "id": 1028525,
@@ -9342,7 +9340,7 @@
       "status": "unavailable",
       "telo": 1390,
       "player_rating": 57,
-      "player_rank": 551
+      "player_rank": 552
     },
     {
       "id": 1004985,
@@ -9356,7 +9354,7 @@
       "status": "injured",
       "telo": 1388,
       "player_rating": 57,
-      "player_rank": 558
+      "player_rank": 559
     },
     {
       "id": 1032119,
@@ -9372,7 +9370,7 @@
       "avg_pi": 62.1,
       "last3_pi": 59.0,
       "player_rating": 59,
-      "player_rank": 502
+      "player_rank": 501
     },
     {
       "id": 1012873,
@@ -9402,7 +9400,7 @@
       "status": "unavailable",
       "telo": 1388,
       "player_rating": 57,
-      "player_rank": 559
+      "player_rank": 560
     },
     {
       "id": 1020930,
@@ -9414,11 +9412,11 @@
       "games": 4,
       "cost": 262000,
       "status": "available",
-      "telo": 1443,
+      "telo": 1442,
       "avg_pi": 69.6,
       "last3_pi": 80.0,
       "player_rating": 62,
-      "player_rank": 425
+      "player_rank": 426
     },
     {
       "id": 1000998,
@@ -9432,7 +9430,7 @@
       "status": "unavailable",
       "telo": 1386,
       "player_rating": 57,
-      "player_rank": 561
+      "player_rank": 562
     },
     {
       "id": 1023494,
@@ -9462,7 +9460,7 @@
       "status": "injured",
       "telo": 1385,
       "player_rating": 57,
-      "player_rank": 564
+      "player_rank": 565
     },
     {
       "id": 1018016,
@@ -9476,7 +9474,7 @@
       "status": "unavailable",
       "telo": 1385,
       "player_rating": 57,
-      "player_rank": 565
+      "player_rank": 566
     },
     {
       "id": 1024173,
@@ -9490,7 +9488,7 @@
       "status": "unavailable",
       "telo": 1385,
       "player_rating": 57,
-      "player_rank": 566
+      "player_rank": 567
     },
     {
       "id": 1007099,
@@ -9506,7 +9504,7 @@
       "avg_pi": 78.6,
       "last3_pi": 91.7,
       "player_rating": 65,
-      "player_rank": 350
+      "player_rank": 348
     },
     {
       "id": 1006030,
@@ -9520,7 +9518,7 @@
       "status": "unavailable",
       "telo": 1384,
       "player_rating": 57,
-      "player_rank": 569
+      "player_rank": 570
     },
     {
       "id": 1021108,
@@ -9535,8 +9533,8 @@
       "telo": 1449,
       "avg_pi": 71.1,
       "last3_pi": 76.0,
-      "player_rating": 62,
-      "player_rank": 414
+      "player_rating": 63,
+      "player_rank": 411
     },
     {
       "id": 280744,
@@ -9565,7 +9563,7 @@
       "telo": 1403,
       "avg_pi": 59.7,
       "last3_pi": 58.0,
-      "player_rating": 58,
+      "player_rating": 59,
       "player_rank": 520
     },
     {
@@ -9607,10 +9605,10 @@
       "cost": 390000,
       "status": "unavailable",
       "telo": 1520,
-      "avg_pi": 88.9,
+      "avg_pi": 89.0,
       "last3_pi": 82.0,
       "player_rating": 69,
-      "player_rank": 256
+      "player_rank": 255
     },
     {
       "id": 1023534,
@@ -9626,7 +9624,7 @@
       "avg_pi": 58.4,
       "last3_pi": 57.7,
       "player_rating": 58,
-      "player_rank": 535
+      "player_rank": 534
     },
     {
       "id": 1022607,
@@ -9686,7 +9684,7 @@
       "avg_pi": 55.5,
       "last3_pi": 45.0,
       "player_rating": 57,
-      "player_rank": 562
+      "player_rank": 563
     },
     {
       "id": 1018123,
@@ -9717,8 +9715,8 @@
       "telo": 1426,
       "avg_pi": 65.3,
       "last3_pi": 97.3,
-      "player_rating": 60,
-      "player_rank": 475
+      "player_rating": 61,
+      "player_rank": 474
     },
     {
       "id": 1034235,
@@ -9734,7 +9732,7 @@
       "avg_pi": 67.4,
       "last3_pi": 60.7,
       "player_rating": 61,
-      "player_rank": 453
+      "player_rank": 452
     },
     {
       "id": 1017959,
@@ -9760,7 +9758,7 @@
       "games": 8,
       "cost": 295000,
       "status": "unavailable",
-      "telo": 1486,
+      "telo": 1485,
       "avg_pi": 80.3,
       "last3_pi": 98.7,
       "player_rating": 66,
@@ -9804,8 +9802,8 @@
       "games": 2,
       "cost": 438000,
       "status": "unavailable",
-      "telo": 1375,
-      "avg_pi": 52.8,
+      "telo": 1376,
+      "avg_pi": 52.9,
       "last3_pi": 47.7,
       "player_rating": 56,
       "player_rank": 582
@@ -9835,7 +9833,7 @@
       "telo": 1357,
       "avg_pi": 48.1,
       "last3_pi": 31.0,
-      "player_rating": 54,
+      "player_rating": 55,
       "player_rank": 601
     },
     {
@@ -9880,7 +9878,7 @@
       "avg_pi": 67.9,
       "last3_pi": 60.7,
       "player_rating": 61,
-      "player_rank": 450
+      "player_rank": 449
     },
     {
       "id": 1004995,
@@ -9940,7 +9938,7 @@
       "avg_pi": 62.3,
       "last3_pi": 53.3,
       "player_rating": 59,
-      "player_rank": 503
+      "player_rank": 502
     },
     {
       "id": 997501,
@@ -9978,7 +9976,7 @@
       "status": "unavailable",
       "telo": 1364,
       "player_rating": 55,
-      "player_rank": 596
+      "player_rank": 595
     },
     {
       "id": 1017059,
@@ -10048,11 +10046,11 @@
       "games": 2,
       "cost": 260000,
       "status": "unavailable",
-      "telo": 1347,
+      "telo": 1346,
       "avg_pi": 45.6,
       "last3_pi": 46.0,
       "player_rating": 54,
-      "player_rank": 613
+      "player_rank": 614
     },
     {
       "id": 1029405,
@@ -10096,7 +10094,7 @@
       "avg_pi": 83.9,
       "last3_pi": 88.3,
       "player_rating": 67,
-      "player_rank": 302
+      "player_rank": 301
     },
     {
       "id": 1028537,
@@ -10112,7 +10110,7 @@
       "avg_pi": 62.9,
       "last3_pi": 58.0,
       "player_rating": 60,
-      "player_rank": 493
+      "player_rank": 492
     },
     {
       "id": 1027011,
@@ -10214,7 +10212,7 @@
       "avg_pi": 70.2,
       "last3_pi": 74.3,
       "player_rating": 62,
-      "player_rank": 420
+      "player_rank": 418
     },
     {
       "id": 1027382,
@@ -10244,7 +10242,7 @@
       "avg_pi": 62.6,
       "last3_pi": 57.7,
       "player_rating": 60,
-      "player_rank": 498
+      "player_rank": 497
     },
     {
       "id": 294643,
@@ -10354,7 +10352,7 @@
       "games": 1,
       "cost": 376000,
       "status": "injured",
-      "telo": 1416,
+      "telo": 1415,
       "avg_pi": 62.8,
       "last3_pi": 70.3
     }
