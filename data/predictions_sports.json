@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-21T08:53:35.150009+00:00",
+    "updated": "2026-08-21T09:41:17.307537+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -935,234 +935,249 @@
           "rank": 12
         },
         {
-          "team": "Porto",
+          "team": "Atl. Madrid",
           "rating": 1508.2,
           "rank": 13
         },
         {
-          "team": "Ayr",
+          "team": "Porto",
           "rating": 1508.2,
           "rank": 14
         },
         {
-          "team": "Livingston",
+          "team": "Ayr",
           "rating": 1508.2,
           "rank": 15
         },
         {
-          "team": "Maritimo",
-          "rating": 1505.2,
+          "team": "Livingston",
+          "rating": 1508.2,
           "rank": 16
         },
         {
-          "team": "Gil Vicente",
+          "team": "Maritimo",
           "rating": 1505.2,
           "rank": 17
         },
         {
-          "team": "Inverness C",
-          "rating": 1500.0,
+          "team": "Gil Vicente",
+          "rating": 1505.2,
           "rank": 18
         },
         {
-          "team": "Dunfermline",
+          "team": "Inverness C",
           "rating": 1500.0,
           "rank": 19
         },
         {
-          "team": "Raith Rvs",
+          "team": "Dunfermline",
           "rating": 1500.0,
           "rank": 20
         },
         {
-          "team": "Stenhousemuir",
+          "team": "Raith Rvs",
           "rating": 1500.0,
           "rank": 21
         },
         {
-          "team": "Estoril",
+          "team": "Stenhousemuir",
           "rating": 1500.0,
           "rank": 22
         },
         {
-          "team": "Famalicao",
+          "team": "Estoril",
           "rating": 1500.0,
           "rank": 23
         },
         {
-          "team": "Estrela",
+          "team": "Famalicao",
           "rating": 1500.0,
           "rank": 24
         },
         {
-          "team": "Sp Lisbon",
+          "team": "Estrela",
           "rating": 1500.0,
           "rank": 25
         },
         {
-          "team": "Benfica",
+          "team": "Sp Lisbon",
           "rating": 1500.0,
           "rank": 26
         },
         {
-          "team": "Academico Viseu",
+          "team": "Benfica",
           "rating": 1500.0,
           "rank": 27
         },
         {
-          "team": "Moreirense",
+          "team": "Academico Viseu",
           "rating": 1500.0,
           "rank": 28
         },
         {
-          "team": "Sp Braga",
+          "team": "Moreirense",
           "rating": 1500.0,
           "rank": 29
         },
         {
-          "team": "Santa Clara",
+          "team": "Sp Braga",
           "rating": 1500.0,
           "rank": 30
         },
         {
-          "team": "Nacional",
+          "team": "Santa Clara",
           "rating": 1500.0,
           "rank": 31
         },
         {
-          "team": "Santander",
+          "team": "Nacional",
           "rating": 1500.0,
           "rank": 32
         },
         {
-          "team": "Dep. A Coruna",
+          "team": "Santander",
           "rating": 1500.0,
           "rank": 33
         },
         {
+          "team": "Dep. A Coruna",
+          "rating": 1500.0,
+          "rank": 34
+        },
+        {
+          "team": "Rayo Vallecano",
+          "rating": 1500.0,
+          "rank": 35
+        },
+        {
           "team": "Casa Pia",
           "rating": 1494.8,
-          "rank": 34
+          "rank": 36
         },
         {
           "team": "Rio Ave",
           "rating": 1494.8,
-          "rank": 35
+          "rank": 37
         },
         {
           "team": "Arbroath",
           "rating": 1491.8,
-          "rank": 36
+          "rank": 38
         },
         {
           "team": "Queens Park",
           "rating": 1491.8,
-          "rank": 37
+          "rank": 39
         },
         {
           "team": "Alverca",
           "rating": 1491.8,
-          "rank": 38
+          "rank": 40
+        },
+        {
+          "team": "Malaga",
+          "rating": 1491.8,
+          "rank": 41
         },
         {
           "team": "Guimaraes",
           "rating": 1491.3,
-          "rank": 39
+          "rank": 42
         },
         {
           "team": "Morton",
           "rating": 1491.3,
-          "rank": 40
+          "rank": 43
         },
         {
           "team": "Leganes",
           "rating": 1477.6,
-          "rank": 41
+          "rank": 44
         },
         {
           "team": "Levante",
           "rating": 1477.6,
-          "rank": 42
+          "rank": 45
         },
         {
           "team": "Huesca",
           "rating": 1475.9,
-          "rank": 43
+          "rank": 46
         },
         {
           "team": "Mallorca",
           "rating": 1474.8,
-          "rank": 44
+          "rank": 47
         },
         {
           "team": "Oviedo",
           "rating": 1474.3,
-          "rank": 45
+          "rank": 48
         },
         {
           "team": "Celta Vigo",
           "rating": 1470.9,
-          "rank": 46
+          "rank": 49
         },
         {
           "team": "Vallecano",
           "rating": 1465.2,
-          "rank": 47
+          "rank": 50
         },
         {
           "team": "Alaves",
           "rating": 1465.0,
-          "rank": 48
+          "rank": 51
         },
         {
           "team": "Las Palmas",
           "rating": 1464.8,
-          "rank": 49
+          "rank": 52
         },
         {
           "team": "Eibar",
           "rating": 1458.1,
-          "rank": 50
+          "rank": 53
         },
         {
           "team": "Espanyol",
           "rating": 1453.6,
-          "rank": 51
+          "rank": 54
         },
         {
           "team": "Elche",
           "rating": 1444.6,
-          "rank": 52
+          "rank": 55
         },
         {
           "team": "Osasuna",
           "rating": 1441.9,
-          "rank": 53
+          "rank": 56
         },
         {
           "team": "Valladolid",
           "rating": 1439.7,
-          "rank": 54
+          "rank": 57
         },
         {
           "team": "Getafe",
           "rating": 1429.8,
-          "rank": 55
+          "rank": 58
         },
         {
           "team": "Cadiz",
           "rating": 1412.2,
-          "rank": 56
+          "rank": 59
         },
         {
           "team": "Almeria",
           "rating": 1389.0,
-          "rank": 57
+          "rank": 60
         },
         {
           "team": "Granada",
           "rating": 1379.4,
-          "rank": 58
+          "rank": 61
         }
       ],
       "upcoming": [],
@@ -1216,6 +1231,26 @@
           "home_score": 1,
           "away_score": 1,
           "draw_prob": 14.3
+        },
+        {
+          "home": "Atl. Madrid",
+          "away": "Malaga",
+          "date": "2026-08-19",
+          "home_prob": 54.4,
+          "winner": "Atl. Madrid",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 16.1
+        },
+        {
+          "home": "Rayo Vallecano",
+          "away": "Alaves",
+          "date": "2026-08-20",
+          "home_prob": 57.0,
+          "winner": null,
+          "home_score": 1,
+          "away_score": 1,
+          "draw_prob": 15.2
         }
       ]
     },
