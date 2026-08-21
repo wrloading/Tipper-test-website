@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-22T07:48:41.506655+10:00",
+    "updated": "2026-08-22T08:05:52.204501+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -18,8 +18,8 @@
           "venue": "S.C.G.",
           "datetime": "Thu 5 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 70.5,
-          "home_prob": 83.5,
+          "margin": 70.7,
+          "home_prob": 83.6,
           "complete": true,
           "locked": true,
           "home_score": 132,
@@ -1452,7 +1452,7 @@
           "venue": "Gabba",
           "datetime": "Sat 7 Mar \u00b7 7:35pm AEDT",
           "home_fav": true,
-          "margin": 68.4,
+          "margin": 68.2,
           "home_prob": 82.8,
           "complete": true,
           "locked": true,
@@ -2415,7 +2415,7 @@
           "venue": "M.C.G.",
           "datetime": "Thu 12 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 74.8,
+          "margin": 74.6,
           "home_prob": 84.8,
           "complete": true,
           "locked": true,
@@ -3371,8 +3371,8 @@
           "venue": "Docklands",
           "datetime": "Sat 14 Mar \u00b7 1:15pm AEDT",
           "home_fav": true,
-          "margin": 22.5,
-          "home_prob": 62.6,
+          "margin": 22.6,
+          "home_prob": 62.7,
           "complete": true,
           "locked": true,
           "home_score": 134,
@@ -7202,8 +7202,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 20 Mar \u00b7 7:40pm AEDT",
           "home_fav": true,
-          "margin": 33.2,
-          "home_prob": 68.2,
+          "margin": 33.0,
+          "home_prob": 68.1,
           "complete": true,
           "locked": true,
           "home_score": 88,
@@ -10077,7 +10077,7 @@
           "venue": "Kardinia Park",
           "datetime": "Thu 26 Mar \u00b7 7:30pm AEDT",
           "home_fav": true,
-          "margin": 59.4,
+          "margin": 59.5,
           "home_prob": 79.7,
           "complete": true,
           "locked": true,
@@ -11511,7 +11511,7 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 28 Mar \u00b7 4:15pm AEDT",
           "home_fav": true,
-          "margin": 131.3,
+          "margin": 131.2,
           "home_prob": 95.4,
           "complete": true,
           "locked": true,
@@ -12945,8 +12945,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 29 Mar \u00b7 3:15pm AEDT",
           "home_fav": false,
-          "margin": 18.3,
-          "home_prob": 39.6,
+          "margin": 18.5,
+          "home_prob": 39.5,
           "complete": true,
           "locked": true,
           "home_score": 77,
@@ -13908,8 +13908,8 @@
           "venue": "Docklands",
           "datetime": "Fri 3 Apr \u00b7 3:15pm AEDT",
           "home_fav": false,
-          "margin": 38.1,
-          "home_prob": 29.4,
+          "margin": 37.8,
+          "home_prob": 29.5,
           "complete": true,
           "locked": true,
           "home_score": 96,
@@ -16298,7 +16298,7 @@
           "venue": "Docklands",
           "datetime": "Sun 5 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 84.0,
+          "margin": 84.1,
           "home_prob": 87.4,
           "complete": true,
           "locked": true,
@@ -17261,13 +17261,477 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 9 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 32.9,
-          "home_prob": 68.1,
+          "margin": 33.1,
+          "home_prob": 68.2,
           "complete": true,
           "locked": true,
           "home_score": 114,
           "away_score": 86,
-          "upset": false
+          "upset": false,
+          "home_lineup": [
+            {
+              "name": "Sam Berry",
+              "di": 29,
+              "gl": 0,
+              "tk": 6,
+              "cl": 4,
+              "ho": 0,
+              "pct": 80,
+              "pi": 146
+            },
+            {
+              "name": "James Borlase",
+              "di": 7,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 90,
+              "pi": 45
+            },
+            {
+              "name": "Brayden Cook",
+              "di": 18,
+              "gl": 0,
+              "tk": 0,
+              "cl": 1,
+              "ho": 0,
+              "pct": 82,
+              "pi": 77
+            },
+            {
+              "name": "Isaac Cumming",
+              "di": 21,
+              "gl": 1,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 87,
+              "pi": 98
+            },
+            {
+              "name": "Jordan Dawson",
+              "di": 26,
+              "gl": 1,
+              "tk": 3,
+              "cl": 6,
+              "ho": 0,
+              "pct": 79,
+              "pi": 133
+            },
+            {
+              "name": "Mitch Hinge",
+              "di": 10,
+              "gl": 0,
+              "tk": 1,
+              "cl": 1,
+              "ho": 0,
+              "pct": 37,
+              "pi": 48
+            },
+            {
+              "name": "Ben Keays",
+              "di": 16,
+              "gl": 3,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 91,
+              "pi": 106
+            },
+            {
+              "name": "Rory Laird",
+              "di": 24,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 83,
+              "pi": 88
+            },
+            {
+              "name": "Finnbar Maley",
+              "di": 7,
+              "gl": 1,
+              "tk": 2,
+              "cl": 0,
+              "ho": 9,
+              "pct": 51,
+              "pi": 61
+            },
+            {
+              "name": "Lachlan McAndrew",
+              "di": 10,
+              "gl": 0,
+              "tk": 5,
+              "cl": 5,
+              "ho": 35,
+              "pct": 72,
+              "pi": 115
+            },
+            {
+              "name": "Max Michalanney",
+              "di": 16,
+              "gl": 0,
+              "tk": 3,
+              "cl": 2,
+              "ho": 0,
+              "pct": 83,
+              "pi": 75
+            },
+            {
+              "name": "Wayne Milera",
+              "di": 25,
+              "gl": 0,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 78,
+              "pi": 115
+            },
+            {
+              "name": "Nick Murray",
+              "di": 8,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 91,
+              "pi": 38
+            },
+            {
+              "name": "Luke Nankervis",
+              "di": 20,
+              "gl": 0,
+              "tk": 2,
+              "cl": 2,
+              "ho": 0,
+              "pct": 73,
+              "pi": 81
+            },
+            {
+              "name": "Alex Neal-Bullen",
+              "di": 16,
+              "gl": 2,
+              "tk": 6,
+              "cl": 0,
+              "ho": 0,
+              "pct": 85,
+              "pi": 109
+            },
+            {
+              "name": "James Peatling",
+              "di": 20,
+              "gl": 0,
+              "tk": 4,
+              "cl": 6,
+              "ho": 0,
+              "pct": 66,
+              "pi": 110
+            },
+            {
+              "name": "Josh Rachele",
+              "di": 26,
+              "gl": 4,
+              "tk": 5,
+              "cl": 6,
+              "ho": 0,
+              "pct": 76,
+              "pi": 183
+            },
+            {
+              "name": "Izak Rankine",
+              "di": 22,
+              "gl": 2,
+              "tk": 7,
+              "cl": 2,
+              "ho": 0,
+              "pct": 90,
+              "pi": 149
+            },
+            {
+              "name": "Jake Soligo",
+              "di": 12,
+              "gl": 1,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 66,
+              "pi": 67
+            },
+            {
+              "name": "Zac Taylor",
+              "di": 11,
+              "gl": 0,
+              "tk": 3,
+              "cl": 1,
+              "ho": 0,
+              "pct": 75,
+              "pi": 68
+            },
+            {
+              "name": "Riley Thilthorpe",
+              "di": 14,
+              "gl": 1,
+              "tk": 1,
+              "cl": 0,
+              "ho": 1,
+              "pct": 94,
+              "pi": 106
+            },
+            {
+              "name": "Taylor Walker",
+              "di": 14,
+              "gl": 1,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 84,
+              "pi": 105
+            },
+            {
+              "name": "Josh Worrell",
+              "di": 21,
+              "gl": 0,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 90,
+              "pi": 80
+            }
+          ],
+          "away_lineup": [
+            {
+              "name": "Ben Ainsworth",
+              "di": 13,
+              "gl": 2,
+              "tk": 1,
+              "cl": 1,
+              "ho": 0,
+              "pct": 76,
+              "pi": 81
+            },
+            {
+              "name": "Jordan Boyd",
+              "di": 13,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 70,
+              "pi": 61
+            },
+            {
+              "name": "Talor Byrne",
+              "di": 9,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 73,
+              "pi": 45
+            },
+            {
+              "name": "Matt Carroll",
+              "di": 13,
+              "gl": 1,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 79,
+              "pi": 74
+            },
+            {
+              "name": "Adam Cerra",
+              "di": 23,
+              "gl": 1,
+              "tk": 7,
+              "cl": 7,
+              "ho": 0,
+              "pct": 77,
+              "pi": 136
+            },
+            {
+              "name": "Lachlan Cowan",
+              "di": 18,
+              "gl": 0,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 92,
+              "pi": 82
+            },
+            {
+              "name": "Patrick Cripps",
+              "di": 29,
+              "gl": 0,
+              "tk": 9,
+              "cl": 7,
+              "ho": 0,
+              "pct": 80,
+              "pi": 164
+            },
+            {
+              "name": "Wade Derksen",
+              "di": 10,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 90,
+              "pi": 37
+            },
+            {
+              "name": "Francis Evans",
+              "di": 15,
+              "gl": 1,
+              "tk": 6,
+              "cl": 1,
+              "ho": 0,
+              "pct": 74,
+              "pi": 96
+            },
+            {
+              "name": "Oliver Florent",
+              "di": 25,
+              "gl": 1,
+              "tk": 4,
+              "cl": 2,
+              "ho": 0,
+              "pct": 87,
+              "pi": 136
+            },
+            {
+              "name": "Nick Haynes",
+              "di": 18,
+              "gl": 0,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 85,
+              "pi": 102
+            },
+            {
+              "name": "Elijah Hollands",
+              "di": 16,
+              "gl": 1,
+              "tk": 5,
+              "cl": 1,
+              "ho": 0,
+              "pct": 80,
+              "pi": 105
+            },
+            {
+              "name": "Oliver Hollands",
+              "di": 15,
+              "gl": 1,
+              "tk": 5,
+              "cl": 2,
+              "ho": 0,
+              "pct": 87,
+              "pi": 94
+            },
+            {
+              "name": "Brodie Kemp",
+              "di": 9,
+              "gl": 0,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 74,
+              "pi": 63
+            },
+            {
+              "name": "Mitch McGovern",
+              "di": 10,
+              "gl": 2,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 78,
+              "pi": 82
+            },
+            {
+              "name": "Harry McKay",
+              "di": 7,
+              "gl": 1,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 95,
+              "pi": 61
+            },
+            {
+              "name": "Nic Newman",
+              "di": 19,
+              "gl": 0,
+              "tk": 3,
+              "cl": 2,
+              "ho": 0,
+              "pct": 79,
+              "pi": 96
+            },
+            {
+              "name": "Hudson OKeeffe",
+              "di": 7,
+              "gl": 0,
+              "tk": 1,
+              "cl": 1,
+              "ho": 10,
+              "pct": 32,
+              "pi": 44
+            },
+            {
+              "name": "Marc Pittonet",
+              "di": 16,
+              "gl": 0,
+              "tk": 7,
+              "cl": 10,
+              "ho": 33,
+              "pct": 73,
+              "pi": 156
+            },
+            {
+              "name": "Jagga Smith",
+              "di": 19,
+              "gl": 0,
+              "tk": 3,
+              "cl": 5,
+              "ho": 0,
+              "pct": 72,
+              "pi": 101
+            },
+            {
+              "name": "Sam Walsh",
+              "di": 29,
+              "gl": 0,
+              "tk": 8,
+              "cl": 0,
+              "ho": 0,
+              "pct": 78,
+              "pi": 130
+            },
+            {
+              "name": "Zac Williams",
+              "di": 15,
+              "gl": 1,
+              "tk": 6,
+              "cl": 4,
+              "ho": 0,
+              "pct": 72,
+              "pi": 98
+            },
+            {
+              "name": "Lewis Young",
+              "di": 10,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 97,
+              "pi": 39
+            }
+          ]
         },
         {
           "home": "Collingwood",
@@ -17281,7 +17745,471 @@
           "locked": true,
           "home_score": 39,
           "away_score": 45,
-          "upset": false
+          "upset": false,
+          "home_lineup": [
+            {
+              "name": "Angus Anderson",
+              "di": 16,
+              "gl": 1,
+              "tk": 6,
+              "cl": 2,
+              "ho": 0,
+              "pct": 67,
+              "pi": 123
+            },
+            {
+              "name": "Darcy Cameron",
+              "di": 18,
+              "gl": 0,
+              "tk": 7,
+              "cl": 4,
+              "ho": 24,
+              "pct": 79,
+              "pi": 147
+            },
+            {
+              "name": "Jack Crisp",
+              "di": 23,
+              "gl": 1,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 78,
+              "pi": 129
+            },
+            {
+              "name": "Josh Daicos",
+              "di": 23,
+              "gl": 0,
+              "tk": 3,
+              "cl": 2,
+              "ho": 0,
+              "pct": 88,
+              "pi": 107
+            },
+            {
+              "name": "Nick Daicos",
+              "di": 31,
+              "gl": 0,
+              "tk": 1,
+              "cl": 5,
+              "ho": 0,
+              "pct": 86,
+              "pi": 149
+            },
+            {
+              "name": "Jordan de Goey",
+              "di": 6,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 23,
+              "pi": 25
+            },
+            {
+              "name": "Jamie Elliott",
+              "di": 15,
+              "gl": 0,
+              "tk": 3,
+              "cl": 1,
+              "ho": 0,
+              "pct": 84,
+              "pi": 64
+            },
+            {
+              "name": "Billy Frampton",
+              "di": 15,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 97,
+              "pi": 80
+            },
+            {
+              "name": "Dan Houston",
+              "di": 14,
+              "gl": 0,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 72,
+              "pi": 67
+            },
+            {
+              "name": "Jeremy Howe",
+              "di": 14,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 94,
+              "pi": 88
+            },
+            {
+              "name": "Patrick Lipinski",
+              "di": 17,
+              "gl": 0,
+              "tk": 4,
+              "cl": 3,
+              "ho": 0,
+              "pct": 87,
+              "pi": 88
+            },
+            {
+              "name": "Ned Long",
+              "di": 13,
+              "gl": 1,
+              "tk": 5,
+              "cl": 2,
+              "ho": 0,
+              "pct": 63,
+              "pi": 83
+            },
+            {
+              "name": "Brayden Maynard",
+              "di": 17,
+              "gl": 0,
+              "tk": 6,
+              "cl": 0,
+              "ho": 0,
+              "pct": 83,
+              "pi": 123
+            },
+            {
+              "name": "Beau McCreery",
+              "di": 13,
+              "gl": 0,
+              "tk": 7,
+              "cl": 0,
+              "ho": 0,
+              "pct": 82,
+              "pi": 88
+            },
+            {
+              "name": "Daniel McStay",
+              "di": 8,
+              "gl": 1,
+              "tk": 6,
+              "cl": 0,
+              "ho": 1,
+              "pct": 90,
+              "pi": 91
+            },
+            {
+              "name": "Tim Membrey",
+              "di": 13,
+              "gl": 1,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 87,
+              "pi": 97
+            },
+            {
+              "name": "Scott Pendlebury",
+              "di": 22,
+              "gl": 0,
+              "tk": 4,
+              "cl": 4,
+              "ho": 0,
+              "pct": 80,
+              "pi": 124
+            },
+            {
+              "name": "Harry Perryman",
+              "di": 16,
+              "gl": 0,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 77,
+              "pi": 105
+            },
+            {
+              "name": "Isaac Quaynor",
+              "di": 21,
+              "gl": 0,
+              "tk": 6,
+              "cl": 1,
+              "ho": 0,
+              "pct": 89,
+              "pi": 132
+            },
+            {
+              "name": "Lachie Schultz",
+              "di": 18,
+              "gl": 0,
+              "tk": 8,
+              "cl": 0,
+              "ho": 0,
+              "pct": 81,
+              "pi": 120
+            },
+            {
+              "name": "Steele Sidebottom",
+              "di": 14,
+              "gl": 0,
+              "tk": 4,
+              "cl": 4,
+              "ho": 0,
+              "pct": 80,
+              "pi": 78
+            },
+            {
+              "name": "Roan Steele",
+              "di": 13,
+              "gl": 0,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 81,
+              "pi": 77
+            },
+            {
+              "name": "Oscar Steene",
+              "di": 4,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 2,
+              "pct": 51,
+              "pi": 27
+            }
+          ],
+          "away_lineup": [
+            {
+              "name": "Jye Amiss",
+              "di": 12,
+              "gl": 2,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 89,
+              "pi": 97
+            },
+            {
+              "name": "Shai Bolton",
+              "di": 17,
+              "gl": 1,
+              "tk": 3,
+              "cl": 3,
+              "ho": 0,
+              "pct": 85,
+              "pi": 98
+            },
+            {
+              "name": "Andrew Brayshaw",
+              "di": 19,
+              "gl": 0,
+              "tk": 9,
+              "cl": 5,
+              "ho": 0,
+              "pct": 74,
+              "pi": 125
+            },
+            {
+              "name": "Heath Chapman",
+              "di": 17,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 81,
+              "pi": 72
+            },
+            {
+              "name": "Jordan Clark",
+              "di": 27,
+              "gl": 0,
+              "tk": 3,
+              "cl": 3,
+              "ho": 0,
+              "pct": 80,
+              "pi": 135
+            },
+            {
+              "name": "Brennan Cox",
+              "di": 13,
+              "gl": 0,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 85,
+              "pi": 62
+            },
+            {
+              "name": "Sean Darcy",
+              "di": 5,
+              "gl": 0,
+              "tk": 0,
+              "cl": 1,
+              "ho": 9,
+              "pct": 26,
+              "pi": 28
+            },
+            {
+              "name": "Isaiah Dudley",
+              "di": 8,
+              "gl": 2,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 71,
+              "pi": 70
+            },
+            {
+              "name": "Neil Erasmus",
+              "di": 18,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 70,
+              "pi": 73
+            },
+            {
+              "name": "Luke Jackson",
+              "di": 17,
+              "gl": 0,
+              "tk": 9,
+              "cl": 5,
+              "ho": 38,
+              "pct": 85,
+              "pi": 169
+            },
+            {
+              "name": "Matthew Johnson",
+              "di": 10,
+              "gl": 1,
+              "tk": 5,
+              "cl": 1,
+              "ho": 0,
+              "pct": 77,
+              "pi": 71
+            },
+            {
+              "name": "Judd McVee",
+              "di": 10,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 72,
+              "pi": 52
+            },
+            {
+              "name": "Jaeger OMeara",
+              "di": 21,
+              "gl": 0,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 82,
+              "pi": 96
+            },
+            {
+              "name": "Alex Pearce",
+              "di": 14,
+              "gl": 0,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 90,
+              "pi": 81
+            },
+            {
+              "name": "Murphy Reid",
+              "di": 22,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 77,
+              "pi": 97
+            },
+            {
+              "name": "Luke Ryan",
+              "di": 25,
+              "gl": 0,
+              "tk": 4,
+              "cl": 1,
+              "ho": 0,
+              "pct": 89,
+              "pi": 148
+            },
+            {
+              "name": "Chris Scerri",
+              "di": 7,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 68,
+              "pi": 12
+            },
+            {
+              "name": "Caleb Serong",
+              "di": 24,
+              "gl": 0,
+              "tk": 3,
+              "cl": 8,
+              "ho": 0,
+              "pct": 84,
+              "pi": 142
+            },
+            {
+              "name": "Sam Switkowski",
+              "di": 17,
+              "gl": 1,
+              "tk": 0,
+              "cl": 1,
+              "ho": 0,
+              "pct": 75,
+              "pi": 88
+            },
+            {
+              "name": "Josh Treacy",
+              "di": 14,
+              "gl": 0,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 87,
+              "pi": 73
+            },
+            {
+              "name": "Patrick Voss",
+              "di": 6,
+              "gl": 0,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 86,
+              "pi": 36
+            },
+            {
+              "name": "Corey Wagner",
+              "di": 16,
+              "gl": 0,
+              "tk": 3,
+              "cl": 3,
+              "ho": 0,
+              "pct": 78,
+              "pi": 94
+            },
+            {
+              "name": "Karl Worner",
+              "di": 19,
+              "gl": 0,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 87,
+              "pi": 102
+            }
+          ]
         },
         {
           "home": "North Melbourne",
@@ -18723,7 +19651,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 11 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 36.5,
+          "margin": 36.3,
           "home_prob": 69.8,
           "complete": true,
           "locked": true,
@@ -20642,8 +21570,8 @@
           "venue": "M.C.G.",
           "datetime": "Thu 16 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 9.9,
-          "home_prob": 44.3,
+          "margin": 10.2,
+          "home_prob": 44.2,
           "complete": true,
           "locked": true,
           "home_score": 83,
@@ -21120,7 +22048,7 @@
           "venue": "Kardinia Park",
           "datetime": "Fri 17 Apr \u00b7 7:20pm AEST",
           "home_fav": true,
-          "margin": 70.9,
+          "margin": 70.7,
           "home_prob": 83.6,
           "complete": true,
           "locked": true,
@@ -23032,7 +23960,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 18 Apr \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 61.4,
+          "margin": 61.3,
           "home_prob": 80.4,
           "complete": true,
           "locked": true,
@@ -24951,8 +25879,8 @@
           "venue": "Docklands",
           "datetime": "Thu 23 Apr \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 25.4,
-          "home_prob": 35.8,
+          "margin": 25.3,
+          "home_prob": 35.9,
           "complete": true,
           "locked": true,
           "home_score": 60,
@@ -27341,8 +28269,8 @@
           "venue": "Perth Stadium",
           "datetime": "Sat 25 Apr \u00b7 8:15pm AEST",
           "home_fav": true,
-          "margin": 51.7,
-          "home_prob": 76.7,
+          "margin": 51.9,
+          "home_prob": 76.8,
           "complete": true,
           "locked": true,
           "home_score": 103,
@@ -28297,7 +29225,7 @@
           "venue": "Gabba",
           "datetime": "Sun 26 Apr \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 54.4,
+          "margin": 54.5,
           "home_prob": 77.8,
           "complete": true,
           "locked": true,
@@ -29738,13 +30666,477 @@
           "venue": "Docklands",
           "datetime": "Fri 1 May \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 41.7,
-          "home_prob": 27.7,
+          "margin": 41.5,
+          "home_prob": 27.8,
           "complete": true,
           "locked": true,
           "home_score": 102,
           "away_score": 114,
-          "upset": false
+          "upset": false,
+          "home_lineup": [
+            {
+              "name": "Marcus Bontempelli",
+              "di": 33,
+              "gl": 2,
+              "tk": 2,
+              "cl": 6,
+              "ho": 0,
+              "pct": 82,
+              "pi": 166
+            },
+            {
+              "name": "Lachlan Bramble",
+              "di": 14,
+              "gl": 1,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 84,
+              "pi": 78
+            },
+            {
+              "name": "Jedd Busslinger",
+              "di": 13,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 95,
+              "pi": 63
+            },
+            {
+              "name": "Nick Coffield",
+              "di": 16,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 0,
+              "pct": 73,
+              "pi": 80
+            },
+            {
+              "name": "Bailey Dale",
+              "di": 32,
+              "gl": 0,
+              "tk": 5,
+              "cl": 2,
+              "ho": 0,
+              "pct": 89,
+              "pi": 165
+            },
+            {
+              "name": "Sam Davidson",
+              "di": 6,
+              "gl": 0,
+              "tk": 5,
+              "cl": 0,
+              "ho": 0,
+              "pct": 77,
+              "pi": 49
+            },
+            {
+              "name": "Josh Dolan",
+              "di": 7,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 63,
+              "pi": 35
+            },
+            {
+              "name": "Louis Emmett",
+              "di": 2,
+              "gl": 0,
+              "tk": 0,
+              "cl": 0,
+              "ho": 2,
+              "pct": 47,
+              "pi": 5
+            },
+            {
+              "name": "Tim English",
+              "di": 15,
+              "gl": 0,
+              "tk": 3,
+              "cl": 1,
+              "ho": 21,
+              "pct": 74,
+              "pi": 100
+            },
+            {
+              "name": "Joel Freijah",
+              "di": 19,
+              "gl": 0,
+              "tk": 5,
+              "cl": 6,
+              "ho": 0,
+              "pct": 90,
+              "pi": 135
+            },
+            {
+              "name": "Harvey Gallagher",
+              "di": 13,
+              "gl": 0,
+              "tk": 0,
+              "cl": 1,
+              "ho": 0,
+              "pct": 67,
+              "pi": 65
+            },
+            {
+              "name": "Arthur Jones",
+              "di": 15,
+              "gl": 1,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 78,
+              "pi": 80
+            },
+            {
+              "name": "Matthew Kennedy",
+              "di": 30,
+              "gl": 0,
+              "tk": 5,
+              "cl": 9,
+              "ho": 0,
+              "pct": 80,
+              "pi": 171
+            },
+            {
+              "name": "Buku Khamis",
+              "di": 18,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 94,
+              "pi": 94
+            },
+            {
+              "name": "Will Lewis",
+              "di": 11,
+              "gl": 2,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 63,
+              "pi": 59
+            },
+            {
+              "name": "Lachlan McNeil",
+              "di": 11,
+              "gl": 2,
+              "tk": 4,
+              "cl": 0,
+              "ho": 0,
+              "pct": 81,
+              "pi": 92
+            },
+            {
+              "name": "Aaron Naughton",
+              "di": 9,
+              "gl": 2,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 84,
+              "pi": 84
+            },
+            {
+              "name": "Ed Richards",
+              "di": 25,
+              "gl": 1,
+              "tk": 6,
+              "cl": 7,
+              "ho": 0,
+              "pct": 83,
+              "pi": 169
+            },
+            {
+              "name": "Ryley Sanders",
+              "di": 25,
+              "gl": 1,
+              "tk": 5,
+              "cl": 2,
+              "ho": 0,
+              "pct": 85,
+              "pi": 114
+            },
+            {
+              "name": "Michael Sellwood",
+              "di": 13,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 82,
+              "pi": 66
+            },
+            {
+              "name": "Laitham Vandermeer",
+              "di": 12,
+              "gl": 1,
+              "tk": 1,
+              "cl": 1,
+              "ho": 0,
+              "pct": 50,
+              "pi": 66
+            },
+            {
+              "name": "Rhylee West",
+              "di": 17,
+              "gl": 2,
+              "tk": 4,
+              "cl": 2,
+              "ho": 0,
+              "pct": 84,
+              "pi": 131
+            },
+            {
+              "name": "Bailey Williams",
+              "di": 15,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 94,
+              "pi": 50
+            }
+          ],
+          "away_lineup": [
+            {
+              "name": "Jye Amiss",
+              "di": 12,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 91,
+              "pi": 78
+            },
+            {
+              "name": "Shai Bolton",
+              "di": 30,
+              "gl": 1,
+              "tk": 3,
+              "cl": 9,
+              "ho": 0,
+              "pct": 83,
+              "pi": 173
+            },
+            {
+              "name": "Andrew Brayshaw",
+              "di": 22,
+              "gl": 1,
+              "tk": 8,
+              "cl": 6,
+              "ho": 0,
+              "pct": 79,
+              "pi": 147
+            },
+            {
+              "name": "Heath Chapman",
+              "di": 15,
+              "gl": 1,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 88,
+              "pi": 82
+            },
+            {
+              "name": "Jordan Clark",
+              "di": 22,
+              "gl": 0,
+              "tk": 2,
+              "cl": 3,
+              "ho": 0,
+              "pct": 88,
+              "pi": 106
+            },
+            {
+              "name": "Brennan Cox",
+              "di": 13,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 85,
+              "pi": 66
+            },
+            {
+              "name": "Mason Cox",
+              "di": 8,
+              "gl": 0,
+              "tk": 3,
+              "cl": 2,
+              "ho": 25,
+              "pct": 48,
+              "pi": 90
+            },
+            {
+              "name": "Isaiah Dudley",
+              "di": 6,
+              "gl": 1,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 68,
+              "pi": 39
+            },
+            {
+              "name": "Neil Erasmus",
+              "di": 15,
+              "gl": 1,
+              "tk": 4,
+              "cl": 4,
+              "ho": 0,
+              "pct": 69,
+              "pi": 112
+            },
+            {
+              "name": "Michael Frederick",
+              "di": 9,
+              "gl": 1,
+              "tk": 3,
+              "cl": 1,
+              "ho": 0,
+              "pct": 78,
+              "pi": 64
+            },
+            {
+              "name": "Luke Jackson",
+              "di": 18,
+              "gl": 1,
+              "tk": 8,
+              "cl": 3,
+              "ho": 36,
+              "pct": 80,
+              "pi": 175
+            },
+            {
+              "name": "Matthew Johnson",
+              "di": 11,
+              "gl": 0,
+              "tk": 1,
+              "cl": 2,
+              "ho": 0,
+              "pct": 84,
+              "pi": 31
+            },
+            {
+              "name": "Alex Pearce",
+              "di": 7,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 92,
+              "pi": 38
+            },
+            {
+              "name": "Murphy Reid",
+              "di": 22,
+              "gl": 1,
+              "tk": 3,
+              "cl": 3,
+              "ho": 0,
+              "pct": 81,
+              "pi": 113
+            },
+            {
+              "name": "Luke Ryan",
+              "di": 22,
+              "gl": 0,
+              "tk": 3,
+              "cl": 0,
+              "ho": 0,
+              "pct": 85,
+              "pi": 116
+            },
+            {
+              "name": "Caleb Serong",
+              "di": 17,
+              "gl": 0,
+              "tk": 8,
+              "cl": 4,
+              "ho": 0,
+              "pct": 80,
+              "pi": 108
+            },
+            {
+              "name": "Jeremy Sharp",
+              "di": 10,
+              "gl": 0,
+              "tk": 1,
+              "cl": 0,
+              "ho": 0,
+              "pct": 64,
+              "pi": 53
+            },
+            {
+              "name": "Sam Switkowski",
+              "di": 12,
+              "gl": 3,
+              "tk": 3,
+              "cl": 1,
+              "ho": 0,
+              "pct": 77,
+              "pi": 98
+            },
+            {
+              "name": "Josh Treacy",
+              "di": 17,
+              "gl": 3,
+              "tk": 2,
+              "cl": 0,
+              "ho": 0,
+              "pct": 86,
+              "pi": 144
+            },
+            {
+              "name": "Patrick Voss",
+              "di": 5,
+              "gl": 0,
+              "tk": 3,
+              "cl": 1,
+              "ho": 0,
+              "pct": 70,
+              "pi": 31
+            },
+            {
+              "name": "Corey Wagner",
+              "di": 19,
+              "gl": 0,
+              "tk": 0,
+              "cl": 1,
+              "ho": 0,
+              "pct": 71,
+              "pi": 75
+            },
+            {
+              "name": "Karl Worner",
+              "di": 21,
+              "gl": 0,
+              "tk": 2,
+              "cl": 1,
+              "ho": 0,
+              "pct": 77,
+              "pi": 119
+            },
+            {
+              "name": "Hayden Young",
+              "di": 20,
+              "gl": 3,
+              "tk": 7,
+              "cl": 3,
+              "ho": 0,
+              "pct": 76,
+              "pi": 135
+            }
+          ]
         },
         {
           "home": "Adelaide",
@@ -31664,8 +33056,8 @@
           "venue": "Docklands",
           "datetime": "Sat 2 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 31.1,
-          "home_prob": 67.2,
+          "margin": 30.9,
+          "home_prob": 67.1,
           "complete": true,
           "locked": true,
           "home_score": 69,
@@ -33583,7 +34975,7 @@
           "venue": "Gabba",
           "datetime": "Fri 8 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 68.1,
+          "margin": 68.4,
           "home_prob": 82.8,
           "complete": true,
           "locked": true,
@@ -34061,8 +35453,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 8 May \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 31.8,
-          "home_prob": 32.5,
+          "margin": 31.9,
+          "home_prob": 32.4,
           "complete": true,
           "locked": true,
           "home_score": 72,
@@ -39804,8 +41196,8 @@
           "venue": "Docklands",
           "datetime": "Sat 16 May \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 2.9,
-          "home_prob": 51.7,
+          "margin": 2.5,
+          "home_prob": 51.5,
           "complete": true,
           "locked": true,
           "home_score": 74,
@@ -41723,7 +43115,7 @@
           "venue": "York Park",
           "datetime": "Thu 21 May \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 22.0,
+          "margin": 22.1,
           "home_prob": 62.4,
           "complete": true,
           "locked": true,
@@ -42680,7 +44072,7 @@
           "datetime": "Fri 22 May \u00b7 8:30pm AEST",
           "home_fav": true,
           "margin": 80.1,
-          "home_prob": 86.4,
+          "home_prob": 86.3,
           "complete": true,
           "locked": true,
           "home_score": 104,
@@ -44591,8 +45983,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 23 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 32.0,
-          "home_prob": 32.3,
+          "margin": 31.8,
+          "home_prob": 32.5,
           "complete": true,
           "locked": true,
           "home_score": 58,
@@ -45547,7 +46939,7 @@
           "venue": "Docklands",
           "datetime": "Sun 24 May \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 11.1,
+          "margin": 10.9,
           "home_prob": 43.7,
           "complete": true,
           "locked": true,
@@ -46510,8 +47902,8 @@
           "venue": "M.C.G.",
           "datetime": "Fri 29 May \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 31.0,
-          "home_prob": 32.9,
+          "margin": 31.2,
+          "home_prob": 32.8,
           "complete": true,
           "locked": true,
           "home_score": 88,
@@ -47944,8 +49336,8 @@
           "venue": "Docklands",
           "datetime": "Sat 30 May \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 2.7,
-          "home_prob": 48.4,
+          "margin": 2.6,
+          "home_prob": 48.5,
           "complete": true,
           "locked": true,
           "home_score": 97,
@@ -49863,7 +51255,7 @@
           "venue": "M.C.G.",
           "datetime": "Fri 5 Jun \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 14.9,
+          "margin": 14.8,
           "home_prob": 58.5,
           "complete": true,
           "locked": true,
@@ -52253,8 +53645,8 @@
           "venue": "M.C.G.",
           "datetime": "Sun 7 Jun \u00b7 7:20pm AEST",
           "home_fav": false,
-          "margin": 86.3,
-          "home_prob": 12.0,
+          "margin": 86.1,
+          "home_prob": 12.1,
           "complete": true,
           "locked": true,
           "home_score": 67,
@@ -53216,8 +54608,8 @@
           "venue": "Docklands",
           "datetime": "Thu 11 Jun \u00b7 7:30pm AEST",
           "home_fav": false,
-          "margin": 8.7,
-          "home_prob": 45.0,
+          "margin": 8.6,
+          "home_prob": 45.1,
           "complete": true,
           "locked": true,
           "home_score": 64,
@@ -58003,8 +59395,8 @@
           "venue": "Sydney Showground",
           "datetime": "Sat 20 Jun \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 13.6,
-          "home_prob": 57.7,
+          "margin": 13.8,
+          "home_prob": 57.9,
           "complete": true,
           "locked": true,
           "home_score": 65,
@@ -59437,7 +60829,7 @@
           "venue": "Docklands",
           "datetime": "Sun 21 Jun \u00b7 3:15pm AEST",
           "home_fav": false,
-          "margin": 25.5,
+          "margin": 25.6,
           "home_prob": 35.7,
           "complete": true,
           "locked": true,
@@ -60878,7 +62270,7 @@
           "venue": "Docklands",
           "datetime": "Sat 27 Jun \u00b7 1:15pm AEST",
           "home_fav": true,
-          "margin": 89.2,
+          "margin": 89.0,
           "home_prob": 88.6,
           "complete": true,
           "locked": true,
@@ -63753,7 +65145,7 @@
           "venue": "S.C.G.",
           "datetime": "Fri 3 Jul \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 70.7,
+          "margin": 70.6,
           "home_prob": 83.6,
           "complete": true,
           "locked": true,
@@ -64231,7 +65623,7 @@
           "venue": "Perth Stadium",
           "datetime": "Fri 3 Jul \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 92.7,
+          "margin": 92.6,
           "home_prob": 10.6,
           "complete": true,
           "locked": true,
@@ -66143,8 +67535,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 4 Jul \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 84.3,
-          "home_prob": 12.5,
+          "margin": 84.1,
+          "home_prob": 12.6,
           "complete": true,
           "locked": true,
           "home_score": 72,
@@ -67584,8 +68976,8 @@
           "venue": "Perth Stadium",
           "datetime": "Thu 9 Jul \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 21.4,
-          "home_prob": 62.1,
+          "margin": 21.3,
+          "home_prob": 62.0,
           "complete": true,
           "locked": true,
           "home_score": 111,
@@ -69496,8 +70888,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 11 Jul \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 24.3,
-          "home_prob": 36.4,
+          "margin": 24.5,
+          "home_prob": 36.3,
           "complete": true,
           "locked": true,
           "home_score": 39,
@@ -70452,7 +71844,7 @@
           "venue": "Docklands",
           "datetime": "Sun 12 Jul \u00b7 1:10pm AEST",
           "home_fav": true,
-          "margin": 89.0,
+          "margin": 89.1,
           "home_prob": 88.6,
           "complete": true,
           "locked": true,
@@ -73805,8 +75197,8 @@
           "venue": "M.C.G.",
           "datetime": "Sat 18 Jul \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 0.4,
-          "home_prob": 50.2,
+          "margin": 0.6,
+          "home_prob": 50.4,
           "complete": true,
           "locked": true,
           "home_score": 90,
@@ -75239,7 +76631,7 @@
           "venue": "Carrara",
           "datetime": "Sun 19 Jul \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 0.9,
+          "margin": 0.8,
           "home_prob": 50.5,
           "complete": true,
           "locked": true,
@@ -77636,8 +79028,8 @@
           "venue": "Docklands",
           "datetime": "Sat 25 Jul \u00b7 1:05pm AEST",
           "home_fav": true,
-          "margin": 30.1,
-          "home_prob": 66.6,
+          "margin": 29.8,
+          "home_prob": 66.5,
           "complete": true,
           "locked": true,
           "home_score": 110,
@@ -79070,7 +80462,7 @@
           "venue": "Docklands",
           "datetime": "Sat 25 Jul \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 82.0,
+          "margin": 82.1,
           "home_prob": 86.9,
           "complete": true,
           "locked": true,
@@ -80989,8 +82381,8 @@
           "venue": "Perth Stadium",
           "datetime": "Fri 31 Jul \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 51.9,
-          "home_prob": 76.8,
+          "margin": 51.8,
+          "home_prob": 76.7,
           "complete": true,
           "locked": true,
           "home_score": 78,
@@ -82901,8 +84293,8 @@
           "venue": "Docklands",
           "datetime": "Sat 1 Aug \u00b7 7:40pm AEST",
           "home_fav": false,
-          "margin": 28.8,
-          "home_prob": 34.0,
+          "margin": 29.0,
+          "home_prob": 33.9,
           "complete": true,
           "locked": true,
           "home_score": 154,
@@ -84820,7 +86212,7 @@
           "venue": "Docklands",
           "datetime": "Thu 6 Aug \u00b7 7:30pm AEST",
           "home_fav": true,
-          "margin": 43.2,
+          "margin": 43.3,
           "home_prob": 73.0,
           "complete": true,
           "locked": true,
@@ -88644,8 +90036,8 @@
           "venue": "Docklands",
           "datetime": "Sun 9 Aug \u00b7 7:20pm AEST",
           "home_fav": false,
-          "margin": 25.7,
-          "home_prob": 35.6,
+          "margin": 25.5,
+          "home_prob": 35.7,
           "complete": true,
           "locked": true,
           "home_score": 62,
@@ -92475,8 +93867,8 @@
           "venue": "Docklands",
           "datetime": "Sun 16 Aug \u00b7 3:15pm AEST",
           "home_fav": true,
-          "margin": 2.4,
-          "home_prob": 51.4,
+          "margin": 2.8,
+          "home_prob": 51.6,
           "complete": true,
           "locked": true,
           "home_score": 82,
@@ -93466,8 +94858,8 @@
           "venue": "Docklands",
           "datetime": "Sat 22 Aug \u00b7 1:15pm AEST",
           "home_fav": false,
-          "margin": 43.0,
-          "home_prob": 27.1,
+          "margin": 43.2,
+          "home_prob": 27.0,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -93480,7 +94872,7 @@
               "avg_cl": 0.8,
               "avg_pi": 118.1,
               "games": 9,
-              "ptelo": 1636,
+              "ptelo": 1637,
               "ppos": "MID",
               "player_rating": 79,
               "player_rank": 80
@@ -93488,12 +94880,12 @@
             {
               "name": "Ben Ainsworth",
               "pos": "",
-              "avg_di": 17.6,
+              "avg_di": 17.4,
               "avg_gl": 1.0,
               "avg_tk": 1.5,
               "avg_cl": 1.1,
-              "avg_pi": 93.1,
-              "games": 21,
+              "avg_pi": 93.0,
+              "games": 22,
               "ptelo": 1537,
               "ppos": "FWD",
               "player_rating": 70,
@@ -93504,24 +94896,24 @@
               "pos": "",
               "avg_di": 9.2,
               "avg_gl": 0.9,
-              "avg_tk": 2.8,
+              "avg_tk": 2.6,
               "avg_cl": 0.4,
-              "avg_pi": 79.8,
-              "games": 16
+              "avg_pi": 79.4,
+              "games": 17
             },
             {
               "name": "Adam Cerra",
               "pos": "",
-              "avg_di": 20.0,
+              "avg_di": 20.2,
               "avg_gl": 0.2,
-              "avg_tk": 3.3,
-              "avg_cl": 1.8,
-              "avg_pi": 105.0,
-              "games": 18,
-              "ptelo": 1584,
+              "avg_tk": 3.5,
+              "avg_cl": 2.1,
+              "avg_pi": 105.3,
+              "games": 19,
+              "ptelo": 1586,
               "ppos": "MID",
               "player_rating": 74,
-              "player_rank": 137
+              "player_rank": 134
             },
             {
               "name": "Matthew Cottrell",
@@ -93532,35 +94924,35 @@
               "avg_cl": 0.4,
               "avg_pi": 85.5,
               "games": 11,
-              "ptelo": 1506,
+              "ptelo": 1507,
               "ppos": "MID",
               "player_rating": 67,
-              "player_rank": 292
+              "player_rank": 290
             },
             {
               "name": "Lachlan Cowan",
               "pos": "",
-              "avg_di": 15.3,
+              "avg_di": 15.5,
               "avg_gl": 0.0,
               "avg_tk": 1.9,
               "avg_cl": 0.6,
               "avg_pi": 82.2,
-              "games": 20,
+              "games": 21,
               "ptelo": 1493,
               "ppos": "DEF",
               "player_rating": 66,
-              "player_rank": 322
+              "player_rank": 327
             },
             {
               "name": "Patrick Cripps",
               "pos": "",
-              "avg_di": 26.5,
+              "avg_di": 26.6,
               "avg_gl": 0.6,
-              "avg_tk": 4.8,
-              "avg_cl": 7.6,
-              "avg_pi": 160.2,
-              "games": 21,
-              "ptelo": 1805,
+              "avg_tk": 5.0,
+              "avg_cl": 7.5,
+              "avg_pi": 160.3,
+              "games": 22,
+              "ptelo": 1806,
               "ppos": "MID",
               "player_rating": 93,
               "player_rank": 13
@@ -93578,54 +94970,54 @@
             {
               "name": "Wade Derksen",
               "pos": "",
-              "avg_di": 13.7,
+              "avg_di": 13.4,
               "avg_gl": 0.0,
               "avg_tk": 0.8,
               "avg_cl": 0.1,
-              "avg_pi": 68.1,
-              "games": 12,
-              "ptelo": 1437,
+              "avg_pi": 67.3,
+              "games": 13,
+              "ptelo": 1434,
               "ppos": "FWD",
               "player_rating": 61,
-              "player_rank": 442
+              "player_rank": 451
             },
             {
               "name": "Francis Evans",
               "pos": "",
               "avg_di": 13.9,
               "avg_gl": 0.8,
-              "avg_tk": 3.4,
-              "avg_cl": 0.5,
-              "avg_pi": 96.0,
-              "games": 19,
-              "ptelo": 1548,
+              "avg_tk": 3.5,
+              "avg_cl": 0.6,
+              "avg_pi": 96.1,
+              "games": 20,
+              "ptelo": 1549,
               "ppos": "FWD",
               "player_rating": 71,
-              "player_rank": 200
+              "player_rank": 197
             },
             {
               "name": "Oliver Florent",
               "pos": "",
-              "avg_di": 22.0,
-              "avg_gl": 0.0,
-              "avg_tk": 2.0,
-              "avg_cl": 1.1,
-              "avg_pi": 112.7,
-              "games": 21,
-              "ptelo": 1615,
+              "avg_di": 22.2,
+              "avg_gl": 0.1,
+              "avg_tk": 2.1,
+              "avg_cl": 1.2,
+              "avg_pi": 113.0,
+              "games": 22,
+              "ptelo": 1617,
               "ppos": "DEF",
               "player_rating": 77,
-              "player_rank": 100
+              "player_rank": 97
             },
             {
               "name": "Nick Haynes",
               "pos": "",
               "avg_di": 18.1,
               "avg_gl": 0.0,
-              "avg_tk": 1.1,
-              "avg_cl": 0.2,
+              "avg_tk": 1.3,
+              "avg_cl": 0.3,
               "avg_pi": 97.7,
-              "games": 17,
+              "games": 18,
               "ptelo": 1555,
               "ppos": "DEF",
               "player_rating": 72,
@@ -93642,7 +95034,7 @@
               "games": 21,
               "ptelo": 1565,
               "ppos": "FWD",
-              "player_rating": 73,
+              "player_rating": 72,
               "player_rank": 170
             },
             {
@@ -93662,16 +95054,16 @@
             {
               "name": "Brodie Kemp",
               "pos": "",
-              "avg_di": 11.2,
-              "avg_gl": 1.6,
-              "avg_tk": 2.0,
+              "avg_di": 11.1,
+              "avg_gl": 1.5,
+              "avg_tk": 2.1,
               "avg_cl": 0.0,
-              "avg_pi": 86.3,
-              "games": 21,
+              "avg_pi": 86.1,
+              "games": 22,
               "ptelo": 1509,
               "ppos": "DEF",
               "player_rating": 68,
-              "player_rank": 287
+              "player_rank": 286
             },
             {
               "name": "Cooper Lord",
@@ -93685,17 +95077,17 @@
               "ptelo": 1561,
               "ppos": "MID",
               "player_rating": 72,
-              "player_rank": 175
+              "player_rank": 176
             },
             {
               "name": "Mitch McGovern",
               "pos": "",
-              "avg_di": 10.7,
+              "avg_di": 10.6,
               "avg_gl": 1.5,
-              "avg_tk": 1.8,
+              "avg_tk": 1.9,
               "avg_cl": 0.1,
               "avg_pi": 84.4,
-              "games": 21,
+              "games": 22,
               "ptelo": 1502,
               "ppos": "DEF",
               "player_rating": 67,
@@ -93704,54 +95096,54 @@
             {
               "name": "Harry McKay",
               "pos": "",
-              "avg_di": 13.9,
+              "avg_di": 13.6,
               "avg_gl": 1.5,
-              "avg_tk": 1.3,
+              "avg_tk": 1.4,
               "avg_cl": 1.4,
-              "avg_pi": 102.2,
-              "games": 19,
-              "ptelo": 1573,
+              "avg_pi": 101.6,
+              "games": 20,
+              "ptelo": 1571,
               "ppos": "FWD",
               "player_rating": 73,
-              "player_rank": 156
+              "player_rank": 160
             },
             {
               "name": "Marc Pittonet",
               "pos": "",
-              "avg_di": 12.3,
-              "avg_gl": 0.6,
-              "avg_tk": 2.9,
-              "avg_cl": 4.5,
-              "avg_pi": 114.8,
-              "games": 18,
-              "ptelo": 1624,
+              "avg_di": 12.5,
+              "avg_gl": 0.5,
+              "avg_tk": 3.1,
+              "avg_cl": 4.8,
+              "avg_pi": 115.5,
+              "games": 19,
+              "ptelo": 1627,
               "ppos": "RUC",
               "player_rating": 78,
-              "player_rank": 89
+              "player_rank": 86
             },
             {
               "name": "Jagga Smith",
               "pos": "",
-              "avg_di": 24.9,
+              "avg_di": 24.6,
               "avg_gl": 0.3,
               "avg_tk": 2.8,
               "avg_cl": 4.2,
-              "avg_pi": 128.0,
-              "games": 21,
+              "avg_pi": 127.8,
+              "games": 22,
               "ptelo": 1676,
               "ppos": "MID",
               "player_rating": 82,
-              "player_rank": 57
+              "player_rank": 58
             },
             {
               "name": "Sam Walsh",
               "pos": "",
               "avg_di": 28.5,
               "avg_gl": 0.3,
-              "avg_tk": 4.0,
-              "avg_cl": 4.3,
-              "avg_pi": 142.5,
-              "games": 21,
+              "avg_tk": 4.2,
+              "avg_cl": 4.1,
+              "avg_pi": 142.4,
+              "games": 22,
               "ptelo": 1734,
               "ppos": "MID",
               "player_rating": 87,
@@ -93766,7 +95158,7 @@
               "avg_cl": 0.0,
               "avg_pi": 75.6,
               "games": 11,
-              "ptelo": 1466,
+              "ptelo": 1467,
               "ppos": "DEF",
               "player_rating": 64,
               "player_rank": 375
@@ -93790,12 +95182,12 @@
             {
               "name": "Jye Amiss",
               "pos": "",
-              "avg_di": 9.4,
-              "avg_gl": 2.8,
-              "avg_tk": 0.8,
-              "avg_cl": 0.1,
-              "avg_pi": 95.8,
-              "games": 20,
+              "avg_di": 9.6,
+              "avg_gl": 2.6,
+              "avg_tk": 0.9,
+              "avg_cl": 0.0,
+              "avg_pi": 95.5,
+              "games": 22,
               "ptelo": 1547,
               "ppos": "FWD",
               "player_rating": 71,
@@ -93804,44 +95196,44 @@
             {
               "name": "Shai Bolton",
               "pos": "",
-              "avg_di": 22.9,
-              "avg_gl": 0.9,
-              "avg_tk": 3.4,
-              "avg_cl": 4.0,
-              "avg_pi": 123.8,
-              "games": 19,
-              "ptelo": 1659,
+              "avg_di": 23.0,
+              "avg_gl": 1.0,
+              "avg_tk": 3.3,
+              "avg_cl": 4.2,
+              "avg_pi": 124.2,
+              "games": 21,
+              "ptelo": 1661,
               "ppos": "MID",
               "player_rating": 81,
-              "player_rank": 66
+              "player_rank": 65
             },
             {
               "name": "Andrew Brayshaw",
               "pos": "",
-              "avg_di": 25.2,
-              "avg_gl": 0.2,
-              "avg_tk": 5.8,
-              "avg_cl": 4.0,
-              "avg_pi": 132.7,
-              "games": 20,
-              "ptelo": 1695,
+              "avg_di": 24.8,
+              "avg_gl": 0.3,
+              "avg_tk": 6.0,
+              "avg_cl": 4.1,
+              "avg_pi": 132.9,
+              "games": 22,
+              "ptelo": 1696,
               "ppos": "MID",
               "player_rating": 84,
-              "player_rank": 51
+              "player_rank": 49
             },
             {
               "name": "Heath Chapman",
               "pos": "",
-              "avg_di": 14.9,
+              "avg_di": 15.0,
               "avg_gl": 0.0,
               "avg_tk": 2.0,
               "avg_cl": 0.2,
               "avg_pi": 69.6,
-              "games": 20,
+              "games": 22,
               "ptelo": 1443,
               "ppos": "DEF",
               "player_rating": 62,
-              "player_rank": 420
+              "player_rank": 424
             },
             {
               "name": "Jordan Clark",
@@ -93852,21 +95244,21 @@
               "avg_cl": 1.0,
               "avg_pi": 88.3,
               "games": 8,
-              "ptelo": 1568,
+              "ptelo": 1570,
               "ppos": "DEF",
               "player_rating": 73,
-              "player_rank": 163
+              "player_rank": 162
             },
             {
               "name": "Brennan Cox",
               "pos": "",
-              "avg_di": 12.1,
+              "avg_di": 12.2,
               "avg_gl": 0.0,
-              "avg_tk": 1.5,
-              "avg_cl": 0.1,
-              "avg_pi": 56.9,
-              "games": 15,
-              "ptelo": 1392,
+              "avg_tk": 1.6,
+              "avg_cl": 0.2,
+              "avg_pi": 57.0,
+              "games": 17,
+              "ptelo": 1393,
               "ppos": "DEF",
               "player_rating": 58,
               "player_rank": 545
@@ -93875,85 +95267,85 @@
               "name": "Mason Cox",
               "pos": "",
               "avg_di": 7.1,
-              "avg_gl": 0.4,
-              "avg_tk": 1.4,
-              "avg_cl": 1.4,
-              "avg_pi": 65.0,
-              "games": 14,
-              "ptelo": 1424,
+              "avg_gl": 0.3,
+              "avg_tk": 1.5,
+              "avg_cl": 1.5,
+              "avg_pi": 65.5,
+              "games": 15,
+              "ptelo": 1427,
               "ppos": "RUC",
-              "player_rating": 60,
-              "player_rank": 481
+              "player_rating": 61,
+              "player_rank": 469
             },
             {
               "name": "Isaiah Dudley",
               "pos": "",
-              "avg_di": 10.4,
+              "avg_di": 10.1,
               "avg_gl": 1.2,
-              "avg_tk": 2.6,
+              "avg_tk": 2.7,
               "avg_cl": 0.7,
-              "avg_pi": 68.3,
-              "games": 20,
-              "ptelo": 1438,
+              "avg_pi": 67.9,
+              "games": 22,
+              "ptelo": 1436,
               "ppos": "FWD",
-              "player_rating": 62,
-              "player_rank": 441
+              "player_rating": 61,
+              "player_rank": 449
             },
             {
               "name": "Neil Erasmus",
               "pos": "",
-              "avg_di": 17.6,
+              "avg_di": 17.5,
               "avg_gl": 0.3,
               "avg_tk": 2.7,
               "avg_cl": 1.7,
-              "avg_pi": 91.5,
-              "games": 20,
-              "ptelo": 1530,
+              "avg_pi": 91.6,
+              "games": 22,
+              "ptelo": 1531,
               "ppos": "MID",
               "player_rating": 70,
-              "player_rank": 233
+              "player_rank": 232
             },
             {
               "name": "Michael Frederick",
               "pos": "",
-              "avg_di": 12.4,
+              "avg_di": 12.2,
               "avg_gl": 1.3,
               "avg_tk": 2.1,
               "avg_cl": 0.5,
-              "avg_pi": 83.1,
-              "games": 16,
-              "ptelo": 1497,
+              "avg_pi": 82.8,
+              "games": 17,
+              "ptelo": 1496,
               "ppos": "FWD",
               "player_rating": 67,
-              "player_rank": 310
+              "player_rank": 314
             },
             {
               "name": "Luke Jackson",
               "pos": "",
-              "avg_di": 18.6,
-              "avg_gl": 1.1,
-              "avg_tk": 5.0,
-              "avg_cl": 5.0,
-              "avg_pi": 147.3,
-              "games": 20,
-              "ptelo": 1753,
+              "avg_di": 18.5,
+              "avg_gl": 1.0,
+              "avg_tk": 5.4,
+              "avg_cl": 4.9,
+              "avg_pi": 147.9,
+              "games": 22,
+              "ptelo": 1756,
               "ppos": "RUC",
               "player_rating": 89,
-              "player_rank": 29
+              "player_rank": 28
             },
             {
               "name": "Matthew Johnson",
               "pos": "",
-              "avg_di": 18.5,
+              "avg_di": 17.8,
               "avg_gl": 0.3,
-              "avg_tk": 3.2,
-              "avg_cl": 2.7,
-              "avg_pi": 108.4,
-              "games": 19,
-              "ptelo": 1598,
+              "avg_tk": 3.1,
+              "avg_cl": 2.6,
+              "avg_pi": 107.0,
+              "games": 21,
+              "ptelo": 1592,
               "ppos": "MID",
               "player_rating": 75,
-              "player_rank": 117
+              "player_rank": 122
             },
             {
               "name": "Oscar McDonald",
@@ -93967,7 +95359,7 @@
               "ptelo": 1440,
               "ppos": "DEF",
               "player_rating": 62,
-              "player_rank": 429
+              "player_rank": 431
             },
             {
               "name": "Nathan ODriscoll",
@@ -93982,13 +95374,13 @@
             {
               "name": "Alex Pearce",
               "pos": "",
-              "avg_di": 8.2,
+              "avg_di": 8.5,
               "avg_gl": 0.0,
-              "avg_tk": 0.8,
+              "avg_tk": 1.0,
               "avg_cl": 0.2,
-              "avg_pi": 39.9,
-              "games": 17,
-              "ptelo": 1324,
+              "avg_pi": 40.3,
+              "games": 19,
+              "ptelo": 1326,
               "ppos": "DEF",
               "player_rating": 52,
               "player_rank": 627
@@ -94002,111 +95394,111 @@
               "avg_cl": 0.2,
               "avg_pi": 62.1,
               "games": 16,
-              "ptelo": 1537,
+              "ptelo": 1541,
               "ppos": "DEF",
               "player_rating": 70,
-              "player_rank": 219
+              "player_rank": 213
             },
             {
               "name": "Chris Scerri",
               "pos": "",
-              "avg_di": 10.3,
+              "avg_di": 9.9,
               "avg_gl": 0.1,
-              "avg_tk": 2.3,
+              "avg_tk": 2.1,
               "avg_cl": 0.1,
-              "avg_pi": 48.1,
-              "games": 7
+              "avg_pi": 44.4,
+              "games": 8
             },
             {
               "name": "Caleb Serong",
               "pos": "",
-              "avg_di": 25.2,
-              "avg_gl": 0.6,
-              "avg_tk": 5.0,
-              "avg_cl": 6.6,
-              "avg_pi": 156.2,
-              "games": 17,
-              "ptelo": 1789,
+              "avg_di": 24.7,
+              "avg_gl": 0.5,
+              "avg_tk": 5.1,
+              "avg_cl": 6.5,
+              "avg_pi": 154.7,
+              "games": 19,
+              "ptelo": 1783,
               "ppos": "MID",
-              "player_rating": 92,
-              "player_rank": 18
+              "player_rating": 91,
+              "player_rank": 20
             },
             {
               "name": "Sam Switkowski",
               "pos": "",
-              "avg_di": 12.1,
-              "avg_gl": 0.4,
-              "avg_tk": 3.0,
+              "avg_di": 12.3,
+              "avg_gl": 0.5,
+              "avg_tk": 2.9,
               "avg_cl": 0.8,
-              "avg_pi": 73.1,
-              "games": 20,
-              "ptelo": 1456,
+              "avg_pi": 73.8,
+              "games": 22,
+              "ptelo": 1460,
               "ppos": "FWD",
               "player_rating": 63,
-              "player_rank": 391
+              "player_rank": 387
             },
             {
               "name": "Josh Treacy",
               "pos": "",
-              "avg_di": 12.9,
-              "avg_gl": 2.4,
-              "avg_tk": 2.3,
-              "avg_cl": 0.1,
-              "avg_pi": 116.2,
-              "games": 20,
+              "avg_di": 13.2,
+              "avg_gl": 2.3,
+              "avg_tk": 2.4,
+              "avg_cl": 0.0,
+              "avg_pi": 116.1,
+              "games": 22,
               "ptelo": 1629,
               "ppos": "FWD",
               "player_rating": 78,
-              "player_rank": 82
+              "player_rank": 83
             },
             {
               "name": "Patrick Voss",
               "pos": "",
-              "avg_di": 11.5,
-              "avg_gl": 2.1,
-              "avg_tk": 3.3,
+              "avg_di": 11.0,
+              "avg_gl": 1.9,
+              "avg_tk": 3.2,
               "avg_cl": 0.2,
-              "avg_pi": 87.7,
-              "games": 19,
-              "ptelo": 1515,
+              "avg_pi": 86.1,
+              "games": 21,
+              "ptelo": 1509,
               "ppos": "FWD",
               "player_rating": 68,
-              "player_rank": 268
+              "player_rank": 284
             },
             {
               "name": "Karl Worner",
               "pos": "",
-              "avg_di": 18.9,
+              "avg_di": 19.0,
               "avg_gl": 0.0,
-              "avg_tk": 2.3,
-              "avg_cl": 0.3,
-              "avg_pi": 93.6,
-              "games": 20,
-              "ptelo": 1539,
+              "avg_tk": 2.4,
+              "avg_cl": 0.4,
+              "avg_pi": 94.3,
+              "games": 22,
+              "ptelo": 1542,
               "ppos": "DEF",
               "player_rating": 70,
-              "player_rank": 215
+              "player_rank": 212
             },
             {
               "name": "Hayden Young",
               "pos": "",
-              "avg_di": 18.0,
-              "avg_gl": 0.4,
-              "avg_tk": 2.7,
-              "avg_cl": 3.6,
-              "avg_pi": 103.9,
-              "games": 12,
-              "ptelo": 1580,
+              "avg_di": 18.2,
+              "avg_gl": 0.6,
+              "avg_tk": 3.0,
+              "avg_cl": 3.5,
+              "avg_pi": 104.9,
+              "games": 13,
+              "ptelo": 1584,
               "ppos": "MID",
               "player_rating": 74,
-              "player_rank": 144
+              "player_rank": 138
             }
           ],
           "home_outs": [],
           "away_outs": [],
           "selections_announced": false,
-          "home_squad_impact": 4.3,
-          "away_squad_impact": 11.3
+          "home_squad_impact": 3.4,
+          "away_squad_impact": 11.2
         },
         {
           "home": "Melbourne",
@@ -94114,7 +95506,7 @@
           "venue": "M.C.G.",
           "datetime": "Sat 22 Aug \u00b7 4:15pm AEST",
           "home_fav": true,
-          "margin": 9.0,
+          "margin": 8.8,
           "home_prob": 55.1,
           "complete": false,
           "locked": false,
@@ -94128,10 +95520,10 @@
               "avg_cl": 1.3,
               "avg_pi": 120.0,
               "games": 14,
-              "ptelo": 1644,
+              "ptelo": 1645,
               "ppos": "DEF",
               "player_rating": 79,
-              "player_rank": 74
+              "player_rank": 73
             },
             {
               "name": "Kade Chandler",
@@ -94145,7 +95537,7 @@
               "ptelo": 1567,
               "ppos": "FWD",
               "player_rating": 73,
-              "player_rank": 165
+              "player_rank": 166
             },
             {
               "name": "Joel Fitzgerald",
@@ -94194,10 +95586,10 @@
               "avg_cl": 0.0,
               "avg_pi": 55.5,
               "games": 15,
-              "ptelo": 1386,
+              "ptelo": 1387,
               "ppos": "FWD",
               "player_rating": 57,
-              "player_rank": 563
+              "player_rank": 560
             },
             {
               "name": "Changkuoth Jiath",
@@ -94211,7 +95603,7 @@
               "ptelo": 1460,
               "ppos": "MID",
               "player_rating": 63,
-              "player_rank": 386
+              "player_rank": 388
             },
             {
               "name": "Ed Langdon",
@@ -94222,7 +95614,7 @@
               "avg_cl": 0.9,
               "avg_pi": 92.5,
               "games": 22,
-              "ptelo": 1534,
+              "ptelo": 1535,
               "ppos": "MID",
               "player_rating": 70,
               "player_rank": 223
@@ -94239,7 +95631,7 @@
               "ptelo": 1538,
               "ppos": "MID",
               "player_rating": 70,
-              "player_rank": 218
+              "player_rank": 219
             },
             {
               "name": "Bailey Laurie",
@@ -94267,7 +95659,7 @@
               "ptelo": 1450,
               "ppos": "DEF",
               "player_rating": 63,
-              "player_rank": 407
+              "player_rank": 409
             },
             {
               "name": "Tom McDonald",
@@ -94337,7 +95729,7 @@
               "ptelo": 1448,
               "ppos": "DEF",
               "player_rating": 62,
-              "player_rank": 412
+              "player_rank": 415
             },
             {
               "name": "Harry Sharp",
@@ -94351,7 +95743,7 @@
               "ptelo": 1479,
               "ppos": "MID",
               "player_rating": 65,
-              "player_rank": 348
+              "player_rank": 350
             },
             {
               "name": "Tom Sparrow",
@@ -94432,7 +95824,7 @@
               "avg_cl": 1.6,
               "avg_pi": 79.0,
               "games": 19,
-              "ptelo": 1480,
+              "ptelo": 1481,
               "ppos": "MID",
               "player_rating": 65,
               "player_rank": 346
@@ -94442,16 +95834,16 @@
             {
               "name": "Lachlan Bramble",
               "pos": "",
-              "avg_di": 16.5,
-              "avg_gl": 0.1,
-              "avg_tk": 1.7,
-              "avg_cl": 0.8,
-              "avg_pi": 87.3,
-              "games": 21,
+              "avg_di": 16.4,
+              "avg_gl": 0.2,
+              "avg_tk": 1.6,
+              "avg_cl": 0.7,
+              "avg_pi": 87.4,
+              "games": 22,
               "ptelo": 1514,
               "ppos": "DEF",
               "player_rating": 68,
-              "player_rank": 270
+              "player_rank": 272
             },
             {
               "name": "Lachlan Carmichael",
@@ -94475,59 +95867,59 @@
               "ptelo": 1356,
               "ppos": "FWD",
               "player_rating": 54,
-              "player_rank": 602
+              "player_rank": 603
             },
             {
               "name": "Sam Davidson",
               "pos": "",
-              "avg_di": 12.4,
+              "avg_di": 11.9,
               "avg_gl": 0.5,
-              "avg_tk": 2.4,
+              "avg_tk": 2.5,
               "avg_cl": 0.7,
-              "avg_pi": 77.5,
-              "games": 14,
-              "ptelo": 1474,
+              "avg_pi": 76.3,
+              "games": 15,
+              "ptelo": 1470,
               "ppos": "FWD",
-              "player_rating": 65,
-              "player_rank": 360
+              "player_rating": 64,
+              "player_rank": 368
             },
             {
               "name": "Josh Dolan",
               "pos": "",
-              "avg_di": 12.2,
-              "avg_gl": 0.6,
-              "avg_tk": 1.9,
+              "avg_di": 11.7,
+              "avg_gl": 0.5,
+              "avg_tk": 2.0,
               "avg_cl": 0.3,
-              "avg_pi": 67.4,
-              "games": 9,
-              "ptelo": 1434,
+              "avg_pi": 65.0,
+              "games": 10,
+              "ptelo": 1424,
               "ppos": "FWD",
-              "player_rating": 61,
-              "player_rank": 452
+              "player_rating": 60,
+              "player_rank": 482
             },
             {
               "name": "Louis Emmett",
               "pos": "",
-              "avg_di": 6.0,
+              "avg_di": 5.4,
               "avg_gl": 0.0,
-              "avg_tk": 2.5,
-              "avg_cl": 1.5,
-              "avg_pi": 40.4,
-              "games": 6
+              "avg_tk": 2.1,
+              "avg_cl": 1.3,
+              "avg_pi": 33.8,
+              "games": 7
             },
             {
               "name": "Joel Freijah",
               "pos": "",
               "avg_di": 18.6,
               "avg_gl": 0.5,
-              "avg_tk": 3.5,
-              "avg_cl": 3.5,
-              "avg_pi": 106.3,
-              "games": 21,
-              "ptelo": 1589,
+              "avg_tk": 3.6,
+              "avg_cl": 3.6,
+              "avg_pi": 106.8,
+              "games": 22,
+              "ptelo": 1592,
               "ppos": "DEF",
               "player_rating": 75,
-              "player_rank": 126
+              "player_rank": 121
             },
             {
               "name": "Cooper Hynes",
@@ -94538,7 +95930,7 @@
               "avg_cl": 0.9,
               "avg_pi": 80.3,
               "games": 20,
-              "ptelo": 1485,
+              "ptelo": 1486,
               "ppos": "MID",
               "player_rating": 66,
               "player_rank": 339
@@ -94555,21 +95947,21 @@
               "ptelo": 1427,
               "ppos": "DEF",
               "player_rating": 61,
-              "player_rank": 470
+              "player_rank": 469
             },
             {
               "name": "Arthur Jones",
               "pos": "",
-              "avg_di": 11.1,
+              "avg_di": 11.4,
               "avg_gl": 1.1,
-              "avg_tk": 2.3,
+              "avg_tk": 2.2,
               "avg_cl": 0.4,
-              "avg_pi": 70.2,
-              "games": 16,
-              "ptelo": 1445,
+              "avg_pi": 70.4,
+              "games": 17,
+              "ptelo": 1446,
               "ppos": "FWD",
               "player_rating": 62,
-              "player_rank": 418
+              "player_rank": 419
             },
             {
               "name": "Luke Kennedy",
@@ -94588,30 +95980,30 @@
             {
               "name": "Matthew Kennedy",
               "pos": "",
-              "avg_di": 22.4,
+              "avg_di": 22.8,
               "avg_gl": 0.4,
               "avg_tk": 4.5,
-              "avg_cl": 4.7,
-              "avg_pi": 116.0,
-              "games": 21,
-              "ptelo": 1628,
+              "avg_cl": 4.9,
+              "avg_pi": 116.5,
+              "games": 22,
+              "ptelo": 1631,
               "ppos": "MID",
               "player_rating": 78,
-              "player_rank": 84
+              "player_rank": 81
             },
             {
               "name": "Buku Khamis",
               "pos": "",
-              "avg_di": 11.6,
+              "avg_di": 11.9,
               "avg_gl": 0.0,
               "avg_tk": 1.2,
               "avg_cl": 0.2,
-              "avg_pi": 66.2,
-              "games": 21,
-              "ptelo": 1429,
+              "avg_pi": 66.8,
+              "games": 22,
+              "ptelo": 1432,
               "ppos": "DEF",
               "player_rating": 61,
-              "player_rank": 467
+              "player_rank": 455
             },
             {
               "name": "Tom Liberatore",
@@ -94636,24 +96028,24 @@
               "avg_cl": 1.1,
               "avg_pi": 86.3,
               "games": 19,
-              "ptelo": 1509,
+              "ptelo": 1510,
               "ppos": "DEF",
               "player_rating": 68,
-              "player_rank": 285
+              "player_rank": 279
             },
             {
               "name": "Aaron Naughton",
               "pos": "",
-              "avg_di": 11.0,
+              "avg_di": 10.9,
               "avg_gl": 2.1,
               "avg_tk": 1.4,
               "avg_cl": 0.1,
               "avg_pi": 87.3,
-              "games": 20,
-              "ptelo": 1513,
+              "games": 21,
+              "ptelo": 1514,
               "ppos": "FWD",
               "player_rating": 68,
-              "player_rank": 274
+              "player_rank": 270
             },
             {
               "name": "James ODonnell",
@@ -94668,13 +96060,13 @@
             {
               "name": "Ed Richards",
               "pos": "",
-              "avg_di": 25.9,
-              "avg_gl": 0.8,
-              "avg_tk": 4.3,
-              "avg_cl": 5.8,
-              "avg_pi": 164.4,
-              "games": 20,
-              "ptelo": 1822,
+              "avg_di": 25.8,
+              "avg_gl": 0.9,
+              "avg_tk": 4.4,
+              "avg_cl": 5.9,
+              "avg_pi": 164.7,
+              "games": 21,
+              "ptelo": 1823,
               "ppos": "MID",
               "player_rating": 95,
               "player_rank": 10
@@ -94684,14 +96076,14 @@
               "pos": "",
               "avg_di": 23.4,
               "avg_gl": 0.2,
-              "avg_tk": 3.9,
-              "avg_cl": 3.8,
-              "avg_pi": 106.3,
-              "games": 19,
-              "ptelo": 1590,
+              "avg_tk": 4.0,
+              "avg_cl": 3.7,
+              "avg_pi": 106.2,
+              "games": 20,
+              "ptelo": 1589,
               "ppos": "MID",
               "player_rating": 75,
-              "player_rank": 123
+              "player_rank": 127
             },
             {
               "name": "Michael Sellwood",
@@ -94700,12 +96092,12 @@
               "avg_gl": 0.0,
               "avg_tk": 2.6,
               "avg_cl": 0.1,
-              "avg_pi": 73.6,
-              "games": 21,
-              "ptelo": 1459,
+              "avg_pi": 73.5,
+              "games": 22,
+              "ptelo": 1458,
               "ppos": "DEF",
               "player_rating": 63,
-              "player_rank": 387
+              "player_rank": 391
             },
             {
               "name": "Cody Weightman",
@@ -94724,26 +96116,26 @@
             {
               "name": "Rhylee West",
               "pos": "",
-              "avg_di": 13.1,
+              "avg_di": 13.2,
               "avg_gl": 0.8,
-              "avg_tk": 2.8,
+              "avg_tk": 2.9,
               "avg_cl": 1.1,
-              "avg_pi": 81.3,
-              "games": 20,
-              "ptelo": 1489,
+              "avg_pi": 82.3,
+              "games": 21,
+              "ptelo": 1494,
               "ppos": "FWD",
               "player_rating": 66,
-              "player_rank": 333
+              "player_rank": 320
             },
             {
               "name": "Bailey Williams",
               "pos": "",
               "avg_di": 16.6,
-              "avg_gl": 0.5,
+              "avg_gl": 0.4,
               "avg_tk": 2.5,
-              "avg_cl": 3.3,
-              "avg_pi": 110.5,
-              "games": 33,
+              "avg_cl": 3.2,
+              "avg_pi": 110.3,
+              "games": 34,
               "ptelo": 1606,
               "ppos": "MID",
               "player_rating": 76,
@@ -94754,7 +96146,7 @@
           "away_outs": [],
           "selections_announced": false,
           "home_squad_impact": 11.0,
-          "away_squad_impact": 8.7
+          "away_squad_impact": 9.2
         },
         {
           "home": "Geelong",
@@ -94776,10 +96168,10 @@
               "avg_cl": 3.9,
               "avg_pi": 107.0,
               "games": 22,
-              "ptelo": 1592,
+              "ptelo": 1593,
               "ppos": "MID",
               "player_rating": 75,
-              "player_rank": 121
+              "player_rank": 120
             },
             {
               "name": "Mark Blicavs",
@@ -94807,7 +96199,7 @@
               "ptelo": 1601,
               "ppos": "MID",
               "player_rating": 76,
-              "player_rank": 112
+              "player_rank": 113
             },
             {
               "name": "Jhye Clark",
@@ -94818,10 +96210,10 @@
               "avg_cl": 1.0,
               "avg_pi": 88.3,
               "games": 8,
-              "ptelo": 1517,
+              "ptelo": 1518,
               "ppos": "MID",
               "player_rating": 68,
-              "player_rank": 264
+              "player_rank": 262
             },
             {
               "name": "Brad Close",
@@ -94835,7 +96227,7 @@
               "ptelo": 1424,
               "ppos": "FWD",
               "player_rating": 60,
-              "player_rank": 478
+              "player_rank": 480
             },
             {
               "name": "Patrick Dangerfield",
@@ -94849,7 +96241,7 @@
               "ptelo": 1539,
               "ppos": "MID",
               "player_rating": 70,
-              "player_rank": 214
+              "player_rank": 217
             },
             {
               "name": "Oliver Dempsey",
@@ -94863,7 +96255,7 @@
               "ptelo": 1677,
               "ppos": "MID",
               "player_rating": 82,
-              "player_rank": 56
+              "player_rank": 57
             },
             {
               "name": "Mitchell Edwards",
@@ -94877,7 +96269,7 @@
               "ptelo": 1505,
               "ppos": "RUC",
               "player_rating": 67,
-              "player_rank": 293
+              "player_rank": 292
             },
             {
               "name": "Zach Guthrie",
@@ -94888,10 +96280,10 @@
               "avg_cl": 0.7,
               "avg_pi": 74.8,
               "games": 22,
-              "ptelo": 1463,
+              "ptelo": 1464,
               "ppos": "DEF",
               "player_rating": 64,
-              "player_rank": 382
+              "player_rank": 381
             },
             {
               "name": "Jack Henry",
@@ -94916,7 +96308,7 @@
               "avg_cl": 0.4,
               "avg_pi": 88.0,
               "games": 21,
-              "ptelo": 1516,
+              "ptelo": 1517,
               "ppos": "FWD",
               "player_rating": 68,
               "player_rank": 265
@@ -94933,7 +96325,7 @@
               "ptelo": 1586,
               "ppos": "DEF",
               "player_rating": 74,
-              "player_rank": 134
+              "player_rank": 135
             },
             {
               "name": "Shaun Mannagh",
@@ -94944,7 +96336,7 @@
               "avg_cl": 2.4,
               "avg_pi": 114.7,
               "games": 22,
-              "ptelo": 1623,
+              "ptelo": 1624,
               "ppos": "FWD",
               "player_rating": 78,
               "player_rank": 90
@@ -94958,10 +96350,10 @@
               "avg_cl": 1.0,
               "avg_pi": 91.2,
               "games": 14,
-              "ptelo": 1529,
+              "ptelo": 1530,
               "ppos": "FWD",
               "player_rating": 69,
-              "player_rank": 234
+              "player_rank": 233
             },
             {
               "name": "Oisin Mullin",
@@ -94989,7 +96381,7 @@
               "ptelo": 1572,
               "ppos": "FWD",
               "player_rating": 73,
-              "player_rank": 158
+              "player_rank": 157
             },
             {
               "name": "Mark OConnor",
@@ -95020,7 +96412,7 @@
               "avg_cl": 0.0,
               "avg_pi": 76.0,
               "games": 5,
-              "ptelo": 1468,
+              "ptelo": 1469,
               "ppos": "FWD",
               "player_rating": 64,
               "player_rank": 370
@@ -95037,7 +96429,7 @@
               "ptelo": 1846,
               "ppos": "MID",
               "player_rating": 97,
-              "player_rank": 5
+              "player_rank": 6
             },
             {
               "name": "Tom Stewart",
@@ -95065,7 +96457,7 @@
               "ptelo": 1388,
               "ppos": "MID",
               "player_rating": 57,
-              "player_rank": 558
+              "player_rank": 557
             },
             {
               "name": "James Worpel",
@@ -95119,7 +96511,7 @@
               "ptelo": 1453,
               "ppos": "MID",
               "player_rating": 63,
-              "player_rank": 401
+              "player_rank": 402
             },
             {
               "name": "Nathan Broad",
@@ -95133,7 +96525,7 @@
               "ptelo": 1454,
               "ppos": "DEF",
               "player_rating": 63,
-              "player_rank": 396
+              "player_rank": 399
             },
             {
               "name": "Tom Brown",
@@ -95147,7 +96539,7 @@
               "ptelo": 1500,
               "ppos": "DEF",
               "player_rating": 67,
-              "player_rank": 301
+              "player_rank": 302
             },
             {
               "name": "Seth Campbell",
@@ -95161,7 +96553,7 @@
               "ptelo": 1493,
               "ppos": "FWD",
               "player_rating": 66,
-              "player_rank": 324
+              "player_rank": 329
             },
             {
               "name": "Judson Clarke",
@@ -95175,7 +96567,7 @@
               "ptelo": 1451,
               "ppos": "FWD",
               "player_rating": 63,
-              "player_rank": 404
+              "player_rank": 405
             },
             {
               "name": "Steely Green",
@@ -95210,7 +96602,7 @@
               "avg_cl": 2.3,
               "avg_pi": 69.8,
               "games": 9,
-              "ptelo": 1443,
+              "ptelo": 1444,
               "ppos": "MID",
               "player_rating": 62,
               "player_rank": 421
@@ -95227,7 +96619,7 @@
               "ptelo": 1510,
               "ppos": "MID",
               "player_rating": 68,
-              "player_rank": 281
+              "player_rank": 280
             },
             {
               "name": "Mykelti Lefau",
@@ -95238,7 +96630,7 @@
               "avg_cl": 0.5,
               "avg_pi": 70.8,
               "games": 20,
-              "ptelo": 1447,
+              "ptelo": 1448,
               "ppos": "FWD",
               "player_rating": null,
               "player_rank": null
@@ -95255,7 +96647,7 @@
               "ptelo": 1448,
               "ppos": "FWD",
               "player_rating": 62,
-              "player_rank": 415
+              "player_rank": 417
             },
             {
               "name": "Ben Miller",
@@ -95268,8 +96660,8 @@
               "games": 20,
               "ptelo": 1461,
               "ppos": "DEF",
-              "player_rating": 64,
-              "player_rank": 384
+              "player_rating": 63,
+              "player_rank": 386
             },
             {
               "name": "Toby Nankervis",
@@ -95283,7 +96675,7 @@
               "ptelo": 1660,
               "ppos": "RUC",
               "player_rating": 81,
-              "player_rank": 65
+              "player_rank": 66
             },
             {
               "name": "Dion Prestia",
@@ -95297,7 +96689,7 @@
               "ptelo": 1571,
               "ppos": "MID",
               "player_rating": 73,
-              "player_rank": 160
+              "player_rank": 159
             },
             {
               "name": "Hugo Ralphsmith",
@@ -95325,7 +96717,7 @@
               "ptelo": 1561,
               "ppos": "MID",
               "player_rating": 72,
-              "player_rank": 174
+              "player_rank": 175
             },
             {
               "name": "Jack Ross",
@@ -95364,7 +96756,7 @@
               "avg_cl": 6.2,
               "avg_pi": 157.3,
               "games": 20,
-              "ptelo": 1793,
+              "ptelo": 1794,
               "ppos": "MID",
               "player_rating": 92,
               "player_rank": 17
@@ -95395,7 +96787,7 @@
               "ptelo": 1505,
               "ppos": "DEF",
               "player_rating": 67,
-              "player_rank": 293
+              "player_rank": 292
             }
           ],
           "home_outs": [],
@@ -95410,7 +96802,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 22 Aug \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 52.0,
+          "margin": 51.9,
           "home_prob": 76.8,
           "complete": false,
           "locked": false,
@@ -95432,13 +96824,13 @@
             {
               "name": "Sam Berry",
               "pos": "",
-              "avg_di": 22.1,
+              "avg_di": 22.4,
               "avg_gl": 0.1,
               "avg_tk": 7.3,
-              "avg_cl": 5.7,
-              "avg_pi": 136.7,
-              "games": 20,
-              "ptelo": 1711,
+              "avg_cl": 5.6,
+              "avg_pi": 136.8,
+              "games": 21,
+              "ptelo": 1712,
               "ppos": "MID",
               "player_rating": 85,
               "player_rank": 42
@@ -95446,44 +96838,44 @@
             {
               "name": "James Borlase",
               "pos": "",
-              "avg_di": 11.1,
+              "avg_di": 10.9,
               "avg_gl": 0.0,
-              "avg_tk": 1.4,
+              "avg_tk": 1.5,
               "avg_cl": 0.1,
-              "avg_pi": 52.9,
-              "games": 15,
+              "avg_pi": 52.8,
+              "games": 16,
               "ptelo": 1376,
               "ppos": "DEF",
               "player_rating": 56,
-              "player_rank": 582
+              "player_rank": 581
             },
             {
               "name": "Brayden Cook",
               "pos": "",
               "avg_di": 16.8,
               "avg_gl": 0.5,
-              "avg_tk": 1.8,
+              "avg_tk": 1.7,
               "avg_cl": 1.3,
-              "avg_pi": 89.0,
-              "games": 20,
+              "avg_pi": 88.9,
+              "games": 21,
               "ptelo": 1520,
               "ppos": "FWD",
               "player_rating": 69,
-              "player_rank": 255
+              "player_rank": 256
             },
             {
               "name": "Isaac Cumming",
               "pos": "",
-              "avg_di": 13.9,
-              "avg_gl": 0.4,
-              "avg_tk": 2.8,
+              "avg_di": 14.4,
+              "avg_gl": 0.5,
+              "avg_tk": 2.9,
               "avg_cl": 0.9,
-              "avg_pi": 77.9,
-              "games": 14,
-              "ptelo": 1476,
+              "avg_pi": 78.3,
+              "games": 15,
+              "ptelo": 1478,
               "ppos": "MID",
               "player_rating": 65,
-              "player_rank": 356
+              "player_rank": 354
             },
             {
               "name": "Daniel Curtin",
@@ -95504,11 +96896,11 @@
               "pos": "",
               "avg_di": 26.0,
               "avg_gl": 1.2,
-              "avg_tk": 5.9,
-              "avg_cl": 4.2,
-              "avg_pi": 165.5,
-              "games": 18,
-              "ptelo": 1826,
+              "avg_tk": 5.7,
+              "avg_cl": 4.3,
+              "avg_pi": 165.2,
+              "games": 19,
+              "ptelo": 1825,
               "ppos": "MID",
               "player_rating": 95,
               "player_rank": 9
@@ -95549,18 +96941,18 @@
               "ptelo": 1424,
               "ppos": "DEF",
               "player_rating": 60,
-              "player_rank": 477
+              "player_rank": 479
             },
             {
               "name": "Ben Keays",
               "pos": "",
-              "avg_di": 14.2,
-              "avg_gl": 1.1,
-              "avg_tk": 2.9,
+              "avg_di": 14.3,
+              "avg_gl": 1.2,
+              "avg_tk": 3.0,
               "avg_cl": 0.8,
-              "avg_pi": 79.9,
-              "games": 21,
-              "ptelo": 1484,
+              "avg_pi": 80.2,
+              "games": 22,
+              "ptelo": 1485,
               "ppos": "FWD",
               "player_rating": 66,
               "player_rank": 340
@@ -95570,39 +96962,39 @@
               "pos": "",
               "avg_di": 23.5,
               "avg_gl": 0.1,
-              "avg_tk": 2.6,
-              "avg_cl": 1.1,
-              "avg_pi": 107.8,
-              "games": 16,
-              "ptelo": 1595,
+              "avg_tk": 2.4,
+              "avg_cl": 1.0,
+              "avg_pi": 107.4,
+              "games": 17,
+              "ptelo": 1594,
               "ppos": "MID",
               "player_rating": 75,
-              "player_rank": 119
+              "player_rank": 118
             },
             {
               "name": "Lachlan McAndrew",
               "pos": "",
-              "avg_di": 11.8,
+              "avg_di": 11.7,
               "avg_gl": 0.3,
               "avg_tk": 4.8,
               "avg_cl": 4.5,
-              "avg_pi": 120.6,
-              "games": 20,
+              "avg_pi": 120.5,
+              "games": 21,
               "ptelo": 1647,
               "ppos": "RUC",
               "player_rating": 80,
-              "player_rank": 74
+              "player_rank": 73
             },
             {
               "name": "Max Michalanney",
               "pos": "",
-              "avg_di": 13.9,
+              "avg_di": 14.0,
               "avg_gl": 0.0,
               "avg_tk": 2.6,
-              "avg_cl": 0.4,
+              "avg_cl": 0.5,
               "avg_pi": 68.6,
-              "games": 21,
-              "ptelo": 1438,
+              "games": 22,
+              "ptelo": 1439,
               "ppos": "DEF",
               "player_rating": 62,
               "player_rank": 436
@@ -95616,24 +97008,24 @@
               "avg_cl": 0.9,
               "avg_pi": 54.0,
               "games": 13,
-              "ptelo": 1380,
+              "ptelo": 1381,
               "ppos": "FWD",
               "player_rating": 57,
-              "player_rank": 574
+              "player_rank": 573
             },
             {
               "name": "Luke Nankervis",
               "pos": "",
-              "avg_di": 14.6,
+              "avg_di": 14.9,
               "avg_gl": 0.3,
               "avg_tk": 2.9,
-              "avg_cl": 0.5,
-              "avg_pi": 78.5,
-              "games": 14,
-              "ptelo": 1478,
+              "avg_cl": 0.6,
+              "avg_pi": 78.7,
+              "games": 15,
+              "ptelo": 1479,
               "ppos": "DEF",
               "player_rating": 65,
-              "player_rank": 354
+              "player_rank": 349
             },
             {
               "name": "James Peatling",
@@ -95641,79 +97033,79 @@
               "avg_di": 19.6,
               "avg_gl": 0.2,
               "avg_tk": 4.5,
-              "avg_cl": 4.0,
+              "avg_cl": 4.1,
               "avg_pi": 104.1,
-              "games": 20,
+              "games": 21,
               "ptelo": 1581,
               "ppos": "MID",
               "player_rating": 74,
-              "player_rank": 140
+              "player_rank": 142
             },
             {
               "name": "Josh Rachele",
               "pos": "",
-              "avg_di": 15.8,
-              "avg_gl": 1.5,
-              "avg_tk": 2.4,
-              "avg_cl": 1.4,
-              "avg_pi": 82.0,
-              "games": 21,
-              "ptelo": 1492,
+              "avg_di": 16.2,
+              "avg_gl": 1.6,
+              "avg_tk": 2.5,
+              "avg_cl": 1.6,
+              "avg_pi": 82.7,
+              "games": 22,
+              "ptelo": 1495,
               "ppos": "FWD",
               "player_rating": 66,
-              "player_rank": 327
+              "player_rank": 317
             },
             {
               "name": "Izak Rankine",
               "pos": "",
               "avg_di": 23.4,
-              "avg_gl": 0.9,
-              "avg_tk": 4.1,
-              "avg_cl": 4.9,
-              "avg_pi": 176.3,
-              "games": 18,
-              "ptelo": 1869,
+              "avg_gl": 1.0,
+              "avg_tk": 4.3,
+              "avg_cl": 4.7,
+              "avg_pi": 176.5,
+              "games": 19,
+              "ptelo": 1871,
               "ppos": "FWD",
               "player_rating": 99,
-              "player_rank": 2
+              "player_rank": 1
             },
             {
               "name": "Jake Soligo",
               "pos": "",
-              "avg_di": 17.0,
-              "avg_gl": 0.4,
-              "avg_tk": 4.3,
-              "avg_cl": 2.2,
-              "avg_pi": 99.9,
-              "games": 18,
-              "ptelo": 1564,
+              "avg_di": 16.7,
+              "avg_gl": 0.5,
+              "avg_tk": 4.2,
+              "avg_cl": 2.1,
+              "avg_pi": 99.4,
+              "games": 19,
+              "ptelo": 1562,
               "ppos": "MID",
               "player_rating": 72,
-              "player_rank": 171
+              "player_rank": 173
             },
             {
               "name": "Zac Taylor",
               "pos": "",
-              "avg_di": 12.4,
+              "avg_di": 12.3,
               "avg_gl": 0.7,
-              "avg_tk": 2.7,
-              "avg_cl": 0.6,
+              "avg_tk": 2.8,
+              "avg_cl": 0.7,
               "avg_pi": 69.9,
-              "games": 19,
+              "games": 20,
               "ptelo": 1444,
               "ppos": "MID",
               "player_rating": 62,
-              "player_rank": 419
+              "player_rank": 422
             },
             {
               "name": "Riley Thilthorpe",
               "pos": "",
-              "avg_di": 12.5,
-              "avg_gl": 1.7,
-              "avg_tk": 1.7,
-              "avg_cl": 1.1,
-              "avg_pi": 100.8,
-              "games": 18,
+              "avg_di": 12.6,
+              "avg_gl": 1.6,
+              "avg_tk": 1.6,
+              "avg_cl": 1.0,
+              "avg_pi": 100.7,
+              "games": 19,
               "ptelo": 1567,
               "ppos": "FWD",
               "player_rating": 73,
@@ -95724,10 +97116,10 @@
               "pos": "",
               "avg_di": 21.5,
               "avg_gl": 0.0,
-              "avg_tk": 1.6,
+              "avg_tk": 1.7,
               "avg_cl": 0.5,
-              "avg_pi": 87.8,
-              "games": 20,
+              "avg_pi": 87.5,
+              "games": 21,
               "ptelo": 1515,
               "ppos": "DEF",
               "player_rating": 68,
@@ -95774,7 +97166,7 @@
               "games": 22,
               "ptelo": 1668,
               "ppos": "DEF",
-              "player_rating": 82,
+              "player_rating": 81,
               "player_rank": 60
             },
             {
@@ -95789,7 +97181,7 @@
               "ptelo": 1598,
               "ppos": "RUC",
               "player_rating": 75,
-              "player_rank": 118
+              "player_rank": 117
             },
             {
               "name": "Callum Brown",
@@ -95800,10 +97192,10 @@
               "avg_cl": 0.4,
               "avg_pi": 83.0,
               "games": 17,
-              "ptelo": 1496,
+              "ptelo": 1497,
               "ppos": "FWD",
               "player_rating": 67,
-              "player_rank": 315
+              "player_rank": 310
             },
             {
               "name": "Aaron Cadman",
@@ -95844,7 +97236,7 @@
               "games": 8,
               "ptelo": 1426,
               "ppos": "MID",
-              "player_rating": 61,
+              "player_rating": 60,
               "player_rank": 474
             },
             {
@@ -95870,9 +97262,9 @@
               "avg_cl": 3.5,
               "avg_pi": 137.5,
               "games": 20,
-              "ptelo": 1714,
+              "ptelo": 1715,
               "ppos": "FWD",
-              "player_rating": 86,
+              "player_rating": 85,
               "player_rank": 41
             },
             {
@@ -95884,10 +97276,10 @@
               "avg_cl": 0.0,
               "avg_pi": 73.3,
               "games": 14,
-              "ptelo": 1457,
+              "ptelo": 1458,
               "ppos": "FWD",
               "player_rating": 63,
-              "player_rank": 390
+              "player_rank": 391
             },
             {
               "name": "Riley Hamilton",
@@ -95925,7 +97317,7 @@
               "ptelo": 1566,
               "ppos": "DEF",
               "player_rating": 73,
-              "player_rank": 167
+              "player_rank": 168
             },
             {
               "name": "Nick Madden",
@@ -95936,7 +97328,7 @@
               "avg_cl": 2.9,
               "avg_pi": 92.5,
               "games": 8,
-              "ptelo": 1534,
+              "ptelo": 1535,
               "ppos": "RUC",
               "player_rating": 70,
               "player_rank": 224
@@ -95978,10 +97370,10 @@
               "avg_cl": 1.7,
               "avg_pi": 85.7,
               "games": 11,
-              "ptelo": 1507,
+              "ptelo": 1508,
               "ppos": "MID",
               "player_rating": 68,
-              "player_rank": 290
+              "player_rank": 289
             },
             {
               "name": "Conor Stone",
@@ -95995,7 +97387,7 @@
               "ptelo": 1430,
               "ppos": "FWD",
               "player_rating": 61,
-              "player_rank": 462
+              "player_rank": 463
             },
             {
               "name": "Jake Stringer",
@@ -96009,7 +97401,7 @@
               "ptelo": 1524,
               "ppos": "FWD",
               "player_rating": 69,
-              "player_rank": 248
+              "player_rank": 249
             },
             {
               "name": "Sam Taylor",
@@ -96020,10 +97412,10 @@
               "avg_cl": 0.2,
               "avg_pi": 64.8,
               "games": 11,
-              "ptelo": 1423,
+              "ptelo": 1424,
               "ppos": "DEF",
               "player_rating": 60,
-              "player_rank": 482
+              "player_rank": 478
             },
             {
               "name": "Harvey Thomas",
@@ -96037,7 +97429,7 @@
               "ptelo": 1570,
               "ppos": "FWD",
               "player_rating": 73,
-              "player_rank": 162
+              "player_rank": 163
             },
             {
               "name": "Lachie Whitfield",
@@ -96051,13 +97443,13 @@
               "ptelo": 1672,
               "ppos": "DEF",
               "player_rating": 82,
-              "player_rank": 57
+              "player_rank": 58
             }
           ],
           "home_outs": [],
           "away_outs": [],
           "selections_announced": false,
-          "home_squad_impact": 4.4,
+          "home_squad_impact": 4.3,
           "away_squad_impact": 9.5
         },
         {
@@ -96118,7 +97510,7 @@
               "avg_cl": 3.5,
               "avg_pi": 104.1,
               "games": 16,
-              "ptelo": 1580,
+              "ptelo": 1581,
               "ppos": "MID",
               "player_rating": 74,
               "player_rank": 141
@@ -96135,7 +97527,7 @@
               "ptelo": 1390,
               "ppos": "DEF",
               "player_rating": 57,
-              "player_rank": 549
+              "player_rank": 548
             },
             {
               "name": "Archer Day-Wicks",
@@ -96146,10 +97538,10 @@
               "avg_cl": 0.5,
               "avg_pi": 58.2,
               "games": 20,
-              "ptelo": 1397,
+              "ptelo": 1398,
               "ppos": "MID",
               "player_rating": 58,
-              "player_rank": 538
+              "player_rank": 534
             },
             {
               "name": "Jacob Farrow",
@@ -96173,7 +97565,7 @@
               "ptelo": 1354,
               "ppos": "FWD",
               "player_rating": 54,
-              "player_rank": 606
+              "player_rank": 608
             },
             {
               "name": "Isaac Kako",
@@ -96184,10 +97576,10 @@
               "avg_cl": 0.8,
               "avg_pi": 56.3,
               "games": 14,
-              "ptelo": 1389,
+              "ptelo": 1390,
               "ppos": "MID",
               "player_rating": 57,
-              "player_rank": 553
+              "player_rank": 550
             },
             {
               "name": "Max Kondogiannis",
@@ -96211,7 +97603,7 @@
               "ptelo": 1468,
               "ppos": "FWD",
               "player_rating": 64,
-              "player_rank": 372
+              "player_rank": 374
             },
             {
               "name": "Andrew McGrath",
@@ -96253,7 +97645,7 @@
               "ptelo": 1465,
               "ppos": "MID",
               "player_rating": 64,
-              "player_rank": 378
+              "player_rank": 379
             },
             {
               "name": "Jaxon Prior",
@@ -96264,10 +97656,10 @@
               "avg_cl": 0.3,
               "avg_pi": 83.3,
               "games": 21,
-              "ptelo": 1497,
+              "ptelo": 1498,
               "ppos": "DEF",
               "player_rating": 67,
-              "player_rank": 309
+              "player_rank": 307
             },
             {
               "name": "Mason Redman",
@@ -96295,7 +97687,7 @@
               "ptelo": 1442,
               "ppos": "DEF",
               "player_rating": 62,
-              "player_rank": 424
+              "player_rank": 427
             },
             {
               "name": "Archie Roberts",
@@ -96309,7 +97701,7 @@
               "ptelo": 1601,
               "ppos": "DEF",
               "player_rating": 76,
-              "player_rank": 113
+              "player_rank": 114
             },
             {
               "name": "Will Setterfield",
@@ -96344,7 +97736,7 @@
               "avg_cl": 0.0,
               "avg_pi": 49.5,
               "games": 3,
-              "ptelo": 1362,
+              "ptelo": 1363,
               "ppos": "MID",
               "player_rating": 55,
               "player_rank": 597
@@ -96358,7 +97750,7 @@
               "avg_cl": 1.5,
               "avg_pi": 136.6,
               "games": 2,
-              "ptelo": 1710,
+              "ptelo": 1711,
               "ppos": "RUC",
               "player_rating": 85,
               "player_rank": 43
@@ -96391,7 +97783,7 @@
               "ptelo": 1468,
               "ppos": "DEF",
               "player_rating": 64,
-              "player_rank": 370
+              "player_rank": 372
             },
             {
               "name": "Tom Anastasopoulos",
@@ -96442,8 +97834,8 @@
               "games": 17,
               "ptelo": 1449,
               "ppos": "FWD",
-              "player_rating": 63,
-              "player_rank": 410
+              "player_rating": 62,
+              "player_rank": 413
             },
             {
               "name": "Jase Burgoyne",
@@ -96454,7 +97846,7 @@
               "avg_cl": 2.3,
               "avg_pi": 137.8,
               "games": 22,
-              "ptelo": 1715,
+              "ptelo": 1716,
               "ppos": "MID",
               "player_rating": 86,
               "player_rank": 40
@@ -96482,7 +97874,7 @@
               "avg_cl": 0.3,
               "avg_pi": 69.8,
               "games": 22,
-              "ptelo": 1443,
+              "ptelo": 1444,
               "ppos": "FWD",
               "player_rating": 62,
               "player_rank": 423
@@ -96499,7 +97891,7 @@
               "ptelo": 1580,
               "ppos": "FWD",
               "player_rating": 74,
-              "player_rank": 143
+              "player_rank": 146
             },
             {
               "name": "Jason Horne-Francis",
@@ -96513,7 +97905,7 @@
               "ptelo": 1786,
               "ppos": "MID",
               "player_rating": 92,
-              "player_rank": 20
+              "player_rank": 19
             },
             {
               "name": "Lachie Jones",
@@ -96524,10 +97916,10 @@
               "avg_cl": 0.2,
               "avg_pi": 68.8,
               "games": 19,
-              "ptelo": 1439,
+              "ptelo": 1440,
               "ppos": "DEF",
               "player_rating": 62,
-              "player_rank": 434
+              "player_rank": 433
             },
             {
               "name": "Josh Lai",
@@ -96555,7 +97947,7 @@
               "ptelo": 1443,
               "ppos": "FWD",
               "player_rating": 62,
-              "player_rank": 420
+              "player_rank": 424
             },
             {
               "name": "Balyn OBrien",
@@ -96593,7 +97985,7 @@
               "ptelo": 1679,
               "ppos": "FWD",
               "player_rating": 82,
-              "player_rank": 55
+              "player_rank": 56
             },
             {
               "name": "Jordon Sweet",
@@ -96631,7 +98023,7 @@
               "ptelo": 1384,
               "ppos": "RUC",
               "player_rating": 57,
-              "player_rank": 569
+              "player_rank": 567
             },
             {
               "name": "Jacob Wehr",
@@ -96645,7 +98037,7 @@
               "ptelo": 1428,
               "ppos": "MID",
               "player_rating": 61,
-              "player_rank": 469
+              "player_rank": 468
             },
             {
               "name": "Jack Whitlock",
@@ -96670,7 +98062,7 @@
               "avg_cl": 3.4,
               "avg_pi": 126.8,
               "games": 18,
-              "ptelo": 1671,
+              "ptelo": 1672,
               "ppos": "MID",
               "player_rating": 82,
               "player_rank": 59
@@ -96712,10 +98104,10 @@
               "avg_cl": 0.5,
               "avg_pi": 88.3,
               "games": 20,
-              "ptelo": 1517,
+              "ptelo": 1518,
               "ppos": "DEF",
               "player_rating": 68,
-              "player_rank": 262
+              "player_rank": 261
             },
             {
               "name": "Nick Blakey",
@@ -96726,10 +98118,10 @@
               "avg_cl": 0.9,
               "avg_pi": 113.8,
               "games": 22,
-              "ptelo": 1619,
+              "ptelo": 1620,
               "ppos": "DEF",
               "player_rating": 77,
-              "player_rank": 95
+              "player_rank": 94
             },
             {
               "name": "Braeden Campbell",
@@ -96767,7 +98159,7 @@
               "ptelo": 1560,
               "ppos": "FWD",
               "player_rating": 72,
-              "player_rank": 176
+              "player_rank": 177
             },
             {
               "name": "Jesse Dattoli",
@@ -96778,10 +98170,10 @@
               "avg_cl": 1.0,
               "avg_pi": 109.2,
               "games": 2,
-              "ptelo": 1601,
+              "ptelo": 1602,
               "ppos": "MID",
               "player_rating": 76,
-              "player_rank": 114
+              "player_rank": 112
             },
             {
               "name": "Will Green",
@@ -96792,10 +98184,10 @@
               "avg_cl": 1.0,
               "avg_pi": 66.0,
               "games": 2,
-              "ptelo": 1428,
+              "ptelo": 1429,
               "ppos": "RUC",
               "player_rating": 61,
-              "player_rank": 468
+              "player_rank": 467
             },
             {
               "name": "Brodie Grundy",
@@ -96823,7 +98215,7 @@
               "ptelo": 1846,
               "ppos": "MID",
               "player_rating": 97,
-              "player_rank": 6
+              "player_rank": 7
             },
             {
               "name": "Joel Hamling",
@@ -96834,10 +98226,10 @@
               "avg_cl": 0.1,
               "avg_pi": 48.5,
               "games": 8,
-              "ptelo": 1358,
+              "ptelo": 1359,
               "ppos": "FWD",
               "player_rating": 55,
-              "player_rank": 599
+              "player_rank": 600
             },
             {
               "name": "Isaac Heeney",
@@ -96848,10 +98240,10 @@
               "avg_cl": 6.2,
               "avg_pi": 170.5,
               "games": 20,
-              "ptelo": 1846,
+              "ptelo": 1847,
               "ppos": "MID",
               "player_rating": 97,
-              "player_rank": 7
+              "player_rank": 5
             },
             {
               "name": "James Jordon",
@@ -96903,7 +98295,7 @@
               "ptelo": 1501,
               "ppos": "DEF",
               "player_rating": 67,
-              "player_rank": 300
+              "player_rank": 301
             },
             {
               "name": "Logan McDonald",
@@ -96914,10 +98306,10 @@
               "avg_cl": 0.3,
               "avg_pi": 88.0,
               "games": 20,
-              "ptelo": 1516,
+              "ptelo": 1517,
               "ppos": "FWD",
               "player_rating": 68,
-              "player_rank": 265
+              "player_rank": 263
             },
             {
               "name": "Callum Mills",
@@ -96931,7 +98323,7 @@
               "ptelo": 1593,
               "ppos": "DEF",
               "player_rating": 75,
-              "player_rank": 120
+              "player_rank": 119
             },
             {
               "name": "Tom Papley",
@@ -96942,10 +98334,10 @@
               "avg_cl": 1.2,
               "avg_pi": 87.5,
               "games": 17,
-              "ptelo": 1514,
+              "ptelo": 1515,
               "ppos": "FWD",
               "player_rating": 68,
-              "player_rank": 272
+              "player_rank": 268
             },
             {
               "name": "Dane Rampe",
@@ -96956,10 +98348,10 @@
               "avg_cl": 0.4,
               "avg_pi": 59.3,
               "games": 14,
-              "ptelo": 1401,
+              "ptelo": 1402,
               "ppos": "DEF",
               "player_rating": 58,
-              "player_rank": 522
+              "player_rank": 520
             },
             {
               "name": "Matt Roberts",
@@ -96970,10 +98362,10 @@
               "avg_cl": 1.4,
               "avg_pi": 89.7,
               "games": 18,
-              "ptelo": 1523,
+              "ptelo": 1524,
               "ppos": "DEF",
               "player_rating": 69,
-              "player_rank": 249
+              "player_rank": 246
             },
             {
               "name": "Jai Serong",
@@ -97012,7 +98404,7 @@
               "avg_cl": 0.5,
               "avg_pi": 77.0,
               "games": 17,
-              "ptelo": 1472,
+              "ptelo": 1473,
               "ppos": "FWD",
               "player_rating": 65,
               "player_rank": 364
@@ -97028,7 +98420,7 @@
               "avg_cl": 0.6,
               "avg_pi": 69.6,
               "games": 7,
-              "ptelo": 1442,
+              "ptelo": 1443,
               "ppos": "FWD",
               "player_rating": 62,
               "player_rank": 426
@@ -97055,7 +98447,7 @@
               "ptelo": 1395,
               "ppos": "DEF",
               "player_rating": 58,
-              "player_rank": 540
+              "player_rank": 541
             },
             {
               "name": "Aidan Corr",
@@ -97083,7 +98475,7 @@
               "ptelo": 1566,
               "ppos": "FWD",
               "player_rating": 73,
-              "player_rank": 168
+              "player_rank": 169
             },
             {
               "name": "Caleb Daniel",
@@ -97097,7 +98489,7 @@
               "ptelo": 1606,
               "ppos": "MID",
               "player_rating": 76,
-              "player_rank": 104
+              "player_rank": 105
             },
             {
               "name": "Jack Darling",
@@ -97111,7 +98503,7 @@
               "ptelo": 1533,
               "ppos": "FWD",
               "player_rating": 70,
-              "player_rank": 228
+              "player_rank": 229
             },
             {
               "name": "Luke Davies-Uniacke",
@@ -97150,10 +98542,10 @@
               "avg_cl": 0.3,
               "avg_pi": 58.8,
               "games": 6,
-              "ptelo": 1399,
+              "ptelo": 1400,
               "ppos": "DEF",
               "player_rating": 58,
-              "player_rank": 529
+              "player_rank": 527
             },
             {
               "name": "Nick Larkey",
@@ -97181,7 +98573,7 @@
               "ptelo": 1390,
               "ppos": "DEF",
               "player_rating": 57,
-              "player_rank": 550
+              "player_rank": 549
             },
             {
               "name": "Colby McKercher",
@@ -97195,7 +98587,7 @@
               "ptelo": 1543,
               "ppos": "DEF",
               "player_rating": 71,
-              "player_rank": 205
+              "player_rank": 206
             },
             {
               "name": "Finn OSullivan",
@@ -97219,7 +98611,7 @@
               "ptelo": 1616,
               "ppos": "MID",
               "player_rating": 77,
-              "player_rank": 98
+              "player_rank": 99
             },
             {
               "name": "Harry Sheezel",
@@ -97261,7 +98653,7 @@
               "ptelo": 1457,
               "ppos": "FWD",
               "player_rating": 63,
-              "player_rank": 389
+              "player_rank": 393
             },
             {
               "name": "Dylan Stephens",
@@ -97274,7 +98666,7 @@
               "games": 22,
               "ptelo": 1542,
               "ppos": "MID",
-              "player_rating": 71,
+              "player_rating": 70,
               "player_rank": 211
             },
             {
@@ -97286,10 +98678,10 @@
               "avg_cl": 0.7,
               "avg_pi": 92.3,
               "games": 22,
-              "ptelo": 1533,
+              "ptelo": 1534,
               "ppos": "DEF",
               "player_rating": 70,
-              "player_rank": 227
+              "player_rank": 226
             },
             {
               "name": "George Wardlaw",
@@ -97303,7 +98695,7 @@
               "ptelo": 1587,
               "ppos": "MID",
               "player_rating": 74,
-              "player_rank": 131
+              "player_rank": 132
             },
             {
               "name": "Tristan Xerri",
@@ -97331,7 +98723,7 @@
               "ptelo": 1520,
               "ppos": "FWD",
               "player_rating": 69,
-              "player_rank": 254
+              "player_rank": 255
             }
           ],
           "home_outs": [],
@@ -97363,7 +98755,7 @@
               "ptelo": 1491,
               "ppos": "MID",
               "player_rating": 66,
-              "player_rank": 330
+              "player_rank": 332
             },
             {
               "name": "Rhett Bazzo",
@@ -97374,10 +98766,10 @@
               "avg_cl": 0.0,
               "avg_pi": 54.0,
               "games": 13,
-              "ptelo": 1380,
+              "ptelo": 1381,
               "ppos": "DEF",
               "player_rating": 57,
-              "player_rank": 574
+              "player_rank": 573
             },
             {
               "name": "Tom Cole",
@@ -97391,7 +98783,7 @@
               "ptelo": 1464,
               "ppos": "DEF",
               "player_rating": 64,
-              "player_rank": 380
+              "player_rank": 382
             },
             {
               "name": "Hamish Davis",
@@ -97402,10 +98794,10 @@
               "avg_cl": 1.1,
               "avg_pi": 63.0,
               "games": 20,
-              "ptelo": 1416,
+              "ptelo": 1417,
               "ppos": "MID",
               "player_rating": 60,
-              "player_rank": 491
+              "player_rank": 489
             },
             {
               "name": "Cooper Duff-Tytler",
@@ -97467,7 +98859,7 @@
               "ptelo": 1447,
               "ppos": "MID",
               "player_rating": 62,
-              "player_rank": 416
+              "player_rank": 418
             },
             {
               "name": "Marcus Herbert",
@@ -97490,8 +98882,8 @@
               "games": 22,
               "ptelo": 1449,
               "ppos": "DEF",
-              "player_rating": 63,
-              "player_rank": 409
+              "player_rating": 62,
+              "player_rank": 412
             },
             {
               "name": "Tim Kelly",
@@ -97529,7 +98921,7 @@
               "ptelo": 1620,
               "ppos": "DEF",
               "player_rating": 77,
-              "player_rank": 94
+              "player_rank": 95
             },
             {
               "name": "Milan Murdock",
@@ -97550,7 +98942,7 @@
               "avg_cl": 6.7,
               "avg_pi": 142.0,
               "games": 22,
-              "ptelo": 1732,
+              "ptelo": 1733,
               "ppos": "MID",
               "player_rating": 87,
               "player_rank": 36
@@ -97564,10 +98956,10 @@
               "avg_cl": 0.0,
               "avg_pi": 66.5,
               "games": 22,
-              "ptelo": 1430,
+              "ptelo": 1431,
               "ppos": "FWD",
               "player_rating": 61,
-              "player_rank": 463
+              "player_rank": 460
             },
             {
               "name": "Brandon Starcevich",
@@ -97592,7 +98984,7 @@
               "avg_cl": 0.1,
               "avg_pi": 99.3,
               "games": 22,
-              "ptelo": 1561,
+              "ptelo": 1562,
               "ppos": "FWD",
               "player_rating": 72,
               "player_rank": 174
@@ -97601,11 +98993,11 @@
               "name": "Bailey Williams",
               "pos": "",
               "avg_di": 16.6,
-              "avg_gl": 0.5,
+              "avg_gl": 0.4,
               "avg_tk": 2.5,
-              "avg_cl": 3.3,
-              "avg_pi": 110.5,
-              "games": 33,
+              "avg_cl": 3.2,
+              "avg_pi": 110.3,
+              "games": 34,
               "ptelo": 1606,
               "ppos": "RUC",
               "player_rating": 76,
@@ -97637,7 +99029,7 @@
               "ptelo": 1616,
               "ppos": "MID",
               "player_rating": 77,
-              "player_rank": 97
+              "player_rank": 98
             },
             {
               "name": "Tylar Young",
@@ -97681,7 +99073,7 @@
               "ptelo": 1341,
               "ppos": "DEF",
               "player_rating": 53,
-              "player_rank": 619
+              "player_rank": 620
             },
             {
               "name": "Josh Battle",
@@ -97694,7 +99086,7 @@
               "games": 20,
               "ptelo": 1542,
               "ppos": "DEF",
-              "player_rating": 71,
+              "player_rating": 70,
               "player_rank": 210
             },
             {
@@ -97719,7 +99111,7 @@
               "ptelo": 1526,
               "ppos": "FWD",
               "player_rating": 69,
-              "player_rank": 244
+              "player_rank": 245
             },
             {
               "name": "Massimo DAmbrosio",
@@ -97743,7 +99135,7 @@
               "ptelo": 1616,
               "ppos": "MID",
               "player_rating": 77,
-              "player_rank": 97
+              "player_rank": 98
             },
             {
               "name": "Jack Ginnivan",
@@ -97757,7 +99149,7 @@
               "ptelo": 1557,
               "ppos": "FWD",
               "player_rating": 72,
-              "player_rank": 184
+              "player_rank": 185
             },
             {
               "name": "Jack Gunston",
@@ -97771,7 +99163,7 @@
               "ptelo": 1583,
               "ppos": "FWD",
               "player_rating": 74,
-              "player_rank": 138
+              "player_rank": 139
             },
             {
               "name": "Blake Hardwick",
@@ -97785,7 +99177,7 @@
               "ptelo": 1541,
               "ppos": "DEF",
               "player_rating": 70,
-              "player_rank": 212
+              "player_rank": 214
             },
             {
               "name": "Jarman Impey",
@@ -97796,7 +99188,7 @@
               "avg_cl": 0.7,
               "avg_pi": 118.0,
               "games": 20,
-              "ptelo": 1636,
+              "ptelo": 1637,
               "ppos": "DEF",
               "player_rating": 79,
               "player_rank": 79
@@ -97810,10 +99202,10 @@
               "avg_cl": 0.3,
               "avg_pi": 86.8,
               "games": 21,
-              "ptelo": 1511,
+              "ptelo": 1512,
               "ppos": "FWD",
               "player_rating": 68,
-              "player_rank": 278
+              "player_rank": 276
             },
             {
               "name": "Bailey Macdonald",
@@ -97826,7 +99218,7 @@
               "games": 11,
               "ptelo": 1415,
               "ppos": "DEF",
-              "player_rating": 60,
+              "player_rating": 59,
               "player_rank": 497
             },
             {
@@ -97854,7 +99246,7 @@
               "games": 20,
               "ptelo": 1622,
               "ppos": "MID",
-              "player_rating": 78,
+              "player_rating": 77,
               "player_rank": 93
             },
             {
@@ -97883,7 +99275,7 @@
               "ptelo": 1585,
               "ppos": "FWD",
               "player_rating": 74,
-              "player_rank": 135
+              "player_rank": 136
             },
             {
               "name": "Harry Morrison",
@@ -97896,7 +99288,7 @@
               "games": 12,
               "ptelo": 1553,
               "ppos": "MID",
-              "player_rating": 72,
+              "player_rating": 71,
               "player_rank": 189
             },
             {
@@ -97925,7 +99317,7 @@
               "ptelo": 1548,
               "ppos": "DEF",
               "player_rating": 71,
-              "player_rank": 198
+              "player_rank": 199
             },
             {
               "name": "Josh Ward",
@@ -97953,7 +99345,7 @@
               "ptelo": 1549,
               "ppos": "FWD",
               "player_rating": 71,
-              "player_rank": 197
+              "player_rank": 198
             },
             {
               "name": "Josh Weddle",
@@ -97967,7 +99359,7 @@
               "ptelo": 1478,
               "ppos": "DEF",
               "player_rating": 65,
-              "player_rank": 351
+              "player_rank": 353
             }
           ],
           "home_outs": [],
@@ -98021,7 +99413,7 @@
       "points_for": 2204,
       "points_against": 1547,
       "finals_pct": 100.0,
-      "premiers_pct": 34.0
+      "premiers_pct": 33.9
     },
     {
       "team": "Brisbane Lions",
@@ -98047,7 +99439,7 @@
       "points_for": 2420,
       "points_against": 1799,
       "finals_pct": 100.0,
-      "premiers_pct": 18.6
+      "premiers_pct": 18.9
     },
     {
       "team": "Geelong",
@@ -98060,7 +99452,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 8.9
+      "premiers_pct": 8.7
     },
     {
       "team": "Hawthorn",
@@ -98086,7 +99478,7 @@
       "points_for": 2012,
       "points_against": 1748,
       "finals_pct": 100.0,
-      "premiers_pct": 3.4
+      "premiers_pct": 3.5
     },
     {
       "team": "Melbourne",
@@ -98099,7 +99491,7 @@
       "points_for": 2214,
       "points_against": 1991,
       "finals_pct": 100.0,
-      "premiers_pct": 6.6
+      "premiers_pct": 6.5
     },
     {
       "team": "Collingwood",
@@ -98253,25 +99645,25 @@
       },
       "MID": {
         "rank": 2,
-        "avg": 1651
+        "avg": 1652
       },
       "FWD": {
         "rank": 4,
-        "avg": 1532
+        "avg": 1531
       }
     },
     "Fremantle": {
       "DEF": {
         "rank": 12,
-        "avg": 1463
+        "avg": 1465
       },
       "MID": {
         "rank": 5,
-        "avg": 1628
+        "avg": 1629
       },
       "FWD": {
         "rank": 6,
-        "avg": 1514
+        "avg": 1513
       }
     },
     "Melbourne": {
@@ -98280,8 +99672,8 @@
         "avg": 1501
       },
       "MID": {
-        "rank": 11,
-        "avg": 1578
+        "rank": 10,
+        "avg": 1579
       },
       "FWD": {
         "rank": 2,
@@ -98291,15 +99683,15 @@
     "Western Bulldogs": {
       "DEF": {
         "rank": 8,
-        "avg": 1488
+        "avg": 1489
       },
       "MID": {
         "rank": 7,
-        "avg": 1600
+        "avg": 1601
       },
       "FWD": {
         "rank": 13,
-        "avg": 1455
+        "avg": 1454
       }
     },
     "Geelong": {
@@ -98309,11 +99701,11 @@
       },
       "MID": {
         "rank": 8,
-        "avg": 1588
+        "avg": 1589
       },
       "FWD": {
         "rank": 5,
-        "avg": 1522
+        "avg": 1523
       }
     },
     "Richmond": {
@@ -98333,15 +99725,15 @@
     "Adelaide": {
       "DEF": {
         "rank": 14,
-        "avg": 1446
+        "avg": 1447
       },
       "MID": {
         "rank": 6,
-        "avg": 1606
+        "avg": 1605
       },
       "FWD": {
         "rank": 3,
-        "avg": 1539
+        "avg": 1540
       }
     },
     "Greater Western Sydney": {
@@ -98354,14 +99746,14 @@
         "avg": 1544
       },
       "FWD": {
-        "rank": 8,
-        "avg": 1506
+        "rank": 7,
+        "avg": 1507
       }
     },
     "Essendon": {
       "DEF": {
         "rank": 7,
-        "avg": 1497
+        "avg": 1498
       },
       "MID": {
         "rank": 14,
@@ -98389,7 +99781,7 @@
     "Sydney": {
       "DEF": {
         "rank": 2,
-        "avg": 1531
+        "avg": 1532
       },
       "MID": {
         "rank": 1,
@@ -98397,7 +99789,7 @@
       },
       "FWD": {
         "rank": 10,
-        "avg": 1484
+        "avg": 1485
       }
     },
     "North Melbourne": {
@@ -98410,7 +99802,7 @@
         "avg": 1643
       },
       "FWD": {
-        "rank": 7,
+        "rank": 8,
         "avg": 1507
       }
     },
@@ -98420,7 +99812,7 @@
         "avg": 1468
       },
       "MID": {
-        "rank": 10,
+        "rank": 11,
         "avg": 1579
       },
       "FWD": {
@@ -98431,7 +99823,7 @@
     "Hawthorn": {
       "DEF": {
         "rank": 5,
-        "avg": 1504
+        "avg": 1505
       },
       "MID": {
         "rank": 3,
