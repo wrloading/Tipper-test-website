@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-22T19:55:51.411133+10:00",
+    "updated": "2026-08-22T20:27:37.886554+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -95537,7 +95537,7 @@
           "margin": 51.9,
           "home_prob": 76.8,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Callum Ah Chee",
@@ -98145,7 +98145,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 27.8
+      "premiers_pct": 27.9
     },
     {
       "team": "Brisbane Lions",
@@ -98158,7 +98158,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 23.8
+      "premiers_pct": 23.7
     },
     {
       "team": "Sydney",
@@ -98171,7 +98171,7 @@
       "points_for": 2420,
       "points_against": 1799,
       "finals_pct": 100.0,
-      "premiers_pct": 19.4
+      "premiers_pct": 19.3
     },
     {
       "team": "Geelong",
@@ -98184,7 +98184,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 15.7
+      "premiers_pct": 16.0
     },
     {
       "team": "Hawthorn",
@@ -98210,7 +98210,7 @@
       "points_for": 2012,
       "points_against": 1748,
       "finals_pct": 100.0,
-      "premiers_pct": 3.9
+      "premiers_pct": 3.8
     },
     {
       "team": "Western Bulldogs",
@@ -98223,7 +98223,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 2.2
+      "premiers_pct": 2.3
     },
     {
       "team": "Carlton",
@@ -98262,7 +98262,7 @@
       "points_for": 2301,
       "points_against": 2099,
       "finals_pct": 100.0,
-      "premiers_pct": 2.1
+      "premiers_pct": 2.0
     },
     {
       "team": "Greater Western Sydney",
