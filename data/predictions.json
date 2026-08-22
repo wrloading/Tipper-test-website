@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-22T19:30:48.136351+10:00",
+    "updated": "2026-08-22T19:55:51.411133+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -94889,7 +94889,7 @@
           "margin": 150.2,
           "home_prob": 96.9,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Tom Atkins",
@@ -98145,7 +98145,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 28.0
+      "premiers_pct": 27.8
     },
     {
       "team": "Brisbane Lions",
@@ -98158,7 +98158,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 23.6
+      "premiers_pct": 23.8
     },
     {
       "team": "Sydney",
@@ -98184,7 +98184,7 @@
       "points_for": 2222,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 15.9
+      "premiers_pct": 15.7
     },
     {
       "team": "Hawthorn",
@@ -98197,7 +98197,7 @@
       "points_for": 2153,
       "points_against": 1836,
       "finals_pct": 100.0,
-      "premiers_pct": 5.0
+      "premiers_pct": 5.1
     },
     {
       "team": "Adelaide",
@@ -98223,7 +98223,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 2.3
+      "premiers_pct": 2.2
     },
     {
       "team": "Carlton",
@@ -98262,7 +98262,7 @@
       "points_for": 2301,
       "points_against": 2099,
       "finals_pct": 100.0,
-      "premiers_pct": 2.0
+      "premiers_pct": 2.1
     },
     {
       "team": "Greater Western Sydney",
