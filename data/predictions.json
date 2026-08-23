@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-23T11:28:31.018512+10:00",
+    "updated": "2026-08-23T12:49:33.450188+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -94917,7 +94917,7 @@
           "margin": 26.0,
           "home_prob": 35.5,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Jaxon Artemis",
@@ -96869,7 +96869,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 27.4
+      "premiers_pct": 27.5
     },
     {
       "team": "Brisbane Lions",
@@ -96882,7 +96882,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 23.5
+      "premiers_pct": 23.6
     },
     {
       "team": "Sydney",
@@ -96895,7 +96895,7 @@
       "points_for": 2420,
       "points_against": 1799,
       "finals_pct": 100.0,
-      "premiers_pct": 19.6
+      "premiers_pct": 19.1
     },
     {
       "team": "Geelong",
@@ -96934,7 +96934,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.3
+      "premiers_pct": 4.5
     },
     {
       "team": "Western Bulldogs",
@@ -96947,7 +96947,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 2.2
+      "premiers_pct": 2.3
     },
     {
       "team": "Carlton",
