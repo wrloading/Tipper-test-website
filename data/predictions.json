@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-23T19:06:46.654953+10:00",
+    "updated": "2026-08-23T19:46:48.558917+10:00",
     "year": 2026,
     "current_round": 24,
     "model": "TELO v2.0",
@@ -94945,7 +94945,7 @@
           "margin": 98.5,
           "home_prob": 9.4,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Liam Baker",
@@ -95617,7 +95617,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 27.4
+      "premiers_pct": 27.2
     },
     {
       "team": "Brisbane Lions",
@@ -95630,7 +95630,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 22.9
+      "premiers_pct": 23.4
     },
     {
       "team": "Sydney",
@@ -95643,7 +95643,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 20.2
+      "premiers_pct": 20.1
     },
     {
       "team": "Geelong",
@@ -95656,7 +95656,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 16.7
+      "premiers_pct": 16.4
     },
     {
       "team": "Hawthorn",
@@ -95669,7 +95669,7 @@
       "points_for": 2153,
       "points_against": 1836,
       "finals_pct": 100.0,
-      "premiers_pct": 4.4
+      "premiers_pct": 4.3
     },
     {
       "team": "Adelaide",
@@ -95682,7 +95682,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.3
+      "premiers_pct": 4.4
     },
     {
       "team": "Western Bulldogs",
