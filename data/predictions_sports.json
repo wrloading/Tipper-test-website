@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-24T22:48:19.709639+00:00",
+    "updated": "2026-08-24T23:12:23.630418+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1630,7 +1630,7 @@
         },
         {
           "team": "Lazio",
-          "rating": 1609.4,
+          "rating": 1609.5,
           "rank": 6
         },
         {
