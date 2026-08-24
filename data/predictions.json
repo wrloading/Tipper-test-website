@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-24T21:33:26.737525+10:00",
+    "updated": "2026-08-24T21:59:44.747361+10:00",
     "year": 2026,
     "current_round": 25,
     "model": "TELO v2.0",
@@ -100433,17 +100433,17 @@
     },
     "26": {
       "label": "Finals Week 1",
-      "range": "5\u20135 Sep 2026",
+      "range": "3\u20135 Sep 2026",
       "complete": false,
       "games": [
         {
           "home": "Fremantle",
           "away": "Hawthorn",
-          "venue": "M.C.G.",
-          "datetime": "Sat 5 Sep \u00b7 7:20pm AEST",
+          "venue": "Perth Stadium",
+          "datetime": "Thu 3 Sep \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 12.0,
-          "home_prob": 56.8,
+          "margin": 21.0,
+          "home_prob": 61.9,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -101083,11 +101083,11 @@
         {
           "home": "Sydney",
           "away": "Brisbane Lions",
-          "venue": "M.C.G.",
-          "datetime": "Sat 5 Sep \u00b7 7:20pm AEST",
-          "home_fav": false,
-          "margin": 6.1,
-          "home_prob": 46.5,
+          "venue": "S.C.G.",
+          "datetime": "Sat 5 Sep \u00b7 3:15pm AEST",
+          "home_fav": true,
+          "margin": 41.5,
+          "home_prob": 72.2,
           "complete": false,
           "locked": false,
           "home_named": [
@@ -101769,7 +101769,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 28.8
+      "premiers_pct": 29.1
     },
     {
       "team": "Brisbane Lions",
@@ -101795,7 +101795,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 20.5
+      "premiers_pct": 20.3
     },
     {
       "team": "Geelong",
@@ -101808,7 +101808,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 9.1
+      "premiers_pct": 8.9
     },
     {
       "team": "Hawthorn",
@@ -101834,7 +101834,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.4
+      "premiers_pct": 4.2
     },
     {
       "team": "Western Bulldogs",
@@ -101847,7 +101847,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 2.1
+      "premiers_pct": 2.2
     },
     {
       "team": "Carlton",
@@ -101886,7 +101886,7 @@
       "points_for": 2301,
       "points_against": 2099,
       "finals_pct": 100.0,
-      "premiers_pct": 4.0
+      "premiers_pct": 4.2
     },
     {
       "team": "Greater Western Sydney",
