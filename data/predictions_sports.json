@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-25T09:24:06.401192+00:00",
+    "updated": "2026-08-25T10:04:13.467059+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1002,7 +1002,7 @@
         },
         {
           "team": "Atletico Madrid",
-          "rating": 1608.9,
+          "rating": 1614.0,
           "rank": 3
         },
         {
@@ -1196,18 +1196,18 @@
           "rank": 41
         },
         {
-          "team": "Malaga",
-          "rating": 1491.8,
-          "rank": 42
-        },
-        {
           "team": "Guimaraes",
           "rating": 1491.3,
-          "rank": 43
+          "rank": 42
         },
         {
           "team": "Morton",
           "rating": 1491.3,
+          "rank": 43
+        },
+        {
+          "team": "Malaga",
+          "rating": 1486.7,
           "rank": 44
         },
         {
@@ -1354,14 +1354,14 @@
           "draw_prob": 13.8
         },
         {
-          "home": "Atl. Madrid",
+          "home": "Atletico Madrid",
           "away": "Malaga",
           "date": "2026-08-19",
-          "home_prob": 54.4,
-          "winner": "Atl. Madrid",
+          "home_prob": 68.9,
+          "winner": "Atletico Madrid",
           "home_score": 2,
           "away_score": 0,
-          "draw_prob": 16.1
+          "draw_prob": 11.4
         },
         {
           "home": "Rayo Vallecano",
@@ -1417,11 +1417,11 @@
           "home": "Atletico Madrid",
           "away": "Villarreal",
           "date": "2026-08-23",
-          "home_prob": 57.5,
+          "home_prob": 58.2,
           "winner": null,
           "home_score": 2,
           "away_score": 2,
-          "draw_prob": 15.1
+          "draw_prob": 14.8
         },
         {
           "home": "Getafe",
@@ -1457,11 +1457,11 @@
           "home": "Malaga",
           "away": "Deportivo La Coruna",
           "date": "2026-08-24",
-          "home_prob": 50.9,
+          "home_prob": 50.2,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 17.3
+          "draw_prob": 17.6
         }
       ]
     },
