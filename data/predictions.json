@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-29T14:06:25.272911+10:00",
+    "updated": "2026-08-29T21:09:27.801397+10:00",
     "year": 2026,
     "current_round": 25,
     "model": "TELO v2.0",
@@ -99156,7 +99156,7 @@
           "margin": 7.3,
           "home_prob": 45.8,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Jake Bowey",
@@ -101139,7 +101139,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 28.9
+      "premiers_pct": 28.7
     },
     {
       "team": "Brisbane Lions",
@@ -101152,7 +101152,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 22.7
+      "premiers_pct": 23.3
     },
     {
       "team": "Sydney",
@@ -101165,7 +101165,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 20.1
+      "premiers_pct": 19.9
     },
     {
       "team": "Geelong",
@@ -101191,7 +101191,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 8.0
+      "premiers_pct": 7.8
     },
     {
       "team": "Adelaide",
@@ -101204,7 +101204,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.5
+      "premiers_pct": 4.4
     },
     {
       "team": "Western Bulldogs",
@@ -101217,7 +101217,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 2.7
+      "premiers_pct": 2.8
     },
     {
       "team": "Carlton",
