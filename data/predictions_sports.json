@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-29T23:39:29.102103+00:00",
+    "updated": "2026-08-30T01:44:17.590410+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1303,26 +1303,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Alaves",
-          "away": "Getafe",
-          "date": "2026-08-15",
-          "home_prob": 56.1,
-          "winner": "Alaves",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 15.5
-        },
-        {
-          "home": "Sevilla",
-          "away": "Vallecano",
-          "date": "2026-08-15",
-          "home_prob": 60.5,
-          "winner": "Sevilla",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 14.0
-        },
         {
           "home": "Santander",
           "away": "Villarreal",
