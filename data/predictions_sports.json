@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-30T22:47:51.973072+00:00",
+    "updated": "2026-08-31T00:58:20.243420+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1303,26 +1303,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Santander",
-          "away": "Villarreal",
-          "date": "2026-08-16",
-          "home_prob": 40.9,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 21.1
-        },
-        {
-          "home": "Espanyol",
-          "away": "Levante",
-          "date": "2026-08-16",
-          "home_prob": 48.1,
-          "winner": "Espanyol",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 18.3
-        },
         {
           "home": "Deportivo La Coruna",
           "away": "Elche",
