@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-03T16:26:46.697946+10:00",
+    "updated": "2026-09-03T21:35:51.213808+10:00",
     "year": 2026,
     "current_round": 26,
     "model": "TELO v2.0",
@@ -100105,7 +100105,7 @@
           "margin": 21.0,
           "home_prob": 61.9,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Bailey Banfield",
@@ -102733,7 +102733,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 27.5
+      "premiers_pct": 27.6
     },
     {
       "team": "Brisbane Lions",
@@ -102746,7 +102746,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 23.0
+      "premiers_pct": 22.7
     },
     {
       "team": "Sydney",
@@ -102759,7 +102759,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 19.9
+      "premiers_pct": 20.0
     },
     {
       "team": "Geelong",
@@ -102772,7 +102772,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 14.2
+      "premiers_pct": 13.8
     },
     {
       "team": "Hawthorn",
@@ -102785,7 +102785,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 6.0
+      "premiers_pct": 6.1
     },
     {
       "team": "Adelaide",
@@ -102798,7 +102798,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 5.4
+      "premiers_pct": 5.6
     },
     {
       "team": "Carlton",
@@ -102811,7 +102811,7 @@
       "points_for": 2007,
       "points_against": 1978,
       "finals_pct": 21.4,
-      "premiers_pct": 0.6
+      "premiers_pct": 0.7
     },
     {
       "team": "Western Bulldogs",
@@ -102824,7 +102824,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 78.6,
-      "premiers_pct": 2.1
+      "premiers_pct": 2.2
     },
     {
       "team": "Collingwood",
