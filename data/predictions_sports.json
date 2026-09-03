@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-02T23:33:52.405946+00:00",
+    "updated": "2026-09-03T01:31:13.255975+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1403,16 +1403,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Atletico Madrid",
-          "away": "Malaga",
-          "date": "2026-08-19",
-          "home_prob": 70.6,
-          "winner": "Atletico Madrid",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 10.9
-        },
         {
           "home": "Vallecano",
           "away": "Alaves",
