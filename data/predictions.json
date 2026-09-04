@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-04T16:01:56.084838+10:00",
+    "updated": "2026-09-04T21:10:00.888768+10:00",
     "year": 2026,
     "current_round": 26,
     "model": "TELO v2.0",
@@ -100119,7 +100119,7 @@
           "margin": 9.0,
           "home_prob": 55.2,
           "complete": false,
-          "locked": false,
+          "locked": true,
           "home_named": [
             {
               "name": "Tom Atkins",
@@ -102103,7 +102103,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 23.4
+      "premiers_pct": 23.2
     },
     {
       "team": "Sydney",
@@ -102116,7 +102116,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 21.7
+      "premiers_pct": 21.6
     },
     {
       "team": "Fremantle",
@@ -102129,7 +102129,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 21.1
+      "premiers_pct": 20.8
     },
     {
       "team": "Hawthorn",
@@ -102142,7 +102142,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 9.1
+      "premiers_pct": 9.2
     },
     {
       "team": "Geelong",
@@ -102155,7 +102155,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 14.1
+      "premiers_pct": 14.4
     },
     {
       "team": "Adelaide",
@@ -102168,7 +102168,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 6.5
+      "premiers_pct": 6.7
     },
     {
       "team": "Carlton",
@@ -102194,7 +102194,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 78.5,
-      "premiers_pct": 2.2
+      "premiers_pct": 2.1
     },
     {
       "team": "Collingwood",
