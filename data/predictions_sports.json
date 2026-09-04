@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-03T23:31:20.110008+00:00",
+    "updated": "2026-09-04T01:16:58.558773+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,16 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Vallecano",
-          "away": "Alaves",
-          "date": "2026-08-20",
-          "home_prob": 50.6,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 17.4
-        },
-        {
           "home": "Real Betis",
           "away": "Sociedad",
           "date": "2026-08-21",
@@ -2323,7 +2313,7 @@
         },
         {
           "team": "Toulouse",
-          "rating": 1479.4,
+          "rating": 1479.3,
           "rank": 15
         },
         {
