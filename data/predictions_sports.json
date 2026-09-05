@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-04T22:57:37.188614+00:00",
+    "updated": "2026-09-05T00:44:20.951562+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Arsenal",
-          "away": "Coventry City",
-          "date": "2026-08-21",
-          "home_prob": 78.1,
-          "winner": "Arsenal",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 8.1
-        },
-        {
           "home": "Hull City",
           "away": "Manchester United",
           "date": "2026-08-22",
@@ -1403,16 +1393,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Real Betis",
-          "away": "Sociedad",
-          "date": "2026-08-21",
-          "home_prob": 54.0,
-          "winner": "Real Betis",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 16.2
-        },
         {
           "home": "Athletic Club",
           "away": "Sevilla",
@@ -2389,16 +2369,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Olympique de Marseille",
-          "away": "Strasbourg",
-          "date": "2026-08-21",
-          "home_prob": 65.0,
-          "winner": "Olympique de Marseille",
-          "home_score": 4,
-          "away_score": 0,
-          "draw_prob": 12.3
-        },
         {
           "home": "Lens",
           "away": "Auxerre",
