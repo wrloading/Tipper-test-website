@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-10T08:28:53.531009+00:00",
+    "updated": "2026-09-10T13:06:42.795029+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -650,7 +650,7 @@
         },
         {
           "team": "Chelsea",
-          "rating": 1532.7,
+          "rating": 1532.8,
           "rank": 8
         },
         {
@@ -1102,7 +1102,7 @@
         },
         {
           "team": "Atletico Madrid",
-          "rating": 1611.9,
+          "rating": 1611.8,
           "rank": 3
         },
         {
@@ -1779,7 +1779,7 @@
           "home": "Bayern Munich",
           "away": "Stuttgart",
           "date": "2026-08-28",
-          "home_prob": 64.8,
+          "home_prob": 64.7,
           "winner": "Bayern Munich",
           "home_score": 5,
           "away_score": 1,
@@ -2006,7 +2006,7 @@
         },
         {
           "team": "Fiorentina",
-          "rating": 1541.9,
+          "rating": 1541.8,
           "rank": 10
         },
         {
@@ -2076,7 +2076,7 @@
         },
         {
           "team": "Genoa",
-          "rating": 1429.4,
+          "rating": 1429.5,
           "rank": 24
         },
         {
@@ -2348,7 +2348,7 @@
         },
         {
           "team": "Rennes",
-          "rating": 1579.4,
+          "rating": 1579.3,
           "rank": 6
         },
         {
@@ -2413,7 +2413,7 @@
         },
         {
           "team": "Le Havre",
-          "rating": 1450.9,
+          "rating": 1450.8,
           "rank": 19
         },
         {
