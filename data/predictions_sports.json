@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-10T23:53:47.819701+00:00",
+    "updated": "2026-09-11T03:40:16.250423+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1403,26 +1403,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Celta Vigo",
-          "away": "Osasuna",
-          "date": "2026-08-27",
-          "home_prob": 52.7,
-          "winner": "Osasuna",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 16.7
-        },
-        {
-          "home": "Barcelona",
-          "away": "Athletic Club",
-          "date": "2026-08-27",
-          "home_prob": 72.5,
-          "winner": "Barcelona",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 10.3
-        },
         {
           "home": "Santander",
           "away": "Elche",
