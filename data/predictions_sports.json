@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-11T22:01:13.175556+00:00",
+    "updated": "2026-09-12T00:10:13.588075+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Crystal Palace",
-          "away": "Manchester City",
-          "date": "2026-08-28",
-          "home_prob": 20.8,
-          "winner": "Manchester City",
-          "home_score": 1,
-          "away_score": 4,
-          "draw_prob": 11.1
-        },
-        {
           "home": "Liverpool",
           "away": "Nottingham Forest",
           "date": "2026-08-29",
@@ -1404,26 +1394,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Santander",
-          "away": "Elche",
-          "date": "2026-08-28",
-          "home_prob": 61.5,
-          "winner": "Santander",
-          "home_score": 3,
-          "away_score": 2,
-          "draw_prob": 13.7
-        },
-        {
-          "home": "Alaves",
-          "away": "Villarreal",
-          "date": "2026-08-28",
-          "home_prob": 41.7,
-          "winner": "Alaves",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 20.8
-        },
-        {
           "home": "Levante",
           "away": "Real Betis",
           "date": "2026-08-29",
@@ -1756,16 +1726,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Bayern Munich",
-          "away": "Stuttgart",
-          "date": "2026-08-28",
-          "home_prob": 64.7,
-          "winner": "Bayern Munich",
-          "home_score": 5,
-          "away_score": 1,
-          "draw_prob": 11.8
-        },
-        {
           "home": "Elversberg",
           "away": "Bayer Leverkusen",
           "date": "2026-08-29",
@@ -2097,16 +2057,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Milan",
-          "away": "Venezia",
-          "date": "2026-08-28",
-          "home_prob": 75.8,
-          "winner": "Milan",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 9.2
-        },
         {
           "home": "Fiorentina",
           "away": "Frosinone",
@@ -2449,16 +2399,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Lille",
-          "away": "Paris Saint-Germain",
-          "date": "2026-08-28",
-          "home_prob": 39.1,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 21.0
-        },
         {
           "home": "Strasbourg",
           "away": "Lens",
