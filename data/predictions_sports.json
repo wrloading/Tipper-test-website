@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-14T23:33:57.571704+00:00",
+    "updated": "2026-09-15T01:54:50.190310+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Aston Villa",
-          "away": "Arsenal",
-          "date": "2026-08-31",
-          "home_prob": 31.5,
-          "winner": "Arsenal",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 15.9
-        },
-        {
           "home": "Ipswich Town",
           "away": "Liverpool",
           "date": "2026-09-04",
@@ -1142,7 +1132,7 @@
         },
         {
           "team": "Sevilla",
-          "rating": 1519.6,
+          "rating": 1519.7,
           "rank": 9
         },
         {
@@ -1414,26 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Osasuna",
-          "away": "Getafe",
-          "date": "2026-08-31",
-          "home_prob": 52.2,
-          "winner": "Osasuna",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 16.8
-        },
-        {
-          "home": "Barcelona",
-          "away": "Vallecano",
-          "date": "2026-08-31",
-          "home_prob": 82.2,
-          "winner": "Barcelona",
-          "home_score": 5,
-          "away_score": 2,
-          "draw_prob": 7.3
-        },
-        {
           "home": "Sociedad",
           "away": "Celta Vigo",
           "date": "2026-09-03",
@@ -1704,7 +1674,7 @@
         },
         {
           "team": "Mainz",
-          "rating": 1496.4,
+          "rating": 1496.5,
           "rank": 12
         },
         {
@@ -2071,7 +2041,7 @@
         },
         {
           "team": "Lecce",
-          "rating": 1442.7,
+          "rating": 1442.8,
           "rank": 21
         },
         {
@@ -2091,7 +2061,7 @@
         },
         {
           "team": "Parma",
-          "rating": 1428.4,
+          "rating": 1428.3,
           "rank": 25
         },
         {
@@ -2127,26 +2097,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Lecce",
-          "away": "AS Roma",
-          "date": "2026-08-31",
-          "home_prob": 26.3,
-          "winner": "AS Roma",
-          "home_score": 0,
-          "away_score": 4,
-          "draw_prob": 14.9
-        },
-        {
-          "home": "Atalanta",
-          "away": "Bologna",
-          "date": "2026-08-31",
-          "home_prob": 56.1,
-          "winner": "Atalanta",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 15.9
-        },
         {
           "home": "Genoa",
           "away": "Como",
