@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-17T21:45:46.402388+10:00",
+    "updated": "2026-09-18T01:43:23.385716+10:00",
     "year": 2026,
     "current_round": 28,
     "model": "TELO v2.0",
@@ -104311,7 +104311,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 24.1
+      "premiers_pct": 24.2
     },
     {
       "team": "Fremantle",
@@ -104337,7 +104337,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 21.2
+      "premiers_pct": 21.0
     },
     {
       "team": "Hawthorn",
@@ -104402,7 +104402,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 1.9
+      "premiers_pct": 2.0
     },
     {
       "team": "Collingwood",
