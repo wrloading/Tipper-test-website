@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-19T23:25:54.064972+00:00",
+    "updated": "2026-09-20T01:29:27.707796+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,76 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Newcastle",
-          "away": "Bournemouth",
-          "date": "2026-09-05",
-          "home_prob": 58.4,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 14.0
-        },
-        {
-          "home": "Brentford",
-          "away": "Sunderland",
-          "date": "2026-09-05",
-          "home_prob": 54.5,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 15.3
-        },
-        {
-          "home": "Brighton & Hove Albion",
-          "away": "Leeds United",
-          "date": "2026-09-05",
-          "home_prob": 60.3,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 13.4
-        },
-        {
-          "home": "Fulham",
-          "away": "Crystal Palace",
-          "date": "2026-09-05",
-          "home_prob": 49.9,
-          "winner": "Crystal Palace",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 16.8
-        },
-        {
-          "home": "Manchester City",
-          "away": "Coventry City",
-          "date": "2026-09-05",
-          "home_prob": 85.4,
-          "winner": "Manchester City",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 5.9
-        },
-        {
-          "home": "Nottingham Forest",
-          "away": "Tottenham",
-          "date": "2026-09-05",
-          "home_prob": 44.8,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 18.7
-        },
-        {
-          "home": "Hull City",
-          "away": "Aston Villa",
-          "date": "2026-09-05",
-          "home_prob": 46.9,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 17.9
-        },
-        {
           "home": "Everton",
           "away": "Manchester United",
           "date": "2026-09-06",
@@ -1394,36 +1324,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Athletic Club",
-          "away": "Atletico Madrid",
-          "date": "2026-09-05",
-          "home_prob": 42.2,
-          "winner": "Athletic Club",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 20.6
-        },
-        {
-          "home": "Vallecano",
-          "away": "Santander",
-          "date": "2026-09-05",
-          "home_prob": 48.9,
-          "winner": "Vallecano",
-          "home_score": 3,
-          "away_score": 2,
-          "draw_prob": 18.0
-        },
-        {
-          "home": "Villarreal",
-          "away": "Deportivo La Coruna",
-          "date": "2026-09-05",
-          "home_prob": 58.8,
-          "winner": "Deportivo La Coruna",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 14.6
-        },
-        {
           "home": "Valencia",
           "away": "Barcelona",
           "date": "2026-09-06",
@@ -1806,66 +1706,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Hoffenheim",
-          "away": "Borussia Dortmund",
-          "date": "2026-09-05",
-          "home_prob": 34.1,
-          "winner": "Borussia Dortmund",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 16.6
-        },
-        {
-          "home": "Bayer Leverkusen",
-          "away": "Union Berlin",
-          "date": "2026-09-05",
-          "home_prob": 79.8,
-          "winner": "Bayer Leverkusen",
-          "home_score": 4,
-          "away_score": 0,
-          "draw_prob": 7.4
-        },
-        {
-          "home": "M'gladbach",
-          "away": "Elversberg",
-          "date": "2026-09-05",
-          "home_prob": 45.4,
-          "winner": "Elversberg",
-          "home_score": 3,
-          "away_score": 4,
-          "draw_prob": 17.9
-        },
-        {
-          "home": "Paderborn",
-          "away": "Freiburg",
-          "date": "2026-09-05",
-          "home_prob": 37.9,
-          "winner": "Freiburg",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 18.7
-        },
-        {
-          "home": "Werder Bremen",
-          "away": "RB Leipzig",
-          "date": "2026-09-05",
-          "home_prob": 30.3,
-          "winner": "Werder Bremen",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 14.7
-        },
-        {
-          "home": "Schalke 04",
-          "away": "Bayern Munich",
-          "date": "2026-09-05",
-          "home_prob": 21.0,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 10.8
-        },
-        {
           "home": "Hamburg",
           "away": "Mainz",
           "date": "2026-09-06",
@@ -2137,36 +1977,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Fiorentina",
-          "away": "Torino",
-          "date": "2026-09-05",
-          "home_prob": 56.2,
-          "winner": "Torino",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 15.8
-        },
-        {
-          "home": "Inter Milan",
-          "away": "Napoli",
-          "date": "2026-09-05",
-          "home_prob": 72.8,
-          "winner": "Inter Milan",
-          "home_score": 3,
-          "away_score": 2,
-          "draw_prob": 10.2
-        },
-        {
-          "home": "AS Roma",
-          "away": "Atalanta",
-          "date": "2026-09-05",
-          "home_prob": 61.5,
-          "winner": "AS Roma",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 14.0
-        },
         {
           "home": "Frosinone",
           "away": "Venezia",
@@ -2479,36 +2289,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Lens",
-          "away": "Lorient",
-          "date": "2026-09-05",
-          "home_prob": 72.0,
-          "winner": "Lorient",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 10.2
-        },
-        {
-          "home": "Le Havre",
-          "away": "Brest",
-          "date": "2026-09-05",
-          "home_prob": 39.1,
-          "winner": "Brest",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 21.0
-        },
-        {
-          "home": "Nice",
-          "away": "Le Mans",
-          "date": "2026-09-05",
-          "home_prob": 59.3,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 14.1
-        },
         {
           "home": "Troyes",
           "away": "Strasbourg",
