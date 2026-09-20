@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-20T16:08:37.887454+00:00",
+    "updated": "2026-09-20T18:52:13.626597+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -2288,128 +2288,7 @@
         }
       ],
       "upcoming": [],
-      "recent": [
-        {
-          "home": "Troyes",
-          "away": "Strasbourg",
-          "date": "2026-09-06",
-          "home_prob": 38.2,
-          "winner": "Strasbourg",
-          "home_score": 2,
-          "away_score": 6,
-          "draw_prob": 20.5
-        },
-        {
-          "home": "Angers",
-          "away": "Rennes",
-          "date": "2026-09-06",
-          "home_prob": 28.1,
-          "winner": "Rennes",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 14.8
-        },
-        {
-          "home": "Olympique de Marseille",
-          "away": "Paris FC",
-          "date": "2026-09-06",
-          "home_prob": 53.1,
-          "winner": "Paris FC",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 16.2
-        },
-        {
-          "home": "Rennes",
-          "away": "Olympique de Marseille",
-          "date": "2026-09-11",
-          "home_prob": 54.0,
-          "winner": "Rennes",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 15.8
-        },
-        {
-          "home": "Strasbourg",
-          "away": "AS Monaco",
-          "date": "2026-09-12",
-          "home_prob": 36.5,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 19.3
-        },
-        {
-          "home": "Auxerre",
-          "away": "Nice",
-          "date": "2026-09-12",
-          "home_prob": 39.3,
-          "winner": "Auxerre",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 21.2
-        },
-        {
-          "home": "Le Havre",
-          "away": "Angers",
-          "date": "2026-09-12",
-          "home_prob": 62.0,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 13.3
-        },
-        {
-          "home": "Lorient",
-          "away": "Toulouse",
-          "date": "2026-09-12",
-          "home_prob": 46.6,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 18.4
-        },
-        {
-          "home": "Paris FC",
-          "away": "Olympique Lyonnais",
-          "date": "2026-09-12",
-          "home_prob": 47.3,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 18.2
-        },
-        {
-          "home": "Lille",
-          "away": "Troyes",
-          "date": "2026-09-13",
-          "home_prob": 79.2,
-          "winner": "Lille",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 8.0
-        },
-        {
-          "home": "Le Mans",
-          "away": "Lens",
-          "date": "2026-09-13",
-          "home_prob": 37.6,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 20.1
-        },
-        {
-          "home": "Brest",
-          "away": "Paris Saint-Germain",
-          "date": "2026-09-13",
-          "home_prob": 30.1,
-          "winner": "Paris Saint-Germain",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 15.8
-        }
-      ]
+      "recent": []
     },
     "mls": {
       "ratings": [
