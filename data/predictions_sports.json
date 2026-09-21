@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-21T18:58:47.208288+00:00",
+    "updated": "2026-09-21T22:33:29.761680+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1567,7 +1567,7 @@
           "home": "Deportivo La Coruna",
           "away": "Sevilla",
           "date": "2026-09-16",
-          "home_prob": 50.4,
+          "home_prob": 50.5,
           "winner": "Sevilla",
           "home_score": 0,
           "away_score": 1,
@@ -1759,7 +1759,7 @@
         },
         {
           "team": "Augsburg",
-          "rating": 1493.4,
+          "rating": 1493.3,
           "rank": 11
         },
         {
@@ -2051,7 +2051,7 @@
         },
         {
           "team": "Milan",
-          "rating": 1618.3,
+          "rating": 1618.2,
           "rank": 5
         },
         {
@@ -2156,7 +2156,7 @@
         },
         {
           "team": "Genoa",
-          "rating": 1424.3,
+          "rating": 1424.2,
           "rank": 26
         },
         {
@@ -2381,7 +2381,7 @@
           "home": "Parma",
           "away": "Genoa",
           "date": "2026-09-20",
-          "home_prob": 53.0,
+          "home_prob": 53.1,
           "winner": "Parma",
           "home_score": 2,
           "away_score": 1,
@@ -2453,7 +2453,7 @@
         },
         {
           "team": "Nice",
-          "rating": 1557.1,
+          "rating": 1557.0,
           "rank": 9
         },
         {
