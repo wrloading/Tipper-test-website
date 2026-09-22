@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-21T22:33:29.761680+00:00",
+    "updated": "2026-09-22T01:08:19.848687+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,26 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Getafe",
-          "away": "Celta Vigo",
-          "date": "2026-09-07",
-          "home_prob": 47.6,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 18.5
-        },
-        {
-          "home": "Elche",
-          "away": "Sociedad",
-          "date": "2026-09-07",
-          "home_prob": 36.9,
-          "winner": "Sociedad",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 20.3
-        },
-        {
           "home": "Sevilla",
           "away": "Valencia",
           "date": "2026-09-11",
@@ -2187,26 +2167,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Cagliari",
-          "away": "Lecce",
-          "date": "2026-09-07",
-          "home_prob": 56.4,
-          "winner": "Cagliari",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 15.7
-        },
-        {
-          "home": "Udinese",
-          "away": "Lazio",
-          "date": "2026-09-07",
-          "home_prob": 35.1,
-          "winner": "Lazio",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 20.4
-        },
         {
           "home": "Venezia",
           "away": "Fiorentina",
