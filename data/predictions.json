@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-27T08:10:42.997610+10:00",
+    "updated": "2026-09-27T10:40:40.969835+10:00",
     "year": 2026,
     "current_round": 29,
     "model": "TELO v2.0",
@@ -104434,7 +104434,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 31.8
+      "premiers_pct": 31.7
     },
     {
       "team": "Fremantle",
@@ -104447,7 +104447,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 23.6
+      "premiers_pct": 23.8
     },
     {
       "team": "Sydney",
@@ -104473,7 +104473,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 16.0
+      "premiers_pct": 15.7
     },
     {
       "team": "Hawthorn",
@@ -104486,7 +104486,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 4.7
+      "premiers_pct": 4.6
     },
     {
       "team": "Adelaide",
@@ -104499,7 +104499,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.5
+      "premiers_pct": 4.4
     },
     {
       "team": "Carlton",
@@ -104525,7 +104525,7 @@
       "points_for": 1901,
       "points_against": 1992,
       "finals_pct": 100.0,
-      "premiers_pct": 1.8
+      "premiers_pct": 1.9
     },
     {
       "team": "Collingwood",
