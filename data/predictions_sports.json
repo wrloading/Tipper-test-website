@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-28T21:23:43.208692+00:00",
+    "updated": "2026-09-29T01:13:59.078007+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Leeds United",
-          "away": "Newcastle",
-          "date": "2026-09-14",
-          "home_prob": 38.5,
-          "winner": "Leeds United",
-          "home_score": 4,
-          "away_score": 1,
-          "draw_prob": 19.8
-        },
-        {
           "home": "Brentford",
           "away": "Chelsea",
           "date": "2026-09-18",
@@ -1313,16 +1303,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Villarreal",
-          "away": "Real Betis",
-          "date": "2026-09-14",
-          "home_prob": 48.9,
-          "winner": "Real Betis",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 18.0
-        },
         {
           "home": "Vallecano",
           "away": "Espanyol",
@@ -1897,36 +1877,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Como",
-          "away": "Parma",
-          "date": "2026-09-14",
-          "home_prob": 66.8,
-          "winner": "Como",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 12.2
-        },
-        {
-          "home": "Torino",
-          "away": "AS Roma",
-          "date": "2026-09-14",
-          "home_prob": 33.3,
-          "winner": "AS Roma",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 19.1
-        },
-        {
-          "home": "Inter Milan",
-          "away": "Udinese",
-          "date": "2026-09-14",
-          "home_prob": 83.5,
-          "winner": "Inter Milan",
-          "home_score": 5,
-          "away_score": 3,
-          "draw_prob": 6.7
-        },
         {
           "home": "Monza",
           "away": "Sassuolo",
