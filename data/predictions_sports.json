@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-29T23:03:05.437809+00:00",
+    "updated": "2026-09-30T02:09:25.192851+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1303,36 +1303,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Vallecano",
-          "away": "Espanyol",
-          "date": "2026-09-15",
-          "home_prob": 56.2,
-          "winner": "Vallecano",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 15.5
-        },
-        {
-          "home": "Alaves",
-          "away": "Valencia",
-          "date": "2026-09-15",
-          "home_prob": 49.8,
-          "winner": "Valencia",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 17.7
-        },
-        {
-          "home": "Elche",
-          "away": "Real Madrid",
-          "date": "2026-09-15",
-          "home_prob": 19.7,
-          "winner": "Real Madrid",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 11.4
-        },
         {
           "home": "Atletico Madrid",
           "away": "Osasuna",
