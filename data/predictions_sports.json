@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-01T22:00:42.813157+00:00",
+    "updated": "2026-10-02T01:35:59.644113+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1303,26 +1303,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Real Betis",
-          "away": "Getafe",
-          "date": "2026-09-17",
-          "home_prob": 71.6,
-          "winner": "Real Betis",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 10.6
-        },
-        {
-          "home": "Malaga",
-          "away": "Villarreal",
-          "date": "2026-09-17",
-          "home_prob": 38.4,
-          "winner": "Villarreal",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 21.4
-        },
         {
           "home": "Espanyol",
           "away": "Elche",
