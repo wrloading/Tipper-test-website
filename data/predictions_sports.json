@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-02T23:13:37.416389+00:00",
+    "updated": "2026-10-03T02:02:35.524495+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Brentford",
-          "away": "Chelsea",
-          "date": "2026-09-18",
-          "home_prob": 51.7,
-          "winner": "Brentford",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 16.2
-        },
-        {
           "home": "Tottenham",
           "away": "Aston Villa",
           "date": "2026-09-19",
@@ -1304,16 +1294,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Espanyol",
-          "away": "Elche",
-          "date": "2026-09-18",
-          "home_prob": 52.8,
-          "winner": "Elche",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 16.6
-        },
-        {
           "home": "Osasuna",
           "away": "Vallecano",
           "date": "2026-09-19",
@@ -1545,16 +1525,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Bayern Munich",
-          "away": "Union Berlin",
-          "date": "2026-09-18",
-          "home_prob": 81.9,
-          "winner": "Bayern Munich",
-          "home_score": 7,
-          "away_score": 0,
-          "draw_prob": 6.8
-        },
         {
           "home": "Eintracht Frankfurt",
           "away": "Freiburg",
@@ -1798,16 +1768,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Monza",
-          "away": "Sassuolo",
-          "date": "2026-09-18",
-          "home_prob": 58.7,
-          "winner": "Monza",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 14.9
-        },
-        {
           "home": "Bologna",
           "away": "Torino",
           "date": "2026-09-19",
@@ -2049,16 +2009,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "AS Monaco",
-          "away": "Lens",
-          "date": "2026-09-18",
-          "home_prob": 55.8,
-          "winner": "AS Monaco",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 15.2
-        },
         {
           "home": "Paris FC",
           "away": "Strasbourg",
