@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-05T11:34:31.296629+11:00",
+    "updated": "2026-10-05T17:18:00.243540+11:00",
     "year": 2026,
     "current_round": 29,
     "model": "TELO v2.0",
@@ -118,13 +118,13 @@
             },
             {
               "name": "Tom McCartin",
-              "di": 17,
+              "di": 16,
               "gl": 0,
               "tk": 0,
-              "cl": 2,
+              "cl": 1,
               "ho": 0,
               "pct": 94,
-              "pi": 69
+              "pi": 61
             },
             {
               "name": "Logan McDonald",
@@ -138,13 +138,13 @@
             },
             {
               "name": "Justin McInerney",
-              "di": 31,
+              "di": 32,
               "gl": 3,
               "tk": 3,
-              "cl": 2,
+              "cl": 3,
               "ho": 0,
               "pct": 88,
-              "pi": 167
+              "pi": 175
             },
             {
               "name": "Lewis Melican",
@@ -5428,7 +5428,7 @@
               "tk": 4,
               "cl": 6,
               "ho": 0,
-              "pct": 85,
+              "pct": 84,
               "pi": 110
             },
             {
@@ -5458,7 +5458,7 @@
               "tk": 1,
               "cl": 4,
               "ho": 0,
-              "pct": 74,
+              "pct": 76,
               "pi": 110
             },
             {
@@ -5640,7 +5640,7 @@
               "tk": 3,
               "cl": 3,
               "ho": 0,
-              "pct": 74,
+              "pct": 73,
               "pi": 75
             },
             {
@@ -5750,7 +5750,7 @@
               "tk": 2,
               "cl": 1,
               "ho": 0,
-              "pct": 71,
+              "pct": 72,
               "pi": 44
             }
           ]
@@ -7202,7 +7202,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 20 Mar \u00b7 7:40pm AEDT",
           "home_fav": true,
-          "margin": 30.3,
+          "margin": 30.4,
           "home_prob": 66.8,
           "complete": true,
           "locked": true,
@@ -7314,11 +7314,11 @@
               "name": "Lachlan McAndrew",
               "di": 13,
               "gl": 0,
-              "tk": 2,
+              "tk": 1,
               "cl": 6,
               "ho": 38,
               "pct": 77,
-              "pi": 124
+              "pi": 120
             },
             {
               "name": "Max Michalanney",
@@ -8330,11 +8330,11 @@
               "name": "Xavier OHalloran",
               "di": 18,
               "gl": 0,
-              "tk": 2,
+              "tk": 1,
               "cl": 5,
               "ho": 0,
               "pct": 77,
-              "pi": 104
+              "pi": 100
             },
             {
               "name": "Clayton Oliver",
@@ -8370,11 +8370,11 @@
               "name": "Jake Stringer",
               "di": 10,
               "gl": 1,
-              "tk": 0,
+              "tk": 1,
               "cl": 0,
               "ho": 0,
               "pct": 84,
-              "pi": 45
+              "pi": 49
             },
             {
               "name": "Harvey Thomas",
@@ -8938,13 +8938,13 @@
             },
             {
               "name": "Ed Langdon",
-              "di": 22,
+              "di": 23,
               "gl": 2,
               "tk": 2,
               "cl": 0,
               "ho": 0,
               "pct": 89,
-              "pi": 133
+              "pi": 136
             },
             {
               "name": "Harvey Langford",
@@ -9048,13 +9048,13 @@
             },
             {
               "name": "Tom Sparrow",
-              "di": 13,
+              "di": 12,
               "gl": 1,
               "tk": 9,
               "cl": 1,
               "ho": 0,
               "pct": 71,
-              "pi": 99
+              "pi": 96
             },
             {
               "name": "Jack Steele",
@@ -10004,13 +10004,13 @@
             },
             {
               "name": "Harry Sheezel",
-              "di": 40,
+              "di": 39,
               "gl": 0,
               "tk": 4,
               "cl": 8,
               "ho": 0,
               "pct": 85,
-              "pi": 201
+              "pi": 198
             },
             {
               "name": "Jy Simpkin",
@@ -11079,17 +11079,17 @@
               "cl": 2,
               "ho": 0,
               "pct": 79,
-              "pi": 128
+              "pi": 130
             },
             {
               "name": "Hugo Garcia",
               "di": 12,
               "gl": 0,
-              "tk": 10,
+              "tk": 9,
               "cl": 3,
               "ho": 0,
               "pct": 75,
-              "pi": 82
+              "pi": 78
             },
             {
               "name": "Max Hall",
@@ -11175,11 +11175,11 @@
               "name": "Cooper Sharman",
               "di": 9,
               "gl": 3,
-              "tk": 1,
+              "tk": 2,
               "cl": 0,
               "ho": 0,
               "pct": 61,
-              "pi": 92
+              "pi": 96
             },
             {
               "name": "Jack Silvagni",
@@ -14708,13 +14708,13 @@
             },
             {
               "name": "Neil Erasmus",
-              "di": 21,
+              "di": 20,
               "gl": 0,
               "tk": 3,
               "cl": 2,
               "ho": 0,
               "pct": 75,
-              "pi": 102
+              "pi": 100
             },
             {
               "name": "Luke Jackson",
@@ -17261,7 +17261,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Thu 9 Apr \u00b7 7:40pm AEST",
           "home_fav": true,
-          "margin": 28.0,
+          "margin": 28.1,
           "home_prob": 65.6,
           "complete": true,
           "locked": true,
@@ -18499,23 +18499,23 @@
             },
             {
               "name": "Zac Bailey",
-              "di": 21,
+              "di": 20,
               "gl": 2,
               "tk": 5,
               "cl": 1,
               "ho": 0,
               "pct": 90,
-              "pi": 133
+              "pi": 128
             },
             {
               "name": "Jarrod Berry",
-              "di": 18,
+              "di": 19,
               "gl": 0,
               "tk": 7,
               "cl": 3,
               "ho": 0,
               "pct": 80,
-              "pi": 113
+              "pi": 117
             },
             {
               "name": "Charlie Cameron",
@@ -19345,11 +19345,11 @@
               "name": "Matt Roberts",
               "di": 25,
               "gl": 0,
-              "tk": 3,
+              "tk": 2,
               "cl": 2,
               "ho": 0,
               "pct": 86,
-              "pi": 114
+              "pi": 110
             },
             {
               "name": "Malcolm Rosas",
@@ -19395,11 +19395,11 @@
               "name": "Corey Warner",
               "di": 6,
               "gl": 1,
-              "tk": 2,
+              "tk": 3,
               "cl": 0,
               "ho": 0,
               "pct": 42,
-              "pi": 41
+              "pi": 45
             },
             {
               "name": "Sam Wicks",
@@ -20305,7 +20305,7 @@
               "cl": 0,
               "ho": 7,
               "pct": 83,
-              "pi": 85
+              "pi": 87
             },
             {
               "name": "Mark OConnor",
@@ -22456,7 +22456,7 @@
               "cl": 0,
               "ho": 1,
               "pct": 87,
-              "pi": 76
+              "pi": 78
             },
             {
               "name": "James ODonnell",
@@ -24816,7 +24816,7 @@
               "cl": 2,
               "ho": 0,
               "pct": 76,
-              "pi": 115
+              "pi": 117
             },
             {
               "name": "Hugo Ralphsmith",
@@ -30520,13 +30520,13 @@
             },
             {
               "name": "Mitch Lewis",
-              "di": 14,
+              "di": 15,
               "gl": 2,
               "tk": 2,
               "cl": 0,
               "ho": 0,
               "pct": 86,
-              "pi": 114
+              "pi": 118
             },
             {
               "name": "Connor Macdonald",
@@ -30580,13 +30580,13 @@
             },
             {
               "name": "Conor Nash",
-              "di": 22,
+              "di": 21,
               "gl": 0,
               "tk": 5,
               "cl": 6,
               "ho": 0,
               "pct": 74,
-              "pi": 120
+              "pi": 115
             },
             {
               "name": "Jai Newcombe",
@@ -31144,7 +31144,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Fri 1 May \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 80.4,
+          "margin": 80.5,
           "home_prob": 86.4,
           "complete": true,
           "locked": true,
@@ -35111,7 +35111,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 92,
-              "pi": 122
+              "pi": 123
             },
             {
               "name": "Kai Lohmann",
@@ -35625,21 +35625,21 @@
               "name": "Joe Richards",
               "di": 13,
               "gl": 0,
-              "tk": 1,
+              "tk": 2,
               "cl": 2,
               "ho": 0,
               "pct": 79,
-              "pi": 57
+              "pi": 61
             },
             {
               "name": "Jordon Sweet",
               "di": 10,
               "gl": 1,
-              "tk": 3,
+              "tk": 2,
               "cl": 3,
               "ho": 29,
               "pct": 69,
-              "pi": 107
+              "pi": 103
             },
             {
               "name": "Dante Visentini",
@@ -36023,11 +36023,11 @@
               "name": "Jacob Konstanty",
               "di": 11,
               "gl": 1,
-              "tk": 2,
+              "tk": 3,
               "cl": 1,
               "ho": 0,
               "pct": 84,
-              "pi": 58
+              "pi": 62
             },
             {
               "name": "Nick Larkey",
@@ -36063,11 +36063,11 @@
               "name": "Colby McKercher",
               "di": 25,
               "gl": 0,
-              "tk": 2,
+              "tk": 1,
               "cl": 0,
               "ho": 0,
               "pct": 84,
-              "pi": 102
+              "pi": 98
             },
             {
               "name": "Finn OSullivan",
@@ -38337,7 +38337,7 @@
               "cl": 3,
               "ho": 8,
               "pct": 83,
-              "pi": 108
+              "pi": 109
             },
             {
               "name": "Nathan Broad",
@@ -43829,7 +43829,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 88,
-              "pi": 76
+              "pi": 72
             }
           ],
           "away_lineup": [
@@ -44011,7 +44011,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 90,
-              "pi": 101
+              "pi": 100
             },
             {
               "name": "Jaxon Prior",
@@ -44565,7 +44565,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 92,
-              "pi": 60
+              "pi": 59
             },
             {
               "name": "Paul Curtis",
@@ -46199,7 +46199,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 76,
-              "pi": 43
+              "pi": 45
             },
             {
               "name": "Jack Whitlock",
@@ -46241,7 +46241,7 @@
               "cl": 0,
               "ho": 0,
               "pct": 83,
-              "pi": 58
+              "pi": 54
             },
             {
               "name": "Matt Carroll",
@@ -54609,7 +54609,7 @@
           "datetime": "Thu 11 Jun \u00b7 7:30pm AEST",
           "home_fav": false,
           "margin": 4.3,
-          "home_prob": 47.6,
+          "home_prob": 47.5,
           "complete": true,
           "locked": true,
           "home_score": 64,
@@ -58531,11 +58531,11 @@
               "name": "Joel Jeffrey",
               "di": 33,
               "gl": 0,
-              "tk": 3,
+              "tk": 2,
               "cl": 0,
               "ho": 0,
               "pct": 82,
-              "pi": 144
+              "pi": 140
             },
             {
               "name": "Ben King",
@@ -63226,7 +63226,7 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 27 Jun \u00b7 7:35pm AEST",
           "home_fav": false,
-          "margin": 43.5,
+          "margin": 43.6,
           "home_prob": 26.8,
           "complete": true,
           "locked": true,
@@ -65623,8 +65623,8 @@
           "venue": "Perth Stadium",
           "datetime": "Fri 3 Jul \u00b7 8:10pm AEST",
           "home_fav": false,
-          "margin": 98.1,
-          "home_prob": 9.5,
+          "margin": 98.2,
+          "home_prob": 9.4,
           "complete": true,
           "locked": true,
           "home_score": 74,
@@ -71367,7 +71367,7 @@
           "datetime": "Sat 11 Jul \u00b7 8:10pm AEST",
           "home_fav": true,
           "margin": 62.3,
-          "home_prob": 80.7,
+          "home_prob": 80.8,
           "complete": true,
           "locked": true,
           "home_score": 128,
@@ -71874,13 +71874,13 @@
             },
             {
               "name": "Jedd Busslinger",
-              "di": 15,
+              "di": 16,
               "gl": 0,
               "tk": 0,
               "cl": 0,
               "ho": 0,
               "pct": 100,
-              "pi": 55
+              "pi": 59
             },
             {
               "name": "Luke Cleary",
@@ -72044,13 +72044,13 @@
             },
             {
               "name": "Michael Sellwood",
-              "di": 14,
+              "di": 13,
               "gl": 0,
               "tk": 5,
               "cl": 0,
               "ho": 0,
               "pct": 80,
-              "pi": 86
+              "pi": 82
             },
             {
               "name": "Cody Weightman",
@@ -76975,11 +76975,11 @@
               "name": "Arthur Jones",
               "di": 9,
               "gl": 1,
-              "tk": 2,
+              "tk": 3,
               "cl": 0,
               "ho": 0,
               "pct": 71,
-              "pi": 48
+              "pi": 52
             },
             {
               "name": "Matthew Kennedy",
@@ -77005,11 +77005,11 @@
               "name": "Rory Lobb",
               "di": 13,
               "gl": 1,
-              "tk": 2,
+              "tk": 1,
               "cl": 1,
               "ho": 7,
               "pct": 87,
-              "pi": 98
+              "pi": 94
             },
             {
               "name": "Lachlan McNeil",
@@ -77181,11 +77181,11 @@
               "name": "Sam Durham",
               "di": 25,
               "gl": 0,
-              "tk": 2,
+              "tk": 3,
               "cl": 7,
               "ho": 0,
               "pct": 84,
-              "pi": 146
+              "pi": 150
             },
             {
               "name": "Xavier Duursma",
@@ -77331,11 +77331,11 @@
               "name": "Dyson Sharp",
               "di": 23,
               "gl": 1,
-              "tk": 5,
+              "tk": 4,
               "cl": 7,
               "ho": 0,
               "pct": 79,
-              "pi": 142
+              "pi": 138
             },
             {
               "name": "Peter Wright",
@@ -90521,7 +90521,7 @@
           "venue": "Perth Stadium",
           "datetime": "Fri 14 Aug \u00b7 8:10pm AEST",
           "home_fav": true,
-          "margin": 21.2,
+          "margin": 21.1,
           "home_prob": 61.9,
           "complete": true,
           "locked": true,
@@ -101536,8 +101536,8 @@
           "venue": "Adelaide Oval",
           "datetime": "Sat 5 Sep \u00b7 7:35pm AEST",
           "home_fav": true,
-          "margin": 31.8,
-          "home_prob": 67.5,
+          "margin": 31.9,
+          "home_prob": 67.6,
           "complete": true,
           "locked": true,
           "home_score": 90,
@@ -102771,13 +102771,13 @@
             },
             {
               "name": "Brayden Cook",
-              "di": 15,
+              "di": 14,
               "gl": 0,
               "tk": 2,
-              "cl": 1,
+              "cl": 0,
               "ho": 0,
               "pct": 82,
-              "pi": 87
+              "pi": 78
             },
             {
               "name": "Daniel Curtin",
@@ -102811,13 +102811,13 @@
             },
             {
               "name": "Hugo Hall-Kahan",
-              "di": 24,
+              "di": 25,
               "gl": 0,
               "tk": 1,
-              "cl": 0,
+              "cl": 1,
               "ho": 0,
               "pct": 81,
-              "pi": 100
+              "pi": 108
             },
             {
               "name": "Mark Keane",
@@ -104434,7 +104434,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 31.8
+      "premiers_pct": 32.2
     },
     {
       "team": "Fremantle",
@@ -104447,7 +104447,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 23.8
+      "premiers_pct": 23.6
     },
     {
       "team": "Sydney",
@@ -104473,7 +104473,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 16.0
+      "premiers_pct": 15.8
     },
     {
       "team": "Hawthorn",
@@ -104486,7 +104486,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 4.5
+      "premiers_pct": 4.6
     },
     {
       "team": "Adelaide",
@@ -104551,7 +104551,7 @@
       "points_for": 2301,
       "points_against": 2099,
       "finals_pct": 100.0,
-      "premiers_pct": 1.3
+      "premiers_pct": 1.2
     },
     {
       "team": "Greater Western Sydney",
