@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-13T00:27:25.600078+00:00",
+    "updated": "2026-10-13T07:03:04.081502+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -650,7 +650,7 @@
         },
         {
           "team": "Chelsea",
-          "rating": 1533.1,
+          "rating": 1533.2,
           "rank": 8
         },
         {
@@ -815,7 +815,7 @@
         },
         {
           "team": "Sunderland",
-          "rating": 1476.4,
+          "rating": 1476.5,
           "rank": 41
         },
         {
@@ -1499,7 +1499,7 @@
         },
         {
           "team": "Paderborn",
-          "rating": 1441.1,
+          "rating": 1441.0,
           "rank": 21
         },
         {
@@ -1918,7 +1918,7 @@
         },
         {
           "team": "Rennes",
-          "rating": 1579.6,
+          "rating": 1579.5,
           "rank": 6
         },
         {
