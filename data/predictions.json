@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-19T10:44:44.370114+11:00",
+    "updated": "2026-10-19T12:48:58.998195+11:00",
     "year": 2026,
     "current_round": 29,
     "model": "TELO v2.0",
@@ -104434,7 +104434,7 @@
       "points_for": 2499,
       "points_against": 2054,
       "finals_pct": 100.0,
-      "premiers_pct": 31.9
+      "premiers_pct": 31.6
     },
     {
       "team": "Fremantle",
@@ -104473,7 +104473,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 15.9
+      "premiers_pct": 16.1
     },
     {
       "team": "Hawthorn",
@@ -104486,7 +104486,7 @@
       "points_for": 2260,
       "points_against": 1881,
       "finals_pct": 100.0,
-      "premiers_pct": 4.6
+      "premiers_pct": 4.5
     },
     {
       "team": "Adelaide",
@@ -104551,7 +104551,7 @@
       "points_for": 2301,
       "points_against": 2099,
       "finals_pct": 100.0,
-      "premiers_pct": 1.3
+      "premiers_pct": 1.4
     },
     {
       "team": "Greater Western Sydney",
