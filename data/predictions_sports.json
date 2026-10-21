@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-21T19:32:22.155793+00:00",
+    "updated": "2026-10-21T22:42:52.809050+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1121,13 +1121,13 @@
           "rank": 6
         },
         {
-          "team": "Athletic Club",
-          "rating": 1564.5,
+          "team": "Villarreal",
+          "rating": 1561.2,
           "rank": 7
         },
         {
-          "team": "Villarreal",
-          "rating": 1561.2,
+          "team": "Athletic Club",
+          "rating": 1553.7,
           "rank": 8
         },
         {
@@ -1296,13 +1296,13 @@
           "rank": 41
         },
         {
-          "team": "Valencia",
-          "rating": 1484.5,
+          "team": "Levante",
+          "rating": 1489.9,
           "rank": 42
         },
         {
-          "team": "Levante",
-          "rating": 1479.1,
+          "team": "Valencia",
+          "rating": 1484.5,
           "rank": 43
         },
         {
@@ -1487,21 +1487,21 @@
           "home": "Levante",
           "away": "Sevilla",
           "date": "2026-10-12",
-          "home_prob": 46.6,
+          "home_prob": 48.2,
           "winner": null,
           "home_score": 3,
           "away_score": 3,
-          "draw_prob": 18.9
+          "draw_prob": 18.3
         },
         {
           "home": "Deportivo La Coruna",
           "away": "Levante",
           "date": "2026-10-16",
-          "home_prob": 55.8,
+          "home_prob": 54.3,
           "winner": null,
           "home_score": 1,
           "away_score": 1,
-          "draw_prob": 15.6
+          "draw_prob": 16.1
         },
         {
           "home": "Espanyol",
@@ -1537,11 +1537,11 @@
           "home": "Valencia",
           "away": "Athletic Club",
           "date": "2026-10-17",
-          "home_prob": 40.5,
+          "home_prob": 42.1,
           "winner": null,
           "home_score": 0,
           "away_score": 0,
-          "draw_prob": 21.3
+          "draw_prob": 20.6
         },
         {
           "home": "Osasuna",
@@ -1592,6 +1592,16 @@
           "home_score": 1,
           "away_score": 1,
           "draw_prob": 18.8
+        },
+        {
+          "home": "Levante",
+          "away": "Athletic Club",
+          "date": "2026-10-21",
+          "home_prob": 42.8,
+          "winner": "Levante",
+          "home_score": 3,
+          "away_score": 1,
+          "draw_prob": 20.3
         }
       ]
     },
