@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-22T09:42:22.087672+11:00",
+    "updated": "2026-10-22T11:58:34.184073+11:00",
     "year": 2026,
     "current_round": 29,
     "model": "TELO v2.0",
@@ -104447,7 +104447,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 23.8
+      "premiers_pct": 23.6
     },
     {
       "team": "Sydney",
@@ -104460,7 +104460,7 @@
       "points_for": 2543,
       "points_against": 1869,
       "finals_pct": 100.0,
-      "premiers_pct": 16.6
+      "premiers_pct": 16.7
     },
     {
       "team": "Geelong",
@@ -104473,7 +104473,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 15.8
+      "premiers_pct": 15.6
     },
     {
       "team": "Hawthorn",
@@ -104499,7 +104499,7 @@
       "points_for": 2169,
       "points_against": 1849,
       "finals_pct": 100.0,
-      "premiers_pct": 4.4
+      "premiers_pct": 4.5
     },
     {
       "team": "Carlton",
