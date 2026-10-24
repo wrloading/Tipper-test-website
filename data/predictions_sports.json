@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-23T23:26:25.620512+00:00",
+    "updated": "2026-10-24T01:53:50.692440+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,16 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Malaga",
-          "away": "Espanyol",
-          "date": "2026-10-09",
-          "home_prob": 54.3,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 16.1
-        },
-        {
           "home": "Alaves",
           "away": "Atletico Madrid",
           "date": "2026-10-10",
@@ -1745,16 +1735,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Borussia Dortmund",
-          "away": "Werder Bremen",
-          "date": "2026-10-09",
-          "home_prob": 76.8,
-          "winner": null,
-          "home_score": 2,
-          "away_score": 2,
-          "draw_prob": 8.3
-        },
         {
           "home": "Augsburg",
           "away": "Bayern Munich",
@@ -2439,16 +2419,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Lens",
-          "away": "Olympique Lyonnais",
-          "date": "2026-10-09",
-          "home_prob": 52.9,
-          "winner": "Lens",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 16.2
-        },
         {
           "home": "Lille",
           "away": "Le Havre",
