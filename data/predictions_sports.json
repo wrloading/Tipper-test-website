@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-27T00:32:43.785740+00:00",
+    "updated": "2026-10-27T05:33:13.293800+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1377,7 +1377,7 @@
         },
         {
           "team": "Osasuna",
-          "rating": 1425.9,
+          "rating": 1426.0,
           "rank": 58
         },
         {
