@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-29T08:38:02.146428+00:00",
+    "updated": "2026-10-29T15:38:30.333394+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1941,52 +1941,52 @@
       "ratings": [
         {
           "team": "Inter Milan",
-          "rating": 1788.3,
+          "rating": 1791.7,
           "rank": 1
         },
         {
           "team": "AS Roma",
-          "rating": 1675.3,
+          "rating": 1678.3,
           "rank": 2
         },
         {
           "team": "Lazio",
-          "rating": 1650.9,
+          "rating": 1660.7,
           "rank": 3
         },
         {
           "team": "Juventus",
-          "rating": 1646.4,
+          "rating": 1631.7,
           "rank": 4
         },
         {
-          "team": "Milan",
-          "rating": 1632.1,
+          "team": "Napoli",
+          "rating": 1623.4,
           "rank": 5
         },
         {
-          "team": "Napoli",
-          "rating": 1611.1,
+          "team": "Milan",
+          "rating": 1616.9,
           "rank": 6
+        },
+        {
+          "team": "Bologna",
+          "rating": 1596.6,
+          "rank": 7
         },
         {
           "team": "Atalanta",
           "rating": 1594.8,
-          "rank": 7
-        },
-        {
-          "team": "Bologna",
-          "rating": 1581.4,
           "rank": 8
         },
         {
           "team": "Como",
-          "rating": 1563.0,
+          "rating": 1576.2,
           "rank": 9
         },
         {
           "team": "Torino",
-          "rating": 1543.1,
+          "rating": 1529.9,
           "rank": 10
         },
         {
@@ -1995,13 +1995,13 @@
           "rank": 11
         },
         {
-          "team": "Monza",
-          "rating": 1481.4,
+          "team": "Frosinone",
+          "rating": 1480.4,
           "rank": 12
         },
         {
-          "team": "Frosinone",
-          "rating": 1480.4,
+          "team": "Monza",
+          "rating": 1469.1,
           "rank": 13
         },
         {
@@ -2025,33 +2025,33 @@
           "rank": 17
         },
         {
-          "team": "Cagliari",
-          "rating": 1448.5,
+          "team": "Genoa",
+          "rating": 1448.6,
           "rank": 18
+        },
+        {
+          "team": "Cagliari",
+          "rating": 1445.5,
+          "rank": 19
         },
         {
           "team": "Crotone",
           "rating": 1445.4,
-          "rank": 19
+          "rank": 20
         },
         {
           "team": "Lecce",
           "rating": 1443.1,
-          "rank": 20
+          "rank": 21
         },
         {
           "team": "Spal",
           "rating": 1442.9,
-          "rank": 21
+          "rank": 22
         },
         {
           "team": "Pisa",
           "rating": 1441.1,
-          "rank": 22
-        },
-        {
-          "team": "Genoa",
-          "rating": 1433.9,
           "rank": 23
         },
         {
@@ -2065,23 +2065,23 @@
           "rank": 25
         },
         {
-          "team": "Sassuolo",
-          "rating": 1417.2,
-          "rank": 26
-        },
-        {
           "team": "Parma",
           "rating": 1415.8,
-          "rank": 27
+          "rank": 26
         },
         {
           "team": "Verona",
           "rating": 1410.1,
+          "rank": 27
+        },
+        {
+          "team": "Sassuolo",
+          "rating": 1407.4,
           "rank": 28
         },
         {
           "team": "Venezia",
-          "rating": 1405.2,
+          "rating": 1401.7,
           "rank": 29
         },
         {
@@ -2101,41 +2101,41 @@
           "home": "Frosinone",
           "away": "Sassuolo",
           "date": "2026-10-16",
-          "home_prob": 60.6,
+          "home_prob": 62.0,
           "winner": "Frosinone",
           "home_score": 4,
           "away_score": 2,
-          "draw_prob": 14.3
+          "draw_prob": 13.8
         },
         {
           "home": "Venezia",
           "away": "Napoli",
           "date": "2026-10-17",
-          "home_prob": 28.4,
+          "home_prob": 27.0,
           "winner": "Venezia",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 16.1
+          "draw_prob": 15.3
         },
         {
           "home": "Bologna",
           "away": "Inter Milan",
           "date": "2026-10-17",
-          "home_prob": 28.4,
+          "home_prob": 29.4,
           "winner": "Inter Milan",
           "home_score": 1,
           "away_score": 3,
-          "draw_prob": 16.1
+          "draw_prob": 16.7
         },
         {
           "home": "AS Roma",
           "away": "Genoa",
           "date": "2026-10-17",
-          "home_prob": 80.3,
+          "home_prob": 79.3,
           "winner": "AS Roma",
           "home_score": 2,
           "away_score": 0,
-          "draw_prob": 7.7
+          "draw_prob": 8.1
         },
         {
           "home": "Udinese",
@@ -2151,111 +2151,111 @@
           "home": "Fiorentina",
           "away": "Como",
           "date": "2026-10-18",
-          "home_prob": 46.7,
+          "home_prob": 44.7,
           "winner": "Como",
           "home_score": 1,
           "away_score": 3,
-          "draw_prob": 19.5
+          "draw_prob": 20.3
         },
         {
           "home": "Milan",
           "away": "Atalanta",
           "date": "2026-10-18",
-          "home_prob": 57.0,
+          "home_prob": 54.9,
           "winner": "Milan",
           "home_score": 3,
           "away_score": 2,
-          "draw_prob": 15.5
+          "draw_prob": 16.3
         },
         {
           "home": "Juventus",
           "away": "Lazio",
           "date": "2026-10-18",
-          "home_prob": 51.0,
+          "home_prob": 47.4,
           "winner": "Lazio",
           "home_score": 0,
           "away_score": 3,
-          "draw_prob": 17.8
+          "draw_prob": 19.2
         },
         {
           "home": "Monza",
           "away": "Cagliari",
           "date": "2026-10-19",
-          "home_prob": 56.4,
+          "home_prob": 55.1,
           "winner": "Monza",
           "home_score": 4,
           "away_score": 0,
-          "draw_prob": 15.8
+          "draw_prob": 16.2
         },
         {
           "home": "Parma",
           "away": "Torino",
           "date": "2026-10-19",
-          "home_prob": 35.4,
+          "home_prob": 36.5,
           "winner": "Torino",
           "home_score": 0,
           "away_score": 3,
-          "draw_prob": 20.6
+          "draw_prob": 21.5
         },
         {
           "home": "Torino",
           "away": "Monza",
           "date": "2026-10-23",
-          "home_prob": 60.4,
+          "home_prob": 60.3,
           "winner": "Torino",
           "home_score": 3,
           "away_score": 2,
-          "draw_prob": 14.3
+          "draw_prob": 14.4
         },
         {
           "home": "Cagliari",
           "away": "Bologna",
           "date": "2026-10-24",
-          "home_prob": 35.0,
+          "home_prob": 33.4,
           "winner": "Bologna",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 20.3
+          "draw_prob": 19.2
         },
         {
           "home": "Como",
           "away": "Sassuolo",
           "date": "2026-10-24",
-          "home_prob": 70.9,
+          "home_prob": 73.5,
           "winner": "Como",
           "home_score": 2,
           "away_score": 0,
-          "draw_prob": 10.8
+          "draw_prob": 10.0
         },
         {
           "home": "Napoli",
           "away": "AS Roma",
           "date": "2026-10-24",
-          "home_prob": 42.2,
+          "home_prob": 43.6,
           "winner": null,
           "home_score": 3,
           "away_score": 3,
-          "draw_prob": 21.4
+          "draw_prob": 20.8
         },
         {
           "home": "Lazio",
           "away": "Parma",
           "date": "2026-10-24",
-          "home_prob": 79.8,
+          "home_prob": 80.6,
           "winner": "Lazio",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 7.9
+          "draw_prob": 7.6
         },
         {
           "home": "Inter Milan",
           "away": "Fiorentina",
           "date": "2026-10-25",
-          "home_prob": 81.8,
+          "home_prob": 82.1,
           "winner": "Inter Milan",
           "home_score": 2,
           "away_score": 1,
-          "draw_prob": 7.3
+          "draw_prob": 7.2
         },
         {
           "home": "Atalanta",
@@ -2271,31 +2271,111 @@
           "home": "Genoa",
           "away": "Venezia",
           "date": "2026-10-25",
-          "home_prob": 55.8,
+          "home_prob": 58.4,
           "winner": "Genoa",
           "home_score": 1,
           "away_score": 0,
-          "draw_prob": 16.0
+          "draw_prob": 15.1
         },
         {
           "home": "Lecce",
           "away": "Juventus",
           "date": "2026-10-25",
-          "home_prob": 28.7,
+          "home_prob": 30.0,
           "winner": "Juventus",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 16.3
+          "draw_prob": 17.0
         },
         {
           "home": "Udinese",
           "away": "Milan",
           "date": "2026-10-25",
-          "home_prob": 31.7,
+          "home_prob": 33.0,
           "winner": "Milan",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 18.1
+          "draw_prob": 18.9
+        },
+        {
+          "home": "Sassuolo",
+          "away": "Lazio",
+          "date": "2026-10-27",
+          "home_prob": 24.2,
+          "winner": "Lazio",
+          "home_score": 2,
+          "away_score": 6,
+          "draw_prob": 13.8
+        },
+        {
+          "home": "AS Roma",
+          "away": "Cagliari",
+          "date": "2026-10-27",
+          "home_prob": 79.6,
+          "winner": "AS Roma",
+          "home_score": 4,
+          "away_score": 2,
+          "draw_prob": 8.0
+        },
+        {
+          "home": "Torino",
+          "away": "Como",
+          "date": "2026-10-27",
+          "home_prob": 44.9,
+          "winner": "Como",
+          "home_score": 1,
+          "away_score": 3,
+          "draw_prob": 20.2
+        },
+        {
+          "home": "Milan",
+          "away": "Bologna",
+          "date": "2026-10-28",
+          "home_prob": 54.6,
+          "winner": "Bologna",
+          "home_score": 2,
+          "away_score": 4,
+          "draw_prob": 16.4
+        },
+        {
+          "home": "Parma",
+          "away": "Udinese",
+          "date": "2026-10-28",
+          "home_prob": 44.9,
+          "winner": null,
+          "home_score": 0,
+          "away_score": 0,
+          "draw_prob": 20.2
+        },
+        {
+          "home": "Venezia",
+          "away": "Inter Milan",
+          "date": "2026-10-28",
+          "home_prob": 13.8,
+          "winner": "Inter Milan",
+          "home_score": 0,
+          "away_score": 2,
+          "draw_prob": 8.6
+        },
+        {
+          "home": "Genoa",
+          "away": "Juventus",
+          "date": "2026-10-28",
+          "home_prob": 30.5,
+          "winner": "Genoa",
+          "home_score": 2,
+          "away_score": 0,
+          "draw_prob": 17.3
+        },
+        {
+          "home": "Monza",
+          "away": "Napoli",
+          "date": "2026-10-28",
+          "home_prob": 33.1,
+          "winner": "Napoli",
+          "home_score": 1,
+          "away_score": 4,
+          "draw_prob": 19.0
         }
       ]
     },
