@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-29T20:41:53.272009+00:00",
+    "updated": "2026-10-30T00:28:46.220078+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1996,7 +1996,7 @@
         },
         {
           "team": "Frosinone",
-          "rating": 1480.4,
+          "rating": 1490.9,
           "rank": 12
         },
         {
@@ -2040,18 +2040,18 @@
           "rank": 20
         },
         {
-          "team": "Lecce",
-          "rating": 1443.1,
-          "rank": 21
-        },
-        {
           "team": "Spal",
           "rating": 1442.9,
-          "rank": 22
+          "rank": 21
         },
         {
           "team": "Pisa",
           "rating": 1441.1,
+          "rank": 22
+        },
+        {
+          "team": "Lecce",
+          "rating": 1432.7,
           "rank": 23
         },
         {
@@ -2101,11 +2101,11 @@
           "home": "Frosinone",
           "away": "Sassuolo",
           "date": "2026-10-16",
-          "home_prob": 62.0,
+          "home_prob": 63.3,
           "winner": "Frosinone",
           "home_score": 4,
           "away_score": 2,
-          "draw_prob": 13.8
+          "draw_prob": 13.3
         },
         {
           "home": "Venezia",
@@ -2141,11 +2141,11 @@
           "home": "Udinese",
           "away": "Lecce",
           "date": "2026-10-18",
-          "home_prob": 54.4,
+          "home_prob": 55.9,
           "winner": "Lecce",
           "home_score": 0,
           "away_score": 3,
-          "draw_prob": 16.5
+          "draw_prob": 15.9
         },
         {
           "home": "Fiorentina",
@@ -2261,11 +2261,11 @@
           "home": "Atalanta",
           "away": "Frosinone",
           "date": "2026-10-25",
-          "home_prob": 67.2,
+          "home_prob": 66.0,
           "winner": null,
           "home_score": 4,
           "away_score": 4,
-          "draw_prob": 12.0
+          "draw_prob": 12.5
         },
         {
           "home": "Genoa",
@@ -2281,11 +2281,11 @@
           "home": "Lecce",
           "away": "Juventus",
           "date": "2026-10-25",
-          "home_prob": 30.0,
+          "home_prob": 29.1,
           "winner": "Juventus",
           "home_score": 0,
           "away_score": 2,
-          "draw_prob": 17.0
+          "draw_prob": 16.5
         },
         {
           "home": "Udinese",
@@ -2376,6 +2376,26 @@
           "home_score": 1,
           "away_score": 4,
           "draw_prob": 19.0
+        },
+        {
+          "home": "Frosinone",
+          "away": "Lecce",
+          "date": "2026-10-29",
+          "home_prob": 59.9,
+          "winner": "Frosinone",
+          "home_score": 5,
+          "away_score": 1,
+          "draw_prob": 14.5
+        },
+        {
+          "home": "Fiorentina",
+          "away": "Atalanta",
+          "date": "2026-10-29",
+          "home_prob": 42.0,
+          "winner": null,
+          "home_score": 2,
+          "away_score": 2,
+          "draw_prob": 21.5
         }
       ]
     },
