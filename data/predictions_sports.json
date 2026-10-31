@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-30T22:53:27.579428+00:00",
+    "updated": "2026-10-31T02:09:00.292554+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,16 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Deportivo La Coruna",
-          "away": "Levante",
-          "date": "2026-10-16",
-          "home_prob": 54.4,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 16.1
-        },
-        {
           "home": "Espanyol",
           "away": "Atletico Madrid",
           "date": "2026-10-17",
@@ -1756,16 +1746,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Eintracht Frankfurt",
-          "away": "FC Koln",
-          "date": "2026-10-16",
-          "home_prob": 66.0,
-          "winner": "Eintracht Frankfurt",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 11.4
-        },
-        {
           "home": "Elversberg",
           "away": "Augsburg",
           "date": "2026-10-17",
@@ -2097,16 +2077,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Frosinone",
-          "away": "Sassuolo",
-          "date": "2026-10-16",
-          "home_prob": 63.3,
-          "winner": "Frosinone",
-          "home_score": 4,
-          "away_score": 2,
-          "draw_prob": 13.3
-        },
         {
           "home": "Venezia",
           "away": "Napoli",
@@ -2549,16 +2519,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Le Mans",
-          "away": "Toulouse",
-          "date": "2026-10-16",
-          "home_prob": 48.5,
-          "winner": "Toulouse",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 17.7
-        },
         {
           "home": "Strasbourg",
           "away": "Paris Saint-Germain",
