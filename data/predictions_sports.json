@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-01T23:01:03.512992+00:00",
+    "updated": "2026-11-02T02:21:43.997043+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,46 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Bournemouth",
-          "away": "Sunderland",
-          "date": "2026-10-18",
-          "home_prob": 59.1,
-          "winner": "Bournemouth",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 13.8
-        },
-        {
-          "home": "Brighton & Hove Albion",
-          "away": "Crystal Palace",
-          "date": "2026-10-18",
-          "home_prob": 65.2,
-          "winner": "Brighton & Hove Albion",
-          "home_score": 5,
-          "away_score": 0,
-          "draw_prob": 11.9
-        },
-        {
-          "home": "Leeds United",
-          "away": "Manchester United",
-          "date": "2026-10-18",
-          "home_prob": 39.1,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 20.2
-        },
-        {
-          "home": "Nottingham Forest",
-          "away": "Arsenal",
-          "date": "2026-10-18",
-          "home_prob": 24.9,
-          "winner": "Arsenal",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 12.8
-        },
-        {
           "home": "Tottenham",
           "away": "Coventry City",
           "date": "2026-10-19",
@@ -1354,46 +1314,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Osasuna",
-          "away": "Santander",
-          "date": "2026-10-18",
-          "home_prob": 45.5,
-          "winner": "Osasuna",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 19.3
-        },
-        {
-          "home": "Celta Vigo",
-          "away": "Alaves",
-          "date": "2026-10-18",
-          "home_prob": 53.9,
-          "winner": "Celta Vigo",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 16.2
-        },
-        {
-          "home": "Malaga",
-          "away": "Sociedad",
-          "date": "2026-10-18",
-          "home_prob": 36.3,
-          "winner": "Sociedad",
-          "home_score": 2,
-          "away_score": 5,
-          "draw_prob": 20.0
-        },
-        {
-          "home": "Real Madrid",
-          "away": "Sevilla",
-          "date": "2026-10-18",
-          "home_prob": 79.7,
-          "winner": "Real Madrid",
-          "home_score": 4,
-          "away_score": 1,
-          "draw_prob": 8.0
-        },
-        {
           "home": "Getafe",
           "away": "Vallecano",
           "date": "2026-10-19",
@@ -1656,26 +1576,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Bayer Leverkusen",
-          "away": "Freiburg",
-          "date": "2026-10-18",
-          "home_prob": 71.4,
-          "winner": "Bayer Leverkusen",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 9.8
-        },
-        {
-          "home": "M'gladbach",
-          "away": "Hoffenheim",
-          "date": "2026-10-18",
-          "home_prob": 44.2,
-          "winner": "Hoffenheim",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 18.4
-        },
-        {
           "home": "Stuttgart",
           "away": "M'gladbach",
           "date": "2026-10-23",
@@ -1927,46 +1827,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Udinese",
-          "away": "Lecce",
-          "date": "2026-10-18",
-          "home_prob": 55.9,
-          "winner": "Lecce",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 15.9
-        },
-        {
-          "home": "Fiorentina",
-          "away": "Como",
-          "date": "2026-10-18",
-          "home_prob": 44.7,
-          "winner": "Como",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 20.3
-        },
-        {
-          "home": "Milan",
-          "away": "Atalanta",
-          "date": "2026-10-18",
-          "home_prob": 54.9,
-          "winner": "Milan",
-          "home_score": 3,
-          "away_score": 2,
-          "draw_prob": 16.3
-        },
-        {
-          "home": "Juventus",
-          "away": "Lazio",
-          "date": "2026-10-18",
-          "home_prob": 47.4,
-          "winner": "Lazio",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 19.2
-        },
         {
           "home": "Monza",
           "away": "Cagliari",
@@ -2339,56 +2199,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Angers",
-          "away": "Olympique de Marseille",
-          "date": "2026-10-18",
-          "home_prob": 27.5,
-          "winner": "Olympique de Marseille",
-          "home_score": 2,
-          "away_score": 5,
-          "draw_prob": 14.5
-        },
-        {
-          "home": "Le Havre",
-          "away": "Auxerre",
-          "date": "2026-10-18",
-          "home_prob": 44.5,
-          "winner": "Auxerre",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 19.2
-        },
-        {
-          "home": "Lorient",
-          "away": "AS Monaco",
-          "date": "2026-10-18",
-          "home_prob": 32.6,
-          "winner": "Lorient",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 17.1
-        },
-        {
-          "home": "Paris FC",
-          "away": "Rennes",
-          "date": "2026-10-18",
-          "home_prob": 48.2,
-          "winner": "Paris FC",
-          "home_score": 4,
-          "away_score": 3,
-          "draw_prob": 17.9
-        },
-        {
-          "home": "Olympique Lyonnais",
-          "away": "Nice",
-          "date": "2026-10-18",
-          "home_prob": 56.1,
-          "winner": "Olympique Lyonnais",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 15.1
-        },
         {
           "home": "Brest",
           "away": "Nice",
