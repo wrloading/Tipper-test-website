@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-02T20:04:51.168652+00:00",
+    "updated": "2026-11-03T02:23:05.476956+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Tottenham",
-          "away": "Coventry City",
-          "date": "2026-10-19",
-          "home_prob": 61.7,
-          "winner": "Tottenham",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 13.0
-        },
-        {
           "home": "Ipswich Town",
           "away": "Nottingham Forest",
           "date": "2026-10-23",
@@ -1010,7 +1000,7 @@
           "home": "Bournemouth",
           "away": "Leeds United",
           "date": "2026-10-31",
-          "home_prob": 60.4,
+          "home_prob": 60.5,
           "winner": "Bournemouth",
           "home_score": 2,
           "away_score": 0,
@@ -1102,7 +1092,7 @@
         },
         {
           "team": "Atletico Madrid",
-          "rating": 1661.4,
+          "rating": 1661.5,
           "rank": 3
         },
         {
@@ -1127,7 +1117,7 @@
         },
         {
           "team": "Villarreal",
-          "rating": 1557.4,
+          "rating": 1557.5,
           "rank": 8
         },
         {
@@ -1404,16 +1394,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Getafe",
-          "away": "Vallecano",
-          "date": "2026-10-19",
-          "home_prob": 48.3,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 18.2
-        },
-        {
           "home": "Levante",
           "away": "Athletic Club",
           "date": "2026-10-21",
@@ -1649,7 +1629,7 @@
         },
         {
           "team": "Eintracht Frankfurt",
-          "rating": 1521.9,
+          "rating": 1521.8,
           "rank": 7
         },
         {
@@ -2097,26 +2077,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Monza",
-          "away": "Cagliari",
-          "date": "2026-10-19",
-          "home_prob": 55.0,
-          "winner": "Monza",
-          "home_score": 4,
-          "away_score": 0,
-          "draw_prob": 16.3
-        },
-        {
-          "home": "Parma",
-          "away": "Torino",
-          "date": "2026-10-19",
-          "home_prob": 37.3,
-          "winner": "Torino",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 22.1
-        },
         {
           "home": "Torino",
           "away": "Monza",
