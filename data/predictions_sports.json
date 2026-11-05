@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-04T23:24:10.725559+00:00",
+    "updated": "2026-11-05T03:41:49.860271+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1403,16 +1403,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Levante",
-          "away": "Athletic Club",
-          "date": "2026-10-21",
-          "home_prob": 39.2,
-          "winner": "Levante",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 21.8
-        },
         {
           "home": "Alaves",
           "away": "Malaga",
