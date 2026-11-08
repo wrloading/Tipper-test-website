@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-07T21:57:19.127895+00:00",
+    "updated": "2026-11-08T01:13:34.953752+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,46 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Aston Villa",
-          "away": "Manchester City",
-          "date": "2026-10-24",
-          "home_prob": 28.4,
-          "winner": "Aston Villa",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 14.4
-        },
-        {
-          "home": "Arsenal",
-          "away": "Everton",
-          "date": "2026-10-24",
-          "home_prob": 81.6,
-          "winner": "Arsenal",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 7.1
-        },
-        {
-          "home": "Coventry City",
-          "away": "Fulham",
-          "date": "2026-10-24",
-          "home_prob": 50.9,
-          "winner": "Fulham",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 16.5
-        },
-        {
-          "home": "Chelsea",
-          "away": "Tottenham",
-          "date": "2026-10-24",
-          "home_prob": 48.9,
-          "winner": "Tottenham",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 17.2
-        },
-        {
           "home": "Crystal Palace",
           "away": "Newcastle",
           "date": "2026-10-25",
@@ -1394,46 +1354,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Vallecano",
-          "away": "Elche",
-          "date": "2026-10-24",
-          "home_prob": 54.4,
-          "winner": "Elche",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 16.1
-        },
-        {
-          "home": "Santander",
-          "away": "Espanyol",
-          "date": "2026-10-24",
-          "home_prob": 55.3,
-          "winner": "Santander",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 15.8
-        },
-        {
-          "home": "Valencia",
-          "away": "Villarreal",
-          "date": "2026-10-24",
-          "home_prob": 41.7,
-          "winner": "Villarreal",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 20.8
-        },
-        {
-          "home": "Atletico Madrid",
-          "away": "Deportivo La Coruna",
-          "date": "2026-10-24",
-          "home_prob": 72.0,
-          "winner": "Atletico Madrid",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 10.4
-        },
-        {
           "home": "Athletic Club",
           "away": "Getafe",
           "date": "2026-10-25",
@@ -1726,66 +1646,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Augsburg",
-          "away": "Union Berlin",
-          "date": "2026-10-24",
-          "home_prob": 55.2,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 14.7
-        },
-        {
-          "home": "FC Koln",
-          "away": "Schalke 04",
-          "date": "2026-10-24",
-          "home_prob": 54.1,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 15.0
-        },
-        {
-          "home": "Mainz",
-          "away": "Werder Bremen",
-          "date": "2026-10-24",
-          "home_prob": 53.6,
-          "winner": "Werder Bremen",
-          "home_score": 2,
-          "away_score": 3,
-          "draw_prob": 15.2
-        },
-        {
-          "home": "Paderborn",
-          "away": "Hamburg",
-          "date": "2026-10-24",
-          "home_prob": 49.7,
-          "winner": "Paderborn",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 16.5
-        },
-        {
-          "home": "RB Leipzig",
-          "away": "Elversberg",
-          "date": "2026-10-24",
-          "home_prob": 70.0,
-          "winner": "RB Leipzig",
-          "home_score": 4,
-          "away_score": 0,
-          "draw_prob": 10.3
-        },
-        {
-          "home": "Borussia Dortmund",
-          "away": "Eintracht Frankfurt",
-          "date": "2026-10-24",
-          "home_prob": 70.6,
-          "winner": "Borussia Dortmund",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 10.1
-        },
-        {
           "home": "Hoffenheim",
           "away": "Bayer Leverkusen",
           "date": "2026-10-25",
@@ -2057,46 +1917,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Cagliari",
-          "away": "Bologna",
-          "date": "2026-10-24",
-          "home_prob": 32.9,
-          "winner": "Bologna",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 18.9
-        },
-        {
-          "home": "Como",
-          "away": "Sassuolo",
-          "date": "2026-10-24",
-          "home_prob": 74.8,
-          "winner": "Como",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 9.6
-        },
-        {
-          "home": "Napoli",
-          "away": "AS Roma",
-          "date": "2026-10-24",
-          "home_prob": 41.1,
-          "winner": null,
-          "home_score": 3,
-          "away_score": 3,
-          "draw_prob": 21.9
-        },
-        {
-          "home": "Lazio",
-          "away": "Parma",
-          "date": "2026-10-24",
-          "home_prob": 78.8,
-          "winner": "Lazio",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 8.2
-        },
         {
           "home": "Inter Milan",
           "away": "Fiorentina",
@@ -2499,16 +2319,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Lens",
-          "away": "Paris FC",
-          "date": "2026-10-24",
-          "home_prob": 57.5,
-          "winner": "Lens",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 14.7
-        },
         {
           "home": "AS Monaco",
           "away": "Lille",
