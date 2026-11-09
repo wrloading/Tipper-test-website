@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-08T22:49:45.693788+00:00",
+    "updated": "2026-11-09T02:30:36.430053+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,56 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Crystal Palace",
-          "away": "Newcastle",
-          "date": "2026-10-25",
-          "home_prob": 39.4,
-          "winner": "Newcastle",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 20.5
-        },
-        {
-          "home": "Hull City",
-          "away": "Brentford",
-          "date": "2026-10-25",
-          "home_prob": 48.9,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 17.2
-        },
-        {
-          "home": "Liverpool",
-          "away": "Brighton & Hove Albion",
-          "date": "2026-10-25",
-          "home_prob": 63.7,
-          "winner": "Liverpool",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 12.4
-        },
-        {
-          "home": "Manchester United",
-          "away": "Bournemouth",
-          "date": "2026-10-25",
-          "home_prob": 54.0,
-          "winner": "Bournemouth",
-          "home_score": 0,
-          "away_score": 3,
-          "draw_prob": 15.4
-        },
-        {
-          "home": "Sunderland",
-          "away": "Leeds United",
-          "date": "2026-10-25",
-          "home_prob": 50.5,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 16.6
-        },
-        {
           "home": "Chelsea",
           "away": "Manchester United",
           "date": "2026-10-31",
@@ -1354,46 +1304,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Athletic Club",
-          "away": "Getafe",
-          "date": "2026-10-25",
-          "home_prob": 69.2,
-          "winner": "Athletic Club",
-          "home_score": 4,
-          "away_score": 0,
-          "draw_prob": 11.3
-        },
-        {
-          "home": "Celta Vigo",
-          "away": "Real Betis",
-          "date": "2026-10-25",
-          "home_prob": 36.2,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 19.9
-        },
-        {
-          "home": "Sociedad",
-          "away": "Levante",
-          "date": "2026-10-25",
-          "home_prob": 64.4,
-          "winner": "Sociedad",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 12.8
-        },
-        {
-          "home": "Barcelona",
-          "away": "Real Madrid",
-          "date": "2026-10-25",
-          "home_prob": 50.1,
-          "winner": "Real Madrid",
-          "home_score": 1,
-          "away_score": 2,
-          "draw_prob": 17.6
-        },
-        {
           "home": "Sevilla",
           "away": "Osasuna",
           "date": "2026-10-26",
@@ -1646,26 +1556,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Hoffenheim",
-          "away": "Bayer Leverkusen",
-          "date": "2026-10-25",
-          "home_prob": 31.9,
-          "winner": "Hoffenheim",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 15.5
-        },
-        {
-          "home": "Freiburg",
-          "away": "Bayern Munich",
-          "date": "2026-10-25",
-          "home_prob": 30.8,
-          "winner": "Bayern Munich",
-          "home_score": 1,
-          "away_score": 3,
-          "draw_prob": 15.0
-        },
-        {
           "home": "Elversberg",
           "away": "Mainz",
           "date": "2026-10-30",
@@ -1917,56 +1807,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Inter Milan",
-          "away": "Fiorentina",
-          "date": "2026-10-25",
-          "home_prob": 80.2,
-          "winner": "Inter Milan",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 7.8
-        },
-        {
-          "home": "Atalanta",
-          "away": "Frosinone",
-          "date": "2026-10-25",
-          "home_prob": 61.8,
-          "winner": null,
-          "home_score": 4,
-          "away_score": 4,
-          "draw_prob": 13.9
-        },
-        {
-          "home": "Genoa",
-          "away": "Venezia",
-          "date": "2026-10-25",
-          "home_prob": 59.9,
-          "winner": "Genoa",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 14.5
-        },
-        {
-          "home": "Lecce",
-          "away": "Juventus",
-          "date": "2026-10-25",
-          "home_prob": 27.6,
-          "winner": "Juventus",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 15.6
-        },
-        {
-          "home": "Udinese",
-          "away": "Milan",
-          "date": "2026-10-25",
-          "home_prob": 31.0,
-          "winner": "Milan",
-          "home_score": 0,
-          "away_score": 2,
-          "draw_prob": 17.6
-        },
         {
           "home": "Sassuolo",
           "away": "Lazio",
@@ -2319,66 +2159,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "AS Monaco",
-          "away": "Lille",
-          "date": "2026-10-25",
-          "home_prob": 47.4,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 18.1
-        },
-        {
-          "home": "Angers",
-          "away": "Lorient",
-          "date": "2026-10-25",
-          "home_prob": 40.3,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 20.9
-        },
-        {
-          "home": "Auxerre",
-          "away": "Le Mans",
-          "date": "2026-10-25",
-          "home_prob": 51.2,
-          "winner": null,
-          "home_score": 1,
-          "away_score": 1,
-          "draw_prob": 16.8
-        },
-        {
-          "home": "Olympique de Marseille",
-          "away": "Le Havre",
-          "date": "2026-10-25",
-          "home_prob": 73.2,
-          "winner": "Olympique de Marseille",
-          "home_score": 4,
-          "away_score": 3,
-          "draw_prob": 9.8
-        },
-        {
-          "home": "Rennes",
-          "away": "Strasbourg",
-          "date": "2026-10-25",
-          "home_prob": 62.5,
-          "winner": "Rennes",
-          "home_score": 3,
-          "away_score": 0,
-          "draw_prob": 13.1
-        },
-        {
-          "home": "Toulouse",
-          "away": "Troyes",
-          "date": "2026-10-25",
-          "home_prob": 65.9,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 12.1
-        },
         {
           "home": "Paris Saint-Germain",
           "away": "Olympique Lyonnais",
