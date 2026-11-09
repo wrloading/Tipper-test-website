@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-09T21:12:57.413704+11:00",
+    "updated": "2026-11-10T07:47:58.746332+11:00",
     "year": 2026,
     "current_round": 29,
     "model": "TELO v2.0",
@@ -104447,7 +104447,7 @@
       "points_for": 2286,
       "points_against": 1666,
       "finals_pct": 100.0,
-      "premiers_pct": 23.8
+      "premiers_pct": 24.1
     },
     {
       "team": "Sydney",
@@ -104473,7 +104473,7 @@
       "points_for": 2355,
       "points_against": 1925,
       "finals_pct": 100.0,
-      "premiers_pct": 16.0
+      "premiers_pct": 15.8
     },
     {
       "team": "Hawthorn",
