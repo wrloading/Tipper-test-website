@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-09T20:48:33.553012+00:00",
+    "updated": "2026-11-10T03:01:56.813387+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,16 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Sevilla",
-          "away": "Osasuna",
-          "date": "2026-10-26",
-          "home_prob": 64.3,
-          "winner": "Sevilla",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 12.9
-        },
-        {
           "home": "Villarreal",
           "away": "Espanyol",
           "date": "2026-10-30",
@@ -2549,16 +2539,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Paris Saint-Germain",
-          "away": "Olympique Lyonnais",
-          "date": "2026-10-26",
-          "home_prob": 72.8,
-          "winner": "Paris Saint-Germain",
-          "home_score": 2,
-          "away_score": 0,
-          "draw_prob": 10.0
-        },
         {
           "home": "Le Havre",
           "away": "Paris Saint-Germain",
