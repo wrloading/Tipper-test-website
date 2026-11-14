@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-13T23:38:46.121853+00:00",
+    "updated": "2026-11-14T03:39:49.164652+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -1404,16 +1404,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Villarreal",
-          "away": "Espanyol",
-          "date": "2026-10-30",
-          "home_prob": 68.0,
-          "winner": "Espanyol",
-          "home_score": 0,
-          "away_score": 1,
-          "draw_prob": 11.7
-        },
-        {
           "home": "Levante",
           "away": "Atletico Madrid",
           "date": "2026-10-31",
@@ -1745,16 +1735,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Elversberg",
-          "away": "Mainz",
-          "date": "2026-10-30",
-          "home_prob": 56.3,
-          "winner": "Elversberg",
-          "home_score": 4,
-          "away_score": 1,
-          "draw_prob": 14.3
-        },
         {
           "home": "Augsburg",
           "away": "Freiburg",
@@ -2439,36 +2419,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Le Havre",
-          "away": "Paris Saint-Germain",
-          "date": "2026-10-30",
-          "home_prob": 16.5,
-          "winner": "Paris Saint-Germain",
-          "home_score": 1,
-          "away_score": 5,
-          "draw_prob": 9.6
-        },
-        {
-          "home": "Nice",
-          "away": "Rennes",
-          "date": "2026-10-30",
-          "home_prob": 54.6,
-          "winner": "Nice",
-          "home_score": 5,
-          "away_score": 2,
-          "draw_prob": 15.6
-        },
-        {
-          "home": "Lille",
-          "away": "Lens",
-          "date": "2026-10-30",
-          "home_prob": 57.9,
-          "winner": "Lille",
-          "home_score": 1,
-          "away_score": 0,
-          "draw_prob": 14.5
-        },
         {
           "home": "Troyes",
           "away": "Le Mans",
