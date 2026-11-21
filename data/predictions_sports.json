@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-20T20:26:08.945050+00:00",
+    "updated": "2026-11-21T01:43:06.129474+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -887,16 +887,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Everton",
-          "away": "Coventry City",
-          "date": "2026-11-06",
-          "home_prob": 50.1,
-          "winner": "Everton",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 16.7
-        },
-        {
           "home": "Leeds United",
           "away": "Tottenham",
           "date": "2026-11-07",
@@ -1304,16 +1294,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Sevilla",
-          "away": "Alaves",
-          "date": "2026-11-06",
-          "home_prob": 60.1,
-          "winner": null,
-          "home_score": 0,
-          "away_score": 0,
-          "draw_prob": 14.2
-        },
-        {
           "home": "Malaga",
           "away": "Santander",
           "date": "2026-11-07",
@@ -1545,16 +1525,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Hamburg",
-          "away": "M'gladbach",
-          "date": "2026-11-06",
-          "home_prob": 56.3,
-          "winner": "Hamburg",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 14.3
-        },
         {
           "home": "Borussia Dortmund",
           "away": "Elversberg",
@@ -1798,16 +1768,6 @@
       "upcoming": [],
       "recent": [
         {
-          "home": "Venezia",
-          "away": "Udinese",
-          "date": "2026-11-06",
-          "home_prob": 45.6,
-          "winner": "Venezia",
-          "home_score": 2,
-          "away_score": 1,
-          "draw_prob": 19.9
-        },
-        {
           "home": "Cagliari",
           "away": "Frosinone",
           "date": "2026-11-07",
@@ -2049,16 +2009,6 @@
       ],
       "upcoming": [],
       "recent": [
-        {
-          "home": "Toulouse",
-          "away": "Strasbourg",
-          "date": "2026-11-06",
-          "home_prob": 54.5,
-          "winner": "Toulouse",
-          "home_score": 3,
-          "away_score": 1,
-          "draw_prob": 15.7
-        },
         {
           "home": "Auxerre",
           "away": "Paris FC",
