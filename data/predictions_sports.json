@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-24T00:28:25.149292+00:00",
+    "updated": "2026-11-24T10:16:36.112916+00:00",
     "version": "2.0.0",
     "engine": "TELO v2 \u2014 Margin-adjusted ELO with home advantage and season regression"
   },
@@ -825,7 +825,7 @@
         },
         {
           "team": "Nottingham Forest",
-          "rating": 1474.1,
+          "rating": 1474.2,
           "rank": 43
         },
         {
@@ -1017,7 +1017,7 @@
         },
         {
           "team": "Sociedad",
-          "rating": 1564.6,
+          "rating": 1564.5,
           "rank": 6
         },
         {
@@ -1237,7 +1237,7 @@
         },
         {
           "team": "Alaves",
-          "rating": 1464.1,
+          "rating": 1464.2,
           "rank": 50
         },
         {
@@ -1454,7 +1454,7 @@
         },
         {
           "team": "Hoffenheim",
-          "rating": 1498.6,
+          "rating": 1498.5,
           "rank": 10
         },
         {
@@ -1469,7 +1469,7 @@
         },
         {
           "team": "Augsburg",
-          "rating": 1484.1,
+          "rating": 1484.0,
           "rank": 13
         },
         {
@@ -1776,7 +1776,7 @@
         },
         {
           "team": "Venezia",
-          "rating": 1401.1,
+          "rating": 1401.2,
           "rank": 28
         },
         {
